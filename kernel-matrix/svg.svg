@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   version="1.2"
+   width="500"
+   height="280"
+   id="svg2">
+  <defs
+     id="defs4" />
+  <metadata
+     id="metadata7">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     transform="translate(0,-772.36218)"
+     id="layer1">
+    <rect
+       width="460.30841"
+       height="219.87337"
+       x="19.828032"
+       y="813.50696"
+       id="rect3759"
+       style="fill:#ffffff;fill-opacity:0;stroke:#000000;stroke-width:0.69159675;stroke-opacity:1" />
+    <flowRoot
+       transform="translate(-1,782.4272)"
+       id="flowRoot3787"
+       xml:space="preserve"
+       style="font-size:20px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"><flowRegion
+         id="flowRegion3789"><rect
+           width="282"
+           height="59"
+           x="41"
+           y="40"
+           id="rect3791"
+           style="font-size:20px" /></flowRegion><flowPara
+         id="flowPara3793">Kernel</flowPara></flowRoot>    <rect
+       width="407.4122"
+       height="110.41222"
+       x="41.208107"
+       y="864.12659"
+       id="rect3795"
+       style="fill:none;stroke:#000000;stroke-width:0.58778715;stroke-opacity:1" />
+    <flowRoot
+       transform="translate(19,832.4272)"
+       id="flowRoot3787-1"
+       xml:space="preserve"
+       style="font-size:20px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"><flowRegion
+         id="flowRegion3789-0"><rect
+           width="380"
+           height="259.93497"
+           x="41"
+           y="40"
+           id="rect3791-0"
+           style="font-size:20px" /></flowRegion><flowPara
+         id="flowPara3826">User process</flowPara></flowRoot>    <flowRoot
+       transform="translate(-1,952.4272)"
+       id="flowRoot3787-6"
+       xml:space="preserve"
+       style="font-size:20px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"><flowRegion
+         id="flowRegion3789-7"><rect
+           width="300"
+           height="59.934978"
+           x="41"
+           y="40"
+           id="rect3791-4"
+           style="font-size:20px" /></flowRegion><flowPara
+         id="flowPara3793-0">MUA HA HA HA HA HA !!!</flowPara></flowRoot>    <flowRoot
+       id="flowRoot3859"
+       xml:space="preserve"
+       style="font-size:40px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"><flowRegion
+         id="flowRegion3861"><rect
+           width="67.175148"
+           height="50.204582"
+           x="68.589355"
+           y="354.336"
+           id="rect3863" /></flowRegion><flowPara
+         id="flowPara3865" /></flowRoot>    <flowRoot
+       transform="translate(19,892.4272)"
+       id="flowRoot3787-1-3"
+       xml:space="preserve"
+       style="font-size:20px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"><flowRegion
+         id="flowRegion3789-0-4"><rect
+           width="380"
+           height="259.93497"
+           x="41"
+           y="40"
+           id="rect3791-0-1"
+           style="font-size:20px" /></flowRegion><flowPara
+         id="flowPara3826-2">I own the entire RAM and CPU time!</flowPara></flowRoot>    <text
+       x="20"
+       y="802.36218"
+       id="text3907"
+       xml:space="preserve"
+       style="font-size:20px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"><tspan
+         x="20"
+         y="802.36218"
+         id="tspan3909">The Kernel is the Matrix</tspan></text>
+  </g>
+</svg>
