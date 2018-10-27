@@ -4,3 +4,4 @@ Random media files I might copy paste somewhere. Blobs accepted.
 
 * link:linear-transform-opengl-ortho.odg[]: created by me for: http://stackoverflow.com/a/36046924/895245
 * link:ode.png[]: https://github.com/cirosantilli/cpp-cheat/blob/890c065b15a350b61b0780f5e47721b05df1f2f6/gsl/ode.md
+* link:opengl-rotating-triangle.zip[]: https://github.com/cirosantilli/cpp-cheat/blob/b5944128fd60b470f051805218919505c9e54f36/opengl/offscreen.c with `./offscreen.out 1 256 1024 1024 2`
