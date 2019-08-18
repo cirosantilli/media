@@ -16,3 +16,5 @@ as explained at: https://stackoverflow.com/questions/24961127/how-to-create-a-vi
 * link:data/bst_vs_heap_vs_hashmap[]: https://stackoverflow.com/questions/6147242/heap-vs-binary-search-tree-bst/29548834#29548834
 * link:webpages/v2ex-2015-04.html[] and link:webpages/v2ex-2015-12.html[]: https://github.com/cirosantilli/china-dictatorship
 * link:china-letter-support-xinjiang-saudi-arabia-russia-2019-07-18[]: https://twitter.com/KevinPinner/status/1151868854781526016
+* link:canon.flac[]: https://stackoverflow.com/questions/732699/how-is-audio-represented-with-numbers-in-computers/36510894#36510894
+* link:howlow/[]: https://www.youtube.com/watch?v=_6D05gCWh_I
