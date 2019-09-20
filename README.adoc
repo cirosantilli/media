@@ -11,7 +11,9 @@ Random media files I might copy paste somewhere. Blobs accepted.
 * link:data/bst_vs_heap_vs_hashmap[]: https://stackoverflow.com/questions/6147242/heap-vs-binary-search-tree-bst/29548834#29548834
 * link:howlow/[]: https://www.youtube.com/watch?v=_6D05gCWh_I
 * link:linear-transform-opengl-ortho.odg[]: created by me for: http://stackoverflow.com/a/36046924/895245
+* link:kernel-matrix/[]: Wikimedia Commons: https://commons.wikimedia.org/wiki/File:Funny_comparison_between_the_Linux_Kernel_and_The_Matrix_due_to_userland_memory_virtualization.png
 * link:ode.png[]: https://github.com/cirosantilli/cpp-cheat/blob/890c065b15a350b61b0780f5e47721b05df1f2f6/gsl/ode.md
+** Wikimedia Commons: https://commons.wikimedia.org/wiki/File:Van_der_Pol_oscillator_solution_and_phase_space_generated_with_GNU_Scientific_Library.png
 * link:opengl-rotating-triangle.zip[]: https://github.com/cirosantilli/cpp-cheat/blob/b5944128fd60b470f051805218919505c9e54f36/opengl/offscreen.c with `./offscreen.out 1 256 1024 1024 2`
 * link:opengl-rotating-triangle.mp4[]: start from link:opengl-rotating-triangle.zip[] and then run:
 +
@@ -22,3 +24,5 @@ ffmpeg -framerate 30 -pattern_type glob -i '*.png' -c:v libx264 -pix_fmt yuv420p
 as explained at: https://stackoverflow.com/questions/24961127/how-to-create-a-video-from-images-with-ffmpeg/37478183#37478183
 * link:stack-overflow-data-dump/2019-03/users_rep_view.dat.7z[]: https://github.com/cirosantilli/algorithm-cheat/tree/63b360637c7e49b4c915c36854955e03f2faa90f/stack-overflow-data-dump#find-users-with-low-reputation-and-high-profile-view-count
 * link:webpages/v2ex-2015-04.html[] and link:webpages/v2ex-2015-12.html[]: https://github.com/cirosantilli/china-dictatorship
+* https://cirosantilli.com/oxford-nanopore-river-bacteria
+** link:Qiagen_DNeasy_PowerWater_Kit_White_Precipitate.jpg[]
