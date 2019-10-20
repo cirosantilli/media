@@ -9,6 +9,7 @@ Random media files I might copy paste somewhere. Blobs accepted.
 ** Wikimedia Commons: https://upload.wikimedia.org/wikipedia/commons/4/48/Canon.flac
 * link:china-letter-support-xinjiang-saudi-arabia-russia-2019-07-18[]: https://twitter.com/KevinPinner/status/1151868854781526016
 * link:Chrysanthemum_Xi_Jinping_with_liusi_added_by_Ciro_Santilli.jpeg[] derived from art artist by Dai Jianyong https://www.independent.co.uk/news/world/asia/chinese-artist-who-posted-funny-image-of-president-xi-jinping-facing-five-years-in-prison-as-10282630.html with a GIMP added 六四 for maximum effect.
+* link:Ciro_Santilli_with_his_Stack_Overflow_100k_reputation_cup.jpg[]: https://www.facebook.com/photo.php?fbid=1879889632030375
 * link:data/bst_vs_heap_vs_hashmap[]: https://stackoverflow.com/questions/6147242/heap-vs-binary-search-tree-bst/29548834#29548834
 * link:howlow/[]: https://www.youtube.com/watch?v=_6D05gCWh_I
 * link:linear-transform-opengl-ortho.odg[]: created by me for: http://stackoverflow.com/a/36046924/895245
