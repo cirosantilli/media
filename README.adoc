@@ -31,4 +31,5 @@ as explained at: https://stackoverflow.com/questions/24961127/how-to-create-a-vi
 * link:webpages/v2ex-2015-04.html[] and link:webpages/v2ex-2015-12.html[]: https://github.com/cirosantilli/china-dictatorship
 * https://cirosantilli.com/oxford-nanopore-river-bacteria
 ** link:Qiagen_DNeasy_PowerWater_Kit_White_Precipitate.jpg[]
+* link:Sinusoidal_circular_wave_heatmap_generated_with_OpenGL_shader_at_60fps.gif[]: https://stackoverflow.com/revisions/39839788/7 on Ubuntu 19.10
 * link:STS-132_Liftoff_Space_Shuttle_Atlantis_512x.gif[]: https://askubuntu.com/questions/648603/how-to-create-an-animated-gif-from-mp4-video-via-command-line/837574#837574
