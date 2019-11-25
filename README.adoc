@@ -15,6 +15,7 @@ Random media files I might copy paste somewhere. Blobs accepted.
 * link:Ciro_Santilli_with_his_Stack_Overflow_100k_reputation_cup.jpg[]: https://www.facebook.com/photo.php?fbid=1879889632030375
 * link:C++_Heap_vs_BST_vs_hash_map_insert_time.png[]: https://stackoverflow.com/revisions/29548834/45
 * link:data/bst_vs_heap_vs_hashmap[]: https://stackoverflow.com/questions/6147242/heap-vs-binary-search-tree-bst/29548834#29548834
+* link:End_of_Linux_boot_log_with_minimal_init_that_prints_FOOBAR.png[]: https://unix.stackexchange.com/questions/122717/how-to-create-a-custom-linux-distro-that-runs-just-one-program-and-nothing-else/238579#238579
 * link:howlow/[]: https://www.youtube.com/watch?v=_6D05gCWh_I
 * link:linear-transform-opengl-ortho.odg[]: created by me for: http://stackoverflow.com/a/36046924/895245
 * link:kernel-matrix/[]: Wikimedia Commons: https://commons.wikimedia.org/wiki/File:Funny_comparison_between_the_Linux_Kernel_and_The_Matrix_due_to_userland_memory_virtualization.png
