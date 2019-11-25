@@ -12,6 +12,7 @@ Random media files I might copy paste somewhere. Blobs accepted.
 ** link:Chrysanthemum_Xi_Jinping_with_liusi_added_by_Ciro_Santilli.jpeg[]
 ** link:Chrysanthemum_Xi_Jinping_with_black_red_liusi_added_by_Ciro_Santilli.jpg[]
 * link:Ciro_Santilli_with_his_Stack_Overflow_100k_reputation_cup.jpg[]: https://www.facebook.com/photo.php?fbid=1879889632030375
+* link:C++_Heap_vs_BST_vs_hash_map_insert_time.png[]: https://stackoverflow.com/revisions/29548834/45
 * link:data/bst_vs_heap_vs_hashmap[]: https://stackoverflow.com/questions/6147242/heap-vs-binary-search-tree-bst/29548834#29548834
 * link:howlow/[]: https://www.youtube.com/watch?v=_6D05gCWh_I
 * link:linear-transform-opengl-ortho.odg[]: created by me for: http://stackoverflow.com/a/36046924/895245
@@ -33,4 +34,4 @@ as explained at: https://stackoverflow.com/questions/24961127/how-to-create-a-vi
 ** link:Qiagen_DNeasy_PowerWater_Kit_White_Precipitate.jpg[]
 * link:Sinusoidal_circular_wave_heatmap_generated_with_OpenGL_shader_at_60fps.gif[]: https://stackoverflow.com/revisions/39839788/7 on Ubuntu 19.10
 * link:STS-132_Liftoff_Space_Shuttle_Atlantis_512x.gif[]: https://askubuntu.com/questions/648603/how-to-create-an-animated-gif-from-mp4-video-via-command-line/837574#837574
-* link:C++_Heap_vs_BST_vs_hash_map_insert_time.png[]: https://stackoverflow.com/revisions/29548834/45
+* link:wall,_user,_and_sys_for_CPU-bound_work_with_8_hyperthreads.png[]
