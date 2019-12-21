@@ -39,6 +39,7 @@ ffmpeg -framerate 30 -pattern_type glob -i '*.png' -c:v libx264 -pix_fmt yuv420p
 as explained at: https://stackoverflow.com/questions/24961127/how-to-create-a-video-from-images-with-ffmpeg/37478183#37478183
 * link:opengl-rotating-triangle.zip[]: https://github.com/cirosantilli/cpp-cheat/blob/b5944128fd60b470f051805218919505c9e54f36/opengl/offscreen.c with `./offscreen.out 1 256 1024 1024 2`
 * link:Path_from_init_main.c_until_bzImage_in_the_Linux_kernel_4.19.jpg[]: https://unix.stackexchange.com/revisions/482978/16 Yes, this is a gedit screen capture.
+* link:Rebel_pepper_pig_can't_eat_democracy_cartoon_translated_to_English_by_Ciro_Santilli.jpg[], source: https://twitter.com/remonwangxt/status/1131398147253710850
 * link:stack-overflow-data-dump/2019-03/users_rep_view.dat.7z[]: https://github.com/cirosantilli/algorithm-cheat/tree/63b360637c7e49b4c915c36854955e03f2faa90f/stack-overflow-data-dump#find-users-with-low-reputation-and-high-profile-view-count
 * link:webpages/v2ex-2015-04.html[] and link:webpages/v2ex-2015-12.html[]: https://github.com/cirosantilli/china-dictatorship
 * https://cirosantilli.com/oxford-nanopore-river-bacteria
