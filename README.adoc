@@ -5,6 +5,7 @@ Random media files I might copy paste somewhere. Blobs accepted.
 * link:Android_AOSP_8.1.0_built_from_source_running_in_QEMU.png[]: https://stackoverflow.com/revisions/48310014/11
 * link:Baby_Hitler_vs_5_million_Jews_trolley_problem.jpg[]
 * link:BIOS_bare_metal_hello_world_running_on_a_Lenovo_ThinkPad_T430.jpg[]: https://github.com/cirosantilli/x86-bare-metal-examples/blob/dd48083603c4bd9a96ac4a186e011218618190e3/logo.jpg
+* link:Ciro_Santilli_portrait_as_Qing_emperor.jpg[]
 * link:Ciro_Santilli_with_a_stone_carved_Budai_in_the_Feilai_Feng_caves_near_the_Lingyin_Temple_in_Hangzhou_in_2012.jpg[]: https://en.wikipedia.org/wiki/Lingyin_Temple#Feilai_Feng_grottoes and https://commons.wikimedia.org/wiki/File:Maitreya_and_disciples_carving_in_Feilai_Feng_Caves.jpg
 * link:Ciro_Santilli_in_front_of_a_lotus_field_at_the_West_Lake_in_Hangzhou_in_2012.jpg[]: https://en.wikipedia.org/wiki/West_Lake
 * link:canon.flac[]: https://stackoverflow.com/questions/732699/how-is-audio-represented-with-numbers-in-computers/36510894#36510894 Versions used:
