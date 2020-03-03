@@ -25,6 +25,8 @@ Random media files I might copy paste somewhere. Blobs accepted.
 ** link:Horny_polytechnicienne_mural_by_binet_BD_96_at_École_Polytechnique_with_nipple_censored_as_seen_in_2010.jpg[]
 ** link:Lake_view_of_the_Grand_Hall_building_of_École_Polytechnique_in_a_cloudy_day.jpg[]
 * link:End_of_Linux_boot_log_with_minimal_init_that_prints_FOOBAR.png[]: https://unix.stackexchange.com/questions/122717/how-to-create-a-custom-linux-distro-that-runs-just-one-program-and-nothing-else/238579#238579
+* link:gem5_config_TimingSimpleCPU_12c917de54145d2d50260035ba7fa614e25317a3.svg[]: https://cirosantilli.com/linux-kernel-module-cheat/#gem5-event-queue-timingsimplecpu-syscall-emulation-freestanding-example-analysis 
+** link:gem5_config_TimingSimpleCPU_caches_12c917de54145d2d50260035ba7fa614e25317a3.svg[]: https://cirosantilli.com/linux-kernel-module-cheat/#gem5-event-queue-timingsimplecpu-syscall-emulation-freestanding-example-analysis-with-caches
 * link:howlow/[]: https://www.youtube.com/watch?v=_6D05gCWh_I
 * link:Jingjing_Chacha_angry.jpg[]: https://github.com/cirosantilli/china-dictatorship/tree/0d7bdc17b35bc074071f5b1e06e35cf38e476cdc#jingjing-chacha
 * link:linear-transform-opengl-ortho.odg[]: created by me for: http://stackoverflow.com/a/36046924/895245
