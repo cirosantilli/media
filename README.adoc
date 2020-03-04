@@ -27,6 +27,7 @@ Random media files I might copy paste somewhere. Blobs accepted.
 * link:End_of_Linux_boot_log_with_minimal_init_that_prints_FOOBAR.png[]: https://unix.stackexchange.com/questions/122717/how-to-create-a-custom-linux-distro-that-runs-just-one-program-and-nothing-else/238579#238579
 * link:gem5_config_TimingSimpleCPU_12c917de54145d2d50260035ba7fa614e25317a3.svg[]: https://cirosantilli.com/linux-kernel-module-cheat/#gem5-event-queue-timingsimplecpu-syscall-emulation-freestanding-example-analysis 
 ** link:gem5_config_TimingSimpleCPU_caches_12c917de54145d2d50260035ba7fa614e25317a3.svg[]: https://cirosantilli.com/linux-kernel-module-cheat/#gem5-event-queue-timingsimplecpu-syscall-emulation-freestanding-example-analysis-with-caches
+** link:gem5_config_TimingSimpleCPU_caches_2_CPUs_12c917de54145d2d50260035ba7fa614e25317a3.svg[]
 * link:howlow/[]: https://www.youtube.com/watch?v=_6D05gCWh_I
 * link:Jingjing_Chacha_angry.jpg[]: https://github.com/cirosantilli/china-dictatorship/tree/0d7bdc17b35bc074071f5b1e06e35cf38e476cdc#jingjing-chacha
 * link:linear-transform-opengl-ortho.odg[]: created by me for: http://stackoverflow.com/a/36046924/895245
