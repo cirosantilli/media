@@ -30,6 +30,7 @@ Random media files I might copy paste somewhere. Blobs accepted.
 * link:gem5_config_TimingSimpleCPU_12c917de54145d2d50260035ba7fa614e25317a3.svg[]: https://cirosantilli.com/linux-kernel-module-cheat/#gem5-event-queue-timingsimplecpu-syscall-emulation-freestanding-example-analysis 
 ** link:gem5_config_TimingSimpleCPU_caches_12c917de54145d2d50260035ba7fa614e25317a3.svg[]: https://cirosantilli.com/linux-kernel-module-cheat/#gem5-event-queue-timingsimplecpu-syscall-emulation-freestanding-example-analysis-with-caches
 ** link:gem5_config_TimingSimpleCPU_caches_2_CPUs_12c917de54145d2d50260035ba7fa614e25317a3.svg[]
+** link:gem5_config_TimingSimpleCPU_2_CPUs_MI_example_b1623cb2087873f64197e503ab8894b5e4d4c7b4.svg[]
 * link:howlow/[]: https://www.youtube.com/watch?v=_6D05gCWh_I
 * link:Jingjing_Chacha_angry.jpg[]: https://github.com/cirosantilli/china-dictatorship/tree/0d7bdc17b35bc074071f5b1e06e35cf38e476cdc#jingjing-chacha
 * link:linear-transform-opengl-ortho.odg[]: created by me for: http://stackoverflow.com/a/36046924/895245
