@@ -9,6 +9,7 @@ Random media files I might copy paste somewhere. Blobs accepted.
 * link:Ciro_Santilli_portrait_as_Qing_emperor.jpg[]
 * link:Ciro_Santilli_with_a_stone_carved_Budai_in_the_Feilai_Feng_caves_near_the_Lingyin_Temple_in_Hangzhou_in_2012.jpg[]: https://en.wikipedia.org/wiki/Lingyin_Temple#Feilai_Feng_grottoes and https://commons.wikimedia.org/wiki/File:Maitreya_and_disciples_carving_in_Feilai_Feng_Caves.jpg
 * link:Ciro_Santilli_with_his_mother_in_law_during_the_wedding_in_2017.jpg[]
+* link:Coitus_with_bees.jpg[]: https://commons.wikimedia.org/wiki/File:Coitus20092.JPG + https://commons.wikimedia.org/wiki/File:Delivery_Bee.png
 * link:canon.flac[]: https://stackoverflow.com/questions/732699/how-is-audio-represented-with-numbers-in-computers/36510894#36510894 Versions used:
 ** https://stackoverflow.com/revisions/36510894/17
 ** https://github.com/cirosantilli/cpp-cheat/blob/35882100a2acfb8789166bc83eb188b0186077f4/c/interactive/audio_gen.c
