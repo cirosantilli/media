@@ -35,6 +35,7 @@ Random media files I might copy paste somewhere. Blobs accepted.
 ** link:gem5_config_TimingSimpleCPU_2_CPUs_MI_example_b1623cb2087873f64197e503ab8894b5e4d4c7b4.svg[]
 * link:howlow/[]: https://www.youtube.com/watch?v=_6D05gCWh_I
 * link:Jingjing_Chacha_angry.jpg[]: https://github.com/cirosantilli/china-dictatorship/tree/0d7bdc17b35bc074071f5b1e06e35cf38e476cdc#jingjing-chacha
+* link:Sweet_brown_chinese_characters_meme.jpg[]: https://github.com/cirosantilli/china-dictatorship#does-ciro-santilli-speak-chinese
 * link:linear-transform-opengl-ortho.odg[]: created by me for: http://stackoverflow.com/a/36046924/895245
 * link:kernel-matrix/[]: Wikimedia Commons: https://commons.wikimedia.org/wiki/File:Funny_comparison_between_the_Linux_Kernel_and_The_Matrix_due_to_userland_memory_virtualization.png
 * link:ode.png[]: https://github.com/cirosantilli/cpp-cheat/blob/890c065b15a350b61b0780f5e47721b05df1f2f6/gsl/ode.md
