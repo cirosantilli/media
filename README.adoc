@@ -33,10 +33,21 @@ Random media files I might copy paste somewhere. Blobs accepted.
 ** link:gem5_config_TimingSimpleCPU_caches_12c917de54145d2d50260035ba7fa614e25317a3.svg[]: https://cirosantilli.com/linux-kernel-module-cheat/#gem5-event-queue-timingsimplecpu-syscall-emulation-freestanding-example-analysis-with-caches
 ** link:gem5_config_TimingSimpleCPU_caches_2_CPUs_12c917de54145d2d50260035ba7fa614e25317a3.svg[]
 ** link:gem5_config_TimingSimpleCPU_2_CPUs_MI_example_b1623cb2087873f64197e503ab8894b5e4d4c7b4.svg[]
+* link:Hello_my_name_is_Ciro_Santilli.flac[]
+** recorded on https://cirosantilli.com/linux-kernel-module-cheat/#p51[P51] with:
+*** "Skullcandy Smokin' Buds 2"
+*** Ubuntu 20.04
+*** `module-echo-cancel` https://askubuntu.com/a/765024/52975
+*** `ffmpeg -y -f alsa -i default -t 30 out.flac`
+*** `ffprobe` says `Duration: 00:00:03.07`
+*** stereo, and both channels are of identical due to recording with a single microphone
+**** has about 0.5s of silence at start. Keeping it as it is convenient to analyse microphone noise which was the original goal. This can be removed with:
++
+....
+ffmpeg -y -ss 0.5 -i Hello_my_name_is_Ciro_Santilli.flac Hello_my_name_is_Ciro_Santilli_no_silence.flac
+....
 * link:howlow/[]: https://www.youtube.com/watch?v=_6D05gCWh_I
 * link:Jingjing_Chacha_angry.jpg[]: https://github.com/cirosantilli/china-dictatorship/tree/0d7bdc17b35bc074071f5b1e06e35cf38e476cdc#jingjing-chacha
-* link:Side_by_side_comparison_between_Thai_king_Vajiralongkorn_and_Hamtaro.jpg[]: https://github.com/cirosantilli/china-dictatorship/tree/610912fba3354853d3ff6010b4d81b0f10f5f826#thai-king-hamtaro
-* link:Sweet_brown_chinese_characters_meme.jpg[]: https://github.com/cirosantilli/china-dictatorship#does-ciro-santilli-speak-chinese
 * link:linear-transform-opengl-ortho.odg[]: created by me for: http://stackoverflow.com/a/36046924/895245
 * link:kernel-matrix/[]: Wikimedia Commons: https://commons.wikimedia.org/wiki/File:Funny_comparison_between_the_Linux_Kernel_and_The_Matrix_due_to_userland_memory_virtualization.png
 * link:ode.png[]: https://github.com/cirosantilli/cpp-cheat/blob/890c065b15a350b61b0780f5e47721b05df1f2f6/gsl/ode.md
@@ -56,7 +67,9 @@ as explained at: https://stackoverflow.com/questions/24961127/how-to-create-a-vi
 * link:Rugae_vaginales_with_black_hole.jpg[]: https://en.wikipedia.org/wiki/File:Rugae_vaginales.jpg + https://commons.wikimedia.org/wiki/File:Black_Hole_Milkyway.jpg
 * link:russian-federal-list-of-extremist-materials-utf8-2020-08-17.csv[]: https://cirosantilli.com/china-dictatorship/#federal-list-of-extremist-materials
 * link:Six_year_old_Ciro_Santilli_when_his_grandfather_offerd_him_an_electronic_keyboard.jpg[]: https://cirosantilli.com#ciro-santillis-musical-education
+* link:Side_by_side_comparison_between_Thai_king_Vajiralongkorn_and_Hamtaro.jpg[]: https://github.com/cirosantilli/china-dictatorship/tree/610912fba3354853d3ff6010b4d81b0f10f5f826#thai-king-hamtaro
 * link:stack-overflow-data-dump/2019-03/users_rep_view.dat.7z[]: https://github.com/cirosantilli/algorithm-cheat/tree/63b360637c7e49b4c915c36854955e03f2faa90f/stack-overflow-data-dump#find-users-with-low-reputation-and-high-profile-view-count
+* link:Sweet_brown_chinese_characters_meme.jpg[]: https://github.com/cirosantilli/china-dictatorship#does-ciro-santilli-speak-chinese
 * link:webpages/v2ex-2015-04.html[] and link:webpages/v2ex-2015-12.html[]: https://github.com/cirosantilli/china-dictatorship
 * https://cirosantilli.com/oxford-nanopore-river-bacteria
 ** link:Qiagen_DNeasy_PowerWater_Kit_White_Precipitate.jpg[]
