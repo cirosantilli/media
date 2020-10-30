@@ -70,6 +70,7 @@ as explained at: https://stackoverflow.com/questions/24961127/how-to-create-a-vi
 * link:Side_by_side_comparison_between_Thai_king_Vajiralongkorn_and_Hamtaro.jpg[]: https://github.com/cirosantilli/china-dictatorship/tree/610912fba3354853d3ff6010b4d81b0f10f5f826#thai-king-hamtaro
 * link:stack-overflow-data-dump/2019-03/users_rep_view.dat.7z[]: https://github.com/cirosantilli/algorithm-cheat/tree/63b360637c7e49b4c915c36854955e03f2faa90f/stack-overflow-data-dump#find-users-with-low-reputation-and-high-profile-view-count
 * link:Sweet_brown_chinese_characters_meme.jpg[]: https://github.com/cirosantilli/china-dictatorship#does-ciro-santilli-speak-chinese
+* link:test.odt[]: test ODT file created with LIbreOffice Writter 6.4.6
 * link:webpages/v2ex-2015-04.html[] and link:webpages/v2ex-2015-12.html[]: https://github.com/cirosantilli/china-dictatorship
 * https://cirosantilli.com/oxford-nanopore-river-bacteria
 ** link:Qiagen_DNeasy_PowerWater_Kit_White_Precipitate.jpg[]
