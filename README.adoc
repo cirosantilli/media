@@ -70,6 +70,7 @@ as explained at: https://stackoverflow.com/questions/24961127/how-to-create-a-vi
 * link:Rugae_vaginales_with_black_hole.jpg[]: https://en.wikipedia.org/wiki/File:Rugae_vaginales.jpg + https://commons.wikimedia.org/wiki/File:Black_Hole_Milkyway.jpg
 * link:russian-federal-list-of-extremist-materials-utf8-2020-08-17.csv[]: https://cirosantilli.com/china-dictatorship/#federal-list-of-extremist-materials
 * link:Six_year_old_Ciro_Santilli_when_his_grandfather_offerd_him_an_electronic_keyboard.jpg[]: https://cirosantilli.com#ciro-santillis-musical-education
+* link:Shimano_chain_plate_quicklink.svg[]: https://bicycles.stackexchange.com/questions/45958/how-do-i-open-a-master-link-in-a-chain/63904#63904
 * link:Side_by_side_comparison_between_Thai_king_Vajiralongkorn_and_Hamtaro.jpg[]: https://github.com/cirosantilli/china-dictatorship/tree/610912fba3354853d3ff6010b4d81b0f10f5f826#thai-king-hamtaro
 * link:stack-overflow-data-dump/2019-03/users_rep_view.dat.7z[]: https://github.com/cirosantilli/algorithm-cheat/tree/63b360637c7e49b4c915c36854955e03f2faa90f/stack-overflow-data-dump#find-users-with-low-reputation-and-high-profile-view-count
 * link:Sweet_brown_chinese_characters_meme.jpg[]: https://github.com/cirosantilli/china-dictatorship#does-ciro-santilli-speak-chinese
