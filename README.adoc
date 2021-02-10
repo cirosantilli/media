@@ -49,6 +49,9 @@ Random media files I might copy paste somewhere. Blobs accepted.
 ffmpeg -y -ss 0.5 -i Hello_my_name_is_Ciro_Santilli.flac Hello_my_name_is_Ciro_Santilli_no_silence.flac
 ....
 * link:howlow/[]: https://www.youtube.com/watch?v=_6D05gCWh_I
+* link:ID_photo_of_Ciro_Santilli_taken_in_2013.jpg[]
+** link:ID_photo_of_Ciro_Santilli_taken_in_2013_transaprent_background.png[]
+** link:ID_photo_of_Ciro_Santilli_taken_in_2013_transaprent_background_no_shirt.png[]
 * link:Jingjing_Chacha_angry.jpg[]: https://github.com/cirosantilli/china-dictatorship/tree/0d7bdc17b35bc074071f5b1e06e35cf38e476cdc#jingjing-chacha
 * link:linear-transform-opengl-ortho.odg[]: created by me for: http://stackoverflow.com/a/36046924/895245
 * link:matplotlib[]: https://github.com/cirosantilli/cirosantilli.github.io/tree/dev/matplotlib

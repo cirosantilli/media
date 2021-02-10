@@ -1,3 +1,5 @@
+CC-BY-SA 4.0 is the license for all original works by Ciro Santilli. For derived works or reuploads, the original license applies.
+
 Attribution-ShareAlike 4.0 International
 
 =======================================================================
