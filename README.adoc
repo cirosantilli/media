@@ -55,6 +55,7 @@ ffmpeg -y -ss 0.5 -i Hello_my_name_is_Ciro_Santilli.flac Hello_my_name_is_Ciro_S
 * link:Jingjing_Chacha_angry.jpg[]: https://github.com/cirosantilli/china-dictatorship/tree/0d7bdc17b35bc074071f5b1e06e35cf38e476cdc#jingjing-chacha
 * link:linear-transform-opengl-ortho.odg[]: created by me for: http://stackoverflow.com/a/36046924/895245
 * link:matplotlib[]: https://github.com/cirosantilli/cirosantilli.github.io/tree/dev/matplotlib
+* link:multipage_refs/multipage_refs.pdf[]: generated from link:multipage_refs/multipage_refs.tex[] on Ubuntu 20.10 with `pdflatex`.
 * link:kernel-matrix/[]: Wikimedia Commons: https://commons.wikimedia.org/wiki/File:Funny_comparison_between_the_Linux_Kernel_and_The_Matrix_due_to_userland_memory_virtualization.png
 * link:ode.png[]: https://github.com/cirosantilli/cpp-cheat/blob/890c065b15a350b61b0780f5e47721b05df1f2f6/gsl/ode.md
 ** Wikimedia Commons: https://commons.wikimedia.org/wiki/File:Van_der_Pol_oscillator_solution_and_phase_space_generated_with_GNU_Scientific_Library.png
