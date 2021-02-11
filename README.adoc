@@ -2,9 +2,9 @@
 
 Random media files I might copy paste somewhere. Blobs accepted.
 
+CC-BY-SA:
+
 * link:Android_AOSP_8.1.0_built_from_source_running_in_QEMU.png[]: https://stackoverflow.com/revisions/48310014/11
-* link:Apple_Think_different_1976_Think_mainstream_2011.png[]: cropped from https://wallpapersafari.com/w/RqYUEj
-* link:Baby_Hitler_vs_5_million_Jews_trolley_problem.jpg[]
 * link:Bell_inequality_85_percent_bar_chart.svg[]: https://physics.stackexchange.com/questions/357039/why-is-the-quantum-venn-diagram-paradox-considered-a-paradox/597982#597982
 * link:BIOS_bare_metal_hello_world_running_on_a_Lenovo_ThinkPad_T430.jpg[]: https://github.com/cirosantilli/x86-bare-metal-examples/blob/dd48083603c4bd9a96ac4a186e011218618190e3/logo.jpg
 * link:Ciro_Santilli_in_front_of_a_lotus_field_at_the_West_Lake_in_Hangzhou_in_2012.jpg[]: https://en.wikipedia.org/wiki/West_Lake
@@ -17,20 +17,16 @@ Random media files I might copy paste somewhere. Blobs accepted.
 ** https://github.com/cirosantilli/cpp-cheat/blob/35882100a2acfb8789166bc83eb188b0186077f4/c/interactive/audio_gen.c
 ** Ubuntu 19.04, ffmpeg 4.1.3
 ** Wikimedia Commons: https://upload.wikimedia.org/wikipedia/commons/4/48/Canon.flac
-* link:china-letter-support-xinjiang-saudi-arabia-russia-2019-07-18[]: https://twitter.com/KevinPinner/status/1151868854781526016
-* Chrysanthemum Xi Jinping derived from art artist by Dai Jianyong https://www.independent.co.uk/news/world/asia/chinese-artist-who-posted-funny-image-of-president-xi-jinping-facing-five-years-in-prison-as-10282630.html with a GIMP added 六四 for maximum effect:
-** link:Chrysanthemum_Xi_Jinping_with_liusi_added_by_Ciro_Santilli.jpeg[]
-** link:Chrysanthemum_Xi_Jinping_with_black_red_liusi_added_by_Ciro_Santilli.jpg[]
 * link:Ciro_Santilli_with_his_Stack_Overflow_100k_reputation_cup.jpg[]: https://www.facebook.com/photo.php?fbid=1879889632030375
 * link:C++_Heap_vs_BST_vs_hash_map_insert_time.png[]: https://stackoverflow.com/revisions/29548834/45
 * link:data/bst_vs_heap_vs_hashmap[]: https://stackoverflow.com/questions/6147242/heap-vs-binary-search-tree-bst/29548834#29548834
 * École Polytechnique
 ** link:Desk_of_Ciro_Santilli's_room_at_École_Polytechnique_as_he_as_in_the_middle_of_moving_out_in_2012.jpg[]
-** link:Horny_polytechnicienne_mural_by_binet_BD_96_at_École_Polytechnique_with_nipple_censored_as_seen_in_2010.jpg[]
 ** link:Lake_view_of_the_Grand_Hall_building_of_École_Polytechnique_in_a_cloudy_day.jpg[]
 * link:Diagram_of_the_fundamental_theorem_on_homomorphisms.svg[]: https://math.stackexchange.com/questions/776039/intuition-behind-normal-subgroups/3732426#3732426 created with Inkscape
 * link:End_of_Linux_boot_log_with_minimal_init_that_prints_FOOBAR.png[]: https://unix.stackexchange.com/questions/122717/how-to-create-a-custom-linux-distro-that-runs-just-one-program-and-nothing-else/238579#238579
 * link:Five_year_old_Ciro_Santilli_playing_NES_on_a_joystick.jpg[]
+* link:Fixed_function_vs_unified_shader_GPU_diagram.svg[]: derived from https://commons.wikimedia.org/wiki/File:Unified_shader_model.svg[]. Created for: https://stackoverflow.com/questions/17789575/what-are-shaders-in-opengl-and-what-do-we-need-them-for/36211337#36211337
 * link:gem5_config_TimingSimpleCPU_12c917de54145d2d50260035ba7fa614e25317a3.svg[]: https://cirosantilli.com/linux-kernel-module-cheat/#gem5-event-queue-timingsimplecpu-syscall-emulation-freestanding-example-analysis 
 ** link:gem5_config_TimingSimpleCPU_caches_12c917de54145d2d50260035ba7fa614e25317a3.svg[]: https://cirosantilli.com/linux-kernel-module-cheat/#gem5-event-queue-timingsimplecpu-syscall-emulation-freestanding-example-analysis-with-caches
 ** link:gem5_config_TimingSimpleCPU_caches_2_CPUs_12c917de54145d2d50260035ba7fa614e25317a3.svg[]
@@ -48,18 +44,16 @@ Random media files I might copy paste somewhere. Blobs accepted.
 ....
 ffmpeg -y -ss 0.5 -i Hello_my_name_is_Ciro_Santilli.flac Hello_my_name_is_Ciro_Santilli_no_silence.flac
 ....
-* link:howlow/[]: https://www.youtube.com/watch?v=_6D05gCWh_I
 * link:ID_photo_of_Ciro_Santilli_taken_in_2013.jpg[]
 ** link:ID_photo_of_Ciro_Santilli_taken_in_2013_transaprent_background.png[]
 ** link:ID_photo_of_Ciro_Santilli_taken_in_2013_transaprent_background_no_shirt.png[]
-* link:Jingjing_Chacha_angry.jpg[]: https://github.com/cirosantilli/china-dictatorship/tree/0d7bdc17b35bc074071f5b1e06e35cf38e476cdc#jingjing-chacha
 * link:linear-transform-opengl-ortho.odg[]: created by me for: http://stackoverflow.com/a/36046924/895245
 * link:matplotlib[]: https://github.com/cirosantilli/cirosantilli.github.io/tree/dev/matplotlib
 * link:multipage_refs/multipage_refs.pdf[]: generated from link:multipage_refs/multipage_refs.tex[] on Ubuntu 20.10 with `pdflatex`.
 * link:kernel-matrix/[]: Wikimedia Commons: https://commons.wikimedia.org/wiki/File:Funny_comparison_between_the_Linux_Kernel_and_The_Matrix_due_to_userland_memory_virtualization.png
 * link:ode.png[]: https://github.com/cirosantilli/cpp-cheat/blob/890c065b15a350b61b0780f5e47721b05df1f2f6/gsl/ode.md
-** Wikimedia Commons: https://commons.wikimedia.org/wiki/File:Van_der_Pol_oscillator_solution_and_phase_space_generated_with_GNU_Scientific_Library.png
-* link:OpenGL_glFrustrum_on_left_vs_glOrtho_on_right.png[]: https://stackoverflow.com/revisions/36046924/20
+** Also uploaded to Wikimedia Commons: https://commons.wikimedia.org/wiki/File:Van_der_Pol_oscillator_solution_and_phase_space_generated_with_GNU_Scientific_Library.png
+* link:OpenGL_glFrustrum_on_left_vs_glOrtho_on_right.png[]: used at https://stackoverflow.com/revisions/36046924/20
 * link:opengl-rotating-triangle-image-magick.gif[]: start from link:opengl-rotating-triangle.mp4[] as shown at: https://askubuntu.com/revisions/837574/17
 * link:opengl-rotating-triangle.mp4[]: start from link:opengl-rotating-triangle.zip[] and then run:
 +
@@ -70,29 +64,43 @@ ffmpeg -framerate 30 -pattern_type glob -i '*.png' -c:v libx264 -pix_fmt yuv420p
 as explained at: https://stackoverflow.com/questions/24961127/how-to-create-a-video-from-images-with-ffmpeg/37478183#37478183
 * link:opengl-rotating-triangle.zip[]: https://github.com/cirosantilli/cpp-cheat/blob/b5944128fd60b470f051805218919505c9e54f36/opengl/offscreen.c with `./offscreen.out 1 256 1024 1024 2`
 * link:Path_from_init_main.c_until_bzImage_in_the_Linux_kernel_4.19.jpg[]: https://unix.stackexchange.com/revisions/482978/16 Yes, this is a gedit screen capture.
-* link:Rebel_pepper_pig_can't_eat_democracy_cartoon_translated_to_English_by_Ciro_Santilli.jpg[], source: https://twitter.com/remonwangxt/status/1131398147253710850
 * link:Rugae_vaginales_with_black_hole.jpg[]: https://en.wikipedia.org/wiki/File:Rugae_vaginales.jpg + https://commons.wikimedia.org/wiki/File:Black_Hole_Milkyway.jpg
-* link:russian-federal-list-of-extremist-materials-utf8-2020-08-17.csv[]: https://cirosantilli.com/china-dictatorship/#federal-list-of-extremist-materials
 * link:Six_year_old_Ciro_Santilli_when_his_grandfather_offerd_him_an_electronic_keyboard.jpg[]: https://cirosantilli.com#ciro-santillis-musical-education
-* link:Shimano_chain_plate_quicklink.svg[]: https://bicycles.stackexchange.com/questions/45958/how-do-i-open-a-master-link-in-a-chain/63904#63904
-* link:Side_by_side_comparison_between_Thai_king_Vajiralongkorn_and_Hamtaro.jpg[]: https://github.com/cirosantilli/china-dictatorship/tree/610912fba3354853d3ff6010b4d81b0f10f5f826#thai-king-hamtaro
+* link:Shimano_chain_plate_quicklink.svg[]: used at https://bicycles.stackexchange.com/questions/45958/how-do-i-open-a-master-link-in-a-chain/63904#63904
 * link:stack-overflow-data-dump/2019-03/users_rep_view.dat.7z[]: https://github.com/cirosantilli/algorithm-cheat/tree/63b360637c7e49b4c915c36854955e03f2faa90f/stack-overflow-data-dump#find-users-with-low-reputation-and-high-profile-view-count
-* link:Sweet_brown_chinese_characters_meme.jpg[]: https://github.com/cirosantilli/china-dictatorship#does-ciro-santilli-speak-chinese
 * link:test.odt[]: test ODT file created with LIbreOffice Writter 6.4.6
-* link:webpages/v2ex-2015-04.html[] and link:webpages/v2ex-2015-12.html[]: https://github.com/cirosantilli/china-dictatorship
 * https://cirosantilli.com/oxford-nanopore-river-bacteria
 ** link:Qiagen_DNeasy_PowerWater_Kit_White_Precipitate.jpg[]
 * link:Sinusoidal_circular_wave_heatmap_generated_with_OpenGL_shader_at_60fps.gif[]: https://stackoverflow.com/revisions/39839788/7 on Ubuntu 19.10
-* link:STS-132_Liftoff_Space_Shuttle_Atlantis_512x.gif[]: https://askubuntu.com/questions/648603/how-to-create-an-animated-gif-from-mp4-video-via-command-line/837574#837574
+* link:STS-132_Liftoff_Space_Shuttle_Atlantis_512x.gif[]
+** derived from: https://commons.wikimedia.org/wiki/File:STS-132_Liftoff_Space_Shuttle_Atlantis.ogv
+** used at: https://askubuntu.com/questions/648603/how-to-create-an-animated-gif-from-mp4-video-via-command-line/837574#837574
 * `Top_Down_2D_Continuous_Game_with_Urho3D_C++_SDL_and_Box2D_for_Reinforcement_Learning_first_8_seconds`: https://askubuntu.com/questions/785508/how-to-merge-subtitle-to-video/1273657#1273657
 ** link:Top_Down_2D_Continuous_Game_with_Urho3D_C++_SDL_and_Box2D_for_Reinforcement_Learning_first_8_seconds.mp4[]
 ** link:Top_Down_2D_Continuous_Game_with_Urho3D_C++_SDL_and_Box2D_for_Reinforcement_Learning_first_8_seconds.srt[]
 * link:Think_Different_with_Tux.png[]. Based on https://en.wikipedia.org/wiki/File:Tux.svg[]. Edited with GIMP.
 * link:VisIt_zoom_in_10_million_straight_line_plot_with_some_marked_points.png[]: https://stackoverflow.com/revisions/55967461/27
 * link:Visualization_of_OpenGL_blur_algorithm_from_webcam_with_Ciro_Santilli_waving.gif[]: https://stackoverflow.com/questions/13693946/image-processing-with-glsl-shaders/40641014#40641014
+* link:wall,_user,_and_sys_for_CPU-bound_work_with_8_hyperthreads.png[]
+
+Possibly not freely licensed:
+
+* link:Apple_Think_different_1976_Think_mainstream_2011.png[]: cropped from https://wallpapersafari.com/w/RqYUEj
+* link:Baby_Hitler_vs_5_million_Jews_trolley_problem.jpg[]
+* link:china-letter-support-xinjiang-saudi-arabia-russia-2019-07-18[]: https://twitter.com/KevinPinner/status/1151868854781526016
+* Chrysanthemum Xi Jinping derived from art artist by Dai Jianyong https://www.independent.co.uk/news/world/asia/chinese-artist-who-posted-funny-image-of-president-xi-jinping-facing-five-years-in-prison-as-10282630.html with a GIMP added 六四 for maximum effect:
+** link:Chrysanthemum_Xi_Jinping_with_liusi_added_by_Ciro_Santilli.jpeg[]
+** link:Chrysanthemum_Xi_Jinping_with_black_red_liusi_added_by_Ciro_Santilli.jpg[]
+* link:Horny_polytechnicienne_mural_by_binet_BD_96_at_École_Polytechnique_with_nipple_censored_as_seen_in_2010.jpg[]. Likely not freely licensed because France has no https://en.wikipedia.org/wiki/Freedom_of_panorama[freedom of panorama].
+* link:howlow/[]: final video uploaded to https://www.youtube.com/watch?v=_6D05gCWh_I
+* link:Jingjing_Chacha_angry.jpg[]: https://github.com/cirosantilli/china-dictatorship/tree/0d7bdc17b35bc074071f5b1e06e35cf38e476cdc#jingjing-chacha
+* link:Rebel_pepper_pig_can't_eat_democracy_cartoon_translated_to_English_by_Ciro_Santilli.jpg[], source: https://twitter.com/remonwangxt/status/1131398147253710850
+* link:russian-federal-list-of-extremist-materials-utf8-2020-08-17.csv[]: https://cirosantilli.com/china-dictatorship/#federal-list-of-extremist-materials
+* link:Sweet_brown_chinese_characters_meme.jpg[]: https://github.com/cirosantilli/china-dictatorship#does-ciro-santilli-speak-chinese
+* link:Side_by_side_comparison_between_Thai_king_Vajiralongkorn_and_Hamtaro.jpg[]: https://github.com/cirosantilli/china-dictatorship/tree/610912fba3354853d3ff6010b4d81b0f10f5f826#thai-king-hamtaro
+* link:webpages/v2ex-2015-04.html[] and link:webpages/v2ex-2015-12.html[]: https://github.com/cirosantilli/china-dictatorship
 * Xi_Jinping_Corona_Lushux_square https://www.reddit.com/r/pics/comments/fqku03/winnie_the_flu/
 ** link:Xi_Jinping_Corona_Lushux_square.jpg[]
 ** link:Xi_Jinping_Corona_Lushux_square.png[]
 ** link:Xi_Jinping_Corona_Lushux_square_crease.jpg[]
 ** link:Xi_Jinping_Corona_Lushux_square_crease.png[]
-* link:wall,_user,_and_sys_for_CPU-bound_work_with_8_hyperthreads.png[]
