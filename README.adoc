@@ -48,6 +48,7 @@ ffmpeg -y -ss 0.5 -i Hello_my_name_is_Ciro_Santilli.flac Hello_my_name_is_Ciro_S
 * link:ID_photo_of_Ciro_Santilli_taken_in_2013.jpg[]
 ** link:ID_photo_of_Ciro_Santilli_taken_in_2013_transaprent_background.png[]
 ** link:ID_photo_of_Ciro_Santilli_taken_in_2013_transaprent_background_no_shirt.png[]
+* link:Liv_contact_comfort_plus_2018.jpg[]
 * link:linear-transform-opengl-ortho.odg[]: created by me for: http://stackoverflow.com/a/36046924/895245
 * link:matplotlib[]: https://github.com/cirosantilli/cirosantilli.github.io/tree/dev/matplotlib
 * link:multipage_refs/multipage_refs.pdf[]: generated from link:multipage_refs/multipage_refs.tex[] on Ubuntu 20.10 with `pdflatex`.
