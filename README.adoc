@@ -19,6 +19,8 @@ CC-BY-SA:
 ** Wikimedia Commons: https://upload.wikimedia.org/wikipedia/commons/4/48/Canon.flac
 * link:Ciro_Santilli_with_his_Stack_Overflow_100k_reputation_cup.jpg[]: https://www.facebook.com/photo.php?fbid=1879889632030375
 * link:C++_Heap_vs_BST_vs_hash_map_insert_time.png[]: https://stackoverflow.com/revisions/29548834/45
+* link:cirodown-metadata-after-fontawesome.png[]: https://cirosantilli.com/sponsor/updates/5#improve-header-summary-display
+* link:cirodown-metadata-before-fontawesome.png[]: https://cirosantilli.com/sponsor/updates/5#improve-header-summary-display
 * link:data/bst_vs_heap_vs_hashmap[]: https://stackoverflow.com/questions/6147242/heap-vs-binary-search-tree-bst/29548834#29548834
 * École Polytechnique
 ** link:Desk_of_Ciro_Santilli's_room_at_École_Polytechnique_as_he_as_in_the_middle_of_moving_out_in_2012.jpg[]
