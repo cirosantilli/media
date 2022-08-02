@@ -70,6 +70,8 @@ as explained at: https://stackoverflow.com/questions/24961127/how-to-create-a-vi
 * OurBigBook screenshots
   * link:OurBigBook_issue_list_on_article_page.png[]: screenshot circa https://github.com/cirosantilli/ourbigbook/commit/87f85a8433c478044709b0dcba645a478fa209da
   * link:OurBigBook_metadata_on_every_header.png[]: screenshot circa https://github.com/cirosantilli/ourbigbook/commit/8b78f8051faaf2123112748fd47c6393ce2733e6[]. Page: https://ourbigbook.com/donald-trump/chemistry
+  * link:OurBigBook_topic_page_with_title.png[]: screenshot circa https://github.com/cirosantilli/ourbigbook/commit/8b78f8051faaf2123112748fd47c6393ce2733e6[]. Page: https://ourbigbook.com/go/topic/vector-space
+  * link:OurBigBook_topic_index_page.png[]: screenshot circa https://github.com/cirosantilli/ourbigbook/commit/8b78f8051faaf2123112748fd47c6393ce2733e6[]. Page: https://ourbigbook.com
 * link:Path_from_init_main.c_until_bzImage_in_the_Linux_kernel_4.19.jpg[]: https://unix.stackexchange.com/revisions/482978/16 Yes, this is a gedit screen capture.
 * link:Rugae_vaginales_with_black_hole.jpg[]: https://en.wikipedia.org/wiki/File:Rugae_vaginales.jpg + https://commons.wikimedia.org/wiki/File:Black_Hole_Milkyway.jpg
 * link:Six_year_old_Ciro_Santilli_when_his_grandfather_offerd_him_an_electronic_keyboard.jpg[]: https://cirosantilli.com#ciro-santillis-musical-education
