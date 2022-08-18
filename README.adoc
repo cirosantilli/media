@@ -89,6 +89,7 @@ as explained at: https://stackoverflow.com/questions/24961127/how-to-create-a-vi
 ** link:Top_Down_2D_Continuous_Game_with_Urho3D_C++_SDL_and_Box2D_for_Reinforcement_Learning_first_8_seconds.mp4[]
 ** link:Top_Down_2D_Continuous_Game_with_Urho3D_C++_SDL_and_Box2D_for_Reinforcement_Learning_first_8_seconds.srt[]
 * link:Think_Different_with_Tux.png[]. Based on https://en.wikipedia.org/wiki/File:Tux.svg[]. Edited with GIMP.
+* link:verilog-interactive.gif[]: https://stackoverflow.com/questions/38108243/is-it-possible-to-do-interactive-user-input-and-output-simulation-in-vhdl-or-ver/38174654#38174654
 * link:VisIt_zoom_in_10_million_straight_line_plot_with_some_marked_points.png[]: https://stackoverflow.com/revisions/55967461/27
 * link:Visualization_of_OpenGL_blur_algorithm_from_webcam_with_Ciro_Santilli_waving.gif[]: https://stackoverflow.com/questions/13693946/image-processing-with-glsl-shaders/40641014#40641014
 * link:wall,_user,_and_sys_for_CPU-bound_work_with_8_hyperthreads.png[]
