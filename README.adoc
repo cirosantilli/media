@@ -117,4 +117,7 @@ Possibly not freely licensed:
 ** link:Xi_Jinping_Corona_Lushux_square.png[]
 ** link:Xi_Jinping_Corona_Lushux_square_crease.jpg[]
 ** link:Xi_Jinping_Corona_Lushux_square_crease.png[]
+* https://cirosantilli.com/china-dictatorship/zov ZOV by Pavel Filatyev (Павел Филатьев, 2022)
+** link:zov.txt[]: text extracted from https://gulagu-net.ru/download/2595 purported reupload of the original
+** link:zov-en.txt[]: Google Translate translation by https://www.reddit.com/r/ukraine/comments/wquz45/comment/ikoqbdk/?utm_source=reddit&utm_medium=web2x&context=3 downloaded from: https://docs.google.com/document/d/1guApbii5AjzkaD1C_jjypxCL3hQI_iJLQQBFTC1Pfeo/edit 
 * link:v27sSra.jpg[]: https://cirosantilli.com/cool-data-embedded-in-the-bitcoin-blockchain#images
