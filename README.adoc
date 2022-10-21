@@ -93,6 +93,7 @@ as explained at: https://stackoverflow.com/questions/24961127/how-to-create-a-vi
 * link:VisIt_zoom_in_10_million_straight_line_plot_with_some_marked_points.png[]: https://stackoverflow.com/revisions/55967461/27
 * link:Visualization_of_OpenGL_blur_algorithm_from_webcam_with_Ciro_Santilli_waving.gif[]: https://stackoverflow.com/questions/13693946/image-processing-with-glsl-shaders/40641014#40641014
 * link:wall,_user,_and_sys_for_CPU-bound_work_with_8_hyperthreads.png[]
+* link:Three_treasures_of_the_programmer.png[]: https://cirosantilli.com/three-treasures-of-the-programmer
 
 Possibly not freely licensed:
 
