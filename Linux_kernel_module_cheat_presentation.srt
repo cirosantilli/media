@@ -312,7 +312,7 @@ It's very clean.
 
 79
 00:03:24,000 --> 00:03:28,000
-And another thing that I did in this project as well is in bare metal.
+And another thing that I did in this project as well is even bare metal.
 
 80
 00:03:28,000 --> 00:03:31,000
