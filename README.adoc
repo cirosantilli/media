@@ -5,6 +5,7 @@ Random media files I might copy paste somewhere. Blobs accepted.
 CC-BY-SA:
 
 * link:Android_AOSP_8.1.0_built_from_source_running_in_QEMU.png[]: https://stackoverflow.com/revisions/48310014/11
+* link:activatedgeek_LeNet-5_onnx.svg[]: https://github.com/activatedgeek/LeNet-5 ONNX vizualisation on https://netron.app/
 * link:Bell_inequality_85_percent_bar_chart.svg[]: https://physics.stackexchange.com/questions/357039/why-is-the-quantum-venn-diagram-paradox-considered-a-paradox/597982#597982
 * link:BIOS_bare_metal_hello_world_running_on_a_Lenovo_ThinkPad_T430.jpg[]: https://github.com/cirosantilli/x86-bare-metal-examples/blob/dd48083603c4bd9a96ac4a186e011218618190e3/logo.jpg
 * link:Ciro_Santilli_in_front_of_a_lotus_field_at_the_West_Lake_in_Hangzhou_in_2012.jpg[]: https://en.wikipedia.org/wiki/West_Lake
