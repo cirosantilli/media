@@ -2408,12 +2408,6 @@
   "comms": "https://web.archive.org/web/20110128085530/http://elcorreodenoticias.com/notices.jar"
 },
 {
-  "ip": "219.90.62.237",
-  "host": "ride-captain.com",
-  "archive": "https://web.archive.org/web/20110208140240/http://ride-captain.com/",
-  "comms": "https://web.archive.org/web/20110208140405/http://ride-captain.com/model.jar"
-},
-{
   "ip": "219.90.62.238",
   "host": "freshtechonline.com",
   "archive": "https://web.archive.org/web/20110207161832/http://freshtechonline.com/",
@@ -2424,6 +2418,12 @@
   "host": "newscentertoday.com",
   "archive": "https://web.archive.org/web/20110208063554/http://newscentertoday.com/",
   "comms": "https://web.archive.org/web/20110208064052/http://newscentertoday.com/economy.jar"
+},
+{
+  "ip": "219.90.62.242",
+  "host": "ride-captain.com",
+  "archive": "https://web.archive.org/web/20110208140240/http://ride-captain.com/",
+  "comms": "https://web.archive.org/web/20110208140405/http://ride-captain.com/model.jar"
 },
 {
   "ip": "219.90.62.243",
