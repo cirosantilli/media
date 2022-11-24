@@ -112,7 +112,7 @@
 {
   "host": "magneticfieldnews.com",
   "archive": "https://web.archive.org/web/20100515102926/http://magneticfieldnews.com/",
-  "comms": "https://web.archive.org/web/20110201122820/http://purlicue-news.com/netspeed.jar"
+  "comms": "https://web.archive.org/web/20100515103300/http://magneticfieldnews.com/science.jar"
 },
 {
   "host": "middle-east-newstoday.com",
@@ -565,6 +565,18 @@
   "host": "fixashion.net",
   "archive": "https://web.archive.org/web/20110106042731/http://fixashion.net/",
   "comms": "https://web.archive.org/web/20110106042808js_/http://fixashion.net/cotton.js"
+},
+{
+  "ip": "63.247.81.238",
+  "host": "webofcheer.com",
+  "archive": "https://web.archive.org/web/20110207150839/http://webofcheer.com/",
+  "comms": "https://web.archive.org/web/20110207150839/http://webofcheer.com/member.html"
+},
+{
+  "ip": "63.247.81.241",
+  "host": "world-news-online.net",
+  "archive": "https://web.archive.org/web/20101226225311/http://world-news-online.net/",
+  "comms": "https://web.archive.org/web/20101226225412/http://world-news-online.net/scrollingnews.jar"
 },
 {
   "ip": "64.16.204.53",
@@ -1726,18 +1738,6 @@
   "host": "just-kidding-news.com",
   "archive": "https://web.archive.org/web/20110207134507/http://just-kidding-news.com/",
   "comms": "https://web.archive.org/web/20120126091116*/http://just-kidding-news.com/jokes.jar"
-},
-{
-  "ip": "199.187.208.12",
-  "host": "webofcheer.com",
-  "archive": "https://web.archive.org/web/20110207150839/http://webofcheer.com/",
-  "comms": "https://web.archive.org/web/20110207150839/http://webofcheer.com/member.html"
-},
-{
-  "ip": "199.187.208.12",
-  "host": "world-news-online.net",
-  "archive": "https://web.archive.org/web/20101226225311/http://world-news-online.net/",
-  "comms": "https://web.archive.org/web/20101226225412/http://world-news-online.net/scrollingnews.jar"
 },
 {
   "ip": "204.176.38.130",
