@@ -1,17 +1,86 @@
 #!/usr/bin/env python3
-"""Run an archived website and its original Java applet against a local demo server.
+"""Run an archived website and its recovered JAR, SWF or JavaScript client locally.
 
 python3 reconstruction.py             # modern browser + hosted CheerpJ runtime
 python3 reconstruction.py --native    # also launch installed Java 8 appletviewer
 python3 reconstruction.py --check     # check archive/config/class preservation
 python3 reconstruction.py --list      # list supported hostnames
 python3 reconstruction.py iraniangoalkicks.com
+python3 reconstruction.py starwarsweb.net  # Flash content loader via Ruffle
+python3 reconstruction.py classymotors.net # JavaScript messaging; no emulator
 
 The archive defaults to ../../cia-2010-websites-dump/, resolved relative to this
-script, independently of the working directory. Open http://127.0.0.1:8000/ and
-log in using the original applet with the password printed by the server.
+script, independently of the working directory. Open http://127.0.0.1:8000/.
+For JAR/JS sites, log in with the demo password printed by the server.
 The optional hostname selects a site; the default is latinamericanewsbeat.com.
-The password and scripted demo conversation are the same for every site.
+The password and scripted demo conversation are the same for every JAR/JS site.
+
+JavaScript reconstruction: eleven messaging sites (see --list, JS section)
+  Select a hostname, for example classymotors.net, iranfootballsource.com,
+  wahidfutbol.com or russiansportsworld.com. Follow the login anchor printed at
+  startup, or scroll to the login form at the bottom of the homepage.
+  Use the printed demo password (default demodemodemo), then click the login
+  icon or press Enter. Original English, Farsi, Arabic and Russian labels are
+  retained. Compose, Reply, Delete and Send use the recovered client code.
+  After sending, reload and log in again to retrieve the scripted reply.
+  No browser plugin, emulator or external JavaScript runtime is required.
+
+  The clients perform RSA key wrapping, SHA-256 challenge responses and AES
+  message encryption against our implementation of their recovered protocol.
+  Four strings are changed in each served copy: server URL, password-encrypted
+  demo secret, local RSA public exponent/modulus. Variables are ta/rk/sz/sy in
+  most clients and _url/_ssEnc/KeyE/KeyN in todaysnewsandweather-ru.com.
+  Three inherited defensive UI edits prevent form navigation on Enter,
+  initialize an inbox string, and use this.value for message selection. These
+  were applied proactively, not all demonstrated necessary in modern browsers.
+  No other client source is changed; /__reconstruction__/original.js serves the
+  exact archived script. --check verifies that reversing the listed edits
+  restores the original bytes. Archived files remain untouched.
+
+  Original same-site icons take priority: Iran Football Source's golden football
+  survives in a July 2013 capture. The other 76 of 77 JS icon references are
+  missing. Their replacements are original, unmodified lock/compose/reply/delete/
+  close/inbox/send images decrypted in memory from latinamericanewsbeat.com's
+  today.jar. They match across 45 JARs (Inbox: 44); Wahid Futbol uses the same
+  filenames. This is a historically grounded substitution, NOT proof that the
+  missing JS icons were identical. If that donor JAR is absent, simple SVG
+  placeholders are used. Per-icon paths/hashes are in --check; the full archive
+  comparison is recorded in javascript-icons.json beside this script.
+
+  Page HTML, CSS and surviving artwork are original, with feed URLs redirected
+  locally. Some external feeds have small period replacements, others are empty;
+  provenance records sources. Missing secondary pages/images remain unavailable.
+  Classy Motors has two decorative SVG substitutes and November 2010 car stories.
+  Some pages and assets come from different archive dates, noted per site.
+  Middle East News Today's missing newsDiv is added at the bottom and its broken
+  Java fallback hook is wired to func0. That login placement is reconstructed.
+  Network Connection's unused, unarchived Adobe embedding helper is omitted.
+  Russian Sports World retains its automatic browser-environment report, which
+  is acknowledged without generating a message. No report is sent externally.
+  The recovered interfaces have no file-upload control. Exit retains the
+  original window-close attempt, which modern browsers may refuse for a tab.
+  Messages are synthetic or supplied by you, stored in memory until restart.
+  --self-test needs Node.js and runs the actual selected client through login,
+  inbox, Unicode send, reply, delete and bad-password handling. Only DOM and
+  HTTP transport are mocked; this is not a browser rendering test.
+
+SWF reconstruction: starwarsweb.net
+  The recovered Flash 7 / ActionScript 2 client loads server-defined display
+  objects over AMF0 from servlet/starwarsimg (operation s.a). It also requests
+  servlet/layouts and propset.css. Those responses were not recovered: the one
+  captured servlet response is empty. The replacement server cycles surviving
+  game-cover images in the original 158x217 panel; its content/order are invented.
+  No login or messaging interface was recovered in this SWF. It can load additional
+  movies, but their contents are missing. The JAR password/conversation do not apply.
+  The page uses Ruffle 0.7.1 from unpkg.com. Ruffle's AMF decoder loses the registered
+  k/l/o class prototypes needed by the original instanceof checks. The served SWF
+  gains one ActionScript block that restores those prototypes before onResult.
+  Every original SWF tag is retained byte-for-byte; the archived SWF is untouched.
+  Served HTML expands the relative gatewayUrl FlashVar to an absolute localhost
+  URL because Ruffle's NetConnection.connect requires an HTTP(S) URL.
+  /__reconstruction__/original.swf serves the exact original for comparison.
+  Missing hover images reuse normal buttons. Missing category pages remain absent.
+  --self-test checks SWF preservation and AMF replies, not browser rendering.
 
 Fidelity
   Each supported JAR's 96 original Java classes remain byte-for-byte identical.
@@ -51,15 +120,17 @@ In-memory JAR hotpatching
 
 The original JAR and all archived source files remain untouched on disk. You are
 operating the actual recovered client within a reconstructed surrounding service.
-The selected sites share one recovered client/protocol family. Other JAR families,
+The selected JAR sites share one recovered client/protocol family. Other JAR families,
 including some of the article's featured gallery examples, are not supported yet.
 --check and --self-test apply to the selected hostname. The latter runs its actual
-Java protocol classes offline; it does not validate CheerpJ's graphical rendering.
+Java protocol classes for JAR sites and JavaScript client for JS sites offline;
+neither check validates browser rendering.
 Run notes: /__reconstruction__/about
 Source hashes and change inventory: /__reconstruction__/provenance.json
 """
 
 import argparse
+import ast
 import base64
 import datetime
 import gzip
@@ -78,6 +149,7 @@ import threading
 import time
 import urllib.parse
 import zipfile
+import zlib
 from http.server import BaseHTTPRequestHandler, ThreadingHTTPServer
 from html.parser import HTMLParser
 from dataclasses import dataclass
@@ -93,6 +165,7 @@ DEFAULT_HOST = 'latinamericanewsbeat.com'
 RESOURCE = 'resource/resources.bin'
 RESOURCE_KEY = '0C5C45F2EC3C2A63'
 RUNTIME = 'https://cjrtnc.leaningtech.com/4.3/loader.js'
+RUFFLE_RUNTIME = 'https://unpkg.com/@ruffle-rs/ruffle@0.7.1/ruffle.js'
 DEFAULT_DUMP = Path(__file__).resolve().parent / '../../cia-2010-websites-dump'
 MAX_UPLOAD = 5 * 1024 * 1024  # Cm.c(): min(hex(MaxFileSize), 5120) * 1024
 
@@ -101,24 +174,25 @@ MAX_UPLOAD = 5 * 1024 * 1024  # Cm.c(): min(hex(MaxFileSize), 5120) * 1024
 class Site:
     hostname: str
     homepage: str
-    jar: str
+    client: str
     description: str
     language: str = 'en'
     presentation: str = 'generic'
     notes: tuple = ()
+    kind: str = 'jar'
+    client_sha256: str = ''
 
     @property
     def capture(self):
         return self.homepage.split('/')[0]
 
     @property
-    def jar_url(self):
-        return '/' + self.jar.split('/', 1)[1]
+    def client_url(self):
+        return '/' + self.client.split('/', 1)[1]
 
 
-# Explicit, reviewable snapshots; adding a profile does not replace its Java UI.
-# These use the same recovered resource/protocol family, with distinct original
-# entry classes, labels, dimensions, endpoints and transport encodings.
+# Explicit snapshots retain each site's recovered client, labels and layout.
+# The messaging clients share a protocol; the SWF is a separate content loader.
 SITES = {site.hostname: site for site in (
     Site(DEFAULT_HOST, '20100513190714/index.html', '20100513191045/today.jar',
          'Latin America news (default)', presentation='latin'),
@@ -145,6 +219,51 @@ SITES = {site.hostname: site for site in (
          'Arabic health site', 'ar', notes=('Some Arabic page text is already garbled in the archive.',)),
     Site('todayoutdoors.com', '20110228050804/index.html', '20110228050838/fires.jar',
          'Hiking and outdoor activities', notes=('Decorative navigation backgrounds tableft10.gif and tabright10.gif are unarchived.',)),
+    Site('starwarsweb.net', '20101230033220/index.html', '20101230033642/starwarsweb.swf',
+         'Star Wars: Beyond the Unknown; original content loader, replacement server content',
+         presentation='starwars', kind='swf', notes=(
+             'No login or messaging interface was recovered in this SWF; additional server-loaded movies are unavailable.',
+             'The archived servlet/starwarsimg response is empty; servlet/layouts and propset.css were not captured.',
+             'The Flash panel cycles surviving game artwork using newly constructed AMF responses.',
+             'Missing hover images reuse their normal button images; unarchived category pages remain unavailable.',)),
+    Site('classymotors.net', '20101123200141/index.html', '20110106001007/driver.js',
+         'Classy Motors; recovered JavaScript login, inbox and messaging client',
+         presentation='classymotors', kind='js',
+         client_sha256='ab37c4bd70f0c4660084ceecf15ab6246750e31bf31455ca2950d3a57607eacd', notes=(
+             'The homepage is from November 2010 and the JavaScript/assets from January 2011.',
+             'Seven messaging icons are borrowed from the recovered JAR family; two missing decorative CSS images have SVG substitutes.',
+             'Secondary pages retain their HTML but 15 referenced images are missing from the archive.',
+             'Missing RSS feeds are replaced with a small reconstructed automotive news sample.',)),
+    Site('iranfootballsource.com', '20110202091611/index.html', '20110202091901/futbol.js',
+         'Iran Football Source', 'fa', kind='js', client_sha256='7518d4885e67f3b904848ecfacfb631bd4c8595cf40e2bdb50f462edba415878',
+         notes=('The original golden-football login icon survives in a July 2013 capture; the six toolbar icons are missing.',)),
+    Site('iraniangoals.com', '20090411072857/index.html', '20110202091909/journal.js',
+         'Iranian Goals', 'fa', kind='js', client_sha256='7f8339ff82fb66f3e63d8aeebe8a030b415630a75a4216078e51816a44e2ceb0',
+         notes=('The homepage is from April 2009 and the JavaScript from February 2011.',)),
+    Site('kukrinews.com', '20100513094901/index.html', '20100513094909/news.js',
+         'Kukri News; Nepal', 'en', kind='js', client_sha256='ffa05d7b339ef44d84bdd71ed9ad75f58ce9e979385f8fc708bce91b6ab25501',
+         notes=()),
+    Site('middle-east-newstoday.com', '20100517070603/index.html', '20100517070625/kurds.js',
+         'Middle East News Today', 'ar', kind='js', client_sha256='4a3f2b66b797b79b44e778f74251ced94c5bb6b39d6f996ef4c11db994a185e2',
+         notes=('The captured HTML lacks its newsDiv container and has a broken Java-to-JavaScript startup hook; a container is placed at the bottom and func0 is invoked on load. The position is reconstructed.',)),
+    Site('networkconnectionsite.com', '20110208004005/index.html', '20110208004203/netnews.js',
+         'Network Connection', 'en', kind='js', client_sha256='46d23ed9b29eeab33412739ba64fcd45c3775bd300a295c58ad68ecdb335b649',
+         notes=('An unarchived, unused Adobe embedding helper is omitted while serving.',)),
+    Site('thefootball-life.com', '20110202151142/index.html', '20110202151214/groups.js',
+         'The Football Life', 'en', kind='js', client_sha256='6eff391083c371de0f0e05e0b0c56b6ede025fb1fa109714690b8a50a8db3816',
+         notes=()),
+    Site('todaysnewsandweather-ru.com', '20110207094714/index.html', '20110207094735/blacksea.js',
+         'Today’s News and Weather', 'ru', kind='js', client_sha256='815f6f2414e9c2bea659c8030567ab871588d82ef76dd98a0d0c76fdc0d95c54',
+         notes=('This client retains descriptive function names instead of the other sites’ short names.',)),
+    Site('totallynewsnow.com', '20110207201846/index.html', '20110207201929/tnewnow.js',
+         'Totally News Now', 'en', kind='js', client_sha256='9d5ba7f646c6d2cdb145aa8a59afee4cf83576bd495e752d300ac235baf261fc',
+         notes=()),
+    Site('wahidfutbol.com', '20110202203450/index.html', '20110202203517/wahid.js',
+         'Wahid Futbol', 'ar', kind='js', client_sha256='2bfcb17111e3e1086203bb18ab27232d6b31b7eadc272cce54e807046023764c',
+         notes=()),
+    Site('www.russiansportsworld.com', '20110207170820/index.html', '20110207171201/snowboard.js',
+         'Russian Sports World', 'ru', kind='js', client_sha256='7cf4ff00f8e250330e3cdf10816fe471b3776c0bdb52913b812fde888fdddf7c',
+         notes=('The original client sends a browser-environment report after login; the local server acknowledges it without adding an inbox reply.',)),
 )}
 
 DEMO_INITIAL = ('We need the information on the target urgently. There are indications '
@@ -581,20 +700,12 @@ def decode_html(data):
             return data.decode('windows-1252', errors='replace')
 
 
-class Reconstruction:
+class ArchiveReconstruction:
     def __init__(self, dump, port, password, site=None):
         self.site = site or SITES[DEFAULT_HOST]
         self.root = (dump / self.site.hostname).resolve()
         self.origin = 'http://127.0.0.1:' + str(port)
         self.password = password.encode('utf-8')
-        self.secret = secrets.token_bytes(32)
-        self.key = digest(self.password + self.secret)
-        self.private_key = rsa.generate_private_key(public_exponent=65537, key_size=1024)
-        self.lock = threading.Lock()
-        self.sessions = {}
-        self.messages = {}
-        self.received = []
-        self.next_id = 1
         self.files = {}
         if not self.root.is_dir():
             raise ValueError('Archive not found: ' + str(self.root))
@@ -608,50 +719,35 @@ class Reconstruction:
         # Never substitute a later parked/hacked homepage for the chosen snapshot.
         self.homepage_url = '/' + self.site.homepage.split('/', 1)[1]
         self.files[self.homepage_url] = self.root / self.site.homepage
-        self.applet = AppletMetadata(decode_html(self.files[self.homepage_url].read_bytes())).applet
-        self.applet_class = self.applet['code'].removesuffix('.class').replace('/', '.')
-        self.applet_package = self.applet_class.rsplit('.', 1)[0]
-        self.original = (self.root / self.site.jar).read_bytes()
-        with zipfile.ZipFile(io.BytesIO(self.original)) as archive:
-            if self.applet_class.replace('.', '/') + '.class' not in archive.namelist():
-                raise ValueError('The selected JAR does not contain the homepage applet class')
-            self.resources = dict(binary_resources(archive.read(RESOURCE), RESOURCE_KEY))
-        self.config = {k: v.decode('utf-8') for k, v in self.resources.items() if not k.startswith('res.')}
-        self.endpoint = urllib.parse.urlsplit(self.config['ServerURL']).path
-        if not self.endpoint.startswith('/'):
-            raise ValueError('Invalid original endpoint')
-        self.presentation = (LatinPresentation if self.site.presentation == 'latin' else Presentation)(self)
-        self.jar = self.patch_jar()
-        self.add_message(DEMO_INITIAL.encode(), 'dat')
 
-    def patch_jar(self):
-        numbers = self.private_key.public_key().public_numbers()
-        def positive_hex(n):
-            data = n.to_bytes((n.bit_length()+7)//8, 'big')
-            if data[0] & 128:
-                data = b'\x00' + data
-            return data.hex().upper().encode()
-        self.changes = {
-            'ServerURL': (self.origin + self.endpoint).encode(),
-            'KeyE': positive_hex(numbers.e),
-            'KeyN': positive_hex(numbers.n),
-            'EncSharedSecret': aes(self.secret, digest(self.password, 1), padded=False).hex().upper().encode(),
-        }
-        resources = dict(self.resources, **self.changes)
-        encoded = encode_resources(resources)
-        if dict(binary_resources(encoded, RESOURCE_KEY)) != resources:
-            raise ValueError('Resource encode/decode validation failed')
-        out = io.BytesIO()
-        self.removed_signatures = []
-        with zipfile.ZipFile(io.BytesIO(self.original)) as source, zipfile.ZipFile(out, 'w') as dest:
-            for entry in source.infolist():
-                if entry.filename.upper().startswith('META-INF/'):
-                    self.removed_signatures.append(entry.filename)
-                    continue
-                data = encoded if entry.filename == RESOURCE else source.read(entry)
-                dest.writestr(entry, data)
-            dest.writestr('META-INF/MANIFEST.MF', 'Manifest-Version: 1.0\r\n\r\n')
-        return out.getvalue()
+    def page(self, path):
+        return self.presentation.page(path)
+
+
+class MessagingReconstruction(ArchiveReconstruction):
+    """Shared recovered RSA/challenge/AES protocol used by Java and JavaScript."""
+    client_label = 'Applet'
+
+    def __init__(self, dump, port, password, site=None):
+        super().__init__(dump, port, password, site)
+        self.secret = secrets.token_bytes(32)
+        self.key = digest(self.password + self.secret)
+        self.private_key = rsa.generate_private_key(public_exponent=65537, key_size=1024)
+        self.lock = threading.Lock()
+        self.sessions = {}
+        self.messages = {}
+        self.received = []
+        self.next_id = 1
+
+    def session_token(self):
+        return secrets.token_bytes(16)
+
+    def outgoing_category(self, argument, marker):
+        if argument == 255 and marker == self.config.get('MetaDataExt'):
+            return 'metadata'
+        if argument == 1:
+            return 'text' if marker == self.config.get('MessageMarker', 'txt') else 'file'
+        raise ValueError('Unsupported outgoing message type: ' + str(argument))
 
     def add_message(self, body, marker):
         if self.next_id > 127:
@@ -694,11 +790,11 @@ class Reconstruction:
                 expected = bytes(v ^ mask[i % len(mask)] for i, v in enumerate(self.password))
                 if not secrets.compare_digest(challenge_login, expected):
                     raise ValueError('Bad login')
-                token, challenge = secrets.token_bytes(16), secrets.token_bytes(32)
+                token, challenge = self.session_token(), secrets.token_bytes(32)
                 if len(self.sessions) >= 64:
                     raise ValueError('Too many demo sessions')
                 self.sessions[token] = dict(challenge=challenge, encoding=encoding, authenticated=False, touched=now)
-                print('Applet: login handshake accepted', flush=True)
+                print(self.client_label + ': login handshake accepted', flush=True)
                 return self.encode(token + challenge, encoding)
             session = self.sessions[token]
             packet = self.decode(raw[16:], session['encoding'])
@@ -722,7 +818,7 @@ class Reconstruction:
                     item = ids[0]
             elif op == 21:  # delete
                 self.messages.pop(argument, None)
-                print('Applet: deleted message ' + str(argument), flush=True)
+                print(self.client_label + ': deleted message ' + str(argument), flush=True)
             elif op == 37:  # send text, upload a file, or submit login metadata
                 body, marker, timestamp = unpack_message(packet[35:], self.key)
                 if len(body) > MAX_UPLOAD:
@@ -731,27 +827,22 @@ class Reconstruction:
                 # Bb sends both text and files with type 1, distinguished only by
                 # MessageMarker versus Cm's filename extension. An uploaded file
                 # with that same extension is indistinguishable from text here.
-                if argument == 255 and marker == self.config.get('MetaDataExt'):
-                    category = 'metadata'
+                category = self.outgoing_category(argument, marker)
+                if category == 'metadata':
                     reply = None
-                elif argument == 1:
-                    if marker == self.config.get('MessageMarker', 'txt'):
-                        category = 'text'
-                        reply = DEMO_REPLY.encode()
-                    else:
-                        category = 'file'
-                        reply = ('LOCAL DEMO REPLY\n\nReceived file marker: ' + marker + '\nBytes: ' + str(len(body))).encode()
+                elif category == 'text':
+                    reply = DEMO_REPLY.encode()
                 else:
-                    raise ValueError('Unsupported outgoing message type: ' + str(argument))
+                    reply = ('LOCAL DEMO REPLY\n\nReceived file marker: ' + marker + '\nBytes: ' + str(len(body))).encode()
                 self.received.append(dict(body=body, marker=marker, timestamp=timestamp,
                                           kind=argument, category=category))
                 if len(self.received) > 100:
                     self.received.pop(0)
                 if reply is None:
-                    print('Applet: acknowledged login metadata (' + str(len(body)) + ' bytes); no inbox reply', flush=True)
+                    print(self.client_label + ': acknowledged login metadata (' + str(len(body)) + ' bytes); no inbox reply', flush=True)
                 else:
                     reply_id = self.add_message(reply, 'dat')
-                    print('Applet: received ' + category + ' (' + str(len(body)) + ' bytes); queued demo reply ' + str(reply_id), flush=True)
+                    print(self.client_label + ': received ' + category + ' (' + str(len(body)) + ' bytes); queued demo reply ' + str(reply_id), flush=True)
                 # Acknowledge the send without piggybacking the queued message.
                 # The next login retrieves it through the ordinary inbox commands.
             else:
@@ -762,12 +853,66 @@ class Reconstruction:
                 response += bytes([item]) + pack_message(body, marker, timestamp, self.key)
             return self.encode(response, session['encoding'])
 
+
+class Reconstruction(MessagingReconstruction):
+    client_mime = 'application/java-archive'
+    response_mime = 'application/octet-stream'
+    runtime = RUNTIME
+
+    def __init__(self, dump, port, password, site=None):
+        super().__init__(dump, port, password, site)
+        self.applet = AppletMetadata(decode_html(self.files[self.homepage_url].read_bytes())).applet
+        self.applet_class = self.applet['code'].removesuffix('.class').replace('/', '.')
+        self.applet_package = self.applet_class.rsplit('.', 1)[0]
+        self.original = (self.root / self.site.client).read_bytes()
+        with zipfile.ZipFile(io.BytesIO(self.original)) as archive:
+            if self.applet_class.replace('.', '/') + '.class' not in archive.namelist():
+                raise ValueError('The selected JAR does not contain the homepage applet class')
+            self.resources = dict(binary_resources(archive.read(RESOURCE), RESOURCE_KEY))
+        self.config = {k: v.decode('utf-8') for k, v in self.resources.items() if not k.startswith('res.')}
+        self.endpoint = urllib.parse.urlsplit(self.config['ServerURL']).path
+        if not self.endpoint.startswith('/'):
+            raise ValueError('Invalid original endpoint')
+        self.presentation = (LatinPresentation if self.site.presentation == 'latin' else Presentation)(self)
+        self.jar = self.patch_jar()
+        self.client_bytes = self.jar
+        self.add_message(DEMO_INITIAL.encode(), 'dat')
+
+    def patch_jar(self):
+        numbers = self.private_key.public_key().public_numbers()
+        def positive_hex(n):
+            data = n.to_bytes((n.bit_length()+7)//8, 'big')
+            if data[0] & 128:
+                data = b'\x00' + data
+            return data.hex().upper().encode()
+        self.changes = {
+            'ServerURL': (self.origin + self.endpoint).encode(),
+            'KeyE': positive_hex(numbers.e),
+            'KeyN': positive_hex(numbers.n),
+            'EncSharedSecret': aes(self.secret, digest(self.password, 1), padded=False).hex().upper().encode(),
+        }
+        resources = dict(self.resources, **self.changes)
+        encoded = encode_resources(resources)
+        if dict(binary_resources(encoded, RESOURCE_KEY)) != resources:
+            raise ValueError('Resource encode/decode validation failed')
+        out = io.BytesIO()
+        self.removed_signatures = []
+        with zipfile.ZipFile(io.BytesIO(self.original)) as source, zipfile.ZipFile(out, 'w') as dest:
+            for entry in source.infolist():
+                if entry.filename.upper().startswith('META-INF/'):
+                    self.removed_signatures.append(entry.filename)
+                    continue
+                data = encoded if entry.filename == RESOURCE else source.read(entry)
+                dest.writestr(entry, data)
+            dest.writestr('META-INF/MANIFEST.MF', 'Manifest-Version: 1.0\r\n\r\n')
+        return out.getvalue()
+
     def report(self):
         with zipfile.ZipFile(io.BytesIO(self.original)) as old, zipfile.ZipFile(io.BytesIO(self.jar)) as new:
             classes = [n for n in old.namelist() if n.endswith('.class')]
             identical = all(old.read(n) == new.read(n) for n in classes)
-        return dict(domain=self.site.hostname, source=str(self.root), homepage=self.site.homepage,
-                    jar=self.site.jar, original_sha256=hashlib.sha256(self.original).hexdigest(),
+        return dict(kind=self.site.kind, domain=self.site.hostname, source=str(self.root), homepage=self.site.homepage,
+                    jar=self.site.client, original_sha256=hashlib.sha256(self.original).hexdigest(),
                     applet_class=self.applet_class, applet_dimensions=[self.applet['width'], self.applet['height']],
                     original_endpoint=self.config['ServerURL'], local_endpoint=self.origin + self.endpoint,
                     original_transport_encoding=self.config.get('EncodeType'),
@@ -783,6 +928,477 @@ class Reconstruction:
 
     def page(self, path):
         return self.presentation.page(path)
+
+
+
+class JavaScriptReconstruction(MessagingReconstruction):
+    client_label = 'JavaScript'
+    client_mime = 'application/javascript; charset=utf-8'
+    response_mime = 'text/plain; charset=utf-8'
+    runtime = None
+    shared_icon_members = dict(login='res.Lock.png', compose='res.Compose.gif', reply='res.Reply.gif',
+                               delete='res.Delete.gif', exit='res.Close.gif', inbox='res.Inbox.gif', send='res.Send.gif')
+    shared_icon_hashes = dict(
+        login='6ca97582c11a808d9b5323cf83a2d82e2836a1848c7b7a9b20d9cb06af8f1427',
+        compose='a4492cb496917e7629117817845144bf9ed7726c9bb43f45a62e2ac5d8287d43',
+        reply='4fd085432613c9887519bffcfbf0a08a4c43178c620002634aa83083f115e700',
+        delete='c3f281ebad1f866d5004f8ef777d51bf2c722430389ddee83ade31ac1feb311c',
+        exit='1948ff83ae5fbe68591605799a363b1fad2524149d2e2a8fb40c54ce71670cec',
+        inbox='75301cbc0fa5e0b25e7777206b9a9a044408ebd849e796fdde8c55d89f67ab3e',
+        send='386672b9e863aa163c2ef6c478ef74cb4932cb284be76956701b985bb1cef02a')
+    # Inherited defensive UI edits; protocol and cryptographic functions stay intact.
+    ui_fixes = (
+        ("onSubmit='javascript:func1()'", "onSubmit='func1();return false'"),
+        ('var em,pz=by();', 'var em="",pz=by();'),
+        ("onchange='javascript:func6(\"+gp+\".value)'", "onchange='func6(this.value)'"),
+    )
+
+    def __init__(self, dump, port, password, site):
+        super().__init__(dump, port, password, site)
+        self.demo_password = password
+        # Reproduce driver.js dc(): encode UTF-16 code units in one or two bytes.
+        units = password.encode('utf-16-be')
+        self.password = b''.join(units[i:i+2] if units[i] else units[i+1:i+2]
+                                 for i in range(0, len(units), 2))
+        self.key = digest(self.password + self.secret)
+        self.original = (self.root / site.client).read_bytes()
+        self.source_sha256 = site.client_sha256
+        if hashlib.sha256(self.original).hexdigest() != self.source_sha256:
+            raise ValueError('Unrecognized JavaScript client; refusing version-specific edits')
+        source = self.original.decode('utf-8')
+        self.descriptive_names = source.startswith('var _headerInbox=')
+        names = dict(ta='_url', rk='_ssEnc', sz='KeyE', sy='KeyN', qk='_msgExt', rd='_mdExt', rg='_codec')
+        self.setting_names = {k: names[k] if self.descriptive_names else k for k in names}
+        def literal(name):
+            match = re.search(r'\b' + re.escape(name) + r'''\s*=\s*("(?:[^"\\]|\\.)*"|'(?:[^'\\]|\\.)*')''', source)
+            if not match:
+                raise ValueError('Missing JavaScript literal: ' + name)
+            return ast.literal_eval(match[1])
+        self.original_settings = {k: literal(v) for k, v in self.setting_names.items()}
+        roles = ('login', 'compose', 'reply', 'delete', 'exit', 'inbox', 'send')
+        icon_vars = ('nl', 'lu', 'nk', 'mk', 'kj', 'ni', 'og')
+        self.icons = {role: '/' + literal('_image' + role.title() if self.descriptive_names else var).lstrip('/')
+                      for role, var in zip(roles, icon_vars)}
+        # Use real, unmodified artwork from the related Java client as an explicitly
+        # documented substitute. A surviving same-site image always takes priority.
+        donor = SITES[DEFAULT_HOST]
+        self.icon_donor = dump / donor.hostname / donor.client
+        self.shared_icons = {}
+        if self.icon_donor.is_file():
+            with zipfile.ZipFile(self.icon_donor) as archive:
+                resources = dict(binary_resources(archive.read(RESOURCE), RESOURCE_KEY))
+            for role, member in self.shared_icon_members.items():
+                data = resources.get(member)
+                if data is not None and hashlib.sha256(data).hexdigest() == self.shared_icon_hashes[role]:
+                    self.shared_icons[role] = data
+        homepage = decode_html(self.files[self.homepage_url].read_bytes())
+        self.display_div = re.search(r'displayDiv\s*=\s*["\']([^"\']+)', homepage)[1]
+        metadata_var = '_doDataMining' if self.descriptive_names else 'lw'
+        self.sends_metadata = bool(re.search(r'\b' + metadata_var + r'=true\b', source))
+        self.endpoint = urllib.parse.urlsplit(self.original_settings['ta']).path
+        self.config = dict(MessageMarker=self.original_settings['qk'], MetaDataExt=self.original_settings['rd'])
+        numbers = self.private_key.public_key().public_numbers()
+        self.changes = dict(ta=self.origin + self.endpoint,
+                            rk=aes(self.secret, digest(self.password, 1), padded=False).hex().upper(),
+                            sz=format(numbers.e, 'X'), sy=format(numbers.n, 'X'))
+        self.edits = []
+        for key, value in self.changes.items():
+            name = self.setting_names[key]
+            old = re.search(r'\b' + name + r'="[^"]*"', source)[0]
+            new = name + '=' + json.dumps(value)
+            self.edits.append((old, new))
+            source = source.replace(old, new, 1)
+        if self.descriptive_names:
+            self.ui_fixes = (self.ui_fixes[0],
+                ('var options,mList=getMessageArray();', 'var options="",mList=getMessageArray();'),
+                ("onchange='javascript:func6(\"+_msgListTag+\".value)'", "onchange='func6(this.value)'"))
+        for old, new in self.ui_fixes:
+            if source.count(old) != 1:
+                raise ValueError('Unexpected JavaScript UI source')
+            source = source.replace(old, new, 1)
+            self.edits.append((old, new))
+        self.client_bytes = source.encode('utf-8')
+        self.presentation = (ClassyMotorsPresentation if site.presentation == 'classymotors' else JavaScriptPresentation)(self)
+        self.add_message(DEMO_INITIAL.encode(), self.config['MessageMarker'])
+
+    def session_token(self):
+        # JS prepends a 16-character string to XHR text. ASCII avoids UTF-8 expansion.
+        return secrets.token_hex(8).encode('ascii')
+
+    def outgoing_category(self, argument, marker):
+        # Unlike the JAR, driver.js uses a random argument byte, not a type code.
+        if marker == self.config['MessageMarker']:
+            return 'text'
+        if marker == self.config['MetaDataExt']:
+            return 'metadata'
+        raise ValueError('Unsupported JavaScript message marker')
+
+    def report(self):
+        restored = self.client_bytes.decode('utf-8')
+        for old, new in reversed(self.edits):
+            restored = restored.replace(new, old, 1)
+        icons = []
+        for role, url in self.icons.items():
+            file = self.files.get(url)
+            borrowed = self.shared_icons.get(role) if file is None else None
+            icons.append(dict(role=role, url=url, recovered=bool(file),
+                              source=str(file) if file else str(self.icon_donor) if borrowed else None,
+                              member=self.shared_icon_members[role] if borrowed else None,
+                              sha256=hashlib.sha256(file.read_bytes() if file else borrowed).hexdigest() if file or borrowed else None,
+                              replacement=None if file else 'Recovered JAR artwork; exact JS artwork unverified' if borrowed
+                                  else 'Simple SVG placeholder; original design unknown'))
+        return dict(kind='js', domain=self.site.hostname, source=str(self.root), homepage=self.site.homepage,
+                    client=self.site.client, original_sha256=self.source_sha256,
+                    served_sha256=hashlib.sha256(self.client_bytes).hexdigest(),
+                    original_client_url='/__reconstruction__/original.js',
+                    only_documented_changes=(restored.encode('utf-8') == self.original),
+                    original_endpoint=self.original_settings['ta'], local_endpoint=self.origin + self.endpoint,
+                    configuration_changes={self.setting_names[k]: v for k, v in
+                        dict(ta='Local endpoint', rk='Demo password-encrypted shared secret',
+                             sz='Local RSA exponent', sy='Local RSA modulus').items()},
+                    ui_corrections=['Prevent login form navigation after submission',
+                                    'Initialize the inbox option string', 'Use this.value in the message selector'],
+                    runtime='Native browser JavaScript; no emulator or external runtime',
+                    login_url=self.origin + '/#' + self.display_div, icons=icons,
+                    automatic_metadata_report=self.sends_metadata,
+                    static_paths=len(self.files), feed_reconstruction=self.presentation.feed_report(),
+                    notes=list(self.site.notes) + [
+                        'Original cryptography, message serialization, labels and UI functions are used, with the listed edits only.',
+                        'Three inherited defensive UI edits are applied; not all were demonstrated necessary in current browsers.',
+                        'The clients share seven icon roles, but there is insufficient recovered artwork to establish identical designs.',
+                        'Missing JS icons use unmodified art from the related JAR family when available; this is a documented substitution, not proof of the original JS design.',
+                        'Login is at the bottom of the homepage; the password and conversation are demo replacements.',
+                        'Inbox is downloaded at login. Reload and log in again to retrieve queued replies.',
+                        'Exit retains the original window-close attempt; browsers may refuse to close a manually opened tab.',
+                        'The recovered interface composes text; no file-upload control is present.',
+                        'Messages live only in server memory. Archived files remain untouched.'])
+
+
+@dataclass
+class AMFObject:
+    alias: str
+    fields: dict
+
+
+class AMFReader(Reader):
+    """Bounded AMF0 reader for the archived Flash Remoting request format."""
+    def __init__(self, data):
+        super().__init__(data)
+        self.references = []
+        self.values = 0
+
+    def u16(self):
+        return int.from_bytes(self.take(2), 'big')
+
+    def u32(self):
+        return int.from_bytes(self.take(4), 'big')
+
+    def string(self, length=None):
+        length = self.u16() if length is None else length
+        if length > 65536:
+            raise ValueError('AMF string too large')
+        return self.take(length).decode('utf-8')
+
+    def value(self, depth=0):
+        self.values += 1
+        if depth > 24 or self.values > 4096:
+            raise ValueError('AMF nesting or item limit exceeded')
+        kind = self.u1()
+        if kind == 0:
+            return struct.unpack('>d', self.take(8))[0]
+        if kind == 1:
+            return bool(self.u1())
+        if kind in (2, 12, 15):
+            return self.string(None if kind == 2 else self.u32())
+        if kind in (5, 6):
+            return None
+        if kind == 7:
+            index = self.u16()
+            if index >= len(self.references):
+                raise ValueError('Invalid AMF reference')
+            return self.references[index]
+        if kind == 10:
+            count = self.u32()
+            if count > 4096:
+                raise ValueError('AMF array too large')
+            result = []
+            self.references.append(result)
+            result.extend(self.value(depth + 1) for _ in range(count))
+            return result
+        if kind in (3, 8, 16):
+            if kind == 8:
+                self.u32()  # ECMA array count is advisory; properties end with 000009.
+            alias = self.string() if kind == 16 else None
+            fields = {}
+            result = AMFObject(alias, fields) if alias is not None else fields
+            self.references.append(result)
+            while True:
+                key = self.string()
+                if not key and self.data[self.pos:self.pos+1] == b'\x09':
+                    self.take(1)
+                    return result
+                fields[key] = self.value(depth + 1)
+        raise ValueError('Unsupported AMF0 marker: ' + str(kind))
+
+
+def amf_string(value):
+    raw = value.encode('utf-8')
+    if len(raw) > 65535:
+        raise ValueError('AMF string too large')
+    return struct.pack('>H', len(raw)) + raw
+
+
+def amf_value(value):
+    if value is None:
+        return b'\x05'
+    if isinstance(value, bool):
+        return b'\x01' + bytes([value])
+    if isinstance(value, (int, float)):
+        return b'\x00' + struct.pack('>d', value)
+    if isinstance(value, str):
+        return b'\x02' + amf_string(value)
+    if isinstance(value, (list, tuple)):
+        return b'\x0a' + struct.pack('>I', len(value)) + b''.join(amf_value(v) for v in value)
+    if isinstance(value, AMFObject):
+        prefix, fields = b'\x10' + amf_string(value.alias), value.fields
+    elif isinstance(value, dict):
+        prefix, fields = b'\x03', value
+    else:
+        raise ValueError('Unsupported AMF value')
+    return prefix + b''.join(amf_string(k) + amf_value(v) for k, v in fields.items()) + b'\x00\x00\x09'
+
+
+def amf_packet(messages, headers=()):
+    packet = struct.pack('>HH', 0, len(headers))
+    for name, required, value in headers:
+        body = amf_value(value)
+        packet += amf_string(name) + bytes([required]) + struct.pack('>I', len(body)) + body
+    packet += struct.pack('>H', len(messages))
+    for target, response, value in messages:
+        body = amf_value(value)
+        packet += amf_string(target) + amf_string(response) + struct.pack('>I', len(body)) + body
+    return packet
+
+
+def read_amf_packet(data):
+    if len(data) > 128 * 1024:
+        raise ValueError('AMF request too large')
+    reader = AMFReader(data)
+    if reader.u16() != 0:
+        raise ValueError('Expected AMF0 packet')
+    def value():
+        length = reader.u32()
+        start = reader.pos
+        reader.references = []  # Object references are local to each header/message.
+        result = reader.value()
+        if length != 0xffffffff and reader.pos - start != length:
+            raise ValueError('AMF value length mismatch')
+        return result
+    count = reader.u16()
+    if count > 32:
+        raise ValueError('Too many AMF headers')
+    headers = []
+    for _ in range(count):
+        name, required = reader.string(), bool(reader.u1())
+        headers.append((name, required, value()))
+    count = reader.u16()
+    if not 1 <= count <= 32:
+        raise ValueError('Invalid AMF message count')
+    messages = []
+    for _ in range(count):
+        target, response = reader.string(), reader.string()
+        messages.append((target, response, value()))
+    if reader.pos != len(data):
+        raise ValueError('Trailing AMF bytes')
+    return headers, messages
+
+
+class AVM1Code:
+    """Small assembler used only for the documented Ruffle AMF type adapter."""
+    def __init__(self):
+        self.data, self.labels, self.branches = bytearray(), {}, []
+
+    def op(self, code, payload=b''):
+        self.data.append(code)
+        if code >= 128:
+            self.data.extend(struct.pack('<H', len(payload)))
+            self.data.extend(payload)
+        return self
+
+    def push(self, *values):
+        payload = bytearray()
+        for value in values:
+            if value is None:
+                payload.extend(b'\x02')
+            elif isinstance(value, str):
+                payload.extend(b'\x00' + value.encode() + b'\x00')
+            else:
+                payload.extend(b'\x07' + struct.pack('<i', value))
+        return self.op(150, payload)
+
+    def var(self, name):
+        return self.push(name).op(28)
+
+    def member(self, name):
+        return self.push(name).op(78)
+
+    def label(self, name):
+        self.labels[name] = len(self.data)
+        return self
+
+    def branch(self, code, label):
+        self.op(code, b'\x00\x00')
+        self.branches.append((len(self.data)-2, label))
+        return self
+
+    def function(self, name, params, body):
+        # AVM1 function bodies follow the ActionLength-delimited header.
+        header = name.encode() + b'\x00' + struct.pack('<H', len(params))
+        header += b''.join(p.encode() + b'\x00' for p in params)
+        self.op(155, header + struct.pack('<H', len(body)))
+        self.data.extend(body)
+        return self
+
+    def finish(self):
+        for offset, label in self.branches:
+            self.data[offset:offset+2] = struct.pack('<h', self.labels[label] - offset - 2)
+        return bytes(self.data)
+
+
+def swf_type_adapter():
+    """Reapply AMF class prototypes before yhH.onResult's instanceof checks.
+
+    Ruffle 0.7.1 deserializes AMF0 typed objects as plain objects. Each local
+    response carries __demoType=k/l/o as well as its original AMF class alias.
+    Original actions remain intact; this extra root DoAction wraps one callback.
+    https://github.com/ruffle-rs/ruffle/blob/v0.7.1/core/src/avm1/amf.rs
+    """
+    code = AVM1Code()
+    code.var('v').push(None).op(73).branch(157, 'return')
+    for alias, classname in (('k', 'AOT'), ('l', 'KVq'), ('o', 'uPi')):
+        code.var('v').member('__demoType').push(alias).op(73).op(18).branch(157, 'next-' + alias)
+        code.var('v').push('__proto__').var(classname).member('prototype').op(79)
+        code.label('next-' + alias)
+    code.var('v').member('__demoType').push('k').op(73).op(18).branch(157, 'return')
+    code.push('i', 0).op(60).label('loop')
+    code.var('i').var('v').member('d').member('length').op(72).op(18).branch(157, 'return')
+    code.var('v').member('d').var('i').op(78).push(1).var('_root').push('__demoHydrate').op(82).op(23)
+    code.push('i').var('i').op(80).op(29).branch(153, 'loop')
+    code.label('return').var('v').op(62).op(0)
+    bootstrap = AVM1Code().function('__demoHydrate', ['v'], code.finish())
+    bootstrap.var('yhH').member('prototype').push('__demoOriginalOnResult')
+    bootstrap.var('yhH').member('prototype').member('onResult').op(79)
+    wrapper = AVM1Code().var('v').push(1).var('_root').push('__demoHydrate').op(82)
+    wrapper.push(1).var('this').push('__demoOriginalOnResult').op(82).op(23).op(0)
+    bootstrap.var('yhH').member('prototype').push('onResult').function('', ['v'], wrapper.finish()).op(79).op(0)
+    return bootstrap.finish()
+
+
+def swf_parts(raw):
+    if raw[:3] not in (b'FWS', b'CWS') or len(raw) < 12:
+        raise ValueError('Unsupported SWF header')
+    data = raw if raw[:3] == b'FWS' else raw[:8] + zlib.decompress(raw[8:])
+    if len(data) != int.from_bytes(data[4:8], 'little'):
+        raise ValueError('Invalid SWF length')
+    pos = 8 + (5 + 4 * (data[8] >> 3) + 7) // 8 + 4
+    header, tags = data[:pos], []
+    while pos < len(data):
+        start = pos
+        if pos + 2 > len(data):
+            raise ValueError('Truncated SWF tag')
+        tag = int.from_bytes(data[pos:pos+2], 'little')
+        pos += 2
+        length = tag & 63
+        if length == 63:
+            if pos + 4 > len(data):
+                raise ValueError('Truncated SWF tag length')
+            length = int.from_bytes(data[pos:pos+4], 'little')
+            pos += 4
+        pos += length
+        if pos > len(data):
+            raise ValueError('Truncated SWF tag data')
+        tags.append((tag >> 6, data[start:pos]))
+    return header, tags
+
+
+def adapt_swf(raw):
+    header, tags = swf_parts(raw)
+    body = swf_type_adapter()
+    extra = struct.pack('<HI', (12 << 6) | 63, len(body)) + body
+    frame = next(i for i, (kind, _) in enumerate(tags) if kind == 1)
+    data = header + b''.join(tag for _, tag in tags[:frame]) + extra + b''.join(tag for _, tag in tags[frame:])
+    return b'CWS' + data[3:4] + struct.pack('<I', len(data)) + zlib.compress(data[8:])
+
+
+class FlashReconstruction(ArchiveReconstruction):
+    client_mime = 'application/x-shockwave-flash'
+    response_mime = 'application/x-amf'
+    runtime = RUFFLE_RUNTIME
+    endpoint = '/servlet/starwarsimg'
+    source_sha256 = '4df2ee04ebad564a81bc7fb45c95882e1c73042cc8a464e8ffcd537a94ac0acc'
+    # Actual surviving artwork. Their use/order in this panel is reconstructed.
+    games = (('The Force Unleashed II', '/images/cover_force_unleashed2.jpg'),
+             ('Battlefront II', '/images/cover_battlefront2.jpg'),
+             ('LEGO Star Wars II', '/images/cover_lego_2.jpg'),
+             ('Republic Heroes', '/images/cover_republic_heroes.jpg'))
+
+    def __init__(self, dump, port, password, site):
+        super().__init__(dump, port, password, site)
+        self.original = (self.root / site.client).read_bytes()
+        if hashlib.sha256(self.original).hexdigest() != self.source_sha256:
+            raise ValueError('Unrecognized Star Wars SWF; refusing to apply a version-specific adapter')
+        self.client_bytes = adapt_swf(self.original)
+        self.presentation = StarWarsPresentation(self)
+        self.lock, self.requests = threading.Lock(), 0
+
+    def panel(self, index):
+        title, image = self.games[index % len(self.games)]
+        def obj(alias, **fields):
+            base = dict(f=0, n=0, r=158, j=217, e=None, c=None, b=None, __demoType=alias)
+            base.update(fields)
+            return AMFObject(alias, base)
+        return obj('k', d=[
+            obj('l', f=4, n=3, r=150, j=20, t='<p class="heading">FEATURED GAMES</p>'),
+            obj('o', f=28, n=29, r=102, j=145, p=image),
+            obj('l', f=4, n=182, r=150, j=33, t='<p>' + html.escape(title) + '</p>'),
+        ])
+
+    def protocol(self, data):
+        headers, messages = read_amf_packet(data)
+        for target, response, args in messages:
+            if target != 's.a' or not re.fullmatch(r'/\d+', response):
+                raise ValueError('Unexpected Flash Remoting operation')
+            if not isinstance(args, list) or len(args) != 1 or not isinstance(args[0], dict):
+                raise ValueError('Expected one AMF request object')
+        with self.lock:
+            responses = []
+            for target, response, args in messages:
+                responses.append((response + '/onResult', 'null', self.panel(self.requests)))
+                self.requests += 1
+            print('SWF: served ' + str(len(responses)) + ' reconstructed content item(s) via s.a', flush=True)
+            return amf_packet(responses)
+
+    def report(self):
+        old_header, old_tags = swf_parts(self.original)
+        new_header, new_tags = swf_parts(self.client_bytes)
+        frame = next(i for i, (kind, _) in enumerate(old_tags) if kind == 1)
+        return dict(kind='swf', domain=self.site.hostname, source=str(self.root), homepage=self.site.homepage,
+                    swf=self.site.client, original_sha256=self.source_sha256,
+                    served_sha256=hashlib.sha256(self.client_bytes).hexdigest(),
+                    original_swf_url='/__reconstruction__/original.swf',
+                    all_original_tags_identical=(old_tags == new_tags[:frame] + new_tags[frame+1:]),
+                    compatibility_adapter='One added DoAction restores k/l/o AMF object prototypes before yhH.onResult.',
+                    embedded_stage=[80, 80], original_html_dimensions=[158, 217],
+                    runtime=self.runtime, gateway=self.endpoint,
+                    served_gateway_url=self.origin + self.endpoint, amf_target='s.a',
+                    reconstructed_endpoints=['/servlet/layouts', self.endpoint, '/propset.css'],
+                    reconstructed_layout='a=0&e=6000 (cycling mode, 6 seconds)',
+                    server_content_recovered=False, messaging_recovered=False,
+                    static_paths=len(self.files), notes=list(self.site.notes) + [
+                        'All original SWF tags and archived files remain intact; only the served copy gains an adapter.',
+                        'No authentication or invented messaging UI is added to the SWF.',
+                        'AMF and HTTP checks are offline; Ruffle rendering needs browser verification.'])
+
 
 
 FEED_HOSTS = ('convert.rss-to-javascript.com', 'www.rss-to-javascript.com',
@@ -882,6 +1498,141 @@ class Presentation:
         return None
 
 
+class JavaScriptPresentation(Presentation):
+    notes = ['Original JavaScript interface, language and container are retained unless the site notes identify a repair.']
+
+    def feed_items(self, category):
+        cutoff = datetime.datetime.strptime(self.app.site.capture, '%Y%m%d%H%M%S').date().isoformat()
+        return [story for story in super().feed_items(category) if story[0] <= cutoff]
+
+    def feed_report(self):
+        stories = {s[3]: s for c in ('world', 'business', 'sports', 'technology') for s in self.feed_items(c)}
+        return dict(recovered=False, notes='Small reconstructed feed samples, filtered to dates no later than the homepage capture. Some feeds remain empty.',
+                    stories=[dict(date=d, title=t, description=b, source=u) for d, t, b, u in stories.values()])
+
+    def page(self, path):
+        text = super().page(path).decode()
+        if path == self.app.files[self.app.homepage_url]:
+            if self.app.site.hostname == 'middle-east-newstoday.com':
+                text = text.replace('window.onLoad = swapAppletJS;', 'window.onload = func0;')
+                text = text.replace('</body>', '<div id="newsDiv" style="clear:both;margin:0 auto;text-align:center"></div></body>')
+            if self.app.site.hostname == 'networkconnectionsite.com':
+                text = re.sub(r'<script\b[^>]*src="Scripts/AC_RunActiveContent.js"[^>]*>\s*</script>', '', text)
+        return text.encode()
+
+    def missing_image(self, path):
+        role = next((role for role, url in self.app.icons.items() if url == path), None)
+        if role is None:
+            return super().missing_image(path)
+        if role in self.app.shared_icons:
+            data = self.app.shared_icons[role]
+            return data, 'image/png' if data.startswith(b'\x89PNG') else 'image/gif'
+        glyph = dict(login='OK', compose='+', reply='↩', delete='−', exit='×', inbox='≡', send='→')[role]
+        width = 30 if role == 'login' else 16
+        return (f'<svg xmlns="http://www.w3.org/2000/svg" width="{width}" height="18">'
+                f'<rect x="0.5" y="0.5" width="{width-1}" height="17" rx="2" fill="#eee" stroke="#666"/>'
+                f'<text x="{width/2}" y="13" text-anchor="middle" font-family="sans-serif" font-size="13" fill="#333">'
+                + glyph + '</text></svg>').encode(), 'image/svg+xml'
+
+
+class ClassyMotorsPresentation(JavaScriptPresentation):
+    notes = ['Original page structure, CSS, login location and recovered messaging UI retained.']
+    stories = (
+        ('2010-11-18', 'BMW reveals the new 6 Series Convertible',
+         'BMW has announced its next-generation four-seat convertible, with six-cylinder and V8 engines.',
+         'https://www.press.bmwgroup.com/global/article/detail/T0089173EN/captivating-from-the-outside-magnificent-from-the-inside-the-new-bmw-6-series-convertible?language=en'),
+        ('2010-11-16', 'GM raises proposed share offering price range',
+         'General Motors has raised the proposed common-share price range to $32–$33 and increased its preferred-stock offering.',
+         'https://investors.gm.com/events/event-details/gm-raises-stock-offering-price-range-and-increases-size/'),
+    )
+
+    def feed_category(self, source):
+        return 'luxury' if 'topluxurycars' in source.lower() else 'automotive'
+
+    def feed_items(self, category):
+        return self.stories[:1] if category == 'luxury' else self.stories
+
+    def feed_report(self):
+        return dict(recovered=False, notes='Two reconstructed November 2010 automotive stories; original feed selection/wording unavailable.',
+                    stories=[dict(date=d, title=t, description=b, source=u) for d, t, b, u in self.stories])
+
+    def missing_image(self, path):
+        if path in self.app.icons.values():
+            return super().missing_image(path)
+        labels = {'li.gif': '•', 'quote.gif': '“'}
+        name = path.removeprefix('/img2/')
+        if not path.startswith('/img2/') or name not in labels:
+            return None
+        width = 16
+        return (f'<svg xmlns="http://www.w3.org/2000/svg" width="{width}" height="18">'
+                f'<rect x="0.5" y="0.5" width="{width-1}" height="17" rx="2" fill="#eee" stroke="#963"/>'
+                f'<text x="{width/2}" y="13" text-anchor="middle" font-family="sans-serif" font-size="13" fill="#654">'
+                + html.escape(labels[name]) + '</text></svg>').encode(), 'image/svg+xml'
+
+
+class StarWarsPresentation(Presentation):
+    notes = ['Surviving homepage and links_home.html are served with their original artwork.']
+    flash_css = (b'p {font-family:Verdana; font-size:12px; color:#ffffff; text-align:center;}'
+                 b'.heading {font-size:10px; color:#febb01; font-weight:bold;}')
+
+    def feed_items(self, category):
+        return []  # This captured site has no RSS feed to replace.
+
+    def feed_report(self):
+        return dict(stories={}, notes='No feed reconstruction for this site.')
+
+    def page(self, path):
+        text = super().page(path).decode()
+        if path.name == 'index.html':
+            css = ('<style>#topbanner{display:block;width:960px;height:262px;line-height:0}'
+                   '#topbanner img,#wrap>img,#wrap>a>img{vertical-align:top}'
+                   '#wrap{line-height:0}#maincontent{line-height:normal}</style>')
+            text = text.replace('</head>', css + '</head>')
+        if path.name == 'links_home.html':
+            # Retain this page's original link-target behavior, without an external base URL.
+            text = text.replace('</head>', '<base target="_blank"></head>')
+        if path.name == 'starwarsflash.html':
+            # This SWF passes gatewayUrl straight to NetConnection.connect().
+            # Ruffle only selects HTTP remoting for an absolute HTTP(S) URL;
+            # the original relative URL otherwise never sends an AMF request.
+            # Update both object and embed FlashVars in the served HTML only.
+            text = text.replace('gatewayUrl=servlet/starwarsimg',
+                                'gatewayUrl=' + html.escape(self.app.origin + self.app.endpoint, quote=True))
+            # Ruffle's polyfill consumes the original object/embed parameters,
+            # including gatewayUrl, transparent background, and 158x217 dimensions.
+            boot = '''<style>html,body{margin:0;padding:0;background:transparent}
+object,embed,ruffle-object,ruffle-embed{display:block}
+#flash-status{font:11px sans-serif;color:white}</style>
+<script>
+window.RufflePlayer = {config: {autoplay:'on', unmuteOverlay:'hidden',
+  splashScreen:false, contextMenu:'off', upgradeToHttps:false,
+  showSwfDownload:false}};
+function flashFailed(message) {
+  const show = function () {
+    const status = document.getElementById('flash-status');
+    status.hidden = false; status.textContent = message;
+  };
+  if (document.readyState === 'loading') document.addEventListener('DOMContentLoaded', show);
+  else show();
+}
+window.addEventListener('securitypolicyviolation', function (e) {
+  if ((e.blockedURI || '').includes('unpkg.com'))
+    flashFailed('Flash runtime blocked: ' + e.violatedDirective);
+});
+</script>
+<script src="''' + RUFFLE_RUNTIME + '''" onerror="flashFailed('Ruffle could not load. Check access to unpkg.com.')"></script>'''
+            text = text.replace('</head>', boot + '</head>')
+            text = text.replace('</body>', '<p id="flash-status" hidden></p></body>')
+        return text.encode()
+
+    def missing_image(self, path):
+        if re.fullmatch(r'/images/[a-z]+_over\.jpg', path):
+            normal = self.files.get(path.replace('_over.jpg', '_btn.jpg'))
+            if normal:
+                return normal.read_bytes(), 'image/jpeg'
+        return None
+
+
 class LatinPresentation(Presentation):
     """Repairs specific to Latin America News Beat, never imposed on other sites."""
     notes = ['Missing secondary portraits reuse homepage slices; missing labels, logos, arrows and RSS badge are approximations.',
@@ -978,7 +1729,12 @@ class Handler(BaseHTTPRequestHandler):
         self.send_header('Cache-Control', 'no-store')
         self.send_header('X-Content-Type-Options', 'nosniff')
         # No archived script, Java network request, or image should contact a retired site.
-        self.send_header('Content-Security-Policy', "default-src 'self'; script-src 'self' 'unsafe-inline' 'unsafe-eval' blob: https://cjrtnc.leaningtech.com; connect-src 'self' https://cjrtnc.leaningtech.com; img-src 'self' data: blob: https://cjrtnc.leaningtech.com; style-src 'self' 'unsafe-inline' https://cjrtnc.leaningtech.com; font-src 'self' data: https://cjrtnc.leaningtech.com; worker-src 'self' blob: https://cjrtnc.leaningtech.com; frame-src 'self' blob: https://cjrtnc.leaningtech.com; object-src 'none'; base-uri 'self'; form-action 'self'")
+        runtime_host = {'swf': 'https://unpkg.com', 'jar': 'https://cjrtnc.leaningtech.com'}.get(self.app.site.kind, '')
+        # Ruffle probes the original object before replacing it with its player.
+        object_source = "'self'" if self.app.site.kind == 'swf' else "'none'"
+        # Ruffle initializes audio with an inline WAV, even for a silent movie.
+        media_source = "'self' data: blob:" if self.app.site.kind == 'swf' else "'self'"
+        self.send_header('Content-Security-Policy', f"default-src 'self'; script-src 'self' 'unsafe-inline' 'unsafe-eval' blob: {runtime_host}; connect-src 'self' {runtime_host}; img-src 'self' data: blob: {runtime_host}; media-src {media_source}; style-src 'self' 'unsafe-inline' {runtime_host}; font-src 'self' data: {runtime_host}; worker-src 'self' blob: {runtime_host}; frame-src 'self' blob: {runtime_host}; object-src {object_source}; base-uri 'self'; form-action 'self'")
         for name, value in headers:
             self.send_header(name, value)
         self.end_headers()
@@ -1002,8 +1758,40 @@ class Handler(BaseHTTPRequestHandler):
             return self.reply(400, b'Invalid path')
         if path in ('/', '/index.htm'):
             path = self.app.homepage_url
-        if path == self.app.site.jar_url:
-            return self.reply(200, self.app.jar, 'application/java-archive')
+        if path == self.app.site.client_url:
+            return self.reply(200, self.app.client_bytes, self.app.client_mime)
+        if self.app.site.kind == 'js':
+            if path == '/__reconstruction__/original.js':
+                return self.reply(200, self.app.original, self.app.client_mime)
+            if path == '/__reconstruction__/native.html':
+                return self.reply(404, b'This site uses native browser JavaScript. Open the homepage.')
+            if path == '/__reconstruction__/about':
+                title = html.escape(self.app.site.hostname)
+                page = ('<!doctype html><meta charset="utf-8"><title>' + title + ' reconstruction</title>'
+                        '<h1>' + title + '</h1><p>The recovered JavaScript login is at the bottom of the homepage. '
+                        'Use the demo password printed by the server. Compose and Send use the original client protocol. '
+                        'Reload and log in again to retrieve the scripted reply. Messages are kept only in server memory.</p>'
+                        '<pre>' + html.escape(json.dumps(self.app.report(), indent=2)) + '</pre><a href="/">Back to site</a>')
+                return self.reply(200, page.encode(), 'text/html; charset=utf-8')
+        if self.app.site.kind == 'swf':
+            if path == '/servlet/layouts':
+                return self.reply(200, b'a=0&e=6000', 'application/x-www-form-urlencoded')
+            if path == '/propset.css':
+                return self.reply(200, self.app.presentation.flash_css, 'text/css')
+            if path == '/__reconstruction__/original.swf':
+                return self.reply(200, self.app.original, self.app.client_mime)
+            if path == '/__reconstruction__/native.html':
+                return self.reply(404, b'This site uses Flash. Open /starwarsflash.html to run it with Ruffle.')
+            if path == '/__reconstruction__/about':
+                page = ('<!doctype html><meta charset="utf-8"><title>Star Wars reconstruction</title>'
+                        '<h1>starwarsweb.net</h1><p>The archived SWF runs in Ruffle. The server supplies '
+                        'reconstructed display settings and AMF content using surviving game artwork. '
+                        'The original panel contents and any additional server-loaded movies are missing; '
+                        'no login or messaging interface was recovered.</p><p>A small added ActionScript '
+                        'adapter restores AMF object types for Ruffle; all original SWF tags are preserved. '
+                        'Browser rendering remains unverified by the agent.</p><pre>'
+                        + html.escape(json.dumps(self.app.report(), indent=2)) + '</pre><a href="/">Back to site</a>')
+                return self.reply(200, page.encode(), 'text/html; charset=utf-8')
         if path == '/menu.js' and isinstance(self.app.presentation, LatinPresentation):
             return self.reply(200, self.app.presentation.menu_script(), 'application/javascript; charset=utf-8')
         if path == '/www.rss-to-javascript.com/images/rss-to-jss-small.gif':
@@ -1036,7 +1824,7 @@ class Handler(BaseHTTPRequestHandler):
             return self.reply(200, ('<!doctype html><meta charset="utf-8"><title>' + category.title()
                                    + ' News</title>' + fragment).encode(), 'text/html; charset=utf-8')
         if path == '/__reconstruction__/native.html':
-            page = ('<html><body><applet archive="' + html.escape(self.app.site.jar_url) + '" code="'
+            page = ('<html><body><applet archive="' + html.escape(self.app.site.client_url) + '" code="'
                     + html.escape(self.app.applet_class) + '" width="' + self.app.applet['width']
                     + '" height="' + self.app.applet['height'] + '"></applet></body></html>')
             return self.reply(200, page.encode(), 'text/html; charset=utf-8')
@@ -1064,7 +1852,7 @@ class Handler(BaseHTTPRequestHandler):
             file = self.app.files.get(path[:-4] + '.html')
         elif file is None and path.endswith('.html'):
             file = self.app.files.get(path[:-5] + '.php')
-        if file is None and path.startswith('/images/'):
+        if file is None:
             replacement = self.app.presentation.missing_image(path)
             if replacement:
                 return self.reply(200, *replacement)
@@ -1091,9 +1879,9 @@ class Handler(BaseHTTPRequestHandler):
                 raise ValueError('Truncated request')
             result = self.app.protocol(data)
         except (ValueError, TypeError, IndexError, OSError) as error:
-            print('Applet: rejected request (' + str(error) + ')', flush=True)
+            print(self.app.site.kind.upper() + ': rejected request (' + str(error) + ')', flush=True)
             return self.reply(403, b'Bad login or invalid request')
-        return self.reply(200, result, 'application/octet-stream')
+        return self.reply(200, result, self.app.response_mime)
 
 
 def self_test(app):
@@ -1148,29 +1936,224 @@ def self_test(app):
     print('PASS: ' + app.site.hostname + ': all original classes unchanged; binary upload preserved; no network used')
 
 
+def flash_self_test(app):
+    # Fixed AMF0 fixture, independent of our encoder. A Flash NetConnection.call
+    # carries a strict argument array and can use an unknown (ffffffff) length.
+    request = bytes.fromhex(
+        '0000000000010003732e6100022f31ffffffff0a00000001'
+        '030007726571756573740200034142430002696402000358595a000009')
+    headers, messages = read_amf_packet(request)
+    assert headers == [] and messages == [('s.a', '/1', [dict(request='ABC', id='XYZ')])]
+    _, responses = read_amf_packet(app.protocol(request))
+    target, response, panel = responses[0]
+    assert (target, response, panel.alias) == ('/1/onResult', 'null', 'k')
+    assert [child.alias for child in panel.fields['d']] == ['l', 'o', 'l']
+    assert panel.fields['d'][1].fields['p'] in app.files
+    batch = amf_packet([('s.a', '/2', [dict(request='A'*59, id='B'*37)]),
+                        ('s.a', '/3', [dict(request='C'*59, id='D'*37)])],
+                       [('header', False, 'E'*46)])
+    _, responses = read_amf_packet(app.protocol(batch))
+    assert [r[0] for r in responses] == ['/2/onResult', '/3/onResult']
+    for bad in (request[:-1], request + b'x', b'\x00\x03' + request[2:],
+                request.replace(b's.a', b'x.y'), amf_packet([('s.a', '/1', None)])):
+        try:
+            app.protocol(bad)
+        except (ValueError, IndexError):
+            pass
+        else:
+            raise AssertionError('Invalid AMF request accepted')
+    report = app.report()
+    assert report['all_original_tags_identical']
+    old_header, old_tags = swf_parts(app.original)
+    new_header, new_tags = swf_parts(app.client_bytes)
+    assert old_header[3:4] == new_header[3:4] and old_header[8:] == new_header[8:]
+    assert len(new_tags) == len(old_tags) + 1
+    page = app.page(app.files['/starwarsflash.html'])
+    assert RUFFLE_RUNTIME.encode() in page
+    assert page.count(('gatewayUrl=' + app.origin + app.endpoint).encode()) == 2
+    assert b'gatewayUrl=servlet/starwarsimg' not in page
+    assert b'gatewayUrl=servlet/starwarsimg' in app.files['/starwarsflash.html'].read_bytes()
+    assert b'cheerpjInit' not in page
+    assert not report['messaging_recovered']
+    print('PASS: starwarsweb.net: original SWF tags preserved; AMF0 fixture, typed content, batching and invalid requests checked. Ruffle graphics not tested.')
+
+
+JAVASCRIPT_CHECK = r"""const vm = require('node:vm');
+const fs = require('node:fs');
+const readline = require('node:readline');
+const assert = require('node:assert/strict');
+const source = fs.readFileSync(process.argv[2], 'utf8');
+const password = process.argv[3], initial = process.argv[4], reply = process.argv[5];
+const containerId = process.argv[6];
+const names = source.startsWith('var _headerInbox=')
+    ? {url:'_url', ready:'_dmComplete', messages:'getMessageArray', text:'getMessageText', success:'_confirmMessageUploaded', failure:'_errorMessageLogin', draft:'_composeData'}
+    : {url:'ta', ready:'gu', messages:'by', text:'kq', success:'gc', failure:'ig', draft:'bb'};
+const messages = c => c.ctx[names.messages]();
+const messageText = m => m[names.text]();
+let pending = null;
+const input = readline.createInterface({input: process.stdin});
+input.on('line', line => {
+    assert(pending, 'unsolicited transport reply');
+    const xhr = pending; pending = null;
+    xhr.readyState = 4;
+    xhr.status = line.startsWith('ERROR ') ? 403 : 200;
+    xhr.responseText = xhr.status === 200 ? Buffer.from(line, 'base64').toString('utf8') : '';
+    xhr.onreadystatechange();
+});
+function client() {
+    const elements = new Map(), alerts = [], ctx = {};
+    let markup = '';
+    const root = {
+        get innerHTML() { return markup; },
+        set innerHTML(value) {
+            markup = value; elements.clear();
+            for (const match of value.matchAll(/<(input|textarea|select|form)\b([^>]*)>/g)) {
+                const attrs = Object.fromEntries([...match[2].matchAll(/([\w-]+)='([^']*)'/g)].map(a => [a[1], a[2]]));
+                const el = {tag: match[1], attrs, value: attrs.value || '', selectionStart: 0,
+                    focus() {}, setSelectionRange(a) {this.selectionStart = a;},
+                    getAttribute(k) {return this.attrs[k];}};
+                if (el.tag === 'textarea') el.value = value.slice(match.index + match[0].length).split('</textarea>')[0];
+                if (el.tag === 'select') {
+                    const options = [...value.matchAll(/<option value='([^']*)'([^>]*)>/g)];
+                    el.value = (options.find(o => o[2].includes('selected')) || options[0] || [,''])[1];
+                }
+                elements.set(attrs.id || attrs.name, el);
+            }
+        },
+        getElementsByTagName(tag) {return [...elements.values()].filter(e => e.tag === tag);}
+    };
+    Object.assign(ctx, {
+        navigator: {appCodeName:'Mozilla',appName:'Netscape',appVersion:'demo',userAgent:'offline client test',language:'en',platform:'test',cookieEnabled:true,plugins:[],mimeTypes:[],javaEnabled:()=>false},
+        history: {length:1},
+        document: {referrer:'',getElementById: id => id === containerId ? root : elements.get(id)},
+        alert: message => alerts.push(message), confirm: () => true,
+        close: () => {ctx.closed = true;},
+        XMLHttpRequest: function () {
+            this.open = (method, url) => {assert.equal(method, 'POST'); assert.equal(url, ctx[names.url]);};
+            this.send = data => {
+                assert.equal(pending, null, 'concurrent legacy XHR'); pending = this;
+                process.stdout.write('REQUEST ' + Buffer.from(data, 'utf8').toString('base64') + '\n');
+            };
+        },
+        setTimeout: (fn, delay) => setTimeout(() => typeof fn === 'string' ? vm.runInContext(fn, ctx) : fn(), delay),
+        clearTimeout,
+    });
+    ctx.window = ctx; ctx.self = ctx;
+    vm.createContext(ctx);
+    vm.runInContext(source, ctx);
+    ctx.displayDiv = containerId;
+    return {ctx, root, elements, alerts};
+}
+async function until(predicate) {
+    for (let i = 0; i < 2000; i++) {if (predicate()) return; await new Promise(r => setTimeout(r, 5));}
+    throw new Error('Client callback timed out');
+}
+async function login(c, pw) {
+    c.ctx.func0();
+    assert.match(c.root.innerHTML, /onSubmit='func1\(\);return false'/);
+    c.elements.get('pw').value = pw; c.ctx.func1();
+    await until(() => c.ctx[names.ready] || c.alerts.length);
+}
+(async () => {
+    const c = client(); await login(c, password);
+    assert.deepEqual(c.alerts, []); assert.equal(messages(c).length, 1);
+    assert.equal(messageText(messages(c)[0]), initial); assert.equal(c.elements.get('message').value, initial);
+    assert(!c.root.innerHTML.includes('undefined')); assert.match(c.root.innerHTML, /onchange='func6\(this.value\)'/);
+    c.ctx.func3(); assert(c.elements.get('compose').value.includes(initial)); // Reply quotes selected message.
+    c.ctx.func7(); c.ctx.func2();
+    c.elements.get('compose').value = 'I can get the info today. Can we arrange a dead drop at our usual location tomorrow 9 AM?\nOriginal JS: café 世界';
+    c.ctx.func8(); await until(() => c.alerts.length);
+    assert.deepEqual(c.alerts, [c.ctx[names.success]]); assert.equal(c.ctx[names.draft], '');
+    assert.equal(messages(c).length, 1, 'reply must wait for fresh inbox retrieval');
+    const d = client(); await login(d, password);
+    assert.deepEqual(d.alerts, []); assert.equal(messages(d).length, 2);
+    d.elements.get('msgList').value = '1'; d.ctx.func6('1');
+    assert.equal(d.elements.get('message').value, reply);
+    d.ctx.func4(); await until(() => !pending && messages(d).length === 1);
+    const e = client(); await login(e, password);
+    assert.equal(messages(e).length, 1); assert.equal(messageText(messages(e)[0]), initial);
+    e.ctx.func5(); assert.equal(e.root.innerHTML, ''); assert(e.ctx.closed);
+    const bad = client(); await login(bad, password + '!');
+    assert.deepEqual(bad.alerts, [bad.ctx[names.failure]]);
+    console.log('PASS: recovered JavaScript RSA/challenge/AES client: login, inbox, Unicode send, reply, reload, delete, exit and bad password. DOM/XHR mocked; no browser rendering claimed.');
+    input.close();
+})().catch(error => {console.error(error); process.exit(1);});
+"""
+
+
+def javascript_self_test(app):
+    """Run the recovered client under Node with only DOM and HTTP transport mocked."""
+    if not shutil.which('node'):
+        raise SystemExit('The JavaScript integration check needs Node.js (node). The website needs only a browser.')
+    with tempfile.TemporaryDirectory(prefix='javascript-check-') as temp:
+        root = Path(temp)
+        source, runner = root / 'driver.js', root / 'check.js'
+        source.write_bytes(app.client_bytes)
+        runner.write_text(JAVASCRIPT_CHECK)
+        process = subprocess.Popen(['node', str(runner), str(source), app.demo_password, DEMO_INITIAL, DEMO_REPLY, app.display_div],
+                                   stdin=subprocess.PIPE, stdout=subprocess.PIPE, text=True, bufsize=1)
+        passed = False
+        timer = threading.Timer(60, process.kill)
+        timer.start()
+        try:
+            for line in process.stdout:
+                if line.startswith('REQUEST '):
+                    try:
+                        answer = base64.b64encode(app.protocol(base64.b64decode(line[8:]))).decode()
+                    except (ValueError, TypeError, IndexError) as error:
+                        answer = 'ERROR ' + str(error)
+                    process.stdin.write(answer + '\n')
+                    process.stdin.flush()
+                else:
+                    print(line, end='')
+                    passed |= line.startswith('PASS:')
+            if process.wait() != 0 or not passed:
+                raise SystemExit('Recovered JavaScript client integration check failed')
+        finally:
+            timer.cancel()
+            if process.poll() is None:
+                process.kill()
+                process.wait()
+    assert app.report()['only_documented_changes']
+    text_messages = [m for m in app.received if m['category'] == 'text']
+    assert len(text_messages) == 1
+    assert text_messages[0]['body'].decode().endswith('Original JS: café 世界')
+    metadata = [m for m in app.received if m['category'] == 'metadata']
+    assert len(metadata) == (3 if app.sends_metadata else 0)
+    assert len(app.messages) == 1
+
+
 def main():
     parser = argparse.ArgumentParser(description=__doc__, formatter_class=argparse.RawDescriptionHelpFormatter)
     parser.add_argument('hostname', nargs='?', default=DEFAULT_HOST, help='site to reconstruct (default: %(default)s)')
-    parser.add_argument('--list', action='store_true', help='list supported hostnames and exit')
+    parser.add_argument('--list', action='store_true', help='list supported hostnames in JAR, SWF and JS sections')
     parser.add_argument('--dump', type=Path, default=DEFAULT_DUMP, help='archive root; default: ../../cia-2010-websites-dump/ relative to this script')
     parser.add_argument('--port', type=int, default=8000)
-    parser.add_argument('--password', default='demodemodemo', help='local demo password (default: %(default)s); never an original credential')
+    parser.add_argument('--password', default='demodemodemo', help='JAR/JS demo password (default: %(default)s); never an original credential')
     parser.add_argument('--native', action='store_true', help='launch Java 8 appletviewer in addition to serving the website')
-    parser.add_argument('--check', action='store_true', help='verify JAR preservation and resource round trip, then exit')
-    parser.add_argument('--self-test', action='store_true', help='run original Java protocol classes against the Python server logic, offline')
+    parser.add_argument('--check', action='store_true', help='report client preservation and reconstruction provenance, then exit')
+    parser.add_argument('--self-test', action='store_true', help='offline Java/JavaScript client integration or SWF/AMF protocol checks')
     args = parser.parse_args()
     if args.list:
-        for site in SITES.values():
-            print(f'{site.hostname:30} {site.language:2}  {site.description}')
+        for kind in ('jar', 'swf', 'js'):
+            print(('\n' if kind != 'jar' else '') + kind.upper())
+            for site in SITES.values():
+                if site.kind == kind:
+                    print(f'  {site.hostname:30} {site.language:2}  {site.description}')
         return
     hostname = args.hostname.lower().removeprefix('www.').rstrip('.')
+    hostname = next((name for name in SITES if name.removeprefix('www.') == hostname), hostname)
     if hostname not in SITES:
         parser.error('Unsupported hostname: ' + args.hostname + '. Use --list to see supported sites.')
     if not 1 <= args.port <= 65535 or not 1 <= len(args.password.encode()) <= 64:
         parser.error('Use a port in 1..65535 and a password of 1..64 UTF-8 bytes')
-    app = Reconstruction(args.dump.resolve(), args.port, args.password, SITES[hostname])
+    site = SITES[hostname]
+    if args.native and site.kind != 'jar':
+        parser.error('--native uses Java appletviewer and applies to JAR sites only. Use the browser for this site.')
+    factory = {'jar': Reconstruction, 'swf': FlashReconstruction, 'js': JavaScriptReconstruction}[site.kind]
+    app = factory(args.dump.resolve(), args.port, args.password, site)
     if args.self_test:
-        self_test(app)
+        {'jar': self_test, 'swf': flash_self_test, 'js': javascript_self_test}[site.kind](app)
         return
     if args.check:
         print(json.dumps(app.report(), indent=2))
@@ -1180,9 +2163,16 @@ def main():
     viewer = None
     print('Site: ' + app.origin + '/', flush=True)
     print('Reconstructing: ' + app.site.hostname, flush=True)
-    print('Demo password: ' + args.password, flush=True)
+    if site.kind in ('jar', 'js'):
+        print('Demo password: ' + args.password, flush=True)
+    else:
+        print('SWF: original content loader with reconstructed server responses; no recovered login/messaging UI.', flush=True)
     print('Archive read in place: ' + str(app.root), flush=True)
-    print('Messages live only in memory. Exit and log in again to retrieve demo replies.', flush=True)
+    if site.kind in ('jar', 'js'):
+        action = 'Reload' if site.kind == 'js' else 'Exit'
+        print('Messages live only in memory. ' + action + ' and log in again to retrieve demo replies.', flush=True)
+    if site.kind == 'js':
+        print('JavaScript: scroll to Login at the bottom, or open ' + app.origin + '/#' + app.display_div, flush=True)
     if args.native:
         executable = shutil.which('appletviewer')
         if not executable:

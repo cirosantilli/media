@@ -1,3 +1,5 @@
 hits.txt
-/jar
-/swf
+/jar/*
+/swf/*
+!/jar/dates.csv
+!/swf/dates.csv

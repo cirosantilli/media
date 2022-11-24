@@ -496,7 +496,7 @@ def inspect(path, emit):
 
 # Report exporters are embedded so this script can be moved on its own.
 DATE_FIELDS = ("file", "artifact_type", "kind", "entry", "member", "raw_value",
-          "local_datetime", "timezone", "utc_datetime", "interpretation")
+          "local_datetime", "timezone", "utc_datetime")
 MONTHS = {name: i for i, name in enumerate(
     "Jan Feb Mar Apr May Jun Jul Aug Sep Oct Nov Dec".split(), 1)}
 CONFIG_DATE = re.compile(
@@ -516,18 +516,20 @@ def calendar_date(match):
         return ""
 
 
-def date_rows(inventory):
+def date_rows(inventory, root=None):
     rows = []
     for artifact in inventory:
         file = artifact.get("jar", artifact.get("swf", ""))
+        if root is not None:
+            file = str(Path(file).relative_to(root))
         artifact_type = "swf" if "swf" in artifact else Path(file).suffix.lstrip(".").lower()
         if artifact.get("valid_zip") is False:
             artifact_type = "non-archive"
 
-        def add(kind, raw, local="", zone="", utc="", entry="", member="", interpretation=""):
+        def add(kind, raw, local="", zone="", utc="", entry="", member=""):
             rows.append(dict(file=file, artifact_type=artifact_type, kind=kind, entry=entry,
                              member=member, raw_value=raw, local_datetime=local,
-                             timezone=zone, utc_datetime=utc, interpretation=interpretation))
+                             timezone=zone, utc_datetime=utc))
 
         for part in Path(file).parts:
             if re.fullmatch(r"\d{14}", part):
@@ -535,12 +537,10 @@ def date_rows(inventory):
                     stamp = dt.datetime.strptime(part, "%Y%m%d%H%M%S").isoformat()
                 except ValueError:
                     continue
-                add("wayback_capture", part, stamp, "UTC", stamp+"Z",
-                    interpretation="Capture timestamp from dump path; not a build date")
+                add("wayback_capture", part, stamp, "UTC", stamp+"Z")
                 break
         for stamp in sorted(set(artifact.get("timestamps", []))):
-            add("zip_entry_timestamp", stamp, stamp, "unspecified",
-                interpretation="Distinct ZIP modification time; inventory does not retain member mapping")
+            add("zip_entry_timestamp", stamp, stamp, "unspecified")
         for resource in artifact.get("resources", []):
             for member in [resource] + resource.get("members", []):
                 # Duplicate generated comments within one member describe the same date.
@@ -554,8 +554,7 @@ def date_rows(inventory):
                             continue
                         seen.add(raw)
                         add("config_date_comment", raw, calendar_date(match), match["zone"],
-                            entry=resource["entry"], member=member.get("name", ""),
-                            interpretation="Stored configuration comment; timezone abbreviation preserved, not resolved")
+                            entry=resource["entry"], member=member.get("name", ""))
                 match = re.search(r"\.old\.(\d{13})$", member.get("name", ""))
                 if match:
                     stamp = (dt.datetime(1970, 1, 1, tzinfo=dt.timezone.utc) +
@@ -563,16 +562,14 @@ def date_rows(inventory):
                     add("backup_filename_epoch_ms", match[1],
                         stamp.replace(tzinfo=None).isoformat(timespec="milliseconds"), "UTC",
                         stamp.isoformat(timespec="milliseconds").replace("+00:00", "Z"),
-                        resource["entry"], member["name"],
-                        "Filename suffix interpreted as Unix epoch milliseconds; not authenticated")
+                        resource["entry"], member["name"])
         for block in artifact.get("certificates", []):
             for cert in block.get("certificates", []):
                 for kind, raw in re.findall(r"^(notBefore|notAfter)=(.*)$", cert.get("details", ""), re.M):
                     match = CERT_DATE.fullmatch(raw)
                     stamp = calendar_date(match) if match else ""
                     add("certificate_"+kind, raw, stamp, "UTC" if stamp else "",
-                        stamp+"Z" if stamp else "", block["entry"], cert.get("public_key_sha256", ""),
-                        "Certificate validity boundary; not a signing date or trust verification")
+                        stamp+"Z" if stamp else "", block["entry"], cert.get("public_key_sha256", ""))
     # Keep all captures and artifacts from one site together. The site directory
     # is the parent of the capture directory, even for nested artifact paths.
     by_site = collections.defaultdict(list)
@@ -592,8 +589,8 @@ def date_rows(inventory):
                 r["entry"], r["member"], r["raw_value"]))]
 
 
-def write_dates(inventory, path):
-    rows = date_rows(inventory)
+def write_dates(inventory, path, root=None):
+    rows = date_rows(inventory, root)
     with Path(path).open("w", newline="", encoding="utf-8") as out:
         writer = csv.DictWriter(out, fieldnames=DATE_FIELDS)
         writer.writeheader()
@@ -781,7 +778,7 @@ def main():
             except (OSError, ValueError, zipfile.BadZipFile) as e:
                 summaries.append(dict(jar=str(p), errors=[str(e)]))
     (output / "inventory.json").write_text(json.dumps(summaries, indent=2) + "\n")
-    write_dates(summaries, output / "dates.csv")
+    write_dates(summaries, output / "dates.csv", directory)
     write_certificates(summaries, output / "certificates.csv")
     write_paths(output / "strings.jsonl", output / "internal-paths.csv")
     resources = [r for j in summaries for r in j.get("resources", [])]

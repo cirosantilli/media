@@ -1,0 +1,3010 @@
+{
+  "scope": "All eleven reconstructed JS messaging sites; all archived capture paths searched case-insensitively for referenced filenames. Embedded JAR artwork compared using the existing decoded inventory and verified source JAR hashes.",
+  "js_sites": 11,
+  "icon_roles": 77,
+  "same_site_recovered": 1,
+  "missing_same_site": 76,
+  "conclusions": [
+    "One same-site JS icon survives: Iran Football Source’s golden football (48x48 PNG), captured in July 2013.",
+    "Six toolbar roles plus Lock have matching unmodified artwork in the related Java client family. Each role has exactly one byte hash across its occurrences.",
+    "Wahid Futbol uses the same seven basenames as the JAR resources after removing res.; other JS sites mostly rename them.",
+    "The JAR graphics are used as documented substitutes for missing JS artwork. Identical original JS graphics cannot be established without the missing files.",
+    "A pixel-hash scan of 325 small (12..64 pixel) archived images found no second copy of the golden football. Renamed missing artwork cannot be identified conclusively."
+  ],
+  "icons": [
+    {
+      "site": "classymotors.net",
+      "client": "20110106001007/driver.js",
+      "role": "login",
+      "expected_url": "/img2/star.gif",
+      "same_site_recovered": false,
+      "matching_filenames_in_archive": [],
+      "served_source": "latinamericanewsbeat.com/20100513191045/today.jar",
+      "served_member": "res.Lock.png",
+      "served_sha256": "6ca97582c11a808d9b5323cf83a2d82e2836a1848c7b7a9b20d9cb06af8f1427",
+      "substitution": "Recovered JAR artwork; exact JS artwork unverified"
+    },
+    {
+      "site": "classymotors.net",
+      "client": "20110106001007/driver.js",
+      "role": "compose",
+      "expected_url": "/img2/cm_04.gif",
+      "same_site_recovered": false,
+      "matching_filenames_in_archive": [],
+      "served_source": "latinamericanewsbeat.com/20100513191045/today.jar",
+      "served_member": "res.Compose.gif",
+      "served_sha256": "a4492cb496917e7629117817845144bf9ed7726c9bb43f45a62e2ac5d8287d43",
+      "substitution": "Recovered JAR artwork; exact JS artwork unverified"
+    },
+    {
+      "site": "classymotors.net",
+      "client": "20110106001007/driver.js",
+      "role": "reply",
+      "expected_url": "/img2/cm_02.gif",
+      "same_site_recovered": false,
+      "matching_filenames_in_archive": [],
+      "served_source": "latinamericanewsbeat.com/20100513191045/today.jar",
+      "served_member": "res.Reply.gif",
+      "served_sha256": "4fd085432613c9887519bffcfbf0a08a4c43178c620002634aa83083f115e700",
+      "substitution": "Recovered JAR artwork; exact JS artwork unverified"
+    },
+    {
+      "site": "classymotors.net",
+      "client": "20110106001007/driver.js",
+      "role": "delete",
+      "expected_url": "/img2/cm_06.gif",
+      "same_site_recovered": false,
+      "matching_filenames_in_archive": [],
+      "served_source": "latinamericanewsbeat.com/20100513191045/today.jar",
+      "served_member": "res.Delete.gif",
+      "served_sha256": "c3f281ebad1f866d5004f8ef777d51bf2c722430389ddee83ade31ac1feb311c",
+      "substitution": "Recovered JAR artwork; exact JS artwork unverified"
+    },
+    {
+      "site": "classymotors.net",
+      "client": "20110106001007/driver.js",
+      "role": "exit",
+      "expected_url": "/img2/cm_03.gif",
+      "same_site_recovered": false,
+      "matching_filenames_in_archive": [],
+      "served_source": "latinamericanewsbeat.com/20100513191045/today.jar",
+      "served_member": "res.Close.gif",
+      "served_sha256": "1948ff83ae5fbe68591605799a363b1fad2524149d2e2a8fb40c54ce71670cec",
+      "substitution": "Recovered JAR artwork; exact JS artwork unverified"
+    },
+    {
+      "site": "classymotors.net",
+      "client": "20110106001007/driver.js",
+      "role": "inbox",
+      "expected_url": "/img2/cm_05.gif",
+      "same_site_recovered": false,
+      "matching_filenames_in_archive": [],
+      "served_source": "latinamericanewsbeat.com/20100513191045/today.jar",
+      "served_member": "res.Inbox.gif",
+      "served_sha256": "75301cbc0fa5e0b25e7777206b9a9a044408ebd849e796fdde8c55d89f67ab3e",
+      "substitution": "Recovered JAR artwork; exact JS artwork unverified"
+    },
+    {
+      "site": "classymotors.net",
+      "client": "20110106001007/driver.js",
+      "role": "send",
+      "expected_url": "/img2/cm_01.gif",
+      "same_site_recovered": false,
+      "matching_filenames_in_archive": [],
+      "served_source": "latinamericanewsbeat.com/20100513191045/today.jar",
+      "served_member": "res.Send.gif",
+      "served_sha256": "386672b9e863aa163c2ef6c478ef74cb4932cb284be76956701b985bb1cef02a",
+      "substitution": "Recovered JAR artwork; exact JS artwork unverified"
+    },
+    {
+      "site": "iranfootballsource.com",
+      "client": "20110202091901/futbol.js",
+      "role": "login",
+      "expected_url": "/images/soccer_33.png",
+      "same_site_recovered": true,
+      "matching_filenames_in_archive": [
+        {
+          "file": "iranfootballsource.com/20130731080014/images/soccer_33.png",
+          "sha256": "837ff6825161337bd30fcc7716173c2ab27d0d2da0404a59ac401c71cef79293",
+          "size": 4276
+        }
+      ],
+      "served_source": "iranfootballsource.com/20130731080014/images/soccer_33.png",
+      "served_member": null,
+      "served_sha256": "837ff6825161337bd30fcc7716173c2ab27d0d2da0404a59ac401c71cef79293",
+      "substitution": null
+    },
+    {
+      "site": "iranfootballsource.com",
+      "client": "20110202091901/futbol.js",
+      "role": "compose",
+      "expected_url": "/images/soccer_32.gif",
+      "same_site_recovered": false,
+      "matching_filenames_in_archive": [],
+      "served_source": "latinamericanewsbeat.com/20100513191045/today.jar",
+      "served_member": "res.Compose.gif",
+      "served_sha256": "a4492cb496917e7629117817845144bf9ed7726c9bb43f45a62e2ac5d8287d43",
+      "substitution": "Recovered JAR artwork; exact JS artwork unverified"
+    },
+    {
+      "site": "iranfootballsource.com",
+      "client": "20110202091901/futbol.js",
+      "role": "reply",
+      "expected_url": "/images/soccer_34.gif",
+      "same_site_recovered": false,
+      "matching_filenames_in_archive": [],
+      "served_source": "latinamericanewsbeat.com/20100513191045/today.jar",
+      "served_member": "res.Reply.gif",
+      "served_sha256": "4fd085432613c9887519bffcfbf0a08a4c43178c620002634aa83083f115e700",
+      "substitution": "Recovered JAR artwork; exact JS artwork unverified"
+    },
+    {
+      "site": "iranfootballsource.com",
+      "client": "20110202091901/futbol.js",
+      "role": "delete",
+      "expected_url": "/images/soccer_35.gif",
+      "same_site_recovered": false,
+      "matching_filenames_in_archive": [],
+      "served_source": "latinamericanewsbeat.com/20100513191045/today.jar",
+      "served_member": "res.Delete.gif",
+      "served_sha256": "c3f281ebad1f866d5004f8ef777d51bf2c722430389ddee83ade31ac1feb311c",
+      "substitution": "Recovered JAR artwork; exact JS artwork unverified"
+    },
+    {
+      "site": "iranfootballsource.com",
+      "client": "20110202091901/futbol.js",
+      "role": "exit",
+      "expected_url": "/images/soccer_36.gif",
+      "same_site_recovered": false,
+      "matching_filenames_in_archive": [],
+      "served_source": "latinamericanewsbeat.com/20100513191045/today.jar",
+      "served_member": "res.Close.gif",
+      "served_sha256": "1948ff83ae5fbe68591605799a363b1fad2524149d2e2a8fb40c54ce71670cec",
+      "substitution": "Recovered JAR artwork; exact JS artwork unverified"
+    },
+    {
+      "site": "iranfootballsource.com",
+      "client": "20110202091901/futbol.js",
+      "role": "inbox",
+      "expected_url": "/images/soccer_37.gif",
+      "same_site_recovered": false,
+      "matching_filenames_in_archive": [],
+      "served_source": "latinamericanewsbeat.com/20100513191045/today.jar",
+      "served_member": "res.Inbox.gif",
+      "served_sha256": "75301cbc0fa5e0b25e7777206b9a9a044408ebd849e796fdde8c55d89f67ab3e",
+      "substitution": "Recovered JAR artwork; exact JS artwork unverified"
+    },
+    {
+      "site": "iranfootballsource.com",
+      "client": "20110202091901/futbol.js",
+      "role": "send",
+      "expected_url": "/images/soccer_38.gif",
+      "same_site_recovered": false,
+      "matching_filenames_in_archive": [],
+      "served_source": "latinamericanewsbeat.com/20100513191045/today.jar",
+      "served_member": "res.Send.gif",
+      "served_sha256": "386672b9e863aa163c2ef6c478ef74cb4932cb284be76956701b985bb1cef02a",
+      "substitution": "Recovered JAR artwork; exact JS artwork unverified"
+    },
+    {
+      "site": "iraniangoals.com",
+      "client": "20110202091909/journal.js",
+      "role": "login",
+      "expected_url": "/images/1.png",
+      "same_site_recovered": false,
+      "matching_filenames_in_archive": [],
+      "served_source": "latinamericanewsbeat.com/20100513191045/today.jar",
+      "served_member": "res.Lock.png",
+      "served_sha256": "6ca97582c11a808d9b5323cf83a2d82e2836a1848c7b7a9b20d9cb06af8f1427",
+      "substitution": "Recovered JAR artwork; exact JS artwork unverified"
+    },
+    {
+      "site": "iraniangoals.com",
+      "client": "20110202091909/journal.js",
+      "role": "compose",
+      "expected_url": "/images/2.gif",
+      "same_site_recovered": false,
+      "matching_filenames_in_archive": [],
+      "served_source": "latinamericanewsbeat.com/20100513191045/today.jar",
+      "served_member": "res.Compose.gif",
+      "served_sha256": "a4492cb496917e7629117817845144bf9ed7726c9bb43f45a62e2ac5d8287d43",
+      "substitution": "Recovered JAR artwork; exact JS artwork unverified"
+    },
+    {
+      "site": "iraniangoals.com",
+      "client": "20110202091909/journal.js",
+      "role": "reply",
+      "expected_url": "/images/3.gif",
+      "same_site_recovered": false,
+      "matching_filenames_in_archive": [],
+      "served_source": "latinamericanewsbeat.com/20100513191045/today.jar",
+      "served_member": "res.Reply.gif",
+      "served_sha256": "4fd085432613c9887519bffcfbf0a08a4c43178c620002634aa83083f115e700",
+      "substitution": "Recovered JAR artwork; exact JS artwork unverified"
+    },
+    {
+      "site": "iraniangoals.com",
+      "client": "20110202091909/journal.js",
+      "role": "delete",
+      "expected_url": "/images/4.gif",
+      "same_site_recovered": false,
+      "matching_filenames_in_archive": [],
+      "served_source": "latinamericanewsbeat.com/20100513191045/today.jar",
+      "served_member": "res.Delete.gif",
+      "served_sha256": "c3f281ebad1f866d5004f8ef777d51bf2c722430389ddee83ade31ac1feb311c",
+      "substitution": "Recovered JAR artwork; exact JS artwork unverified"
+    },
+    {
+      "site": "iraniangoals.com",
+      "client": "20110202091909/journal.js",
+      "role": "exit",
+      "expected_url": "/images/5.gif",
+      "same_site_recovered": false,
+      "matching_filenames_in_archive": [],
+      "served_source": "latinamericanewsbeat.com/20100513191045/today.jar",
+      "served_member": "res.Close.gif",
+      "served_sha256": "1948ff83ae5fbe68591605799a363b1fad2524149d2e2a8fb40c54ce71670cec",
+      "substitution": "Recovered JAR artwork; exact JS artwork unverified"
+    },
+    {
+      "site": "iraniangoals.com",
+      "client": "20110202091909/journal.js",
+      "role": "inbox",
+      "expected_url": "/images/6.gif",
+      "same_site_recovered": false,
+      "matching_filenames_in_archive": [],
+      "served_source": "latinamericanewsbeat.com/20100513191045/today.jar",
+      "served_member": "res.Inbox.gif",
+      "served_sha256": "75301cbc0fa5e0b25e7777206b9a9a044408ebd849e796fdde8c55d89f67ab3e",
+      "substitution": "Recovered JAR artwork; exact JS artwork unverified"
+    },
+    {
+      "site": "iraniangoals.com",
+      "client": "20110202091909/journal.js",
+      "role": "send",
+      "expected_url": "/images/7.gif",
+      "same_site_recovered": false,
+      "matching_filenames_in_archive": [],
+      "served_source": "latinamericanewsbeat.com/20100513191045/today.jar",
+      "served_member": "res.Send.gif",
+      "served_sha256": "386672b9e863aa163c2ef6c478ef74cb4932cb284be76956701b985bb1cef02a",
+      "substitution": "Recovered JAR artwork; exact JS artwork unverified"
+    },
+    {
+      "site": "kukrinews.com",
+      "client": "20100513094909/news.js",
+      "role": "login",
+      "expected_url": "/images/language.png",
+      "same_site_recovered": false,
+      "matching_filenames_in_archive": [],
+      "served_source": "latinamericanewsbeat.com/20100513191045/today.jar",
+      "served_member": "res.Lock.png",
+      "served_sha256": "6ca97582c11a808d9b5323cf83a2d82e2836a1848c7b7a9b20d9cb06af8f1427",
+      "substitution": "Recovered JAR artwork; exact JS artwork unverified"
+    },
+    {
+      "site": "kukrinews.com",
+      "client": "20100513094909/news.js",
+      "role": "compose",
+      "expected_url": "/images/cricket.gif",
+      "same_site_recovered": false,
+      "matching_filenames_in_archive": [],
+      "served_source": "latinamericanewsbeat.com/20100513191045/today.jar",
+      "served_member": "res.Compose.gif",
+      "served_sha256": "a4492cb496917e7629117817845144bf9ed7726c9bb43f45a62e2ac5d8287d43",
+      "substitution": "Recovered JAR artwork; exact JS artwork unverified"
+    },
+    {
+      "site": "kukrinews.com",
+      "client": "20100513094909/news.js",
+      "role": "reply",
+      "expected_url": "/images/return.gif",
+      "same_site_recovered": false,
+      "matching_filenames_in_archive": [],
+      "served_source": "latinamericanewsbeat.com/20100513191045/today.jar",
+      "served_member": "res.Reply.gif",
+      "served_sha256": "4fd085432613c9887519bffcfbf0a08a4c43178c620002634aa83083f115e700",
+      "substitution": "Recovered JAR artwork; exact JS artwork unverified"
+    },
+    {
+      "site": "kukrinews.com",
+      "client": "20100513094909/news.js",
+      "role": "delete",
+      "expected_url": "/images/dine.gif",
+      "same_site_recovered": false,
+      "matching_filenames_in_archive": [],
+      "served_source": "latinamericanewsbeat.com/20100513191045/today.jar",
+      "served_member": "res.Delete.gif",
+      "served_sha256": "c3f281ebad1f866d5004f8ef777d51bf2c722430389ddee83ade31ac1feb311c",
+      "substitution": "Recovered JAR artwork; exact JS artwork unverified"
+    },
+    {
+      "site": "kukrinews.com",
+      "client": "20100513094909/news.js",
+      "role": "exit",
+      "expected_url": "/images/entertainment.gif",
+      "same_site_recovered": false,
+      "matching_filenames_in_archive": [],
+      "served_source": "latinamericanewsbeat.com/20100513191045/today.jar",
+      "served_member": "res.Close.gif",
+      "served_sha256": "1948ff83ae5fbe68591605799a363b1fad2524149d2e2a8fb40c54ce71670cec",
+      "substitution": "Recovered JAR artwork; exact JS artwork unverified"
+    },
+    {
+      "site": "kukrinews.com",
+      "client": "20100513094909/news.js",
+      "role": "inbox",
+      "expected_url": "/images/index.gif",
+      "same_site_recovered": false,
+      "matching_filenames_in_archive": [],
+      "served_source": "latinamericanewsbeat.com/20100513191045/today.jar",
+      "served_member": "res.Inbox.gif",
+      "served_sha256": "75301cbc0fa5e0b25e7777206b9a9a044408ebd849e796fdde8c55d89f67ab3e",
+      "substitution": "Recovered JAR artwork; exact JS artwork unverified"
+    },
+    {
+      "site": "kukrinews.com",
+      "client": "20100513094909/news.js",
+      "role": "send",
+      "expected_url": "/images/sport.gif",
+      "same_site_recovered": false,
+      "matching_filenames_in_archive": [],
+      "served_source": "latinamericanewsbeat.com/20100513191045/today.jar",
+      "served_member": "res.Send.gif",
+      "served_sha256": "386672b9e863aa163c2ef6c478ef74cb4932cb284be76956701b985bb1cef02a",
+      "substitution": "Recovered JAR artwork; exact JS artwork unverified"
+    },
+    {
+      "site": "middle-east-newstoday.com",
+      "client": "20100517070625/kurds.js",
+      "role": "login",
+      "expected_url": "/images/index_44.png",
+      "same_site_recovered": false,
+      "matching_filenames_in_archive": [],
+      "served_source": "latinamericanewsbeat.com/20100513191045/today.jar",
+      "served_member": "res.Lock.png",
+      "served_sha256": "6ca97582c11a808d9b5323cf83a2d82e2836a1848c7b7a9b20d9cb06af8f1427",
+      "substitution": "Recovered JAR artwork; exact JS artwork unverified"
+    },
+    {
+      "site": "middle-east-newstoday.com",
+      "client": "20100517070625/kurds.js",
+      "role": "compose",
+      "expected_url": "/images/image_1.gif",
+      "same_site_recovered": false,
+      "matching_filenames_in_archive": [],
+      "served_source": "latinamericanewsbeat.com/20100513191045/today.jar",
+      "served_member": "res.Compose.gif",
+      "served_sha256": "a4492cb496917e7629117817845144bf9ed7726c9bb43f45a62e2ac5d8287d43",
+      "substitution": "Recovered JAR artwork; exact JS artwork unverified"
+    },
+    {
+      "site": "middle-east-newstoday.com",
+      "client": "20100517070625/kurds.js",
+      "role": "reply",
+      "expected_url": "/images/image_2.gif",
+      "same_site_recovered": false,
+      "matching_filenames_in_archive": [],
+      "served_source": "latinamericanewsbeat.com/20100513191045/today.jar",
+      "served_member": "res.Reply.gif",
+      "served_sha256": "4fd085432613c9887519bffcfbf0a08a4c43178c620002634aa83083f115e700",
+      "substitution": "Recovered JAR artwork; exact JS artwork unverified"
+    },
+    {
+      "site": "middle-east-newstoday.com",
+      "client": "20100517070625/kurds.js",
+      "role": "delete",
+      "expected_url": "/images/image_3.gif",
+      "same_site_recovered": false,
+      "matching_filenames_in_archive": [],
+      "served_source": "latinamericanewsbeat.com/20100513191045/today.jar",
+      "served_member": "res.Delete.gif",
+      "served_sha256": "c3f281ebad1f866d5004f8ef777d51bf2c722430389ddee83ade31ac1feb311c",
+      "substitution": "Recovered JAR artwork; exact JS artwork unverified"
+    },
+    {
+      "site": "middle-east-newstoday.com",
+      "client": "20100517070625/kurds.js",
+      "role": "exit",
+      "expected_url": "/images/image_4.gif",
+      "same_site_recovered": false,
+      "matching_filenames_in_archive": [],
+      "served_source": "latinamericanewsbeat.com/20100513191045/today.jar",
+      "served_member": "res.Close.gif",
+      "served_sha256": "1948ff83ae5fbe68591605799a363b1fad2524149d2e2a8fb40c54ce71670cec",
+      "substitution": "Recovered JAR artwork; exact JS artwork unverified"
+    },
+    {
+      "site": "middle-east-newstoday.com",
+      "client": "20100517070625/kurds.js",
+      "role": "inbox",
+      "expected_url": "/images/image_5.gif",
+      "same_site_recovered": false,
+      "matching_filenames_in_archive": [],
+      "served_source": "latinamericanewsbeat.com/20100513191045/today.jar",
+      "served_member": "res.Inbox.gif",
+      "served_sha256": "75301cbc0fa5e0b25e7777206b9a9a044408ebd849e796fdde8c55d89f67ab3e",
+      "substitution": "Recovered JAR artwork; exact JS artwork unverified"
+    },
+    {
+      "site": "middle-east-newstoday.com",
+      "client": "20100517070625/kurds.js",
+      "role": "send",
+      "expected_url": "/images/image_6.gif",
+      "same_site_recovered": false,
+      "matching_filenames_in_archive": [],
+      "served_source": "latinamericanewsbeat.com/20100513191045/today.jar",
+      "served_member": "res.Send.gif",
+      "served_sha256": "386672b9e863aa163c2ef6c478ef74cb4932cb284be76956701b985bb1cef02a",
+      "substitution": "Recovered JAR artwork; exact JS artwork unverified"
+    },
+    {
+      "site": "networkconnectionsite.com",
+      "client": "20110208004203/netnews.js",
+      "role": "login",
+      "expected_url": "/images/nc001.png",
+      "same_site_recovered": false,
+      "matching_filenames_in_archive": [],
+      "served_source": "latinamericanewsbeat.com/20100513191045/today.jar",
+      "served_member": "res.Lock.png",
+      "served_sha256": "6ca97582c11a808d9b5323cf83a2d82e2836a1848c7b7a9b20d9cb06af8f1427",
+      "substitution": "Recovered JAR artwork; exact JS artwork unverified"
+    },
+    {
+      "site": "networkconnectionsite.com",
+      "client": "20110208004203/netnews.js",
+      "role": "compose",
+      "expected_url": "/images/nc002.gif",
+      "same_site_recovered": false,
+      "matching_filenames_in_archive": [],
+      "served_source": "latinamericanewsbeat.com/20100513191045/today.jar",
+      "served_member": "res.Compose.gif",
+      "served_sha256": "a4492cb496917e7629117817845144bf9ed7726c9bb43f45a62e2ac5d8287d43",
+      "substitution": "Recovered JAR artwork; exact JS artwork unverified"
+    },
+    {
+      "site": "networkconnectionsite.com",
+      "client": "20110208004203/netnews.js",
+      "role": "reply",
+      "expected_url": "/images/nc003.gif",
+      "same_site_recovered": false,
+      "matching_filenames_in_archive": [],
+      "served_source": "latinamericanewsbeat.com/20100513191045/today.jar",
+      "served_member": "res.Reply.gif",
+      "served_sha256": "4fd085432613c9887519bffcfbf0a08a4c43178c620002634aa83083f115e700",
+      "substitution": "Recovered JAR artwork; exact JS artwork unverified"
+    },
+    {
+      "site": "networkconnectionsite.com",
+      "client": "20110208004203/netnews.js",
+      "role": "delete",
+      "expected_url": "/images/nc004.gif",
+      "same_site_recovered": false,
+      "matching_filenames_in_archive": [],
+      "served_source": "latinamericanewsbeat.com/20100513191045/today.jar",
+      "served_member": "res.Delete.gif",
+      "served_sha256": "c3f281ebad1f866d5004f8ef777d51bf2c722430389ddee83ade31ac1feb311c",
+      "substitution": "Recovered JAR artwork; exact JS artwork unverified"
+    },
+    {
+      "site": "networkconnectionsite.com",
+      "client": "20110208004203/netnews.js",
+      "role": "exit",
+      "expected_url": "/images/nc005.gif",
+      "same_site_recovered": false,
+      "matching_filenames_in_archive": [],
+      "served_source": "latinamericanewsbeat.com/20100513191045/today.jar",
+      "served_member": "res.Close.gif",
+      "served_sha256": "1948ff83ae5fbe68591605799a363b1fad2524149d2e2a8fb40c54ce71670cec",
+      "substitution": "Recovered JAR artwork; exact JS artwork unverified"
+    },
+    {
+      "site": "networkconnectionsite.com",
+      "client": "20110208004203/netnews.js",
+      "role": "inbox",
+      "expected_url": "/images/nc006.gif",
+      "same_site_recovered": false,
+      "matching_filenames_in_archive": [],
+      "served_source": "latinamericanewsbeat.com/20100513191045/today.jar",
+      "served_member": "res.Inbox.gif",
+      "served_sha256": "75301cbc0fa5e0b25e7777206b9a9a044408ebd849e796fdde8c55d89f67ab3e",
+      "substitution": "Recovered JAR artwork; exact JS artwork unverified"
+    },
+    {
+      "site": "networkconnectionsite.com",
+      "client": "20110208004203/netnews.js",
+      "role": "send",
+      "expected_url": "/images/nc007.gif",
+      "same_site_recovered": false,
+      "matching_filenames_in_archive": [],
+      "served_source": "latinamericanewsbeat.com/20100513191045/today.jar",
+      "served_member": "res.Send.gif",
+      "served_sha256": "386672b9e863aa163c2ef6c478ef74cb4932cb284be76956701b985bb1cef02a",
+      "substitution": "Recovered JAR artwork; exact JS artwork unverified"
+    },
+    {
+      "site": "thefootball-life.com",
+      "client": "20110202151214/groups.js",
+      "role": "login",
+      "expected_url": "/images/sport_soccer.png",
+      "same_site_recovered": false,
+      "matching_filenames_in_archive": [],
+      "served_source": "latinamericanewsbeat.com/20100513191045/today.jar",
+      "served_member": "res.Lock.png",
+      "served_sha256": "6ca97582c11a808d9b5323cf83a2d82e2836a1848c7b7a9b20d9cb06af8f1427",
+      "substitution": "Recovered JAR artwork; exact JS artwork unverified"
+    },
+    {
+      "site": "thefootball-life.com",
+      "client": "20110202151214/groups.js",
+      "role": "compose",
+      "expected_url": "/images/mens.gif",
+      "same_site_recovered": false,
+      "matching_filenames_in_archive": [],
+      "served_source": "latinamericanewsbeat.com/20100513191045/today.jar",
+      "served_member": "res.Compose.gif",
+      "served_sha256": "a4492cb496917e7629117817845144bf9ed7726c9bb43f45a62e2ac5d8287d43",
+      "substitution": "Recovered JAR artwork; exact JS artwork unverified"
+    },
+    {
+      "site": "thefootball-life.com",
+      "client": "20110202151214/groups.js",
+      "role": "reply",
+      "expected_url": "/images/womens.gif",
+      "same_site_recovered": false,
+      "matching_filenames_in_archive": [],
+      "served_source": "latinamericanewsbeat.com/20100513191045/today.jar",
+      "served_member": "res.Reply.gif",
+      "served_sha256": "4fd085432613c9887519bffcfbf0a08a4c43178c620002634aa83083f115e700",
+      "substitution": "Recovered JAR artwork; exact JS artwork unverified"
+    },
+    {
+      "site": "thefootball-life.com",
+      "client": "20110202151214/groups.js",
+      "role": "delete",
+      "expected_url": "/images/videos.gif",
+      "same_site_recovered": false,
+      "matching_filenames_in_archive": [],
+      "served_source": "latinamericanewsbeat.com/20100513191045/today.jar",
+      "served_member": "res.Delete.gif",
+      "served_sha256": "c3f281ebad1f866d5004f8ef777d51bf2c722430389ddee83ade31ac1feb311c",
+      "substitution": "Recovered JAR artwork; exact JS artwork unverified"
+    },
+    {
+      "site": "thefootball-life.com",
+      "client": "20110202151214/groups.js",
+      "role": "exit",
+      "expected_url": "/images/games.gif",
+      "same_site_recovered": false,
+      "matching_filenames_in_archive": [],
+      "served_source": "latinamericanewsbeat.com/20100513191045/today.jar",
+      "served_member": "res.Close.gif",
+      "served_sha256": "1948ff83ae5fbe68591605799a363b1fad2524149d2e2a8fb40c54ce71670cec",
+      "substitution": "Recovered JAR artwork; exact JS artwork unverified"
+    },
+    {
+      "site": "thefootball-life.com",
+      "client": "20110202151214/groups.js",
+      "role": "inbox",
+      "expected_url": "/images/power.gif",
+      "same_site_recovered": false,
+      "matching_filenames_in_archive": [],
+      "served_source": "latinamericanewsbeat.com/20100513191045/today.jar",
+      "served_member": "res.Inbox.gif",
+      "served_sha256": "75301cbc0fa5e0b25e7777206b9a9a044408ebd849e796fdde8c55d89f67ab3e",
+      "substitution": "Recovered JAR artwork; exact JS artwork unverified"
+    },
+    {
+      "site": "thefootball-life.com",
+      "client": "20110202151214/groups.js",
+      "role": "send",
+      "expected_url": "/images/stages.gif",
+      "same_site_recovered": false,
+      "matching_filenames_in_archive": [],
+      "served_source": "latinamericanewsbeat.com/20100513191045/today.jar",
+      "served_member": "res.Send.gif",
+      "served_sha256": "386672b9e863aa163c2ef6c478ef74cb4932cb284be76956701b985bb1cef02a",
+      "substitution": "Recovered JAR artwork; exact JS artwork unverified"
+    },
+    {
+      "site": "todaysnewsandweather-ru.com",
+      "client": "20110207094735/blacksea.js",
+      "role": "login",
+      "expected_url": "/images/L.png",
+      "same_site_recovered": false,
+      "matching_filenames_in_archive": [],
+      "served_source": "latinamericanewsbeat.com/20100513191045/today.jar",
+      "served_member": "res.Lock.png",
+      "served_sha256": "6ca97582c11a808d9b5323cf83a2d82e2836a1848c7b7a9b20d9cb06af8f1427",
+      "substitution": "Recovered JAR artwork; exact JS artwork unverified"
+    },
+    {
+      "site": "todaysnewsandweather-ru.com",
+      "client": "20110207094735/blacksea.js",
+      "role": "compose",
+      "expected_url": "/images/C.gif",
+      "same_site_recovered": false,
+      "matching_filenames_in_archive": [],
+      "served_source": "latinamericanewsbeat.com/20100513191045/today.jar",
+      "served_member": "res.Compose.gif",
+      "served_sha256": "a4492cb496917e7629117817845144bf9ed7726c9bb43f45a62e2ac5d8287d43",
+      "substitution": "Recovered JAR artwork; exact JS artwork unverified"
+    },
+    {
+      "site": "todaysnewsandweather-ru.com",
+      "client": "20110207094735/blacksea.js",
+      "role": "reply",
+      "expected_url": "/images/R.gif",
+      "same_site_recovered": false,
+      "matching_filenames_in_archive": [],
+      "served_source": "latinamericanewsbeat.com/20100513191045/today.jar",
+      "served_member": "res.Reply.gif",
+      "served_sha256": "4fd085432613c9887519bffcfbf0a08a4c43178c620002634aa83083f115e700",
+      "substitution": "Recovered JAR artwork; exact JS artwork unverified"
+    },
+    {
+      "site": "todaysnewsandweather-ru.com",
+      "client": "20110207094735/blacksea.js",
+      "role": "delete",
+      "expected_url": "/images/D.gif",
+      "same_site_recovered": false,
+      "matching_filenames_in_archive": [],
+      "served_source": "latinamericanewsbeat.com/20100513191045/today.jar",
+      "served_member": "res.Delete.gif",
+      "served_sha256": "c3f281ebad1f866d5004f8ef777d51bf2c722430389ddee83ade31ac1feb311c",
+      "substitution": "Recovered JAR artwork; exact JS artwork unverified"
+    },
+    {
+      "site": "todaysnewsandweather-ru.com",
+      "client": "20110207094735/blacksea.js",
+      "role": "exit",
+      "expected_url": "/images/Cl.gif",
+      "same_site_recovered": false,
+      "matching_filenames_in_archive": [],
+      "served_source": "latinamericanewsbeat.com/20100513191045/today.jar",
+      "served_member": "res.Close.gif",
+      "served_sha256": "1948ff83ae5fbe68591605799a363b1fad2524149d2e2a8fb40c54ce71670cec",
+      "substitution": "Recovered JAR artwork; exact JS artwork unverified"
+    },
+    {
+      "site": "todaysnewsandweather-ru.com",
+      "client": "20110207094735/blacksea.js",
+      "role": "inbox",
+      "expected_url": "/images/I.gif",
+      "same_site_recovered": false,
+      "matching_filenames_in_archive": [],
+      "served_source": "latinamericanewsbeat.com/20100513191045/today.jar",
+      "served_member": "res.Inbox.gif",
+      "served_sha256": "75301cbc0fa5e0b25e7777206b9a9a044408ebd849e796fdde8c55d89f67ab3e",
+      "substitution": "Recovered JAR artwork; exact JS artwork unverified"
+    },
+    {
+      "site": "todaysnewsandweather-ru.com",
+      "client": "20110207094735/blacksea.js",
+      "role": "send",
+      "expected_url": "/images/S.gif",
+      "same_site_recovered": false,
+      "matching_filenames_in_archive": [],
+      "served_source": "latinamericanewsbeat.com/20100513191045/today.jar",
+      "served_member": "res.Send.gif",
+      "served_sha256": "386672b9e863aa163c2ef6c478ef74cb4932cb284be76956701b985bb1cef02a",
+      "substitution": "Recovered JAR artwork; exact JS artwork unverified"
+    },
+    {
+      "site": "totallynewsnow.com",
+      "client": "20110207201929/tnewnow.js",
+      "role": "login",
+      "expected_url": "/images/world.png",
+      "same_site_recovered": false,
+      "matching_filenames_in_archive": [],
+      "served_source": "latinamericanewsbeat.com/20100513191045/today.jar",
+      "served_member": "res.Lock.png",
+      "served_sha256": "6ca97582c11a808d9b5323cf83a2d82e2836a1848c7b7a9b20d9cb06af8f1427",
+      "substitution": "Recovered JAR artwork; exact JS artwork unverified"
+    },
+    {
+      "site": "totallynewsnow.com",
+      "client": "20110207201929/tnewnow.js",
+      "role": "compose",
+      "expected_url": "/images/local.gif",
+      "same_site_recovered": false,
+      "matching_filenames_in_archive": [],
+      "served_source": "latinamericanewsbeat.com/20100513191045/today.jar",
+      "served_member": "res.Compose.gif",
+      "served_sha256": "a4492cb496917e7629117817845144bf9ed7726c9bb43f45a62e2ac5d8287d43",
+      "substitution": "Recovered JAR artwork; exact JS artwork unverified"
+    },
+    {
+      "site": "totallynewsnow.com",
+      "client": "20110207201929/tnewnow.js",
+      "role": "reply",
+      "expected_url": "/images/interviews.gif",
+      "same_site_recovered": false,
+      "matching_filenames_in_archive": [],
+      "served_source": "latinamericanewsbeat.com/20100513191045/today.jar",
+      "served_member": "res.Reply.gif",
+      "served_sha256": "4fd085432613c9887519bffcfbf0a08a4c43178c620002634aa83083f115e700",
+      "substitution": "Recovered JAR artwork; exact JS artwork unverified"
+    },
+    {
+      "site": "totallynewsnow.com",
+      "client": "20110207201929/tnewnow.js",
+      "role": "delete",
+      "expected_url": "/images/breaking.gif",
+      "same_site_recovered": false,
+      "matching_filenames_in_archive": [],
+      "served_source": "latinamericanewsbeat.com/20100513191045/today.jar",
+      "served_member": "res.Delete.gif",
+      "served_sha256": "c3f281ebad1f866d5004f8ef777d51bf2c722430389ddee83ade31ac1feb311c",
+      "substitution": "Recovered JAR artwork; exact JS artwork unverified"
+    },
+    {
+      "site": "totallynewsnow.com",
+      "client": "20110207201929/tnewnow.js",
+      "role": "exit",
+      "expected_url": "/images/anchors.gif",
+      "same_site_recovered": false,
+      "matching_filenames_in_archive": [],
+      "served_source": "latinamericanewsbeat.com/20100513191045/today.jar",
+      "served_member": "res.Close.gif",
+      "served_sha256": "1948ff83ae5fbe68591605799a363b1fad2524149d2e2a8fb40c54ce71670cec",
+      "substitution": "Recovered JAR artwork; exact JS artwork unverified"
+    },
+    {
+      "site": "totallynewsnow.com",
+      "client": "20110207201929/tnewnow.js",
+      "role": "inbox",
+      "expected_url": "/images/entertainment.gif",
+      "same_site_recovered": false,
+      "matching_filenames_in_archive": [],
+      "served_source": "latinamericanewsbeat.com/20100513191045/today.jar",
+      "served_member": "res.Inbox.gif",
+      "served_sha256": "75301cbc0fa5e0b25e7777206b9a9a044408ebd849e796fdde8c55d89f67ab3e",
+      "substitution": "Recovered JAR artwork; exact JS artwork unverified"
+    },
+    {
+      "site": "totallynewsnow.com",
+      "client": "20110207201929/tnewnow.js",
+      "role": "send",
+      "expected_url": "/images/transcript.gif",
+      "same_site_recovered": false,
+      "matching_filenames_in_archive": [],
+      "served_source": "latinamericanewsbeat.com/20100513191045/today.jar",
+      "served_member": "res.Send.gif",
+      "served_sha256": "386672b9e863aa163c2ef6c478ef74cb4932cb284be76956701b985bb1cef02a",
+      "substitution": "Recovered JAR artwork; exact JS artwork unverified"
+    },
+    {
+      "site": "wahidfutbol.com",
+      "client": "20110202203517/wahid.js",
+      "role": "login",
+      "expected_url": "/img/Lock.png",
+      "same_site_recovered": false,
+      "matching_filenames_in_archive": [],
+      "served_source": "latinamericanewsbeat.com/20100513191045/today.jar",
+      "served_member": "res.Lock.png",
+      "served_sha256": "6ca97582c11a808d9b5323cf83a2d82e2836a1848c7b7a9b20d9cb06af8f1427",
+      "substitution": "Recovered JAR artwork; exact JS artwork unverified"
+    },
+    {
+      "site": "wahidfutbol.com",
+      "client": "20110202203517/wahid.js",
+      "role": "compose",
+      "expected_url": "/img/Compose.gif",
+      "same_site_recovered": false,
+      "matching_filenames_in_archive": [],
+      "served_source": "latinamericanewsbeat.com/20100513191045/today.jar",
+      "served_member": "res.Compose.gif",
+      "served_sha256": "a4492cb496917e7629117817845144bf9ed7726c9bb43f45a62e2ac5d8287d43",
+      "substitution": "Recovered JAR artwork; exact JS artwork unverified"
+    },
+    {
+      "site": "wahidfutbol.com",
+      "client": "20110202203517/wahid.js",
+      "role": "reply",
+      "expected_url": "/img/Reply.gif",
+      "same_site_recovered": false,
+      "matching_filenames_in_archive": [],
+      "served_source": "latinamericanewsbeat.com/20100513191045/today.jar",
+      "served_member": "res.Reply.gif",
+      "served_sha256": "4fd085432613c9887519bffcfbf0a08a4c43178c620002634aa83083f115e700",
+      "substitution": "Recovered JAR artwork; exact JS artwork unverified"
+    },
+    {
+      "site": "wahidfutbol.com",
+      "client": "20110202203517/wahid.js",
+      "role": "delete",
+      "expected_url": "/img/Delete.gif",
+      "same_site_recovered": false,
+      "matching_filenames_in_archive": [],
+      "served_source": "latinamericanewsbeat.com/20100513191045/today.jar",
+      "served_member": "res.Delete.gif",
+      "served_sha256": "c3f281ebad1f866d5004f8ef777d51bf2c722430389ddee83ade31ac1feb311c",
+      "substitution": "Recovered JAR artwork; exact JS artwork unverified"
+    },
+    {
+      "site": "wahidfutbol.com",
+      "client": "20110202203517/wahid.js",
+      "role": "exit",
+      "expected_url": "/img/Close.gif",
+      "same_site_recovered": false,
+      "matching_filenames_in_archive": [],
+      "served_source": "latinamericanewsbeat.com/20100513191045/today.jar",
+      "served_member": "res.Close.gif",
+      "served_sha256": "1948ff83ae5fbe68591605799a363b1fad2524149d2e2a8fb40c54ce71670cec",
+      "substitution": "Recovered JAR artwork; exact JS artwork unverified"
+    },
+    {
+      "site": "wahidfutbol.com",
+      "client": "20110202203517/wahid.js",
+      "role": "inbox",
+      "expected_url": "/img/Inbox.gif",
+      "same_site_recovered": false,
+      "matching_filenames_in_archive": [],
+      "served_source": "latinamericanewsbeat.com/20100513191045/today.jar",
+      "served_member": "res.Inbox.gif",
+      "served_sha256": "75301cbc0fa5e0b25e7777206b9a9a044408ebd849e796fdde8c55d89f67ab3e",
+      "substitution": "Recovered JAR artwork; exact JS artwork unverified"
+    },
+    {
+      "site": "wahidfutbol.com",
+      "client": "20110202203517/wahid.js",
+      "role": "send",
+      "expected_url": "/img/Send.gif",
+      "same_site_recovered": false,
+      "matching_filenames_in_archive": [],
+      "served_source": "latinamericanewsbeat.com/20100513191045/today.jar",
+      "served_member": "res.Send.gif",
+      "served_sha256": "386672b9e863aa163c2ef6c478ef74cb4932cb284be76956701b985bb1cef02a",
+      "substitution": "Recovered JAR artwork; exact JS artwork unverified"
+    },
+    {
+      "site": "www.russiansportsworld.com",
+      "client": "20110207171201/snowboard.js",
+      "role": "login",
+      "expected_url": "/images/12.png",
+      "same_site_recovered": false,
+      "matching_filenames_in_archive": [],
+      "served_source": "latinamericanewsbeat.com/20100513191045/today.jar",
+      "served_member": "res.Lock.png",
+      "served_sha256": "6ca97582c11a808d9b5323cf83a2d82e2836a1848c7b7a9b20d9cb06af8f1427",
+      "substitution": "Recovered JAR artwork; exact JS artwork unverified"
+    },
+    {
+      "site": "www.russiansportsworld.com",
+      "client": "20110207171201/snowboard.js",
+      "role": "compose",
+      "expected_url": "/images/22.gif",
+      "same_site_recovered": false,
+      "matching_filenames_in_archive": [],
+      "served_source": "latinamericanewsbeat.com/20100513191045/today.jar",
+      "served_member": "res.Compose.gif",
+      "served_sha256": "a4492cb496917e7629117817845144bf9ed7726c9bb43f45a62e2ac5d8287d43",
+      "substitution": "Recovered JAR artwork; exact JS artwork unverified"
+    },
+    {
+      "site": "www.russiansportsworld.com",
+      "client": "20110207171201/snowboard.js",
+      "role": "reply",
+      "expected_url": "/images/32.gif",
+      "same_site_recovered": false,
+      "matching_filenames_in_archive": [],
+      "served_source": "latinamericanewsbeat.com/20100513191045/today.jar",
+      "served_member": "res.Reply.gif",
+      "served_sha256": "4fd085432613c9887519bffcfbf0a08a4c43178c620002634aa83083f115e700",
+      "substitution": "Recovered JAR artwork; exact JS artwork unverified"
+    },
+    {
+      "site": "www.russiansportsworld.com",
+      "client": "20110207171201/snowboard.js",
+      "role": "delete",
+      "expected_url": "/images/42.gif",
+      "same_site_recovered": false,
+      "matching_filenames_in_archive": [],
+      "served_source": "latinamericanewsbeat.com/20100513191045/today.jar",
+      "served_member": "res.Delete.gif",
+      "served_sha256": "c3f281ebad1f866d5004f8ef777d51bf2c722430389ddee83ade31ac1feb311c",
+      "substitution": "Recovered JAR artwork; exact JS artwork unverified"
+    },
+    {
+      "site": "www.russiansportsworld.com",
+      "client": "20110207171201/snowboard.js",
+      "role": "exit",
+      "expected_url": "/images/52.gif",
+      "same_site_recovered": false,
+      "matching_filenames_in_archive": [],
+      "served_source": "latinamericanewsbeat.com/20100513191045/today.jar",
+      "served_member": "res.Close.gif",
+      "served_sha256": "1948ff83ae5fbe68591605799a363b1fad2524149d2e2a8fb40c54ce71670cec",
+      "substitution": "Recovered JAR artwork; exact JS artwork unverified"
+    },
+    {
+      "site": "www.russiansportsworld.com",
+      "client": "20110207171201/snowboard.js",
+      "role": "inbox",
+      "expected_url": "/images/62.gif",
+      "same_site_recovered": false,
+      "matching_filenames_in_archive": [],
+      "served_source": "latinamericanewsbeat.com/20100513191045/today.jar",
+      "served_member": "res.Inbox.gif",
+      "served_sha256": "75301cbc0fa5e0b25e7777206b9a9a044408ebd849e796fdde8c55d89f67ab3e",
+      "substitution": "Recovered JAR artwork; exact JS artwork unverified"
+    },
+    {
+      "site": "www.russiansportsworld.com",
+      "client": "20110207171201/snowboard.js",
+      "role": "send",
+      "expected_url": "/images/72.gif",
+      "same_site_recovered": false,
+      "matching_filenames_in_archive": [],
+      "served_source": "latinamericanewsbeat.com/20100513191045/today.jar",
+      "served_member": "res.Send.gif",
+      "served_sha256": "386672b9e863aa163c2ef6c478ef74cb4932cb284be76956701b985bb1cef02a",
+      "substitution": "Recovered JAR artwork; exact JS artwork unverified"
+    }
+  ],
+  "shared_jar_icons": [
+    {
+      "role": "login",
+      "member": "res.Lock.png",
+      "occurrences": 45,
+      "unique_hashes": [
+        "6ca97582c11a808d9b5323cf83a2d82e2836a1848c7b7a9b20d9cb06af8f1427"
+      ],
+      "sources": [
+        {
+          "jar": "all-sport-headlines.com/20110207144821/birdie.jar",
+          "entry": "resource/resources.bin",
+          "member": "res.Lock.png",
+          "sha256": "6ca97582c11a808d9b5323cf83a2d82e2836a1848c7b7a9b20d9cb06af8f1427"
+        },
+        {
+          "jar": "dryterrainnews.com/20110209045143/rhino.jar",
+          "entry": "resource/resources.bin",
+          "member": "res.Lock.png",
+          "sha256": "6ca97582c11a808d9b5323cf83a2d82e2836a1848c7b7a9b20d9cb06af8f1427"
+        },
+        {
+          "jar": "esmundonoticias.com/20110201124235/anuncios.jar",
+          "entry": "resource/resources.bin",
+          "member": "res.Lock.png",
+          "sha256": "6ca97582c11a808d9b5323cf83a2d82e2836a1848c7b7a9b20d9cb06af8f1427"
+        },
+        {
+          "jar": "euronewsonline.net/20101229064913/papers.jar",
+          "entry": "resource/resources.bin",
+          "member": "res.Lock.png",
+          "sha256": "6ca97582c11a808d9b5323cf83a2d82e2836a1848c7b7a9b20d9cb06af8f1427"
+        },
+        {
+          "jar": "europeannewsflash.com/20110201192135/users.jar",
+          "entry": "resource/resources.bin",
+          "member": "res.Lock.png",
+          "sha256": "6ca97582c11a808d9b5323cf83a2d82e2836a1848c7b7a9b20d9cb06af8f1427"
+        },
+        {
+          "jar": "farsi-newsandweather.com/20110202122354/steps.jar",
+          "entry": "resource/resources.bin",
+          "member": "res.Lock.png",
+          "sha256": "6ca97582c11a808d9b5323cf83a2d82e2836a1848c7b7a9b20d9cb06af8f1427"
+        },
+        {
+          "jar": "financecentraltoday.com/20110203041347/report.jar",
+          "entry": "resource/resources.bin",
+          "member": "res.Lock.png",
+          "sha256": "6ca97582c11a808d9b5323cf83a2d82e2836a1848c7b7a9b20d9cb06af8f1427"
+        },
+        {
+          "jar": "firstnewssource.com/20110203072529/btools.jar",
+          "entry": "resource/resources.bin",
+          "member": "res.Lock.png",
+          "sha256": "6ca97582c11a808d9b5323cf83a2d82e2836a1848c7b7a9b20d9cb06af8f1427"
+        },
+        {
+          "jar": "global-view-news.com/20110201100059/ticker.jar",
+          "entry": "resource/resources.bin",
+          "member": "res.Lock.png",
+          "sha256": "6ca97582c11a808d9b5323cf83a2d82e2836a1848c7b7a9b20d9cb06af8f1427"
+        },
+        {
+          "jar": "health-men-today.com/20110207232346/cardio.jar",
+          "entry": "resource/resources.bin",
+          "member": "res.Lock.png",
+          "sha256": "6ca97582c11a808d9b5323cf83a2d82e2836a1848c7b7a9b20d9cb06af8f1427"
+        },
+        {
+          "jar": "internationalnewsworthiness.com/20110202031111/world.jar",
+          "entry": "resource/resources.bin",
+          "member": "res.Lock.png",
+          "sha256": "6ca97582c11a808d9b5323cf83a2d82e2836a1848c7b7a9b20d9cb06af8f1427"
+        },
+        {
+          "jar": "intlnewsdaily.com/20110202053458/region.jar",
+          "entry": "resource/resources.bin",
+          "member": "res.Lock.png",
+          "sha256": "6ca97582c11a808d9b5323cf83a2d82e2836a1848c7b7a9b20d9cb06af8f1427"
+        },
+        {
+          "jar": "iraniangoalkicks.com/20110202091917/clamping.jar",
+          "entry": "resource/resources.bin",
+          "member": "res.Lock.png",
+          "sha256": "6ca97582c11a808d9b5323cf83a2d82e2836a1848c7b7a9b20d9cb06af8f1427"
+        },
+        {
+          "jar": "just-the-news.com/20100512093658/trade.jar",
+          "entry": "resource/resources.bin",
+          "member": "res.Lock.png",
+          "sha256": "6ca97582c11a808d9b5323cf83a2d82e2836a1848c7b7a9b20d9cb06af8f1427"
+        },
+        {
+          "jar": "kickitnews.com/20100512232633/team.jar",
+          "entry": "resource/resources.bin",
+          "member": "res.Lock.png",
+          "sha256": "6ca97582c11a808d9b5323cf83a2d82e2836a1848c7b7a9b20d9cb06af8f1427"
+        },
+        {
+          "jar": "lasthournews.com/20100513182724/recent.jar",
+          "entry": "resource/resources.bin",
+          "member": "res.Lock.png",
+          "sha256": "6ca97582c11a808d9b5323cf83a2d82e2836a1848c7b7a9b20d9cb06af8f1427"
+        },
+        {
+          "jar": "latinamericanewsbeat.com/20100513191045/today.jar",
+          "entry": "resource/resources.bin",
+          "member": "res.Lock.png",
+          "sha256": "6ca97582c11a808d9b5323cf83a2d82e2836a1848c7b7a9b20d9cb06af8f1427"
+        },
+        {
+          "jar": "magneticfieldnews.com/20100515103300/science.jar",
+          "entry": "resource/resources.bin",
+          "member": "res.Lock.png",
+          "sha256": "6ca97582c11a808d9b5323cf83a2d82e2836a1848c7b7a9b20d9cb06af8f1427"
+        },
+        {
+          "jar": "mideasttoday.net/20100923092301/mideast.jar",
+          "entry": "resource/resources.bin",
+          "member": "res.Lock.png",
+          "sha256": "6ca97582c11a808d9b5323cf83a2d82e2836a1848c7b7a9b20d9cb06af8f1427"
+        },
+        {
+          "jar": "mideasttoday.net/20101226010124/mideast.jar",
+          "entry": "resource/resources.bin",
+          "member": "res.Lock.png",
+          "sha256": "6ca97582c11a808d9b5323cf83a2d82e2836a1848c7b7a9b20d9cb06af8f1427"
+        },
+        {
+          "jar": "mydailynewsreport.com/20110207171354/world.jar",
+          "entry": "resource/resources.bin",
+          "member": "res.Lock.png",
+          "sha256": "6ca97582c11a808d9b5323cf83a2d82e2836a1848c7b7a9b20d9cb06af8f1427"
+        },
+        {
+          "jar": "mytravelopian.com/20110210073221/explore.jar",
+          "entry": "resource/resources.bin",
+          "member": "res.Lock.png",
+          "sha256": "6ca97582c11a808d9b5323cf83a2d82e2836a1848c7b7a9b20d9cb06af8f1427"
+        },
+        {
+          "jar": "mywebofnews.com/20110210130707/tools.jar",
+          "entry": "resource/resources.bin",
+          "member": "res.Lock.png",
+          "sha256": "6ca97582c11a808d9b5323cf83a2d82e2836a1848c7b7a9b20d9cb06af8f1427"
+        },
+        {
+          "jar": "newdaynewsonline.com/20110208031828/latesttools.jar",
+          "entry": "resource/resources.bin",
+          "member": "res.Lock.png",
+          "sha256": "6ca97582c11a808d9b5323cf83a2d82e2836a1848c7b7a9b20d9cb06af8f1427"
+        },
+        {
+          "jar": "news-latina.com/20110208065133/news.jar",
+          "entry": "resource/resources.bin",
+          "member": "res.Lock.png",
+          "sha256": "6ca97582c11a808d9b5323cf83a2d82e2836a1848c7b7a9b20d9cb06af8f1427"
+        },
+        {
+          "jar": "newsincirculation.com/20110208064944/affairs.jar",
+          "entry": "resource/resources.bin",
+          "member": "res.Lock.png",
+          "sha256": "6ca97582c11a808d9b5323cf83a2d82e2836a1848c7b7a9b20d9cb06af8f1427"
+        },
+        {
+          "jar": "newsworldsite.com/20110208071946/steps.jar",
+          "entry": "resource/resources.bin",
+          "member": "res.Lock.png",
+          "sha256": "6ca97582c11a808d9b5323cf83a2d82e2836a1848c7b7a9b20d9cb06af8f1427"
+        },
+        {
+          "jar": "outlooknewscast.com/20110202115733/members.jar",
+          "entry": "resource/resources.bin",
+          "member": "res.Lock.png",
+          "sha256": "6ca97582c11a808d9b5323cf83a2d82e2836a1848c7b7a9b20d9cb06af8f1427"
+        },
+        {
+          "jar": "pars-technews.com/20110204140146/cellphones.jar",
+          "entry": "resource/resources.bin",
+          "member": "res.Lock.png",
+          "sha256": "6ca97582c11a808d9b5323cf83a2d82e2836a1848c7b7a9b20d9cb06af8f1427"
+        },
+        {
+          "jar": "pondernews.net/20110106212956/reports.jar",
+          "entry": "resource/resources.bin",
+          "member": "res.Lock.png",
+          "sha256": "6ca97582c11a808d9b5323cf83a2d82e2836a1848c7b7a9b20d9cb06af8f1427"
+        },
+        {
+          "jar": "recursosdenoticias.com/20110202124753/banco.jar",
+          "entry": "resource/resources.bin",
+          "member": "res.Lock.png",
+          "sha256": "6ca97582c11a808d9b5323cf83a2d82e2836a1848c7b7a9b20d9cb06af8f1427"
+        },
+        {
+          "jar": "shadesofnews.com/20110201184827/sports.jar",
+          "entry": "resource/resources.bin",
+          "member": "res.Lock.png",
+          "sha256": "6ca97582c11a808d9b5323cf83a2d82e2836a1848c7b7a9b20d9cb06af8f1427"
+        },
+        {
+          "jar": "sportsnewsfinder.com/20110210133446/scores.jar",
+          "entry": "resource/resources.bin",
+          "member": "res.Lock.png",
+          "sha256": "6ca97582c11a808d9b5323cf83a2d82e2836a1848c7b7a9b20d9cb06af8f1427"
+        },
+        {
+          "jar": "technologypresstoday.com/20110201212907/online.jar",
+          "entry": "resource/resources.bin",
+          "member": "res.Lock.png",
+          "sha256": "6ca97582c11a808d9b5323cf83a2d82e2836a1848c7b7a9b20d9cb06af8f1427"
+        },
+        {
+          "jar": "technologytodayandtomorrow.com/20110201213207/bluray.jar",
+          "entry": "resource/resources.bin",
+          "member": "res.Lock.png",
+          "sha256": "6ca97582c11a808d9b5323cf83a2d82e2836a1848c7b7a9b20d9cb06af8f1427"
+        },
+        {
+          "jar": "thenewsofpakistan.com/20110202221353/television.jar",
+          "entry": "resource/resources.bin",
+          "member": "res.Lock.png",
+          "sha256": "6ca97582c11a808d9b5323cf83a2d82e2836a1848c7b7a9b20d9cb06af8f1427"
+        },
+        {
+          "jar": "theworldnewsfeeds.com/20110209183426/feeds.jar",
+          "entry": "resource/resources.bin",
+          "member": "res.Lock.png",
+          "sha256": "6ca97582c11a808d9b5323cf83a2d82e2836a1848c7b7a9b20d9cb06af8f1427"
+        },
+        {
+          "jar": "todayoutdoors.com/20110228050838/fires.jar",
+          "entry": "resource/resources.bin",
+          "member": "res.Lock.png",
+          "sha256": "6ca97582c11a808d9b5323cf83a2d82e2836a1848c7b7a9b20d9cb06af8f1427"
+        },
+        {
+          "jar": "weblognewsinfo.com/20110207145431/global.jar",
+          "entry": "resource/resources.bin",
+          "member": "res.Lock.png",
+          "sha256": "6ca97582c11a808d9b5323cf83a2d82e2836a1848c7b7a9b20d9cb06af8f1427"
+        },
+        {
+          "jar": "wildbirds-seasia.com/20110207183425/diverse.jar",
+          "entry": "resource/resources.bin",
+          "member": "res.Lock.png",
+          "sha256": "6ca97582c11a808d9b5323cf83a2d82e2836a1848c7b7a9b20d9cb06af8f1427"
+        },
+        {
+          "jar": "www.24hoursprimenews.com/20110128180323/stories.jar",
+          "entry": "resource/resources.bin",
+          "member": "res.Lock.png",
+          "sha256": "6ca97582c11a808d9b5323cf83a2d82e2836a1848c7b7a9b20d9cb06af8f1427"
+        },
+        {
+          "jar": "www.myhealthlibrary.net/20111015023541/dose.jar",
+          "entry": "resource/resources.bin",
+          "member": "res.Lock.png",
+          "sha256": "6ca97582c11a808d9b5323cf83a2d82e2836a1848c7b7a9b20d9cb06af8f1427"
+        },
+        {
+          "jar": "www.opensourcenewstoday.com/20110202050322/breaking.jar",
+          "entry": "resource/resources.bin",
+          "member": "res.Lock.png",
+          "sha256": "6ca97582c11a808d9b5323cf83a2d82e2836a1848c7b7a9b20d9cb06af8f1427"
+        },
+        {
+          "jar": "www.sayaara-auto.com/20110128163016/ferrari.jar",
+          "entry": "resource/resources.bin",
+          "member": "res.Lock.png",
+          "sha256": "6ca97582c11a808d9b5323cf83a2d82e2836a1848c7b7a9b20d9cb06af8f1427"
+        },
+        {
+          "jar": "www.todaysnewsreports.net/20101230050102/communicate.jar",
+          "entry": "resource/resources.bin",
+          "member": "res.Lock.png",
+          "sha256": "6ca97582c11a808d9b5323cf83a2d82e2836a1848c7b7a9b20d9cb06af8f1427"
+        }
+      ]
+    },
+    {
+      "role": "compose",
+      "member": "res.Compose.gif",
+      "occurrences": 45,
+      "unique_hashes": [
+        "a4492cb496917e7629117817845144bf9ed7726c9bb43f45a62e2ac5d8287d43"
+      ],
+      "sources": [
+        {
+          "jar": "all-sport-headlines.com/20110207144821/birdie.jar",
+          "entry": "resource/resources.bin",
+          "member": "res.Compose.gif",
+          "sha256": "a4492cb496917e7629117817845144bf9ed7726c9bb43f45a62e2ac5d8287d43"
+        },
+        {
+          "jar": "dryterrainnews.com/20110209045143/rhino.jar",
+          "entry": "resource/resources.bin",
+          "member": "res.Compose.gif",
+          "sha256": "a4492cb496917e7629117817845144bf9ed7726c9bb43f45a62e2ac5d8287d43"
+        },
+        {
+          "jar": "esmundonoticias.com/20110201124235/anuncios.jar",
+          "entry": "resource/resources.bin",
+          "member": "res.Compose.gif",
+          "sha256": "a4492cb496917e7629117817845144bf9ed7726c9bb43f45a62e2ac5d8287d43"
+        },
+        {
+          "jar": "euronewsonline.net/20101229064913/papers.jar",
+          "entry": "resource/resources.bin",
+          "member": "res.Compose.gif",
+          "sha256": "a4492cb496917e7629117817845144bf9ed7726c9bb43f45a62e2ac5d8287d43"
+        },
+        {
+          "jar": "europeannewsflash.com/20110201192135/users.jar",
+          "entry": "resource/resources.bin",
+          "member": "res.Compose.gif",
+          "sha256": "a4492cb496917e7629117817845144bf9ed7726c9bb43f45a62e2ac5d8287d43"
+        },
+        {
+          "jar": "farsi-newsandweather.com/20110202122354/steps.jar",
+          "entry": "resource/resources.bin",
+          "member": "res.Compose.gif",
+          "sha256": "a4492cb496917e7629117817845144bf9ed7726c9bb43f45a62e2ac5d8287d43"
+        },
+        {
+          "jar": "financecentraltoday.com/20110203041347/report.jar",
+          "entry": "resource/resources.bin",
+          "member": "res.Compose.gif",
+          "sha256": "a4492cb496917e7629117817845144bf9ed7726c9bb43f45a62e2ac5d8287d43"
+        },
+        {
+          "jar": "firstnewssource.com/20110203072529/btools.jar",
+          "entry": "resource/resources.bin",
+          "member": "res.Compose.gif",
+          "sha256": "a4492cb496917e7629117817845144bf9ed7726c9bb43f45a62e2ac5d8287d43"
+        },
+        {
+          "jar": "global-view-news.com/20110201100059/ticker.jar",
+          "entry": "resource/resources.bin",
+          "member": "res.Compose.gif",
+          "sha256": "a4492cb496917e7629117817845144bf9ed7726c9bb43f45a62e2ac5d8287d43"
+        },
+        {
+          "jar": "health-men-today.com/20110207232346/cardio.jar",
+          "entry": "resource/resources.bin",
+          "member": "res.Compose.gif",
+          "sha256": "a4492cb496917e7629117817845144bf9ed7726c9bb43f45a62e2ac5d8287d43"
+        },
+        {
+          "jar": "internationalnewsworthiness.com/20110202031111/world.jar",
+          "entry": "resource/resources.bin",
+          "member": "res.Compose.gif",
+          "sha256": "a4492cb496917e7629117817845144bf9ed7726c9bb43f45a62e2ac5d8287d43"
+        },
+        {
+          "jar": "intlnewsdaily.com/20110202053458/region.jar",
+          "entry": "resource/resources.bin",
+          "member": "res.Compose.gif",
+          "sha256": "a4492cb496917e7629117817845144bf9ed7726c9bb43f45a62e2ac5d8287d43"
+        },
+        {
+          "jar": "iraniangoalkicks.com/20110202091917/clamping.jar",
+          "entry": "resource/resources.bin",
+          "member": "res.Compose.gif",
+          "sha256": "a4492cb496917e7629117817845144bf9ed7726c9bb43f45a62e2ac5d8287d43"
+        },
+        {
+          "jar": "just-the-news.com/20100512093658/trade.jar",
+          "entry": "resource/resources.bin",
+          "member": "res.Compose.gif",
+          "sha256": "a4492cb496917e7629117817845144bf9ed7726c9bb43f45a62e2ac5d8287d43"
+        },
+        {
+          "jar": "kickitnews.com/20100512232633/team.jar",
+          "entry": "resource/resources.bin",
+          "member": "res.Compose.gif",
+          "sha256": "a4492cb496917e7629117817845144bf9ed7726c9bb43f45a62e2ac5d8287d43"
+        },
+        {
+          "jar": "lasthournews.com/20100513182724/recent.jar",
+          "entry": "resource/resources.bin",
+          "member": "res.Compose.gif",
+          "sha256": "a4492cb496917e7629117817845144bf9ed7726c9bb43f45a62e2ac5d8287d43"
+        },
+        {
+          "jar": "latinamericanewsbeat.com/20100513191045/today.jar",
+          "entry": "resource/resources.bin",
+          "member": "res.Compose.gif",
+          "sha256": "a4492cb496917e7629117817845144bf9ed7726c9bb43f45a62e2ac5d8287d43"
+        },
+        {
+          "jar": "magneticfieldnews.com/20100515103300/science.jar",
+          "entry": "resource/resources.bin",
+          "member": "res.Compose.gif",
+          "sha256": "a4492cb496917e7629117817845144bf9ed7726c9bb43f45a62e2ac5d8287d43"
+        },
+        {
+          "jar": "mideasttoday.net/20100923092301/mideast.jar",
+          "entry": "resource/resources.bin",
+          "member": "res.Compose.gif",
+          "sha256": "a4492cb496917e7629117817845144bf9ed7726c9bb43f45a62e2ac5d8287d43"
+        },
+        {
+          "jar": "mideasttoday.net/20101226010124/mideast.jar",
+          "entry": "resource/resources.bin",
+          "member": "res.Compose.gif",
+          "sha256": "a4492cb496917e7629117817845144bf9ed7726c9bb43f45a62e2ac5d8287d43"
+        },
+        {
+          "jar": "mydailynewsreport.com/20110207171354/world.jar",
+          "entry": "resource/resources.bin",
+          "member": "res.Compose.gif",
+          "sha256": "a4492cb496917e7629117817845144bf9ed7726c9bb43f45a62e2ac5d8287d43"
+        },
+        {
+          "jar": "mytravelopian.com/20110210073221/explore.jar",
+          "entry": "resource/resources.bin",
+          "member": "res.Compose.gif",
+          "sha256": "a4492cb496917e7629117817845144bf9ed7726c9bb43f45a62e2ac5d8287d43"
+        },
+        {
+          "jar": "mywebofnews.com/20110210130707/tools.jar",
+          "entry": "resource/resources.bin",
+          "member": "res.Compose.gif",
+          "sha256": "a4492cb496917e7629117817845144bf9ed7726c9bb43f45a62e2ac5d8287d43"
+        },
+        {
+          "jar": "newdaynewsonline.com/20110208031828/latesttools.jar",
+          "entry": "resource/resources.bin",
+          "member": "res.Compose.gif",
+          "sha256": "a4492cb496917e7629117817845144bf9ed7726c9bb43f45a62e2ac5d8287d43"
+        },
+        {
+          "jar": "news-latina.com/20110208065133/news.jar",
+          "entry": "resource/resources.bin",
+          "member": "res.Compose.gif",
+          "sha256": "a4492cb496917e7629117817845144bf9ed7726c9bb43f45a62e2ac5d8287d43"
+        },
+        {
+          "jar": "newsincirculation.com/20110208064944/affairs.jar",
+          "entry": "resource/resources.bin",
+          "member": "res.Compose.gif",
+          "sha256": "a4492cb496917e7629117817845144bf9ed7726c9bb43f45a62e2ac5d8287d43"
+        },
+        {
+          "jar": "newsworldsite.com/20110208071946/steps.jar",
+          "entry": "resource/resources.bin",
+          "member": "res.Compose.gif",
+          "sha256": "a4492cb496917e7629117817845144bf9ed7726c9bb43f45a62e2ac5d8287d43"
+        },
+        {
+          "jar": "outlooknewscast.com/20110202115733/members.jar",
+          "entry": "resource/resources.bin",
+          "member": "res.Compose.gif",
+          "sha256": "a4492cb496917e7629117817845144bf9ed7726c9bb43f45a62e2ac5d8287d43"
+        },
+        {
+          "jar": "pars-technews.com/20110204140146/cellphones.jar",
+          "entry": "resource/resources.bin",
+          "member": "res.Compose.gif",
+          "sha256": "a4492cb496917e7629117817845144bf9ed7726c9bb43f45a62e2ac5d8287d43"
+        },
+        {
+          "jar": "pondernews.net/20110106212956/reports.jar",
+          "entry": "resource/resources.bin",
+          "member": "res.Compose.gif",
+          "sha256": "a4492cb496917e7629117817845144bf9ed7726c9bb43f45a62e2ac5d8287d43"
+        },
+        {
+          "jar": "recursosdenoticias.com/20110202124753/banco.jar",
+          "entry": "resource/resources.bin",
+          "member": "res.Compose.gif",
+          "sha256": "a4492cb496917e7629117817845144bf9ed7726c9bb43f45a62e2ac5d8287d43"
+        },
+        {
+          "jar": "shadesofnews.com/20110201184827/sports.jar",
+          "entry": "resource/resources.bin",
+          "member": "res.Compose.gif",
+          "sha256": "a4492cb496917e7629117817845144bf9ed7726c9bb43f45a62e2ac5d8287d43"
+        },
+        {
+          "jar": "sportsnewsfinder.com/20110210133446/scores.jar",
+          "entry": "resource/resources.bin",
+          "member": "res.Compose.gif",
+          "sha256": "a4492cb496917e7629117817845144bf9ed7726c9bb43f45a62e2ac5d8287d43"
+        },
+        {
+          "jar": "technologypresstoday.com/20110201212907/online.jar",
+          "entry": "resource/resources.bin",
+          "member": "res.Compose.gif",
+          "sha256": "a4492cb496917e7629117817845144bf9ed7726c9bb43f45a62e2ac5d8287d43"
+        },
+        {
+          "jar": "technologytodayandtomorrow.com/20110201213207/bluray.jar",
+          "entry": "resource/resources.bin",
+          "member": "res.Compose.gif",
+          "sha256": "a4492cb496917e7629117817845144bf9ed7726c9bb43f45a62e2ac5d8287d43"
+        },
+        {
+          "jar": "thenewsofpakistan.com/20110202221353/television.jar",
+          "entry": "resource/resources.bin",
+          "member": "res.Compose.gif",
+          "sha256": "a4492cb496917e7629117817845144bf9ed7726c9bb43f45a62e2ac5d8287d43"
+        },
+        {
+          "jar": "theworldnewsfeeds.com/20110209183426/feeds.jar",
+          "entry": "resource/resources.bin",
+          "member": "res.Compose.gif",
+          "sha256": "a4492cb496917e7629117817845144bf9ed7726c9bb43f45a62e2ac5d8287d43"
+        },
+        {
+          "jar": "todayoutdoors.com/20110228050838/fires.jar",
+          "entry": "resource/resources.bin",
+          "member": "res.Compose.gif",
+          "sha256": "a4492cb496917e7629117817845144bf9ed7726c9bb43f45a62e2ac5d8287d43"
+        },
+        {
+          "jar": "weblognewsinfo.com/20110207145431/global.jar",
+          "entry": "resource/resources.bin",
+          "member": "res.Compose.gif",
+          "sha256": "a4492cb496917e7629117817845144bf9ed7726c9bb43f45a62e2ac5d8287d43"
+        },
+        {
+          "jar": "wildbirds-seasia.com/20110207183425/diverse.jar",
+          "entry": "resource/resources.bin",
+          "member": "res.Compose.gif",
+          "sha256": "a4492cb496917e7629117817845144bf9ed7726c9bb43f45a62e2ac5d8287d43"
+        },
+        {
+          "jar": "www.24hoursprimenews.com/20110128180323/stories.jar",
+          "entry": "resource/resources.bin",
+          "member": "res.Compose.gif",
+          "sha256": "a4492cb496917e7629117817845144bf9ed7726c9bb43f45a62e2ac5d8287d43"
+        },
+        {
+          "jar": "www.myhealthlibrary.net/20111015023541/dose.jar",
+          "entry": "resource/resources.bin",
+          "member": "res.Compose.gif",
+          "sha256": "a4492cb496917e7629117817845144bf9ed7726c9bb43f45a62e2ac5d8287d43"
+        },
+        {
+          "jar": "www.opensourcenewstoday.com/20110202050322/breaking.jar",
+          "entry": "resource/resources.bin",
+          "member": "res.Compose.gif",
+          "sha256": "a4492cb496917e7629117817845144bf9ed7726c9bb43f45a62e2ac5d8287d43"
+        },
+        {
+          "jar": "www.sayaara-auto.com/20110128163016/ferrari.jar",
+          "entry": "resource/resources.bin",
+          "member": "res.Compose.gif",
+          "sha256": "a4492cb496917e7629117817845144bf9ed7726c9bb43f45a62e2ac5d8287d43"
+        },
+        {
+          "jar": "www.todaysnewsreports.net/20101230050102/communicate.jar",
+          "entry": "resource/resources.bin",
+          "member": "res.Compose.gif",
+          "sha256": "a4492cb496917e7629117817845144bf9ed7726c9bb43f45a62e2ac5d8287d43"
+        }
+      ]
+    },
+    {
+      "role": "reply",
+      "member": "res.Reply.gif",
+      "occurrences": 45,
+      "unique_hashes": [
+        "4fd085432613c9887519bffcfbf0a08a4c43178c620002634aa83083f115e700"
+      ],
+      "sources": [
+        {
+          "jar": "all-sport-headlines.com/20110207144821/birdie.jar",
+          "entry": "resource/resources.bin",
+          "member": "res.Reply.gif",
+          "sha256": "4fd085432613c9887519bffcfbf0a08a4c43178c620002634aa83083f115e700"
+        },
+        {
+          "jar": "dryterrainnews.com/20110209045143/rhino.jar",
+          "entry": "resource/resources.bin",
+          "member": "res.Reply.gif",
+          "sha256": "4fd085432613c9887519bffcfbf0a08a4c43178c620002634aa83083f115e700"
+        },
+        {
+          "jar": "esmundonoticias.com/20110201124235/anuncios.jar",
+          "entry": "resource/resources.bin",
+          "member": "res.Reply.gif",
+          "sha256": "4fd085432613c9887519bffcfbf0a08a4c43178c620002634aa83083f115e700"
+        },
+        {
+          "jar": "euronewsonline.net/20101229064913/papers.jar",
+          "entry": "resource/resources.bin",
+          "member": "res.Reply.gif",
+          "sha256": "4fd085432613c9887519bffcfbf0a08a4c43178c620002634aa83083f115e700"
+        },
+        {
+          "jar": "europeannewsflash.com/20110201192135/users.jar",
+          "entry": "resource/resources.bin",
+          "member": "res.Reply.gif",
+          "sha256": "4fd085432613c9887519bffcfbf0a08a4c43178c620002634aa83083f115e700"
+        },
+        {
+          "jar": "farsi-newsandweather.com/20110202122354/steps.jar",
+          "entry": "resource/resources.bin",
+          "member": "res.Reply.gif",
+          "sha256": "4fd085432613c9887519bffcfbf0a08a4c43178c620002634aa83083f115e700"
+        },
+        {
+          "jar": "financecentraltoday.com/20110203041347/report.jar",
+          "entry": "resource/resources.bin",
+          "member": "res.Reply.gif",
+          "sha256": "4fd085432613c9887519bffcfbf0a08a4c43178c620002634aa83083f115e700"
+        },
+        {
+          "jar": "firstnewssource.com/20110203072529/btools.jar",
+          "entry": "resource/resources.bin",
+          "member": "res.Reply.gif",
+          "sha256": "4fd085432613c9887519bffcfbf0a08a4c43178c620002634aa83083f115e700"
+        },
+        {
+          "jar": "global-view-news.com/20110201100059/ticker.jar",
+          "entry": "resource/resources.bin",
+          "member": "res.Reply.gif",
+          "sha256": "4fd085432613c9887519bffcfbf0a08a4c43178c620002634aa83083f115e700"
+        },
+        {
+          "jar": "health-men-today.com/20110207232346/cardio.jar",
+          "entry": "resource/resources.bin",
+          "member": "res.Reply.gif",
+          "sha256": "4fd085432613c9887519bffcfbf0a08a4c43178c620002634aa83083f115e700"
+        },
+        {
+          "jar": "internationalnewsworthiness.com/20110202031111/world.jar",
+          "entry": "resource/resources.bin",
+          "member": "res.Reply.gif",
+          "sha256": "4fd085432613c9887519bffcfbf0a08a4c43178c620002634aa83083f115e700"
+        },
+        {
+          "jar": "intlnewsdaily.com/20110202053458/region.jar",
+          "entry": "resource/resources.bin",
+          "member": "res.Reply.gif",
+          "sha256": "4fd085432613c9887519bffcfbf0a08a4c43178c620002634aa83083f115e700"
+        },
+        {
+          "jar": "iraniangoalkicks.com/20110202091917/clamping.jar",
+          "entry": "resource/resources.bin",
+          "member": "res.Reply.gif",
+          "sha256": "4fd085432613c9887519bffcfbf0a08a4c43178c620002634aa83083f115e700"
+        },
+        {
+          "jar": "just-the-news.com/20100512093658/trade.jar",
+          "entry": "resource/resources.bin",
+          "member": "res.Reply.gif",
+          "sha256": "4fd085432613c9887519bffcfbf0a08a4c43178c620002634aa83083f115e700"
+        },
+        {
+          "jar": "kickitnews.com/20100512232633/team.jar",
+          "entry": "resource/resources.bin",
+          "member": "res.Reply.gif",
+          "sha256": "4fd085432613c9887519bffcfbf0a08a4c43178c620002634aa83083f115e700"
+        },
+        {
+          "jar": "lasthournews.com/20100513182724/recent.jar",
+          "entry": "resource/resources.bin",
+          "member": "res.Reply.gif",
+          "sha256": "4fd085432613c9887519bffcfbf0a08a4c43178c620002634aa83083f115e700"
+        },
+        {
+          "jar": "latinamericanewsbeat.com/20100513191045/today.jar",
+          "entry": "resource/resources.bin",
+          "member": "res.Reply.gif",
+          "sha256": "4fd085432613c9887519bffcfbf0a08a4c43178c620002634aa83083f115e700"
+        },
+        {
+          "jar": "magneticfieldnews.com/20100515103300/science.jar",
+          "entry": "resource/resources.bin",
+          "member": "res.Reply.gif",
+          "sha256": "4fd085432613c9887519bffcfbf0a08a4c43178c620002634aa83083f115e700"
+        },
+        {
+          "jar": "mideasttoday.net/20100923092301/mideast.jar",
+          "entry": "resource/resources.bin",
+          "member": "res.Reply.gif",
+          "sha256": "4fd085432613c9887519bffcfbf0a08a4c43178c620002634aa83083f115e700"
+        },
+        {
+          "jar": "mideasttoday.net/20101226010124/mideast.jar",
+          "entry": "resource/resources.bin",
+          "member": "res.Reply.gif",
+          "sha256": "4fd085432613c9887519bffcfbf0a08a4c43178c620002634aa83083f115e700"
+        },
+        {
+          "jar": "mydailynewsreport.com/20110207171354/world.jar",
+          "entry": "resource/resources.bin",
+          "member": "res.Reply.gif",
+          "sha256": "4fd085432613c9887519bffcfbf0a08a4c43178c620002634aa83083f115e700"
+        },
+        {
+          "jar": "mytravelopian.com/20110210073221/explore.jar",
+          "entry": "resource/resources.bin",
+          "member": "res.Reply.gif",
+          "sha256": "4fd085432613c9887519bffcfbf0a08a4c43178c620002634aa83083f115e700"
+        },
+        {
+          "jar": "mywebofnews.com/20110210130707/tools.jar",
+          "entry": "resource/resources.bin",
+          "member": "res.Reply.gif",
+          "sha256": "4fd085432613c9887519bffcfbf0a08a4c43178c620002634aa83083f115e700"
+        },
+        {
+          "jar": "newdaynewsonline.com/20110208031828/latesttools.jar",
+          "entry": "resource/resources.bin",
+          "member": "res.Reply.gif",
+          "sha256": "4fd085432613c9887519bffcfbf0a08a4c43178c620002634aa83083f115e700"
+        },
+        {
+          "jar": "news-latina.com/20110208065133/news.jar",
+          "entry": "resource/resources.bin",
+          "member": "res.Reply.gif",
+          "sha256": "4fd085432613c9887519bffcfbf0a08a4c43178c620002634aa83083f115e700"
+        },
+        {
+          "jar": "newsincirculation.com/20110208064944/affairs.jar",
+          "entry": "resource/resources.bin",
+          "member": "res.Reply.gif",
+          "sha256": "4fd085432613c9887519bffcfbf0a08a4c43178c620002634aa83083f115e700"
+        },
+        {
+          "jar": "newsworldsite.com/20110208071946/steps.jar",
+          "entry": "resource/resources.bin",
+          "member": "res.Reply.gif",
+          "sha256": "4fd085432613c9887519bffcfbf0a08a4c43178c620002634aa83083f115e700"
+        },
+        {
+          "jar": "outlooknewscast.com/20110202115733/members.jar",
+          "entry": "resource/resources.bin",
+          "member": "res.Reply.gif",
+          "sha256": "4fd085432613c9887519bffcfbf0a08a4c43178c620002634aa83083f115e700"
+        },
+        {
+          "jar": "pars-technews.com/20110204140146/cellphones.jar",
+          "entry": "resource/resources.bin",
+          "member": "res.Reply.gif",
+          "sha256": "4fd085432613c9887519bffcfbf0a08a4c43178c620002634aa83083f115e700"
+        },
+        {
+          "jar": "pondernews.net/20110106212956/reports.jar",
+          "entry": "resource/resources.bin",
+          "member": "res.Reply.gif",
+          "sha256": "4fd085432613c9887519bffcfbf0a08a4c43178c620002634aa83083f115e700"
+        },
+        {
+          "jar": "recursosdenoticias.com/20110202124753/banco.jar",
+          "entry": "resource/resources.bin",
+          "member": "res.Reply.gif",
+          "sha256": "4fd085432613c9887519bffcfbf0a08a4c43178c620002634aa83083f115e700"
+        },
+        {
+          "jar": "shadesofnews.com/20110201184827/sports.jar",
+          "entry": "resource/resources.bin",
+          "member": "res.Reply.gif",
+          "sha256": "4fd085432613c9887519bffcfbf0a08a4c43178c620002634aa83083f115e700"
+        },
+        {
+          "jar": "sportsnewsfinder.com/20110210133446/scores.jar",
+          "entry": "resource/resources.bin",
+          "member": "res.Reply.gif",
+          "sha256": "4fd085432613c9887519bffcfbf0a08a4c43178c620002634aa83083f115e700"
+        },
+        {
+          "jar": "technologypresstoday.com/20110201212907/online.jar",
+          "entry": "resource/resources.bin",
+          "member": "res.Reply.gif",
+          "sha256": "4fd085432613c9887519bffcfbf0a08a4c43178c620002634aa83083f115e700"
+        },
+        {
+          "jar": "technologytodayandtomorrow.com/20110201213207/bluray.jar",
+          "entry": "resource/resources.bin",
+          "member": "res.Reply.gif",
+          "sha256": "4fd085432613c9887519bffcfbf0a08a4c43178c620002634aa83083f115e700"
+        },
+        {
+          "jar": "thenewsofpakistan.com/20110202221353/television.jar",
+          "entry": "resource/resources.bin",
+          "member": "res.Reply.gif",
+          "sha256": "4fd085432613c9887519bffcfbf0a08a4c43178c620002634aa83083f115e700"
+        },
+        {
+          "jar": "theworldnewsfeeds.com/20110209183426/feeds.jar",
+          "entry": "resource/resources.bin",
+          "member": "res.Reply.gif",
+          "sha256": "4fd085432613c9887519bffcfbf0a08a4c43178c620002634aa83083f115e700"
+        },
+        {
+          "jar": "todayoutdoors.com/20110228050838/fires.jar",
+          "entry": "resource/resources.bin",
+          "member": "res.Reply.gif",
+          "sha256": "4fd085432613c9887519bffcfbf0a08a4c43178c620002634aa83083f115e700"
+        },
+        {
+          "jar": "weblognewsinfo.com/20110207145431/global.jar",
+          "entry": "resource/resources.bin",
+          "member": "res.Reply.gif",
+          "sha256": "4fd085432613c9887519bffcfbf0a08a4c43178c620002634aa83083f115e700"
+        },
+        {
+          "jar": "wildbirds-seasia.com/20110207183425/diverse.jar",
+          "entry": "resource/resources.bin",
+          "member": "res.Reply.gif",
+          "sha256": "4fd085432613c9887519bffcfbf0a08a4c43178c620002634aa83083f115e700"
+        },
+        {
+          "jar": "www.24hoursprimenews.com/20110128180323/stories.jar",
+          "entry": "resource/resources.bin",
+          "member": "res.Reply.gif",
+          "sha256": "4fd085432613c9887519bffcfbf0a08a4c43178c620002634aa83083f115e700"
+        },
+        {
+          "jar": "www.myhealthlibrary.net/20111015023541/dose.jar",
+          "entry": "resource/resources.bin",
+          "member": "res.Reply.gif",
+          "sha256": "4fd085432613c9887519bffcfbf0a08a4c43178c620002634aa83083f115e700"
+        },
+        {
+          "jar": "www.opensourcenewstoday.com/20110202050322/breaking.jar",
+          "entry": "resource/resources.bin",
+          "member": "res.Reply.gif",
+          "sha256": "4fd085432613c9887519bffcfbf0a08a4c43178c620002634aa83083f115e700"
+        },
+        {
+          "jar": "www.sayaara-auto.com/20110128163016/ferrari.jar",
+          "entry": "resource/resources.bin",
+          "member": "res.Reply.gif",
+          "sha256": "4fd085432613c9887519bffcfbf0a08a4c43178c620002634aa83083f115e700"
+        },
+        {
+          "jar": "www.todaysnewsreports.net/20101230050102/communicate.jar",
+          "entry": "resource/resources.bin",
+          "member": "res.Reply.gif",
+          "sha256": "4fd085432613c9887519bffcfbf0a08a4c43178c620002634aa83083f115e700"
+        }
+      ]
+    },
+    {
+      "role": "delete",
+      "member": "res.Delete.gif",
+      "occurrences": 45,
+      "unique_hashes": [
+        "c3f281ebad1f866d5004f8ef777d51bf2c722430389ddee83ade31ac1feb311c"
+      ],
+      "sources": [
+        {
+          "jar": "all-sport-headlines.com/20110207144821/birdie.jar",
+          "entry": "resource/resources.bin",
+          "member": "res.Delete.gif",
+          "sha256": "c3f281ebad1f866d5004f8ef777d51bf2c722430389ddee83ade31ac1feb311c"
+        },
+        {
+          "jar": "dryterrainnews.com/20110209045143/rhino.jar",
+          "entry": "resource/resources.bin",
+          "member": "res.Delete.gif",
+          "sha256": "c3f281ebad1f866d5004f8ef777d51bf2c722430389ddee83ade31ac1feb311c"
+        },
+        {
+          "jar": "esmundonoticias.com/20110201124235/anuncios.jar",
+          "entry": "resource/resources.bin",
+          "member": "res.Delete.gif",
+          "sha256": "c3f281ebad1f866d5004f8ef777d51bf2c722430389ddee83ade31ac1feb311c"
+        },
+        {
+          "jar": "euronewsonline.net/20101229064913/papers.jar",
+          "entry": "resource/resources.bin",
+          "member": "res.Delete.gif",
+          "sha256": "c3f281ebad1f866d5004f8ef777d51bf2c722430389ddee83ade31ac1feb311c"
+        },
+        {
+          "jar": "europeannewsflash.com/20110201192135/users.jar",
+          "entry": "resource/resources.bin",
+          "member": "res.Delete.gif",
+          "sha256": "c3f281ebad1f866d5004f8ef777d51bf2c722430389ddee83ade31ac1feb311c"
+        },
+        {
+          "jar": "farsi-newsandweather.com/20110202122354/steps.jar",
+          "entry": "resource/resources.bin",
+          "member": "res.Delete.gif",
+          "sha256": "c3f281ebad1f866d5004f8ef777d51bf2c722430389ddee83ade31ac1feb311c"
+        },
+        {
+          "jar": "financecentraltoday.com/20110203041347/report.jar",
+          "entry": "resource/resources.bin",
+          "member": "res.Delete.gif",
+          "sha256": "c3f281ebad1f866d5004f8ef777d51bf2c722430389ddee83ade31ac1feb311c"
+        },
+        {
+          "jar": "firstnewssource.com/20110203072529/btools.jar",
+          "entry": "resource/resources.bin",
+          "member": "res.Delete.gif",
+          "sha256": "c3f281ebad1f866d5004f8ef777d51bf2c722430389ddee83ade31ac1feb311c"
+        },
+        {
+          "jar": "global-view-news.com/20110201100059/ticker.jar",
+          "entry": "resource/resources.bin",
+          "member": "res.Delete.gif",
+          "sha256": "c3f281ebad1f866d5004f8ef777d51bf2c722430389ddee83ade31ac1feb311c"
+        },
+        {
+          "jar": "health-men-today.com/20110207232346/cardio.jar",
+          "entry": "resource/resources.bin",
+          "member": "res.Delete.gif",
+          "sha256": "c3f281ebad1f866d5004f8ef777d51bf2c722430389ddee83ade31ac1feb311c"
+        },
+        {
+          "jar": "internationalnewsworthiness.com/20110202031111/world.jar",
+          "entry": "resource/resources.bin",
+          "member": "res.Delete.gif",
+          "sha256": "c3f281ebad1f866d5004f8ef777d51bf2c722430389ddee83ade31ac1feb311c"
+        },
+        {
+          "jar": "intlnewsdaily.com/20110202053458/region.jar",
+          "entry": "resource/resources.bin",
+          "member": "res.Delete.gif",
+          "sha256": "c3f281ebad1f866d5004f8ef777d51bf2c722430389ddee83ade31ac1feb311c"
+        },
+        {
+          "jar": "iraniangoalkicks.com/20110202091917/clamping.jar",
+          "entry": "resource/resources.bin",
+          "member": "res.Delete.gif",
+          "sha256": "c3f281ebad1f866d5004f8ef777d51bf2c722430389ddee83ade31ac1feb311c"
+        },
+        {
+          "jar": "just-the-news.com/20100512093658/trade.jar",
+          "entry": "resource/resources.bin",
+          "member": "res.Delete.gif",
+          "sha256": "c3f281ebad1f866d5004f8ef777d51bf2c722430389ddee83ade31ac1feb311c"
+        },
+        {
+          "jar": "kickitnews.com/20100512232633/team.jar",
+          "entry": "resource/resources.bin",
+          "member": "res.Delete.gif",
+          "sha256": "c3f281ebad1f866d5004f8ef777d51bf2c722430389ddee83ade31ac1feb311c"
+        },
+        {
+          "jar": "lasthournews.com/20100513182724/recent.jar",
+          "entry": "resource/resources.bin",
+          "member": "res.Delete.gif",
+          "sha256": "c3f281ebad1f866d5004f8ef777d51bf2c722430389ddee83ade31ac1feb311c"
+        },
+        {
+          "jar": "latinamericanewsbeat.com/20100513191045/today.jar",
+          "entry": "resource/resources.bin",
+          "member": "res.Delete.gif",
+          "sha256": "c3f281ebad1f866d5004f8ef777d51bf2c722430389ddee83ade31ac1feb311c"
+        },
+        {
+          "jar": "magneticfieldnews.com/20100515103300/science.jar",
+          "entry": "resource/resources.bin",
+          "member": "res.Delete.gif",
+          "sha256": "c3f281ebad1f866d5004f8ef777d51bf2c722430389ddee83ade31ac1feb311c"
+        },
+        {
+          "jar": "mideasttoday.net/20100923092301/mideast.jar",
+          "entry": "resource/resources.bin",
+          "member": "res.Delete.gif",
+          "sha256": "c3f281ebad1f866d5004f8ef777d51bf2c722430389ddee83ade31ac1feb311c"
+        },
+        {
+          "jar": "mideasttoday.net/20101226010124/mideast.jar",
+          "entry": "resource/resources.bin",
+          "member": "res.Delete.gif",
+          "sha256": "c3f281ebad1f866d5004f8ef777d51bf2c722430389ddee83ade31ac1feb311c"
+        },
+        {
+          "jar": "mydailynewsreport.com/20110207171354/world.jar",
+          "entry": "resource/resources.bin",
+          "member": "res.Delete.gif",
+          "sha256": "c3f281ebad1f866d5004f8ef777d51bf2c722430389ddee83ade31ac1feb311c"
+        },
+        {
+          "jar": "mytravelopian.com/20110210073221/explore.jar",
+          "entry": "resource/resources.bin",
+          "member": "res.Delete.gif",
+          "sha256": "c3f281ebad1f866d5004f8ef777d51bf2c722430389ddee83ade31ac1feb311c"
+        },
+        {
+          "jar": "mywebofnews.com/20110210130707/tools.jar",
+          "entry": "resource/resources.bin",
+          "member": "res.Delete.gif",
+          "sha256": "c3f281ebad1f866d5004f8ef777d51bf2c722430389ddee83ade31ac1feb311c"
+        },
+        {
+          "jar": "newdaynewsonline.com/20110208031828/latesttools.jar",
+          "entry": "resource/resources.bin",
+          "member": "res.Delete.gif",
+          "sha256": "c3f281ebad1f866d5004f8ef777d51bf2c722430389ddee83ade31ac1feb311c"
+        },
+        {
+          "jar": "news-latina.com/20110208065133/news.jar",
+          "entry": "resource/resources.bin",
+          "member": "res.Delete.gif",
+          "sha256": "c3f281ebad1f866d5004f8ef777d51bf2c722430389ddee83ade31ac1feb311c"
+        },
+        {
+          "jar": "newsincirculation.com/20110208064944/affairs.jar",
+          "entry": "resource/resources.bin",
+          "member": "res.Delete.gif",
+          "sha256": "c3f281ebad1f866d5004f8ef777d51bf2c722430389ddee83ade31ac1feb311c"
+        },
+        {
+          "jar": "newsworldsite.com/20110208071946/steps.jar",
+          "entry": "resource/resources.bin",
+          "member": "res.Delete.gif",
+          "sha256": "c3f281ebad1f866d5004f8ef777d51bf2c722430389ddee83ade31ac1feb311c"
+        },
+        {
+          "jar": "outlooknewscast.com/20110202115733/members.jar",
+          "entry": "resource/resources.bin",
+          "member": "res.Delete.gif",
+          "sha256": "c3f281ebad1f866d5004f8ef777d51bf2c722430389ddee83ade31ac1feb311c"
+        },
+        {
+          "jar": "pars-technews.com/20110204140146/cellphones.jar",
+          "entry": "resource/resources.bin",
+          "member": "res.Delete.gif",
+          "sha256": "c3f281ebad1f866d5004f8ef777d51bf2c722430389ddee83ade31ac1feb311c"
+        },
+        {
+          "jar": "pondernews.net/20110106212956/reports.jar",
+          "entry": "resource/resources.bin",
+          "member": "res.Delete.gif",
+          "sha256": "c3f281ebad1f866d5004f8ef777d51bf2c722430389ddee83ade31ac1feb311c"
+        },
+        {
+          "jar": "recursosdenoticias.com/20110202124753/banco.jar",
+          "entry": "resource/resources.bin",
+          "member": "res.Delete.gif",
+          "sha256": "c3f281ebad1f866d5004f8ef777d51bf2c722430389ddee83ade31ac1feb311c"
+        },
+        {
+          "jar": "shadesofnews.com/20110201184827/sports.jar",
+          "entry": "resource/resources.bin",
+          "member": "res.Delete.gif",
+          "sha256": "c3f281ebad1f866d5004f8ef777d51bf2c722430389ddee83ade31ac1feb311c"
+        },
+        {
+          "jar": "sportsnewsfinder.com/20110210133446/scores.jar",
+          "entry": "resource/resources.bin",
+          "member": "res.Delete.gif",
+          "sha256": "c3f281ebad1f866d5004f8ef777d51bf2c722430389ddee83ade31ac1feb311c"
+        },
+        {
+          "jar": "technologypresstoday.com/20110201212907/online.jar",
+          "entry": "resource/resources.bin",
+          "member": "res.Delete.gif",
+          "sha256": "c3f281ebad1f866d5004f8ef777d51bf2c722430389ddee83ade31ac1feb311c"
+        },
+        {
+          "jar": "technologytodayandtomorrow.com/20110201213207/bluray.jar",
+          "entry": "resource/resources.bin",
+          "member": "res.Delete.gif",
+          "sha256": "c3f281ebad1f866d5004f8ef777d51bf2c722430389ddee83ade31ac1feb311c"
+        },
+        {
+          "jar": "thenewsofpakistan.com/20110202221353/television.jar",
+          "entry": "resource/resources.bin",
+          "member": "res.Delete.gif",
+          "sha256": "c3f281ebad1f866d5004f8ef777d51bf2c722430389ddee83ade31ac1feb311c"
+        },
+        {
+          "jar": "theworldnewsfeeds.com/20110209183426/feeds.jar",
+          "entry": "resource/resources.bin",
+          "member": "res.Delete.gif",
+          "sha256": "c3f281ebad1f866d5004f8ef777d51bf2c722430389ddee83ade31ac1feb311c"
+        },
+        {
+          "jar": "todayoutdoors.com/20110228050838/fires.jar",
+          "entry": "resource/resources.bin",
+          "member": "res.Delete.gif",
+          "sha256": "c3f281ebad1f866d5004f8ef777d51bf2c722430389ddee83ade31ac1feb311c"
+        },
+        {
+          "jar": "weblognewsinfo.com/20110207145431/global.jar",
+          "entry": "resource/resources.bin",
+          "member": "res.Delete.gif",
+          "sha256": "c3f281ebad1f866d5004f8ef777d51bf2c722430389ddee83ade31ac1feb311c"
+        },
+        {
+          "jar": "wildbirds-seasia.com/20110207183425/diverse.jar",
+          "entry": "resource/resources.bin",
+          "member": "res.Delete.gif",
+          "sha256": "c3f281ebad1f866d5004f8ef777d51bf2c722430389ddee83ade31ac1feb311c"
+        },
+        {
+          "jar": "www.24hoursprimenews.com/20110128180323/stories.jar",
+          "entry": "resource/resources.bin",
+          "member": "res.Delete.gif",
+          "sha256": "c3f281ebad1f866d5004f8ef777d51bf2c722430389ddee83ade31ac1feb311c"
+        },
+        {
+          "jar": "www.myhealthlibrary.net/20111015023541/dose.jar",
+          "entry": "resource/resources.bin",
+          "member": "res.Delete.gif",
+          "sha256": "c3f281ebad1f866d5004f8ef777d51bf2c722430389ddee83ade31ac1feb311c"
+        },
+        {
+          "jar": "www.opensourcenewstoday.com/20110202050322/breaking.jar",
+          "entry": "resource/resources.bin",
+          "member": "res.Delete.gif",
+          "sha256": "c3f281ebad1f866d5004f8ef777d51bf2c722430389ddee83ade31ac1feb311c"
+        },
+        {
+          "jar": "www.sayaara-auto.com/20110128163016/ferrari.jar",
+          "entry": "resource/resources.bin",
+          "member": "res.Delete.gif",
+          "sha256": "c3f281ebad1f866d5004f8ef777d51bf2c722430389ddee83ade31ac1feb311c"
+        },
+        {
+          "jar": "www.todaysnewsreports.net/20101230050102/communicate.jar",
+          "entry": "resource/resources.bin",
+          "member": "res.Delete.gif",
+          "sha256": "c3f281ebad1f866d5004f8ef777d51bf2c722430389ddee83ade31ac1feb311c"
+        }
+      ]
+    },
+    {
+      "role": "exit",
+      "member": "res.Close.gif",
+      "occurrences": 45,
+      "unique_hashes": [
+        "1948ff83ae5fbe68591605799a363b1fad2524149d2e2a8fb40c54ce71670cec"
+      ],
+      "sources": [
+        {
+          "jar": "all-sport-headlines.com/20110207144821/birdie.jar",
+          "entry": "resource/resources.bin",
+          "member": "res.Close.gif",
+          "sha256": "1948ff83ae5fbe68591605799a363b1fad2524149d2e2a8fb40c54ce71670cec"
+        },
+        {
+          "jar": "dryterrainnews.com/20110209045143/rhino.jar",
+          "entry": "resource/resources.bin",
+          "member": "res.Close.gif",
+          "sha256": "1948ff83ae5fbe68591605799a363b1fad2524149d2e2a8fb40c54ce71670cec"
+        },
+        {
+          "jar": "esmundonoticias.com/20110201124235/anuncios.jar",
+          "entry": "resource/resources.bin",
+          "member": "res.Close.gif",
+          "sha256": "1948ff83ae5fbe68591605799a363b1fad2524149d2e2a8fb40c54ce71670cec"
+        },
+        {
+          "jar": "euronewsonline.net/20101229064913/papers.jar",
+          "entry": "resource/resources.bin",
+          "member": "res.Close.gif",
+          "sha256": "1948ff83ae5fbe68591605799a363b1fad2524149d2e2a8fb40c54ce71670cec"
+        },
+        {
+          "jar": "europeannewsflash.com/20110201192135/users.jar",
+          "entry": "resource/resources.bin",
+          "member": "res.Close.gif",
+          "sha256": "1948ff83ae5fbe68591605799a363b1fad2524149d2e2a8fb40c54ce71670cec"
+        },
+        {
+          "jar": "farsi-newsandweather.com/20110202122354/steps.jar",
+          "entry": "resource/resources.bin",
+          "member": "res.Close.gif",
+          "sha256": "1948ff83ae5fbe68591605799a363b1fad2524149d2e2a8fb40c54ce71670cec"
+        },
+        {
+          "jar": "financecentraltoday.com/20110203041347/report.jar",
+          "entry": "resource/resources.bin",
+          "member": "res.Close.gif",
+          "sha256": "1948ff83ae5fbe68591605799a363b1fad2524149d2e2a8fb40c54ce71670cec"
+        },
+        {
+          "jar": "firstnewssource.com/20110203072529/btools.jar",
+          "entry": "resource/resources.bin",
+          "member": "res.Close.gif",
+          "sha256": "1948ff83ae5fbe68591605799a363b1fad2524149d2e2a8fb40c54ce71670cec"
+        },
+        {
+          "jar": "global-view-news.com/20110201100059/ticker.jar",
+          "entry": "resource/resources.bin",
+          "member": "res.Close.gif",
+          "sha256": "1948ff83ae5fbe68591605799a363b1fad2524149d2e2a8fb40c54ce71670cec"
+        },
+        {
+          "jar": "health-men-today.com/20110207232346/cardio.jar",
+          "entry": "resource/resources.bin",
+          "member": "res.Close.gif",
+          "sha256": "1948ff83ae5fbe68591605799a363b1fad2524149d2e2a8fb40c54ce71670cec"
+        },
+        {
+          "jar": "internationalnewsworthiness.com/20110202031111/world.jar",
+          "entry": "resource/resources.bin",
+          "member": "res.Close.gif",
+          "sha256": "1948ff83ae5fbe68591605799a363b1fad2524149d2e2a8fb40c54ce71670cec"
+        },
+        {
+          "jar": "intlnewsdaily.com/20110202053458/region.jar",
+          "entry": "resource/resources.bin",
+          "member": "res.Close.gif",
+          "sha256": "1948ff83ae5fbe68591605799a363b1fad2524149d2e2a8fb40c54ce71670cec"
+        },
+        {
+          "jar": "iraniangoalkicks.com/20110202091917/clamping.jar",
+          "entry": "resource/resources.bin",
+          "member": "res.Close.gif",
+          "sha256": "1948ff83ae5fbe68591605799a363b1fad2524149d2e2a8fb40c54ce71670cec"
+        },
+        {
+          "jar": "just-the-news.com/20100512093658/trade.jar",
+          "entry": "resource/resources.bin",
+          "member": "res.Close.gif",
+          "sha256": "1948ff83ae5fbe68591605799a363b1fad2524149d2e2a8fb40c54ce71670cec"
+        },
+        {
+          "jar": "kickitnews.com/20100512232633/team.jar",
+          "entry": "resource/resources.bin",
+          "member": "res.Close.gif",
+          "sha256": "1948ff83ae5fbe68591605799a363b1fad2524149d2e2a8fb40c54ce71670cec"
+        },
+        {
+          "jar": "lasthournews.com/20100513182724/recent.jar",
+          "entry": "resource/resources.bin",
+          "member": "res.Close.gif",
+          "sha256": "1948ff83ae5fbe68591605799a363b1fad2524149d2e2a8fb40c54ce71670cec"
+        },
+        {
+          "jar": "latinamericanewsbeat.com/20100513191045/today.jar",
+          "entry": "resource/resources.bin",
+          "member": "res.Close.gif",
+          "sha256": "1948ff83ae5fbe68591605799a363b1fad2524149d2e2a8fb40c54ce71670cec"
+        },
+        {
+          "jar": "magneticfieldnews.com/20100515103300/science.jar",
+          "entry": "resource/resources.bin",
+          "member": "res.Close.gif",
+          "sha256": "1948ff83ae5fbe68591605799a363b1fad2524149d2e2a8fb40c54ce71670cec"
+        },
+        {
+          "jar": "mideasttoday.net/20100923092301/mideast.jar",
+          "entry": "resource/resources.bin",
+          "member": "res.Close.gif",
+          "sha256": "1948ff83ae5fbe68591605799a363b1fad2524149d2e2a8fb40c54ce71670cec"
+        },
+        {
+          "jar": "mideasttoday.net/20101226010124/mideast.jar",
+          "entry": "resource/resources.bin",
+          "member": "res.Close.gif",
+          "sha256": "1948ff83ae5fbe68591605799a363b1fad2524149d2e2a8fb40c54ce71670cec"
+        },
+        {
+          "jar": "mydailynewsreport.com/20110207171354/world.jar",
+          "entry": "resource/resources.bin",
+          "member": "res.Close.gif",
+          "sha256": "1948ff83ae5fbe68591605799a363b1fad2524149d2e2a8fb40c54ce71670cec"
+        },
+        {
+          "jar": "mytravelopian.com/20110210073221/explore.jar",
+          "entry": "resource/resources.bin",
+          "member": "res.Close.gif",
+          "sha256": "1948ff83ae5fbe68591605799a363b1fad2524149d2e2a8fb40c54ce71670cec"
+        },
+        {
+          "jar": "mywebofnews.com/20110210130707/tools.jar",
+          "entry": "resource/resources.bin",
+          "member": "res.Close.gif",
+          "sha256": "1948ff83ae5fbe68591605799a363b1fad2524149d2e2a8fb40c54ce71670cec"
+        },
+        {
+          "jar": "newdaynewsonline.com/20110208031828/latesttools.jar",
+          "entry": "resource/resources.bin",
+          "member": "res.Close.gif",
+          "sha256": "1948ff83ae5fbe68591605799a363b1fad2524149d2e2a8fb40c54ce71670cec"
+        },
+        {
+          "jar": "news-latina.com/20110208065133/news.jar",
+          "entry": "resource/resources.bin",
+          "member": "res.Close.gif",
+          "sha256": "1948ff83ae5fbe68591605799a363b1fad2524149d2e2a8fb40c54ce71670cec"
+        },
+        {
+          "jar": "newsincirculation.com/20110208064944/affairs.jar",
+          "entry": "resource/resources.bin",
+          "member": "res.Close.gif",
+          "sha256": "1948ff83ae5fbe68591605799a363b1fad2524149d2e2a8fb40c54ce71670cec"
+        },
+        {
+          "jar": "newsworldsite.com/20110208071946/steps.jar",
+          "entry": "resource/resources.bin",
+          "member": "res.Close.gif",
+          "sha256": "1948ff83ae5fbe68591605799a363b1fad2524149d2e2a8fb40c54ce71670cec"
+        },
+        {
+          "jar": "outlooknewscast.com/20110202115733/members.jar",
+          "entry": "resource/resources.bin",
+          "member": "res.Close.gif",
+          "sha256": "1948ff83ae5fbe68591605799a363b1fad2524149d2e2a8fb40c54ce71670cec"
+        },
+        {
+          "jar": "pars-technews.com/20110204140146/cellphones.jar",
+          "entry": "resource/resources.bin",
+          "member": "res.Close.gif",
+          "sha256": "1948ff83ae5fbe68591605799a363b1fad2524149d2e2a8fb40c54ce71670cec"
+        },
+        {
+          "jar": "pondernews.net/20110106212956/reports.jar",
+          "entry": "resource/resources.bin",
+          "member": "res.Close.gif",
+          "sha256": "1948ff83ae5fbe68591605799a363b1fad2524149d2e2a8fb40c54ce71670cec"
+        },
+        {
+          "jar": "recursosdenoticias.com/20110202124753/banco.jar",
+          "entry": "resource/resources.bin",
+          "member": "res.Close.gif",
+          "sha256": "1948ff83ae5fbe68591605799a363b1fad2524149d2e2a8fb40c54ce71670cec"
+        },
+        {
+          "jar": "shadesofnews.com/20110201184827/sports.jar",
+          "entry": "resource/resources.bin",
+          "member": "res.Close.gif",
+          "sha256": "1948ff83ae5fbe68591605799a363b1fad2524149d2e2a8fb40c54ce71670cec"
+        },
+        {
+          "jar": "sportsnewsfinder.com/20110210133446/scores.jar",
+          "entry": "resource/resources.bin",
+          "member": "res.Close.gif",
+          "sha256": "1948ff83ae5fbe68591605799a363b1fad2524149d2e2a8fb40c54ce71670cec"
+        },
+        {
+          "jar": "technologypresstoday.com/20110201212907/online.jar",
+          "entry": "resource/resources.bin",
+          "member": "res.Close.gif",
+          "sha256": "1948ff83ae5fbe68591605799a363b1fad2524149d2e2a8fb40c54ce71670cec"
+        },
+        {
+          "jar": "technologytodayandtomorrow.com/20110201213207/bluray.jar",
+          "entry": "resource/resources.bin",
+          "member": "res.Close.gif",
+          "sha256": "1948ff83ae5fbe68591605799a363b1fad2524149d2e2a8fb40c54ce71670cec"
+        },
+        {
+          "jar": "thenewsofpakistan.com/20110202221353/television.jar",
+          "entry": "resource/resources.bin",
+          "member": "res.Close.gif",
+          "sha256": "1948ff83ae5fbe68591605799a363b1fad2524149d2e2a8fb40c54ce71670cec"
+        },
+        {
+          "jar": "theworldnewsfeeds.com/20110209183426/feeds.jar",
+          "entry": "resource/resources.bin",
+          "member": "res.Close.gif",
+          "sha256": "1948ff83ae5fbe68591605799a363b1fad2524149d2e2a8fb40c54ce71670cec"
+        },
+        {
+          "jar": "todayoutdoors.com/20110228050838/fires.jar",
+          "entry": "resource/resources.bin",
+          "member": "res.Close.gif",
+          "sha256": "1948ff83ae5fbe68591605799a363b1fad2524149d2e2a8fb40c54ce71670cec"
+        },
+        {
+          "jar": "weblognewsinfo.com/20110207145431/global.jar",
+          "entry": "resource/resources.bin",
+          "member": "res.Close.gif",
+          "sha256": "1948ff83ae5fbe68591605799a363b1fad2524149d2e2a8fb40c54ce71670cec"
+        },
+        {
+          "jar": "wildbirds-seasia.com/20110207183425/diverse.jar",
+          "entry": "resource/resources.bin",
+          "member": "res.Close.gif",
+          "sha256": "1948ff83ae5fbe68591605799a363b1fad2524149d2e2a8fb40c54ce71670cec"
+        },
+        {
+          "jar": "www.24hoursprimenews.com/20110128180323/stories.jar",
+          "entry": "resource/resources.bin",
+          "member": "res.Close.gif",
+          "sha256": "1948ff83ae5fbe68591605799a363b1fad2524149d2e2a8fb40c54ce71670cec"
+        },
+        {
+          "jar": "www.myhealthlibrary.net/20111015023541/dose.jar",
+          "entry": "resource/resources.bin",
+          "member": "res.Close.gif",
+          "sha256": "1948ff83ae5fbe68591605799a363b1fad2524149d2e2a8fb40c54ce71670cec"
+        },
+        {
+          "jar": "www.opensourcenewstoday.com/20110202050322/breaking.jar",
+          "entry": "resource/resources.bin",
+          "member": "res.Close.gif",
+          "sha256": "1948ff83ae5fbe68591605799a363b1fad2524149d2e2a8fb40c54ce71670cec"
+        },
+        {
+          "jar": "www.sayaara-auto.com/20110128163016/ferrari.jar",
+          "entry": "resource/resources.bin",
+          "member": "res.Close.gif",
+          "sha256": "1948ff83ae5fbe68591605799a363b1fad2524149d2e2a8fb40c54ce71670cec"
+        },
+        {
+          "jar": "www.todaysnewsreports.net/20101230050102/communicate.jar",
+          "entry": "resource/resources.bin",
+          "member": "res.Close.gif",
+          "sha256": "1948ff83ae5fbe68591605799a363b1fad2524149d2e2a8fb40c54ce71670cec"
+        }
+      ]
+    },
+    {
+      "role": "inbox",
+      "member": "res.Inbox.gif",
+      "occurrences": 44,
+      "unique_hashes": [
+        "75301cbc0fa5e0b25e7777206b9a9a044408ebd849e796fdde8c55d89f67ab3e"
+      ],
+      "sources": [
+        {
+          "jar": "all-sport-headlines.com/20110207144821/birdie.jar",
+          "entry": "resource/resources.bin",
+          "member": "res.Inbox.gif",
+          "sha256": "75301cbc0fa5e0b25e7777206b9a9a044408ebd849e796fdde8c55d89f67ab3e"
+        },
+        {
+          "jar": "dryterrainnews.com/20110209045143/rhino.jar",
+          "entry": "resource/resources.bin",
+          "member": "res.Inbox.gif",
+          "sha256": "75301cbc0fa5e0b25e7777206b9a9a044408ebd849e796fdde8c55d89f67ab3e"
+        },
+        {
+          "jar": "esmundonoticias.com/20110201124235/anuncios.jar",
+          "entry": "resource/resources.bin",
+          "member": "res.Inbox.gif",
+          "sha256": "75301cbc0fa5e0b25e7777206b9a9a044408ebd849e796fdde8c55d89f67ab3e"
+        },
+        {
+          "jar": "euronewsonline.net/20101229064913/papers.jar",
+          "entry": "resource/resources.bin",
+          "member": "res.Inbox.gif",
+          "sha256": "75301cbc0fa5e0b25e7777206b9a9a044408ebd849e796fdde8c55d89f67ab3e"
+        },
+        {
+          "jar": "europeannewsflash.com/20110201192135/users.jar",
+          "entry": "resource/resources.bin",
+          "member": "res.Inbox.gif",
+          "sha256": "75301cbc0fa5e0b25e7777206b9a9a044408ebd849e796fdde8c55d89f67ab3e"
+        },
+        {
+          "jar": "farsi-newsandweather.com/20110202122354/steps.jar",
+          "entry": "resource/resources.bin",
+          "member": "res.Inbox.gif",
+          "sha256": "75301cbc0fa5e0b25e7777206b9a9a044408ebd849e796fdde8c55d89f67ab3e"
+        },
+        {
+          "jar": "financecentraltoday.com/20110203041347/report.jar",
+          "entry": "resource/resources.bin",
+          "member": "res.Inbox.gif",
+          "sha256": "75301cbc0fa5e0b25e7777206b9a9a044408ebd849e796fdde8c55d89f67ab3e"
+        },
+        {
+          "jar": "firstnewssource.com/20110203072529/btools.jar",
+          "entry": "resource/resources.bin",
+          "member": "res.Inbox.gif",
+          "sha256": "75301cbc0fa5e0b25e7777206b9a9a044408ebd849e796fdde8c55d89f67ab3e"
+        },
+        {
+          "jar": "global-view-news.com/20110201100059/ticker.jar",
+          "entry": "resource/resources.bin",
+          "member": "res.Inbox.gif",
+          "sha256": "75301cbc0fa5e0b25e7777206b9a9a044408ebd849e796fdde8c55d89f67ab3e"
+        },
+        {
+          "jar": "health-men-today.com/20110207232346/cardio.jar",
+          "entry": "resource/resources.bin",
+          "member": "res.Inbox.gif",
+          "sha256": "75301cbc0fa5e0b25e7777206b9a9a044408ebd849e796fdde8c55d89f67ab3e"
+        },
+        {
+          "jar": "internationalnewsworthiness.com/20110202031111/world.jar",
+          "entry": "resource/resources.bin",
+          "member": "res.Inbox.gif",
+          "sha256": "75301cbc0fa5e0b25e7777206b9a9a044408ebd849e796fdde8c55d89f67ab3e"
+        },
+        {
+          "jar": "intlnewsdaily.com/20110202053458/region.jar",
+          "entry": "resource/resources.bin",
+          "member": "res.Inbox.gif",
+          "sha256": "75301cbc0fa5e0b25e7777206b9a9a044408ebd849e796fdde8c55d89f67ab3e"
+        },
+        {
+          "jar": "iraniangoalkicks.com/20110202091917/clamping.jar",
+          "entry": "resource/resources.bin",
+          "member": "res.Inbox.gif",
+          "sha256": "75301cbc0fa5e0b25e7777206b9a9a044408ebd849e796fdde8c55d89f67ab3e"
+        },
+        {
+          "jar": "just-the-news.com/20100512093658/trade.jar",
+          "entry": "resource/resources.bin",
+          "member": "res.Inbox.gif",
+          "sha256": "75301cbc0fa5e0b25e7777206b9a9a044408ebd849e796fdde8c55d89f67ab3e"
+        },
+        {
+          "jar": "kickitnews.com/20100512232633/team.jar",
+          "entry": "resource/resources.bin",
+          "member": "res.Inbox.gif",
+          "sha256": "75301cbc0fa5e0b25e7777206b9a9a044408ebd849e796fdde8c55d89f67ab3e"
+        },
+        {
+          "jar": "lasthournews.com/20100513182724/recent.jar",
+          "entry": "resource/resources.bin",
+          "member": "res.Inbox.gif",
+          "sha256": "75301cbc0fa5e0b25e7777206b9a9a044408ebd849e796fdde8c55d89f67ab3e"
+        },
+        {
+          "jar": "latinamericanewsbeat.com/20100513191045/today.jar",
+          "entry": "resource/resources.bin",
+          "member": "res.Inbox.gif",
+          "sha256": "75301cbc0fa5e0b25e7777206b9a9a044408ebd849e796fdde8c55d89f67ab3e"
+        },
+        {
+          "jar": "magneticfieldnews.com/20100515103300/science.jar",
+          "entry": "resource/resources.bin",
+          "member": "res.Inbox.gif",
+          "sha256": "75301cbc0fa5e0b25e7777206b9a9a044408ebd849e796fdde8c55d89f67ab3e"
+        },
+        {
+          "jar": "mideasttoday.net/20100923092301/mideast.jar",
+          "entry": "resource/resources.bin",
+          "member": "res.Inbox.gif",
+          "sha256": "75301cbc0fa5e0b25e7777206b9a9a044408ebd849e796fdde8c55d89f67ab3e"
+        },
+        {
+          "jar": "mideasttoday.net/20101226010124/mideast.jar",
+          "entry": "resource/resources.bin",
+          "member": "res.Inbox.gif",
+          "sha256": "75301cbc0fa5e0b25e7777206b9a9a044408ebd849e796fdde8c55d89f67ab3e"
+        },
+        {
+          "jar": "mydailynewsreport.com/20110207171354/world.jar",
+          "entry": "resource/resources.bin",
+          "member": "res.Inbox.gif",
+          "sha256": "75301cbc0fa5e0b25e7777206b9a9a044408ebd849e796fdde8c55d89f67ab3e"
+        },
+        {
+          "jar": "mytravelopian.com/20110210073221/explore.jar",
+          "entry": "resource/resources.bin",
+          "member": "res.Inbox.gif",
+          "sha256": "75301cbc0fa5e0b25e7777206b9a9a044408ebd849e796fdde8c55d89f67ab3e"
+        },
+        {
+          "jar": "mywebofnews.com/20110210130707/tools.jar",
+          "entry": "resource/resources.bin",
+          "member": "res.Inbox.gif",
+          "sha256": "75301cbc0fa5e0b25e7777206b9a9a044408ebd849e796fdde8c55d89f67ab3e"
+        },
+        {
+          "jar": "newdaynewsonline.com/20110208031828/latesttools.jar",
+          "entry": "resource/resources.bin",
+          "member": "res.Inbox.gif",
+          "sha256": "75301cbc0fa5e0b25e7777206b9a9a044408ebd849e796fdde8c55d89f67ab3e"
+        },
+        {
+          "jar": "news-latina.com/20110208065133/news.jar",
+          "entry": "resource/resources.bin",
+          "member": "res.Inbox.gif",
+          "sha256": "75301cbc0fa5e0b25e7777206b9a9a044408ebd849e796fdde8c55d89f67ab3e"
+        },
+        {
+          "jar": "newsincirculation.com/20110208064944/affairs.jar",
+          "entry": "resource/resources.bin",
+          "member": "res.Inbox.gif",
+          "sha256": "75301cbc0fa5e0b25e7777206b9a9a044408ebd849e796fdde8c55d89f67ab3e"
+        },
+        {
+          "jar": "newsworldsite.com/20110208071946/steps.jar",
+          "entry": "resource/resources.bin",
+          "member": "res.Inbox.gif",
+          "sha256": "75301cbc0fa5e0b25e7777206b9a9a044408ebd849e796fdde8c55d89f67ab3e"
+        },
+        {
+          "jar": "outlooknewscast.com/20110202115733/members.jar",
+          "entry": "resource/resources.bin",
+          "member": "res.Inbox.gif",
+          "sha256": "75301cbc0fa5e0b25e7777206b9a9a044408ebd849e796fdde8c55d89f67ab3e"
+        },
+        {
+          "jar": "pars-technews.com/20110204140146/cellphones.jar",
+          "entry": "resource/resources.bin",
+          "member": "res.Inbox.gif",
+          "sha256": "75301cbc0fa5e0b25e7777206b9a9a044408ebd849e796fdde8c55d89f67ab3e"
+        },
+        {
+          "jar": "pondernews.net/20110106212956/reports.jar",
+          "entry": "resource/resources.bin",
+          "member": "res.Inbox.gif",
+          "sha256": "75301cbc0fa5e0b25e7777206b9a9a044408ebd849e796fdde8c55d89f67ab3e"
+        },
+        {
+          "jar": "recursosdenoticias.com/20110202124753/banco.jar",
+          "entry": "resource/resources.bin",
+          "member": "res.Inbox.gif",
+          "sha256": "75301cbc0fa5e0b25e7777206b9a9a044408ebd849e796fdde8c55d89f67ab3e"
+        },
+        {
+          "jar": "shadesofnews.com/20110201184827/sports.jar",
+          "entry": "resource/resources.bin",
+          "member": "res.Inbox.gif",
+          "sha256": "75301cbc0fa5e0b25e7777206b9a9a044408ebd849e796fdde8c55d89f67ab3e"
+        },
+        {
+          "jar": "sportsnewsfinder.com/20110210133446/scores.jar",
+          "entry": "resource/resources.bin",
+          "member": "res.Inbox.gif",
+          "sha256": "75301cbc0fa5e0b25e7777206b9a9a044408ebd849e796fdde8c55d89f67ab3e"
+        },
+        {
+          "jar": "technologypresstoday.com/20110201212907/online.jar",
+          "entry": "resource/resources.bin",
+          "member": "res.Inbox.gif",
+          "sha256": "75301cbc0fa5e0b25e7777206b9a9a044408ebd849e796fdde8c55d89f67ab3e"
+        },
+        {
+          "jar": "technologytodayandtomorrow.com/20110201213207/bluray.jar",
+          "entry": "resource/resources.bin",
+          "member": "res.Inbox.gif",
+          "sha256": "75301cbc0fa5e0b25e7777206b9a9a044408ebd849e796fdde8c55d89f67ab3e"
+        },
+        {
+          "jar": "thenewsofpakistan.com/20110202221353/television.jar",
+          "entry": "resource/resources.bin",
+          "member": "res.Inbox.gif",
+          "sha256": "75301cbc0fa5e0b25e7777206b9a9a044408ebd849e796fdde8c55d89f67ab3e"
+        },
+        {
+          "jar": "theworldnewsfeeds.com/20110209183426/feeds.jar",
+          "entry": "resource/resources.bin",
+          "member": "res.Inbox.gif",
+          "sha256": "75301cbc0fa5e0b25e7777206b9a9a044408ebd849e796fdde8c55d89f67ab3e"
+        },
+        {
+          "jar": "todayoutdoors.com/20110228050838/fires.jar",
+          "entry": "resource/resources.bin",
+          "member": "res.Inbox.gif",
+          "sha256": "75301cbc0fa5e0b25e7777206b9a9a044408ebd849e796fdde8c55d89f67ab3e"
+        },
+        {
+          "jar": "weblognewsinfo.com/20110207145431/global.jar",
+          "entry": "resource/resources.bin",
+          "member": "res.Inbox.gif",
+          "sha256": "75301cbc0fa5e0b25e7777206b9a9a044408ebd849e796fdde8c55d89f67ab3e"
+        },
+        {
+          "jar": "wildbirds-seasia.com/20110207183425/diverse.jar",
+          "entry": "resource/resources.bin",
+          "member": "res.Inbox.gif",
+          "sha256": "75301cbc0fa5e0b25e7777206b9a9a044408ebd849e796fdde8c55d89f67ab3e"
+        },
+        {
+          "jar": "www.24hoursprimenews.com/20110128180323/stories.jar",
+          "entry": "resource/resources.bin",
+          "member": "res.Inbox.gif",
+          "sha256": "75301cbc0fa5e0b25e7777206b9a9a044408ebd849e796fdde8c55d89f67ab3e"
+        },
+        {
+          "jar": "www.myhealthlibrary.net/20111015023541/dose.jar",
+          "entry": "resource/resources.bin",
+          "member": "res.Inbox.gif",
+          "sha256": "75301cbc0fa5e0b25e7777206b9a9a044408ebd849e796fdde8c55d89f67ab3e"
+        },
+        {
+          "jar": "www.opensourcenewstoday.com/20110202050322/breaking.jar",
+          "entry": "resource/resources.bin",
+          "member": "res.Inbox.gif",
+          "sha256": "75301cbc0fa5e0b25e7777206b9a9a044408ebd849e796fdde8c55d89f67ab3e"
+        },
+        {
+          "jar": "www.sayaara-auto.com/20110128163016/ferrari.jar",
+          "entry": "resource/resources.bin",
+          "member": "res.Inbox.gif",
+          "sha256": "75301cbc0fa5e0b25e7777206b9a9a044408ebd849e796fdde8c55d89f67ab3e"
+        }
+      ]
+    },
+    {
+      "role": "send",
+      "member": "res.Send.gif",
+      "occurrences": 45,
+      "unique_hashes": [
+        "386672b9e863aa163c2ef6c478ef74cb4932cb284be76956701b985bb1cef02a"
+      ],
+      "sources": [
+        {
+          "jar": "all-sport-headlines.com/20110207144821/birdie.jar",
+          "entry": "resource/resources.bin",
+          "member": "res.Send.gif",
+          "sha256": "386672b9e863aa163c2ef6c478ef74cb4932cb284be76956701b985bb1cef02a"
+        },
+        {
+          "jar": "dryterrainnews.com/20110209045143/rhino.jar",
+          "entry": "resource/resources.bin",
+          "member": "res.Send.gif",
+          "sha256": "386672b9e863aa163c2ef6c478ef74cb4932cb284be76956701b985bb1cef02a"
+        },
+        {
+          "jar": "esmundonoticias.com/20110201124235/anuncios.jar",
+          "entry": "resource/resources.bin",
+          "member": "res.Send.gif",
+          "sha256": "386672b9e863aa163c2ef6c478ef74cb4932cb284be76956701b985bb1cef02a"
+        },
+        {
+          "jar": "euronewsonline.net/20101229064913/papers.jar",
+          "entry": "resource/resources.bin",
+          "member": "res.Send.gif",
+          "sha256": "386672b9e863aa163c2ef6c478ef74cb4932cb284be76956701b985bb1cef02a"
+        },
+        {
+          "jar": "europeannewsflash.com/20110201192135/users.jar",
+          "entry": "resource/resources.bin",
+          "member": "res.Send.gif",
+          "sha256": "386672b9e863aa163c2ef6c478ef74cb4932cb284be76956701b985bb1cef02a"
+        },
+        {
+          "jar": "farsi-newsandweather.com/20110202122354/steps.jar",
+          "entry": "resource/resources.bin",
+          "member": "res.Send.gif",
+          "sha256": "386672b9e863aa163c2ef6c478ef74cb4932cb284be76956701b985bb1cef02a"
+        },
+        {
+          "jar": "financecentraltoday.com/20110203041347/report.jar",
+          "entry": "resource/resources.bin",
+          "member": "res.Send.gif",
+          "sha256": "386672b9e863aa163c2ef6c478ef74cb4932cb284be76956701b985bb1cef02a"
+        },
+        {
+          "jar": "firstnewssource.com/20110203072529/btools.jar",
+          "entry": "resource/resources.bin",
+          "member": "res.Send.gif",
+          "sha256": "386672b9e863aa163c2ef6c478ef74cb4932cb284be76956701b985bb1cef02a"
+        },
+        {
+          "jar": "global-view-news.com/20110201100059/ticker.jar",
+          "entry": "resource/resources.bin",
+          "member": "res.Send.gif",
+          "sha256": "386672b9e863aa163c2ef6c478ef74cb4932cb284be76956701b985bb1cef02a"
+        },
+        {
+          "jar": "health-men-today.com/20110207232346/cardio.jar",
+          "entry": "resource/resources.bin",
+          "member": "res.Send.gif",
+          "sha256": "386672b9e863aa163c2ef6c478ef74cb4932cb284be76956701b985bb1cef02a"
+        },
+        {
+          "jar": "internationalnewsworthiness.com/20110202031111/world.jar",
+          "entry": "resource/resources.bin",
+          "member": "res.Send.gif",
+          "sha256": "386672b9e863aa163c2ef6c478ef74cb4932cb284be76956701b985bb1cef02a"
+        },
+        {
+          "jar": "intlnewsdaily.com/20110202053458/region.jar",
+          "entry": "resource/resources.bin",
+          "member": "res.Send.gif",
+          "sha256": "386672b9e863aa163c2ef6c478ef74cb4932cb284be76956701b985bb1cef02a"
+        },
+        {
+          "jar": "iraniangoalkicks.com/20110202091917/clamping.jar",
+          "entry": "resource/resources.bin",
+          "member": "res.Send.gif",
+          "sha256": "386672b9e863aa163c2ef6c478ef74cb4932cb284be76956701b985bb1cef02a"
+        },
+        {
+          "jar": "just-the-news.com/20100512093658/trade.jar",
+          "entry": "resource/resources.bin",
+          "member": "res.Send.gif",
+          "sha256": "386672b9e863aa163c2ef6c478ef74cb4932cb284be76956701b985bb1cef02a"
+        },
+        {
+          "jar": "kickitnews.com/20100512232633/team.jar",
+          "entry": "resource/resources.bin",
+          "member": "res.Send.gif",
+          "sha256": "386672b9e863aa163c2ef6c478ef74cb4932cb284be76956701b985bb1cef02a"
+        },
+        {
+          "jar": "lasthournews.com/20100513182724/recent.jar",
+          "entry": "resource/resources.bin",
+          "member": "res.Send.gif",
+          "sha256": "386672b9e863aa163c2ef6c478ef74cb4932cb284be76956701b985bb1cef02a"
+        },
+        {
+          "jar": "latinamericanewsbeat.com/20100513191045/today.jar",
+          "entry": "resource/resources.bin",
+          "member": "res.Send.gif",
+          "sha256": "386672b9e863aa163c2ef6c478ef74cb4932cb284be76956701b985bb1cef02a"
+        },
+        {
+          "jar": "magneticfieldnews.com/20100515103300/science.jar",
+          "entry": "resource/resources.bin",
+          "member": "res.Send.gif",
+          "sha256": "386672b9e863aa163c2ef6c478ef74cb4932cb284be76956701b985bb1cef02a"
+        },
+        {
+          "jar": "mideasttoday.net/20100923092301/mideast.jar",
+          "entry": "resource/resources.bin",
+          "member": "res.Send.gif",
+          "sha256": "386672b9e863aa163c2ef6c478ef74cb4932cb284be76956701b985bb1cef02a"
+        },
+        {
+          "jar": "mideasttoday.net/20101226010124/mideast.jar",
+          "entry": "resource/resources.bin",
+          "member": "res.Send.gif",
+          "sha256": "386672b9e863aa163c2ef6c478ef74cb4932cb284be76956701b985bb1cef02a"
+        },
+        {
+          "jar": "mydailynewsreport.com/20110207171354/world.jar",
+          "entry": "resource/resources.bin",
+          "member": "res.Send.gif",
+          "sha256": "386672b9e863aa163c2ef6c478ef74cb4932cb284be76956701b985bb1cef02a"
+        },
+        {
+          "jar": "mytravelopian.com/20110210073221/explore.jar",
+          "entry": "resource/resources.bin",
+          "member": "res.Send.gif",
+          "sha256": "386672b9e863aa163c2ef6c478ef74cb4932cb284be76956701b985bb1cef02a"
+        },
+        {
+          "jar": "mywebofnews.com/20110210130707/tools.jar",
+          "entry": "resource/resources.bin",
+          "member": "res.Send.gif",
+          "sha256": "386672b9e863aa163c2ef6c478ef74cb4932cb284be76956701b985bb1cef02a"
+        },
+        {
+          "jar": "newdaynewsonline.com/20110208031828/latesttools.jar",
+          "entry": "resource/resources.bin",
+          "member": "res.Send.gif",
+          "sha256": "386672b9e863aa163c2ef6c478ef74cb4932cb284be76956701b985bb1cef02a"
+        },
+        {
+          "jar": "news-latina.com/20110208065133/news.jar",
+          "entry": "resource/resources.bin",
+          "member": "res.Send.gif",
+          "sha256": "386672b9e863aa163c2ef6c478ef74cb4932cb284be76956701b985bb1cef02a"
+        },
+        {
+          "jar": "newsincirculation.com/20110208064944/affairs.jar",
+          "entry": "resource/resources.bin",
+          "member": "res.Send.gif",
+          "sha256": "386672b9e863aa163c2ef6c478ef74cb4932cb284be76956701b985bb1cef02a"
+        },
+        {
+          "jar": "newsworldsite.com/20110208071946/steps.jar",
+          "entry": "resource/resources.bin",
+          "member": "res.Send.gif",
+          "sha256": "386672b9e863aa163c2ef6c478ef74cb4932cb284be76956701b985bb1cef02a"
+        },
+        {
+          "jar": "outlooknewscast.com/20110202115733/members.jar",
+          "entry": "resource/resources.bin",
+          "member": "res.Send.gif",
+          "sha256": "386672b9e863aa163c2ef6c478ef74cb4932cb284be76956701b985bb1cef02a"
+        },
+        {
+          "jar": "pars-technews.com/20110204140146/cellphones.jar",
+          "entry": "resource/resources.bin",
+          "member": "res.Send.gif",
+          "sha256": "386672b9e863aa163c2ef6c478ef74cb4932cb284be76956701b985bb1cef02a"
+        },
+        {
+          "jar": "pondernews.net/20110106212956/reports.jar",
+          "entry": "resource/resources.bin",
+          "member": "res.Send.gif",
+          "sha256": "386672b9e863aa163c2ef6c478ef74cb4932cb284be76956701b985bb1cef02a"
+        },
+        {
+          "jar": "recursosdenoticias.com/20110202124753/banco.jar",
+          "entry": "resource/resources.bin",
+          "member": "res.Send.gif",
+          "sha256": "386672b9e863aa163c2ef6c478ef74cb4932cb284be76956701b985bb1cef02a"
+        },
+        {
+          "jar": "shadesofnews.com/20110201184827/sports.jar",
+          "entry": "resource/resources.bin",
+          "member": "res.Send.gif",
+          "sha256": "386672b9e863aa163c2ef6c478ef74cb4932cb284be76956701b985bb1cef02a"
+        },
+        {
+          "jar": "sportsnewsfinder.com/20110210133446/scores.jar",
+          "entry": "resource/resources.bin",
+          "member": "res.Send.gif",
+          "sha256": "386672b9e863aa163c2ef6c478ef74cb4932cb284be76956701b985bb1cef02a"
+        },
+        {
+          "jar": "technologypresstoday.com/20110201212907/online.jar",
+          "entry": "resource/resources.bin",
+          "member": "res.Send.gif",
+          "sha256": "386672b9e863aa163c2ef6c478ef74cb4932cb284be76956701b985bb1cef02a"
+        },
+        {
+          "jar": "technologytodayandtomorrow.com/20110201213207/bluray.jar",
+          "entry": "resource/resources.bin",
+          "member": "res.Send.gif",
+          "sha256": "386672b9e863aa163c2ef6c478ef74cb4932cb284be76956701b985bb1cef02a"
+        },
+        {
+          "jar": "thenewsofpakistan.com/20110202221353/television.jar",
+          "entry": "resource/resources.bin",
+          "member": "res.Send.gif",
+          "sha256": "386672b9e863aa163c2ef6c478ef74cb4932cb284be76956701b985bb1cef02a"
+        },
+        {
+          "jar": "theworldnewsfeeds.com/20110209183426/feeds.jar",
+          "entry": "resource/resources.bin",
+          "member": "res.Send.gif",
+          "sha256": "386672b9e863aa163c2ef6c478ef74cb4932cb284be76956701b985bb1cef02a"
+        },
+        {
+          "jar": "todayoutdoors.com/20110228050838/fires.jar",
+          "entry": "resource/resources.bin",
+          "member": "res.Send.gif",
+          "sha256": "386672b9e863aa163c2ef6c478ef74cb4932cb284be76956701b985bb1cef02a"
+        },
+        {
+          "jar": "weblognewsinfo.com/20110207145431/global.jar",
+          "entry": "resource/resources.bin",
+          "member": "res.Send.gif",
+          "sha256": "386672b9e863aa163c2ef6c478ef74cb4932cb284be76956701b985bb1cef02a"
+        },
+        {
+          "jar": "wildbirds-seasia.com/20110207183425/diverse.jar",
+          "entry": "resource/resources.bin",
+          "member": "res.Send.gif",
+          "sha256": "386672b9e863aa163c2ef6c478ef74cb4932cb284be76956701b985bb1cef02a"
+        },
+        {
+          "jar": "www.24hoursprimenews.com/20110128180323/stories.jar",
+          "entry": "resource/resources.bin",
+          "member": "res.Send.gif",
+          "sha256": "386672b9e863aa163c2ef6c478ef74cb4932cb284be76956701b985bb1cef02a"
+        },
+        {
+          "jar": "www.myhealthlibrary.net/20111015023541/dose.jar",
+          "entry": "resource/resources.bin",
+          "member": "res.Send.gif",
+          "sha256": "386672b9e863aa163c2ef6c478ef74cb4932cb284be76956701b985bb1cef02a"
+        },
+        {
+          "jar": "www.opensourcenewstoday.com/20110202050322/breaking.jar",
+          "entry": "resource/resources.bin",
+          "member": "res.Send.gif",
+          "sha256": "386672b9e863aa163c2ef6c478ef74cb4932cb284be76956701b985bb1cef02a"
+        },
+        {
+          "jar": "www.sayaara-auto.com/20110128163016/ferrari.jar",
+          "entry": "resource/resources.bin",
+          "member": "res.Send.gif",
+          "sha256": "386672b9e863aa163c2ef6c478ef74cb4932cb284be76956701b985bb1cef02a"
+        },
+        {
+          "jar": "www.todaysnewsreports.net/20101230050102/communicate.jar",
+          "entry": "resource/resources.bin",
+          "member": "res.Send.gif",
+          "sha256": "386672b9e863aa163c2ef6c478ef74cb4932cb284be76956701b985bb1cef02a"
+        }
+      ]
+    }
+  ],
+  "homepage_asset_audit": [
+    {
+      "host": "classymotors.net",
+      "dependencies": 19,
+      "missing": [],
+      "external": [],
+      "icons_original": 0,
+      "icons_borrowed": 7
+    },
+    {
+      "host": "iranfootballsource.com",
+      "dependencies": 41,
+      "missing": [
+        "/images/menu8.gif"
+      ],
+      "external": [],
+      "icons_original": 1,
+      "icons_borrowed": 6
+    },
+    {
+      "host": "iraniangoals.com",
+      "dependencies": 31,
+      "missing": [],
+      "external": [],
+      "icons_original": 0,
+      "icons_borrowed": 7
+    },
+    {
+      "host": "kukrinews.com",
+      "dependencies": 13,
+      "missing": [],
+      "external": [
+        "http://www.google.com/jsapi/?key=notsupplied-wizard"
+      ],
+      "icons_original": 0,
+      "icons_borrowed": 7
+    },
+    {
+      "host": "middle-east-newstoday.com",
+      "dependencies": 33,
+      "missing": [
+        "/images/menu8.gif",
+        "/images/tabright1.gif",
+        "/images/footerdot.jpg",
+        "/images/col2-1dot.jpg",
+        "/images/header03.jpg"
+      ],
+      "external": [],
+      "icons_original": 0,
+      "icons_borrowed": 7
+    },
+    {
+      "host": "networkconnectionsite.com",
+      "dependencies": 43,
+      "missing": [
+        "/images/banner_02.jpg"
+      ],
+      "external": [
+        "http://free.timeanddate.com/clock/iwx5w09/n205/fs12/ftb/tt1"
+      ],
+      "icons_original": 0,
+      "icons_borrowed": 7
+    },
+    {
+      "host": "thefootball-life.com",
+      "dependencies": 24,
+      "missing": [],
+      "external": [],
+      "icons_original": 0,
+      "icons_borrowed": 7
+    },
+    {
+      "host": "todaysnewsandweather-ru.com",
+      "dependencies": 15,
+      "missing": [],
+      "external": [],
+      "icons_original": 0,
+      "icons_borrowed": 7
+    },
+    {
+      "host": "totallynewsnow.com",
+      "dependencies": 16,
+      "missing": [
+        "/styles/.images/icons/icon_recent.gif"
+      ],
+      "external": [],
+      "icons_original": 0,
+      "icons_borrowed": 7
+    },
+    {
+      "host": "wahidfutbol.com",
+      "dependencies": 28,
+      "missing": [],
+      "external": [],
+      "icons_original": 0,
+      "icons_borrowed": 7
+    },
+    {
+      "host": "www.russiansportsworld.com",
+      "dependencies": 38,
+      "missing": [
+        "/images/menu8.gif"
+      ],
+      "external": [],
+      "icons_original": 0,
+      "icons_borrowed": 7
+    }
+  ]
+}

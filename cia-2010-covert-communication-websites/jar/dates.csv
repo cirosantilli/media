@@ -1,0 +1,760 @@
+file,artifact_type,kind,entry,member,raw_value,local_datetime,timezone,utc_datetime
+plugged-into-news.net/20101229222249/weatherbug.zip,zip,zip_entry_timestamp,,,2005-06-02T15:08:10,2005-06-02T15:08:10,unspecified,
+plugged-into-news.net/20101229222249/weatherbug.zip,zip,wayback_capture,,,20101229222249,2010-12-29T22:22:49,UTC,2010-12-29T22:22:49Z
+travelxtreme.net/20101226193020/xtreme.jar,jar,zip_entry_timestamp,,,2006-03-03T11:47:52,2006-03-03T11:47:52,unspecified,
+travelxtreme.net/20101226193020/xtreme.jar,jar,zip_entry_timestamp,,,2006-03-03T11:47:54,2006-03-03T11:47:54,unspecified,
+travelxtreme.net/20101226193020/xtreme.jar,jar,wayback_capture,,,20101226193020,2010-12-26T19:30:20,UTC,2010-12-26T19:30:20Z
+fastnews-online.com/20110202145441/worldnews.jar,jar,zip_entry_timestamp,,,2006-05-04T14:17:26,2006-05-04T14:17:26,unspecified,
+fastnews-online.com/20110202145441/worldnews.jar,jar,zip_entry_timestamp,,,2006-05-04T14:17:28,2006-05-04T14:17:28,unspecified,
+fastnews-online.com/20110202145441/worldnews.jar,jar,wayback_capture,,,20110202145441,2011-02-02T14:54:41,UTC,2011-02-02T14:54:41Z
+factorforcenews.com/20110202125321/factorspeed.jar,jar,zip_entry_timestamp,,,2006-07-12T23:11:36,2006-07-12T23:11:36,unspecified,
+factorforcenews.com/20110202125321/factorspeed.jar,jar,wayback_capture,,,20110202125321,2011-02-02T12:53:21,UTC,2011-02-02T12:53:21Z
+world-news-online.net/20101226225412/scrollingnews.jar,jar,zip_entry_timestamp,,,2006-07-21T11:50:44,2006-07-21T11:50:44,unspecified,
+world-news-online.net/20101226225412/scrollingnews.jar,jar,zip_entry_timestamp,,,2006-07-21T11:50:46,2006-07-21T11:50:46,unspecified,
+world-news-online.net/20101226225412/scrollingnews.jar,jar,wayback_capture,,,20101226225412,2010-12-26T22:54:12,UTC,2010-12-26T22:54:12Z
+world-news-online.net/20131208104410/scrollingnews.jar,non-archive,wayback_capture,,,20131208104410,2013-12-08T10:44:10,UTC,2013-12-08T10:44:10Z
+information-junky.com/20110201160020/infoweather.jar,jar,zip_entry_timestamp,,,2006-09-07T19:58:40,2006-09-07T19:58:40,unspecified,
+information-junky.com/20110201160020/infoweather.jar,jar,wayback_capture,,,20110201160020,2011-02-01T16:00:20,UTC,2011-02-01T16:00:20Z
+worldedgenews.com/20110210022316/WENUpdater.jar,jar,zip_entry_timestamp,,,2006-11-03T09:07:36,2006-11-03T09:07:36,unspecified,
+worldedgenews.com/20110210022316/WENUpdater.jar,jar,wayback_capture,,,20110210022316,2011-02-10T02:23:16,UTC,2011-02-10T02:23:16Z
+globalinvestmentnews.net/20101229090847/ginews.jar,jar,zip_entry_timestamp,,,2006-12-20T18:10:58,2006-12-20T18:10:58,unspecified,
+globalinvestmentnews.net/20101229090847/ginews.jar,jar,wayback_capture,,,20101229090847,2010-12-29T09:08:47,UTC,2010-12-29T09:08:47Z
+latinamericanewsbeat.com/20100513191045/today.jar,jar,zip_entry_timestamp,,,2007-01-16T12:19:34,2007-01-16T12:19:34,unspecified,
+latinamericanewsbeat.com/20100513191045/today.jar,jar,zip_entry_timestamp,,,2007-01-16T12:19:36,2007-01-16T12:19:36,unspecified,
+latinamericanewsbeat.com/20100513191045/today.jar,jar,zip_entry_timestamp,,,2007-01-16T12:19:40,2007-01-16T12:19:40,unspecified,
+latinamericanewsbeat.com/20100513191045/today.jar,jar,certificate_notBefore,META-INF/INLINE.DSA,5758b1809ac551b2911fc7a1dba8e0c6405734665b94c2a696d6e7ed6f3e6458,Jan 16 17:19:40 2007 GMT,2007-01-16T17:19:40,UTC,2007-01-16T17:19:40Z
+latinamericanewsbeat.com/20100513191045/today.jar,jar,certificate_notAfter,META-INF/INLINE.DSA,5758b1809ac551b2911fc7a1dba8e0c6405734665b94c2a696d6e7ed6f3e6458,Apr 16 17:19:40 2007 GMT,2007-04-16T17:19:40,UTC,2007-04-16T17:19:40Z
+latinamericanewsbeat.com/20100513191045/today.jar,jar,wayback_capture,,,20100513191045,2010-05-13T19:10:45,UTC,2010-05-13T19:10:45Z
+nepalnewsbrief.com/20110207221911/regionweather.jar,jar,zip_entry_timestamp,,,2007-01-22T14:24:10,2007-01-22T14:24:10,unspecified,
+nepalnewsbrief.com/20110207221911/regionweather.jar,jar,wayback_capture,,,20110207221911,2011-02-07T22:19:11,UTC,2011-02-07T22:19:11Z
+segomonews.com/20110131054332/myjar.jar,jar,zip_entry_timestamp,,,2007-02-21T17:15:36,2007-02-21T17:15:36,unspecified,
+segomonews.com/20110131054332/myjar.jar,jar,zip_entry_timestamp,,,2007-02-21T17:15:38,2007-02-21T17:15:38,unspecified,
+segomonews.com/20110131054332/myjar.jar,jar,wayback_capture,,,20110131054332,2011-01-31T05:43:32,UTC,2011-01-31T05:43:32Z
+half-court.net/20101229100220/basket.jar,jar,zip_entry_timestamp,,,2007-04-04T12:01:26,2007-04-04T12:01:26,unspecified,
+half-court.net/20101229100220/basket.jar,jar,zip_entry_timestamp,,,2007-04-04T12:01:28,2007-04-04T12:01:28,unspecified,
+half-court.net/20101229100220/basket.jar,jar,wayback_capture,,,20101229100220,2010-12-29T10:02:20,UTC,2010-12-29T10:02:20Z
+theglobalheadlines.com/20110202161018/anchorage.jar,jar,zip_entry_timestamp,,,2007-04-24T15:13:16,2007-04-24T15:13:16,unspecified,
+theglobalheadlines.com/20110202161018/anchorage.jar,jar,zip_entry_timestamp,,,2007-04-24T15:13:18,2007-04-24T15:13:18,unspecified,
+theglobalheadlines.com/20110202161018/anchorage.jar,jar,wayback_capture,,,20110202161018,2011-02-02T16:10:18,UTC,2011-02-02T16:10:18Z
+newdaynewsonline.com/20110208031828/latesttools.jar,jar,zip_entry_timestamp,,,2007-04-30T15:39:08,2007-04-30T15:39:08,unspecified,
+newdaynewsonline.com/20110208031828/latesttools.jar,jar,zip_entry_timestamp,,,2007-04-30T15:39:14,2007-04-30T15:39:14,unspecified,
+newdaynewsonline.com/20110208031828/latesttools.jar,jar,certificate_notBefore,META-INF/MINE.DSA,e755d65da8c502cabd9d5d3e5428ecec4c85f9ebd633cd802a20137724f798b6,Apr 30 19:39:14 2007 GMT,2007-04-30T19:39:14,UTC,2007-04-30T19:39:14Z
+newdaynewsonline.com/20110208031828/latesttools.jar,jar,certificate_notAfter,META-INF/MINE.DSA,e755d65da8c502cabd9d5d3e5428ecec4c85f9ebd633cd802a20137724f798b6,Jul 29 19:39:14 2007 GMT,2007-07-29T19:39:14,UTC,2007-07-29T19:39:14Z
+newdaynewsonline.com/20110208031828/latesttools.jar,jar,wayback_capture,,,20110208031828,2011-02-08T03:18:28,UTC,2011-02-08T03:18:28Z
+sportsnewsfinder.com/20110210133446/scores.jar,jar,zip_entry_timestamp,,,2007-05-15T09:45:16,2007-05-15T09:45:16,unspecified,
+sportsnewsfinder.com/20110210133446/scores.jar,jar,zip_entry_timestamp,,,2007-05-15T09:45:22,2007-05-15T09:45:22,unspecified,
+sportsnewsfinder.com/20110210133446/scores.jar,jar,certificate_notBefore,META-INF/BASEBALL.DSA,461f856832347c56d293ddf2b2229d3249f223eb5f387b2845aecfc542fb9787,May 15 13:45:22 2007 GMT,2007-05-15T13:45:22,UTC,2007-05-15T13:45:22Z
+sportsnewsfinder.com/20110210133446/scores.jar,jar,certificate_notAfter,META-INF/BASEBALL.DSA,461f856832347c56d293ddf2b2229d3249f223eb5f387b2845aecfc542fb9787,Aug 13 13:45:22 2007 GMT,2007-08-13T13:45:22,UTC,2007-08-13T13:45:22Z
+sportsnewsfinder.com/20110210133446/scores.jar,jar,wayback_capture,,,20110210133446,2011-02-10T13:34:46,UTC,2011-02-10T13:34:46Z
+euronewsonline.net/20101229064913/papers.jar,jar,zip_entry_timestamp,,,2007-06-12T11:12:56,2007-06-12T11:12:56,unspecified,
+euronewsonline.net/20101229064913/papers.jar,jar,zip_entry_timestamp,,,2007-06-12T11:13:02,2007-06-12T11:13:02,unspecified,
+euronewsonline.net/20101229064913/papers.jar,jar,certificate_notBefore,META-INF/MYBULLET.DSA,7c15e341db8e075327d3726fd81ef58ace8ed0aaf76182b705b0bd3d4f4c7643,Jun 12 15:13:02 2007 GMT,2007-06-12T15:13:02,UTC,2007-06-12T15:13:02Z
+euronewsonline.net/20101229064913/papers.jar,jar,certificate_notAfter,META-INF/MYBULLET.DSA,7c15e341db8e075327d3726fd81ef58ace8ed0aaf76182b705b0bd3d4f4c7643,Sep 10 15:13:02 2007 GMT,2007-09-10T15:13:02,UTC,2007-09-10T15:13:02Z
+euronewsonline.net/20101229064913/papers.jar,jar,wayback_capture,,,20101229064913,2010-12-29T06:49:13,UTC,2010-12-29T06:49:13Z
+just-the-news.com/20100512093658/trade.jar,jar,zip_entry_timestamp,,,2007-06-12T14:48:16,2007-06-12T14:48:16,unspecified,
+just-the-news.com/20100512093658/trade.jar,jar,zip_entry_timestamp,,,2007-06-12T14:48:22,2007-06-12T14:48:22,unspecified,
+just-the-news.com/20100512093658/trade.jar,jar,certificate_notBefore,META-INF/MARKET.DSA,374d0955daa544435172cfc3b0f0775445d381bb660cb92709a3b2855ff31fae,Jun 12 18:48:22 2007 GMT,2007-06-12T18:48:22,UTC,2007-06-12T18:48:22Z
+just-the-news.com/20100512093658/trade.jar,jar,certificate_notAfter,META-INF/MARKET.DSA,374d0955daa544435172cfc3b0f0775445d381bb660cb92709a3b2855ff31fae,Sep 10 18:48:22 2007 GMT,2007-09-10T18:48:22,UTC,2007-09-10T18:48:22Z
+just-the-news.com/20100512093658/trade.jar,jar,wayback_capture,,,20100512093658,2010-05-12T09:36:58,UTC,2010-05-12T09:36:58Z
+azerinews.org/20110624214047/cable.jar,jar,zip_entry_timestamp,,,2007-07-03T15:09:52,2007-07-03T15:09:52,unspecified,
+azerinews.org/20110624214047/cable.jar,jar,zip_entry_timestamp,,,2007-07-03T15:09:54,2007-07-03T15:09:54,unspecified,
+azerinews.org/20110624214047/cable.jar,jar,wayback_capture,,,20110624214047,2011-06-24T21:40:47,UTC,2011-06-24T21:40:47Z
+noticiasdelmundolatino.com/20110128170609/News.jar,jar,zip_entry_timestamp,,,2007-07-24T15:20:16,2007-07-24T15:20:16,unspecified,
+noticiasdelmundolatino.com/20110128170609/News.jar,jar,zip_entry_timestamp,,,2007-07-24T15:20:18,2007-07-24T15:20:18,unspecified,
+noticiasdelmundolatino.com/20110128170609/News.jar,jar,wayback_capture,,,20110128170609,2011-01-28T17:06:09,UTC,2011-01-28T17:06:09Z
+www.hydradraco.com/20110201232835/Acc.jar,jar,zip_entry_timestamp,,,2007-07-26T10:16:00,2007-07-26T10:16:00,unspecified,
+www.hydradraco.com/20110201232835/Acc.jar,jar,zip_entry_timestamp,,,2007-07-26T10:16:02,2007-07-26T10:16:02,unspecified,
+www.hydradraco.com/20110201232835/Acc.jar,jar,wayback_capture,,,20110201232835,2011-02-01T23:28:35,UTC,2011-02-01T23:28:35Z
+willtoworship.com/20110208022458/slideshow.jar,jar,zip_entry_timestamp,,,2007-07-27T11:23:14,2007-07-27T11:23:14,unspecified,
+willtoworship.com/20110208022458/slideshow.jar,jar,zip_entry_timestamp,,,2007-07-27T11:23:16,2007-07-27T11:23:16,unspecified,
+willtoworship.com/20110208022458/slideshow.jar,jar,wayback_capture,,,20110208022458,2011-02-08T02:24:58,UTC,2011-02-08T02:24:58Z
+all-sport-headlines.com/20110207144821/birdie.jar,jar,zip_entry_timestamp,,,2007-08-14T16:14:18,2007-08-14T16:14:18,unspecified,
+all-sport-headlines.com/20110207144821/birdie.jar,jar,zip_entry_timestamp,,,2007-08-14T16:14:24,2007-08-14T16:14:24,unspecified,
+all-sport-headlines.com/20110207144821/birdie.jar,jar,certificate_notBefore,META-INF/SANDPIT.DSA,7faf538b509e8c18ee01eed1a0086b1c4cf05849ba600bcd586d44561867f3ee,Aug 14 20:14:24 2007 GMT,2007-08-14T20:14:24,UTC,2007-08-14T20:14:24Z
+all-sport-headlines.com/20110207144821/birdie.jar,jar,certificate_notAfter,META-INF/SANDPIT.DSA,7faf538b509e8c18ee01eed1a0086b1c4cf05849ba600bcd586d44561867f3ee,Nov 12 20:14:24 2007 GMT,2007-11-12T20:14:24,UTC,2007-11-12T20:14:24Z
+all-sport-headlines.com/20110207144821/birdie.jar,jar,wayback_capture,,,20110207144821,2011-02-07T14:48:21,UTC,2011-02-07T14:48:21Z
+surya-brahma.com/20110128142511/surya.jar,jar,zip_entry_timestamp,,,2007-08-17T12:07:18,2007-08-17T12:07:18,unspecified,
+surya-brahma.com/20110128142511/surya.jar,jar,zip_entry_timestamp,,,2007-08-17T12:07:20,2007-08-17T12:07:20,unspecified,
+surya-brahma.com/20110128142511/surya.jar,jar,wayback_capture,,,20110128142511,2011-01-28T14:25:11,UTC,2011-01-28T14:25:11Z
+thecricketfan.com/20110202124437/Sports.jar,jar,zip_entry_timestamp,,,2007-08-21T14:44:20,2007-08-21T14:44:20,unspecified,
+thecricketfan.com/20110202124437/Sports.jar,jar,zip_entry_timestamp,,,2007-08-21T14:44:22,2007-08-21T14:44:22,unspecified,
+thecricketfan.com/20110202124437/Sports.jar,jar,wayback_capture,,,20110202124437,2011-02-02T12:44:37,UTC,2011-02-02T12:44:37Z
+outlooknewscast.com/20110202115733/members.jar,jar,zip_entry_timestamp,,,2007-08-23T12:00:28,2007-08-23T12:00:28,unspecified,
+outlooknewscast.com/20110202115733/members.jar,jar,zip_entry_timestamp,,,2007-08-23T12:00:34,2007-08-23T12:00:34,unspecified,
+outlooknewscast.com/20110202115733/members.jar,jar,certificate_notBefore,META-INF/NEWSKEY.DSA,a0b51a173e56bdfbd628a59a456afe8a2482e6d9a4c7610bf88692f0774aeae2,Aug 23 16:00:35 2007 GMT,2007-08-23T16:00:35,UTC,2007-08-23T16:00:35Z
+outlooknewscast.com/20110202115733/members.jar,jar,certificate_notAfter,META-INF/NEWSKEY.DSA,a0b51a173e56bdfbd628a59a456afe8a2482e6d9a4c7610bf88692f0774aeae2,Nov 21 16:00:35 2007 GMT,2007-11-21T16:00:35,UTC,2007-11-21T16:00:35Z
+outlooknewscast.com/20110202115733/members.jar,jar,wayback_capture,,,20110202115733,2011-02-02T11:57:33,UTC,2011-02-02T11:57:33Z
+mytravelopian.com/20110210073221/explore.jar,jar,zip_entry_timestamp,,,2007-09-10T11:57:24,2007-09-10T11:57:24,unspecified,
+mytravelopian.com/20110210073221/explore.jar,jar,zip_entry_timestamp,,,2007-09-10T11:57:26,2007-09-10T11:57:26,unspecified,
+mytravelopian.com/20110210073221/explore.jar,jar,zip_entry_timestamp,,,2007-09-10T11:57:32,2007-09-10T11:57:32,unspecified,
+mytravelopian.com/20110210073221/explore.jar,jar,certificate_notBefore,META-INF/DEALS.DSA,5cc1b7f93522db94bd520affdaa6921506d73e627a2cb01b826502ebf15b4b77,Sep 10 15:57:32 2007 GMT,2007-09-10T15:57:32,UTC,2007-09-10T15:57:32Z
+mytravelopian.com/20110210073221/explore.jar,jar,certificate_notAfter,META-INF/DEALS.DSA,5cc1b7f93522db94bd520affdaa6921506d73e627a2cb01b826502ebf15b4b77,Dec  9 15:57:32 2007 GMT,2007-12-09T15:57:32,UTC,2007-12-09T15:57:32Z
+mytravelopian.com/20110210073221/explore.jar,jar,wayback_capture,,,20110210073221,2011-02-10T07:32:21,UTC,2011-02-10T07:32:21Z
+echessnews.com/20110207193421/ad.jar,jar,zip_entry_timestamp,,,2007-09-19T13:01:56,2007-09-19T13:01:56,unspecified,
+echessnews.com/20110207193421/ad.jar,jar,wayback_capture,,,20110207193421,2011-02-07T19:34:21,UTC,2011-02-07T19:34:21Z
+thenewseditor.com/20110202221435/jobs.jar,jar,zip_entry_timestamp,,,2007-09-27T16:03:02,2007-09-27T16:03:02,unspecified,
+thenewseditor.com/20110202221435/jobs.jar,jar,wayback_capture,,,20110202221435,2011-02-02T22:14:35,UTC,2011-02-02T22:14:35Z
+wildbirds-seasia.com/20110207183425/diverse.jar,jar,zip_entry_timestamp,,,2007-10-03T13:24:36,2007-10-03T13:24:36,unspecified,
+wildbirds-seasia.com/20110207183425/diverse.jar,jar,wayback_capture,,,20110207183425,2011-02-07T18:34:25,UTC,2011-02-07T18:34:25Z
+lightandshadowonline.com/20110202131218/quotes.jar,jar,zip_entry_timestamp,,,2007-11-28T10:24:30,2007-11-28T10:24:30,unspecified,
+lightandshadowonline.com/20110202131218/quotes.jar,jar,wayback_capture,,,20110202131218,2011-02-02T13:12:18,UTC,2011-02-02T13:12:18Z
+news-latina.com/20110208065133/news.jar,jar,zip_entry_timestamp,,,2007-12-18T16:50:14,2007-12-18T16:50:14,unspecified,
+news-latina.com/20110208065133/news.jar,jar,zip_entry_timestamp,,,2007-12-18T16:50:16,2007-12-18T16:50:16,unspecified,
+news-latina.com/20110208065133/news.jar,jar,zip_entry_timestamp,,,2007-12-18T16:50:20,2007-12-18T16:50:20,unspecified,
+news-latina.com/20110208065133/news.jar,jar,certificate_notBefore,META-INF/LATINA.DSA,92b3c3eafabc0dcef07f794b09e3db26a078e58e256ec2ed145900c1a4bd274c,Dec 18 21:50:21 2007 GMT,2007-12-18T21:50:21,UTC,2007-12-18T21:50:21Z
+news-latina.com/20110208065133/news.jar,jar,certificate_notAfter,META-INF/LATINA.DSA,92b3c3eafabc0dcef07f794b09e3db26a078e58e256ec2ed145900c1a4bd274c,Mar 17 21:50:21 2008 GMT,2008-03-17T21:50:21,UTC,2008-03-17T21:50:21Z
+news-latina.com/20110208065133/news.jar,jar,wayback_capture,,,20110208065133,2011-02-08T06:51:33,UTC,2011-02-08T06:51:33Z
+europeannewsflash.com/20110201192135/users.jar,jar,zip_entry_timestamp,,,2008-03-05T11:43:18,2008-03-05T11:43:18,unspecified,
+europeannewsflash.com/20110201192135/users.jar,jar,zip_entry_timestamp,,,2008-03-05T11:43:24,2008-03-05T11:43:24,unspecified,
+europeannewsflash.com/20110201192135/users.jar,jar,certificate_notBefore,META-INF/EUROPEAN.DSA,56082775e0c6433080e8962ad0fb67a675b9afee9948fb045df7ecc52d1c9a3e,Mar  5 16:43:24 2008 GMT,2008-03-05T16:43:24,UTC,2008-03-05T16:43:24Z
+europeannewsflash.com/20110201192135/users.jar,jar,certificate_notAfter,META-INF/EUROPEAN.DSA,56082775e0c6433080e8962ad0fb67a675b9afee9948fb045df7ecc52d1c9a3e,Jun  3 16:43:24 2008 GMT,2008-06-03T16:43:24,UTC,2008-06-03T16:43:24Z
+europeannewsflash.com/20110201192135/users.jar,jar,wayback_capture,,,20110201192135,2011-02-01T19:21:35,UTC,2011-02-01T19:21:35Z
+recursosdenoticias.com/20110202124753/banco.jar,jar,zip_entry_timestamp,,,2008-03-14T09:34:42,2008-03-14T09:34:42,unspecified,
+recursosdenoticias.com/20110202124753/banco.jar,jar,zip_entry_timestamp,,,2008-03-14T09:34:48,2008-03-14T09:34:48,unspecified,
+recursosdenoticias.com/20110202124753/banco.jar,jar,certificate_notBefore,META-INF/AVISO.DSA,3f514112528a254f0927a9fef119f72e38d05890c502fbc3743642ef9674ff10,Mar 14 14:34:47 2008 GMT,2008-03-14T14:34:47,UTC,2008-03-14T14:34:47Z
+recursosdenoticias.com/20110202124753/banco.jar,jar,certificate_notAfter,META-INF/AVISO.DSA,3f514112528a254f0927a9fef119f72e38d05890c502fbc3743642ef9674ff10,Jun 12 14:34:47 2008 GMT,2008-06-12T14:34:47,UTC,2008-06-12T14:34:47Z
+recursosdenoticias.com/20110202124753/banco.jar,jar,wayback_capture,,,20110202124753,2011-02-02T12:47:53,UTC,2011-02-02T12:47:53Z
+newsandsportscentral.com/20110208063333/International.jar,jar,zip_entry_timestamp,,,2008-04-02T10:08:26,2008-04-02T10:08:26,unspecified,
+newsandsportscentral.com/20110208063333/International.jar,jar,wayback_capture,,,20110208063333,2011-02-08T06:33:33,UTC,2011-02-08T06:33:33Z
+health-men-today.com/20110207232346/cardio.jar,jar,zip_entry_timestamp,,,2008-04-28T15:55:48,2008-04-28T15:55:48,unspecified,
+health-men-today.com/20110207232346/cardio.jar,jar,zip_entry_timestamp,,,2008-04-28T15:55:54,2008-04-28T15:55:54,unspecified,
+health-men-today.com/20110207232346/cardio.jar,jar,certificate_notBefore,META-INF/PARTNER.DSA,0f9078422bd08c09aff5ca86f214f928075b2e9dd1ab21566fbfd57aeca4e303,Apr 28 19:55:54 2008 GMT,2008-04-28T19:55:54,UTC,2008-04-28T19:55:54Z
+health-men-today.com/20110207232346/cardio.jar,jar,certificate_notAfter,META-INF/PARTNER.DSA,0f9078422bd08c09aff5ca86f214f928075b2e9dd1ab21566fbfd57aeca4e303,Jul 27 19:55:54 2008 GMT,2008-07-27T19:55:54,UTC,2008-07-27T19:55:54Z
+health-men-today.com/20110207232346/cardio.jar,jar,wayback_capture,,,20110207232346,2011-02-07T23:23:46,UTC,2011-02-07T23:23:46Z
+www.first-solo-aviation.com/20110203073222/abb.jar,jar,zip_entry_timestamp,,,2008-04-29T10:25:12,2008-04-29T10:25:12,unspecified,
+www.first-solo-aviation.com/20110203073222/abb.jar,jar,zip_entry_timestamp,,,2008-04-29T10:25:14,2008-04-29T10:25:14,unspecified,
+www.first-solo-aviation.com/20110203073222/abb.jar,jar,wayback_capture,,,20110203073222,2011-02-03T07:32:22,UTC,2011-02-03T07:32:22Z
+mynepalnews.com/20110204143500/nepali.jar,jar,zip_entry_timestamp,,,2008-04-30T07:17:32,2008-04-30T07:17:32,unspecified,
+mynepalnews.com/20110204143500/nepali.jar,jar,zip_entry_timestamp,,,2008-04-30T07:17:34,2008-04-30T07:17:34,unspecified,
+mynepalnews.com/20110204143500/nepali.jar,jar,wayback_capture,,,20110204143500,2011-02-04T14:35:00,UTC,2011-02-04T14:35:00Z
+farsi-newsandweather.com/20110202122354/steps.jar,jar,zip_entry_timestamp,,,2008-04-30T13:22:00,2008-04-30T13:22:00,unspecified,
+farsi-newsandweather.com/20110202122354/steps.jar,jar,zip_entry_timestamp,,,2008-04-30T13:22:12,2008-04-30T13:22:12,unspecified,
+farsi-newsandweather.com/20110202122354/steps.jar,jar,certificate_notBefore,META-INF/MYDOOR.DSA,cad489f221751f81bff903f38f680b55fd03659fdda30a2cf3b5864c1b870c79,Apr 30 17:22:13 2008 GMT,2008-04-30T17:22:13,UTC,2008-04-30T17:22:13Z
+farsi-newsandweather.com/20110202122354/steps.jar,jar,certificate_notAfter,META-INF/MYDOOR.DSA,cad489f221751f81bff903f38f680b55fd03659fdda30a2cf3b5864c1b870c79,Jul 29 17:22:13 2008 GMT,2008-07-29T17:22:13,UTC,2008-07-29T17:22:13Z
+farsi-newsandweather.com/20110202122354/steps.jar,jar,wayback_capture,,,20110202122354,2011-02-02T12:23:54,UTC,2011-02-02T12:23:54Z
+inews-today.com/20110201140115/headlines.jar,jar,zip_entry_timestamp,,,2008-05-06T10:44:08,2008-05-06T10:44:08,unspecified,
+inews-today.com/20110201140115/headlines.jar,jar,wayback_capture,,,20110201140115,2011-02-01T14:01:15,UTC,2011-02-01T14:01:15Z
+purlicue-news.com/20110201122820/netspeed.jar,jar,zip_entry_timestamp,,,2008-05-27T09:24:10,2008-05-27T09:24:10,unspecified,
+purlicue-news.com/20110201122820/netspeed.jar,jar,zip_entry_timestamp,,,2008-05-27T09:24:12,2008-05-27T09:24:12,unspecified,
+purlicue-news.com/20110201122820/netspeed.jar,jar,wayback_capture,,,20110201122820,2011-02-01T12:28:20,UTC,2011-02-01T12:28:20Z
+todayoutdoors.com/20110228050838/fires.jar,jar,zip_entry_timestamp,,,2008-06-26T14:34:46,2008-06-26T14:34:46,unspecified,
+todayoutdoors.com/20110228050838/fires.jar,jar,wayback_capture,,,20110228050838,2011-02-28T05:08:38,UTC,2011-02-28T05:08:38Z
+pakcricketgrd.com/20110203101539/places.jar,jar,zip_entry_timestamp,,,2008-07-08T17:49:32,2008-07-08T17:49:32,unspecified,
+pakcricketgrd.com/20110203101539/places.jar,jar,zip_entry_timestamp,,,2008-07-08T17:49:34,2008-07-08T17:49:34,unspecified,
+pakcricketgrd.com/20110203101539/places.jar,jar,wayback_capture,,,20110203101539,2011-02-03T10:15:39,UTC,2011-02-03T10:15:39Z
+wiredworldnews.com/20110208191739/development.jar,jar,zip_entry_timestamp,,,2008-07-14T10:22:28,2008-07-14T10:22:28,unspecified,
+wiredworldnews.com/20110208191739/development.jar,jar,zip_entry_timestamp,,,2008-07-14T10:22:30,2008-07-14T10:22:30,unspecified,
+wiredworldnews.com/20110208191739/development.jar,jar,wayback_capture,,,20110208191739,2011-02-08T19:17:39,UTC,2011-02-08T19:17:39Z
+networkofnews.com/20110208005302/nework.jar,jar,zip_entry_timestamp,,,2008-07-14T10:38:22,2008-07-14T10:38:22,unspecified,
+networkofnews.com/20110208005302/nework.jar,jar,zip_entry_timestamp,,,2008-07-14T10:38:24,2008-07-14T10:38:24,unspecified,
+networkofnews.com/20110208005302/nework.jar,jar,wayback_capture,,,20110208005302,2011-02-08T00:53:02,UTC,2011-02-08T00:53:02Z
+just-kidding-news.com/20110207134616/jokes.jar,jar,zip_entry_timestamp,,,2008-07-17T11:13:44,2008-07-17T11:13:44,unspecified,
+just-kidding-news.com/20110207134616/jokes.jar,jar,zip_entry_timestamp,,,2008-07-17T11:13:46,2008-07-17T11:13:46,unspecified,
+just-kidding-news.com/20110207134616/jokes.jar,jar,wayback_capture,,,20110207134616,2011-02-07T13:46:16,UTC,2011-02-07T13:46:16Z
+themvconnection.com/20110202215408/Music.jar,jar,zip_entry_timestamp,,,2008-08-13T14:49:36,2008-08-13T14:49:36,unspecified,
+themvconnection.com/20110202215408/Music.jar,jar,zip_entry_timestamp,,,2008-08-13T14:49:38,2008-08-13T14:49:38,unspecified,
+themvconnection.com/20110202215408/Music.jar,jar,wayback_capture,,,20110202215408,2011-02-02T21:54:08,UTC,2011-02-02T21:54:08Z
+helpinghandssite.com/20110208042200/globalization.jar,jar,zip_entry_timestamp,,,2008-08-19T07:37:48,2008-08-19T07:37:48,unspecified,
+helpinghandssite.com/20110208042200/globalization.jar,jar,wayback_capture,,,20110208042200,2011-02-08T04:22:00,UTC,2011-02-08T04:22:00Z
+dk-dcinvestment.com/20110207113033/gears.jar,jar,zip_entry_timestamp,,,2008-09-18T09:31:36,2008-09-18T09:31:36,unspecified,
+dk-dcinvestment.com/20110207113033/gears.jar,jar,zip_entry_timestamp,,,2008-09-18T09:31:38,2008-09-18T09:31:38,unspecified,
+dk-dcinvestment.com/20110207113033/gears.jar,jar,wayback_capture,,,20110207113033,2011-02-07T11:30:33,UTC,2011-02-07T11:30:33Z
+webscooper.com/20110207153301/World.jar,jar,zip_entry_timestamp,,,2008-09-18T17:26:14,2008-09-18T17:26:14,unspecified,
+webscooper.com/20110207153301/World.jar,jar,zip_entry_timestamp,,,2008-09-18T17:26:16,2008-09-18T17:26:16,unspecified,
+webscooper.com/20110207153301/World.jar,jar,wayback_capture,,,20110207153301,2011-02-07T15:33:01,UTC,2011-02-07T15:33:01Z
+pondernews.net/20110106212956/reports.jar,jar,zip_entry_timestamp,,,2008-09-23T14:37:48,2008-09-23T14:37:48,unspecified,
+pondernews.net/20110106212956/reports.jar,jar,zip_entry_timestamp,,,2008-09-23T14:37:58,2008-09-23T14:37:58,unspecified,
+pondernews.net/20110106212956/reports.jar,jar,certificate_notBefore,META-INF/TOPICS.DSA,16799f47272999e85736c3044fe1083e02cd679c522a2379f1a3de7d5ffe41e6,Sep 23 18:37:58 2008 GMT,2008-09-23T18:37:58,UTC,2008-09-23T18:37:58Z
+pondernews.net/20110106212956/reports.jar,jar,certificate_notAfter,META-INF/TOPICS.DSA,16799f47272999e85736c3044fe1083e02cd679c522a2379f1a3de7d5ffe41e6,Dec 22 18:37:58 2008 GMT,2008-12-22T18:37:58,UTC,2008-12-22T18:37:58Z
+pondernews.net/20110106212956/reports.jar,jar,wayback_capture,,,20110106212956,2011-01-06T21:29:56,UTC,2011-01-06T21:29:56Z
+first-tee-golf.com/20110203073503/golf.jar,jar,zip_entry_timestamp,,,2008-09-30T08:21:16,2008-09-30T08:21:16,unspecified,
+first-tee-golf.com/20110203073503/golf.jar,jar,zip_entry_timestamp,,,2008-09-30T08:21:18,2008-09-30T08:21:18,unspecified,
+first-tee-golf.com/20110203073503/golf.jar,jar,wayback_capture,,,20110203073503,2011-02-03T07:35:03,UTC,2011-02-03T07:35:03Z
+ingenuitytrendz.com/20110201170409/chemistry.jar,jar,zip_entry_timestamp,,,2008-10-16T15:24:30,2008-10-16T15:24:30,unspecified,
+ingenuitytrendz.com/20110201170409/chemistry.jar,jar,zip_entry_timestamp,,,2008-10-16T15:24:32,2008-10-16T15:24:32,unspecified,
+ingenuitytrendz.com/20110201170409/chemistry.jar,jar,wayback_capture,,,20110201170409,2011-02-01T17:04:09,UTC,2011-02-01T17:04:09Z
+myworldlymusic.com/20110210153224/WorldMusic.jar,jar,zip_entry_timestamp,,,2008-10-27T14:28:02,2008-10-27T14:28:02,unspecified,
+myworldlymusic.com/20110210153224/WorldMusic.jar,jar,wayback_capture,,,20110210153224,2011-02-10T15:32:24,UTC,2011-02-10T15:32:24Z
+doctorsoncallsite.com/20110207142832/nutrition.jar,jar,zip_entry_timestamp,,,2008-11-03T14:21:20,2008-11-03T14:21:20,unspecified,
+doctorsoncallsite.com/20110207142832/nutrition.jar,jar,zip_entry_timestamp,,,2008-11-03T14:21:22,2008-11-03T14:21:22,unspecified,
+doctorsoncallsite.com/20110207142832/nutrition.jar,jar,wayback_capture,,,20110207142832,2011-02-07T14:28:32,UTC,2011-02-07T14:28:32Z
+stara-turistick.com/20110207152017/svijeta.jar,jar,zip_entry_timestamp,,,2008-11-07T09:53:00,2008-11-07T09:53:00,unspecified,
+stara-turistick.com/20110207152017/svijeta.jar,jar,zip_entry_timestamp,,,2008-11-07T09:53:02,2008-11-07T09:53:02,unspecified,
+stara-turistick.com/20110207152017/svijeta.jar,jar,wayback_capture,,,20110207152017,2011-02-07T15:20:17,UTC,2011-02-07T15:20:17Z
+mideasttoday.net/20100923092301/mideast.jar,jar,zip_entry_timestamp,,,2008-11-11T09:22:26,2008-11-11T09:22:26,unspecified,
+mideasttoday.net/20100923092301/mideast.jar,jar,zip_entry_timestamp,,,2008-11-11T09:22:32,2008-11-11T09:22:32,unspecified,
+mideasttoday.net/20100923092301/mideast.jar,jar,certificate_notBefore,META-INF/ANALIAS.DSA,4e4b2fc629bbf3c254dfd44cf95fa7c584fb60b742ec762db479feec26b963d5,Nov 11 14:22:33 2008 GMT,2008-11-11T14:22:33,UTC,2008-11-11T14:22:33Z
+mideasttoday.net/20100923092301/mideast.jar,jar,certificate_notAfter,META-INF/ANALIAS.DSA,4e4b2fc629bbf3c254dfd44cf95fa7c584fb60b742ec762db479feec26b963d5,Feb  9 14:22:33 2009 GMT,2009-02-09T14:22:33,UTC,2009-02-09T14:22:33Z
+mideasttoday.net/20100923092301/mideast.jar,jar,wayback_capture,,,20100923092301,2010-09-23T09:23:01,UTC,2010-09-23T09:23:01Z
+mideasttoday.net/20101226010124/mideast.jar,jar,zip_entry_timestamp,,,2010-12-07T19:02:54,2010-12-07T19:02:54,unspecified,
+mideasttoday.net/20101226010124/mideast.jar,jar,zip_entry_timestamp,,,2010-12-07T19:02:56,2010-12-07T19:02:56,unspecified,
+mideasttoday.net/20101226010124/mideast.jar,jar,zip_entry_timestamp,,,2010-12-07T19:03:02,2010-12-07T19:03:02,unspecified,
+mideasttoday.net/20101226010124/mideast.jar,jar,certificate_notBefore,META-INF/ANALIAS.DSA,4f1e43fa22fd69731505acc31479fc0f28b7ab1e1853036a72cf3b070c0cb241,Dec  8 00:03:02 2010 GMT,2010-12-08T00:03:02,UTC,2010-12-08T00:03:02Z
+mideasttoday.net/20101226010124/mideast.jar,jar,wayback_capture,,,20101226010124,2010-12-26T01:01:24,UTC,2010-12-26T01:01:24Z
+mideasttoday.net/20101226010124/mideast.jar,jar,certificate_notAfter,META-INF/ANALIAS.DSA,4f1e43fa22fd69731505acc31479fc0f28b7ab1e1853036a72cf3b070c0cb241,Mar  8 00:03:02 2011 GMT,2011-03-08T00:03:02,UTC,2011-03-08T00:03:02Z
+terrain-news.com/20110202060511/internetspeed.jar,jar,zip_entry_timestamp,,,2008-11-11T16:37:10,2008-11-11T16:37:10,unspecified,
+terrain-news.com/20110202060511/internetspeed.jar,jar,wayback_capture,,,20110202060511,2011-02-02T06:05:11,UTC,2011-02-02T06:05:11Z
+pars-technews.com/20110204140146/cellphones.jar,jar,config_date_comment,resource/resources.bin,Config.properties.old.1229457768184,Fri Nov 14 13:07:23 EST 2008,2008-11-14T13:07:23,EST,
+pars-technews.com/20110204140146/cellphones.jar,jar,config_date_comment,resource/resources.bin,Config.properties.old.1229461083119,Tue Dec 16 15:02:44 EST 2008,2008-12-16T15:02:44,EST,
+pars-technews.com/20110204140146/cellphones.jar,jar,config_date_comment,resource/resources.bin,Config.properties.old.1229519952201,Tue Dec 16 15:58:00 EST 2008,2008-12-16T15:58:00,EST,
+pars-technews.com/20110204140146/cellphones.jar,jar,backup_filename_epoch_ms,resource/resources.bin,Config.properties.old.1229457768184,1229457768184,2008-12-16T20:02:48.184,UTC,2008-12-16T20:02:48.184Z
+pars-technews.com/20110204140146/cellphones.jar,jar,backup_filename_epoch_ms,resource/resources.bin,Config.properties.old.1229461083119,1229461083119,2008-12-16T20:58:03.119,UTC,2008-12-16T20:58:03.119Z
+pars-technews.com/20110204140146/cellphones.jar,jar,zip_entry_timestamp,,,2008-12-17T09:39:36,2008-12-17T09:39:36,unspecified,
+pars-technews.com/20110204140146/cellphones.jar,jar,zip_entry_timestamp,,,2008-12-17T09:39:38,2008-12-17T09:39:38,unspecified,
+pars-technews.com/20110204140146/cellphones.jar,jar,zip_entry_timestamp,,,2008-12-17T09:39:42,2008-12-17T09:39:42,unspecified,
+pars-technews.com/20110204140146/cellphones.jar,jar,backup_filename_epoch_ms,resource/resources.bin,Config.properties.old.1229519952201,1229519952201,2008-12-17T13:19:12.201,UTC,2008-12-17T13:19:12.201Z
+pars-technews.com/20110204140146/cellphones.jar,jar,certificate_notBefore,META-INF/CALL.DSA,12172bcaffeb29a5386acefae862c236568a804b73fca7d5a248ab38066c737e,Dec 17 14:39:43 2008 GMT,2008-12-17T14:39:43,UTC,2008-12-17T14:39:43Z
+pars-technews.com/20110204140146/cellphones.jar,jar,certificate_notAfter,META-INF/CALL.DSA,12172bcaffeb29a5386acefae862c236568a804b73fca7d5a248ab38066c737e,Mar 17 14:39:43 2009 GMT,2009-03-17T14:39:43,UTC,2009-03-17T14:39:43Z
+pars-technews.com/20110204140146/cellphones.jar,jar,wayback_capture,,,20110204140146,2011-02-04T14:01:46,UTC,2011-02-04T14:01:46Z
+rastadirect.net/20110106225504/africa.jar,jar,zip_entry_timestamp,,,2008-12-29T14:41:46,2008-12-29T14:41:46,unspecified,
+rastadirect.net/20110106225504/africa.jar,jar,wayback_capture,,,20110106225504,2011-01-06T22:55:04,UTC,2011-01-06T22:55:04Z
+e-commodities.net/20110106021407/Trading.jar,jar,zip_entry_timestamp,,,2009-01-02T13:19:20,2009-01-02T13:19:20,unspecified,
+e-commodities.net/20110106021407/Trading.jar,jar,zip_entry_timestamp,,,2009-01-02T13:19:22,2009-01-02T13:19:22,unspecified,
+e-commodities.net/20110106021407/Trading.jar,jar,wayback_capture,,,20110106021407,2011-01-06T02:14:07,UTC,2011-01-06T02:14:07Z
+www.awfaoi.org/20110624203548/hand.jar,jar,zip_entry_timestamp,,,2009-01-05T15:43:32,2009-01-05T15:43:32,unspecified,
+www.awfaoi.org/20110624203548/hand.jar,jar,wayback_capture,,,20110624203548,2011-06-24T20:35:48,UTC,2011-06-24T20:35:48Z
+financecentraltoday.com/20110203041347/report.jar,jar,zip_entry_timestamp,,,2009-01-06T17:51:14,2009-01-06T17:51:14,unspecified,
+financecentraltoday.com/20110203041347/report.jar,jar,zip_entry_timestamp,,,2009-01-06T17:51:16,2009-01-06T17:51:16,unspecified,
+financecentraltoday.com/20110203041347/report.jar,jar,wayback_capture,,,20110203041347,2011-02-03T04:13:47,UTC,2011-02-03T04:13:47Z
+rc5sports.com/20110202093627/slides.jar,jar,zip_entry_timestamp,,,2009-01-08T17:52:38,2009-01-08T17:52:38,unspecified,
+rc5sports.com/20110202093627/slides.jar,jar,zip_entry_timestamp,,,2009-01-08T17:52:40,2009-01-08T17:52:40,unspecified,
+rc5sports.com/20110202093627/slides.jar,jar,wayback_capture,,,20110202093627,2011-02-02T09:36:27,UTC,2011-02-02T09:36:27Z
+trekkingtoday.com/20110208080839/compass.jar,jar,zip_entry_timestamp,,,2009-01-14T15:54:00,2009-01-14T15:54:00,unspecified,
+trekkingtoday.com/20110208080839/compass.jar,jar,zip_entry_timestamp,,,2009-01-14T15:54:02,2009-01-14T15:54:02,unspecified,
+trekkingtoday.com/20110208080839/compass.jar,jar,wayback_capture,,,20110208080839,2011-02-08T08:08:39,UTC,2011-02-08T08:08:39Z
+technologypresstoday.com/20110201212907/online.jar,jar,config_date_comment,resource/resources.bin,Config.properties.old.1232549396541,Mon Jan 19 12:15:41 ACT 2009,2009-01-19T12:15:41,ACT,
+technologypresstoday.com/20110201212907/online.jar,jar,config_date_comment,resource/resources.bin,Config.properties.old.1232551667243,Wed Jan 21 09:49:53 ACT 2009,2009-01-21T09:49:53,ACT,
+technologypresstoday.com/20110201212907/online.jar,jar,config_date_comment,resource/resources.bin,Config.properties.old.1232551893883,Wed Jan 21 10:27:41 ACT 2009,2009-01-21T10:27:41,ACT,
+technologypresstoday.com/20110201212907/online.jar,jar,config_date_comment,resource/resources.bin,Config.properties.old.1243601858095,Wed Jan 21 10:31:31 ACT 2009,2009-01-21T10:31:31,ACT,
+technologypresstoday.com/20110201212907/online.jar,jar,backup_filename_epoch_ms,resource/resources.bin,Config.properties.old.1232549396541,1232549396541,2009-01-21T14:49:56.541,UTC,2009-01-21T14:49:56.541Z
+technologypresstoday.com/20110201212907/online.jar,jar,backup_filename_epoch_ms,resource/resources.bin,Config.properties.old.1232551667243,1232551667243,2009-01-21T15:27:47.243,UTC,2009-01-21T15:27:47.243Z
+technologypresstoday.com/20110201212907/online.jar,jar,backup_filename_epoch_ms,resource/resources.bin,Config.properties.old.1232551893883,1232551893883,2009-01-21T15:31:33.883,UTC,2009-01-21T15:31:33.883Z
+technologypresstoday.com/20110201212907/online.jar,jar,zip_entry_timestamp,,,2009-05-29T08:59:48,2009-05-29T08:59:48,unspecified,
+technologypresstoday.com/20110201212907/online.jar,jar,zip_entry_timestamp,,,2009-05-29T09:01:58,2009-05-29T09:01:58,unspecified,
+technologypresstoday.com/20110201212907/online.jar,jar,backup_filename_epoch_ms,resource/resources.bin,Config.properties.old.1243601858095,1243601858095,2009-05-29T12:57:38.095,UTC,2009-05-29T12:57:38.095Z
+technologypresstoday.com/20110201212907/online.jar,jar,certificate_notBefore,META-INF/NEWS.DSA,ce08b0a0717cf4fca4eb2189735af3387d77cd6655659580ee7fb77af033a60b,May 29 13:01:57 2009 GMT,2009-05-29T13:01:57,UTC,2009-05-29T13:01:57Z
+technologypresstoday.com/20110201212907/online.jar,jar,certificate_notAfter,META-INF/NEWS.DSA,ce08b0a0717cf4fca4eb2189735af3387d77cd6655659580ee7fb77af033a60b,Aug 27 13:01:57 2009 GMT,2009-08-27T13:01:57,UTC,2009-08-27T13:01:57Z
+technologypresstoday.com/20110201212907/online.jar,jar,wayback_capture,,,20110201212907,2011-02-01T21:29:07,UTC,2011-02-01T21:29:07Z
+newsintheworld-ru.com/20110208065108/elections.jar,jar,zip_entry_timestamp,,,2009-02-12T11:38:34,2009-02-12T11:38:34,unspecified,
+newsintheworld-ru.com/20110208065108/elections.jar,jar,wayback_capture,,,20110208065108,2011-02-08T06:51:08,UTC,2011-02-08T06:51:08Z
+www.kings-game.net/20111014203242/internet.jar,jar,zip_entry_timestamp,,,2009-02-18T09:59:08,2009-02-18T09:59:08,unspecified,
+www.kings-game.net/20111014203242/internet.jar,jar,wayback_capture,,,20111014203242,2011-10-14T20:32:42,UTC,2011-10-14T20:32:42Z
+whirlybirdinflight.com/20110208030848/fly.jar,jar,zip_entry_timestamp,,,2009-02-20T12:57:04,2009-02-20T12:57:04,unspecified,
+whirlybirdinflight.com/20110208030848/fly.jar,jar,zip_entry_timestamp,,,2009-02-20T12:57:06,2009-02-20T12:57:06,unspecified,
+whirlybirdinflight.com/20110208030848/fly.jar,jar,wayback_capture,,,20110208030848,2011-02-08T03:08:48,UTC,2011-02-08T03:08:48Z
+recipe-dujour.com/20110202122522/recipes.jar,jar,zip_entry_timestamp,,,2009-02-23T09:48:54,2009-02-23T09:48:54,unspecified,
+recipe-dujour.com/20110202122522/recipes.jar,jar,wayback_capture,,,20110202122522,2011-02-02T12:25:22,UTC,2011-02-02T12:25:22Z
+worldnewsnetworking.com/20110210043750/wnn.jar,jar,zip_entry_timestamp,,,2009-02-26T12:44:24,2009-02-26T12:44:24,unspecified,
+worldnewsnetworking.com/20110210043750/wnn.jar,jar,zip_entry_timestamp,,,2009-02-26T12:44:26,2009-02-26T12:44:26,unspecified,
+worldnewsnetworking.com/20110210043750/wnn.jar,jar,wayback_capture,,,20110210043750,2011-02-10T04:37:50,UTC,2011-02-10T04:37:50Z
+philippinenewsonline.net/20101230191531/middleweight.jar,jar,zip_entry_timestamp,,,2009-03-05T13:11:50,2009-03-05T13:11:50,unspecified,
+philippinenewsonline.net/20101230191531/middleweight.jar,jar,wayback_capture,,,20101230191531,2010-12-30T19:15:31,UTC,2010-12-30T19:15:31Z
+philippinenewsonline.net/20131126032754/middleweight.jar,non-archive,wayback_capture,,,20131126032754,2013-11-26T03:27:54,UTC,2013-11-26T03:27:54Z
+the-cricketer-online.com/20110202124706/cricketer.jar,jar,zip_entry_timestamp,,,2009-03-23T10:01:40,2009-03-23T10:01:40,unspecified,
+the-cricketer-online.com/20110202124706/cricketer.jar,jar,wayback_capture,,,20110202124706,2011-02-02T12:47:06,UTC,2011-02-02T12:47:06Z
+court-masters.com/20110128080828/rumors.jar,jar,zip_entry_timestamp,,,2009-03-27T12:23:26,2009-03-27T12:23:26,unspecified,
+court-masters.com/20110128080828/rumors.jar,jar,wayback_capture,,,20110128080828,2011-01-28T08:08:28,UTC,2011-01-28T08:08:28Z
+mediocampodefutbol.com/20100516145029/futbol.jar,jar,zip_entry_timestamp,,,2009-04-08T08:10:42,2009-04-08T08:10:42,unspecified,
+mediocampodefutbol.com/20100516145029/futbol.jar,jar,wayback_capture,,,20100516145029,2010-05-16T14:50:29,UTC,2010-05-16T14:50:29Z
+nuestrasfinanzas.com/20110128201702/ads.jar,jar,zip_entry_timestamp,,,2009-04-21T17:33:20,2009-04-21T17:33:20,unspecified,
+nuestrasfinanzas.com/20110128201702/ads.jar,jar,wayback_capture,,,20110128201702,2011-01-28T20:17:02,UTC,2011-01-28T20:17:02Z
+football-de-luxe.com/20110208004858/soccer.jar,jar,zip_entry_timestamp,,,2009-04-27T16:58:02,2009-04-27T16:58:02,unspecified,
+football-de-luxe.com/20110208004858/soccer.jar,jar,zip_entry_timestamp,,,2009-04-27T16:58:04,2009-04-27T16:58:04,unspecified,
+football-de-luxe.com/20110208004858/soccer.jar,jar,wayback_capture,,,20110208004858,2011-02-08T00:48:58,UTC,2011-02-08T00:48:58Z
+golf-on-holiday.com/20110201200242/golf.jar,jar,zip_entry_timestamp,,,2009-04-30T10:23:54,2009-04-30T10:23:54,unspecified,
+golf-on-holiday.com/20110201200242/golf.jar,jar,wayback_capture,,,20110201200242,2011-02-01T20:02:42,UTC,2011-02-01T20:02:42Z
+www.24hoursprimenews.com/20110128180323/stories.jar,jar,config_date_comment,resource/resources.bin,Config.properties.old.1241543651303,Tue May 05 12:50:38 EDT 2009,2009-05-05T12:50:38,EDT,
+www.24hoursprimenews.com/20110128180323/stories.jar,jar,config_date_comment,resource/resources.bin,Config.properties.old.1285084160776,Tue May 05 13:14:08 EDT 2009,2009-05-05T13:14:08,EDT,
+www.24hoursprimenews.com/20110128180323/stories.jar,jar,backup_filename_epoch_ms,resource/resources.bin,Config.properties.old.1241543651303,1241543651303,2009-05-05T17:14:11.303,UTC,2009-05-05T17:14:11.303Z
+www.24hoursprimenews.com/20110128180323/stories.jar,jar,zip_entry_timestamp,,,2010-09-21T11:54:20,2010-09-21T11:54:20,unspecified,
+www.24hoursprimenews.com/20110128180323/stories.jar,jar,zip_entry_timestamp,,,2010-09-21T11:55:32,2010-09-21T11:55:32,unspecified,
+www.24hoursprimenews.com/20110128180323/stories.jar,jar,backup_filename_epoch_ms,resource/resources.bin,Config.properties.old.1285084160776,1285084160776,2010-09-21T15:49:20.776,UTC,2010-09-21T15:49:20.776Z
+www.24hoursprimenews.com/20110128180323/stories.jar,jar,certificate_notBefore,META-INF/POLITICS.DSA,06800096dff9181bbded48f857ac10d0c725af08a8fb08f7617327173f1f9e18,Sep 21 15:55:30 2010 GMT,2010-09-21T15:55:30,UTC,2010-09-21T15:55:30Z
+www.24hoursprimenews.com/20110128180323/stories.jar,jar,certificate_notAfter,META-INF/POLITICS.DSA,06800096dff9181bbded48f857ac10d0c725af08a8fb08f7617327173f1f9e18,Dec 20 15:55:30 2010 GMT,2010-12-20T15:55:30,UTC,2010-12-20T15:55:30Z
+www.24hoursprimenews.com/20110128180323/stories.jar,jar,wayback_capture,,,20110128180323,2011-01-28T18:03:23,UTC,2011-01-28T18:03:23Z
+myengineeringaffinity.com/20110207184905/affinity.jar,jar,zip_entry_timestamp,,,2009-05-08T15:40:32,2009-05-08T15:40:32,unspecified,
+myengineeringaffinity.com/20110207184905/affinity.jar,jar,zip_entry_timestamp,,,2009-05-08T15:40:34,2009-05-08T15:40:34,unspecified,
+myengineeringaffinity.com/20110207184905/affinity.jar,jar,wayback_capture,,,20110207184905,2011-02-07T18:49:05,UTC,2011-02-07T18:49:05Z
+suparakuvi.com/20110128111829/bandwidth.jar,jar,zip_entry_timestamp,,,2009-05-13T11:19:30,2009-05-13T11:19:30,unspecified,
+suparakuvi.com/20110128111829/bandwidth.jar,jar,wayback_capture,,,20110128111829,2011-01-28T11:18:29,UTC,2011-01-28T11:18:29Z
+www.headlines2day.com/20110201165347/today.jar,jar,zip_entry_timestamp,,,2009-05-28T08:51:34,2009-05-28T08:51:34,unspecified,
+www.headlines2day.com/20110201165347/today.jar,jar,zip_entry_timestamp,,,2009-05-28T08:51:36,2009-05-28T08:51:36,unspecified,
+www.headlines2day.com/20110201165347/today.jar,jar,wayback_capture,,,20110201165347,2011-02-01T16:53:47,UTC,2011-02-01T16:53:47Z
+www.todaysnewsreports.net/20101230050102/communicate.jar,jar,config_date_comment,resource/resources.bin,Config.properties.old.1269876402090,Thu May 28 17:09:11 EDT 2009,2009-05-28T17:09:11,EDT,
+www.todaysnewsreports.net/20101230050102/communicate.jar,jar,config_date_comment,resource/resources.bin,Config.properties.old.1269876863636,Mon Mar 29 10:26:36 ACT 2010,2010-03-29T10:26:36,ACT,
+www.todaysnewsreports.net/20101230050102/communicate.jar,jar,config_date_comment,resource/resources.bin,Config.properties.old.1269882525340,Mon Mar 29 10:34:19 ACT 2010,2010-03-29T10:34:19,ACT,
+www.todaysnewsreports.net/20101230050102/communicate.jar,jar,config_date_comment,resource/resources.bin,Config.properties.old.1269901307598,Mon Mar 29 12:08:39 ACT 2010,2010-03-29T12:08:39,ACT,
+www.todaysnewsreports.net/20101230050102/communicate.jar,jar,backup_filename_epoch_ms,resource/resources.bin,Config.properties.old.1269876402090,1269876402090,2010-03-29T15:26:42.090,UTC,2010-03-29T15:26:42.090Z
+www.todaysnewsreports.net/20101230050102/communicate.jar,jar,backup_filename_epoch_ms,resource/resources.bin,Config.properties.old.1269876863636,1269876863636,2010-03-29T15:34:23.636,UTC,2010-03-29T15:34:23.636Z
+www.todaysnewsreports.net/20101230050102/communicate.jar,jar,backup_filename_epoch_ms,resource/resources.bin,Config.properties.old.1269882525340,1269882525340,2010-03-29T17:08:45.340,UTC,2010-03-29T17:08:45.340Z
+www.todaysnewsreports.net/20101230050102/communicate.jar,jar,zip_entry_timestamp,,,2010-03-29T17:22:38,2010-03-29T17:22:38,unspecified,
+www.todaysnewsreports.net/20101230050102/communicate.jar,jar,zip_entry_timestamp,,,2010-03-29T17:22:44,2010-03-29T17:22:44,unspecified,
+www.todaysnewsreports.net/20101230050102/communicate.jar,jar,backup_filename_epoch_ms,resource/resources.bin,Config.properties.old.1269901307598,1269901307598,2010-03-29T22:21:47.598,UTC,2010-03-29T22:21:47.598Z
+www.todaysnewsreports.net/20101230050102/communicate.jar,jar,certificate_notBefore,META-INF/ACTIVITI.DSA,4b17cad7f3b2bcaf8a3885ad9fec9df5da8b077cc8e70c09c9a5db284c793741,Mar 29 22:22:45 2010 GMT,2010-03-29T22:22:45,UTC,2010-03-29T22:22:45Z
+www.todaysnewsreports.net/20101230050102/communicate.jar,jar,certificate_notAfter,META-INF/ACTIVITI.DSA,4b17cad7f3b2bcaf8a3885ad9fec9df5da8b077cc8e70c09c9a5db284c793741,Jun 27 22:22:45 2010 GMT,2010-06-27T22:22:45,UTC,2010-06-27T22:22:45Z
+www.todaysnewsreports.net/20101230050102/communicate.jar,jar,wayback_capture,,,20101230050102,2010-12-30T05:01:02,UTC,2010-12-30T05:01:02Z
+global-view-news.com/20110201100059/ticker.jar,jar,zip_entry_timestamp,,,2009-05-29T13:24:44,2009-05-29T13:24:44,unspecified,
+global-view-news.com/20110201100059/ticker.jar,jar,zip_entry_timestamp,,,2009-05-29T13:26:50,2009-05-29T13:26:50,unspecified,
+global-view-news.com/20110201100059/ticker.jar,jar,certificate_notBefore,META-INF/MYWORLD.DSA,7c9dd27cdedfd0dc2e9d9a21e4be19328f31c3f85eb63399ae71d38bbbe51856,May 29 18:26:50 2009 GMT,2009-05-29T18:26:50,UTC,2009-05-29T18:26:50Z
+global-view-news.com/20110201100059/ticker.jar,jar,certificate_notAfter,META-INF/MYWORLD.DSA,7c9dd27cdedfd0dc2e9d9a21e4be19328f31c3f85eb63399ae71d38bbbe51856,Aug 27 18:26:50 2009 GMT,2009-08-27T18:26:50,UTC,2009-08-27T18:26:50Z
+global-view-news.com/20110201100059/ticker.jar,jar,wayback_capture,,,20110201100059,2011-02-01T10:00:59,UTC,2011-02-01T10:00:59Z
+avoilurefixe.com/20110129003903/aircraft.jar,jar,zip_entry_timestamp,,,2009-06-01T16:40:14,2009-06-01T16:40:14,unspecified,
+avoilurefixe.com/20110129003903/aircraft.jar,jar,wayback_capture,,,20110129003903,2011-01-29T00:39:03,UTC,2011-01-29T00:39:03Z
+aquaswimming.com/20110210065153/workout.jar,jar,zip_entry_timestamp,,,2009-06-10T15:20:48,2009-06-10T15:20:48,unspecified,
+aquaswimming.com/20110210065153/workout.jar,jar,wayback_capture,,,20110210065153,2011-02-10T06:51:53,UTC,2011-02-10T06:51:53Z
+intlnewsdaily.com/20110202053458/region.jar,jar,config_date_comment,resource/resources.bin,Config.properties.old.1245692439702,Mon Jun 22 09:15:35 EDT 2009,2009-06-22T09:15:35,EDT,
+intlnewsdaily.com/20110202053458/region.jar,jar,config_date_comment,resource/resources.bin,Config.properties.old.1294065279247,Mon Jun 22 13:35:46 EDT 2009,2009-06-22T13:35:46,EDT,
+intlnewsdaily.com/20110202053458/region.jar,jar,backup_filename_epoch_ms,resource/resources.bin,Config.properties.old.1245692439702,1245692439702,2009-06-22T17:40:39.702,UTC,2009-06-22T17:40:39.702Z
+intlnewsdaily.com/20110202053458/region.jar,jar,config_date_comment,resource/resources.bin,Config.properties.old.1294065895075,Mon Jan 03 09:32:24 ACT 2011,2011-01-03T09:32:24,ACT,
+intlnewsdaily.com/20110202053458/region.jar,jar,zip_entry_timestamp,,,2011-01-03T09:46:08,2011-01-03T09:46:08,unspecified,
+intlnewsdaily.com/20110202053458/region.jar,jar,zip_entry_timestamp,,,2011-01-03T09:46:26,2011-01-03T09:46:26,unspecified,
+intlnewsdaily.com/20110202053458/region.jar,jar,backup_filename_epoch_ms,resource/resources.bin,Config.properties.old.1294065279247,1294065279247,2011-01-03T14:34:39.247,UTC,2011-01-03T14:34:39.247Z
+intlnewsdaily.com/20110202053458/region.jar,jar,backup_filename_epoch_ms,resource/resources.bin,Config.properties.old.1294065895075,1294065895075,2011-01-03T14:44:55.075,UTC,2011-01-03T14:44:55.075Z
+intlnewsdaily.com/20110202053458/region.jar,jar,certificate_notBefore,META-INF/SOURCES.DSA,60a09c1f4c647031cf518748fff72a8f118e3471599adab92524cdacdf354e43,Jan  3 14:46:24 2011 GMT,2011-01-03T14:46:24,UTC,2011-01-03T14:46:24Z
+intlnewsdaily.com/20110202053458/region.jar,jar,wayback_capture,,,20110202053458,2011-02-02T05:34:58,UTC,2011-02-02T05:34:58Z
+intlnewsdaily.com/20110202053458/region.jar,jar,certificate_notAfter,META-INF/SOURCES.DSA,60a09c1f4c647031cf518748fff72a8f118e3471599adab92524cdacdf354e43,Apr  3 14:46:24 2011 GMT,2011-04-03T14:46:24,UTC,2011-04-03T14:46:24Z
+firstnewssource.com/20110203072529/btools.jar,jar,zip_entry_timestamp,,,2009-06-24T11:27:34,2009-06-24T11:27:34,unspecified,
+firstnewssource.com/20110203072529/btools.jar,jar,zip_entry_timestamp,,,2009-06-24T11:27:40,2009-06-24T11:27:40,unspecified,
+firstnewssource.com/20110203072529/btools.jar,jar,certificate_notBefore,META-INF/DIVISION.DSA,1916f5e3f4f772b5d31c8ae2f5a9add588f30cc954430473eb852f53722440bb,Jun 24 15:27:40 2009 GMT,2009-06-24T15:27:40,UTC,2009-06-24T15:27:40Z
+firstnewssource.com/20110203072529/btools.jar,jar,certificate_notAfter,META-INF/DIVISION.DSA,1916f5e3f4f772b5d31c8ae2f5a9add588f30cc954430473eb852f53722440bb,Sep 22 15:27:40 2009 GMT,2009-09-22T15:27:40,UTC,2009-09-22T15:27:40Z
+firstnewssource.com/20110203072529/btools.jar,jar,wayback_capture,,,20110203072529,2011-02-03T07:25:29,UTC,2011-02-03T07:25:29Z
+www.neighbour-news.com/20110207204827/bwmeter.jar,jar,zip_entry_timestamp,,,2009-07-06T10:14:30,2009-07-06T10:14:30,unspecified,
+www.neighbour-news.com/20110207204827/bwmeter.jar,jar,wayback_capture,,,20110207204827,2011-02-07T20:48:27,UTC,2011-02-07T20:48:27Z
+theentertainbiz.com/20110202141603/entertain.jar,jar,zip_entry_timestamp,,,2009-07-08T10:57:58,2009-07-08T10:57:58,unspecified,
+theentertainbiz.com/20110202141603/entertain.jar,jar,wayback_capture,,,20110202141603,2011-02-02T14:16:03,UTC,2011-02-02T14:16:03Z
+eurosportssummary.com/20110201194913/sports.jar,jar,zip_entry_timestamp,,,2009-07-15T13:13:52,2009-07-15T13:13:52,unspecified,
+eurosportssummary.com/20110201194913/sports.jar,jar,wayback_capture,,,20110201194913,2011-02-01T19:49:13,UTC,2011-02-01T19:49:13Z
+www.newsandweathersource.com/20110208063333/news.jar,jar,zip_entry_timestamp,,,2009-07-15T15:47:46,2009-07-15T15:47:46,unspecified,
+www.newsandweathersource.com/20110208063333/news.jar,jar,wayback_capture,,,20110208063333,2011-02-08T06:33:33,UTC,2011-02-08T06:33:33Z
+www.newsandweathersource.com/20131025142916/news.jar,jar,zip_entry_timestamp,,,2012-08-23T18:10:58,2012-08-23T18:10:58,unspecified,
+www.newsandweathersource.com/20131025142916/news.jar,jar,zip_entry_timestamp,,,2012-08-23T18:11:00,2012-08-23T18:11:00,unspecified,
+www.newsandweathersource.com/20131025142916/news.jar,jar,zip_entry_timestamp,,,2012-08-23T18:11:02,2012-08-23T18:11:02,unspecified,
+www.newsandweathersource.com/20131025142916/news.jar,jar,zip_entry_timestamp,,,2012-08-23T18:11:04,2012-08-23T18:11:04,unspecified,
+www.newsandweathersource.com/20131025142916/news.jar,jar,wayback_capture,,,20131025142916,2013-10-25T14:29:16,UTC,2013-10-25T14:29:16Z
+esmundonoticias.com/20110201124235/anuncios.jar,jar,zip_entry_timestamp,,,2009-07-20T09:39:48,2009-07-20T09:39:48,unspecified,
+esmundonoticias.com/20110201124235/anuncios.jar,jar,zip_entry_timestamp,,,2009-07-20T09:39:50,2009-07-20T09:39:50,unspecified,
+esmundonoticias.com/20110201124235/anuncios.jar,jar,zip_entry_timestamp,,,2009-07-20T09:39:58,2009-07-20T09:39:58,unspecified,
+esmundonoticias.com/20110201124235/anuncios.jar,jar,certificate_notBefore,META-INF/PRENSA.DSA,f60421d45b4f26c7150e7a33da563826794d530e0747ecf9ff4f0ed3754b8f14,Jul 20 13:39:59 2009 GMT,2009-07-20T13:39:59,UTC,2009-07-20T13:39:59Z
+esmundonoticias.com/20110201124235/anuncios.jar,jar,certificate_notAfter,META-INF/PRENSA.DSA,f60421d45b4f26c7150e7a33da563826794d530e0747ecf9ff4f0ed3754b8f14,Oct 18 13:39:59 2009 GMT,2009-10-18T13:39:59,UTC,2009-10-18T13:39:59Z
+esmundonoticias.com/20110201124235/anuncios.jar,jar,wayback_capture,,,20110201124235,2011-02-01T12:42:35,UTC,2011-02-01T12:42:35Z
+bcenews.com/20110202210331/plan.jar,jar,zip_entry_timestamp,,,2009-08-18T15:49:42,2009-08-18T15:49:42,unspecified,
+bcenews.com/20110202210331/plan.jar,jar,wayback_capture,,,20110202210331,2011-02-02T21:03:31,UTC,2011-02-02T21:03:31Z
+comunidaddenoticias.com/20110207183421/quito.jar,jar,zip_entry_timestamp,,,2009-08-20T13:27:50,2009-08-20T13:27:50,unspecified,
+comunidaddenoticias.com/20110207183421/quito.jar,jar,wayback_capture,,,20110207183421,2011-02-07T18:34:21,UTC,2011-02-07T18:34:21Z
+weblognewsinfo.com/20110207145431/global.jar,jar,config_date_comment,resource/resources.bin,Config.properties.old.1251898298565,Tue Sep 01 15:23:23 EDT 2009,2009-09-01T15:23:23,EDT,
+weblognewsinfo.com/20110207145431/global.jar,jar,config_date_comment,resource/resources.bin,Config.properties.old.1256920313046,Wed Sep 02 09:31:29 EDT 2009,2009-09-02T09:31:29,EDT,
+weblognewsinfo.com/20110207145431/global.jar,jar,backup_filename_epoch_ms,resource/resources.bin,Config.properties.old.1251898298565,1251898298565,2009-09-02T13:31:38.565,UTC,2009-09-02T13:31:38.565Z
+weblognewsinfo.com/20110207145431/global.jar,jar,zip_entry_timestamp,,,2009-10-30T12:32:58,2009-10-30T12:32:58,unspecified,
+weblognewsinfo.com/20110207145431/global.jar,jar,backup_filename_epoch_ms,resource/resources.bin,Config.properties.old.1256920313046,1256920313046,2009-10-30T16:31:53.046,UTC,2009-10-30T16:31:53.046Z
+weblognewsinfo.com/20110207145431/global.jar,jar,wayback_capture,,,20110207145431,2011-02-07T14:54:31,UTC,2011-02-07T14:54:31Z
+mynewscheck.com/20110208211158/world.jar,jar,zip_entry_timestamp,,,2009-09-04T14:07:38,2009-09-04T14:07:38,unspecified,
+mynewscheck.com/20110208211158/world.jar,jar,wayback_capture,,,20110208211158,2011-02-08T21:11:58,UTC,2011-02-08T21:11:58Z
+profile-news.com/20110128181907/speedtest.jar,jar,zip_entry_timestamp,,,2009-09-04T16:15:36,2009-09-04T16:15:36,unspecified,
+profile-news.com/20110128181907/speedtest.jar,jar,wayback_capture,,,20110128181907,2011-01-28T18:19:07,UTC,2011-01-28T18:19:07Z
+lasthournews.com/20100513182724/recent.jar,jar,zip_entry_timestamp,,,2009-09-15T15:45:54,2009-09-15T15:45:54,unspecified,
+lasthournews.com/20100513182724/recent.jar,jar,wayback_capture,,,20100513182724,2010-05-13T18:27:24,UTC,2010-05-13T18:27:24Z
+thenewsofpakistan.com/20110202221353/television.jar,jar,zip_entry_timestamp,,,2009-09-17T17:54:36,2009-09-17T17:54:36,unspecified,
+thenewsofpakistan.com/20110202221353/television.jar,jar,zip_entry_timestamp,,,2009-09-17T17:54:38,2009-09-17T17:54:38,unspecified,
+thenewsofpakistan.com/20110202221353/television.jar,jar,zip_entry_timestamp,,,2009-09-17T17:54:44,2009-09-17T17:54:44,unspecified,
+thenewsofpakistan.com/20110202221353/television.jar,jar,certificate_notBefore,META-INF/BRIEFING.DSA,19b0200af77074eaf9beaf69470379238fdd3b46352c83e18b95ead9b5cfc955,Sep 17 21:54:44 2009 GMT,2009-09-17T21:54:44,UTC,2009-09-17T21:54:44Z
+thenewsofpakistan.com/20110202221353/television.jar,jar,certificate_notAfter,META-INF/BRIEFING.DSA,19b0200af77074eaf9beaf69470379238fdd3b46352c83e18b95ead9b5cfc955,Dec 16 21:54:44 2009 GMT,2009-12-16T21:54:44,UTC,2009-12-16T21:54:44Z
+thenewsofpakistan.com/20110202221353/television.jar,jar,wayback_capture,,,20110202221353,2011-02-02T22:13:53,UTC,2011-02-02T22:13:53Z
+thenewsofpakistan.com/20131206194122/television.jar,non-archive,wayback_capture,,,20131206194122,2013-12-06T19:41:22,UTC,2013-12-06T19:41:22Z
+casanewsnow.com/20110201184918/casanews.jar,jar,zip_entry_timestamp,,,2009-09-21T17:37:40,2009-09-21T17:37:40,unspecified,
+casanewsnow.com/20110201184918/casanews.jar,jar,wayback_capture,,,20110201184918,2011-02-01T18:49:18,UTC,2011-02-01T18:49:18Z
+localtoglobalnews.com/20100514160102/news.jar,jar,zip_entry_timestamp,,,2009-09-22T10:07:56,2009-09-22T10:07:56,unspecified,
+localtoglobalnews.com/20100514160102/news.jar,jar,zip_entry_timestamp,,,2009-09-22T10:07:58,2009-09-22T10:07:58,unspecified,
+localtoglobalnews.com/20100514160102/news.jar,jar,zip_entry_timestamp,,,2009-09-22T10:08:00,2009-09-22T10:08:00,unspecified,
+localtoglobalnews.com/20100514160102/news.jar,jar,wayback_capture,,,20100514160102,2010-05-14T16:01:02,UTC,2010-05-14T16:01:02Z
+shadesofnews.com/20110201184827/sports.jar,jar,config_date_comment,resource/resources.bin,Config.properties.old.1253650542232,Tue Sep 22 16:12:25 EDT 2009,2009-09-22T16:12:25,EDT,
+shadesofnews.com/20110201184827/sports.jar,jar,backup_filename_epoch_ms,resource/resources.bin,Config.properties.old.1253650542232,1253650542232,2009-09-22T20:15:42.232,UTC,2009-09-22T20:15:42.232Z
+shadesofnews.com/20110201184827/sports.jar,jar,zip_entry_timestamp,,,2009-09-23T10:29:06,2009-09-23T10:29:06,unspecified,
+shadesofnews.com/20110201184827/sports.jar,jar,zip_entry_timestamp,,,2009-09-23T10:29:08,2009-09-23T10:29:08,unspecified,
+shadesofnews.com/20110201184827/sports.jar,jar,zip_entry_timestamp,,,2009-09-23T10:29:18,2009-09-23T10:29:18,unspecified,
+shadesofnews.com/20110201184827/sports.jar,jar,certificate_notBefore,META-INF/WEATHER.DSA,6d68663413bbaa7251627d5401b9dffdc571611eaf291543df5cce9880fe3788,Sep 23 14:29:18 2009 GMT,2009-09-23T14:29:18,UTC,2009-09-23T14:29:18Z
+shadesofnews.com/20110201184827/sports.jar,jar,certificate_notAfter,META-INF/WEATHER.DSA,6d68663413bbaa7251627d5401b9dffdc571611eaf291543df5cce9880fe3788,Dec 22 14:29:18 2009 GMT,2009-12-22T14:29:18,UTC,2009-12-22T14:29:18Z
+shadesofnews.com/20110201184827/sports.jar,jar,wayback_capture,,,20110201184827,2011-02-01T18:48:27,UTC,2011-02-01T18:48:27Z
+shadesofnews.com/20131229092754/sptgms213.jar,non-archive,wayback_capture,,,20131229092754,2013-12-29T09:27:54,UTC,2013-12-29T09:27:54Z
+www.easytraveleurope.com/20110207173731/TravelApp.jar,jar,zip_entry_timestamp,,,2009-09-30T16:09:56,2009-09-30T16:09:56,unspecified,
+www.easytraveleurope.com/20110207173731/TravelApp.jar,jar,wayback_capture,,,20110207173731,2011-02-07T17:37:31,UTC,2011-02-07T17:37:31Z
+newsincirculation.com/20110208064944/affairs.jar,jar,zip_entry_timestamp,,,2009-10-05T16:09:04,2009-10-05T16:09:04,unspecified,
+newsincirculation.com/20110208064944/affairs.jar,jar,zip_entry_timestamp,,,2009-10-05T16:09:06,2009-10-05T16:09:06,unspecified,
+newsincirculation.com/20110208064944/affairs.jar,jar,wayback_capture,,,20110208064944,2011-02-08T06:49:44,UTC,2011-02-08T06:49:44Z
+www.sightseeingnews.com/20110202094530/testbandwidth.jar,jar,zip_entry_timestamp,,,2009-10-06T15:41:44,2009-10-06T15:41:44,unspecified,
+www.sightseeingnews.com/20110202094530/testbandwidth.jar,jar,wayback_capture,,,20110202094530,2011-02-02T09:45:30,UTC,2011-02-02T09:45:30Z
+sportsreelhighlights.com/20110210141405/fanmeter.jar,jar,zip_entry_timestamp,,,2009-10-07T15:08:38,2009-10-07T15:08:38,unspecified,
+sportsreelhighlights.com/20110210141405/fanmeter.jar,jar,zip_entry_timestamp,,,2010-09-14T22:57:28,2010-09-14T22:57:28,unspecified,
+sportsreelhighlights.com/20110210141405/fanmeter.jar,jar,wayback_capture,,,20110210141405,2011-02-10T14:14:05,UTC,2011-02-10T14:14:05Z
+world-news-now.net/20110107091609/bwmeter.jar,jar,zip_entry_timestamp,,,2009-10-14T15:54:22,2009-10-14T15:54:22,unspecified,
+world-news-now.net/20110107091609/bwmeter.jar,jar,wayback_capture,,,20110107091609,2011-01-07T09:16:09,UTC,2011-01-07T09:16:09Z
+drglobalnews.com/20110208121830/globalnews.jar,jar,zip_entry_timestamp,,,2009-10-20T17:33:38,2009-10-20T17:33:38,unspecified,
+drglobalnews.com/20110208121830/globalnews.jar,jar,wayback_capture,,,20110208121830,2011-02-08T12:18:30,UTC,2011-02-08T12:18:30Z
+newsresolution.net/20101229194102/bulletin.jar,jar,zip_entry_timestamp,,,2009-10-22T13:15:36,2009-10-22T13:15:36,unspecified,
+newsresolution.net/20101229194102/bulletin.jar,jar,zip_entry_timestamp,,,2009-10-22T13:15:38,2009-10-22T13:15:38,unspecified,
+newsresolution.net/20101229194102/bulletin.jar,jar,wayback_capture,,,20101229194102,2010-12-29T19:41:02,UTC,2010-12-29T19:41:02Z
+webworldsports.com/20110207164115/espeed.jar,jar,zip_entry_timestamp,,,2009-10-23T17:21:26,2009-10-23T17:21:26,unspecified,
+webworldsports.com/20110207164115/espeed.jar,jar,wayback_capture,,,20110207164115,2011-02-07T16:41:15,UTC,2011-02-07T16:41:15Z
+fly-bybirdies.com/20110207201833/bwMeter.jar,jar,zip_entry_timestamp,,,2009-11-04T16:26:30,2009-11-04T16:26:30,unspecified,
+fly-bybirdies.com/20110207201833/bwMeter.jar,jar,wayback_capture,,,20110207201833,2011-02-07T20:18:33,UTC,2011-02-07T20:18:33Z
+news-and-sports.com/20110208063259/science.jar,jar,zip_entry_timestamp,,,2009-11-12T10:22:30,2009-11-12T10:22:30,unspecified,
+news-and-sports.com/20110208063259/science.jar,jar,zip_entry_timestamp,,,2009-11-12T10:22:32,2009-11-12T10:22:32,unspecified,
+news-and-sports.com/20110208063259/science.jar,jar,wayback_capture,,,20110208063259,2011-02-08T06:32:59,UTC,2011-02-08T06:32:59Z
+mywebofnews.com/20110210130707/tools.jar,jar,zip_entry_timestamp,,,2009-11-19T18:47:48,2009-11-19T18:47:48,unspecified,
+mywebofnews.com/20110210130707/tools.jar,jar,zip_entry_timestamp,,,2009-11-19T18:47:54,2009-11-19T18:47:54,unspecified,
+mywebofnews.com/20110210130707/tools.jar,jar,certificate_notBefore,META-INF/RESEARCH.DSA,57504aa7298dba20c61a9090673bfa10ebe9419bc8391fb528e8ed0f2f69a90d,Nov 19 23:47:55 2009 GMT,2009-11-19T23:47:55,UTC,2009-11-19T23:47:55Z
+mywebofnews.com/20110210130707/tools.jar,jar,certificate_notAfter,META-INF/RESEARCH.DSA,57504aa7298dba20c61a9090673bfa10ebe9419bc8391fb528e8ed0f2f69a90d,Feb 17 23:47:55 2010 GMT,2010-02-17T23:47:55,UTC,2010-02-17T23:47:55Z
+mywebofnews.com/20110210130707/tools.jar,jar,wayback_capture,,,20110210130707,2011-02-10T13:07:07,UTC,2011-02-10T13:07:07Z
+dailynewsandsports.com/20130823154922/testmeter.jar,jar,zip_entry_timestamp,,,2009-11-23T19:09:00,2009-11-23T19:09:00,unspecified,
+dailynewsandsports.com/20130823154922/testmeter.jar,jar,wayback_capture,,,20130823154922,2013-08-23T15:49:22,UTC,2013-08-23T15:49:22Z
+www.cyhiraeth-intlnews.com/20110129052501/cyber.jar,jar,zip_entry_timestamp,,,2009-11-24T17:39:22,2009-11-24T17:39:22,unspecified,
+www.cyhiraeth-intlnews.com/20110129052501/cyber.jar,jar,wayback_capture,,,20110129052501,2011-01-29T05:25:01,UTC,2011-01-29T05:25:01Z
+infosharenews.com/20110201161313/livenews.jar,jar,zip_entry_timestamp,,,2009-11-30T14:14:50,2009-11-30T14:14:50,unspecified,
+infosharenews.com/20110201161313/livenews.jar,jar,zip_entry_timestamp,,,2009-11-30T14:14:52,2009-11-30T14:14:52,unspecified,
+infosharenews.com/20110201161313/livenews.jar,jar,wayback_capture,,,20110201161313,2011-02-01T16:13:13,UTC,2011-02-01T16:13:13Z
+elcorreodenoticias.com/20110128085530/notices.jar,jar,zip_entry_timestamp,,,2009-12-01T12:14:22,2009-12-01T12:14:22,unspecified,
+elcorreodenoticias.com/20110128085530/notices.jar,jar,wayback_capture,,,20110128085530,2011-01-28T08:55:30,UTC,2011-01-28T08:55:30Z
+kickitnews.com/20100512232633/team.jar,jar,zip_entry_timestamp,,,2009-12-07T14:37:52,2009-12-07T14:37:52,unspecified,
+kickitnews.com/20100512232633/team.jar,jar,zip_entry_timestamp,,,2009-12-07T14:37:58,2009-12-07T14:37:58,unspecified,
+kickitnews.com/20100512232633/team.jar,jar,certificate_notBefore,META-INF/GOAL.DSA,3cbb2dbed3e56361daaa091e6ad84ea6117ab2659d0e7ede2cf95f06a3c4702a,Dec  7 19:37:59 2009 GMT,2009-12-07T19:37:59,UTC,2009-12-07T19:37:59Z
+kickitnews.com/20100512232633/team.jar,jar,certificate_notAfter,META-INF/GOAL.DSA,3cbb2dbed3e56361daaa091e6ad84ea6117ab2659d0e7ede2cf95f06a3c4702a,Mar  7 19:37:59 2010 GMT,2010-03-07T19:37:59,UTC,2010-03-07T19:37:59Z
+kickitnews.com/20100512232633/team.jar,jar,wayback_capture,,,20100512232633,2010-05-12T23:26:33,UTC,2010-05-12T23:26:33Z
+raulsonsglobalnews.com/20110202135451/Current.jar,jar,zip_entry_timestamp,,,2009-12-07T18:03:50,2009-12-07T18:03:50,unspecified,
+raulsonsglobalnews.com/20110202135451/Current.jar,jar,wayback_capture,,,20110202135451,2011-02-02T13:54:51,UTC,2011-02-02T13:54:51Z
+ride-captain.com/20110208140405/model.jar,jar,zip_entry_timestamp,,,2009-12-08T15:36:12,2009-12-08T15:36:12,unspecified,
+ride-captain.com/20110208140405/model.jar,jar,zip_entry_timestamp,,,2009-12-08T15:36:14,2009-12-08T15:36:14,unspecified,
+ride-captain.com/20110208140405/model.jar,jar,wayback_capture,,,20110208140405,2011-02-08T14:04:05,UTC,2011-02-08T14:04:05Z
+fitness-dawg.com/20110207104457/Routines.jar,jar,zip_entry_timestamp,,,2009-12-09T16:46:44,2009-12-09T16:46:44,unspecified,
+fitness-dawg.com/20110207104457/Routines.jar,jar,zip_entry_timestamp,,,2009-12-09T16:46:46,2009-12-09T16:46:46,unspecified,
+fitness-dawg.com/20110207104457/Routines.jar,jar,wayback_capture,,,20110207104457,2011-02-07T10:44:57,UTC,2011-02-07T10:44:57Z
+nejadnews.com/20110207210107/bwmeasure.jar,jar,zip_entry_timestamp,,,2009-12-11T16:20:40,2009-12-11T16:20:40,unspecified,
+nejadnews.com/20110207210107/bwmeasure.jar,jar,wayback_capture,,,20110207210107,2011-02-07T21:01:07,UTC,2011-02-07T21:01:07Z
+soldiersofsouthasia.com/20110207203807/war.jar,jar,zip_entry_timestamp,,,2009-12-15T15:26:34,2009-12-15T15:26:34,unspecified,
+soldiersofsouthasia.com/20110207203807/war.jar,jar,wayback_capture,,,20110207203807,2011-02-07T20:38:07,UTC,2011-02-07T20:38:07Z
+circulatingnews.net/20101222125858/weather.jar,jar,zip_entry_timestamp,,,2009-12-23T07:35:08,2009-12-23T07:35:08,unspecified,
+circulatingnews.net/20101222125858/weather.jar,jar,wayback_capture,,,20101222125858,2010-12-22T12:58:58,UTC,2010-12-22T12:58:58Z
+cellar-notes.com/20110202111120/winecaddy.jar,jar,zip_entry_timestamp,,,2009-12-23T15:23:24,2009-12-23T15:23:24,unspecified,
+cellar-notes.com/20110202111120/winecaddy.jar,jar,zip_entry_timestamp,,,2009-12-23T15:23:26,2009-12-23T15:23:26,unspecified,
+cellar-notes.com/20110202111120/winecaddy.jar,jar,wayback_capture,,,20110202111120,2011-02-02T11:11:20,UTC,2011-02-02T11:11:20Z
+the-news-scene.com/20110202221510/world.jar,jar,zip_entry_timestamp,,,2009-12-23T18:01:02,2009-12-23T18:01:02,unspecified,
+the-news-scene.com/20110202221510/world.jar,jar,zip_entry_timestamp,,,2009-12-23T18:01:04,2009-12-23T18:01:04,unspecified,
+the-news-scene.com/20110202221510/world.jar,jar,wayback_capture,,,20110202221510,2011-02-02T22:15:10,UTC,2011-02-02T22:15:10Z
+newspoliticssource.com/20110208070613/stories.jar,jar,zip_entry_timestamp,,,2009-12-28T15:52:02,2009-12-28T15:52:02,unspecified,
+newspoliticssource.com/20110208070613/stories.jar,jar,wayback_capture,,,20110208070613,2011-02-08T07:06:13,UTC,2011-02-08T07:06:13Z
+mardelsurnoticias.com/20100515194953/imgrotate.jar,jar,config_date_comment,a/a/b/applet.configs,,Tue Dec 29 13:30:58 EST 2009,2009-12-29T13:30:58,EST,
+mardelsurnoticias.com/20100515194953/imgrotate.jar,jar,zip_entry_timestamp,,,2009-12-29T13:45:14,2009-12-29T13:45:14,unspecified,
+mardelsurnoticias.com/20100515194953/imgrotate.jar,jar,wayback_capture,,,20100515194953,2010-05-15T19:49:53,UTC,2010-05-15T19:49:53Z
+info-ology.net/20101225180654/dynamic.jar,jar,config_date_comment,c/a/a/applet.configs,,Wed Dec 30 08:59:05 EST 2009,2009-12-30T08:59:05,EST,
+info-ology.net/20101225180654/dynamic.jar,jar,zip_entry_timestamp,,,2009-12-30T09:03:08,2009-12-30T09:03:08,unspecified,
+info-ology.net/20101225180654/dynamic.jar,jar,wayback_capture,,,20101225180654,2010-12-25T18:06:54,UTC,2010-12-25T18:06:54Z
+aryannews.net/20101229122727/headlines.jar,jar,zip_entry_timestamp,,,2009-12-30T20:07:44,2009-12-30T20:07:44,unspecified,
+aryannews.net/20101229122727/headlines.jar,jar,wayback_capture,,,20101229122727,2010-12-29T12:27:27,UTC,2010-12-29T12:27:27Z
+sixty2media.com/20110202142719/media.jar,jar,zip_entry_timestamp,,,2010-01-04T09:46:16,2010-01-04T09:46:16,unspecified,
+sixty2media.com/20110202142719/media.jar,jar,zip_entry_timestamp,,,2010-01-04T09:46:18,2010-01-04T09:46:18,unspecified,
+sixty2media.com/20110202142719/media.jar,jar,wayback_capture,,,20110202142719,2011-02-02T14:27:19,UTC,2011-02-02T14:27:19Z
+theworldnewsfeeds.com/20110209183426/feeds.jar,jar,zip_entry_timestamp,,,2010-01-05T09:36:52,2010-01-05T09:36:52,unspecified,
+theworldnewsfeeds.com/20110209183426/feeds.jar,jar,zip_entry_timestamp,,,2010-01-05T09:37:00,2010-01-05T09:37:00,unspecified,
+theworldnewsfeeds.com/20110209183426/feeds.jar,jar,certificate_notBefore,META-INF/STORIES.DSA,0d564bf0f7e42c4b6e15ed159bbbb7882402185ce2a31e1597ee29d475e61c31,Jan  5 14:37:00 2010 GMT,2010-01-05T14:37:00,UTC,2010-01-05T14:37:00Z
+theworldnewsfeeds.com/20110209183426/feeds.jar,jar,certificate_notAfter,META-INF/STORIES.DSA,0d564bf0f7e42c4b6e15ed159bbbb7882402185ce2a31e1597ee29d475e61c31,Apr  5 14:37:00 2010 GMT,2010-04-05T14:37:00,UTC,2010-04-05T14:37:00Z
+theworldnewsfeeds.com/20110209183426/feeds.jar,jar,wayback_capture,,,20110209183426,2011-02-09T18:34:26,UTC,2011-02-09T18:34:26Z
+shoppingadventure.net/20101230020912/shopping.jar,jar,zip_entry_timestamp,,,2010-01-06T16:56:06,2010-01-06T16:56:06,unspecified,
+shoppingadventure.net/20101230020912/shopping.jar,jar,wayback_capture,,,20101230020912,2010-12-30T02:09:12,UTC,2010-12-30T02:09:12Z
+ashoka-gemstones.com/20110128094545/gemstones.jar,jar,config_date_comment,c/a/a/applet.configs,,Thu Jan 07 10:41:41 AMT 2010,2010-01-07T10:41:41,AMT,
+ashoka-gemstones.com/20110128094545/gemstones.jar,jar,zip_entry_timestamp,,,2010-01-07T10:43:24,2010-01-07T10:43:24,unspecified,
+ashoka-gemstones.com/20110128094545/gemstones.jar,jar,wayback_capture,,,20110128094545,2011-01-28T09:45:45,UTC,2011-01-28T09:45:45Z
+nouvellesetdesrapports.com/20110128173448/nouvelles.jar,jar,zip_entry_timestamp,,,2010-01-08T07:43:58,2010-01-08T07:43:58,unspecified,
+nouvellesetdesrapports.com/20110128173448/nouvelles.jar,jar,zip_entry_timestamp,,,2010-01-08T07:44:00,2010-01-08T07:44:00,unspecified,
+nouvellesetdesrapports.com/20110128173448/nouvelles.jar,jar,wayback_capture,,,20110128173448,2011-01-28T17:34:48,UTC,2011-01-28T17:34:48Z
+lanoticiasdehoyelinforme.com/20100513163055/mynews.jar,jar,zip_entry_timestamp,,,2010-01-08T11:27:38,2010-01-08T11:27:38,unspecified,
+lanoticiasdehoyelinforme.com/20100513163055/mynews.jar,jar,zip_entry_timestamp,,,2010-01-08T11:27:40,2010-01-08T11:27:40,unspecified,
+lanoticiasdehoyelinforme.com/20100513163055/mynews.jar,jar,zip_entry_timestamp,,,2010-01-08T11:27:42,2010-01-08T11:27:42,unspecified,
+lanoticiasdehoyelinforme.com/20100513163055/mynews.jar,jar,zip_entry_timestamp,,,2010-01-08T11:27:44,2010-01-08T11:27:44,unspecified,
+lanoticiasdehoyelinforme.com/20100513163055/mynews.jar,jar,wayback_capture,,,20100513163055,2010-05-13T16:30:55,UTC,2010-05-13T16:30:55Z
+westingtonpassnews.com/20110207225119/meter.jar,jar,zip_entry_timestamp,,,2010-01-12T16:49:12,2010-01-12T16:49:12,unspecified,
+westingtonpassnews.com/20110207225119/meter.jar,jar,wayback_capture,,,20110207225119,2011-02-07T22:51:19,UTC,2011-02-07T22:51:19Z
+entertaining-ly.com/20110128211117/bmeter.jar,jar,zip_entry_timestamp,,,2010-01-14T20:08:56,2010-01-14T20:08:56,unspecified,
+entertaining-ly.com/20110128211117/bmeter.jar,jar,wayback_capture,,,20110128211117,2011-01-28T21:11:17,UTC,2011-01-28T21:11:17Z
+boxingstop.net/20101229154458/championship.jar,jar,zip_entry_timestamp,,,2010-01-22T11:38:00,2010-01-22T11:38:00,unspecified,
+boxingstop.net/20101229154458/championship.jar,jar,wayback_capture,,,20101229154458,2010-12-29T15:44:58,UTC,2010-12-29T15:44:58Z
+noticiasporjanua.com/20110128170510/noticias.jar,jar,zip_entry_timestamp,,,2010-01-25T13:14:54,2010-01-25T13:14:54,unspecified,
+noticiasporjanua.com/20110128170510/noticias.jar,jar,wayback_capture,,,20110128170510,2011-01-28T17:05:10,UTC,2011-01-28T17:05:10Z
+lesummumdelafinance.com/20100514033238/finance.jar,jar,zip_entry_timestamp,,,2010-01-25T16:23:16,2010-01-25T16:23:16,unspecified,
+lesummumdelafinance.com/20100514033238/finance.jar,jar,wayback_capture,,,20100514033238,2010-05-14T03:32:38,UTC,2010-05-14T03:32:38Z
+paddlescoop.com/20110203030313/scoopmeter.jar,jar,zip_entry_timestamp,,,2010-01-26T15:39:54,2010-01-26T15:39:54,unspecified,
+paddlescoop.com/20110203030313/scoopmeter.jar,jar,wayback_capture,,,20110203030313,2011-02-03T03:03:13,UTC,2011-02-03T03:03:13Z
+fightwithoutrules.com/20110203021403/boxing.jar,jar,zip_entry_timestamp,,,2010-01-27T09:58:32,2010-01-27T09:58:32,unspecified,
+fightwithoutrules.com/20110203021403/boxing.jar,jar,zip_entry_timestamp,,,2010-01-27T09:58:34,2010-01-27T09:58:34,unspecified,
+fightwithoutrules.com/20110203021403/boxing.jar,jar,wayback_capture,,,20110203021403,2011-02-03T02:14:03,UTC,2011-02-03T02:14:03Z
+activegaminginfo.com/20110202130304/gaming.jar,jar,zip_entry_timestamp,,,2010-01-28T15:37:32,2010-01-28T15:37:32,unspecified,
+activegaminginfo.com/20110202130304/gaming.jar,jar,wayback_capture,,,20110202130304,2011-02-02T13:03:04,UTC,2011-02-02T13:03:04Z
+newscentertoday.com/20110208064052/economy.jar,jar,config_date_comment,c/a/b/applet.configs,,Fri Jan 29 18:33:57 AMT 2010,2010-01-29T18:33:57,AMT,
+newscentertoday.com/20110208064052/economy.jar,jar,zip_entry_timestamp,,,2010-01-29T18:34:04,2010-01-29T18:34:04,unspecified,
+newscentertoday.com/20110208064052/economy.jar,jar,wayback_capture,,,20110208064052,2011-02-08T06:40:52,UTC,2011-02-08T06:40:52Z
+investmentintellect.com/20110202083452/funds.jar,jar,zip_entry_timestamp,,,2010-02-02T16:04:32,2010-02-02T16:04:32,unspecified,
+investmentintellect.com/20110202083452/funds.jar,jar,zip_entry_timestamp,,,2010-02-02T16:04:34,2010-02-02T16:04:34,unspecified,
+investmentintellect.com/20110202083452/funds.jar,jar,wayback_capture,,,20110202083452,2011-02-02T08:34:52,UTC,2011-02-02T08:34:52Z
+marketflows.net/20110106142544/forecast.jar,jar,zip_entry_timestamp,,,2010-02-03T13:03:46,2010-02-03T13:03:46,unspecified,
+marketflows.net/20110106142544/forecast.jar,jar,wayback_capture,,,20110106142544,2011-01-06T14:25:44,UTC,2011-01-06T14:25:44Z
+differentviewtoday.com/20110202185659/bwm.jar,jar,zip_entry_timestamp,,,2010-02-03T17:50:04,2010-02-03T17:50:04,unspecified,
+differentviewtoday.com/20110202185659/bwm.jar,jar,wayback_capture,,,20110202185659,2011-02-02T18:56:59,UTC,2011-02-02T18:56:59Z
+newsupdatesite.com/20110208072027/update.jar,jar,config_date_comment,a/a/a/applet.configs,,Fri Feb 05 12:04:29 EST 2010,2010-02-05T12:04:29,EST,
+newsupdatesite.com/20110208072027/update.jar,jar,zip_entry_timestamp,,,2010-02-05T12:04:54,2010-02-05T12:04:54,unspecified,
+newsupdatesite.com/20110208072027/update.jar,jar,wayback_capture,,,20110208072027,2011-02-08T07:20:27,UTC,2011-02-08T07:20:27Z
+reflectordenoticias.com/20110202151532/globe.jar,jar,config_date_comment,a/a/a/applet.configs,,Thu Feb 11 15:51:44 EST 2010,2010-02-11T15:51:44,EST,
+reflectordenoticias.com/20110202151532/globe.jar,jar,zip_entry_timestamp,,,2010-02-11T15:51:52,2010-02-11T15:51:52,unspecified,
+reflectordenoticias.com/20110202151532/globe.jar,jar,wayback_capture,,,20110202151532,2011-02-02T15:15:32,UTC,2011-02-02T15:15:32Z
+magneticfieldnews.com/20100515103300/science.jar,jar,config_date_comment,resource/resources.bin,Config.properties.old.1265922910550,Thu Feb 11 16:13:19 EST 2010,2010-02-11T16:13:19,EST,
+magneticfieldnews.com/20100515103300/science.jar,jar,zip_entry_timestamp,,,2010-02-11T16:16:08,2010-02-11T16:16:08,unspecified,
+magneticfieldnews.com/20100515103300/science.jar,jar,zip_entry_timestamp,,,2010-02-11T16:16:16,2010-02-11T16:16:16,unspecified,
+magneticfieldnews.com/20100515103300/science.jar,jar,backup_filename_epoch_ms,resource/resources.bin,Config.properties.old.1265922910550,1265922910550,2010-02-11T21:15:10.550,UTC,2010-02-11T21:15:10.550Z
+magneticfieldnews.com/20100515103300/science.jar,jar,certificate_notBefore,META-INF/ENTERTAI.DSA,db8ed89aee38f400269a2851b402e16e3307c6133d26e446c0620b8297f329e4,Feb 11 21:16:15 2010 GMT,2010-02-11T21:16:15,UTC,2010-02-11T21:16:15Z
+magneticfieldnews.com/20100515103300/science.jar,jar,certificate_notAfter,META-INF/ENTERTAI.DSA,db8ed89aee38f400269a2851b402e16e3307c6133d26e446c0620b8297f329e4,May 12 21:16:15 2010 GMT,2010-05-12T21:16:15,UTC,2010-05-12T21:16:15Z
+magneticfieldnews.com/20100515103300/science.jar,jar,wayback_capture,,,20100515103300,2010-05-15T10:33:00,UTC,2010-05-15T10:33:00Z
+www.newimages.org/20110831204559/bmeter.jar,jar,zip_entry_timestamp,,,2010-02-17T13:58:38,2010-02-17T13:58:38,unspecified,
+www.newimages.org/20110831204559/bmeter.jar,jar,wayback_capture,,,20110831204559,2011-08-31T20:45:59,UTC,2011-08-31T20:45:59Z
+globaltourist.net/20101229090929/speed.jar,jar,zip_entry_timestamp,,,2010-02-19T18:23:02,2010-02-19T18:23:02,unspecified,
+globaltourist.net/20101229090929/speed.jar,jar,wayback_capture,,,20101229090929,2010-12-29T09:09:29,UTC,2010-12-29T09:09:29Z
+holein1news.com/20110207142541/standings.jar,jar,zip_entry_timestamp,,,2010-02-19T19:44:42,2010-02-19T19:44:42,unspecified,
+holein1news.com/20110207142541/standings.jar,jar,wayback_capture,,,20110207142541,2011-02-07T14:25:41,UTC,2011-02-07T14:25:41Z
+cyberreportagenews.com/20110131005209/newsline.jar,jar,config_date_comment,b/a/a/applet.configs,,Wed Feb 24 11:25:40 EST 2010,2010-02-24T11:25:40,EST,
+cyberreportagenews.com/20110131005209/newsline.jar,jar,zip_entry_timestamp,,,2010-02-24T11:28:00,2010-02-24T11:28:00,unspecified,
+cyberreportagenews.com/20110131005209/newsline.jar,jar,wayback_capture,,,20110131005209,2011-01-31T00:52:09,UTC,2011-01-31T00:52:09Z
+techwatchtoday.com/20110201220252/Meter.jar,jar,zip_entry_timestamp,,,2010-02-24T12:10:16,2010-02-24T12:10:16,unspecified,
+techwatchtoday.com/20110201220252/Meter.jar,jar,wayback_capture,,,20110201220252,2011-02-01T22:02:52,UTC,2011-02-01T22:02:52Z
+sunrise-news.com/20110128104153/news.jar,jar,zip_entry_timestamp,,,2010-02-25T17:58:34,2010-02-25T17:58:34,unspecified,
+sunrise-news.com/20110128104153/news.jar,jar,zip_entry_timestamp,,,2010-02-25T17:58:36,2010-02-25T17:58:36,unspecified,
+sunrise-news.com/20110128104153/news.jar,jar,wayback_capture,,,20110128104153,2011-01-28T10:41:53,UTC,2011-01-28T10:41:53Z
+newsworldsite.com/20110208071946/steps.jar,jar,zip_entry_timestamp,,,2010-02-26T11:39:20,2010-02-26T11:39:20,unspecified,
+newsworldsite.com/20110208071946/steps.jar,jar,zip_entry_timestamp,,,2010-02-26T11:39:26,2010-02-26T11:39:26,unspecified,
+newsworldsite.com/20110208071946/steps.jar,jar,certificate_notBefore,META-INF/HABITAT.DSA,c5c26c83e5c34576c9474630b5469e892b8ffd44da755b895da97d078335c84c,Feb 26 16:39:27 2010 GMT,2010-02-26T16:39:27,UTC,2010-02-26T16:39:27Z
+newsworldsite.com/20110208071946/steps.jar,jar,certificate_notAfter,META-INF/HABITAT.DSA,c5c26c83e5c34576c9474630b5469e892b8ffd44da755b895da97d078335c84c,May 27 16:39:27 2010 GMT,2010-05-27T16:39:27,UTC,2010-05-27T16:39:27Z
+newsworldsite.com/20110208071946/steps.jar,jar,wayback_capture,,,20110208071946,2011-02-08T07:19:46,UTC,2011-02-08T07:19:46Z
+noticiasmusica.net/20101230165004/musica.jar,jar,zip_entry_timestamp,,,2010-02-26T13:44:38,2010-02-26T13:44:38,unspecified,
+noticiasmusica.net/20101230165004/musica.jar,jar,wayback_capture,,,20101230165004,2010-12-30T16:50:04,UTC,2010-12-30T16:50:04Z
+www.sayaara-auto.com/20110128163016/ferrari.jar,jar,zip_entry_timestamp,,,2010-02-26T18:02:58,2010-02-26T18:02:58,unspecified,
+www.sayaara-auto.com/20110128163016/ferrari.jar,jar,zip_entry_timestamp,,,2010-02-26T18:03:00,2010-02-26T18:03:00,unspecified,
+www.sayaara-auto.com/20110128163016/ferrari.jar,jar,wayback_capture,,,20110128163016,2011-01-28T16:30:16,UTC,2011-01-28T16:30:16Z
+athletepro.net/20101229003434/athletes.jar,jar,config_date_comment,a/a/b/applet.configs,,Wed Mar 03 18:00:23 EST 2010,2010-03-03T18:00:23,EST,
+athletepro.net/20101229003434/athletes.jar,jar,zip_entry_timestamp,,,2010-03-03T18:00:50,2010-03-03T18:00:50,unspecified,
+athletepro.net/20101229003434/athletes.jar,jar,wayback_capture,,,20101229003434,2010-12-29T00:34:34,UTC,2010-12-29T00:34:34Z
+hai-pow.com/20110204050101/haipow.jar,jar,zip_entry_timestamp,,,2010-03-08T20:58:28,2010-03-08T20:58:28,unspecified,
+hai-pow.com/20110204050101/haipow.jar,jar,zip_entry_timestamp,,,2010-03-08T20:58:30,2010-03-08T20:58:30,unspecified,
+hai-pow.com/20110204050101/haipow.jar,jar,wayback_capture,,,20110204050101,2011-02-04T05:01:01,UTC,2011-02-04T05:01:01Z
+lajornadanow.com/20100513135549/noticias.jar,jar,zip_entry_timestamp,,,2010-03-15T08:48:28,2010-03-15T08:48:28,unspecified,
+lajornadanow.com/20100513135549/noticias.jar,jar,zip_entry_timestamp,,,2010-03-15T08:48:30,2010-03-15T08:48:30,unspecified,
+lajornadanow.com/20100513135549/noticias.jar,jar,wayback_capture,,,20100513135549,2010-05-13T13:55:49,UTC,2010-05-13T13:55:49Z
+internationalnewsworthiness.com/20110202031111/world.jar,jar,config_date_comment,resource/resources.bin,Config.properties.old.1268838024760,Wed Mar 17 10:25:37 EDT 2010,2010-03-17T10:25:37,EDT,
+internationalnewsworthiness.com/20110202031111/world.jar,jar,config_date_comment,resource/resources.bin,Config.properties.old.1268839154579,Wed Mar 17 11:08:24 EDT 2010,2010-03-17T11:08:24,EDT,
+internationalnewsworthiness.com/20110202031111/world.jar,jar,backup_filename_epoch_ms,resource/resources.bin,Config.properties.old.1268838024760,1268838024760,2010-03-17T15:00:24.760,UTC,2010-03-17T15:00:24.760Z
+internationalnewsworthiness.com/20110202031111/world.jar,jar,backup_filename_epoch_ms,resource/resources.bin,Config.properties.old.1268839154579,1268839154579,2010-03-17T15:19:14.579,UTC,2010-03-17T15:19:14.579Z
+internationalnewsworthiness.com/20110202031111/world.jar,jar,config_date_comment,resource/resources.bin,Config.properties.old.1269273917735,Mon Mar 22 07:57:37 ACT 2010,2010-03-22T07:57:37,ACT,
+internationalnewsworthiness.com/20110202031111/world.jar,jar,config_date_comment,resource/resources.bin,Config.properties.old.1269277381797,Mon Mar 22 11:04:49 ACT 2010,2010-03-22T11:04:49,ACT,
+internationalnewsworthiness.com/20110202031111/world.jar,jar,zip_entry_timestamp,,,2010-03-22T12:03:48,2010-03-22T12:03:48,unspecified,
+internationalnewsworthiness.com/20110202031111/world.jar,jar,zip_entry_timestamp,,,2010-03-22T12:03:54,2010-03-22T12:03:54,unspecified,
+internationalnewsworthiness.com/20110202031111/world.jar,jar,backup_filename_epoch_ms,resource/resources.bin,Config.properties.old.1269273917735,1269273917735,2010-03-22T16:05:17.735,UTC,2010-03-22T16:05:17.735Z
+internationalnewsworthiness.com/20110202031111/world.jar,jar,backup_filename_epoch_ms,resource/resources.bin,Config.properties.old.1269277381797,1269277381797,2010-03-22T17:03:01.797,UTC,2010-03-22T17:03:01.797Z
+internationalnewsworthiness.com/20110202031111/world.jar,jar,certificate_notBefore,META-INF/EVENT.DSA,1816c37489e1684982502c25484fa16b3fbbfe086b96ce3280320c22221acec2,Mar 22 17:03:55 2010 GMT,2010-03-22T17:03:55,UTC,2010-03-22T17:03:55Z
+internationalnewsworthiness.com/20110202031111/world.jar,jar,certificate_notAfter,META-INF/EVENT.DSA,1816c37489e1684982502c25484fa16b3fbbfe086b96ce3280320c22221acec2,Jun 20 17:03:55 2010 GMT,2010-06-20T17:03:55,UTC,2010-06-20T17:03:55Z
+internationalnewsworthiness.com/20110202031111/world.jar,jar,wayback_capture,,,20110202031111,2011-02-02T03:11:11,UTC,2011-02-02T03:11:11Z
+sa-michigan.com/20110208053935/speed.jar,jar,zip_entry_timestamp,,,2010-03-17T17:01:16,2010-03-17T17:01:16,unspecified,
+sa-michigan.com/20110208053935/speed.jar,jar,wayback_capture,,,20110208053935,2011-02-08T05:39:35,UTC,2011-02-08T05:39:35Z
+arabicnewsunfiltered.com/20110210072506/news.jar,jar,config_date_comment,c/a/b/applet.configs,,Thu Mar 18 14:43:12 EDT 2010,2010-03-18T14:43:12,EDT,
+arabicnewsunfiltered.com/20110210072506/news.jar,jar,zip_entry_timestamp,,,2010-03-18T14:44:18,2010-03-18T14:44:18,unspecified,
+arabicnewsunfiltered.com/20110210072506/news.jar,jar,zip_entry_timestamp,,,2010-03-18T14:44:20,2010-03-18T14:44:20,unspecified,
+arabicnewsunfiltered.com/20110210072506/news.jar,jar,wayback_capture,,,20110210072506,2011-02-10T07:25:06,UTC,2011-02-10T07:25:06Z
+journeystravelled.com/20110208052755/time.jar,jar,zip_entry_timestamp,,,2010-03-18T15:48:12,2010-03-18T15:48:12,unspecified,
+journeystravelled.com/20110208052755/time.jar,jar,wayback_capture,,,20110208052755,2011-02-08T05:27:55,UTC,2011-02-08T05:27:55Z
+worldofonlinenews.com/20110210051552/world.jar,jar,zip_entry_timestamp,,,2010-03-24T16:58:28,2010-03-24T16:58:28,unspecified,
+worldofonlinenews.com/20110210051552/world.jar,jar,wayback_capture,,,20110210051552,2011-02-10T05:15:52,UTC,2011-02-10T05:15:52Z
+nsmovies.net/20101229192155/reel.jar,jar,zip_entry_timestamp,,,2010-03-26T14:53:32,2010-03-26T14:53:32,unspecified,
+nsmovies.net/20101229192155/reel.jar,jar,wayback_capture,,,20101229192155,2010-12-29T19:21:55,UTC,2010-12-29T19:21:55Z
+non-stop-news.net/20101229191117/world.jar,jar,config_date_comment,a/a/a/applet.configs,,Tue Apr 06 13:39:53 EDT 2010,2010-04-06T13:39:53,EDT,
+non-stop-news.net/20101229191117/world.jar,jar,zip_entry_timestamp,,,2010-04-06T13:42:02,2010-04-06T13:42:02,unspecified,
+non-stop-news.net/20101229191117/world.jar,jar,zip_entry_timestamp,,,2010-04-06T13:42:04,2010-04-06T13:42:04,unspecified,
+non-stop-news.net/20101229191117/world.jar,jar,wayback_capture,,,20101229191117,2010-12-29T19:11:17,UTC,2010-12-29T19:11:17Z
+intoworldnews.com/20110202055300/news.jar,jar,config_date_comment,b/a/b/applet.configs,,Thu Apr 15 09:48:51 AMT 2010,2010-04-15T09:48:51,AMT,
+intoworldnews.com/20110202055300/news.jar,jar,zip_entry_timestamp,,,2010-04-15T09:49:30,2010-04-15T09:49:30,unspecified,
+intoworldnews.com/20110202055300/news.jar,jar,zip_entry_timestamp,,,2010-04-15T09:49:32,2010-04-15T09:49:32,unspecified,
+intoworldnews.com/20110202055300/news.jar,jar,wayback_capture,,,20110202055300,2011-02-02T05:53:00,UTC,2011-02-02T05:53:00Z
+smart-financeology.com/20110202205132/clrbar.jar,jar,zip_entry_timestamp,,,2010-04-16T16:22:00,2010-04-16T16:22:00,unspecified,
+smart-financeology.com/20110202205132/clrbar.jar,jar,zip_entry_timestamp,,,2010-04-16T16:22:02,2010-04-16T16:22:02,unspecified,
+smart-financeology.com/20110202205132/clrbar.jar,jar,wayback_capture,,,20110202205132,2011-02-02T20:51:32,UTC,2011-02-02T20:51:32Z
+beamingnews.com/20110202092214/beamingnews.jar,jar,config_date_comment,c/a/b/applet.configs,,Wed Apr 28 10:19:22 AMT 2010,2010-04-28T10:19:22,AMT,
+beamingnews.com/20110202092214/beamingnews.jar,jar,zip_entry_timestamp,,,2010-04-28T10:19:28,2010-04-28T10:19:28,unspecified,
+beamingnews.com/20110202092214/beamingnews.jar,jar,wayback_capture,,,20110202092214,2011-02-02T09:22:14,UTC,2011-02-02T09:22:14Z
+technologytodayandtomorrow.com/20110201213207/bluray.jar,jar,zip_entry_timestamp,,,2010-04-29T07:57:46,2010-04-29T07:57:46,unspecified,
+technologytodayandtomorrow.com/20110201213207/bluray.jar,jar,zip_entry_timestamp,,,2010-04-29T07:57:56,2010-04-29T07:57:56,unspecified,
+technologytodayandtomorrow.com/20110201213207/bluray.jar,jar,certificate_notBefore,META-INF/DIGITAL.DSA,780f981567e24439ff30d79cd78c76e3ee9afbe94f097bb4b55b0358a8ac2ed1,Apr 29 12:57:55 2010 GMT,2010-04-29T12:57:55,UTC,2010-04-29T12:57:55Z
+technologytodayandtomorrow.com/20110201213207/bluray.jar,jar,certificate_notAfter,META-INF/DIGITAL.DSA,780f981567e24439ff30d79cd78c76e3ee9afbe94f097bb4b55b0358a8ac2ed1,Jul 28 12:57:55 2010 GMT,2010-07-28T12:57:55,UTC,2010-07-28T12:57:55Z
+technologytodayandtomorrow.com/20110201213207/bluray.jar,jar,wayback_capture,,,20110201213207,2011-02-01T21:32:07,UTC,2011-02-01T21:32:07Z
+www.opensourcenewstoday.com/20110202050322/breaking.jar,jar,zip_entry_timestamp,,,2010-05-06T15:40:28,2010-05-06T15:40:28,unspecified,
+www.opensourcenewstoday.com/20110202050322/breaking.jar,jar,zip_entry_timestamp,,,2010-05-06T15:40:34,2010-05-06T15:40:34,unspecified,
+www.opensourcenewstoday.com/20110202050322/breaking.jar,jar,certificate_notBefore,META-INF/INTERNET.DSA,ecf049f39a3bf94c6e6e4d1f342cbc40da9b298699ac6564423e4e4fd0c3c980,May  6 19:40:35 2010 GMT,2010-05-06T19:40:35,UTC,2010-05-06T19:40:35Z
+www.opensourcenewstoday.com/20110202050322/breaking.jar,jar,certificate_notAfter,META-INF/INTERNET.DSA,ecf049f39a3bf94c6e6e4d1f342cbc40da9b298699ac6564423e4e4fd0c3c980,Aug  4 19:40:35 2010 GMT,2010-08-04T19:40:35,UTC,2010-08-04T19:40:35Z
+www.opensourcenewstoday.com/20110202050322/breaking.jar,jar,wayback_capture,,,20110202050322,2011-02-02T05:03:22,UTC,2011-02-02T05:03:22Z
+i-pressnews.com/20110202090114/news.jar,jar,config_date_comment,b/a/a/applet.configs,,Thu May 13 16:47:40 EDT 2010,2010-05-13T16:47:40,EDT,
+i-pressnews.com/20110202090114/news.jar,jar,zip_entry_timestamp,,,2010-05-13T16:49:10,2010-05-13T16:49:10,unspecified,
+i-pressnews.com/20110202090114/news.jar,jar,zip_entry_timestamp,,,2010-05-13T16:49:12,2010-05-13T16:49:12,unspecified,
+i-pressnews.com/20110202090114/news.jar,jar,wayback_capture,,,20110202090114,2011-02-02T09:01:14,UTC,2011-02-02T09:01:14Z
+atomworldnews.com/20110128153721/world.jar,jar,config_date_comment,b/a/a/applet.configs,,Wed May 19 11:52:15 AMT 2010,2010-05-19T11:52:15,AMT,
+atomworldnews.com/20110128153721/world.jar,jar,zip_entry_timestamp,,,2010-05-19T11:52:22,2010-05-19T11:52:22,unspecified,
+atomworldnews.com/20110128153721/world.jar,jar,wayback_capture,,,20110128153721,2011-01-28T15:37:21,UTC,2011-01-28T15:37:21Z
+turkishnewslinks.com/20110129021654/feeds.jar,jar,zip_entry_timestamp,,,2010-05-27T20:45:12,2010-05-27T20:45:12,unspecified,
+turkishnewslinks.com/20110129021654/feeds.jar,jar,zip_entry_timestamp,,,2010-05-27T20:45:14,2010-05-27T20:45:14,unspecified,
+turkishnewslinks.com/20110129021654/feeds.jar,jar,wayback_capture,,,20110129021654,2011-01-29T02:16:54,UTC,2011-01-29T02:16:54Z
+globalcitizennews.net/20101229090704/news.jar,jar,config_date_comment,c/a/b/applet.configs,,Wed Jun 02 16:13:51 AMT 2010,2010-06-02T16:13:51,AMT,
+globalcitizennews.net/20101229090704/news.jar,jar,zip_entry_timestamp,,,2010-06-02T16:14:44,2010-06-02T16:14:44,unspecified,
+globalcitizennews.net/20101229090704/news.jar,jar,wayback_capture,,,20101229090704,2010-12-29T09:07:04,UTC,2010-12-29T09:07:04Z
+globalcitizennews.net/20130929144711/news.jar,non-archive,wayback_capture,,,20130929144711,2013-09-29T14:47:11,UTC,2013-09-29T14:47:11Z
+politicalworldtoday.com/20110208065808/meterbw.jar,jar,zip_entry_timestamp,,,2010-06-03T21:12:48,2010-06-03T21:12:48,unspecified,
+politicalworldtoday.com/20110208065808/meterbw.jar,jar,wayback_capture,,,20110208065808,2011-02-08T06:58:08,UTC,2011-02-08T06:58:08Z
+theputtingreen.com/20110207104855/tee.jar,jar,zip_entry_timestamp,,,2010-06-04T12:36:02,2010-06-04T12:36:02,unspecified,
+theputtingreen.com/20110207104855/tee.jar,jar,zip_entry_timestamp,,,2010-06-04T12:36:04,2010-06-04T12:36:04,unspecified,
+theputtingreen.com/20110207104855/tee.jar,jar,wayback_capture,,,20110207104855,2011-02-07T10:48:55,UTC,2011-02-07T10:48:55Z
+dps-digitalphotosharing.com/20110207233427/photography.jar,jar,config_date_comment,c/a/b/applet.configs,,Mon Jun 07 07:53:03 EDT 2010,2010-06-07T07:53:03,EDT,
+dps-digitalphotosharing.com/20110207233427/photography.jar,jar,zip_entry_timestamp,,,2010-06-07T07:57:54,2010-06-07T07:57:54,unspecified,
+dps-digitalphotosharing.com/20110207233427/photography.jar,jar,wayback_capture,,,20110207233427,2011-02-07T23:34:27,UTC,2011-02-07T23:34:27Z
+rakotafootball.com/20110202083428/ball.jar,jar,config_date_comment,a/a/b/applet.configs,,Mon Jun 07 14:21:15 EDT 2010,2010-06-07T14:21:15,EDT,
+rakotafootball.com/20110202083428/ball.jar,jar,zip_entry_timestamp,,,2010-06-07T14:22:26,2010-06-07T14:22:26,unspecified,
+rakotafootball.com/20110202083428/ball.jar,jar,wayback_capture,,,20110202083428,2011-02-02T08:34:28,UTC,2011-02-02T08:34:28Z
+hi-tech-today.com/20110208145850/technews.jar,jar,config_date_comment,b/a/a/applet.configs,,Tue Jun 08 12:47:52 AMT 2010,2010-06-08T12:47:52,AMT,
+hi-tech-today.com/20110208145850/technews.jar,jar,zip_entry_timestamp,,,2010-06-08T12:48:00,2010-06-08T12:48:00,unspecified,
+hi-tech-today.com/20110208145850/technews.jar,jar,wayback_capture,,,20110208145850,2011-02-08T14:58:50,UTC,2011-02-08T14:58:50Z
+tickettonews.com/20110210205447/ticket.jar,jar,zip_entry_timestamp,,,2010-06-11T14:24:12,2010-06-11T14:24:12,unspecified,
+tickettonews.com/20110210205447/ticket.jar,jar,zip_entry_timestamp,,,2010-06-11T14:24:14,2010-06-11T14:24:14,unspecified,
+tickettonews.com/20110210205447/ticket.jar,jar,wayback_capture,,,20110210205447,2011-02-10T20:54:47,UTC,2011-02-10T20:54:47Z
+iran-newslink-today.com/20110202092053/today.jar,jar,config_date_comment,b/a/b/applet.configs,,Mon Jun 14 13:44:28 EDT 2010,2010-06-14T13:44:28,EDT,
+iran-newslink-today.com/20110202092053/today.jar,jar,zip_entry_timestamp,,,2010-06-14T13:53:24,2010-06-14T13:53:24,unspecified,
+iran-newslink-today.com/20110202092053/today.jar,jar,zip_entry_timestamp,,,2010-06-14T13:53:26,2010-06-14T13:53:26,unspecified,
+iran-newslink-today.com/20110202092053/today.jar,jar,wayback_capture,,,20110202092053,2011-02-02T09:20:53,UTC,2011-02-02T09:20:53Z
+sportsnewstodayar.com/20110210132114/news.jar,jar,config_date_comment,a/a/b/applet.configs,,Mon Jun 14 16:22:13 EDT 2010,2010-06-14T16:22:13,EDT,
+sportsnewstodayar.com/20110210132114/news.jar,jar,zip_entry_timestamp,,,2010-06-14T16:23:16,2010-06-14T16:23:16,unspecified,
+sportsnewstodayar.com/20110210132114/news.jar,jar,zip_entry_timestamp,,,2010-06-14T16:23:18,2010-06-14T16:23:18,unspecified,
+sportsnewstodayar.com/20110210132114/news.jar,jar,wayback_capture,,,20110210132114,2011-02-10T13:21:14,UTC,2011-02-10T13:21:14Z
+podisticamondiale.com/20110208042318/running.jar,jar,zip_entry_timestamp,,,2010-06-21T13:13:38,2010-06-21T13:13:38,unspecified,
+podisticamondiale.com/20110208042318/running.jar,jar,wayback_capture,,,20110208042318,2011-02-08T04:23:18,UTC,2011-02-08T04:23:18Z
+dryterrainnews.com/20110209045143/rhino.jar,jar,config_date_comment,resource/resources.bin,Config.properties.old.1277148810409,Mon Jun 21 14:32:02 ACT 2010,2010-06-21T14:32:02,ACT,
+dryterrainnews.com/20110209045143/rhino.jar,jar,zip_entry_timestamp,,,2010-06-21T14:34:28,2010-06-21T14:34:28,unspecified,
+dryterrainnews.com/20110209045143/rhino.jar,jar,zip_entry_timestamp,,,2010-06-21T14:34:30,2010-06-21T14:34:30,unspecified,
+dryterrainnews.com/20110209045143/rhino.jar,jar,zip_entry_timestamp,,,2010-06-21T14:34:38,2010-06-21T14:34:38,unspecified,
+dryterrainnews.com/20110209045143/rhino.jar,jar,backup_filename_epoch_ms,resource/resources.bin,Config.properties.old.1277148810409,1277148810409,2010-06-21T19:33:30.409,UTC,2010-06-21T19:33:30.409Z
+dryterrainnews.com/20110209045143/rhino.jar,jar,certificate_notBefore,META-INF/CROCODIL.DSA,f18cd3ba51e10dfe8b507fda28f7df830c7ac0ea09c6c1174ed24116212930cd,Jun 21 19:34:37 2010 GMT,2010-06-21T19:34:37,UTC,2010-06-21T19:34:37Z
+dryterrainnews.com/20110209045143/rhino.jar,jar,certificate_notAfter,META-INF/CROCODIL.DSA,f18cd3ba51e10dfe8b507fda28f7df830c7ac0ea09c6c1174ed24116212930cd,Sep 19 19:34:37 2010 GMT,2010-09-19T19:34:37,UTC,2010-09-19T19:34:37Z
+dryterrainnews.com/20110209045143/rhino.jar,jar,wayback_capture,,,20110209045143,2011-02-09T04:51:43,UTC,2011-02-09T04:51:43Z
+kairuafricanews.com/20110207183707/health.jar,jar,zip_entry_timestamp,,,2010-06-23T11:44:48,2010-06-23T11:44:48,unspecified,
+kairuafricanews.com/20110207183707/health.jar,jar,zip_entry_timestamp,,,2010-06-23T11:44:50,2010-06-23T11:44:50,unspecified,
+kairuafricanews.com/20110207183707/health.jar,jar,wayback_capture,,,20110207183707,2011-02-07T18:37:07,UTC,2011-02-07T18:37:07Z
+techno-today.com/20110201213839/bmeter.jar,jar,zip_entry_timestamp,,,2010-06-23T14:14:08,2010-06-23T14:14:08,unspecified,
+techno-today.com/20110201213839/bmeter.jar,jar,wayback_capture,,,20110201213839,2011-02-01T21:38:39,UTC,2011-02-01T21:38:39Z
+rowleyworldpost.com/20110207112131/news.jar,jar,zip_entry_timestamp,,,2010-06-25T15:37:36,2010-06-25T15:37:36,unspecified,
+rowleyworldpost.com/20110207112131/news.jar,jar,zip_entry_timestamp,,,2010-06-25T15:37:38,2010-06-25T15:37:38,unspecified,
+rowleyworldpost.com/20110207112131/news.jar,jar,wayback_capture,,,20110207112131,2011-02-07T11:21:31,UTC,2011-02-07T11:21:31Z
+guide-daventure.com/20110203080532/touristiques.jar,jar,zip_entry_timestamp,,,2010-07-08T11:21:46,2010-07-08T11:21:46,unspecified,
+guide-daventure.com/20110203080532/touristiques.jar,jar,wayback_capture,,,20110203080532,2011-02-03T08:05:32,UTC,2011-02-03T08:05:32Z
+dayenews.com/20110202024052/global.jar,jar,zip_entry_timestamp,,,2010-07-12T18:01:38,2010-07-12T18:01:38,unspecified,
+dayenews.com/20110202024052/global.jar,jar,wayback_capture,,,20110202024052,2011-02-02T02:40:52,UTC,2011-02-02T02:40:52Z
+bleachersfootballnews.com/20110207225524/football.jar,jar,config_date_comment,a/a/b/applet.configs,,Tue Jul 13 08:41:45 AMT 2010,2010-07-13T08:41:45,AMT,
+bleachersfootballnews.com/20110207225524/football.jar,jar,zip_entry_timestamp,,,2010-07-13T08:42:02,2010-07-13T08:42:02,unspecified,
+bleachersfootballnews.com/20110207225524/football.jar,jar,wayback_capture,,,20110207225524,2011-02-07T22:55:24,UTC,2011-02-07T22:55:24Z
+petroleumagenews.com/20110208043653/metered.jar,jar,zip_entry_timestamp,,,2010-07-15T13:26:46,2010-07-15T13:26:46,unspecified,
+petroleumagenews.com/20110208043653/metered.jar,jar,wayback_capture,,,20110208043653,2011-02-08T04:36:53,UTC,2011-02-08T04:36:53Z
+techtopnews.com/20110201215739/spam.jar,jar,config_date_comment,b/a/b/applet.configs,,Thu Jul 15 15:29:33 AMT 2010,2010-07-15T15:29:33,AMT,
+techtopnews.com/20110201215739/spam.jar,jar,zip_entry_timestamp,,,2010-07-15T15:30:56,2010-07-15T15:30:56,unspecified,
+techtopnews.com/20110201215739/spam.jar,jar,wayback_capture,,,20110201215739,2011-02-01T21:57:39,UTC,2011-02-01T21:57:39Z
+theinternationalworld.com/20110202183357/font.jar,jar,config_date_comment,c/a/a/applet.configs,,Wed Jul 21 12:42:45 AMT 2010,2010-07-21T12:42:45,AMT,
+theinternationalworld.com/20110202183357/font.jar,jar,zip_entry_timestamp,,,2010-07-21T12:42:52,2010-07-21T12:42:52,unspecified,
+theinternationalworld.com/20110202183357/font.jar,jar,wayback_capture,,,20110202183357,2011-02-02T18:33:57,UTC,2011-02-02T18:33:57Z
+ballbatstumpsandbails.com/20110202032951/bails.jar,jar,config_date_comment,a/a/b/applet.configs,,Fri Jul 23 11:27:48 EDT 2010,2010-07-23T11:27:48,EDT,
+ballbatstumpsandbails.com/20110202032951/bails.jar,jar,zip_entry_timestamp,,,2010-07-23T11:28:10,2010-07-23T11:28:10,unspecified,
+ballbatstumpsandbails.com/20110202032951/bails.jar,jar,wayback_capture,,,20110202032951,2011-02-02T03:29:51,UTC,2011-02-02T03:29:51Z
+vuvuzelanews.com/20110202193354/vuvuzela.jar,jar,config_date_comment,a/a/a/applet.configs,,Mon Jul 26 08:54:59 AMT 2010,2010-07-26T08:54:59,AMT,
+vuvuzelanews.com/20110202193354/vuvuzela.jar,jar,zip_entry_timestamp,,,2010-07-26T08:55:18,2010-07-26T08:55:18,unspecified,
+vuvuzelanews.com/20110202193354/vuvuzela.jar,jar,wayback_capture,,,20110202193354,2011-02-02T19:33:54,UTC,2011-02-02T19:33:54Z
+zafernews.com/20110209030931/banner.jar,jar,zip_entry_timestamp,,,2010-07-29T19:39:56,2010-07-29T19:39:56,unspecified,
+zafernews.com/20110209030931/banner.jar,jar,zip_entry_timestamp,,,2010-07-29T19:39:58,2010-07-29T19:39:58,unspecified,
+zafernews.com/20110209030931/banner.jar,jar,wayback_capture,,,20110209030931,2011-02-09T03:09:31,UTC,2011-02-09T03:09:31Z
+aeronet-news.com/20110202122601/aeronet.jar,jar,config_date_comment,a/a/b/applet.configs,,Thu Aug 19 08:19:00 AMT 2010,2010-08-19T08:19:00,AMT,
+aeronet-news.com/20110202122601/aeronet.jar,jar,zip_entry_timestamp,,,2010-08-19T08:19:06,2010-08-19T08:19:06,unspecified,
+aeronet-news.com/20110202122601/aeronet.jar,jar,wayback_capture,,,20110202122601,2011-02-02T12:26:01,UTC,2011-02-02T12:26:01Z
+tnc-urdu.com/20110211230248/bmeterplus.jar,jar,zip_entry_timestamp,,,2010-08-20T12:35:38,2010-08-20T12:35:38,unspecified,
+tnc-urdu.com/20110211230248/bmeterplus.jar,jar,wayback_capture,,,20110211230248,2011-02-11T23:02:48,UTC,2011-02-11T23:02:48Z
+worldfinancetoday.net/20110107091649/slides.jar,jar,zip_entry_timestamp,,,2010-08-24T13:17:36,2010-08-24T13:17:36,unspecified,
+worldfinancetoday.net/20110107091649/slides.jar,jar,wayback_capture,,,20110107091649,2011-01-07T09:16:49,UTC,2011-01-07T09:16:49Z
+worldfinancetoday.net/20131126235054/slides.jar,non-archive,wayback_capture,,,20131126235054,2013-11-26T23:50:54,UTC,2013-11-26T23:50:54Z
+inquiry-human-past.com/20110201203856/meter.jar,jar,zip_entry_timestamp,,,2010-08-25T10:52:16,2010-08-25T10:52:16,unspecified,
+inquiry-human-past.com/20110201203856/meter.jar,jar,wayback_capture,,,20110201203856,2011-02-01T20:38:56,UTC,2011-02-01T20:38:56Z
+autonewsarabia.com/20110128213858/vehicle.jar,jar,config_date_comment,b/a/b/applet.configs,,Wed Aug 25 17:02:21 AMT 2010,2010-08-25T17:02:21,AMT,
+autonewsarabia.com/20110128213858/vehicle.jar,jar,zip_entry_timestamp,,,2010-08-25T17:03:06,2010-08-25T17:03:06,unspecified,
+autonewsarabia.com/20110128213858/vehicle.jar,jar,wayback_capture,,,20110128213858,2011-01-28T21:38:58,UTC,2011-01-28T21:38:58Z
+indirectfreekick.com/20110201123244/soccer.jar,jar,config_date_comment,a/a/b/applet.configs,,Thu Aug 26 12:53:24 AMT 2010,2010-08-26T12:53:24,AMT,
+indirectfreekick.com/20110201123244/soccer.jar,jar,zip_entry_timestamp,,,2010-08-26T12:53:30,2010-08-26T12:53:30,unspecified,
+indirectfreekick.com/20110201123244/soccer.jar,jar,wayback_capture,,,20110201123244,2011-02-01T12:32:44,UTC,2011-02-01T12:32:44Z
+deprensaenlarevisiondehoy.com/20110202101825/deprensaen.jar,jar,zip_entry_timestamp,,,2010-09-03T09:20:32,2010-09-03T09:20:32,unspecified,
+deprensaenlarevisiondehoy.com/20110202101825/deprensaen.jar,jar,wayback_capture,,,20110202101825,2011-02-02T10:18:25,UTC,2011-02-02T10:18:25Z
+archaeologyreview.net/20101229120902/archaeology.jar,jar,config_date_comment,b/a/b/applet.configs,,Thu Sep 09 13:01:45 AMT 2010,2010-09-09T13:01:45,AMT,
+archaeologyreview.net/20101229120902/archaeology.jar,jar,zip_entry_timestamp,,,2010-09-09T13:02:14,2010-09-09T13:02:14,unspecified,
+archaeologyreview.net/20101229120902/archaeology.jar,jar,wayback_capture,,,20101229120902,2010-12-29T12:09:02,UTC,2010-12-29T12:09:02Z
+diariodeelmundo.com/20110202172130/latin.jar,jar,config_date_comment,b/a/b/applet.configs,,Mon Sep 13 16:06:55 AMT 2010,2010-09-13T16:06:55,AMT,
+diariodeelmundo.com/20110202172130/latin.jar,jar,zip_entry_timestamp,,,2010-09-13T16:08:16,2010-09-13T16:08:16,unspecified,
+diariodeelmundo.com/20110202172130/latin.jar,jar,wayback_capture,,,20110202172130,2011-02-02T17:21:30,UTC,2011-02-02T17:21:30Z
+icwb-news.com/20110129162009/ad.jar,jar,zip_entry_timestamp,,,2010-09-13T19:14:04,2010-09-13T19:14:04,unspecified,
+icwb-news.com/20110129162009/ad.jar,jar,zip_entry_timestamp,,,2010-09-13T19:14:06,2010-09-13T19:14:06,unspecified,
+icwb-news.com/20110129162009/ad.jar,jar,wayback_capture,,,20110129162009,2011-01-29T16:20:09,UTC,2011-01-29T16:20:09Z
+stickshiftnews.com/20110207232246/news.jar,jar,zip_entry_timestamp,,,2010-09-21T12:42:30,2010-09-21T12:42:30,unspecified,
+stickshiftnews.com/20110207232246/news.jar,jar,wayback_capture,,,20110207232246,2011-02-07T23:22:46,UTC,2011-02-07T23:22:46Z
+thefairwaysaregreen.com/20110202143230/fairway.jar,jar,zip_entry_timestamp,,,2010-09-21T16:12:40,2010-09-21T16:12:40,unspecified,
+thefairwaysaregreen.com/20110202143230/fairway.jar,jar,wayback_capture,,,20110202143230,2011-02-02T14:32:30,UTC,2011-02-02T14:32:30Z
+iraniangoalkicks.com/20110202091917/clamping.jar,jar,zip_entry_timestamp,,,2010-09-29T10:41:54,2010-09-29T10:41:54,unspecified,
+iraniangoalkicks.com/20110202091917/clamping.jar,jar,zip_entry_timestamp,,,2010-09-29T10:42:02,2010-09-29T10:42:02,unspecified,
+iraniangoalkicks.com/20110202091917/clamping.jar,jar,certificate_notBefore,META-INF/DEFENDO.DSA,699104a8d9633628214d479f477d3dcb6fb4b4787abb985203919f93d07afd48,Sep 29 15:42:02 2010 GMT,2010-09-29T15:42:02,UTC,2010-09-29T15:42:02Z
+iraniangoalkicks.com/20110202091917/clamping.jar,jar,certificate_notAfter,META-INF/DEFENDO.DSA,699104a8d9633628214d479f477d3dcb6fb4b4787abb985203919f93d07afd48,Dec 28 15:42:02 2010 GMT,2010-12-28T15:42:02,UTC,2010-12-28T15:42:02Z
+iraniangoalkicks.com/20110202091917/clamping.jar,jar,wayback_capture,,,20110202091917,2011-02-02T09:19:17,UTC,2011-02-02T09:19:17Z
+capture-nature.com/20110201104851/Scenes.jar,jar,zip_entry_timestamp,,,2010-10-12T20:25:30,2010-10-12T20:25:30,unspecified,
+capture-nature.com/20110201104851/Scenes.jar,jar,wayback_capture,,,20110201104851,2011-02-01T10:48:51,UTC,2011-02-01T10:48:51Z
+financial-crisis-news.com/20110203042212/dolls.jar,jar,zip_entry_timestamp,,,2010-10-15T19:01:40,2010-10-15T19:01:40,unspecified,
+financial-crisis-news.com/20110203042212/dolls.jar,jar,zip_entry_timestamp,,,2010-10-15T19:01:42,2010-10-15T19:01:42,unspecified,
+financial-crisis-news.com/20110203042212/dolls.jar,jar,wayback_capture,,,20110203042212,2011-02-03T04:22:12,UTC,2011-02-03T04:22:12Z
+www.crossovernews.net/20111014003646/basketball.jar,jar,config_date_comment,a/a/b/applet.configs,,Fri Nov 05 11:40:05 AMT 2010,2010-11-05T11:40:05,AMT,
+www.crossovernews.net/20111014003646/basketball.jar,jar,zip_entry_timestamp,,,2010-11-05T11:41:04,2010-11-05T11:41:04,unspecified,
+www.crossovernews.net/20111014003646/basketball.jar,jar,wayback_capture,,,20111014003646,2011-10-14T00:36:46,UTC,2011-10-14T00:36:46Z
+flyingtimeline.com/20110207204640/aircraft.jar,jar,config_date_comment,a/a/a/applet.configs,,Wed Dec 01 21:41:39 EST 2010,2010-12-01T21:41:39,EST,
+flyingtimeline.com/20110207204640/aircraft.jar,jar,zip_entry_timestamp,,,2010-12-01T21:42:02,2010-12-01T21:42:02,unspecified,
+flyingtimeline.com/20110207204640/aircraft.jar,jar,wayback_capture,,,20110207204640,2011-02-07T20:46:40,UTC,2011-02-07T20:46:40Z
+modernarabicnews.com/20131127031550/news.jar,jar,config_date_comment,a/a/a/applet.configs,,Thu Dec 16 16:47:26 AMT 2010,2010-12-16T16:47:26,AMT,
+modernarabicnews.com/20131127031550/news.jar,jar,zip_entry_timestamp,,,2010-12-16T16:47:32,2010-12-16T16:47:32,unspecified,
+modernarabicnews.com/20131127031550/news.jar,jar,wayback_capture,,,20131127031550,2013-11-27T03:15:50,UTC,2013-11-27T03:15:50Z
+mydailynewsreport.com/20110207171354/world.jar,jar,zip_entry_timestamp,,,2010-12-20T10:14:04,2010-12-20T10:14:04,unspecified,
+mydailynewsreport.com/20110207171354/world.jar,jar,zip_entry_timestamp,,,2010-12-20T10:14:06,2010-12-20T10:14:06,unspecified,
+mydailynewsreport.com/20110207171354/world.jar,jar,zip_entry_timestamp,,,2010-12-20T10:15:44,2010-12-20T10:15:44,unspecified,
+mydailynewsreport.com/20110207171354/world.jar,jar,zip_entry_timestamp,,,2010-12-20T10:15:46,2010-12-20T10:15:46,unspecified,
+mydailynewsreport.com/20110207171354/world.jar,jar,certificate_notBefore,META-INF/FONT.DSA,d0b1267fa1951ee27a3f40688bcf27651ec11160073f155f5d6a89e6ce62a497,Dec 20 15:15:43 2010 GMT,2010-12-20T15:15:43,UTC,2010-12-20T15:15:43Z
+mydailynewsreport.com/20110207171354/world.jar,jar,wayback_capture,,,20110207171354,2011-02-07T17:13:54,UTC,2011-02-07T17:13:54Z
+mydailynewsreport.com/20110207171354/world.jar,jar,certificate_notAfter,META-INF/FONT.DSA,d0b1267fa1951ee27a3f40688bcf27651ec11160073f155f5d6a89e6ce62a497,Mar 20 15:15:43 2011 GMT,2011-03-20T15:15:43,UTC,2011-03-20T15:15:43Z
+worldwildlifeadventure.com/20110210093209/webspeed.jar,jar,zip_entry_timestamp,,,2011-01-03T16:19:24,2011-01-03T16:19:24,unspecified,
+worldwildlifeadventure.com/20110210093209/webspeed.jar,jar,wayback_capture,,,20110210093209,2011-02-10T09:32:09,UTC,2011-02-10T09:32:09Z
+everythingcricket.org/20110704090136/cricket.jar,jar,zip_entry_timestamp,,,2011-01-04T19:31:36,2011-01-04T19:31:36,unspecified,
+everythingcricket.org/20110704090136/cricket.jar,jar,zip_entry_timestamp,,,2011-01-04T19:31:38,2011-01-04T19:31:38,unspecified,
+everythingcricket.org/20110704090136/cricket.jar,jar,zip_entry_timestamp,,,2011-01-04T19:31:40,2011-01-04T19:31:40,unspecified,
+everythingcricket.org/20110704090136/cricket.jar,jar,zip_entry_timestamp,,,2011-01-04T19:31:42,2011-01-04T19:31:42,unspecified,
+everythingcricket.org/20110704090136/cricket.jar,jar,wayback_capture,,,20110704090136,2011-07-04T09:01:36,UTC,2011-07-04T09:01:36Z
+technewsforme.com/20110201211509/meter.jar,jar,zip_entry_timestamp,,,2011-01-10T16:48:14,2011-01-10T16:48:14,unspecified,
+technewsforme.com/20110201211509/meter.jar,jar,wayback_capture,,,20110201211509,2011-02-01T21:15:09,UTC,2011-02-01T21:15:09Z
+dailywellnessnews.com/20110201114454/wellness.jar,jar,config_date_comment,a/a/b/applet.configs,,Wed Jan 12 14:10:58 EST 2011,2011-01-12T14:10:58,EST,
+dailywellnessnews.com/20110201114454/wellness.jar,jar,zip_entry_timestamp,,,2011-01-12T14:12:38,2011-01-12T14:12:38,unspecified,
+dailywellnessnews.com/20110201114454/wellness.jar,jar,wayback_capture,,,20110201114454,2011-02-01T11:44:54,UTC,2011-02-01T11:44:54Z
+thepyramidnews.com/20110207105046/news.jar,jar,config_date_comment,c/a/b/applet.configs,,Tue Jan 25 11:51:45 EST 2011,2011-01-25T11:51:45,EST,
+thepyramidnews.com/20110207105046/news.jar,jar,zip_entry_timestamp,,,2011-01-25T11:52:10,2011-01-25T11:52:10,unspecified,
+thepyramidnews.com/20110207105046/news.jar,jar,wayback_capture,,,20110207105046,2011-02-07T10:50:46,UTC,2011-02-07T10:50:46Z
+www.myhealthlibrary.net/20111015023541/dose.jar,jar,config_date_comment,resource/resources.bin,Config.properties.old.1302531518079,Tue Apr 05 12:03:33 ACT 2011,2011-04-05T12:03:33,ACT,
+www.myhealthlibrary.net/20111015023541/dose.jar,jar,config_date_comment,resource/resources.bin,Config.properties.old.1302544758013,Mon Apr 11 09:18:19 ACT 2011,2011-04-11T09:18:19,ACT,
+www.myhealthlibrary.net/20111015023541/dose.jar,jar,config_date_comment,resource/resources.bin,Config.properties.old.1302547443438,Mon Apr 11 13:34:14 ACT 2011,2011-04-11T13:34:14,ACT,
+www.myhealthlibrary.net/20111015023541/dose.jar,jar,config_date_comment,resource/resources.bin,Config.properties.old.1302549442079,Mon Apr 11 13:43:20 ACT 2011,2011-04-11T13:43:20,ACT,
+www.myhealthlibrary.net/20111015023541/dose.jar,jar,config_date_comment,resource/resources.bin,Config.properties.old.1302546866344,Mon Apr 11 13:59:13 EDT 2011,2011-04-11T13:59:13,EDT,
+www.myhealthlibrary.net/20111015023541/dose.jar,jar,config_date_comment,resource/resources.bin,Config.properties.old.1302551231798,Mon Apr 11 14:17:18 ACT 2011,2011-04-11T14:17:18,ACT,
+www.myhealthlibrary.net/20111015023541/dose.jar,jar,backup_filename_epoch_ms,resource/resources.bin,Config.properties.old.1302531518079,1302531518079,2011-04-11T14:18:38.079,UTC,2011-04-11T14:18:38.079Z
+www.myhealthlibrary.net/20111015023541/dose.jar,jar,zip_entry_timestamp,,,2011-04-11T14:48:26,2011-04-11T14:48:26,unspecified,
+www.myhealthlibrary.net/20111015023541/dose.jar,jar,backup_filename_epoch_ms,resource/resources.bin,Config.properties.old.1302544758013,1302544758013,2011-04-11T17:59:18.013,UTC,2011-04-11T17:59:18.013Z
+www.myhealthlibrary.net/20111015023541/dose.jar,jar,backup_filename_epoch_ms,resource/resources.bin,Config.properties.old.1302546866344,1302546866344,2011-04-11T18:34:26.344,UTC,2011-04-11T18:34:26.344Z
+www.myhealthlibrary.net/20111015023541/dose.jar,jar,backup_filename_epoch_ms,resource/resources.bin,Config.properties.old.1302547443438,1302547443438,2011-04-11T18:44:03.438,UTC,2011-04-11T18:44:03.438Z
+www.myhealthlibrary.net/20111015023541/dose.jar,jar,backup_filename_epoch_ms,resource/resources.bin,Config.properties.old.1302549442079,1302549442079,2011-04-11T19:17:22.079,UTC,2011-04-11T19:17:22.079Z
+www.myhealthlibrary.net/20111015023541/dose.jar,jar,backup_filename_epoch_ms,resource/resources.bin,Config.properties.old.1302551231798,1302551231798,2011-04-11T19:47:11.798,UTC,2011-04-11T19:47:11.798Z
+www.myhealthlibrary.net/20111015023541/dose.jar,jar,wayback_capture,,,20111015023541,2011-10-15T02:35:41,UTC,2011-10-15T02:35:41Z
