@@ -1,0 +1,892 @@
+1
+00:00:00,000 --> 00:00:04,400
+This is about some websites that the CIA made around 2010.
+
+2
+00:00:04,400 --> 00:00:06,120
+They were used for their assets,
+
+3
+00:00:06,120 --> 00:00:08,320
+the people that recruited or coerced
+
+4
+00:00:08,320 --> 00:00:10,480
+in target countries like Iran and China
+
+5
+00:00:10,480 --> 00:00:11,800
+to spy on those countries.
+
+6
+00:00:11,800 --> 00:00:14,080
+These were the websites that those people would give
+
+7
+00:00:14,080 --> 00:00:15,920
+what they spied back to the CIA.
+
+8
+00:00:15,920 --> 00:00:17,080
+And those are exposed.
+
+9
+00:00:17,080 --> 00:00:18,920
+And one of them was Star Wars themed,
+
+10
+00:00:18,920 --> 00:00:19,760
+which is kind of cool.
+
+11
+00:00:19,760 --> 00:00:22,560
+Before those websites were uncovered,
+
+12
+00:00:22,560 --> 00:00:26,400
+I'd heard rumors that many, many CIA agents
+
+13
+00:00:26,400 --> 00:00:27,640
+in China had been caught.
+
+14
+00:00:27,640 --> 00:00:31,000
+This 2018 article was a major thing,
+
+15
+00:00:31,000 --> 00:00:32,600
+but we didn't know how.
+
+16
+00:00:32,600 --> 00:00:33,560
+It was starting to emerge
+
+17
+00:00:33,560 --> 00:00:36,000
+that some public websites are compromised,
+
+18
+00:00:36,000 --> 00:00:37,320
+but we didn't know any examples.
+
+19
+00:00:37,320 --> 00:00:39,840
+When I heard about this, I'm interested in Chinese politics.
+
+20
+00:00:39,840 --> 00:00:42,240
+and I said, oh, do you know any of them?
+
+21
+00:00:42,240 --> 00:00:46,920
+I even asked on Quora and Chris, engineer and former technician
+
+22
+00:00:46,920 --> 00:00:48,760
+at the US Navy said, you're dumb.
+
+23
+00:00:48,760 --> 00:00:50,680
+Obviously, the CIA is so smart,
+
+24
+00:00:50,680 --> 00:00:52,240
+they would never leak their websites.
+
+25
+00:00:52,240 --> 00:00:55,280
+Well, Chris, fast forward to 2022,
+
+26
+00:00:55,480 --> 00:00:58,280
+and an article emerged with a few links.
+
+27
+00:00:58,280 --> 00:01:00,880
+So I only heard about this in 2023.
+
+28
+00:01:00,880 --> 00:01:03,120
+I was browsing YouTube and this video popped up
+
+29
+00:01:03,120 --> 00:01:05,120
+from Darknet Diaries.
+
+30
+00:01:05,120 --> 00:01:07,400
+I didn't watch the video, I just clicked the link
+
+31
+00:01:07,400 --> 00:01:09,080
+and that's it.
+
+32
+00:01:09,080 --> 00:01:12,640
+So it's a Reuters article where some of the ex spies
+
+33
+00:01:12,640 --> 00:01:15,600
+were complaining that the CIA didn't treat them well.
+
+34
+00:01:15,600 --> 00:01:17,360
+The CIA used us and dumped us
+
+35
+00:01:17,360 --> 00:01:19,880
+and they gave a few websites.
+
+36
+00:01:19,880 --> 00:01:23,040
+This is an example of one of the websites that was used.
+
+37
+00:01:23,040 --> 00:01:25,920
+This is a reconstruction from the Reuters article.
+
+38
+00:01:25,920 --> 00:01:28,760
+As you'd expect, there's a login field
+
+39
+00:01:28,760 --> 00:01:31,000
+where the agent would go and type a password
+
+40
+00:01:31,000 --> 00:01:33,600
+and would use encryption to talk to the CIA.
+
+41
+00:01:33,600 --> 00:01:38,600
+But Reuters only gave two URLs directly on the article
+
+42
+00:01:38,600 --> 00:01:42,480
+but they also gave like seven or eight screenshots in total.
+
+43
+00:01:42,480 --> 00:01:44,680
+From those screenshots, it was rather easy
+
+44
+00:01:44,680 --> 00:01:48,520
+to find out all the domains, the seven or eight domain names
+
+45
+00:01:48,520 --> 00:01:50,680
+because either they were on the type of the page,
+
+46
+00:01:50,720 --> 00:01:52,080
+this is one of the pages.
+
+47
+00:01:52,080 --> 00:01:54,440
+Or if you expected the page source,
+
+48
+00:01:54,440 --> 00:01:59,120
+the URL for the images had websites.
+
+49
+00:01:59,120 --> 00:02:02,640
+So this active gaming info.com, this Chinese website
+
+50
+00:02:02,640 --> 00:02:03,560
+was one of the websites.
+
+51
+00:02:03,560 --> 00:02:06,440
+So they basically gave away seven or eight websites.
+
+52
+00:02:06,440 --> 00:02:10,960
+But they also said that they had found upwards of 350
+
+53
+00:02:10,960 --> 00:02:13,840
+or 800 or something of that websites.
+
+54
+00:02:13,840 --> 00:02:15,040
+And when I read that, I was like,
+
+55
+00:02:15,040 --> 00:02:18,800
+oh, it would be cool if you could find a bunch of them, right?
+
+56
+00:02:18,800 --> 00:02:19,920
+But they didn't disclose them
+
+57
+00:02:19,920 --> 00:02:23,440
+because they didn't want to cause trouble to the agents.
+
+58
+00:02:23,440 --> 00:02:25,160
+But I said, okay, I'm gonna try anyways,
+
+59
+00:02:25,160 --> 00:02:26,920
+it's been 10 years, let's do it.
+
+60
+00:02:26,920 --> 00:02:28,640
+The coolest things that I found,
+
+61
+00:02:28,640 --> 00:02:32,120
+one, the Star Wars website, was pretty awesome
+
+62
+00:02:32,120 --> 00:02:34,640
+because most of the websites are extremely boring
+
+63
+00:02:34,640 --> 00:02:37,800
+and didn't have pop culture references like this.
+
+64
+00:02:37,800 --> 00:02:39,880
+The Reuters article basically gave all those
+
+65
+00:02:39,880 --> 00:02:41,120
+that have pop culture references,
+
+66
+00:02:41,120 --> 00:02:43,040
+but they missed this one and I'm really really glad
+
+67
+00:02:43,040 --> 00:02:44,680
+because I'm the one to reveal it.
+
+68
+00:02:44,680 --> 00:02:46,000
+So this is awesome.
+
+69
+00:02:46,000 --> 00:02:47,760
+And the other cool thing and much more serious
+
+70
+00:02:47,800 --> 00:02:51,320
+is the USA spying on its allies.
+
+71
+00:02:51,320 --> 00:02:52,760
+And by allies, I mean democracies,
+
+72
+00:02:52,760 --> 00:02:55,840
+which we know, of course, are not really allies.
+
+73
+00:02:55,840 --> 00:02:58,520
+For example, Brazil, we know which country
+
+74
+00:02:58,520 --> 00:03:00,880
+those websites target because of the language.
+
+75
+00:03:00,880 --> 00:03:02,720
+Some languages could be many countries,
+
+76
+00:03:02,720 --> 00:03:04,800
+but other language could only be one country.
+
+77
+00:03:04,800 --> 00:03:09,360
+For example, Brazilian Portuguese, they were spying Brazil.
+
+78
+00:03:09,360 --> 00:03:11,040
+Snowden had already talked about this
+
+79
+00:03:11,040 --> 00:03:12,760
+and there are many other relations.
+
+80
+00:03:12,760 --> 00:03:13,760
+We know they spied in Brazil,
+
+81
+00:03:13,760 --> 00:03:16,080
+but it's really cool that you get this
+
+82
+00:03:16,080 --> 00:03:17,680
+Wayback Machine image.
+
+83
+00:03:17,680 --> 00:03:19,400
+You have an actual link.
+
+84
+00:03:19,400 --> 00:03:21,840
+You can see it's live on this link
+
+85
+00:03:21,840 --> 00:03:23,800
+in the Wayback Machine and you can see the websites
+
+86
+00:03:23,800 --> 00:03:25,680
+more or less as they were, so that's kind of cool.
+
+87
+00:03:25,680 --> 00:03:27,720
+Germany, the Dedrick Online.
+
+88
+00:03:27,720 --> 00:03:30,320
+I don't speak German, but it's German.
+
+89
+00:03:30,320 --> 00:03:32,800
+France, Le Summum De la Finance,
+
+90
+00:03:32,800 --> 00:03:34,280
+I speak French.
+
+91
+00:03:34,280 --> 00:03:36,800
+Italy, Atività Estremi.
+
+92
+00:03:39,120 --> 00:03:40,720
+And many other democracies.
+
+93
+00:03:40,720 --> 00:03:42,560
+So it's kind of cool.
+
+94
+00:03:42,560 --> 00:03:44,200
+Now I'll just talk a little bit about
+
+95
+00:03:44,200 --> 00:03:45,760
+how I found the new websites
+
+96
+00:03:45,760 --> 00:03:47,120
+that are not given by Reuters.
+
+97
+00:03:47,120 --> 00:03:49,160
+So the first and easy thing was
+
+98
+00:03:49,160 --> 00:03:52,240
+they used sequential IPs for the websites
+
+99
+00:03:52,240 --> 00:03:55,480
+and Reuters themselves mentioned that.
+
+100
+00:03:55,480 --> 00:03:58,240
+From that, it's quite easy to find other websites.
+
+101
+00:03:58,240 --> 00:04:01,320
+It's just a question of how good is your data.
+
+102
+00:04:01,320 --> 00:04:02,480
+Because the websites are down now,
+
+103
+00:04:02,480 --> 00:04:03,960
+so it has to be historic data.
+
+104
+00:04:03,960 --> 00:04:05,280
+The first website that I found
+
+105
+00:04:05,280 --> 00:04:07,400
+some easily accessible on the web browser,
+
+106
+00:04:07,400 --> 00:04:11,320
+historic data, was this one, viewdns.info.
+
+107
+00:04:11,320 --> 00:04:13,640
+It's not complete by any means.
+
+108
+00:04:13,640 --> 00:04:16,400
+I pieced data from many sources,
+
+109
+00:04:16,400 --> 00:04:17,960
+but this one, was the easiest one to use,
+
+110
+00:04:17,960 --> 00:04:19,240
+The first one I found on Google
+
+111
+00:04:19,240 --> 00:04:23,200
+and I found some new domains and I was quite excited.
+
+112
+00:04:23,200 --> 00:04:26,240
+I took activegaminginfo.com.
+
+113
+00:04:26,240 --> 00:04:28,840
+So if you go there, you can do an IP history
+
+114
+00:04:28,840 --> 00:04:30,560
+and you can see, oh, for this domain,
+
+115
+00:04:30,560 --> 00:04:33,280
+what are all the IPs that have served that domain?
+
+116
+00:04:33,280 --> 00:04:35,200
+And so here we found out 2012,
+
+117
+00:04:35,200 --> 00:04:37,720
+this is one of the IPs that served that domain.
+
+118
+00:04:37,720 --> 00:04:40,920
+2024, don't care, 2012, yeah, that's the one.
+
+119
+00:04:40,920 --> 00:04:42,800
+And then you take that IP,
+
+120
+00:04:42,800 --> 00:04:44,960
+there's another tool which searches,
+
+121
+00:04:44,960 --> 00:04:47,080
+for this IP, what are all the domains
+
+122
+00:04:47,080 --> 00:04:49,640
+that have been historically hosted on that IP?
+
+123
+00:04:49,640 --> 00:04:51,520
+If you search one by one in the browser,
+
+124
+00:04:51,520 --> 00:04:53,680
+but then they have an API,
+
+125
+00:04:53,680 --> 00:04:55,880
+you can find other nearby IPs
+
+126
+00:04:55,880 --> 00:04:57,520
+and that's how I found my first hits.
+
+127
+00:04:57,520 --> 00:05:00,960
+So here, for example, in a nearby IP like 149,
+
+128
+00:05:00,960 --> 00:05:02,080
+this was the 148
+
+129
+00:05:02,080 --> 00:05:04,920
+so the next one had a likely hit.
+
+130
+00:05:04,920 --> 00:05:06,760
+And then if you take the domain name,
+
+131
+00:05:06,760 --> 00:05:07,960
+you can go on the Wayback Machine
+
+132
+00:05:07,960 --> 00:05:10,120
+and you can confirm this has some similarities
+
+133
+00:05:10,120 --> 00:05:12,160
+with the others, so it's definitely a hit.
+
+134
+00:05:12,160 --> 00:05:13,440
+The problem with the Wayback Machine
+
+135
+00:05:13,440 --> 00:05:14,920
+is that you have to have the domain name,
+
+136
+00:05:14,920 --> 00:05:16,920
+they don't have any IP exposed,
+
+137
+00:05:16,920 --> 00:05:18,800
+they have the data, but they don't expose it.
+
+138
+00:05:18,800 --> 00:05:21,120
+So we have to do other sources to find the domains.
+
+139
+00:05:21,120 --> 00:05:23,560
+Okay, so that was the easy part.
+
+140
+00:05:23,560 --> 00:05:26,200
+The hard part is finding new IP ranges.
+
+141
+00:05:26,200 --> 00:05:28,680
+Then I tried a bunch of random stuff.
+
+142
+00:05:28,680 --> 00:05:33,160
+The first way I found new hits on new ranges
+
+143
+00:05:33,160 --> 00:05:35,560
+was through the 2013 DNS census,
+
+144
+00:05:35,560 --> 00:05:39,160
+which is published on this random Neocities website
+
+145
+00:05:39,160 --> 00:05:42,680
+and it was very likely to obtained via an illegal botnet.
+
+146
+00:05:42,680 --> 00:05:47,760
+Because it's quite similar to a 2012 botnet dump like this.
+
+147
+00:05:47,760 --> 00:05:50,720
+So some guy hacked a bunch of routers
+
+148
+00:05:50,720 --> 00:05:53,080
+and then instead of using them to do something evil,
+
+149
+00:05:53,080 --> 00:05:55,760
+the guy used them to explore the net
+
+150
+00:05:55,760 --> 00:05:57,040
+and publish the data publicly,
+
+151
+00:05:57,040 --> 00:05:59,600
+which is amazing, this guy is awesome.
+
+152
+00:05:59,600 --> 00:06:03,040
+But it's unknown who published this, he's anonymous.
+
+153
+00:06:03,040 --> 00:06:05,600
+And their data looks like this, as you'd expect.
+
+154
+00:06:05,600 --> 00:06:08,280
+They really went for all each IPv4,
+
+155
+00:06:08,280 --> 00:06:11,400
+they were pinging every single IPv4 ever
+
+156
+00:06:11,400 --> 00:06:14,280
+because IPv4 you could do that still with a botnet.
+
+157
+00:06:14,280 --> 00:06:17,120
+And just selecting a few random domains,
+
+158
+00:06:17,120 --> 00:06:19,040
+amazon.com, on this date
+
+159
+00:06:19,040 --> 00:06:21,640
+was served at this IP. And they have that
+
+160
+00:06:21,640 --> 00:06:23,920
+for all that they could find.
+
+161
+00:06:24,880 --> 00:06:28,640
+Then I took that, I dumped it into SQLite,
+
+162
+00:06:28,640 --> 00:06:32,280
+which is a local SQL database, which I love so much.
+
+163
+00:06:32,280 --> 00:06:33,760
+It's so cool.
+
+164
+00:06:33,760 --> 00:06:37,160
+And started mining that and trying to find new domains.
+
+165
+00:06:37,160 --> 00:06:39,120
+One of the main things that helps,
+
+166
+00:06:39,120 --> 00:06:41,600
+part of the fingerprint to help identify the sites
+
+167
+00:06:41,600 --> 00:06:45,800
+was that the CIA use exclusively almost dedicated servers.
+
+168
+00:06:45,800 --> 00:06:49,440
+So you have one site per IP.
+
+169
+00:06:49,440 --> 00:06:52,280
+And this is the case for not many websites.
+
+170
+00:06:52,280 --> 00:06:54,160
+At least nowadays, at the time I'm not sure,
+
+171
+00:06:54,160 --> 00:06:56,960
+but at the time I think too, they were a minority
+
+172
+00:06:56,960 --> 00:06:58,320
+so that makes it easier to find them.
+
+173
+00:06:58,320 --> 00:06:59,960
+With this datasets, you have to search
+
+174
+00:06:59,960 --> 00:07:01,840
+which IP only has one domain,
+
+175
+00:07:01,840 --> 00:07:03,600
+so that narrows things down a bit.
+
+176
+00:07:03,600 --> 00:07:06,480
+The other thing that I used, the Wayback Machine API,
+
+177
+00:07:06,480 --> 00:07:09,280
+Those websites, they had four communication mechanisms.
+
+178
+00:07:09,280 --> 00:07:12,600
+Jar, Adobe Flash, JavaScript, HTTPS.
+
+179
+00:07:12,600 --> 00:07:14,800
+Yes, HTTPS, it's true.
+
+180
+00:07:14,800 --> 00:07:17,960
+And each one of those has certain URL patterns
+
+181
+00:07:17,960 --> 00:07:19,680
+on the path part of the URL,
+
+182
+00:07:19,680 --> 00:07:20,840
+and that's how they communicate.
+
+183
+00:07:20,840 --> 00:07:23,400
+In the Wayback Machine, you cannot search in cross domains,
+
+184
+00:07:23,400 --> 00:07:24,720
+which is a shame.
+
+185
+00:07:24,720 --> 00:07:26,960
+You can only search for this domain,
+
+186
+00:07:26,960 --> 00:07:28,640
+does it have this path?
+
+187
+00:07:28,640 --> 00:07:30,320
+So we need to have a big domain list.
+
+188
+00:07:30,320 --> 00:07:33,400
+By using heuristics, I started narrowing down a bit
+
+189
+00:07:33,400 --> 00:07:35,440
+and I managed to find a few others.
+
+190
+00:07:35,440 --> 00:07:40,400
+And then I noticed, oh, the Wayback Machine does not block Tor.
+
+191
+00:07:40,400 --> 00:07:42,560
+I scripted 100 Tor IPs,
+
+192
+00:07:42,560 --> 00:07:45,680
+to speed things up 100x, that helped a lot.
+
+193
+00:07:45,680 --> 00:07:48,240
+Basically, there's a funnel and you start narrowing down
+
+194
+00:07:48,240 --> 00:07:49,280
+more and more likely hits,
+
+195
+00:07:49,280 --> 00:07:51,720
+and then you just look at them manually at some point.
+
+196
+00:07:51,720 --> 00:07:53,600
+And the other thing which was major
+
+197
+00:07:53,600 --> 00:07:55,880
+and is very cheeky and very heuristic
+
+198
+00:07:55,880 --> 00:07:58,400
+is one third of the hits contains the word
+
+199
+00:07:58,400 --> 00:07:59,680
+"news" on the domain name.
+
+200
+00:08:00,720 --> 00:08:03,960
+And I used that heuristic and it was extremely effective.
+
+201
+00:08:03,960 --> 00:08:05,760
+So when I started finding some new hits,
+
+202
+00:08:05,760 --> 00:08:07,400
+I was put them on Google from time and time
+
+203
+00:08:07,400 --> 00:08:10,200
+and see if other websites have that domain
+
+204
+00:08:10,200 --> 00:08:11,760
+because they might have other of the hits.
+
+205
+00:08:11,760 --> 00:08:15,640
+There's a few that appeared on Chinese expired domain trackers,
+
+206
+00:08:15,640 --> 00:08:17,600
+which are websites that track for this date,
+
+207
+00:08:17,600 --> 00:08:21,360
+2012, March 6th, those domains expired.
+
+208
+00:08:21,360 --> 00:08:23,080
+I think the goal of thos websites
+
+209
+00:08:23,080 --> 00:08:26,000
+is for commercial uses, to sell the domains afterwards.
+
+210
+00:08:26,000 --> 00:08:27,480
+But I used them.
+
+211
+00:08:27,480 --> 00:08:28,960
+They were highly throttled,
+
+212
+00:08:28,960 --> 00:08:31,440
+but with some patience, I scraped them all
+
+213
+00:08:31,440 --> 00:08:33,440
+and I put it on GitHub, another little data set
+
+214
+00:08:33,440 --> 00:08:35,560
+and contribution to the community, which is kind of cool.
+
+215
+00:08:35,560 --> 00:08:38,800
+Finally, like I said, I'm not an expert on any of this.
+
+216
+00:08:38,800 --> 00:08:41,680
+I just Googled and tried stuff out.
+
+217
+00:08:41,680 --> 00:08:43,560
+If you have any data sources,
+
+218
+00:08:43,560 --> 00:08:45,040
+which are historic data sources
+
+219
+00:08:45,040 --> 00:08:46,320
+because those websites are down now.
+
+220
+00:08:46,320 --> 00:08:48,640
+So historic data sources or any ideas
+
+221
+00:08:48,640 --> 00:08:51,280
+of other fingerprints, do let me know.
+
+222
+00:08:51,280 --> 00:08:54,480
+If you find something, you will be extremely clearly credited
+
+223
+00:08:54,480 --> 00:08:56,080
+on the article and on Twitter.
+
