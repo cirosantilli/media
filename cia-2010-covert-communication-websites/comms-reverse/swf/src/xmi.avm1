@@ -1,0 +1,875 @@
+// __Packages.xmi in worlddispatch.swf, tag at 0x64cb
+L64d3 ConstantPool ["_global","xmi","WtE","Array","ZHd","MovieClipLoader","prototype","VgM","length","pop","TextField","removeTextField","MovieClip",".","lastIndexOf","substr","mc","unloadClip","onRelease","removeMovieClip","FormatText","HPE","lMM","getNextHighestDepth","rUe","createEmptyMovieClip","tje","this","push","onEnterFrame","bsn","n","uNN","jnx","bwF","k","_width","odk","p","_height","createTextField","lineTo","styleSheet","SDQ","selectable","multiline","wordWrap","_x","j","_y","m","htmlText","t","textWidth","textHeight","q","g","eJy","UbC","AUx","HZl","fDj","addListener","i","loadClip","removeListener","vhS","SAA","lgh","d","cvZ","LNi","pTt","e","b","h","l","a","lLA","useHandCursor","_top","yPF","ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789+/","String","Fcq","Math","random","ceil","charAt","GiP","substring","first chars = ","appending = ","ASSetPropFlags"]
+L6788 Push [[8,0]]	// ["_global"]
+L678d GetVariable
+L678e Push [[8,1]]	// ["xmi"]
+L6793 GetMember
+L6794 Not
+L6795 Not
+L6796 If "L74a4"
+L679b Push [[8,0]]	// ["_global"]
+L67a0 GetVariable
+L67a1 Push [[8,1]]	// ["xmi"]
+L67a6 DefineFunction2 {"function_name":"","register_count":2,"flags":41,"parameters":[]}
+  L67b1 Push [[4,1],[8,2],[6,0.0],[8,3]]	// ["WtE", "Array"]
+  L67c3 NewObject
+  L67c4 SetMember
+  L67c5 Push [[4,1],[8,4],[6,0.0],[8,5]]	// ["ZHd", "MovieClipLoader"]
+  L67d7 NewObject
+  L67d8 SetMember
+L67d9 StoreRegister 0
+L67dd SetMember
+L67de Push [[4,0],[8,6]]	// ["prototype"]
+L67e5 GetMember
+L67e6 StoreRegister 1
+L67ea Pop
+L67eb Push [[4,1],[8,7]]	// ["VgM"]
+L67f2 DefineFunction2 {"function_name":"","register_count":4,"flags":41,"parameters":[]}
+  L67fd Push [[4,1],[8,2]]	// ["WtE"]
+  L6804 GetMember
+  L6805 Push [[8,8]]	// ["length"]
+  L680a GetMember
+  L680b Push [[6,0.0]]
+  L6817 Greater
+  L6818 Not
+  L6819 If "L6904"
+  L681e Push [[6,0.0],[4,1],[8,2]]	// ["WtE"]
+  L682e GetMember
+  L682f Push [[8,9]]	// ["pop"]
+  L6834 CallMethod
+  L6835 StoreRegister 2
+  L6839 Pop
+  L683a Push [[4,2],[8,10]]	// ["TextField"]
+  L6841 GetVariable
+  L6842 InstanceOf
+  L6843 Not
+  L6844 If "L686a"
+  L6849 Push [[6,0.0],[8,10]]	// ["TextField"]
+  L6857 GetVariable
+  L6858 Push [[4,2]]
+  L685d CastOp
+  L685e Push [[8,11]]	// ["removeTextField"]
+  L6863 CallMethod
+  L6864 Pop
+  L6865 Jump "L68f9"
+  L686a Push [[4,2],[8,12]]	// ["MovieClip"]
+  L6871 GetVariable
+  L6872 InstanceOf
+  L6873 Not
+  L6874 If "L68f9"
+  L6879 Push [[7,2],[8,13],[7,1],[4,2]]	// ["."]
+  L688a ToString
+  L688b Push [[8,14]]	// ["lastIndexOf"]
+  L6890 CallMethod
+  L6891 Push [[7,1]]
+  L6899 Add2
+  L689a Push [[7,2],[4,2]]
+  L68a4 ToString
+  L68a5 Push [[8,15]]	// ["substr"]
+  L68aa CallMethod
+  L68ab StoreRegister 3
+  L68af Pop
+  L68b0 Push [[8,16],[4,3]]	// ["mc"]
+  L68b7 Equals2
+  L68b8 Not
+  L68b9 If "L68d4"
+  L68be Push [[4,2],[7,1],[4,1],[8,4]]	// ["ZHd"]
+  L68cc GetMember
+  L68cd Push [[8,17]]	// ["unloadClip"]
+  L68d2 CallMethod
+  L68d3 Pop
+  L68d4 Push [[4,2],[8,18]]	// ["onRelease"]
+  L68db Delete
+  L68dc Pop
+  L68dd Push [[6,0.0],[8,12]]	// ["MovieClip"]
+  L68eb GetVariable
+  L68ec Push [[4,2]]
+  L68f1 CastOp
+  L68f2 Push [[8,19]]	// ["removeMovieClip"]
+  L68f7 CallMethod
+  L68f8 Pop
+  L68f9 Push [[5,0]]
+  L68fe Pop
+  L68ff Jump "L67fd"
+L6904 SetMember
+L6905 Push [[4,1],[8,20]]	// ["FormatText"]
+L690c DefineFunction {"function_name":"","parameters":[{"register":0,"name":"lMM"},{"register":0,"name":"bsn"}]}
+  L691c Push [[8,21],[6,0.0],[8,22]]	// ["HPE", "lMM"]
+  L692c GetVariable
+  L692d Push [[8,23]]	// ["getNextHighestDepth"]
+  L6932 CallMethod
+  L6933 DefineLocal
+  L6934 Push [[8,24],[8,24],[8,21]]	// ["rUe", "rUe", "HPE"]
+  L693d GetVariable
+  L693e Add2
+  L693f DefineLocal
+  L6940 Push [[8,21]]	// ["HPE"]
+  L6945 GetVariable
+  L6946 Push [[8,24]]	// ["rUe"]
+  L694b GetVariable
+  L694c Push [[7,2],[8,22]]	// ["lMM"]
+  L6956 GetVariable
+  L6957 Push [[8,25]]	// ["createEmptyMovieClip"]
+  L695c CallMethod
+  L695d Pop
+  L695e Push [[8,26],[8,22]]	// ["tje", "lMM"]
+  L6965 GetVariable
+  L6966 Push [[8,24]]	// ["rUe"]
+  L696b GetVariable
+  L696c GetMember
+  L696d DefineLocal
+  L696e Push [[8,26]]	// ["tje"]
+  L6973 GetVariable
+  L6974 Push [[7,1],[8,27]]	// ["this"]
+  L697e GetVariable
+  L697f Push [[8,2]]	// ["WtE"]
+  L6984 GetMember
+  L6985 Push [[8,28]]	// ["push"]
+  L698a CallMethod
+  L698b Pop
+  L698c Push [[8,26]]	// ["tje"]
+  L6991 GetVariable
+  L6992 Push [[8,29]]	// ["onEnterFrame"]
+  L6997 DefineFunction2 {"function_name":"","register_count":2,"flags":41,"parameters":[]}
+    L69a2 Push [[8,30]]	// ["bsn"]
+    L69a7 GetVariable
+    L69a8 Push [[8,31]]	// ["n"]
+    L69ad GetMember
+    L69ae Push [[8,26]]	// ["tje"]
+    L69b3 GetVariable
+    L69b4 Push [[7,2],[8,1]]	// ["xmi"]
+    L69be GetVariable
+    L69bf Push [[8,32]]	// ["uNN"]
+    L69c4 CallMethod
+    L69c5 Pop
+    L69c6 Push [[4,1],[8,29]]	// ["onEnterFrame"]
+    L69cd Delete
+    L69ce Pop
+  L69cf SetMember
+  L69d0 Push [[8,21],[6,0.0],[8,26]]	// ["HPE", "tje"]
+  L69e0 GetVariable
+  L69e1 Push [[8,23]]	// ["getNextHighestDepth"]
+  L69e6 CallMethod
+  L69e7 SetVariable
+  L69e8 Push [[8,33],[8,33],[8,21]]	// ["jnx", "jnx", "HPE"]
+  L69f1 GetVariable
+  L69f2 Add2
+  L69f3 DefineLocal
+  L69f4 Push [[8,34],[8,30]]	// ["bwF", "bsn"]
+  L69fb GetVariable
+  L69fc Push [[8,35]]	// ["k"]
+  L6a01 GetMember
+  L6a02 Push [[6,0.0]]
+  L6a0e Greater
+  L6a0f If "L6a25"
+  L6a14 Push [[8,22]]	// ["lMM"]
+  L6a19 GetVariable
+  L6a1a Push [[8,36]]	// ["_width"]
+  L6a1f GetMember
+  L6a20 Jump "L6a31"
+  L6a25 Push [[8,30]]	// ["bsn"]
+  L6a2a GetVariable
+  L6a2b Push [[8,35]]	// ["k"]
+  L6a30 GetMember
+  L6a31 DefineLocal
+  L6a32 Push [[8,37],[8,30]]	// ["odk", "bsn"]
+  L6a39 GetVariable
+  L6a3a Push [[8,38]]	// ["p"]
+  L6a3f GetMember
+  L6a40 Push [[6,0.0]]
+  L6a4c Greater
+  L6a4d If "L6a63"
+  L6a52 Push [[8,22]]	// ["lMM"]
+  L6a57 GetVariable
+  L6a58 Push [[8,39]]	// ["_height"]
+  L6a5d GetMember
+  L6a5e Jump "L6a6f"
+  L6a63 Push [[8,30]]	// ["bsn"]
+  L6a68 GetVariable
+  L6a69 Push [[8,38]]	// ["p"]
+  L6a6e GetMember
+  L6a6f DefineLocal
+  L6a70 Push [[8,37]]	// ["odk"]
+  L6a75 GetVariable
+  L6a76 Push [[7,2]]
+  L6a7e Subtract
+  L6a7f Push [[8,34]]	// ["bwF"]
+  L6a84 GetVariable
+  L6a85 Push [[7,2]]
+  L6a8d Subtract
+  L6a8e Push [[6,0.0],[6,0.0],[8,21]]	// ["HPE"]
+  L6aa5 GetVariable
+  L6aa6 Push [[8,33]]	// ["jnx"]
+  L6aab GetVariable
+  L6aac Push [[7,6],[8,26]]	// ["tje"]
+  L6ab6 GetVariable
+  L6ab7 Push [[8,40]]	// ["createTextField"]
+  L6abc CallMethod
+  L6abd Pop
+  L6abe Push [[8,37]]	// ["odk"]
+  L6ac3 GetVariable
+  L6ac4 Push [[8,34]]	// ["bwF"]
+  L6ac9 GetVariable
+  L6aca Push [[7,2],[8,26]]	// ["tje"]
+  L6ad4 GetVariable
+  L6ad5 Push [[8,33]]	// ["jnx"]
+  L6ada GetVariable
+  L6adb GetMember
+  L6adc Push [[8,41]]	// ["lineTo"]
+  L6ae1 CallMethod
+  L6ae2 Pop
+  L6ae3 Push [[8,26]]	// ["tje"]
+  L6ae8 GetVariable
+  L6ae9 Push [[8,33]]	// ["jnx"]
+  L6aee GetVariable
+  L6aef GetMember
+  L6af0 Push [[7,1],[8,27]]	// ["this"]
+  L6afa GetVariable
+  L6afb Push [[8,2]]	// ["WtE"]
+  L6b00 GetMember
+  L6b01 Push [[8,28]]	// ["push"]
+  L6b06 CallMethod
+  L6b07 Pop
+  L6b08 Push [[8,26]]	// ["tje"]
+  L6b0d GetVariable
+  L6b0e Push [[8,33]]	// ["jnx"]
+  L6b13 GetVariable
+  L6b14 GetMember
+  L6b15 With
+    L6b1a Push [[8,42],[8,43]]	// ["styleSheet", "SDQ"]
+    L6b21 GetVariable
+    L6b22 SetVariable
+    L6b23 Push [[8,44],[5,0]]	// ["selectable"]
+    L6b2a SetVariable
+    L6b2b Push [[8,45],[5,1]]	// ["multiline"]
+    L6b32 SetVariable
+    L6b33 Push [[8,46],[5,1]]	// ["wordWrap"]
+    L6b3a SetVariable
+    L6b3b Push [[8,36],[8,34]]	// ["_width", "bwF"]
+    L6b42 GetVariable
+    L6b43 Push [[7,2]]
+    L6b4b Subtract
+    L6b4c SetVariable
+    L6b4d Push [[8,39],[8,37]]	// ["_height", "odk"]
+    L6b54 GetVariable
+    L6b55 Push [[7,2]]
+    L6b5d Subtract
+    L6b5e SetVariable
+    L6b5f Push [[8,47],[8,30]]	// ["_x", "bsn"]
+    L6b66 GetVariable
+    L6b67 Push [[8,48]]	// ["j"]
+    L6b6c GetMember
+    L6b6d SetVariable
+    L6b6e Push [[8,49],[8,30]]	// ["_y", "bsn"]
+    L6b75 GetVariable
+    L6b76 Push [[8,50]]	// ["m"]
+    L6b7b GetMember
+    L6b7c SetVariable
+  L6b7d Push [[8,26]]	// ["tje"]
+  L6b82 GetVariable
+  L6b83 Push [[8,33]]	// ["jnx"]
+  L6b88 GetVariable
+  L6b89 GetMember
+  L6b8a Push [[8,51],[8,30]]	// ["htmlText", "bsn"]
+  L6b91 GetVariable
+  L6b92 Push [[8,52]]	// ["t"]
+  L6b97 GetMember
+  L6b98 SetMember
+  L6b99 Push [[8,26]]	// ["tje"]
+  L6b9e GetVariable
+  L6b9f Push [[8,33]]	// ["jnx"]
+  L6ba4 GetVariable
+  L6ba5 GetMember
+  L6ba6 With
+    L6bab Push [[8,36],[8,53]]	// ["_width", "textWidth"]
+    L6bb2 GetVariable
+    L6bb3 Push [[7,6]]
+    L6bbb Add2
+    L6bbc SetVariable
+    L6bbd Push [[8,39],[8,54]]	// ["_height", "textHeight"]
+    L6bc4 GetVariable
+    L6bc5 Push [[7,6]]
+    L6bcd Add2
+    L6bce SetVariable
+  L6bcf Push [[8,30]]	// ["bsn"]
+  L6bd4 GetVariable
+  L6bd5 Push [[8,55]]	// ["q"]
+  L6bda GetMember
+  L6bdb Push [[8,30]]	// ["bsn"]
+  L6be0 GetVariable
+  L6be1 Push [[8,56]]	// ["g"]
+  L6be6 GetMember
+  L6be7 Push [[8,26]]	// ["tje"]
+  L6bec GetVariable
+  L6bed Push [[8,33]]	// ["jnx"]
+  L6bf2 GetVariable
+  L6bf3 GetMember
+  L6bf4 Push [[8,22]]	// ["lMM"]
+  L6bf9 GetVariable
+  L6bfa Push [[7,4],[8,1]]	// ["xmi"]
+  L6c04 GetVariable
+  L6c05 Push [[8,57]]	// ["eJy"]
+  L6c0a CallMethod
+  L6c0b Pop
+  L6c0c Push [[8,26]]	// ["tje"]
+  L6c11 GetVariable
+  L6c12 Return
+L6c13 SetMember
+L6c14 Push [[4,1],[8,58]]	// ["UbC"]
+L6c1b DefineFunction2 {"function_name":"","register_count":7,"flags":41,"parameters":[{"register":3,"name":"lMM"},{"register":6,"name":"movieObj"}]}
+  L6c35 Push [[6,0.0],[4,3],[8,23]]	// ["getNextHighestDepth"]
+  L6c45 CallMethod
+  L6c46 StoreRegister 5
+  L6c4a Pop
+  L6c4b Push [[8,16],[4,5]]	// ["mc"]
+  L6c52 Add2
+  L6c53 StoreRegister 2
+  L6c57 Pop
+  L6c58 Push [[4,5],[4,2],[7,2],[4,3],[8,25]]	// ["createEmptyMovieClip"]
+  L6c68 CallMethod
+  L6c69 Pop
+  L6c6a Push [[4,6],[4,3],[4,2]]
+  L6c73 GetMember
+  L6c74 Push [[7,2],[8,59]]	// ["AUx"]
+  L6c7e NewObject
+  L6c7f StoreRegister 4
+  L6c83 Pop
+  L6c84 Push [[4,4],[8,60],[4,1],[8,61]]	// ["HZl", "fDj"]
+  L6c8f GetMember
+  L6c90 SetMember
+  L6c91 Push [[4,3],[4,2]]
+  L6c98 GetMember
+  L6c99 Push [[7,1],[4,1],[8,2]]	// ["WtE"]
+  L6ca5 GetMember
+  L6ca6 Push [[8,28]]	// ["push"]
+  L6cab CallMethod
+  L6cac Pop
+  L6cad Push [[4,4],[7,1],[4,1],[8,2]]	// ["WtE"]
+  L6cbb GetMember
+  L6cbc Push [[8,28]]	// ["push"]
+  L6cc1 CallMethod
+  L6cc2 Pop
+  L6cc3 Push [[4,4],[7,1],[4,1],[8,4]]	// ["ZHd"]
+  L6cd1 GetMember
+  L6cd2 Push [[8,62]]	// ["addListener"]
+  L6cd7 CallMethod
+  L6cd8 Pop
+  L6cd9 Push [[4,3],[4,2]]
+  L6ce0 GetMember
+  L6ce1 Push [[4,6],[8,63]]	// ["i"]
+  L6ce8 GetMember
+  L6ce9 Push [[7,2],[4,1],[8,4]]	// ["ZHd"]
+  L6cf5 GetMember
+  L6cf6 Push [[8,64]]	// ["loadClip"]
+  L6cfb CallMethod
+  L6cfc Pop
+  L6cfd Push [[4,3],[4,2]]
+  L6d04 GetMember
+  L6d05 Return
+L6d06 SetMember
+L6d07 Push [[4,1],[8,61]]	// ["fDj"]
+L6d0e DefineFunction2 {"function_name":"","register_count":3,"flags":41,"parameters":[{"register":2,"name":"mscaler"}]}
+  L6d22 Push [[4,2],[7,1],[4,1],[8,4]]	// ["ZHd"]
+  L6d30 GetMember
+  L6d31 Push [[8,65]]	// ["removeListener"]
+  L6d36 CallMethod
+  L6d37 Pop
+  L6d38 Push [[4,2],[8,60]]	// ["HZl"]
+  L6d3f Delete
+  L6d40 Pop
+L6d41 SetMember
+L6d42 Push [[4,1],[8,66]]	// ["vhS"]
+L6d49 DefineFunction2 {"function_name":"","register_count":6,"flags":41,"parameters":[{"register":0,"name":"lMM"},{"register":0,"name":"lgh"}]}
+  L6d5e Push [[6,0.0],[8,22]]	// ["lMM"]
+  L6d6c GetVariable
+  L6d6d Push [[8,23]]	// ["getNextHighestDepth"]
+  L6d72 CallMethod
+  L6d73 StoreRegister 3
+  L6d77 Pop
+  L6d78 Push [[8,67],[8,67],[4,3]]	// ["SAA", "SAA"]
+  L6d81 Add2
+  L6d82 DefineLocal
+  L6d83 Push [[4,3],[8,67]]	// ["SAA"]
+  L6d8a GetVariable
+  L6d8b Push [[7,2],[8,22]]	// ["lMM"]
+  L6d95 GetVariable
+  L6d96 Push [[8,25]]	// ["createEmptyMovieClip"]
+  L6d9b CallMethod
+  L6d9c Pop
+  L6d9d Push [[8,22]]	// ["lMM"]
+  L6da2 GetVariable
+  L6da3 Push [[8,67]]	// ["SAA"]
+  L6da8 GetVariable
+  L6da9 GetMember
+  L6daa Push [[8,29]]	// ["onEnterFrame"]
+  L6daf DefineFunction2 {"function_name":"","register_count":2,"flags":41,"parameters":[]}
+    L6dba Push [[4,1],[8,47],[8,68]]	// ["_x", "lgh"]
+    L6dc3 GetVariable
+    L6dc4 Push [[8,48]]	// ["j"]
+    L6dc9 GetMember
+    L6dca SetMember
+    L6dcb Push [[4,1],[8,49],[8,68]]	// ["_y", "lgh"]
+    L6dd4 GetVariable
+    L6dd5 Push [[8,50]]	// ["m"]
+    L6dda GetMember
+    L6ddb SetMember
+    L6ddc Push [[8,68]]	// ["lgh"]
+    L6de1 GetVariable
+    L6de2 Push [[8,55]]	// ["q"]
+    L6de7 GetMember
+    L6de8 Push [[8,68]]	// ["lgh"]
+    L6ded GetVariable
+    L6dee Push [[8,56]]	// ["g"]
+    L6df3 GetMember
+    L6df4 Push [[8,22]]	// ["lMM"]
+    L6df9 GetVariable
+    L6dfa Push [[8,67]]	// ["SAA"]
+    L6dff GetVariable
+    L6e00 GetMember
+    L6e01 Push [[8,22]]	// ["lMM"]
+    L6e06 GetVariable
+    L6e07 Push [[7,4],[8,1]]	// ["xmi"]
+    L6e11 GetVariable
+    L6e12 Push [[8,57]]	// ["eJy"]
+    L6e17 CallMethod
+    L6e18 Pop
+    L6e19 Push [[8,68]]	// ["lgh"]
+    L6e1e GetVariable
+    L6e1f Push [[8,31]]	// ["n"]
+    L6e24 GetMember
+    L6e25 Push [[8,22]]	// ["lMM"]
+    L6e2a GetVariable
+    L6e2b Push [[8,67]]	// ["SAA"]
+    L6e30 GetVariable
+    L6e31 GetMember
+    L6e32 Push [[7,2],[8,1]]	// ["xmi"]
+    L6e3c GetVariable
+    L6e3d Push [[8,32]]	// ["uNN"]
+    L6e42 CallMethod
+    L6e43 Pop
+    L6e44 Push [[4,1],[8,29]]	// ["onEnterFrame"]
+    L6e4b Delete
+    L6e4c Pop
+  L6e4d SetMember
+  L6e4e Push [[8,22]]	// ["lMM"]
+  L6e53 GetVariable
+  L6e54 Push [[8,67]]	// ["SAA"]
+  L6e59 GetVariable
+  L6e5a GetMember
+  L6e5b Push [[7,1],[4,1],[8,2]]	// ["WtE"]
+  L6e67 GetMember
+  L6e68 Push [[8,28]]	// ["push"]
+  L6e6d CallMethod
+  L6e6e Pop
+  L6e6f Push [[8,68]]	// ["lgh"]
+  L6e74 GetVariable
+  L6e75 Push [[8,35]]	// ["k"]
+  L6e7a GetMember
+  L6e7b Push [[6,0.0]]
+  L6e87 Greater
+  L6e88 If "L6eab"
+  L6e8d Push [[8,22]]	// ["lMM"]
+  L6e92 GetVariable
+  L6e93 Push [[8,36]]	// ["_width"]
+  L6e98 GetMember
+  L6e99 Push [[8,68]]	// ["lgh"]
+  L6e9e GetVariable
+  L6e9f Push [[8,48]]	// ["j"]
+  L6ea4 GetMember
+  L6ea5 Subtract
+  L6ea6 Jump "L6eb7"
+  L6eab Push [[8,68]]	// ["lgh"]
+  L6eb0 GetVariable
+  L6eb1 Push [[8,35]]	// ["k"]
+  L6eb6 GetMember
+  L6eb7 StoreRegister 4
+  L6ebb Pop
+  L6ebc Push [[8,68]]	// ["lgh"]
+  L6ec1 GetVariable
+  L6ec2 Push [[8,38]]	// ["p"]
+  L6ec7 GetMember
+  L6ec8 Push [[6,0.0]]
+  L6ed4 Greater
+  L6ed5 If "L6ef8"
+  L6eda Push [[8,22]]	// ["lMM"]
+  L6edf GetVariable
+  L6ee0 Push [[8,39]]	// ["_height"]
+  L6ee5 GetMember
+  L6ee6 Push [[8,68]]	// ["lgh"]
+  L6eeb GetVariable
+  L6eec Push [[8,50]]	// ["m"]
+  L6ef1 GetMember
+  L6ef2 Subtract
+  L6ef3 Jump "L6f04"
+  L6ef8 Push [[8,68]]	// ["lgh"]
+  L6efd GetVariable
+  L6efe Push [[8,38]]	// ["p"]
+  L6f03 GetMember
+  L6f04 StoreRegister 5
+  L6f08 Pop
+  L6f09 Push [[4,5],[4,4],[7,2],[8,22]]	// ["lMM"]
+  L6f17 GetVariable
+  L6f18 Push [[8,67]]	// ["SAA"]
+  L6f1d GetVariable
+  L6f1e GetMember
+  L6f1f Push [[8,41]]	// ["lineTo"]
+  L6f24 CallMethod
+  L6f25 Pop
+  L6f26 Push [[6,0.0]]
+  L6f32 StoreRegister 2
+  L6f36 Pop
+  L6f37 Push [[4,2],[8,68]]	// ["lgh"]
+  L6f3e GetVariable
+  L6f3f Push [[8,69]]	// ["d"]
+  L6f44 GetMember
+  L6f45 Push [[8,8]]	// ["length"]
+  L6f4a GetMember
+  L6f4b Less2
+  L6f4c Not
+  L6f4d If "L7050"
+  L6f52 Push [[8,68]]	// ["lgh"]
+  L6f57 GetVariable
+  L6f58 Push [[8,69]]	// ["d"]
+  L6f5d GetMember
+  L6f5e Push [[4,2]]
+  L6f63 GetMember
+  L6f64 Push [[8,70]]	// ["cvZ"]
+  L6f69 GetVariable
+  L6f6a InstanceOf
+  L6f6b Not
+  L6f6c If "L6fa3"
+  L6f71 Push [[8,68]]	// ["lgh"]
+  L6f76 GetVariable
+  L6f77 Push [[8,69]]	// ["d"]
+  L6f7c GetMember
+  L6f7d Push [[4,2]]
+  L6f82 GetMember
+  L6f83 Push [[8,22]]	// ["lMM"]
+  L6f88 GetVariable
+  L6f89 Push [[8,67]]	// ["SAA"]
+  L6f8e GetVariable
+  L6f8f GetMember
+  L6f90 Push [[7,2],[4,1],[8,20]]	// ["FormatText"]
+  L6f9c CallMethod
+  L6f9d Pop
+  L6f9e Jump "L7040"
+  L6fa3 Push [[8,68]]	// ["lgh"]
+  L6fa8 GetVariable
+  L6fa9 Push [[8,69]]	// ["d"]
+  L6fae GetMember
+  L6faf Push [[4,2]]
+  L6fb4 GetMember
+  L6fb5 Push [[8,71]]	// ["LNi"]
+  L6fba GetVariable
+  L6fbb InstanceOf
+  L6fbc Not
+  L6fbd If "L6ff4"
+  L6fc2 Push [[8,68]]	// ["lgh"]
+  L6fc7 GetVariable
+  L6fc8 Push [[8,69]]	// ["d"]
+  L6fcd GetMember
+  L6fce Push [[4,2]]
+  L6fd3 GetMember
+  L6fd4 Push [[8,22]]	// ["lMM"]
+  L6fd9 GetVariable
+  L6fda Push [[8,67]]	// ["SAA"]
+  L6fdf GetVariable
+  L6fe0 GetMember
+  L6fe1 Push [[7,2],[4,1],[8,58]]	// ["UbC"]
+  L6fed CallMethod
+  L6fee Pop
+  L6fef Jump "L7040"
+  L6ff4 Push [[8,68]]	// ["lgh"]
+  L6ff9 GetVariable
+  L6ffa Push [[8,69]]	// ["d"]
+  L6fff GetMember
+  L7000 Push [[4,2]]
+  L7005 GetMember
+  L7006 Push [[8,72]]	// ["pTt"]
+  L700b GetVariable
+  L700c InstanceOf
+  L700d Not
+  L700e If "L7040"
+  L7013 Push [[8,68]]	// ["lgh"]
+  L7018 GetVariable
+  L7019 Push [[8,69]]	// ["d"]
+  L701e GetMember
+  L701f Push [[4,2]]
+  L7024 GetMember
+  L7025 Push [[8,22]]	// ["lMM"]
+  L702a GetVariable
+  L702b Push [[8,67]]	// ["SAA"]
+  L7030 GetVariable
+  L7031 GetMember
+  L7032 Push [[7,2],[4,1],[8,66]]	// ["vhS"]
+  L703e CallMethod
+  L703f Pop
+  L7040 Push [[4,2]]
+  L7045 Increment
+  L7046 StoreRegister 2
+  L704a Pop
+  L704b Jump "L6f37"
+  L7050 Push [[8,22]]	// ["lMM"]
+  L7055 GetVariable
+  L7056 Push [[8,67]]	// ["SAA"]
+  L705b GetVariable
+  L705c GetMember
+  L705d Return
+L705e SetMember
+L705f Push [[4,0],[8,57]]	// ["eJy"]
+L7066 DefineFunction2 {"function_name":"","register_count":5,"flags":42,"parameters":[{"register":2,"name":"lMM"},{"register":1,"name":"object"},{"register":4,"name":"halign"},{"register":3,"name":"valign"}]}
+  L708e Push [[2,null],[4,4]]
+  L7094 Equals2
+  L7095 Not
+  L7096 Not
+  L7097 If "L7124"
+  L709c Push [[4,4]]
+  L70a1 StoreRegister 0
+  L70a5 Push [[8,73]]	// ["e"]
+  L70aa StrictEquals
+  L70ab If "L70cf"
+  L70b0 Push [[4,0],[8,74]]	// ["b"]
+  L70b7 StrictEquals
+  L70b8 If "L70f3"
+  L70bd Push [[4,0],[8,75]]	// ["h"]
+  L70c4 StrictEquals
+  L70c5 If "L7109"
+  L70ca Jump "L7124"
+  L70cf Push [[4,1],[8,47],[4,2],[8,36]]	// ["_x", "_width"]
+  L70da GetMember
+  L70db Push [[4,1],[8,36]]	// ["_width"]
+  L70e2 GetMember
+  L70e3 Subtract
+  L70e4 Push [[7,2]]
+  L70ec Divide
+  L70ed SetMember
+  L70ee Jump "L7124"
+  L70f3 Push [[4,1],[8,47],[6,0.0]]	// ["_x"]
+  L7103 SetMember
+  L7104 Jump "L7124"
+  L7109 Push [[4,1],[8,47],[4,2],[8,36]]	// ["_x", "_width"]
+  L7114 GetMember
+  L7115 Push [[4,1],[8,36]]	// ["_width"]
+  L711c GetMember
+  L711d Subtract
+  L711e SetMember
+  L711f Jump "L7124"
+  L7124 Push [[2,null],[4,3]]
+  L712a Equals2
+  L712b Not
+  L712c Not
+  L712d If "L71ba"
+  L7132 Push [[4,3]]
+  L7137 StoreRegister 0
+  L713b Push [[8,73]]	// ["e"]
+  L7140 StrictEquals
+  L7141 If "L7165"
+  L7146 Push [[4,0],[8,76]]	// ["l"]
+  L714d StrictEquals
+  L714e If "L7189"
+  L7153 Push [[4,0],[8,77]]	// ["a"]
+  L715a StrictEquals
+  L715b If "L719f"
+  L7160 Jump "L71ba"
+  L7165 Push [[4,1],[8,49],[4,2],[8,39]]	// ["_y", "_height"]
+  L7170 GetMember
+  L7171 Push [[4,1],[8,39]]	// ["_height"]
+  L7178 GetMember
+  L7179 Subtract
+  L717a Push [[7,2]]
+  L7182 Divide
+  L7183 SetMember
+  L7184 Jump "L71ba"
+  L7189 Push [[4,1],[8,49],[6,0.0]]	// ["_y"]
+  L7199 SetMember
+  L719a Jump "L71ba"
+  L719f Push [[4,1],[8,49],[4,2],[8,39]]	// ["_y", "_height"]
+  L71aa GetMember
+  L71ab Push [[4,1],[8,39]]	// ["_height"]
+  L71b2 GetMember
+  L71b3 Subtract
+  L71b4 SetMember
+  L71b5 Jump "L71ba"
+L71ba SetMember
+L71bb Push [[4,0],[8,32]]	// ["uNN"]
+L71c2 DefineFunction2 {"function_name":"","register_count":4,"flags":41,"parameters":[{"register":2,"name":"lMM"},{"register":3,"name":"WmY"}]}
+  L71d7 Push [[2,null],[4,3]]
+  L71dd Equals2
+  L71de Not
+  L71df Not
+  L71e0 If "L721d"
+  L71e5 Push [[4,2],[8,78],[4,3]]	// ["lLA"]
+  L71ee SetMember
+  L71ef Push [[4,2],[8,79],[5,1]]	// ["useHandCursor"]
+  L71f8 SetMember
+  L71f9 Push [[4,2],[8,18]]	// ["onRelease"]
+  L7200 DefineFunction2 {"function_name":"","register_count":2,"flags":41,"parameters":[]}
+    L720b Push [[4,1],[8,78]]	// ["lLA"]
+    L7212 GetMember
+    L7213 Push [[8,80]]	// ["_top"]
+    L7218 GetURL2 "00"
+  L721c SetMember
+L721d SetMember
+L721e Push [[4,0],[8,81]]	// ["yPF"]
+L7225 DefineFunction2 {"function_name":"","register_count":7,"flags":42,"parameters":[{"register":3,"name":"length"}]}
+  L7238 Push [[8,82]]	// ["ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789+/"]
+  L723d StoreRegister 6
+  L7241 Pop
+  L7242 Push [[6,0.0],[8,83]]	// ["String"]
+  L7250 NewObject
+  L7251 StoreRegister 5
+  L7255 Pop
+  L7256 Push [[4,3],[8,1]]	// ["xmi"]
+  L725d GetVariable
+  L725e Push [[8,84]]	// ["Fcq"]
+  L7263 GetMember
+  L7264 Push [[8,8]]	// ["length"]
+  L7269 GetMember
+  L726a Greater
+  L726b Not
+  L726c If "L73ad"
+  L7271 Push [[6,0.0],[8,83]]	// ["String"]
+  L727f NewObject
+  L7280 StoreRegister 1
+  L7284 Pop
+  L7285 Push [[4,1],[8,8]]	// ["length"]
+  L728c GetMember
+  L728d Push [[7,64]]
+  L7295 Less2
+  L7296 Not
+  L7297 If "L7386"
+  L729c Push [[4,1],[6,0.0],[8,85]]	// ["Math"]
+  L72ac GetVariable
+  L72ad Push [[8,86]]	// ["random"]
+  L72b2 CallMethod
+  L72b3 Push [[7,64]]
+  L72bb Multiply
+  L72bc Push [[7,1],[8,85]]	// ["Math"]
+  L72c6 GetVariable
+  L72c7 Push [[8,87]]	// ["ceil"]
+  L72cc CallMethod
+  L72cd Push [[7,1]]
+  L72d5 Subtract
+  L72d6 Push [[7,1],[4,6],[8,88]]	// ["charAt"]
+  L72e2 CallMethod
+  L72e3 Add2
+  L72e4 StoreRegister 1
+  L72e8 Pop
+  L72e9 Push [[8,1]]	// ["xmi"]
+  L72ee GetVariable
+  L72ef Push [[8,89]]	// ["GiP"]
+  L72f4 GetMember
+  L72f5 PushDuplicate
+  L72f6 Not
+  L72f7 If "L730f"
+  L72fc Pop
+  L72fd Push [[4,1],[8,8]]	// ["length"]
+  L7304 GetMember
+  L7305 Push [[7,22]]
+  L730d Less2
+  L730e Not
+  L730f Not
+  L7310 If "L7381"
+  L7315 Push [[8,1]]	// ["xmi"]
+  L731a GetVariable
+  L731b Push [[8,89],[5,0]]	// ["GiP"]
+  L7322 SetMember
+  L7323 Push [[7,22],[6,0.0],[7,2],[4,1],[8,90]]	// ["substring"]
+  L733d CallMethod
+  L733e StoreRegister 2
+  L7342 Pop
+  L7343 Push [[4,2],[8,91],[4,2]]	// ["first chars = "]
+  L734c Add2
+  L734d Trace
+  L734e Pop
+  L734f Push [[8,1]]	// ["xmi"]
+  L7354 GetVariable
+  L7355 Push [[8,84],[8,1]]	// ["Fcq", "xmi"]
+  L735c GetVariable
+  L735d Push [[8,84]]	// ["Fcq"]
+  L7362 GetMember
+  L7363 Push [[4,2]]
+  L7368 Add2
+  L7369 SetMember
+  L736a Push [[7,22],[7,1],[4,1],[8,90]]	// ["substring"]
+  L737b CallMethod
+  L737c StoreRegister 1
+  L7380 Pop
+  L7381 Jump "L7285"
+  L7386 Push [[4,1],[8,92],[4,1]]	// ["appending = "]
+  L738f Add2
+  L7390 Trace
+  L7391 Pop
+  L7392 Push [[8,1]]	// ["xmi"]
+  L7397 GetVariable
+  L7398 Push [[8,84],[8,1]]	// ["Fcq", "xmi"]
+  L739f GetVariable
+  L73a0 Push [[8,84]]	// ["Fcq"]
+  L73a5 GetMember
+  L73a6 Push [[4,1]]
+  L73ab Add2
+  L73ac SetMember
+  L73ad Push [[8,1]]	// ["xmi"]
+  L73b2 GetVariable
+  L73b3 Push [[8,84]]	// ["Fcq"]
+  L73b8 GetMember
+  L73b9 Push [[8,8]]	// ["length"]
+  L73be GetMember
+  L73bf Push [[4,3]]
+  L73c4 Less2
+  L73c5 If "L73d4"
+  L73ca Push [[4,3]]
+  L73cf Jump "L73e6"
+  L73d4 Push [[8,1]]	// ["xmi"]
+  L73d9 GetVariable
+  L73da Push [[8,84]]	// ["Fcq"]
+  L73df GetMember
+  L73e0 Push [[8,8]]	// ["length"]
+  L73e5 GetMember
+  L73e6 StoreRegister 4
+  L73ea Pop
+  L73eb Push [[4,5],[4,4],[6,0.0],[7,2],[8,1]]	// ["xmi"]
+  L7402 GetVariable
+  L7403 Push [[8,84]]	// ["Fcq"]
+  L7408 GetMember
+  L7409 Push [[8,15]]	// ["substr"]
+  L740e CallMethod
+  L740f Add2
+  L7410 StoreRegister 5
+  L7414 Pop
+  L7415 Push [[8,1]]	// ["xmi"]
+  L741a GetVariable
+  L741b Push [[8,84],[4,4],[7,1],[8,1]]	// ["Fcq", "xmi"]
+  L7429 GetVariable
+  L742a Push [[8,84]]	// ["Fcq"]
+  L742f GetMember
+  L7430 Push [[8,15]]	// ["substr"]
+  L7435 CallMethod
+  L7436 SetMember
+  L7437 Push [[4,5],[8,8]]	// ["length"]
+  L743e GetMember
+  L743f Push [[4,3]]
+  L7444 Less2
+  L7445 If "L7256"
+  L744a Push [[4,5]]
+  L744f Return
+L7450 SetMember
+L7451 Push [[4,1],[8,2],[2,null]]	// ["WtE"]
+L7459 SetMember
+L745a Push [[4,1],[8,4],[2,null]]	// ["ZHd"]
+L7462 SetMember
+L7463 Push [[4,0],[8,89],[5,1]]	// ["GiP"]
+L746c SetMember
+L746d Push [[4,0],[8,84],[6,0.0],[8,83]]	// ["Fcq", "String"]
+L747f NewObject
+L7480 SetMember
+L7481 Push [[7,1],[2,null],[8,0]]	// ["_global"]
+L748c GetVariable
+L748d Push [[8,1]]	// ["xmi"]
+L7492 GetMember
+L7493 Push [[8,6]]	// ["prototype"]
+L7498 GetMember
+L7499 Push [[7,3],[8,93]]	// ["ASSetPropFlags"]
+L74a3 CallFunction
+L74a4 Pop
+L74a5 End

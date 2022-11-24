@@ -1,0 +1,43 @@
+// __Packages.gCM in worlddispatch.swf, tag at 0x74c7
+L74cf ConstantPool ["_global","gCM","prototype","j","m","k","p","q","g","n","ASSetPropFlags"]
+L7507 Push [[8,0]]	// ["_global"]
+L750c GetVariable
+L750d Push [[8,1]]	// ["gCM"]
+L7512 GetMember
+L7513 Not
+L7514 Not
+L7515 If "L75c1"
+L751a Push [[8,0]]	// ["_global"]
+L751f GetVariable
+L7520 Push [[8,1]]	// ["gCM"]
+L7525 DefineFunction {"function_name":"","parameters":[]}
+L752d StoreRegister 0
+L7531 SetMember
+L7532 Push [[4,0],[8,2]]	// ["prototype"]
+L7539 GetMember
+L753a StoreRegister 1
+L753e Pop
+L753f Push [[4,1],[8,3],[6,0.0]]	// ["j"]
+L754f SetMember
+L7550 Push [[4,1],[8,4],[6,0.0]]	// ["m"]
+L7560 SetMember
+L7561 Push [[4,1],[8,5],[6,0.0]]	// ["k"]
+L7571 SetMember
+L7572 Push [[4,1],[8,6],[6,0.0]]	// ["p"]
+L7582 SetMember
+L7583 Push [[4,1],[8,7],[2,null]]	// ["q"]
+L758b SetMember
+L758c Push [[4,1],[8,8],[2,null]]	// ["g"]
+L7594 SetMember
+L7595 Push [[4,1],[8,9],[2,null]]	// ["n"]
+L759d SetMember
+L759e Push [[7,1],[2,null],[8,0]]	// ["_global"]
+L75a9 GetVariable
+L75aa Push [[8,1]]	// ["gCM"]
+L75af GetMember
+L75b0 Push [[8,2]]	// ["prototype"]
+L75b5 GetMember
+L75b6 Push [[7,3],[8,10]]	// ["ASSetPropFlags"]
+L75c0 CallFunction
+L75c1 Pop
+L75c2 End

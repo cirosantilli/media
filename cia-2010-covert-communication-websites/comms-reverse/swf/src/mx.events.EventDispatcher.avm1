@@ -1,0 +1,418 @@
+// __Packages.mx.events.EventDispatcher in worlddispatch.swf, tag at 0x9c18
+L9c20 ConstantPool ["_global","mx","Object","events","EventDispatcher","prototype","_removeEventListener","ZSv","l","length","FWa","splice","initialize","object","JdU","pbu","Lox","eEb","Jpl","HwF","QaH","EJU","EcW","tBh","i","movieclip","JUJ","QVT","apply","this","emu","Handler","uML","Array","ASSetPropFlags","push","draw","move"]
+L9d12 Push [[8,0]]	// ["_global"]
+L9d17 GetVariable
+L9d18 Push [[8,1]]	// ["mx"]
+L9d1d GetMember
+L9d1e Not
+L9d1f Not
+L9d20 If "L9d3d"
+L9d25 Push [[8,0]]	// ["_global"]
+L9d2a GetVariable
+L9d2b Push [[8,1],[6,0.0],[8,2]]	// ["mx", "Object"]
+L9d3b NewObject
+L9d3c SetMember
+L9d3d Pop
+L9d3e Push [[8,0]]	// ["_global"]
+L9d43 GetVariable
+L9d44 Push [[8,1]]	// ["mx"]
+L9d49 GetMember
+L9d4a Push [[8,3]]	// ["events"]
+L9d4f GetMember
+L9d50 Not
+L9d51 Not
+L9d52 If "L9d75"
+L9d57 Push [[8,0]]	// ["_global"]
+L9d5c GetVariable
+L9d5d Push [[8,1]]	// ["mx"]
+L9d62 GetMember
+L9d63 Push [[8,3],[6,0.0],[8,2]]	// ["events", "Object"]
+L9d73 NewObject
+L9d74 SetMember
+L9d75 Pop
+L9d76 Push [[8,0]]	// ["_global"]
+L9d7b GetVariable
+L9d7c Push [[8,1]]	// ["mx"]
+L9d81 GetMember
+L9d82 Push [[8,3]]	// ["events"]
+L9d87 GetMember
+L9d88 Push [[8,4]]	// ["EventDispatcher"]
+L9d8d GetMember
+L9d8e Not
+L9d8f Not
+L9d90 If "La2e8"
+L9d95 Push [[8,1]]	// ["mx"]
+L9d9a GetVariable
+L9d9b Push [[8,3]]	// ["events"]
+L9da0 GetMember
+L9da1 Push [[8,4]]	// ["EventDispatcher"]
+L9da6 DefineFunction {"function_name":"","parameters":[]}
+L9dae StoreRegister 1
+L9db2 SetMember
+L9db3 Push [[4,1],[8,5]]	// ["prototype"]
+L9dba GetMember
+L9dbb StoreRegister 2
+L9dbf Pop
+L9dc0 Push [[4,1],[8,6]]	// ["_removeEventListener"]
+L9dc7 DefineFunction {"function_name":"","parameters":[{"register":0,"name":"ZSv"},{"register":0,"name":"uML"},{"register":0,"name":"FWa"}]}
+  L9ddb Push [[4,1],[4,2],[4,3],[8,7]]	// ["ZSv"]
+  L9de6 GetVariable
+  L9de7 StoreRegister 3
+  L9deb Pop
+  L9dec Push [[4,3],[3,"undefined"]]
+  L9df2 Equals2
+  L9df3 Not
+  L9df4 Not
+  L9df5 If "L9e74"
+  L9dfa Push [[8,8],[4,3],[8,9]]	// ["l", "length"]
+  L9e03 GetMember
+  L9e04 DefineLocal
+  L9e05 Push [[3,"undefined"]]
+  L9e09 StoreRegister 1
+  L9e0d Pop
+  L9e0e Push [[6,0.0]]
+  L9e1a StoreRegister 1
+  L9e1e Pop
+  L9e1f Push [[4,1],[8,8]]	// ["l"]
+  L9e26 GetVariable
+  L9e27 Less2
+  L9e28 Not
+  L9e29 If "L9e74"
+  L9e2e Push [[4,3],[4,1]]
+  L9e35 GetMember
+  L9e36 StoreRegister 2
+  L9e3a Pop
+  L9e3b Push [[4,2],[8,10]]	// ["FWa"]
+  L9e42 GetVariable
+  L9e43 Equals2
+  L9e44 Not
+  L9e45 If "L9e64"
+  L9e4a Push [[7,1],[4,1],[7,2],[4,3],[8,11]]	// ["splice"]
+  L9e5d CallMethod
+  L9e5e Pop
+  L9e5f Jump "L9e74"
+  L9e64 Push [[4,1]]
+  L9e69 Increment
+  L9e6a StoreRegister 1
+  L9e6e Pop
+  L9e6f Jump "L9e1f"
+  L9e74 StoreRegister 3
+  L9e78 Pop
+  L9e79 StoreRegister 2
+  L9e7d Pop
+  L9e7e StoreRegister 1
+  L9e82 Pop
+L9e83 SetMember
+L9e84 Push [[4,1],[8,12]]	// ["initialize"]
+L9e8b DefineFunction {"function_name":"","parameters":[{"register":0,"name":"object"}]}
+  L9e9a Push [[4,1],[8,13]]	// ["object"]
+  L9ea1 GetVariable
+  L9ea2 StoreRegister 1
+  L9ea6 Pop
+  L9ea7 Push [[8,1]]	// ["mx"]
+  L9eac GetVariable
+  L9ead Push [[8,3]]	// ["events"]
+  L9eb2 GetMember
+  L9eb3 Push [[8,4]]	// ["EventDispatcher"]
+  L9eb8 GetMember
+  L9eb9 Push [[8,14]]	// ["JdU"]
+  L9ebe GetMember
+  L9ebf Push [[3,"undefined"]]
+  L9ec3 Equals2
+  L9ec4 Not
+  L9ec5 If "L9efa"
+  L9eca Push [[8,1]]	// ["mx"]
+  L9ecf GetVariable
+  L9ed0 Push [[8,3]]	// ["events"]
+  L9ed5 GetMember
+  L9ed6 Push [[8,4]]	// ["EventDispatcher"]
+  L9edb GetMember
+  L9edc Push [[8,14],[6,0.0],[8,1]]	// ["JdU", "mx"]
+  L9eec GetVariable
+  L9eed Push [[8,3]]	// ["events"]
+  L9ef2 GetMember
+  L9ef3 Push [[8,4]]	// ["EventDispatcher"]
+  L9ef8 NewMethod
+  L9ef9 SetMember
+  L9efa Push [[4,1],[8,15],[8,1]]	// ["pbu", "mx"]
+  L9f03 GetVariable
+  L9f04 Push [[8,3]]	// ["events"]
+  L9f09 GetMember
+  L9f0a Push [[8,4]]	// ["EventDispatcher"]
+  L9f0f GetMember
+  L9f10 Push [[8,14]]	// ["JdU"]
+  L9f15 GetMember
+  L9f16 Push [[8,15]]	// ["pbu"]
+  L9f1b GetMember
+  L9f1c SetMember
+  L9f1d Push [[4,1],[8,16],[8,1]]	// ["Lox", "mx"]
+  L9f26 GetVariable
+  L9f27 Push [[8,3]]	// ["events"]
+  L9f2c GetMember
+  L9f2d Push [[8,4]]	// ["EventDispatcher"]
+  L9f32 GetMember
+  L9f33 Push [[8,14]]	// ["JdU"]
+  L9f38 GetMember
+  L9f39 Push [[8,16]]	// ["Lox"]
+  L9f3e GetMember
+  L9f3f SetMember
+  L9f40 Push [[4,1],[8,17],[8,1]]	// ["eEb", "mx"]
+  L9f49 GetVariable
+  L9f4a Push [[8,3]]	// ["events"]
+  L9f4f GetMember
+  L9f50 Push [[8,4]]	// ["EventDispatcher"]
+  L9f55 GetMember
+  L9f56 Push [[8,14]]	// ["JdU"]
+  L9f5b GetMember
+  L9f5c Push [[8,17]]	// ["eEb"]
+  L9f61 GetMember
+  L9f62 SetMember
+  L9f63 Push [[4,1],[8,18],[8,1]]	// ["Jpl", "mx"]
+  L9f6c GetVariable
+  L9f6d Push [[8,3]]	// ["events"]
+  L9f72 GetMember
+  L9f73 Push [[8,4]]	// ["EventDispatcher"]
+  L9f78 GetMember
+  L9f79 Push [[8,14]]	// ["JdU"]
+  L9f7e GetMember
+  L9f7f Push [[8,18]]	// ["Jpl"]
+  L9f84 GetMember
+  L9f85 SetMember
+  L9f86 StoreRegister 1
+  L9f8a Pop
+L9f8b SetMember
+L9f8c Push [[4,2],[8,18]]	// ["Jpl"]
+L9f93 DefineFunction {"function_name":"","parameters":[{"register":0,"name":"tBh"},{"register":0,"name":"HwF"}]}
+  L9fa3 Push [[4,1],[4,2],[4,3],[8,19]]	// ["HwF"]
+  L9fae GetVariable
+  L9faf StoreRegister 2
+  L9fb3 Pop
+  L9fb4 Push [[8,20],[8,21],[4,2],[8,22]]	// ["QaH", "EJU", "EcW"]
+  L9fbf GetMember
+  L9fc0 Add2
+  L9fc1 DefineLocal
+  L9fc2 Push [[8,7],[8,23]]	// ["ZSv", "tBh"]
+  L9fc9 GetVariable
+  L9fca Push [[8,20]]	// ["QaH"]
+  L9fcf GetVariable
+  L9fd0 GetMember
+  L9fd1 DefineLocal
+  L9fd2 Push [[8,7]]	// ["ZSv"]
+  L9fd7 GetVariable
+  L9fd8 Push [[3,"undefined"]]
+  L9fdc Equals2
+  L9fdd Not
+  L9fde Not
+  L9fdf If "La0e4"
+  L9fe4 Push [[8,24]]	// ["i"]
+  L9fe9 DefineLocal2
+  L9fea Push [[8,7]]	// ["ZSv"]
+  L9fef GetVariable
+  L9ff0 Enumerate2
+  L9ff1 StoreRegister 0
+  L9ff5 Push [[2,null]]
+  L9ff9 Equals2
+  L9ffa If "La0e4"
+  L9fff Push [[8,24],[4,0]]	// ["i"]
+  La006 SetVariable
+  La007 Push [[8,7]]	// ["ZSv"]
+  La00c GetVariable
+  La00d Push [[8,24]]	// ["i"]
+  La012 GetVariable
+  La013 GetMember
+  La014 StoreRegister 1
+  La018 Pop
+  La019 Push [[4,1]]
+  La01e TypeOf
+  La01f StoreRegister 3
+  La023 Pop
+  La024 Push [[4,3],[8,13]]	// ["object"]
+  La02b Equals2
+  La02c PushDuplicate
+  La02d If "La03b"
+  La032 Pop
+  La033 Push [[4,3],[8,25]]	// ["movieclip"]
+  La03a Equals2
+  La03b Not
+  La03c If "La0c0"
+  La041 Push [[4,1],[8,26]]	// ["JUJ"]
+  La048 GetMember
+  La049 Push [[3,"undefined"]]
+  La04d Equals2
+  La04e Not
+  La04f Not
+  La050 If "La065"
+  La055 Push [[4,2],[7,1],[4,1],[8,26]]	// ["JUJ"]
+  La063 CallMethod
+  La064 Pop
+  La065 Push [[4,1],[4,2],[8,22]]	// ["EcW"]
+  La06e GetMember
+  La06f GetMember
+  La070 Push [[3,"undefined"]]
+  La074 Equals2
+  La075 Not
+  La076 Not
+  La077 If "La0bb"
+  La07c Push [[8,1]]	// ["mx"]
+  La081 GetVariable
+  La082 Push [[8,3]]	// ["events"]
+  La087 GetMember
+  La088 Push [[8,4]]	// ["EventDispatcher"]
+  La08d GetMember
+  La08e Push [[8,27]]	// ["QVT"]
+  La093 GetMember
+  La094 Push [[4,2],[8,22]]	// ["EcW"]
+  La09b GetMember
+  La09c GetMember
+  La09d Push [[3,"undefined"]]
+  La0a1 Equals2
+  La0a2 Not
+  La0a3 If "La0bb"
+  La0a8 Push [[4,2],[7,1],[4,1],[4,2],[8,22]]	// ["EcW"]
+  La0b8 GetMember
+  La0b9 CallMethod
+  La0ba Pop
+  La0bb Jump "La0df"
+  La0c0 Push [[4,2],[7,1]]
+  La0ca InitArray
+  La0cb Push [[8,23]]	// ["tBh"]
+  La0d0 GetVariable
+  La0d1 Push [[7,2],[4,1],[8,28]]	// ["apply"]
+  La0dd CallMethod
+  La0de Pop
+  La0df Jump "L9ff1"
+  La0e4 StoreRegister 3
+  La0e8 Pop
+  La0e9 StoreRegister 2
+  La0ed Pop
+  La0ee StoreRegister 1
+  La0f2 Pop
+La0f3 SetMember
+La0f4 Push [[4,2],[8,17]]	// ["eEb"]
+La0fb DefineFunction {"function_name":"","parameters":[{"register":0,"name":"HwF"}]}
+  La107 Push [[4,1],[4,2],[8,19]]	// ["HwF"]
+  La110 GetVariable
+  La111 StoreRegister 1
+  La115 Pop
+  La116 Push [[8,29]]	// ["this"]
+  La11b GetVariable
+  La11c StoreRegister 2
+  La120 Pop
+  La121 Push [[4,1],[8,30]]	// ["emu"]
+  La128 GetMember
+  La129 Push [[3,"undefined"]]
+  La12d Equals2
+  La12e Not
+  La12f If "La13e"
+  La134 Push [[4,1],[8,30],[4,2]]	// ["emu"]
+  La13d SetMember
+  La13e Push [[4,1],[7,1],[4,2],[4,1],[8,22]]	// ["EcW"]
+  La14e GetMember
+  La14f Push [[8,31]]	// ["Handler"]
+  La154 Add2
+  La155 CallMethod
+  La156 Pop
+  La157 Push [[4,1],[4,2],[7,2],[4,2],[8,18]]	// ["Jpl"]
+  La167 CallMethod
+  La168 Pop
+  La169 StoreRegister 2
+  La16d Pop
+  La16e StoreRegister 1
+  La172 Pop
+La173 SetMember
+La174 Push [[4,2],[8,15]]	// ["pbu"]
+La17b DefineFunction {"function_name":"","parameters":[{"register":0,"name":"uML"},{"register":0,"name":"FWa"}]}
+  La18b Push [[4,1],[4,2],[8,29]]	// ["this"]
+  La194 GetVariable
+  La195 StoreRegister 2
+  La199 Pop
+  La19a Push [[8,21],[8,32]]	// ["EJU", "uML"]
+  La1a1 GetVariable
+  La1a2 Add2
+  La1a3 StoreRegister 1
+  La1a7 Pop
+  La1a8 Push [[4,2],[4,1]]
+  La1af GetMember
+  La1b0 Push [[3,"undefined"]]
+  La1b4 Equals2
+  La1b5 Not
+  La1b6 If "La1cf"
+  La1bb Push [[4,2],[4,1],[6,0.0],[8,33]]	// ["Array"]
+  La1cd NewObject
+  La1ce SetMember
+  La1cf Push [[7,1],[4,1],[4,2],[7,3],[8,0]]	// ["_global"]
+  La1e2 GetVariable
+  La1e3 Push [[8,34]]	// ["ASSetPropFlags"]
+  La1e8 CallMethod
+  La1e9 Pop
+  La1ea Push [[8,10]]	// ["FWa"]
+  La1ef GetVariable
+  La1f0 Push [[8,32]]	// ["uML"]
+  La1f5 GetVariable
+  La1f6 Push [[4,2],[4,1]]
+  La1fd GetMember
+  La1fe Push [[7,3],[8,1]]	// ["mx"]
+  La208 GetVariable
+  La209 Push [[8,3]]	// ["events"]
+  La20e GetMember
+  La20f Push [[8,4]]	// ["EventDispatcher"]
+  La214 GetMember
+  La215 Push [[8,6]]	// ["_removeEventListener"]
+  La21a CallMethod
+  La21b Pop
+  La21c Push [[8,10]]	// ["FWa"]
+  La221 GetVariable
+  La222 Push [[7,1],[4,2],[4,1]]
+  La22e GetMember
+  La22f Push [[8,35]]	// ["push"]
+  La234 CallMethod
+  La235 Pop
+  La236 StoreRegister 2
+  La23a Pop
+  La23b StoreRegister 1
+  La23f Pop
+La240 SetMember
+La241 Push [[4,2],[8,16]]	// ["Lox"]
+La248 DefineFunction {"function_name":"","parameters":[{"register":0,"name":"uML"},{"register":0,"name":"FWa"}]}
+  La258 Push [[4,1],[8,21],[8,32]]	// ["EJU", "uML"]
+  La261 GetVariable
+  La262 Add2
+  La263 StoreRegister 1
+  La267 Pop
+  La268 Push [[8,10]]	// ["FWa"]
+  La26d GetVariable
+  La26e Push [[8,32]]	// ["uML"]
+  La273 GetVariable
+  La274 Push [[8,29]]	// ["this"]
+  La279 GetVariable
+  La27a Push [[4,1]]
+  La27f GetMember
+  La280 Push [[7,3],[8,1]]	// ["mx"]
+  La28a GetVariable
+  La28b Push [[8,3]]	// ["events"]
+  La290 GetMember
+  La291 Push [[8,4]]	// ["EventDispatcher"]
+  La296 GetMember
+  La297 Push [[8,6]]	// ["_removeEventListener"]
+  La29c CallMethod
+  La29d Pop
+  La29e StoreRegister 1
+  La2a2 Pop
+La2a3 SetMember
+La2a4 Push [[4,1],[8,14],[3,"undefined"]]	// ["JdU"]
+La2ac SetMember
+La2ad Push [[4,1],[8,27],[8,36],[8,37],[7,2]]	// ["QVT", "draw", "move"]
+La2bd InitArray
+La2be SetMember
+La2bf Push [[7,1],[2,null],[8,1]]	// ["mx"]
+La2ca GetVariable
+La2cb Push [[8,3]]	// ["events"]
+La2d0 GetMember
+La2d1 Push [[8,4]]	// ["EventDispatcher"]
+La2d6 GetMember
+La2d7 Push [[8,5]]	// ["prototype"]
+La2dc GetMember
+La2dd Push [[7,3],[8,34]]	// ["ASSetPropFlags"]
+La2e7 CallFunction
+La2e8 Pop
+La2e9 End

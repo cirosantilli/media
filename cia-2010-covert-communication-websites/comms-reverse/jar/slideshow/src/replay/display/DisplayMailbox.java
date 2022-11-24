@@ -52,7 +52,6 @@ final class DisplayMailbox {
     private final Object unread = create("c.a.d.o");
     private final Object read = create("c.a.d.o");
     private final Object actions = create("c.a.d.l");
-    private final Object acknowledgements = create("c.a.d.l");
     private final Object requests;
     private final Object requestEncoder;
     private final Object responseDecoder;
@@ -64,7 +63,9 @@ final class DisplayMailbox {
     DisplayMailbox(Transport transport) throws Exception {
         this.transport = transport;
         connectStreams();
-        Object reliable = create("a.a.g.a.d.b", client);
+        // Half Court's b.b.a.e.g implements the byte stream itself. The
+        // later dispatcher uses a separate a.a.g.a.d.b transport adapter.
+        Object reliable = ArchiveVariant.HOLD_ACTIVATION ? client : create("a.a.g.a.d.b", client);
         final int[] supplied = {0};
 
         // c.a.g.b.a(c.b.i.r[]) serializes each display request and fills its
@@ -86,13 +87,14 @@ final class DisplayMailbox {
         Array.set(requests, 0, create("c.b.i.m", "display", "", 0));
     }
 
-    // c.a.e.d.a() reads the encrypted c/a/e/Applet.properties resource.
+    // c.a.e.d.a(), or b.b.d.d.a() in Half Court, reads Applet.properties.
     static Properties config() throws Exception {
         return (Properties) invoke(Class.forName("c.a.e.d"), "a", Properties.class);
     }
 
-    // a.a.i.a.a is the original sequence state machine, including its
-    // hashing, clear key and final trigger. Event 1 opens the login form.
+    // The archived state machine emits event 1 to open the login form.
+    // Half Court's c.b.c.a.a compares a literal sequence while the trigger is
+    // held. The later a.a.i.a.a compares a hash on a final trigger press.
     static KeyListener activationListener(Runnable open) throws Exception {
         Properties config = config();
         Object keys = create("a.a.i.a.a");
@@ -109,13 +111,14 @@ final class DisplayMailbox {
     // c.a.d.d.c.c connects the upload, unread, read and action streams
     // to the client dispatcher c.a.d.d.g.a(c.a.d.d.c.c).
     private void connectStreams() throws Exception {
-        set(Class.forName("c.a.d.a.h"), "b");
+        if (!ArchiveVariant.HOLD_ACTIVATION) set(Class.forName("c.a.d.a.h"), "b");
         Object streams = create("c.a.d.d.c.c");
         set(streams, "a", outgoing);
         set(streams, "b", unread);
         set(streams, "c", read);
         set(streams, "a", actions);
-        set(streams, "b", acknowledgements);
+        // Half Court's b.b.a.e.e.c has no incoming action-acknowledgement list.
+        if (!ArchiveVariant.HOLD_ACTIVATION) set(streams, "b", create("c.a.d.l"));
         set(streams, "a", new byte[0]);
         set(client, "a", streams);
 

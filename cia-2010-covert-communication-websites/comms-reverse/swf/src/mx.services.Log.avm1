@@ -1,0 +1,246 @@
+// __Packages.mx.services.Log in worlddispatch.swf, tag at 0x43e8
+L43f0 ConstantPool ["_global","mx","Object","services","Log","this","level","ZlT","YVz","zXY","","prototype","udv","gXG","getDateString"," [DEBUG] ",": ","UNm","onLog"," [INFO] ","logDebug","Date","getMonth","/","getDate"," ","getHours",":","getMinutes","getSeconds","message","NONE","Nie","ASSetPropFlags"]
+L44d0 Push [[8,0]]	// ["_global"]
+L44d5 GetVariable
+L44d6 Push [[8,1]]	// ["mx"]
+L44db GetMember
+L44dc Not
+L44dd Not
+L44de If "L44fb"
+L44e3 Push [[8,0]]	// ["_global"]
+L44e8 GetVariable
+L44e9 Push [[8,1],[6,0.0],[8,2]]	// ["mx", "Object"]
+L44f9 NewObject
+L44fa SetMember
+L44fb Pop
+L44fc Push [[8,0]]	// ["_global"]
+L4501 GetVariable
+L4502 Push [[8,1]]	// ["mx"]
+L4507 GetMember
+L4508 Push [[8,3]]	// ["services"]
+L450d GetMember
+L450e Not
+L450f Not
+L4510 If "L4533"
+L4515 Push [[8,0]]	// ["_global"]
+L451a GetVariable
+L451b Push [[8,1]]	// ["mx"]
+L4520 GetMember
+L4521 Push [[8,3],[6,0.0],[8,2]]	// ["services", "Object"]
+L4531 NewObject
+L4532 SetMember
+L4533 Pop
+L4534 Push [[8,0]]	// ["_global"]
+L4539 GetVariable
+L453a Push [[8,1]]	// ["mx"]
+L453f GetMember
+L4540 Push [[8,3]]	// ["services"]
+L4545 GetMember
+L4546 Push [[8,4]]	// ["Log"]
+L454b GetMember
+L454c Not
+L454d Not
+L454e If "L487e"
+L4553 Push [[8,1]]	// ["mx"]
+L4558 GetVariable
+L4559 Push [[8,3]]	// ["services"]
+L455e GetMember
+L455f Push [[8,4]]	// ["Log"]
+L4564 DefineFunction {"function_name":"","parameters":[{"register":0,"name":"ZlT"},{"register":0,"name":"zXY"}]}
+  L4574 Push [[8,5]]	// ["this"]
+  L4579 GetVariable
+  L457a Push [[8,6],[8,7]]	// ["level", "ZlT"]
+  L4581 GetVariable
+  L4582 Push [[3,"undefined"]]
+  L4586 Equals2
+  L4587 If "L4597"
+  L458c Push [[8,7]]	// ["ZlT"]
+  L4591 GetVariable
+  L4592 Jump "L45af"
+  L4597 Push [[8,1]]	// ["mx"]
+  L459c GetVariable
+  L459d Push [[8,3]]	// ["services"]
+  L45a2 GetMember
+  L45a3 Push [[8,4]]	// ["Log"]
+  L45a8 GetMember
+  L45a9 Push [[8,8]]	// ["YVz"]
+  L45ae GetMember
+  L45af SetMember
+  L45b0 Push [[8,5]]	// ["this"]
+  L45b5 GetVariable
+  L45b6 Push [[8,9],[8,9]]	// ["zXY", "zXY"]
+  L45bd GetVariable
+  L45be Push [[3,"undefined"]]
+  L45c2 Equals2
+  L45c3 If "L45d3"
+  L45c8 Push [[8,9]]	// ["zXY"]
+  L45cd GetVariable
+  L45ce Jump "L45d8"
+  L45d3 Push [[8,10]]	// [""]
+  L45d8 SetMember
+L45d9 StoreRegister 1
+L45dd SetMember
+L45de Push [[4,1],[8,11]]	// ["prototype"]
+L45e5 GetMember
+L45e6 StoreRegister 2
+L45ea Pop
+L45eb Push [[4,2],[8,12]]	// ["udv"]
+L45f2 DefineFunction {"function_name":"","parameters":[{"register":0,"name":"UNm"},{"register":0,"name":"level"}]}
+  L4604 Push [[4,1],[4,2],[8,5]]	// ["this"]
+  L460d GetVariable
+  L460e StoreRegister 1
+  L4612 Pop
+  L4613 Push [[8,6]]	// ["level"]
+  L4618 GetVariable
+  L4619 StoreRegister 2
+  L461d Pop
+  L461e Push [[4,2],[3,"undefined"]]
+  L4624 Equals2
+  L4625 Not
+  L4626 If "L4648"
+  L462b Push [[8,1]]	// ["mx"]
+  L4630 GetVariable
+  L4631 Push [[8,3]]	// ["services"]
+  L4636 GetMember
+  L4637 Push [[8,4]]	// ["Log"]
+  L463c GetMember
+  L463d Push [[8,8]]	// ["YVz"]
+  L4642 GetMember
+  L4643 StoreRegister 2
+  L4647 Pop
+  L4648 Push [[4,2],[4,1],[8,6]]	// ["level"]
+  L4651 GetMember
+  L4652 Greater
+  L4653 Not
+  L4654 Not
+  L4655 If "L46f6"
+  L465a Push [[4,2],[8,1]]	// ["mx"]
+  L4661 GetVariable
+  L4662 Push [[8,3]]	// ["services"]
+  L4667 GetMember
+  L4668 Push [[8,4]]	// ["Log"]
+  L466d GetMember
+  L466e Push [[8,13]]	// ["gXG"]
+  L4673 GetMember
+  L4674 Equals2
+  L4675 Not
+  L4676 If "L46bb"
+  L467b Push [[6,0.0],[4,1],[8,14]]	// ["getDateString"]
+  L468b CallMethod
+  L468c Push [[8,15]]	// [" [DEBUG] "]
+  L4691 Add2
+  L4692 Push [[4,1],[8,9]]	// ["zXY"]
+  L4699 GetMember
+  L469a Add2
+  L469b Push [[8,16]]	// [": "]
+  L46a0 Add2
+  L46a1 Push [[8,17]]	// ["UNm"]
+  L46a6 GetVariable
+  L46a7 Add2
+  L46a8 Push [[7,1],[4,1],[8,18]]	// ["onLog"]
+  L46b4 CallMethod
+  L46b5 Pop
+  L46b6 Jump "L46f6"
+  L46bb Push [[6,0.0],[4,1],[8,14]]	// ["getDateString"]
+  L46cb CallMethod
+  L46cc Push [[8,19]]	// [" [INFO] "]
+  L46d1 Add2
+  L46d2 Push [[4,1],[8,9]]	// ["zXY"]
+  L46d9 GetMember
+  L46da Add2
+  L46db Push [[8,16]]	// [": "]
+  L46e0 Add2
+  L46e1 Push [[8,17]]	// ["UNm"]
+  L46e6 GetVariable
+  L46e7 Add2
+  L46e8 Push [[7,1],[4,1],[8,18]]	// ["onLog"]
+  L46f4 CallMethod
+  L46f5 Pop
+  L46f6 StoreRegister 2
+  L46fa Pop
+  L46fb StoreRegister 1
+  L46ff Pop
+L4700 SetMember
+L4701 Push [[4,2],[8,20]]	// ["logDebug"]
+L4708 DefineFunction {"function_name":"","parameters":[{"register":0,"name":"UNm"}]}
+  L4714 Push [[8,1]]	// ["mx"]
+  L4719 GetVariable
+  L471a Push [[8,3]]	// ["services"]
+  L471f GetMember
+  L4720 Push [[8,4]]	// ["Log"]
+  L4725 GetMember
+  L4726 Push [[8,13]]	// ["gXG"]
+  L472b GetMember
+  L472c Push [[8,17]]	// ["UNm"]
+  L4731 GetVariable
+  L4732 Push [[7,2],[8,5]]	// ["this"]
+  L473c GetVariable
+  L473d Push [[8,12]]	// ["udv"]
+  L4742 CallMethod
+  L4743 Pop
+L4744 SetMember
+L4745 Push [[4,2],[8,14]]	// ["getDateString"]
+L474c DefineFunction {"function_name":"","parameters":[]}
+  L4754 Push [[4,1],[6,0.0],[8,21]]	// ["Date"]
+  L4764 NewObject
+  L4765 StoreRegister 1
+  L4769 Pop
+  L476a Push [[6,0.0],[4,1],[8,22]]	// ["getMonth"]
+  L477a CallMethod
+  L477b Push [[7,1]]
+  L4783 Add2
+  L4784 Push [[8,23]]	// ["/"]
+  L4789 Add2
+  L478a Push [[6,0.0],[4,1],[8,24]]	// ["getDate"]
+  L479a CallMethod
+  L479b Add2
+  L479c Push [[8,25]]	// [" "]
+  L47a1 Add2
+  L47a2 Push [[6,0.0],[4,1],[8,26]]	// ["getHours"]
+  L47b2 CallMethod
+  L47b3 Add2
+  L47b4 Push [[8,27]]	// [":"]
+  L47b9 Add2
+  L47ba Push [[6,0.0],[4,1],[8,28]]	// ["getMinutes"]
+  L47ca CallMethod
+  L47cb Add2
+  L47cc Push [[8,27]]	// [":"]
+  L47d1 Add2
+  L47d2 Push [[6,0.0],[4,1],[8,29]]	// ["getSeconds"]
+  L47e2 CallMethod
+  L47e3 Add2
+  L47e4 Jump "L47ed"
+  L47e9 Push [[3,"undefined"]]
+  L47ed StoreRegister 0
+  L47f1 Pop
+  L47f2 StoreRegister 1
+  L47f6 Pop
+  L47f7 Push [[4,0]]
+  L47fc Return
+L47fd SetMember
+L47fe Push [[4,2],[8,18]]	// ["onLog"]
+L4805 DefineFunction {"function_name":"","parameters":[{"register":0,"name":"message"}]}
+  L4815 Push [[8,30]]	// ["message"]
+  L481a GetVariable
+  L481b Trace
+L481c SetMember
+L481d Push [[4,1],[8,31],[7,4294967295]]	// ["NONE"]
+L4829 SetMember
+L482a Push [[4,1],[8,8],[6,0.0]]	// ["YVz"]
+L483a SetMember
+L483b Push [[4,1],[8,32],[7,1]]	// ["Nie"]
+L4847 SetMember
+L4848 Push [[4,1],[8,13],[7,2]]	// ["gXG"]
+L4854 SetMember
+L4855 Push [[7,1],[2,null],[8,1]]	// ["mx"]
+L4860 GetVariable
+L4861 Push [[8,3]]	// ["services"]
+L4866 GetMember
+L4867 Push [[8,4]]	// ["Log"]
+L486c GetMember
+L486d Push [[8,11]]	// ["prototype"]
+L4872 GetMember
+L4873 Push [[7,3],[8,33]]	// ["ASSetPropFlags"]
+L487d CallFunction
+L487e Pop
+L487f End

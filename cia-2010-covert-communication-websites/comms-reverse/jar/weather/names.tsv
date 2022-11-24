@@ -1,0 +1,32 @@
+C	a$4	recovered/PayloadCodec
+C	a$5	recovered/RandomData
+C	a$6	recovered/WeatherCodec
+C	a	recovered/TransferButtons
+C	b	recovered/TypeB
+C	c	recovered/TypeC
+C	Cities	recovered/Cities
+C	CloseWindow	recovered/CloseWindow
+C	ConstantsLoc	recovered/ConstantsLoc
+C	ConstantsMain	recovered/ConstantsMain
+C	Customize	recovered/Customize
+C	d	recovered/TypeD
+C	DoubleList	recovered/DoubleList
+C	e	recovered/TypeE
+C	f	recovered/TypeF
+C	g	recovered/TypeG
+C	h	recovered/TypeH
+C	ImageCanvas	recovered/ImageCanvas
+C	InfoWeatherApplet	recovered/InfoWeatherApplet
+C	MsgBox	recovered/MsgBox
+C	Server	recovered/Server
+M	a	(I)C	a__C
+M	a	(I)Ljava/lang/String;	a__Ljava_lang_String
+M	a	(I)[B	a__ArrayB
+M	a	(Ljava/lang/String;)Ljava/lang/Class;	a__Ljava_lang_Class
+M	a	(Ljava/lang/String;)Ljava/lang/String;	a__Ljava_lang_String
+M	a	([B)Ljava/lang/String;	a__Ljava_lang_String
+M	a	([B)V	a__V
+M	a	([B)[B	a__ArrayB
+M	a	([BI)V	a__V
+M	a	([BI)[B	a__ArrayB
+M	a	([BI)[C	a__ArrayC

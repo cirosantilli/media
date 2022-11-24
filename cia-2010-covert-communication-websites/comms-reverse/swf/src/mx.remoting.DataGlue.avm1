@@ -1,0 +1,522 @@
+// __Packages.mx.remoting.DataGlue in worlddispatch.swf, tag at 0xe2ae
+Le2b6 ConstantPool ["_global","mx","Object","remoting","DataGlue","super","this","dUx","KzW","prototype","fJY","Irg","Faz","seN","Wco","Mnw","jYm","RrK","bindFormatStrings","Szq","pHe","getItemAt","CMl","iwa","utU","bindFormatFunction","formatFunction","sPk","Slp","setDataProvider","pbu","kkv","Haf","Hkq","getLength","length","format","#","yIf","split","result","","PVq","fLQ","Hxt","in progress","label","data","getItemID","huo","uZP","addItem","removeItemAt","removeAll","replaceItemAt","cNm","sortItemsBy","xpc","Njc","sortItems","Zeb","VEZ","1.2.0.124","addProperty","dataString","labelString","ASSetPropFlags"]
+Le48a Push [[8,0]]	// ["_global"]
+Le48f GetVariable
+Le490 Push [[8,1]]	// ["mx"]
+Le495 GetMember
+Le496 Not
+Le497 Not
+Le498 If "Le4b5"
+Le49d Push [[8,0]]	// ["_global"]
+Le4a2 GetVariable
+Le4a3 Push [[8,1],[6,0.0],[8,2]]	// ["mx", "Object"]
+Le4b3 NewObject
+Le4b4 SetMember
+Le4b5 Pop
+Le4b6 Push [[8,0]]	// ["_global"]
+Le4bb GetVariable
+Le4bc Push [[8,1]]	// ["mx"]
+Le4c1 GetMember
+Le4c2 Push [[8,3]]	// ["remoting"]
+Le4c7 GetMember
+Le4c8 Not
+Le4c9 Not
+Le4ca If "Le4ed"
+Le4cf Push [[8,0]]	// ["_global"]
+Le4d4 GetVariable
+Le4d5 Push [[8,1]]	// ["mx"]
+Le4da GetMember
+Le4db Push [[8,3],[6,0.0],[8,2]]	// ["remoting", "Object"]
+Le4eb NewObject
+Le4ec SetMember
+Le4ed Pop
+Le4ee Push [[8,0]]	// ["_global"]
+Le4f3 GetVariable
+Le4f4 Push [[8,1]]	// ["mx"]
+Le4f9 GetMember
+Le4fa Push [[8,3]]	// ["remoting"]
+Le4ff GetMember
+Le500 Push [[8,4]]	// ["DataGlue"]
+Le505 GetMember
+Le506 Not
+Le507 Not
+Le508 If "Lecca"
+Le50d Push [[8,1]]	// ["mx"]
+Le512 GetVariable
+Le513 Push [[8,3]]	// ["remoting"]
+Le518 GetMember
+Le519 Push [[8,4]]	// ["DataGlue"]
+Le51e DefineFunction {"function_name":"","parameters":[{"register":0,"name":"KzW"}]}
+  Le52a Push [[6,0.0],[8,5]]	// ["super"]
+  Le538 CallFunction
+  Le539 Pop
+  Le53a Push [[8,6]]	// ["this"]
+  Le53f GetVariable
+  Le540 Push [[8,7],[8,8]]	// ["dUx", "KzW"]
+  Le547 GetVariable
+  Le548 SetMember
+Le549 StoreRegister 1
+Le54d SetMember
+Le54e Push [[8,1]]	// ["mx"]
+Le553 GetVariable
+Le554 Push [[8,3]]	// ["remoting"]
+Le559 GetMember
+Le55a Push [[8,4]]	// ["DataGlue"]
+Le55f GetMember
+Le560 Push [[8,9],[6,0.0],[8,2]]	// ["prototype", "Object"]
+Le570 NewObject
+Le571 StoreRegister 2
+Le575 SetMember
+Le576 Push [[4,2],[8,10]]	// ["fJY"]
+Le57d DefineFunction {"function_name":"","parameters":[]}
+  Le585 Push [[8,6]]	// ["this"]
+  Le58a GetVariable
+  Le58b Push [[8,7]]	// ["dUx"]
+  Le590 GetMember
+  Le591 Return
+Le592 SetMember
+Le593 Push [[4,2],[8,11]]	// ["Irg"]
+Le59a DefineFunction {"function_name":"","parameters":[]}
+  Le5a2 Push [[8,6]]	// ["this"]
+  Le5a7 GetVariable
+  Le5a8 Push [[8,12]]	// ["Faz"]
+  Le5ad GetMember
+  Le5ae Return
+Le5af SetMember
+Le5b0 Push [[4,2],[8,13]]	// ["seN"]
+Le5b7 DefineFunction {"function_name":"","parameters":[{"register":0,"name":"Wco"}]}
+  Le5c3 Push [[8,6]]	// ["this"]
+  Le5c8 GetVariable
+  Le5c9 Push [[8,12],[8,14]]	// ["Faz", "Wco"]
+  Le5d0 GetVariable
+  Le5d1 SetMember
+  Le5d2 Push [[6,0.0],[8,6]]	// ["this"]
+  Le5e0 GetVariable
+  Le5e1 Push [[8,11]]	// ["Irg"]
+  Le5e6 CallMethod
+  Le5e7 Return
+  Le5e8 Pop
+Le5e9 SetMember
+Le5ea Push [[4,2],[8,15]]	// ["Mnw"]
+Le5f1 DefineFunction {"function_name":"","parameters":[]}
+  Le5f9 Push [[8,6]]	// ["this"]
+  Le5fe GetVariable
+  Le5ff Push [[8,16]]	// ["jYm"]
+  Le604 GetMember
+  Le605 Return
+Le606 SetMember
+Le607 Push [[4,2],[8,17]]	// ["RrK"]
+Le60e DefineFunction {"function_name":"","parameters":[{"register":0,"name":"Wco"}]}
+  Le61a Push [[8,6]]	// ["this"]
+  Le61f GetVariable
+  Le620 Push [[8,16],[8,14]]	// ["jYm", "Wco"]
+  Le627 GetVariable
+  Le628 SetMember
+  Le629 Push [[6,0.0],[8,6]]	// ["this"]
+  Le637 GetVariable
+  Le638 Push [[8,15]]	// ["Mnw"]
+  Le63d CallMethod
+  Le63e Return
+  Le63f Pop
+Le640 SetMember
+Le641 Push [[4,1],[8,18]]	// ["bindFormatStrings"]
+Le648 DefineFunction {"function_name":"","parameters":[{"register":0,"name":"iwa"},{"register":0,"name":"KzW"},{"register":0,"name":"Szq"},{"register":0,"name":"pHe"}]}
+  Le660 Push [[4,1],[8,8]]	// ["KzW"]
+  Le667 GetVariable
+  Le668 Push [[7,1],[8,1]]	// ["mx"]
+  Le672 GetVariable
+  Le673 Push [[8,3]]	// ["remoting"]
+  Le678 GetMember
+  Le679 Push [[8,4]]	// ["DataGlue"]
+  Le67e NewMethod
+  Le67f StoreRegister 1
+  Le683 Pop
+  Le684 Push [[8,19]]	// ["Szq"]
+  Le689 GetVariable
+  Le68a Push [[7,1],[4,1],[8,13]]	// ["seN"]
+  Le696 CallMethod
+  Le697 Pop
+  Le698 Push [[8,20]]	// ["pHe"]
+  Le69d GetVariable
+  Le69e Push [[7,1],[4,1],[8,17]]	// ["RrK"]
+  Le6aa CallMethod
+  Le6ab Pop
+  Le6ac Push [[4,1],[8,21],[8,1]]	// ["getItemAt", "mx"]
+  Le6b5 GetVariable
+  Le6b6 Push [[8,3]]	// ["remoting"]
+  Le6bb GetMember
+  Le6bc Push [[8,4]]	// ["DataGlue"]
+  Le6c1 GetMember
+  Le6c2 Push [[8,9]]	// ["prototype"]
+  Le6c7 GetMember
+  Le6c8 Push [[8,22]]	// ["CMl"]
+  Le6cd GetMember
+  Le6ce SetMember
+  Le6cf Push [[8,23]]	// ["iwa"]
+  Le6d4 GetVariable
+  Le6d5 Push [[8,24],[4,1]]	// ["utU"]
+  Le6dc SetMember
+  Le6dd StoreRegister 1
+  Le6e1 Pop
+Le6e2 SetMember
+Le6e3 Push [[4,1],[8,25]]	// ["bindFormatFunction"]
+Le6ea DefineFunction {"function_name":"","parameters":[{"register":0,"name":"iwa"},{"register":0,"name":"KzW"},{"register":0,"name":"sPk"}]}
+  Le6fe Push [[4,1],[8,8]]	// ["KzW"]
+  Le705 GetVariable
+  Le706 Push [[7,1],[8,1]]	// ["mx"]
+  Le710 GetVariable
+  Le711 Push [[8,3]]	// ["remoting"]
+  Le716 GetMember
+  Le717 Push [[8,4]]	// ["DataGlue"]
+  Le71c NewMethod
+  Le71d StoreRegister 1
+  Le721 Pop
+  Le722 Push [[4,1],[8,26],[8,27]]	// ["formatFunction", "sPk"]
+  Le72b GetVariable
+  Le72c SetMember
+  Le72d Push [[4,1],[8,21],[8,1]]	// ["getItemAt", "mx"]
+  Le736 GetVariable
+  Le737 Push [[8,3]]	// ["remoting"]
+  Le73c GetMember
+  Le73d Push [[8,4]]	// ["DataGlue"]
+  Le742 GetMember
+  Le743 Push [[8,9]]	// ["prototype"]
+  Le748 GetMember
+  Le749 Push [[8,28]]	// ["Slp"]
+  Le74e GetMember
+  Le74f SetMember
+  Le750 Push [[4,1],[7,1],[8,23]]	// ["iwa"]
+  Le75c GetVariable
+  Le75d Push [[8,29]]	// ["setDataProvider"]
+  Le762 CallMethod
+  Le763 Pop
+  Le764 StoreRegister 1
+  Le768 Pop
+Le769 SetMember
+Le76a Push [[4,2],[8,30]]	// ["pbu"]
+Le771 DefineFunction {"function_name":"","parameters":[{"register":0,"name":"Haf"},{"register":0,"name":"kkv"}]}
+  Le781 Push [[8,31]]	// ["kkv"]
+  Le786 GetVariable
+  Le787 Push [[8,32]]	// ["Haf"]
+  Le78c GetVariable
+  Le78d Push [[7,2],[8,6]]	// ["this"]
+  Le797 GetVariable
+  Le798 Push [[8,24]]	// ["utU"]
+  Le79d GetMember
+  Le79e Push [[8,30]]	// ["pbu"]
+  Le7a3 CallMethod
+  Le7a4 Pop
+Le7a5 SetMember
+Le7a6 Push [[4,2],[8,33]]	// ["Hkq"]
+Le7ad DefineFunction {"function_name":"","parameters":[]}
+  Le7b5 Push [[6,0.0],[8,6]]	// ["this"]
+  Le7c3 GetVariable
+  Le7c4 Push [[8,34]]	// ["getLength"]
+  Le7c9 CallMethod
+  Le7ca Return
+Le7cb SetMember
+Le7cc Push [[4,2],[8,34]]	// ["getLength"]
+Le7d3 DefineFunction {"function_name":"","parameters":[]}
+  Le7db Push [[8,6]]	// ["this"]
+  Le7e0 GetVariable
+  Le7e1 Push [[8,24]]	// ["utU"]
+  Le7e6 GetMember
+  Le7e7 Push [[8,35]]	// ["length"]
+  Le7ec GetMember
+  Le7ed Return
+Le7ee SetMember
+Le7ef Push [[4,2],[8,36]]	// ["format"]
+Le7f6 DefineFunction {"function_name":"","parameters":[{"register":0,"name":"yIf"},{"register":0,"name":"fLQ"}]}
+  Le806 Push [[4,1],[4,2],[4,3],[8,37],[7,1],[8,38]]	// ["#", "yIf"]
+  Le818 GetVariable
+  Le819 Push [[8,39]]	// ["split"]
+  Le81e CallMethod
+  Le81f StoreRegister 3
+  Le823 Pop
+  Le824 Push [[8,40],[8,41]]	// ["result", ""]
+  Le82b DefineLocal
+  Le82c Push [[8,42],[4,3],[8,35]]	// ["PVq", "length"]
+  Le835 GetMember
+  Le836 DefineLocal
+  Le837 Push [[3,"undefined"]]
+  Le83b StoreRegister 2
+  Le83f Pop
+  Le840 Push [[6,0.0]]
+  Le84c StoreRegister 1
+  Le850 Pop
+  Le851 Push [[4,1],[8,42]]	// ["PVq"]
+  Le858 GetVariable
+  Le859 Less2
+  Le85a Not
+  Le85b If "Le8be"
+  Le860 Push [[8,40],[8,40]]	// ["result", "result"]
+  Le867 GetVariable
+  Le868 Push [[4,3],[4,1]]
+  Le86f GetMember
+  Le870 Add2
+  Le871 SetVariable
+  Le872 Push [[4,3],[4,1],[7,1]]
+  Le87e Add2
+  Le87f GetMember
+  Le880 StoreRegister 2
+  Le884 Pop
+  Le885 Push [[4,2],[3,"undefined"]]
+  Le88b Equals2
+  Le88c Not
+  Le88d Not
+  Le88e If "Le8a9"
+  Le893 Push [[8,40],[8,40]]	// ["result", "result"]
+  Le89a GetVariable
+  Le89b Push [[8,43]]	// ["fLQ"]
+  Le8a0 GetVariable
+  Le8a1 Push [[4,2]]
+  Le8a6 GetMember
+  Le8a7 Add2
+  Le8a8 SetVariable
+  Le8a9 Push [[4,1],[7,2]]
+  Le8b3 Add2
+  Le8b4 StoreRegister 1
+  Le8b8 Pop
+  Le8b9 Jump "Le851"
+  Le8be Push [[8,40]]	// ["result"]
+  Le8c3 GetVariable
+  Le8c4 Jump "Le8cd"
+  Le8c9 Push [[3,"undefined"]]
+  Le8cd StoreRegister 0
+  Le8d1 Pop
+  Le8d2 StoreRegister 3
+  Le8d6 Pop
+  Le8d7 StoreRegister 2
+  Le8db Pop
+  Le8dc StoreRegister 1
+  Le8e0 Pop
+  Le8e1 Push [[4,0]]
+  Le8e6 Return
+Le8e7 SetMember
+Le8e8 Push [[4,2],[8,22]]	// ["CMl"]
+Le8ef DefineFunction {"function_name":"","parameters":[{"register":0,"name":"Hxt"}]}
+  Le8fb Push [[4,1],[4,2],[8,6]]	// ["this"]
+  Le904 GetVariable
+  Le905 StoreRegister 2
+  Le909 Pop
+  Le90a Push [[8,44]]	// ["Hxt"]
+  Le90f GetVariable
+  Le910 Push [[7,1],[4,2],[8,24]]	// ["utU"]
+  Le91c GetMember
+  Le91d Push [[8,21]]	// ["getItemAt"]
+  Le922 CallMethod
+  Le923 StoreRegister 1
+  Le927 Pop
+  Le928 Push [[4,1],[8,45]]	// ["in progress"]
+  Le92f Equals2
+  Le930 PushDuplicate
+  Le931 If "Le93e"
+  Le936 Pop
+  Le937 Push [[4,1],[3,"undefined"]]
+  Le93d Equals2
+  Le93e Not
+  Le93f If "Le94e"
+  Le944 Push [[4,1]]
+  Le949 Jump "Le9c9"
+  Le94e Push [[8,46],[4,1],[6,0.0],[4,2],[8,11]]	// ["label", "Irg"]
+  Le962 CallMethod
+  Le963 Push [[7,2],[4,2],[8,36]]	// ["format"]
+  Le96f CallMethod
+  Le970 Push [[8,47],[6,0.0],[4,2],[8,15]]	// ["data", "Mnw"]
+  Le982 CallMethod
+  Le983 Push [[2,null]]
+  Le987 Equals2
+  Le988 If "Le9b2"
+  Le98d Push [[4,1],[6,0.0],[4,2],[8,15]]	// ["Mnw"]
+  Le99f CallMethod
+  Le9a0 Push [[7,2],[4,2],[8,36]]	// ["format"]
+  Le9ac CallMethod
+  Le9ad Jump "Le9b7"
+  Le9b2 Push [[4,1]]
+  Le9b7 Push [[7,2]]
+  Le9bf InitObject
+  Le9c0 Jump "Le9c9"
+  Le9c5 Push [[3,"undefined"]]
+  Le9c9 StoreRegister 0
+  Le9cd Pop
+  Le9ce StoreRegister 2
+  Le9d2 Pop
+  Le9d3 StoreRegister 1
+  Le9d7 Pop
+  Le9d8 Push [[4,0]]
+  Le9dd Return
+Le9de SetMember
+Le9df Push [[4,2],[8,28]]	// ["Slp"]
+Le9e6 DefineFunction {"function_name":"","parameters":[{"register":0,"name":"Hxt"}]}
+  Le9f2 Push [[4,1],[8,44]]	// ["Hxt"]
+  Le9f9 GetVariable
+  Le9fa Push [[7,1],[8,6]]	// ["this"]
+  Lea04 GetVariable
+  Lea05 Push [[8,24]]	// ["utU"]
+  Lea0a GetMember
+  Lea0b Push [[8,21]]	// ["getItemAt"]
+  Lea10 CallMethod
+  Lea11 StoreRegister 1
+  Lea15 Pop
+  Lea16 Push [[4,1],[8,45]]	// ["in progress"]
+  Lea1d Equals2
+  Lea1e PushDuplicate
+  Lea1f If "Lea2c"
+  Lea24 Pop
+  Lea25 Push [[4,1],[3,"undefined"]]
+  Lea2b Equals2
+  Lea2c Not
+  Lea2d If "Lea3c"
+  Lea32 Push [[4,1]]
+  Lea37 Jump "Lea58"
+  Lea3c Push [[4,1],[7,1],[8,6]]	// ["this"]
+  Lea48 GetVariable
+  Lea49 Push [[8,26]]	// ["formatFunction"]
+  Lea4e CallMethod
+  Lea4f Jump "Lea58"
+  Lea54 Push [[3,"undefined"]]
+  Lea58 StoreRegister 0
+  Lea5c Pop
+  Lea5d StoreRegister 1
+  Lea61 Pop
+  Lea62 Push [[4,0]]
+  Lea67 Return
+Lea68 SetMember
+Lea69 Push [[4,2],[8,48]]	// ["getItemID"]
+Lea70 DefineFunction {"function_name":"","parameters":[{"register":0,"name":"Hxt"}]}
+  Lea7c Push [[8,44]]	// ["Hxt"]
+  Lea81 GetVariable
+  Lea82 Push [[7,1],[8,6]]	// ["this"]
+  Lea8c GetVariable
+  Lea8d Push [[8,24]]	// ["utU"]
+  Lea92 GetMember
+  Lea93 Push [[8,48]]	// ["getItemID"]
+  Lea98 CallMethod
+  Lea99 Return
+Lea9a SetMember
+Lea9b Push [[4,2],[8,49]]	// ["huo"]
+Leaa2 DefineFunction {"function_name":"","parameters":[{"register":0,"name":"Hxt"},{"register":0,"name":"uZP"}]}
+  Leab2 Push [[8,50]]	// ["uZP"]
+  Leab7 GetVariable
+  Leab8 Push [[8,44]]	// ["Hxt"]
+  Leabd GetVariable
+  Leabe Push [[7,2],[8,6]]	// ["this"]
+  Leac8 GetVariable
+  Leac9 Push [[8,24]]	// ["utU"]
+  Leace GetMember
+  Leacf Push [[8,49]]	// ["huo"]
+  Lead4 CallMethod
+  Lead5 Pop
+Lead6 SetMember
+Lead7 Push [[4,2],[8,51]]	// ["addItem"]
+Leade DefineFunction {"function_name":"","parameters":[{"register":0,"name":"uZP"}]}
+  Leaea Push [[8,50]]	// ["uZP"]
+  Leaef GetVariable
+  Leaf0 Push [[7,1],[8,6]]	// ["this"]
+  Leafa GetVariable
+  Leafb Push [[8,24]]	// ["utU"]
+  Leb00 GetMember
+  Leb01 Push [[8,51]]	// ["addItem"]
+  Leb06 CallMethod
+  Leb07 Pop
+Leb08 SetMember
+Leb09 Push [[4,2],[8,52]]	// ["removeItemAt"]
+Leb10 DefineFunction {"function_name":"","parameters":[{"register":0,"name":"Hxt"}]}
+  Leb1c Push [[8,44]]	// ["Hxt"]
+  Leb21 GetVariable
+  Leb22 Push [[7,1],[8,6]]	// ["this"]
+  Leb2c GetVariable
+  Leb2d Push [[8,24]]	// ["utU"]
+  Leb32 GetMember
+  Leb33 Push [[8,52]]	// ["removeItemAt"]
+  Leb38 CallMethod
+  Leb39 Pop
+Leb3a SetMember
+Leb3b Push [[4,2],[8,53]]	// ["removeAll"]
+Leb42 DefineFunction {"function_name":"","parameters":[]}
+  Leb4a Push [[6,0.0],[8,6]]	// ["this"]
+  Leb58 GetVariable
+  Leb59 Push [[8,24]]	// ["utU"]
+  Leb5e GetMember
+  Leb5f Push [[8,53]]	// ["removeAll"]
+  Leb64 CallMethod
+  Leb65 Pop
+Leb66 SetMember
+Leb67 Push [[4,2],[8,54]]	// ["replaceItemAt"]
+Leb6e DefineFunction {"function_name":"","parameters":[{"register":0,"name":"Hxt"},{"register":0,"name":"cNm"}]}
+  Leb7e Push [[8,55]]	// ["cNm"]
+  Leb83 GetVariable
+  Leb84 Push [[8,44]]	// ["Hxt"]
+  Leb89 GetVariable
+  Leb8a Push [[7,2],[8,6]]	// ["this"]
+  Leb94 GetVariable
+  Leb95 Push [[8,24]]	// ["utU"]
+  Leb9a GetMember
+  Leb9b Push [[8,54]]	// ["replaceItemAt"]
+  Leba0 CallMethod
+  Leba1 Pop
+Leba2 SetMember
+Leba3 Push [[4,2],[8,56]]	// ["sortItemsBy"]
+Lebaa DefineFunction {"function_name":"","parameters":[{"register":0,"name":"Njc"},{"register":0,"name":"xpc"}]}
+  Lebba Push [[8,57]]	// ["xpc"]
+  Lebbf GetVariable
+  Lebc0 Push [[8,58]]	// ["Njc"]
+  Lebc5 GetVariable
+  Lebc6 Push [[7,2],[8,6]]	// ["this"]
+  Lebd0 GetVariable
+  Lebd1 Push [[8,24]]	// ["utU"]
+  Lebd6 GetMember
+  Lebd7 Push [[8,56]]	// ["sortItemsBy"]
+  Lebdc CallMethod
+  Lebdd Pop
+Lebde SetMember
+Lebdf Push [[4,2],[8,59]]	// ["sortItems"]
+Lebe6 DefineFunction {"function_name":"","parameters":[{"register":0,"name":"Zeb"},{"register":0,"name":"xpc"}]}
+  Lebf6 Push [[8,57]]	// ["xpc"]
+  Lebfb GetVariable
+  Lebfc Push [[8,60]]	// ["Zeb"]
+  Lec01 GetVariable
+  Lec02 Push [[7,2],[8,6]]	// ["this"]
+  Lec0c GetVariable
+  Lec0d Push [[8,24]]	// ["utU"]
+  Lec12 GetMember
+  Lec13 Push [[8,59]]	// ["sortItems"]
+  Lec18 CallMethod
+  Lec19 Pop
+Lec1a SetMember
+Lec1b Push [[4,1],[8,61],[8,62]]	// ["VEZ", "1.2.0.124"]
+Lec24 SetMember
+Lec25 DefineFunction {"function_name":"","parameters":[]}
+Lec2d Push [[4,2],[8,10]]	// ["fJY"]
+Lec34 GetMember
+Lec35 Push [[8,24],[7,3],[4,2],[8,63]]	// ["utU", "addProperty"]
+Lec43 CallMethod
+Lec44 Push [[4,2],[8,17]]	// ["RrK"]
+Lec4b GetMember
+Lec4c Push [[4,2],[8,15]]	// ["Mnw"]
+Lec53 GetMember
+Lec54 Push [[8,64],[7,3],[4,2],[8,63]]	// ["dataString", "addProperty"]
+Lec62 CallMethod
+Lec63 Push [[4,2],[8,13]]	// ["seN"]
+Lec6a GetMember
+Lec6b Push [[4,2],[8,11]]	// ["Irg"]
+Lec72 GetMember
+Lec73 Push [[8,65],[7,3],[4,2],[8,63]]	// ["labelString", "addProperty"]
+Lec81 CallMethod
+Lec82 DefineFunction {"function_name":"","parameters":[]}
+Lec8a Push [[4,2],[8,33]]	// ["Hkq"]
+Lec91 GetMember
+Lec92 Push [[8,35],[7,3],[4,2],[8,63]]	// ["length", "addProperty"]
+Leca0 CallMethod
+Leca1 Push [[7,1],[2,null],[8,1]]	// ["mx"]
+Lecac GetVariable
+Lecad Push [[8,3]]	// ["remoting"]
+Lecb2 GetMember
+Lecb3 Push [[8,4]]	// ["DataGlue"]
+Lecb8 GetMember
+Lecb9 Push [[8,9]]	// ["prototype"]
+Lecbe GetMember
+Lecbf Push [[7,3],[8,66]]	// ["ASSetPropFlags"]
+Lecc9 CallFunction
+Lecca Pop
+Leccb End

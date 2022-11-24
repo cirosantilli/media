@@ -1,0 +1,22 @@
+{
+  "weather": {
+    "capture": "information-junky.com/20110201160020/infoweather.jar",
+    "sha256": "25fd7af53dde40abdc9495cccd4a6a8a7fbb81d8ed833259be9e3638734ff0cb"
+  },
+  "bandwidth-meter": {
+    "capture": "worldofonlinenews.com/20110210051552/world.jar",
+    "sha256": "0a88aeab4328b4f1ec449ba53ae45625a61a4624d26034479f6fa056af73bad2"
+  },
+  "bandwidth-meter-no-bw-properties": {
+    "capture": "factorforcenews.com/20110202125321/factorspeed.jar",
+    "sha256": "7681a0f61a657f40db8bc64f6b45bfe00a9c0c6c5cd608b03016c3ee68c9b784"
+  },
+  "content-transport": {
+    "capture": "worldfinancetoday.net/20110107091649/slides.jar",
+    "sha256": "d384371f3bbe444908a57a720b1d96fe305e1608fcd8ab97f40020ad3cdc5cfd"
+  },
+  "js-content-transport": {
+    "capture": "aeronet-news.com/20110202122601/aeronet.jar",
+    "sha256": "9947fd8c260e5330fedfedea4fba5387d1bc7e851e0641f803ae6aa408a660a8"
+  }
+}

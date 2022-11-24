@@ -1,0 +1,109 @@
+// __Packages.GAH in worlddispatch.swf, tag at 0x5987
+L598f ConstantPool ["_global","GAH","Ker","AfT","VaC","kdz","Oij","prototype","mx","rpc","Responder","mmn","onResult","push","apply","onFault","ASSetPropFlags"]
+L59fe Push [[8,0]]	// ["_global"]
+L5a03 GetVariable
+L5a04 Push [[8,1]]	// ["GAH"]
+L5a09 GetMember
+L5a0a Not
+L5a0b Not
+L5a0c If "L5bd5"
+L5a11 Push [[8,0]]	// ["_global"]
+L5a16 GetVariable
+L5a17 Push [[8,1]]	// ["GAH"]
+L5a1c DefineFunction2 {"function_name":"","register_count":5,"flags":41,"parameters":[{"register":2,"name":"responder"},{"register":3,"name":"mjp"},{"register":4,"name":"lLF"}]}
+  L5a3c Push [[4,1],[8,2],[4,2]]	// ["Ker"]
+  L5a45 SetMember
+  L5a46 Push [[4,1],[8,3],[4,2],[4,3]]	// ["AfT"]
+  L5a51 GetMember
+  L5a52 SetMember
+  L5a53 Push [[4,1],[8,4],[4,2],[4,4]]	// ["VaC"]
+  L5a5e GetMember
+  L5a5f SetMember
+  L5a60 Push [[4,1],[8,5],[8,1]]	// ["kdz", "GAH"]
+  L5a69 GetVariable
+  L5a6a Push [[8,6]]	// ["Oij"]
+  L5a6f GetMember
+  L5a70 Push [[8,1]]	// ["GAH"]
+  L5a75 GetVariable
+  L5a76 Push [[8,6],[8,1]]	// ["Oij", "GAH"]
+  L5a7d GetVariable
+  L5a7e Push [[8,6]]	// ["Oij"]
+  L5a83 GetMember
+  L5a84 Increment
+  L5a85 SetMember
+  L5a86 SetMember
+L5a87 StoreRegister 0
+L5a8b SetMember
+L5a8c Push [[4,0],[8,7]]	// ["prototype"]
+L5a93 GetMember
+L5a94 StoreRegister 1
+L5a98 Pop
+L5a99 Push [[8,0]]	// ["_global"]
+L5a9e GetVariable
+L5a9f Push [[8,8]]	// ["mx"]
+L5aa4 GetMember
+L5aa5 Push [[8,9]]	// ["rpc"]
+L5aaa GetMember
+L5aab Push [[8,10]]	// ["Responder"]
+L5ab0 GetMember
+L5ab1 Push [[7,1],[8,0]]	// ["_global"]
+L5abb GetVariable
+L5abc Push [[8,1]]	// ["GAH"]
+L5ac1 GetMember
+L5ac2 ImplementsOp
+L5ac3 Push [[4,1],[8,11]]	// ["mmn"]
+L5aca DefineFunction2 {"function_name":"","register_count":2,"flags":41,"parameters":[]}
+  L5ad5 Push [[4,1],[8,5]]	// ["kdz"]
+  L5adc GetMember
+  L5add Return
+L5ade SetMember
+L5adf Push [[4,1],[8,12]]	// ["onResult"]
+L5ae6 DefineFunction2 {"function_name":"","register_count":3,"flags":37,"parameters":[{"register":0,"name":"re"}]}
+  L5af5 Push [[4,1],[8,5]]	// ["kdz"]
+  L5afc GetMember
+  L5afd Push [[7,1],[4,2],[8,13]]	// ["push"]
+  L5b09 CallMethod
+  L5b0a Pop
+  L5b0b Push [[4,2],[4,1],[8,2]]	// ["Ker"]
+  L5b14 GetMember
+  L5b15 Push [[7,2],[4,1],[8,3]]	// ["AfT"]
+  L5b21 GetMember
+  L5b22 Push [[8,14]]	// ["apply"]
+  L5b27 CallMethod
+  L5b28 Pop
+L5b29 SetMember
+L5b2a Push [[4,1],[8,15]]	// ["onFault"]
+L5b31 DefineFunction2 {"function_name":"","register_count":3,"flags":37,"parameters":[{"register":0,"name":"fe"}]}
+  L5b40 Push [[4,1],[8,5]]	// ["kdz"]
+  L5b47 GetMember
+  L5b48 Push [[7,1],[4,2],[8,13]]	// ["push"]
+  L5b54 CallMethod
+  L5b55 Pop
+  L5b56 Push [[4,2],[4,1],[8,2]]	// ["Ker"]
+  L5b5f GetMember
+  L5b60 Push [[7,2],[4,1],[8,4]]	// ["VaC"]
+  L5b6c GetMember
+  L5b6d Push [[8,14]]	// ["apply"]
+  L5b72 CallMethod
+  L5b73 Pop
+L5b74 SetMember
+L5b75 Push [[4,0],[8,6],[6,0.0]]	// ["Oij"]
+L5b85 SetMember
+L5b86 Push [[4,1],[8,5],[6,0.0]]	// ["kdz"]
+L5b96 SetMember
+L5b97 Push [[4,1],[8,2],[2,null]]	// ["Ker"]
+L5b9f SetMember
+L5ba0 Push [[4,1],[8,3],[2,null]]	// ["AfT"]
+L5ba8 SetMember
+L5ba9 Push [[4,1],[8,4],[2,null]]	// ["VaC"]
+L5bb1 SetMember
+L5bb2 Push [[7,1],[2,null],[8,0]]	// ["_global"]
+L5bbd GetVariable
+L5bbe Push [[8,1]]	// ["GAH"]
+L5bc3 GetMember
+L5bc4 Push [[8,7]]	// ["prototype"]
+L5bc9 GetMember
+L5bca Push [[7,3],[8,16]]	// ["ASSetPropFlags"]
+L5bd4 CallFunction
+L5bd5 Pop
+L5bd6 End

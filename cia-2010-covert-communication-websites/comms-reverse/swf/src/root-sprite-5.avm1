@@ -1,0 +1,7 @@
+// root/sprite:5 in worlddispatch.swf, tag at 0x50f
+L511 Push [[0,"Bab"]]
+L519 GetVariable
+L51a Push [[0,"_visible"],[5,0]]
+L529 SetMember
+L52a Stop
+L52b End

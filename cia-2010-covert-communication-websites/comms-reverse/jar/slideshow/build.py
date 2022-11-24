@@ -1,8 +1,9 @@
 #!/usr/bin/env python3
-"""Build either display applet against its archived protocol bytecode."""
+"""Build a display applet against its archived protocol bytecode."""
 
 import argparse
 import hashlib
+import json
 import re
 import shutil
 import struct
@@ -22,6 +23,8 @@ class SiteBuild:
     applet_class: str
     wire_namespace: str
     sha256: str
+    config_path: str = 'c/a/e/Applet.properties'
+    hold_activation: bool = False
 
 
 SITES = {
@@ -33,6 +36,11 @@ SITES = {
         '20110201140115/headlines.jar', 'ftkj.xzb.uujr.rvcp', 'ftkj/xzb/bvw/',
         '69f76966399590f06163dfb2c9334c3c345c815d526b32845f226926793bfaa1',
     ),
+    'half-court.net': SiteBuild(
+        '20101229100220/basket.jar', 'timeout.whistle.side.basketApplet', 'timeout/whistle/ball/',
+        'd9c3ef450f19b880396e1a3d3e70263e4a395bfe4986c872bd8f09d16fea7959',
+        config_path='b/b/d/Applet.properties', hold_activation=True,
+    ),
 }
 RUNTIME_ROOTS = {
     'a/a/g/a/d/b', 'a/a/i/a/a', 'a/a/i/a/b', 'c/a/a/b', 'c/a/d/a/h',
@@ -41,7 +49,31 @@ RUNTIME_ROOTS = {
     'c/a/g/b', 'c/b/i/m', 'c/b/i/r', 'c/b/m/c', 'c/b/m/f', 'c/b/n/a/a',
     'c/b/o/a/h', 'c/b/e/b/d',
 }
-CONFIG = 'c/a/e/Applet.properties'
+EARLIER_RUNTIME_OMISSIONS = {'a/a/g/a/d/b', 'c/a/d/a/h'}
+
+
+def site_sources(work, sources, site, type_map):
+    variant = work / 'ArchiveVariant.java'
+    hold = str(site.hold_activation).lower()
+    variant.write_text(
+        'package replay.display;\n'
+        'final class ArchiveVariant {\n'
+        f'    static final boolean HOLD_ACTIVATION = {hold};\n'
+        '}\n',
+        encoding='utf-8',
+    )
+    if not type_map:
+        return [*sources, variant]
+    # Translate reflection names in the new sources while retaining the old
+    # JAR's actual class names and serialized descriptors in the output.
+    translated = []
+    for source in sources:
+        path = work / source.name
+        code = re.sub(r'[abc](?:\.[a-z]+)+', lambda m: type_map.get(m[0], m[0]),
+                      source.read_text(encoding='utf-8'))
+        path.write_text(code, encoding='utf-8')
+        translated.append(path)
+    return [*translated, variant]
 
 
 def constant_strings(data):
@@ -93,10 +125,11 @@ def main():
         parser.error(f'Unexpected archive digest for {archive_path}')
     output = args.output or PROJECT / 'build' / args.domain / archive_path.name
     sources = sorted((PROJECT / 'src').rglob('*.java'))
+    type_map = json.loads((PROJECT / 'half-court-types.json').read_text()) if site.hold_activation else {}
     with tempfile.TemporaryDirectory(prefix='display-build-') as directory, zipfile.ZipFile(archive_path) as archive:
         work = Path(directory)
-        # Preserve the applet class named by the archived HTML. Both entry
-        # points delegate to the same implementation and load Applet.properties.
+        # Preserve the applet class named by the archived HTML. The entry
+        # points share the new presentation and load the original configuration.
         package, _, name = site.applet_class.rpartition('.')
         entry = work / (name + '.java')
         entry.write_text(
@@ -107,16 +140,21 @@ def main():
         compiled = work / 'classes'
         compiled.mkdir()
         subprocess.run([javac, '-encoding', 'UTF-8', '-source', '8', '-target', '8',
-                        '-d', str(compiled), *map(str, sources), str(entry)], check=True)
+                        '-d', str(compiled), *map(str, site_sources(work, sources, site, type_map)),
+                        str(entry)], check=True)
         classes = {name.removesuffix('.class'): archive.read(name)
                    for name in archive.namelist() if name.endswith('.class')}
         # These per-domain classes can be resolved by name during deserialization.
-        roots = RUNTIME_ROOTS | {name for name in classes if name.startswith(site.wire_namespace)}
+        runtime_roots = RUNTIME_ROOTS
+        if type_map:
+            runtime_roots = {type_map.get(name.replace('/', '.'), name).replace('.', '/')
+                             for name in runtime_roots - EARLIER_RUNTIME_OMISSIONS}
+        roots = runtime_roots | {name for name in classes if name.startswith(site.wire_namespace)}
         selected = dependencies(classes, roots)
         output.parent.mkdir(parents=True, exist_ok=True)
         with zipfile.ZipFile(output, 'w', compression=zipfile.ZIP_DEFLATED) as jar:
             jar.writestr('META-INF/MANIFEST.MF', 'Manifest-Version: 1.0\r\n\r\n')
-            jar.writestr(CONFIG, archive.read(CONFIG))
+            jar.writestr(site.config_path, archive.read(site.config_path))
             for name in sorted(selected):
                 jar.writestr(name + '.class', classes[name])
             for path in sorted(compiled.rglob('*.class')):

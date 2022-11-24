@@ -1,0 +1,134 @@
+// __Packages.mx.transitions.easing.None in worlddispatch.swf, tag at 0x952a
+L9532 ConstantPool ["_global","mx","Object","transitions","easing","None","prototype","easeNone","easeIn","easeOut","easeInOut","ASSetPropFlags"]
+L959c Push [[8,0]]	// ["_global"]
+L95a1 GetVariable
+L95a2 Push [[8,1]]	// ["mx"]
+L95a7 GetMember
+L95a8 Not
+L95a9 Not
+L95aa If "L95c7"
+L95af Push [[8,0]]	// ["_global"]
+L95b4 GetVariable
+L95b5 Push [[8,1],[6,0.0],[8,2]]	// ["mx", "Object"]
+L95c5 NewObject
+L95c6 SetMember
+L95c7 Pop
+L95c8 Push [[8,0]]	// ["_global"]
+L95cd GetVariable
+L95ce Push [[8,1]]	// ["mx"]
+L95d3 GetMember
+L95d4 Push [[8,3]]	// ["transitions"]
+L95d9 GetMember
+L95da Not
+L95db Not
+L95dc If "L95ff"
+L95e1 Push [[8,0]]	// ["_global"]
+L95e6 GetVariable
+L95e7 Push [[8,1]]	// ["mx"]
+L95ec GetMember
+L95ed Push [[8,3],[6,0.0],[8,2]]	// ["transitions", "Object"]
+L95fd NewObject
+L95fe SetMember
+L95ff Pop
+L9600 Push [[8,0]]	// ["_global"]
+L9605 GetVariable
+L9606 Push [[8,1]]	// ["mx"]
+L960b GetMember
+L960c Push [[8,3]]	// ["transitions"]
+L9611 GetMember
+L9612 Push [[8,4]]	// ["easing"]
+L9617 GetMember
+L9618 Not
+L9619 Not
+L961a If "L9643"
+L961f Push [[8,0]]	// ["_global"]
+L9624 GetVariable
+L9625 Push [[8,1]]	// ["mx"]
+L962a GetMember
+L962b Push [[8,3]]	// ["transitions"]
+L9630 GetMember
+L9631 Push [[8,4],[6,0.0],[8,2]]	// ["easing", "Object"]
+L9641 NewObject
+L9642 SetMember
+L9643 Pop
+L9644 Push [[8,0]]	// ["_global"]
+L9649 GetVariable
+L964a Push [[8,1]]	// ["mx"]
+L964f GetMember
+L9650 Push [[8,3]]	// ["transitions"]
+L9655 GetMember
+L9656 Push [[8,4]]	// ["easing"]
+L965b GetMember
+L965c Push [[8,5]]	// ["None"]
+L9661 GetMember
+L9662 Not
+L9663 Not
+L9664 If "L9799"
+L9669 Push [[8,1]]	// ["mx"]
+L966e GetVariable
+L966f Push [[8,3]]	// ["transitions"]
+L9674 GetMember
+L9675 Push [[8,4]]	// ["easing"]
+L967a GetMember
+L967b Push [[8,5]]	// ["None"]
+L9680 DefineFunction {"function_name":"","parameters":[]}
+L9688 StoreRegister 0
+L968c SetMember
+L968d Push [[4,0],[8,6]]	// ["prototype"]
+L9694 GetMember
+L9695 StoreRegister 1
+L9699 Pop
+L969a Push [[4,0],[8,7]]	// ["easeNone"]
+L96a1 DefineFunction2 {"function_name":"","register_count":5,"flags":42,"parameters":[{"register":2,"name":"t"},{"register":4,"name":"b"},{"register":3,"name":"c"},{"register":1,"name":"d"}]}
+  L96b8 Push [[4,3],[4,2]]
+  L96bf Multiply
+  L96c0 Push [[4,1]]
+  L96c5 Divide
+  L96c6 Push [[4,4]]
+  L96cb Add2
+  L96cc Return
+L96cd SetMember
+L96ce Push [[4,0],[8,8]]	// ["easeIn"]
+L96d5 DefineFunction2 {"function_name":"","register_count":5,"flags":42,"parameters":[{"register":2,"name":"t"},{"register":4,"name":"b"},{"register":3,"name":"c"},{"register":1,"name":"d"}]}
+  L96ec Push [[4,3],[4,2]]
+  L96f3 Multiply
+  L96f4 Push [[4,1]]
+  L96f9 Divide
+  L96fa Push [[4,4]]
+  L96ff Add2
+  L9700 Return
+L9701 SetMember
+L9702 Push [[4,0],[8,9]]	// ["easeOut"]
+L9709 DefineFunction2 {"function_name":"","register_count":5,"flags":42,"parameters":[{"register":2,"name":"t"},{"register":4,"name":"b"},{"register":3,"name":"c"},{"register":1,"name":"d"}]}
+  L9720 Push [[4,3],[4,2]]
+  L9727 Multiply
+  L9728 Push [[4,1]]
+  L972d Divide
+  L972e Push [[4,4]]
+  L9733 Add2
+  L9734 Return
+L9735 SetMember
+L9736 Push [[4,0],[8,10]]	// ["easeInOut"]
+L973d DefineFunction2 {"function_name":"","register_count":5,"flags":42,"parameters":[{"register":2,"name":"t"},{"register":4,"name":"b"},{"register":3,"name":"c"},{"register":1,"name":"d"}]}
+  L9754 Push [[4,3],[4,2]]
+  L975b Multiply
+  L975c Push [[4,1]]
+  L9761 Divide
+  L9762 Push [[4,4]]
+  L9767 Add2
+  L9768 Return
+L9769 SetMember
+L976a Push [[7,1],[2,null],[8,1]]	// ["mx"]
+L9775 GetVariable
+L9776 Push [[8,3]]	// ["transitions"]
+L977b GetMember
+L977c Push [[8,4]]	// ["easing"]
+L9781 GetMember
+L9782 Push [[8,5]]	// ["None"]
+L9787 GetMember
+L9788 Push [[8,6]]	// ["prototype"]
+L978d GetMember
+L978e Push [[7,3],[8,11]]	// ["ASSetPropFlags"]
+L9798 CallFunction
+L9799 Pop
+L979a End

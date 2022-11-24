@@ -1,0 +1,132 @@
+// __Packages.AUx in worlddispatch.swf, tag at 0x77b2
+L77ba ConstantPool ["_global","AUx","cbM","isX","prototype","onLoadInit","HZl","k","_width","p","_height","j","_x","m","_y","q","g","_parent","xmi","eJy","n","uNN","ASSetPropFlags"]
+L7832 Push [[8,0]]	// ["_global"]
+L7837 GetVariable
+L7838 Push [[8,1]]	// ["AUx"]
+L783d GetMember
+L783e Not
+L783f Not
+L7840 If "L7a2f"
+L7845 Push [[8,0]]	// ["_global"]
+L784a GetVariable
+L784b Push [[8,1]]	// ["AUx"]
+L7850 DefineFunction2 {"function_name":"","register_count":4,"flags":41,"parameters":[{"register":3,"name":"container"},{"register":2,"name":"movie"}]}
+  L786d Push [[4,1],[8,2],[4,3]]	// ["cbM"]
+  L7876 SetMember
+  L7877 Push [[4,1],[8,3],[4,2]]	// ["isX"]
+  L7880 SetMember
+L7881 StoreRegister 0
+L7885 SetMember
+L7886 Push [[4,0],[8,4]]	// ["prototype"]
+L788d GetMember
+L788e StoreRegister 1
+L7892 Pop
+L7893 Push [[4,1],[8,5]]	// ["onLoadInit"]
+L789a DefineFunction2 {"function_name":"","register_count":3,"flags":41,"parameters":[{"register":2,"name":"emu"}]}
+  L78aa Push [[4,1],[8,2]]	// ["cbM"]
+  L78b1 GetMember
+  L78b2 Push [[4,2]]
+  L78b7 Equals2
+  L78b8 Not
+  L78b9 Not
+  L78ba If "L78c4"
+  L78bf Push [[3,"undefined"]]
+  L78c3 Return
+  L78c4 Push [[4,1],[7,1],[4,1],[8,6]]	// ["HZl"]
+  L78d2 CallMethod
+  L78d3 Pop
+  L78d4 Push [[4,1],[8,3]]	// ["isX"]
+  L78db GetMember
+  L78dc Push [[8,7]]	// ["k"]
+  L78e1 GetMember
+  L78e2 Push [[6,0.0]]
+  L78ee Greater
+  L78ef Not
+  L78f0 If "L7908"
+  L78f5 Push [[4,2],[8,8],[4,1],[8,3]]	// ["_width", "isX"]
+  L7900 GetMember
+  L7901 Push [[8,7]]	// ["k"]
+  L7906 GetMember
+  L7907 SetMember
+  L7908 Push [[4,1],[8,3]]	// ["isX"]
+  L790f GetMember
+  L7910 Push [[8,9]]	// ["p"]
+  L7915 GetMember
+  L7916 Push [[6,0.0]]
+  L7922 Greater
+  L7923 Not
+  L7924 If "L793c"
+  L7929 Push [[4,2],[8,10],[4,1],[8,3]]	// ["_height", "isX"]
+  L7934 GetMember
+  L7935 Push [[8,9]]	// ["p"]
+  L793a GetMember
+  L793b SetMember
+  L793c Push [[3,"undefined"],[4,1],[8,3]]	// ["isX"]
+  L7944 GetMember
+  L7945 Push [[8,11]]	// ["j"]
+  L794a GetMember
+  L794b Equals2
+  L794c Not
+  L794d Not
+  L794e If "L7966"
+  L7953 Push [[4,2],[8,12],[4,1],[8,3]]	// ["_x", "isX"]
+  L795e GetMember
+  L795f Push [[8,11]]	// ["j"]
+  L7964 GetMember
+  L7965 SetMember
+  L7966 Push [[3,"undefined"],[4,1],[8,3]]	// ["isX"]
+  L796e GetMember
+  L796f Push [[8,13]]	// ["m"]
+  L7974 GetMember
+  L7975 Equals2
+  L7976 Not
+  L7977 Not
+  L7978 If "L7990"
+  L797d Push [[4,2],[8,14],[4,1],[8,3]]	// ["_y", "isX"]
+  L7988 GetMember
+  L7989 Push [[8,13]]	// ["m"]
+  L798e GetMember
+  L798f SetMember
+  L7990 Push [[4,1],[8,3]]	// ["isX"]
+  L7997 GetMember
+  L7998 Push [[8,15]]	// ["q"]
+  L799d GetMember
+  L799e Push [[4,1],[8,3]]	// ["isX"]
+  L79a5 GetMember
+  L79a6 Push [[8,16]]	// ["g"]
+  L79ab GetMember
+  L79ac Push [[4,2],[4,1],[8,2]]	// ["cbM"]
+  L79b5 GetMember
+  L79b6 Push [[8,17]]	// ["_parent"]
+  L79bb GetMember
+  L79bc Push [[7,4],[8,18]]	// ["xmi"]
+  L79c6 GetVariable
+  L79c7 Push [[8,19]]	// ["eJy"]
+  L79cc CallMethod
+  L79cd Pop
+  L79ce Push [[4,1],[8,3]]	// ["isX"]
+  L79d5 GetMember
+  L79d6 Push [[8,20]]	// ["n"]
+  L79db GetMember
+  L79dc Push [[4,2],[7,2],[8,18]]	// ["xmi"]
+  L79e8 GetVariable
+  L79e9 Push [[8,21]]	// ["uNN"]
+  L79ee CallMethod
+  L79ef Pop
+L79f0 SetMember
+L79f1 Push [[4,1],[8,2],[3,"undefined"]]	// ["cbM"]
+L79f9 SetMember
+L79fa Push [[4,1],[8,3],[3,"undefined"]]	// ["isX"]
+L7a02 SetMember
+L7a03 Push [[4,1],[8,6],[2,null]]	// ["HZl"]
+L7a0b SetMember
+L7a0c Push [[7,1],[2,null],[8,0]]	// ["_global"]
+L7a17 GetVariable
+L7a18 Push [[8,1]]	// ["AUx"]
+L7a1d GetMember
+L7a1e Push [[8,4]]	// ["prototype"]
+L7a23 GetMember
+L7a24 Push [[7,3],[8,22]]	// ["ASSetPropFlags"]
+L7a2e CallFunction
+L7a2f Pop
+L7a30 End

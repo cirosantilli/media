@@ -1,0 +1,226 @@
+// __Packages.mx.transitions.easing.Bounce in worlddispatch.swf, tag at 0x8dcb
+L8dd3 ConstantPool ["_global","mx","Object","transitions","easing","Bounce","prototype","easeOut","easeIn","easeInOut","ASSetPropFlags"]
+L8e36 Push [[8,0]]	// ["_global"]
+L8e3b GetVariable
+L8e3c Push [[8,1]]	// ["mx"]
+L8e41 GetMember
+L8e42 Not
+L8e43 Not
+L8e44 If "L8e61"
+L8e49 Push [[8,0]]	// ["_global"]
+L8e4e GetVariable
+L8e4f Push [[8,1],[6,0.0],[8,2]]	// ["mx", "Object"]
+L8e5f NewObject
+L8e60 SetMember
+L8e61 Pop
+L8e62 Push [[8,0]]	// ["_global"]
+L8e67 GetVariable
+L8e68 Push [[8,1]]	// ["mx"]
+L8e6d GetMember
+L8e6e Push [[8,3]]	// ["transitions"]
+L8e73 GetMember
+L8e74 Not
+L8e75 Not
+L8e76 If "L8e99"
+L8e7b Push [[8,0]]	// ["_global"]
+L8e80 GetVariable
+L8e81 Push [[8,1]]	// ["mx"]
+L8e86 GetMember
+L8e87 Push [[8,3],[6,0.0],[8,2]]	// ["transitions", "Object"]
+L8e97 NewObject
+L8e98 SetMember
+L8e99 Pop
+L8e9a Push [[8,0]]	// ["_global"]
+L8e9f GetVariable
+L8ea0 Push [[8,1]]	// ["mx"]
+L8ea5 GetMember
+L8ea6 Push [[8,3]]	// ["transitions"]
+L8eab GetMember
+L8eac Push [[8,4]]	// ["easing"]
+L8eb1 GetMember
+L8eb2 Not
+L8eb3 Not
+L8eb4 If "L8edd"
+L8eb9 Push [[8,0]]	// ["_global"]
+L8ebe GetVariable
+L8ebf Push [[8,1]]	// ["mx"]
+L8ec4 GetMember
+L8ec5 Push [[8,3]]	// ["transitions"]
+L8eca GetMember
+L8ecb Push [[8,4],[6,0.0],[8,2]]	// ["easing", "Object"]
+L8edb NewObject
+L8edc SetMember
+L8edd Pop
+L8ede Push [[8,0]]	// ["_global"]
+L8ee3 GetVariable
+L8ee4 Push [[8,1]]	// ["mx"]
+L8ee9 GetMember
+L8eea Push [[8,3]]	// ["transitions"]
+L8eef GetMember
+L8ef0 Push [[8,4]]	// ["easing"]
+L8ef5 GetMember
+L8ef6 Push [[8,5]]	// ["Bounce"]
+L8efb GetMember
+L8efc Not
+L8efd Not
+L8efe If "L91f4"
+L8f03 Push [[8,1]]	// ["mx"]
+L8f08 GetVariable
+L8f09 Push [[8,3]]	// ["transitions"]
+L8f0e GetMember
+L8f0f Push [[8,4]]	// ["easing"]
+L8f14 GetMember
+L8f15 Push [[8,5]]	// ["Bounce"]
+L8f1a DefineFunction {"function_name":"","parameters":[]}
+L8f22 StoreRegister 0
+L8f26 SetMember
+L8f27 Push [[4,0],[8,6]]	// ["prototype"]
+L8f2e GetMember
+L8f2f StoreRegister 1
+L8f33 Pop
+L8f34 Push [[4,0],[8,7]]	// ["easeOut"]
+L8f3b DefineFunction2 {"function_name":"","register_count":5,"flags":42,"parameters":[{"register":1,"name":"t"},{"register":3,"name":"b"},{"register":2,"name":"c"},{"register":4,"name":"d"}]}
+  L8f52 Push [[4,1],[4,4]]
+  L8f59 Divide
+  L8f5a StoreRegister 1
+  L8f5e Push [[6,0.3636363636363636]]
+  L8f6a Less2
+  L8f6b Not
+  L8f6c If "L8f95"
+  L8f71 Push [[4,2],[6,7.5625],[4,1]]
+  L8f81 Multiply
+  L8f82 Push [[4,1]]
+  L8f87 Multiply
+  L8f88 Multiply
+  L8f89 Push [[4,3]]
+  L8f8e Add2
+  L8f8f Return
+  L8f90 Jump "L9077"
+  L8f95 Push [[4,1],[6,0.7272727272727273]]
+  L8fa3 Less2
+  L8fa4 Not
+  L8fa5 If "L8fe9"
+  L8faa Push [[4,2],[6,7.5625],[4,1],[6,0.5454545454545454]]
+  L8fc3 Subtract
+  L8fc4 StoreRegister 1
+  L8fc8 Multiply
+  L8fc9 Push [[4,1]]
+  L8fce Multiply
+  L8fcf Push [[6,0.75]]
+  L8fdb Add2
+  L8fdc Multiply
+  L8fdd Push [[4,3]]
+  L8fe2 Add2
+  L8fe3 Return
+  L8fe4 Jump "L9077"
+  L8fe9 Push [[4,1],[6,0.9090909090909091]]
+  L8ff7 Less2
+  L8ff8 Not
+  L8ff9 If "L903d"
+  L8ffe Push [[4,2],[6,7.5625],[4,1],[6,0.8181818181818182]]
+  L9017 Subtract
+  L9018 StoreRegister 1
+  L901c Multiply
+  L901d Push [[4,1]]
+  L9022 Multiply
+  L9023 Push [[6,0.9375]]
+  L902f Add2
+  L9030 Multiply
+  L9031 Push [[4,3]]
+  L9036 Add2
+  L9037 Return
+  L9038 Jump "L9077"
+  L903d Push [[4,2],[6,7.5625],[4,1],[6,0.9545454545454546]]
+  L9056 Subtract
+  L9057 StoreRegister 1
+  L905b Multiply
+  L905c Push [[4,1]]
+  L9061 Multiply
+  L9062 Push [[6,0.984375]]
+  L906e Add2
+  L906f Multiply
+  L9070 Push [[4,3]]
+  L9075 Add2
+  L9076 Return
+L9077 SetMember
+L9078 Push [[4,0],[8,8]]	// ["easeIn"]
+L907f DefineFunction2 {"function_name":"","register_count":5,"flags":42,"parameters":[{"register":3,"name":"t"},{"register":4,"name":"b"},{"register":2,"name":"c"},{"register":1,"name":"d"}]}
+  L9096 Push [[4,2],[4,1],[4,2],[6,0.0],[4,1],[4,3]]
+  L90ac Subtract
+  L90ad Push [[7,4],[8,1]]	// ["mx"]
+  L90b7 GetVariable
+  L90b8 Push [[8,3]]	// ["transitions"]
+  L90bd GetMember
+  L90be Push [[8,4]]	// ["easing"]
+  L90c3 GetMember
+  L90c4 Push [[8,5]]	// ["Bounce"]
+  L90c9 GetMember
+  L90ca Push [[8,7]]	// ["easeOut"]
+  L90cf CallMethod
+  L90d0 Subtract
+  L90d1 Push [[4,4]]
+  L90d6 Add2
+  L90d7 Return
+L90d8 SetMember
+L90d9 Push [[4,0],[8,9]]	// ["easeInOut"]
+L90e0 DefineFunction2 {"function_name":"","register_count":5,"flags":42,"parameters":[{"register":2,"name":"t"},{"register":4,"name":"b"},{"register":3,"name":"c"},{"register":1,"name":"d"}]}
+  L90f7 Push [[4,2],[4,1],[7,2]]
+  L9103 Divide
+  L9104 Less2
+  L9105 Not
+  L9106 If "L915f"
+  L910b Push [[4,1],[4,3],[6,0.0],[4,2],[7,2]]
+  L9122 Multiply
+  L9123 Push [[7,4],[8,1]]	// ["mx"]
+  L912d GetVariable
+  L912e Push [[8,3]]	// ["transitions"]
+  L9133 GetMember
+  L9134 Push [[8,4]]	// ["easing"]
+  L9139 GetMember
+  L913a Push [[8,5]]	// ["Bounce"]
+  L913f GetMember
+  L9140 Push [[8,8]]	// ["easeIn"]
+  L9145 CallMethod
+  L9146 Push [[6,0.5]]
+  L9152 Multiply
+  L9153 Push [[4,4]]
+  L9158 Add2
+  L9159 Return
+  L915a Jump "L91c4"
+  L915f Push [[4,1],[4,3],[6,0.0],[4,2],[7,2]]
+  L9176 Multiply
+  L9177 Push [[4,1]]
+  L917c Subtract
+  L917d Push [[7,4],[8,1]]	// ["mx"]
+  L9187 GetVariable
+  L9188 Push [[8,3]]	// ["transitions"]
+  L918d GetMember
+  L918e Push [[8,4]]	// ["easing"]
+  L9193 GetMember
+  L9194 Push [[8,5]]	// ["Bounce"]
+  L9199 GetMember
+  L919a Push [[8,7]]	// ["easeOut"]
+  L919f CallMethod
+  L91a0 Push [[6,0.5]]
+  L91ac Multiply
+  L91ad Push [[4,3],[6,0.5]]
+  L91bb Multiply
+  L91bc Add2
+  L91bd Push [[4,4]]
+  L91c2 Add2
+  L91c3 Return
+L91c4 SetMember
+L91c5 Push [[7,1],[2,null],[8,1]]	// ["mx"]
+L91d0 GetVariable
+L91d1 Push [[8,3]]	// ["transitions"]
+L91d6 GetMember
+L91d7 Push [[8,4]]	// ["easing"]
+L91dc GetMember
+L91dd Push [[8,5]]	// ["Bounce"]
+L91e2 GetMember
+L91e3 Push [[8,6]]	// ["prototype"]
+L91e8 GetMember
+L91e9 Push [[7,3],[8,10]]	// ["ASSetPropFlags"]
+L91f3 CallFunction
+L91f4 Pop
+L91f5 End

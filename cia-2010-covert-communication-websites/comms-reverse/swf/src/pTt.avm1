@@ -1,0 +1,42 @@
+// __Packages.pTt in worlddispatch.swf, tag at 0x7a52
+L7a5a ConstantPool ["_global","pTt","gCM","prototype","d","Array","ASSetPropFlags"]
+L7a90 Push [[8,0]]	// ["_global"]
+L7a95 GetVariable
+L7a96 Push [[8,1]]	// ["pTt"]
+L7a9b GetMember
+L7a9c Not
+L7a9d Not
+L7a9e If "L7b26"
+L7aa3 Push [[8,0]]	// ["_global"]
+L7aa8 GetVariable
+L7aa9 Push [[8,1]]	// ["pTt"]
+L7aae DefineFunction2 {"function_name":"","register_count":2,"flags":26,"parameters":[]}
+  L7ab9 Push [[6,0.0],[4,1],[3,"undefined"]]
+  L7ac8 CallMethod
+  L7ac9 Pop
+L7aca StoreRegister 0
+L7ace SetMember
+L7acf Push [[8,0]]	// ["_global"]
+L7ad4 GetVariable
+L7ad5 Push [[8,1]]	// ["pTt"]
+L7ada GetMember
+L7adb Push [[8,2]]	// ["gCM"]
+L7ae0 GetVariable
+L7ae1 Extends
+L7ae2 Push [[4,0],[8,3]]	// ["prototype"]
+L7ae9 GetMember
+L7aea StoreRegister 1
+L7aee Pop
+L7aef Push [[4,1],[8,4],[6,0.0],[8,5]]	// ["d", "Array"]
+L7b01 NewObject
+L7b02 SetMember
+L7b03 Push [[7,1],[2,null],[8,0]]	// ["_global"]
+L7b0e GetVariable
+L7b0f Push [[8,1]]	// ["pTt"]
+L7b14 GetMember
+L7b15 Push [[8,3]]	// ["prototype"]
+L7b1a GetMember
+L7b1b Push [[7,3],[8,6]]	// ["ASSetPropFlags"]
+L7b25 CallFunction
+L7b26 Pop
+L7b27 End

@@ -1,0 +1,76 @@
+// __Packages.mx.remoting.ApiClasses in worlddispatch.swf, tag at 0x97cf
+L97d7 ConstantPool ["_global","mx","Object","remoting","ApiClasses","super","prototype","MovieClip","ASSetPropFlags"]
+L982b Push [[8,0]]	// ["_global"]
+L9830 GetVariable
+L9831 Push [[8,1]]	// ["mx"]
+L9836 GetMember
+L9837 Not
+L9838 Not
+L9839 If "L9856"
+L983e Push [[8,0]]	// ["_global"]
+L9843 GetVariable
+L9844 Push [[8,1],[6,0.0],[8,2]]	// ["mx", "Object"]
+L9854 NewObject
+L9855 SetMember
+L9856 Pop
+L9857 Push [[8,0]]	// ["_global"]
+L985c GetVariable
+L985d Push [[8,1]]	// ["mx"]
+L9862 GetMember
+L9863 Push [[8,3]]	// ["remoting"]
+L9868 GetMember
+L9869 Not
+L986a Not
+L986b If "L988e"
+L9870 Push [[8,0]]	// ["_global"]
+L9875 GetVariable
+L9876 Push [[8,1]]	// ["mx"]
+L987b GetMember
+L987c Push [[8,3],[6,0.0],[8,2]]	// ["remoting", "Object"]
+L988c NewObject
+L988d SetMember
+L988e Pop
+L988f Push [[8,0]]	// ["_global"]
+L9894 GetVariable
+L9895 Push [[8,1]]	// ["mx"]
+L989a GetMember
+L989b Push [[8,3]]	// ["remoting"]
+L98a0 GetMember
+L98a1 Push [[8,4]]	// ["ApiClasses"]
+L98a6 GetMember
+L98a7 Not
+L98a8 Not
+L98a9 If "L992d"
+L98ae Push [[8,1]]	// ["mx"]
+L98b3 GetVariable
+L98b4 Push [[8,3]]	// ["remoting"]
+L98b9 GetMember
+L98ba Push [[8,4]]	// ["ApiClasses"]
+L98bf DefineFunction {"function_name":"","parameters":[]}
+  L98c7 Push [[6,0.0],[8,5]]	// ["super"]
+  L98d5 CallFunction
+  L98d6 Pop
+L98d7 StoreRegister 1
+L98db SetMember
+L98dc Push [[8,1]]	// ["mx"]
+L98e1 GetVariable
+L98e2 Push [[8,3]]	// ["remoting"]
+L98e7 GetMember
+L98e8 Push [[8,4]]	// ["ApiClasses"]
+L98ed GetMember
+L98ee Push [[8,6],[6,0.0],[8,7]]	// ["prototype", "MovieClip"]
+L98fe NewObject
+L98ff StoreRegister 2
+L9903 SetMember
+L9904 Push [[7,1],[2,null],[8,1]]	// ["mx"]
+L990f GetVariable
+L9910 Push [[8,3]]	// ["remoting"]
+L9915 GetMember
+L9916 Push [[8,4]]	// ["ApiClasses"]
+L991b GetMember
+L991c Push [[8,6]]	// ["prototype"]
+L9921 GetMember
+L9922 Push [[7,3],[8,8]]	// ["ASSetPropFlags"]
+L992c CallFunction
+L992d Pop
+L992e End

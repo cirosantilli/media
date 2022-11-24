@@ -1,0 +1,574 @@
+// __Packages.mx.data.binding.ObjectDumper in worlddispatch.swf, tag at 0xf3af
+Lf3b7 ConstantPool ["_global","mx","Object","data","binding","ObjectDumper","this","Bdd","Array","prototype","toString","indent","uAH","gTG","MIU","eCB","nwI","realToString","GgU","length","***","push","t","result","Mez","Date","object","[","i","{","sort","OLf","","Wco","show","function","undefined",": ",", `","]","}","string","\"","-","pop","kyJ","doIndent","edl","replaceAll","DEf","vdB","split","tgd","     ","ASSetPropFlags"]
+Lf4e8 Push [[8,0]]	// ["_global"]
+Lf4ed GetVariable
+Lf4ee Push [[8,1]]	// ["mx"]
+Lf4f3 GetMember
+Lf4f4 Not
+Lf4f5 Not
+Lf4f6 If "Lf513"
+Lf4fb Push [[8,0]]	// ["_global"]
+Lf500 GetVariable
+Lf501 Push [[8,1],[6,0.0],[8,2]]	// ["mx", "Object"]
+Lf511 NewObject
+Lf512 SetMember
+Lf513 Pop
+Lf514 Push [[8,0]]	// ["_global"]
+Lf519 GetVariable
+Lf51a Push [[8,1]]	// ["mx"]
+Lf51f GetMember
+Lf520 Push [[8,3]]	// ["data"]
+Lf525 GetMember
+Lf526 Not
+Lf527 Not
+Lf528 If "Lf54b"
+Lf52d Push [[8,0]]	// ["_global"]
+Lf532 GetVariable
+Lf533 Push [[8,1]]	// ["mx"]
+Lf538 GetMember
+Lf539 Push [[8,3],[6,0.0],[8,2]]	// ["data", "Object"]
+Lf549 NewObject
+Lf54a SetMember
+Lf54b Pop
+Lf54c Push [[8,0]]	// ["_global"]
+Lf551 GetVariable
+Lf552 Push [[8,1]]	// ["mx"]
+Lf557 GetMember
+Lf558 Push [[8,3]]	// ["data"]
+Lf55d GetMember
+Lf55e Push [[8,4]]	// ["binding"]
+Lf563 GetMember
+Lf564 Not
+Lf565 Not
+Lf566 If "Lf58f"
+Lf56b Push [[8,0]]	// ["_global"]
+Lf570 GetVariable
+Lf571 Push [[8,1]]	// ["mx"]
+Lf576 GetMember
+Lf577 Push [[8,3]]	// ["data"]
+Lf57c GetMember
+Lf57d Push [[8,4],[6,0.0],[8,2]]	// ["binding", "Object"]
+Lf58d NewObject
+Lf58e SetMember
+Lf58f Pop
+Lf590 Push [[8,0]]	// ["_global"]
+Lf595 GetVariable
+Lf596 Push [[8,1]]	// ["mx"]
+Lf59b GetMember
+Lf59c Push [[8,3]]	// ["data"]
+Lf5a1 GetMember
+Lf5a2 Push [[8,4]]	// ["binding"]
+Lf5a7 GetMember
+Lf5a8 Push [[8,5]]	// ["ObjectDumper"]
+Lf5ad GetMember
+Lf5ae Not
+Lf5af Not
+Lf5b0 If "Lfcf7"
+Lf5b5 Push [[8,1]]	// ["mx"]
+Lf5ba GetVariable
+Lf5bb Push [[8,3]]	// ["data"]
+Lf5c0 GetMember
+Lf5c1 Push [[8,4]]	// ["binding"]
+Lf5c6 GetMember
+Lf5c7 Push [[8,5]]	// ["ObjectDumper"]
+Lf5cc DefineFunction {"function_name":"","parameters":[]}
+  Lf5d4 Push [[8,6]]	// ["this"]
+  Lf5d9 GetVariable
+  Lf5da Push [[8,7],[6,0.0],[8,8]]	// ["Bdd", "Array"]
+  Lf5ea NewObject
+  Lf5eb SetMember
+Lf5ec StoreRegister 1
+Lf5f0 SetMember
+Lf5f1 Push [[4,1],[8,9]]	// ["prototype"]
+Lf5f8 GetMember
+Lf5f9 StoreRegister 2
+Lf5fd Pop
+Lf5fe Push [[4,1],[8,10]]	// ["toString"]
+Lf605 DefineFunction {"function_name":"","parameters":[{"register":0,"name":"nwI"},{"register":0,"name":"eCB"},{"register":0,"name":"MIU"},{"register":0,"name":"gTG"},{"register":0,"name":"uAH"},{"register":0,"name":"indent"}]}
+  Lf628 Push [[4,1],[4,2],[4,3],[8,11]]	// ["indent"]
+  Lf633 GetVariable
+  Lf634 StoreRegister 1
+  Lf638 Pop
+  Lf639 Push [[8,12]]	// ["uAH"]
+  Lf63e GetVariable
+  Lf63f StoreRegister 2
+  Lf643 Pop
+  Lf644 Push [[6,0.0],[8,1]]	// ["mx"]
+  Lf652 GetVariable
+  Lf653 Push [[8,3]]	// ["data"]
+  Lf658 GetMember
+  Lf659 Push [[8,4]]	// ["binding"]
+  Lf65e GetMember
+  Lf65f Push [[8,5]]	// ["ObjectDumper"]
+  Lf664 NewMethod
+  Lf665 StoreRegister 3
+  Lf669 Pop
+  Lf66a Push [[4,2],[3,"undefined"]]
+  Lf670 Equals2
+  Lf671 Not
+  Lf672 If "Lf684"
+  Lf677 Push [[7,100]]
+  Lf67f StoreRegister 2
+  Lf683 Pop
+  Lf684 Push [[4,1],[3,"undefined"]]
+  Lf68a Equals2
+  Lf68b Not
+  Lf68c If "Lf6a2"
+  Lf691 Push [[6,0.0]]
+  Lf69d StoreRegister 1
+  Lf6a1 Pop
+  Lf6a2 Push [[4,1],[4,2],[8,13]]	// ["gTG"]
+  Lf6ab GetVariable
+  Lf6ac Push [[8,14]]	// ["MIU"]
+  Lf6b1 GetVariable
+  Lf6b2 Push [[8,15]]	// ["eCB"]
+  Lf6b7 GetVariable
+  Lf6b8 Push [[8,16]]	// ["nwI"]
+  Lf6bd GetVariable
+  Lf6be Push [[7,6],[4,3],[8,17]]	// ["realToString"]
+  Lf6ca CallMethod
+  Lf6cb Jump "Lf6d4"
+  Lf6d0 Push [[3,"undefined"]]
+  Lf6d4 StoreRegister 0
+  Lf6d8 Pop
+  Lf6d9 StoreRegister 3
+  Lf6dd Pop
+  Lf6de StoreRegister 2
+  Lf6e2 Pop
+  Lf6e3 StoreRegister 1
+  Lf6e7 Pop
+  Lf6e8 Push [[4,0]]
+  Lf6ed Return
+Lf6ee SetMember
+Lf6ef Push [[4,2],[8,17]]	// ["realToString"]
+Lf6f6 DefineFunction {"function_name":"","parameters":[{"register":0,"name":"nwI"},{"register":0,"name":"eCB"},{"register":0,"name":"MIU"},{"register":0,"name":"gTG"},{"register":0,"name":"uAH"},{"register":0,"name":"indent"}]}
+  Lf719 Push [[4,1],[4,2],[4,3],[8,16]]	// ["nwI"]
+  Lf724 GetVariable
+  Lf725 StoreRegister 1
+  Lf729 Pop
+  Lf72a Push [[8,18],[6,0.0]]	// ["GgU"]
+  Lf738 DefineLocal
+  Lf739 Push [[8,18]]	// ["GgU"]
+  Lf73e GetVariable
+  Lf73f Push [[8,6]]	// ["this"]
+  Lf744 GetVariable
+  Lf745 Push [[8,7]]	// ["Bdd"]
+  Lf74a GetMember
+  Lf74b Push [[8,19]]	// ["length"]
+  Lf750 GetMember
+  Lf751 Less2
+  Lf752 Not
+  Lf753 If "Lf790"
+  Lf758 Push [[8,6]]	// ["this"]
+  Lf75d GetVariable
+  Lf75e Push [[8,7]]	// ["Bdd"]
+  Lf763 GetMember
+  Lf764 Push [[8,18]]	// ["GgU"]
+  Lf769 GetVariable
+  Lf76a GetMember
+  Lf76b Push [[4,1]]
+  Lf770 Equals2
+  Lf771 Not
+  Lf772 If "Lf781"
+  Lf777 Push [[8,20]]	// ["***"]
+  Lf77c Jump "Lfb4c"
+  Lf781 Push [[8,18],[8,18]]	// ["GgU", "GgU"]
+  Lf788 GetVariable
+  Lf789 Increment
+  Lf78a SetVariable
+  Lf78b Jump "Lf739"
+  Lf790 Push [[4,1],[7,1],[8,6]]	// ["this"]
+  Lf79c GetVariable
+  Lf79d Push [[8,7]]	// ["Bdd"]
+  Lf7a2 GetMember
+  Lf7a3 Push [[8,21]]	// ["push"]
+  Lf7a8 CallMethod
+  Lf7a9 Pop
+  Lf7aa Push [[8,11],[8,11]]	// ["indent", "indent"]
+  Lf7b1 GetVariable
+  Lf7b2 Increment
+  Lf7b3 SetVariable
+  Lf7b4 Push [[8,22],[4,1]]	// ["t"]
+  Lf7bb TypeOf
+  Lf7bc DefineLocal
+  Lf7bd Push [[8,23]]	// ["result"]
+  Lf7c2 DefineLocal2
+  Lf7c3 Push [[4,1],[8,24]]	// ["Mez"]
+  Lf7ca GetVariable
+  Lf7cb InstanceOf
+  Lf7cc PushDuplicate
+  Lf7cd Not
+  Lf7ce If "Lf7e1"
+  Lf7d3 Pop
+  Lf7d4 Push [[8,13]]	// ["gTG"]
+  Lf7d9 GetVariable
+  Lf7da Push [[5,1]]
+  Lf7df Equals2
+  Lf7e0 Not
+  Lf7e1 Not
+  Lf7e2 If "Lf800"
+  Lf7e7 Push [[8,23],[6,0.0],[4,1],[8,10]]	// ["result", "toString"]
+  Lf7f9 CallMethod
+  Lf7fa SetVariable
+  Lf7fb Jump "Lfaa6"
+  Lf800 Push [[4,1],[8,25]]	// ["Date"]
+  Lf807 GetVariable
+  Lf808 InstanceOf
+  Lf809 Not
+  Lf80a If "Lf828"
+  Lf80f Push [[8,23],[6,0.0],[4,1],[8,10]]	// ["result", "toString"]
+  Lf821 CallMethod
+  Lf822 SetVariable
+  Lf823 Jump "Lfaa6"
+  Lf828 Push [[8,22]]	// ["t"]
+  Lf82d GetVariable
+  Lf82e Push [[8,26]]	// ["object"]
+  Lf833 Equals2
+  Lf834 Not
+  Lf835 If "Lfa56"
+  Lf83a Push [[6,0.0],[8,8]]	// ["Array"]
+  Lf848 NewObject
+  Lf849 StoreRegister 3
+  Lf84d Pop
+  Lf84e Push [[4,1],[8,8]]	// ["Array"]
+  Lf855 GetVariable
+  Lf856 InstanceOf
+  Lf857 Not
+  Lf858 If "Lf8b1"
+  Lf85d Push [[8,23],[8,27]]	// ["result", "["]
+  Lf864 SetVariable
+  Lf865 Push [[8,28],[6,0.0]]	// ["i"]
+  Lf873 DefineLocal
+  Lf874 Push [[8,28]]	// ["i"]
+  Lf879 GetVariable
+  Lf87a Push [[4,1],[8,19]]	// ["length"]
+  Lf881 GetMember
+  Lf882 Less2
+  Lf883 Not
+  Lf884 If "Lf8ac"
+  Lf889 Push [[8,28]]	// ["i"]
+  Lf88e GetVariable
+  Lf88f Push [[7,1],[4,3],[8,21]]	// ["push"]
+  Lf89b CallMethod
+  Lf89c Pop
+  Lf89d Push [[8,28],[8,28]]	// ["i", "i"]
+  Lf8a4 GetVariable
+  Lf8a5 Increment
+  Lf8a6 SetVariable
+  Lf8a7 Jump "Lf874"
+  Lf8ac Jump "Lf900"
+  Lf8b1 Push [[8,23],[8,29]]	// ["result", "{"]
+  Lf8b8 SetVariable
+  Lf8b9 Push [[4,1]]
+  Lf8be Enumerate2
+  Lf8bf StoreRegister 0
+  Lf8c3 Push [[2,null]]
+  Lf8c7 Equals2
+  Lf8c8 If "Lf8ee"
+  Lf8cd Push [[8,28],[4,0]]	// ["i"]
+  Lf8d4 DefineLocal
+  Lf8d5 Push [[8,28]]	// ["i"]
+  Lf8da GetVariable
+  Lf8db Push [[7,1],[4,3],[8,21]]	// ["push"]
+  Lf8e7 CallMethod
+  Lf8e8 Pop
+  Lf8e9 Jump "Lf8bf"
+  Lf8ee Push [[6,0.0],[4,3],[8,30]]	// ["sort"]
+  Lf8fe CallMethod
+  Lf8ff Pop
+  Lf900 Push [[8,31],[8,32]]	// ["OLf", ""]
+  Lf907 DefineLocal
+  Lf908 Push [[6,0.0]]
+  Lf914 StoreRegister 2
+  Lf918 Pop
+  Lf919 Push [[4,2],[4,3],[8,19]]	// ["length"]
+  Lf922 GetMember
+  Lf923 Less2
+  Lf924 Not
+  Lf925 If "Lfa1f"
+  Lf92a Push [[8,33],[4,1],[4,3],[4,2]]	// ["Wco"]
+  Lf935 GetMember
+  Lf936 GetMember
+  Lf937 DefineLocal
+  Lf938 Push [[8,34],[5,1]]	// ["show"]
+  Lf93f DefineLocal
+  Lf940 Push [[8,33]]	// ["Wco"]
+  Lf945 GetVariable
+  Lf946 TypeOf
+  Lf947 Push [[8,35]]	// ["function"]
+  Lf94c Equals2
+  Lf94d Not
+  Lf94e If "Lf962"
+  Lf953 Push [[8,34],[8,15]]	// ["show", "eCB"]
+  Lf95a GetVariable
+  Lf95b Push [[5,1]]
+  Lf960 Equals2
+  Lf961 SetVariable
+  Lf962 Push [[8,33]]	// ["Wco"]
+  Lf967 GetVariable
+  Lf968 TypeOf
+  Lf969 Push [[8,36]]	// ["undefined"]
+  Lf96e Equals2
+  Lf96f Not
+  Lf970 If "Lf984"
+  Lf975 Push [[8,34],[8,14]]	// ["show", "MIU"]
+  Lf97c GetVariable
+  Lf97d Push [[5,1]]
+  Lf982 Equals2
+  Lf983 SetVariable
+  Lf984 Push [[8,34]]	// ["show"]
+  Lf989 GetVariable
+  Lf98a Not
+  Lf98b If "Lfa0f"
+  Lf990 Push [[8,23],[8,23]]	// ["result", "result"]
+  Lf997 GetVariable
+  Lf998 Push [[8,31]]	// ["OLf"]
+  Lf99d GetVariable
+  Lf99e Add2
+  Lf99f SetVariable
+  Lf9a0 Push [[4,1],[8,8]]	// ["Array"]
+  Lf9a7 GetVariable
+  Lf9a8 InstanceOf
+  Lf9a9 Not
+  Lf9aa Not
+  Lf9ab If "Lf9c8"
+  Lf9b0 Push [[8,23],[8,23]]	// ["result", "result"]
+  Lf9b7 GetVariable
+  Lf9b8 Push [[4,3],[4,2]]
+  Lf9bf GetMember
+  Lf9c0 Push [[8,37]]	// [": "]
+  Lf9c5 Add2
+  Lf9c6 Add2
+  Lf9c7 SetVariable
+  Lf9c8 Push [[8,23],[8,23]]	// ["result", "result"]
+  Lf9cf GetVariable
+  Lf9d0 Push [[8,11]]	// ["indent"]
+  Lf9d5 GetVariable
+  Lf9d6 Push [[8,12]]	// ["uAH"]
+  Lf9db GetVariable
+  Lf9dc Push [[8,13]]	// ["gTG"]
+  Lf9e1 GetVariable
+  Lf9e2 Push [[8,14]]	// ["MIU"]
+  Lf9e7 GetVariable
+  Lf9e8 Push [[8,15]]	// ["eCB"]
+  Lf9ed GetVariable
+  Lf9ee Push [[8,33]]	// ["Wco"]
+  Lf9f3 GetVariable
+  Lf9f4 Push [[7,6],[8,6]]	// ["this"]
+  Lf9fe GetVariable
+  Lf9ff Push [[8,17]]	// ["realToString"]
+  Lfa04 CallMethod
+  Lfa05 Add2
+  Lfa06 SetVariable
+  Lfa07 Push [[8,31],[8,38]]	// ["OLf", ", `"]
+  Lfa0e SetVariable
+  Lfa0f Push [[4,2]]
+  Lfa14 Increment
+  Lfa15 StoreRegister 2
+  Lfa19 Pop
+  Lfa1a Jump "Lf919"
+  Lfa1f Push [[4,1],[8,8]]	// ["Array"]
+  Lfa26 GetVariable
+  Lfa27 InstanceOf
+  Lfa28 Not
+  Lfa29 If "Lfa42"
+  Lfa2e Push [[8,23],[8,23]]	// ["result", "result"]
+  Lfa35 GetVariable
+  Lfa36 Push [[8,39]]	// ["]"]
+  Lfa3b Add2
+  Lfa3c SetVariable
+  Lfa3d Jump "Lfa51"
+  Lfa42 Push [[8,23],[8,23]]	// ["result", "result"]
+  Lfa49 GetVariable
+  Lfa4a Push [[8,40]]	// ["}"]
+  Lfa4f Add2
+  Lfa50 SetVariable
+  Lfa51 Jump "Lfaa6"
+  Lfa56 Push [[8,22]]	// ["t"]
+  Lfa5b GetVariable
+  Lfa5c Push [[8,35]]	// ["function"]
+  Lfa61 Equals2
+  Lfa62 Not
+  Lfa63 If "Lfa75"
+  Lfa68 Push [[8,23],[8,35]]	// ["result", "function"]
+  Lfa6f SetVariable
+  Lfa70 Jump "Lfaa6"
+  Lfa75 Push [[8,22]]	// ["t"]
+  Lfa7a GetVariable
+  Lfa7b Push [[8,41]]	// ["string"]
+  Lfa80 Equals2
+  Lfa81 Not
+  Lfa82 If "Lfa9d"
+  Lfa87 Push [[8,23],[8,42],[4,1]]	// ["result", "\""]
+  Lfa90 Add2
+  Lfa91 Push [[8,42]]	// ["\""]
+  Lfa96 Add2
+  Lfa97 SetVariable
+  Lfa98 Jump "Lfaa6"
+  Lfa9d Push [[8,23],[4,1]]	// ["result"]
+  Lfaa4 ToString
+  Lfaa5 SetVariable
+  Lfaa6 Push [[8,23]]	// ["result"]
+  Lfaab GetVariable
+  Lfaac Push [[8,36]]	// ["undefined"]
+  Lfab1 Equals2
+  Lfab2 Not
+  Lfab3 If "Lfac0"
+  Lfab8 Push [[8,23],[8,43]]	// ["result", "-"]
+  Lfabf SetVariable
+  Lfac0 Push [[6,0.0],[8,6]]	// ["this"]
+  Lface GetVariable
+  Lfacf Push [[8,7]]	// ["Bdd"]
+  Lfad4 GetMember
+  Lfad5 Push [[8,44]]	// ["pop"]
+  Lfada CallMethod
+  Lfadb Pop
+  Lfadc Push [[8,23]]	// ["result"]
+  Lfae1 GetVariable
+  Lfae2 Push [[8,19]]	// ["length"]
+  Lfae7 GetMember
+  Lfae8 Push [[8,12]]	// ["uAH"]
+  Lfaed GetVariable
+  Lfaee Less2
+  Lfaef If "Lfb13"
+  Lfaf4 Push [[8,45],[8,11]]	// ["kyJ", "indent"]
+  Lfafb GetVariable
+  Lfafc Push [[7,1],[8,6]]	// ["this"]
+  Lfb06 GetVariable
+  Lfb07 Push [[8,46]]	// ["doIndent"]
+  Lfb0c CallMethod
+  Lfb0d Add2
+  Lfb0e Jump "Lfb18"
+  Lfb13 Push [[8,32]]	// [""]
+  Lfb18 Push [[8,47],[8,23]]	// ["edl", "result"]
+  Lfb1f GetVariable
+  Lfb20 Push [[7,3],[8,1]]	// ["mx"]
+  Lfb2a GetVariable
+  Lfb2b Push [[8,3]]	// ["data"]
+  Lfb30 GetMember
+  Lfb31 Push [[8,4]]	// ["binding"]
+  Lfb36 GetMember
+  Lfb37 Push [[8,5]]	// ["ObjectDumper"]
+  Lfb3c GetMember
+  Lfb3d Push [[8,48]]	// ["replaceAll"]
+  Lfb42 CallMethod
+  Lfb43 Jump "Lfb4c"
+  Lfb48 Push [[3,"undefined"]]
+  Lfb4c StoreRegister 0
+  Lfb50 Pop
+  Lfb51 StoreRegister 3
+  Lfb55 Pop
+  Lfb56 StoreRegister 2
+  Lfb5a Pop
+  Lfb5b StoreRegister 1
+  Lfb5f Pop
+  Lfb60 Push [[4,0]]
+  Lfb65 Return
+Lfb66 SetMember
+Lfb67 Push [[4,1],[8,48]]	// ["replaceAll"]
+Lfb6e DefineFunction {"function_name":"","parameters":[{"register":0,"name":"vdB"},{"register":0,"name":"DEf"},{"register":0,"name":"tgd"}]}
+  Lfb82 Push [[4,1],[4,2],[4,3],[8,49]]	// ["DEf"]
+  Lfb8d GetVariable
+  Lfb8e Push [[7,1],[8,50]]	// ["vdB"]
+  Lfb98 GetVariable
+  Lfb99 Push [[8,51]]	// ["split"]
+  Lfb9e CallMethod
+  Lfb9f StoreRegister 3
+  Lfba3 Pop
+  Lfba4 Push [[8,23],[8,32]]	// ["result", ""]
+  Lfbab DefineLocal
+  Lfbac Push [[8,32]]	// [""]
+  Lfbb1 StoreRegister 2
+  Lfbb5 Pop
+  Lfbb6 Push [[6,0.0]]
+  Lfbc2 StoreRegister 1
+  Lfbc6 Pop
+  Lfbc7 Push [[4,1],[4,3],[8,19]]	// ["length"]
+  Lfbd0 GetMember
+  Lfbd1 Less2
+  Lfbd2 Not
+  Lfbd3 If "Lfc08"
+  Lfbd8 Push [[8,23],[8,23]]	// ["result", "result"]
+  Lfbdf GetVariable
+  Lfbe0 Push [[4,2],[4,3],[4,1]]
+  Lfbe9 GetMember
+  Lfbea Add2
+  Lfbeb Add2
+  Lfbec SetVariable
+  Lfbed Push [[8,52]]	// ["tgd"]
+  Lfbf2 GetVariable
+  Lfbf3 StoreRegister 2
+  Lfbf7 Pop
+  Lfbf8 Push [[4,1]]
+  Lfbfd Increment
+  Lfbfe StoreRegister 1
+  Lfc02 Pop
+  Lfc03 Jump "Lfbc7"
+  Lfc08 Push [[8,23]]	// ["result"]
+  Lfc0d GetVariable
+  Lfc0e Jump "Lfc17"
+  Lfc13 Push [[3,"undefined"]]
+  Lfc17 StoreRegister 0
+  Lfc1b Pop
+  Lfc1c StoreRegister 3
+  Lfc20 Pop
+  Lfc21 StoreRegister 2
+  Lfc25 Pop
+  Lfc26 StoreRegister 1
+  Lfc2a Pop
+  Lfc2b Push [[4,0]]
+  Lfc30 Return
+Lfc31 SetMember
+Lfc32 Push [[4,2],[8,46]]	// ["doIndent"]
+Lfc39 DefineFunction {"function_name":"","parameters":[{"register":0,"name":"indent"}]}
+  Lfc48 Push [[4,1],[4,2],[4,3],[8,11]]	// ["indent"]
+  Lfc53 GetVariable
+  Lfc54 StoreRegister 3
+  Lfc58 Pop
+  Lfc59 Push [[8,32]]	// [""]
+  Lfc5e StoreRegister 2
+  Lfc62 Pop
+  Lfc63 Push [[6,0.0]]
+  Lfc6f StoreRegister 1
+  Lfc73 Pop
+  Lfc74 Push [[4,1],[4,3]]
+  Lfc7b Less2
+  Lfc7c Not
+  Lfc7d If "Lfc9f"
+  Lfc82 Push [[4,2],[8,53]]	// ["     "]
+  Lfc89 Add2
+  Lfc8a StoreRegister 2
+  Lfc8e Pop
+  Lfc8f Push [[4,1]]
+  Lfc94 Increment
+  Lfc95 StoreRegister 1
+  Lfc99 Pop
+  Lfc9a Jump "Lfc74"
+  Lfc9f Push [[4,2]]
+  Lfca4 Jump "Lfcad"
+  Lfca9 Push [[3,"undefined"]]
+  Lfcad StoreRegister 0
+  Lfcb1 Pop
+  Lfcb2 StoreRegister 3
+  Lfcb6 Pop
+  Lfcb7 StoreRegister 2
+  Lfcbb Pop
+  Lfcbc StoreRegister 1
+  Lfcc0 Pop
+  Lfcc1 Push [[4,0]]
+  Lfcc6 Return
+Lfcc7 SetMember
+Lfcc8 Push [[7,1],[2,null],[8,1]]	// ["mx"]
+Lfcd3 GetVariable
+Lfcd4 Push [[8,3]]	// ["data"]
+Lfcd9 GetMember
+Lfcda Push [[8,4]]	// ["binding"]
+Lfcdf GetMember
+Lfce0 Push [[8,5]]	// ["ObjectDumper"]
+Lfce5 GetMember
+Lfce6 Push [[8,9]]	// ["prototype"]
+Lfceb GetMember
+Lfcec Push [[7,3],[8,54]]	// ["ASSetPropFlags"]
+Lfcf6 CallFunction
+Lfcf7 Pop
+Lfcf8 End

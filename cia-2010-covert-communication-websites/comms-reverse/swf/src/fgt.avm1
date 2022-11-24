@@ -1,0 +1,412 @@
+// __Packages.fgt in worlddispatch.swf, tag at 0x2741
+L2749 ConstantPool ["_global","fgt","kQn","String","Lra","aCz","SBk","m_timeOut","prototype","start","Xki","mx","remoting","Connection","connect","RCv","Service","oBE","uDE","stop","fdD","kDA","length","tiW","liN",":","split","addHeader","Object","CWZ","f","TKb","thM","GAH","nSG","responder","mmn","yCj","call","Hlc","Xxz","ZgR","DUr","ydR","nxS","kIg","shift","push","onResult","aBR","Juh","UZo","Array","ASSetPropFlags"]
+L2875 Push [[8,0]]	// ["_global"]
+L287a GetVariable
+L287b Push [[8,1]]	// ["fgt"]
+L2880 GetMember
+L2881 Not
+L2882 Not
+L2883 If "L300b"
+L2888 Push [[8,0]]	// ["_global"]
+L288d GetVariable
+L288e Push [[8,1]]	// ["fgt"]
+L2893 DefineFunction2 {"function_name":"","register_count":7,"flags":41,"parameters":[{"register":6,"name":"gatewayUrl"},{"register":4,"name":"servicePath"},{"register":5,"name":"minItems"},{"register":3,"name":"maxItems"},{"register":2,"name":"timeOut"}]}
+  L28d4 Push [[4,1],[8,2],[4,6],[7,1],[8,3]]	// ["kQn", "String"]
+  L28e4 NewObject
+  L28e5 SetMember
+  L28e6 Push [[4,1],[8,4],[4,4],[7,1],[8,3]]	// ["Lra", "String"]
+  L28f6 NewObject
+  L28f7 SetMember
+  L28f8 Push [[4,1],[8,5],[4,5]]	// ["aCz"]
+  L2901 SetMember
+  L2902 Push [[4,1],[8,6],[4,3]]	// ["SBk"]
+  L290b SetMember
+  L290c Push [[4,1],[8,7],[4,2]]	// ["m_timeOut"]
+  L2915 If "L2927"
+  L291a Push [[7,30]]
+  L2922 Jump "L292c"
+  L2927 Push [[4,2]]
+  L292c SetMember
+L292d StoreRegister 0
+L2931 SetMember
+L2932 Push [[4,0],[8,8]]	// ["prototype"]
+L2939 GetMember
+L293a StoreRegister 1
+L293e Pop
+L293f Push [[4,1],[8,9]]	// ["start"]
+L2946 DefineFunction2 {"function_name":"","register_count":2,"flags":41,"parameters":[]}
+  L2951 Push [[4,1],[8,10],[6,0.0],[8,11]]	// ["Xki", "mx"]
+  L2963 GetVariable
+  L2964 Push [[8,12]]	// ["remoting"]
+  L2969 GetMember
+  L296a Push [[8,13]]	// ["Connection"]
+  L296f NewMethod
+  L2970 SetMember
+  L2971 Push [[4,1],[8,2]]	// ["kQn"]
+  L2978 GetMember
+  L2979 Push [[7,1],[4,1],[8,10]]	// ["Xki"]
+  L2985 GetMember
+  L2986 Push [[8,14]]	// ["connect"]
+  L298b CallMethod
+  L298c Pop
+  L298d Push [[4,1],[8,15],[2,null],[4,1],[8,10]]	// ["RCv", "Xki"]
+  L2999 GetMember
+  L299a Push [[4,1],[8,4]]	// ["Lra"]
+  L29a1 GetMember
+  L29a2 Push [[2,null],[2,null],[7,5],[8,11]]	// ["mx"]
+  L29ae GetVariable
+  L29af Push [[8,12]]	// ["remoting"]
+  L29b4 GetMember
+  L29b5 Push [[8,16]]	// ["Service"]
+  L29ba NewMethod
+  L29bb SetMember
+  L29bc Push [[4,1],[8,17],[5,1]]	// ["oBE"]
+  L29c5 SetMember
+  L29c6 Push [[6,0.0],[4,1],[8,18]]	// ["uDE"]
+  L29d6 CallMethod
+  L29d7 Pop
+L29d8 SetMember
+L29d9 Push [[4,1],[8,19]]	// ["stop"]
+L29e0 DefineFunction2 {"function_name":"","register_count":2,"flags":41,"parameters":[]}
+  L29eb Push [[4,1],[8,17],[5,0]]	// ["oBE"]
+  L29f4 SetMember
+L29f5 SetMember
+L29f6 Push [[4,1],[8,18]]	// ["uDE"]
+L29fd DefineFunction2 {"function_name":"","register_count":11,"flags":105,"parameters":[]}
+  L2a08 Push [[2,null],[4,1],[8,15]]	// ["RCv"]
+  L2a10 GetMember
+  L2a11 Equals2
+  L2a12 Not
+  L2a13 If "L2a2a"
+  L2a18 Push [[6,0.0],[4,1],[8,19]]	// ["stop"]
+  L2a28 CallMethod
+  L2a29 Pop
+  L2a2a Push [[4,1],[8,17]]	// ["oBE"]
+  L2a31 GetMember
+  L2a32 PushDuplicate
+  L2a33 Not
+  L2a34 If "L2a5a"
+  L2a39 Pop
+  L2a3a Push [[4,1],[8,20]]	// ["fdD"]
+  L2a41 GetMember
+  L2a42 Push [[4,1],[8,21]]	// ["kDA"]
+  L2a49 GetMember
+  L2a4a Push [[8,22]]	// ["length"]
+  L2a4f GetMember
+  L2a50 Add2
+  L2a51 Push [[4,1],[8,6]]	// ["SBk"]
+  L2a58 GetMember
+  L2a59 Less2
+  L2a5a Not
+  L2a5b If "L2c80"
+  L2a60 Push [[4,1],[8,20],[4,1],[8,20]]	// ["fdD", "fdD"]
+  L2a6b GetMember
+  L2a6c Increment
+  L2a6d SetMember
+  L2a6e Push [[6,0.0],[4,2],[8,23]]	// ["tiW"]
+  L2a7e GetMember
+  L2a7f Push [[8,24]]	// ["liN"]
+  L2a84 CallMethod
+  L2a85 StoreRegister 6
+  L2a89 Pop
+  L2a8a Push [[6,0.0]]
+  L2a96 StoreRegister 3
+  L2a9a Pop
+  L2a9b Push [[4,3],[4,6],[8,22]]	// ["length"]
+  L2aa4 GetMember
+  L2aa5 Less2
+  L2aa6 Not
+  L2aa7 If "L2b06"
+  L2aac Push [[8,25],[7,1],[4,6],[4,3]]	// [":"]
+  L2aba GetMember
+  L2abb Push [[8,26]]	// ["split"]
+  L2ac0 CallMethod
+  L2ac1 StoreRegister 5
+  L2ac5 Pop
+  L2ac6 Push [[4,5],[7,1]]
+  L2ad0 GetMember
+  L2ad1 Push [[5,0],[4,5],[6,0.0]]
+  L2ae1 GetMember
+  L2ae2 Push [[7,3],[4,1],[8,10]]	// ["Xki"]
+  L2aee GetMember
+  L2aef Push [[8,27]]	// ["addHeader"]
+  L2af4 CallMethod
+  L2af5 Pop
+  L2af6 Push [[4,3]]
+  L2afb Increment
+  L2afc StoreRegister 3
+  L2b00 Pop
+  L2b01 Jump "L2a9b"
+  L2b06 Push [[6,0.0],[8,28]]	// ["Object"]
+  L2b14 NewObject
+  L2b15 StoreRegister 8
+  L2b19 Pop
+  L2b1a Push [[6,0.0],[4,2],[8,23]]	// ["tiW"]
+  L2b2a GetMember
+  L2b2b Push [[8,29]]	// ["CWZ"]
+  L2b30 CallMethod
+  L2b31 StoreRegister 7
+  L2b35 Pop
+  L2b36 Push [[6,0.0]]
+  L2b42 StoreRegister 3
+  L2b46 Pop
+  L2b47 Push [[4,3],[4,7],[8,22]]	// ["length"]
+  L2b50 GetMember
+  L2b51 Less2
+  L2b52 Not
+  L2b53 If "L2b9f"
+  L2b58 Push [[8,25],[7,1],[4,7],[4,3]]	// [":"]
+  L2b66 GetMember
+  L2b67 Push [[8,26]]	// ["split"]
+  L2b6c CallMethod
+  L2b6d StoreRegister 4
+  L2b71 Pop
+  L2b72 Push [[4,8],[4,4],[6,0.0]]
+  L2b82 GetMember
+  L2b83 Push [[4,4],[7,1]]
+  L2b8d GetMember
+  L2b8e SetMember
+  L2b8f Push [[4,3]]
+  L2b94 Increment
+  L2b95 StoreRegister 3
+  L2b99 Pop
+  L2b9a Jump "L2b47"
+  L2b9f Push [[4,8],[7,1],[4,1],[8,15]]	// ["RCv"]
+  L2bad GetMember
+  L2bae Push [[8,30]]	// ["f"]
+  L2bb3 CallMethod
+  L2bb4 StoreRegister 10
+  L2bb8 Pop
+  L2bb9 Push [[8,31],[8,32],[4,1],[7,3],[8,33]]	// ["TKb", "thM", "GAH"]
+  L2bc9 NewObject
+  L2bca Push [[7,1],[4,10],[8,34]]	// ["nSG"]
+  L2bd6 CallMethod
+  L2bd7 Pop
+  L2bd8 Push [[6,0.0],[4,10],[8,35]]	// ["responder"]
+  L2be8 GetMember
+  L2be9 Push [[8,36]]	// ["mmn"]
+  L2bee CallMethod
+  L2bef StoreRegister 9
+  L2bf3 Pop
+  L2bf4 Push [[4,1],[8,37]]	// ["yCj"]
+  L2bfb GetMember
+  L2bfc Push [[4,9],[6,0.0],[8,28]]	// ["Object"]
+  L2c0c NewObject
+  L2c0d SetMember
+  L2c0e Push [[4,1],[8,37]]	// ["yCj"]
+  L2c15 GetMember
+  L2c16 Push [[4,9]]
+  L2c1b GetMember
+  L2c1c Push [[8,38],[4,10]]	// ["call"]
+  L2c23 SetMember
+  L2c24 Push [[4,1],[8,37]]	// ["yCj"]
+  L2c2b GetMember
+  L2c2c Push [[4,9]]
+  L2c31 GetMember
+  L2c32 Push [[8,39],[4,9],[7,1],[4,1],[8,7]]	// ["Hlc", "m_timeOut"]
+  L2c42 GetMember
+  L2c43 Push [[7,1000]]
+  L2c4b Multiply
+  L2c4c Push [[8,40],[4,1],[7,5],[8,41]]	// ["Xxz", "ZgR"]
+  L2c5a NewObject
+  L2c5b SetMember
+  L2c5c Push [[6,0.0],[4,1],[8,37]]	// ["yCj"]
+  L2c6c GetMember
+  L2c6d Push [[4,9]]
+  L2c72 GetMember
+  L2c73 Push [[8,39]]	// ["Hlc"]
+  L2c78 GetMember
+  L2c79 Push [[8,9]]	// ["start"]
+  L2c7e CallMethod
+  L2c7f Pop
+L2c80 SetMember
+L2c81 Push [[4,1],[8,42]]	// ["DUr"]
+L2c88 DefineFunction2 {"function_name":"","register_count":2,"flags":41,"parameters":[]}
+  L2c93 Push [[4,1],[8,2]]	// ["kQn"]
+  L2c9a GetMember
+  L2c9b Push [[7,1],[8,3]]	// ["String"]
+  L2ca5 NewObject
+  L2ca6 Return
+L2ca7 SetMember
+L2ca8 Push [[4,1],[8,43]]	// ["ydR"]
+L2caf DefineFunction2 {"function_name":"","register_count":2,"flags":41,"parameters":[]}
+  L2cba Push [[4,1],[8,4]]	// ["Lra"]
+  L2cc1 GetMember
+  L2cc2 Push [[7,1],[8,3]]	// ["String"]
+  L2ccc NewObject
+  L2ccd Return
+L2cce SetMember
+L2ccf Push [[4,1],[8,44]]	// ["nxS"]
+L2cd6 DefineFunction2 {"function_name":"","register_count":2,"flags":41,"parameters":[]}
+  L2ce1 Push [[4,1],[8,15]]	// ["RCv"]
+  L2ce8 GetMember
+  L2ce9 Return
+L2cea SetMember
+L2ceb Push [[4,1],[8,45]]	// ["kIg"]
+L2cf2 DefineFunction2 {"function_name":"","register_count":3,"flags":41,"parameters":[]}
+  L2cfd Push [[6,0.0],[4,1],[8,21]]	// ["kDA"]
+  L2d0d GetMember
+  L2d0e Push [[8,46]]	// ["shift"]
+  L2d13 CallMethod
+  L2d14 StoreRegister 2
+  L2d18 Pop
+  L2d19 Push [[4,1],[8,20]]	// ["fdD"]
+  L2d20 GetMember
+  L2d21 Push [[6,0.0]]
+  L2d2d Greater
+  L2d2e Not
+  L2d2f Not
+  L2d30 If "L2d47"
+  L2d35 Push [[6,0.0],[4,1],[8,18]]	// ["uDE"]
+  L2d45 CallMethod
+  L2d46 Pop
+  L2d47 Push [[4,2],[3,"undefined"]]
+  L2d4d Equals2
+  L2d4e Not
+  L2d4f PushDuplicate
+  L2d50 Not
+  L2d51 If "L2d6e"
+  L2d56 Pop
+  L2d57 Push [[4,1],[8,21]]	// ["kDA"]
+  L2d5e GetMember
+  L2d5f Push [[8,22]]	// ["length"]
+  L2d64 GetMember
+  L2d65 Push [[4,1],[8,5]]	// ["aCz"]
+  L2d6c GetMember
+  L2d6d Less2
+  L2d6e Not
+  L2d6f If "L2d8a"
+  L2d74 Push [[4,2],[7,1],[4,1],[8,21]]	// ["kDA"]
+  L2d82 GetMember
+  L2d83 Push [[8,47]]	// ["push"]
+  L2d88 CallMethod
+  L2d89 Pop
+  L2d8a Push [[4,2]]
+  L2d8f Return
+L2d90 SetMember
+L2d91 Push [[4,1],[8,48]]	// ["onResult"]
+L2d98 DefineFunction2 {"function_name":"","register_count":3,"flags":41,"parameters":[{"register":2,"name":"result"}]}
+  L2dab Push [[4,2],[7,1],[4,1],[8,21]]	// ["kDA"]
+  L2db9 GetMember
+  L2dba Push [[8,47]]	// ["push"]
+  L2dbf CallMethod
+  L2dc0 Pop
+L2dc1 SetMember
+L2dc2 Push [[4,1],[8,32]]	// ["thM"]
+L2dc9 DefineFunction2 {"function_name":"","register_count":4,"flags":41,"parameters":[{"register":2,"name":"r"},{"register":3,"name":"WuW"}]}
+  L2ddc Push [[6,0.0],[4,1],[8,18]]	// ["uDE"]
+  L2dec CallMethod
+  L2ded Pop
+  L2dee Push [[6,0.0],[4,2],[8,49]]	// ["aBR"]
+  L2dfe CallMethod
+  L2dff Push [[7,1],[4,1],[8,48]]	// ["onResult"]
+  L2e0b CallMethod
+  L2e0c Pop
+  L2e0d Push [[4,1],[8,21]]	// ["kDA"]
+  L2e14 GetMember
+  L2e15 Push [[8,22]]	// ["length"]
+  L2e1a GetMember
+  L2e1b Push [[4,1],[8,5]]	// ["aCz"]
+  L2e22 GetMember
+  L2e23 Greater
+  L2e24 Not
+  L2e25 If "L2e3c"
+  L2e2a Push [[6,0.0],[4,1],[8,50]]	// ["Juh"]
+  L2e3a CallMethod
+  L2e3b Pop
+  L2e3c Push [[4,3],[7,1],[4,1],[8,51]]	// ["UZo"]
+  L2e4a CallMethod
+  L2e4b Pop
+L2e4c SetMember
+L2e4d Push [[4,1],[8,51]]	// ["UZo"]
+L2e54 DefineFunction2 {"function_name":"","register_count":3,"flags":41,"parameters":[{"register":2,"name":"WuW"}]}
+  L2e64 Push [[6,0.0],[4,1],[8,37]]	// ["yCj"]
+  L2e74 GetMember
+  L2e75 Push [[4,2]]
+  L2e7a GetMember
+  L2e7b Push [[8,39]]	// ["Hlc"]
+  L2e80 GetMember
+  L2e81 Push [[8,19]]	// ["stop"]
+  L2e86 CallMethod
+  L2e87 Pop
+  L2e88 Push [[4,1],[8,37]]	// ["yCj"]
+  L2e8f GetMember
+  L2e90 Push [[4,2]]
+  L2e95 GetMember
+  L2e96 Push [[8,39]]	// ["Hlc"]
+  L2e9b Delete
+  L2e9c Pop
+  L2e9d Push [[4,1],[8,37]]	// ["yCj"]
+  L2ea4 GetMember
+  L2ea5 Push [[4,2]]
+  L2eaa GetMember
+  L2eab Push [[8,38]]	// ["call"]
+  L2eb0 GetMember
+  L2eb1 Push [[8,35]]	// ["responder"]
+  L2eb6 Delete
+  L2eb7 Pop
+  L2eb8 Push [[4,1],[8,37]]	// ["yCj"]
+  L2ebf GetMember
+  L2ec0 Push [[4,2]]
+  L2ec5 GetMember
+  L2ec6 Push [[8,38]]	// ["call"]
+  L2ecb Delete
+  L2ecc Pop
+  L2ecd Push [[4,1],[8,37]]	// ["yCj"]
+  L2ed4 GetMember
+  L2ed5 Push [[4,2]]
+  L2eda Delete
+  L2edb Pop
+  L2edc Push [[4,1],[8,20],[4,1],[8,20]]	// ["fdD", "fdD"]
+  L2ee7 GetMember
+  L2ee8 Decrement
+  L2ee9 SetMember
+L2eea SetMember
+L2eeb Push [[4,1],[8,31]]	// ["TKb"]
+L2ef2 DefineFunction2 {"function_name":"","register_count":3,"flags":41,"parameters":[{"register":0,"name":"myFault"},{"register":2,"name":"WuW"}]}
+  L2f0b Push [[4,2],[7,1],[4,1],[8,51]]	// ["UZo"]
+  L2f19 CallMethod
+  L2f1a Pop
+  L2f1b Push [[6,0.0],[4,1],[8,18]]	// ["uDE"]
+  L2f2b CallMethod
+  L2f2c Pop
+L2f2d SetMember
+L2f2e Push [[4,1],[8,40]]	// ["Xxz"]
+L2f35 DefineFunction2 {"function_name":"","register_count":3,"flags":41,"parameters":[{"register":2,"name":"WuW"}]}
+  L2f45 Push [[4,2],[7,1],[4,1],[8,51]]	// ["UZo"]
+  L2f53 CallMethod
+  L2f54 Pop
+  L2f55 Push [[6,0.0],[4,1],[8,18]]	// ["uDE"]
+  L2f65 CallMethod
+  L2f66 Pop
+L2f67 SetMember
+L2f68 Push [[4,1],[8,10],[2,null]]	// ["Xki"]
+L2f70 SetMember
+L2f71 Push [[4,1],[8,15],[2,null]]	// ["RCv"]
+L2f79 SetMember
+L2f7a Push [[4,1],[8,5],[6,0.0]]	// ["aCz"]
+L2f8a SetMember
+L2f8b Push [[4,1],[8,6],[6,0.0]]	// ["SBk"]
+L2f9b SetMember
+L2f9c Push [[4,1],[8,21],[6,0.0],[8,52]]	// ["kDA", "Array"]
+L2fae NewObject
+L2faf SetMember
+L2fb0 Push [[4,1],[8,20],[6,0.0]]	// ["fdD"]
+L2fc0 SetMember
+L2fc1 Push [[4,1],[8,37],[6,0.0],[8,28]]	// ["yCj", "Object"]
+L2fd3 NewObject
+L2fd4 SetMember
+L2fd5 Push [[4,1],[8,17],[5,0]]	// ["oBE"]
+L2fde SetMember
+L2fdf Push [[4,1],[8,50],[2,null]]	// ["Juh"]
+L2fe7 SetMember
+L2fe8 Push [[7,1],[2,null],[8,0]]	// ["_global"]
+L2ff3 GetVariable
+L2ff4 Push [[8,1]]	// ["fgt"]
+L2ff9 GetMember
+L2ffa Push [[8,8]]	// ["prototype"]
+L2fff GetMember
+L3000 Push [[7,3],[8,53]]	// ["ASSetPropFlags"]
+L300a CallFunction
+L300b Pop
+L300c End

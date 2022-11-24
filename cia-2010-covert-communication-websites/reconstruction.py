@@ -16,9 +16,9 @@ python3 reconstruction.py mynepalnews.com --native # keyboard-activated slidesho
 python3 reconstruction.py inews-today.com --native # original scrolling display and messaging
 python3 reconstruction.py lajornadanow.com --jar-scroll-speed 2.5 # original constructor speed
 
-Use --source-jar with the European News Flash, My Nepal News or iNews Today
+Use --source-jar with European News Flash, My Nepal News, iNews Today or Half Court
 builds under comms-reverse/jar/password-only and comms-reverse/jar/slideshow.
-Use --source-js comms-reverse/js-password-only.js for a readable JS mailbox.
+Use --source-js comms-reverse/password-only.js for a readable JS mailbox.
 Use --source-js comms-reverse/polling.js for the Open Book and Al Ashak News.
 These clients use the same local servers and separate mailbox interfaces.
 
@@ -290,7 +290,7 @@ RUFFLE_RUNTIME = 'https://unpkg.com/@ruffle-rs/ruffle@0.7.1/ruffle.js'
 DEFAULT_DUMP = Path(__file__).resolve().parent / '../../cia-2010-websites-dump'
 RECONSTRUCTION_TMP = Path(__file__).with_name('reconstruction') / 'tmp'
 SOURCE_JAR_SITE = 'europeannewsflash.com'
-DISPLAY_SOURCE_SITES = ('mynepalnews.com', 'inews-today.com')
+DISPLAY_SOURCE_SITES = ('mynepalnews.com', 'inews-today.com', 'half-court.net')
 SOURCE_JAR_ROOT = Path(__file__).resolve().with_name('comms-reverse') / 'jar'
 PASSWORD_ONLY_SOURCE_PROJECT = SOURCE_JAR_ROOT / 'password-only'
 DISPLAY_SOURCE_PROJECT = SOURCE_JAR_ROOT / 'slideshow'
@@ -1306,62 +1306,9 @@ WIRE_TYPES = {
 }
 
 
-# Verified older half-court names. Only the local helper/test source is translated;
-# the original applet, artwork and literal activation configuration stay byte-identical.
-HALF_COURT_TYPES = {
-    'a.a.a.f.a.a': 'c.b.b.f.a.a',
-    'a.a.a.f.e': 'c.b.b.f.e',
-    'a.a.a.j': 'c.b.b.j',
-    'a.a.e.h.b': 'c.b.a.c.b',
-    'a.a.g.a.a.d': 'c.b.h.a.e.d',
-    'a.a.g.a.a.b': 'c.b.h.a.e.b',
-    'a.a.g.a.a.i': 'c.b.h.a.e.i',
-    'a.a.g.a.a.e': 'c.b.h.a.e.e',
-    'a.a.g.a.a.g': 'c.b.h.a.e.g',
-    'a.a.g.a.e.e': 'c.b.h.a.d.e',
-    'a.a.g.a.f.c': 'c.b.h.a.c.c',
-    'a.a.g.a.f.e': 'c.b.h.a.c.e',
-    'a.a.g.a.k': 'c.b.h.a.j',
-    'a.a.g.a.l': 'c.b.h.a.k',
-    'a.a.h.d': 'c.b.i.d',
-    'a.a.h.e': 'c.b.i.e',
-    'a.a.i.a.a': 'c.b.c.a.a',
-    'a.a.i.a.b': 'c.b.c.a.b',
-    'c.a.a.b': 'b.b.c.b',
-    'c.a.d.d.a.b': 'b.b.a.e.b.b',
-    'c.a.d.d.a.f': 'b.b.a.e.b.f',
-    'c.a.d.d.a.k': 'b.b.a.e.b.k',
-    'c.a.d.d.b.b': 'b.b.a.e.c.b',
-    'c.a.d.d.b.e': 'b.b.a.e.c.e',
-    'c.a.d.d.b.f': 'b.b.a.e.c.f',
-    'c.a.d.d.c.c': 'b.b.a.e.e.c',
-    'c.a.d.d.e.d': 'b.b.a.e.f.d',
-    'c.a.d.d.e.g': 'b.b.a.e.f.g',
-    'c.a.d.d.f.a': 'b.b.a.e.a.a',
-    'c.a.d.d.g': 'b.b.a.e.g',
-    'c.a.d.e.a': 'b.b.a.c.a',
-    'c.a.d.g': 'b.b.a.g',
-    'c.a.d.k': 'b.b.a.k',
-    'c.a.d.l': 'b.b.a.l',
-    'c.a.d.o': 'b.b.a.o',
-    'c.a.e.d': 'b.b.d.d',
-    'c.a.g.b': 'b.b.f.b',
-    'c.b.e.b.a': 'b.a.b.c.a',
-    'c.b.e.b.d': 'b.a.b.c.d',
-    'c.b.h.j': 'b.a.h.j',
-    'c.b.i.h': 'b.a.o.h',
-    'c.b.i.m': 'b.a.o.m',
-    'c.b.i.r': 'b.a.o.r',
-    'c.b.k.a': 'b.a.d.a',
-    'c.b.k.d': 'b.a.d.d',
-    'c.b.m.c': 'b.a.l.c',
-    'c.b.m.f': 'b.a.l.f',
-    'c.b.n.a.a': 'b.a.f.b.a',
-    'c.b.n.a.b': 'b.a.f.b.b',
-    'c.b.o.a.d': 'b.a.p.c.d',
-    'c.b.o.a.h': 'b.a.p.c.h',
-    'c.b.o.b.b.c': 'b.a.p.a.b.c',
-}
+# The source build and the local server translate their reflection names
+# through the same map. The archived applet classes retain their own names.
+HALF_COURT_TYPES = json.loads((DISPLAY_SOURCE_PROJECT / 'half-court-types.json').read_text())
 
 
 def slideshow_source(code, app):
@@ -1760,7 +1707,9 @@ def source_display_self_test(app):
                        check=True, timeout=30)
         command = [str(java / 'java'), '-Djava.awt.headless=true', '-cp', classpath,
                    'replay.display.SourceDisplayCheck', app.password.decode(), app.activation_sequence,
-                   app.demo_initial, app.demo_reply, 'scroll' if app.scrolling else 'slides']
+                   app.demo_initial, app.demo_reply, 'scroll' if app.scrolling else 'slides',
+                   str(3 if app.scrolling else 1 + len(app.extra_slides)),
+                   app.applet['width'], app.applet['height']]
         with subprocess.Popen(command, stdin=subprocess.PIPE, stdout=subprocess.PIPE,
                               text=True, bufsize=1) as process:
             timer = threading.Timer(60, process.kill)
@@ -2006,6 +1955,9 @@ class JavaScriptReconstruction(MessagingReconstruction):
     client_mime = 'application/javascript; charset=utf-8'
     response_mime = 'text/plain; charset=utf-8'
     runtime = None
+    # JS login artwork varies by site. Ciro spotted a visual match for the lock
+    # from latinamericanewsbeat.com's today.jar in the Wahid Futbol screenshot:
+    # http://cqcounter.com/whois/www/wahidfutbol.com.html
     shared_icon_members = dict(login='res.Lock.png', compose='res.Compose.gif', reply='res.Reply.gif',
                                delete='res.Delete.gif', exit='res.Close.gif', inbox='res.Inbox.gif', send='res.Send.gif')
     shared_icon_hashes = dict(

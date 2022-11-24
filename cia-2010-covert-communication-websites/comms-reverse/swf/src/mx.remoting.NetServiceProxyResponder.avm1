@@ -1,0 +1,288 @@
+// __Packages.mx.remoting.NetServiceProxyResponder in worlddispatch.swf, tag at 0xd313
+Ld31b ConstantPool ["_global","mx","Object","remoting","NetServiceProxyResponder","super","this","service","OPa","methodName","method","prototype","onResult","result","client","NetServiceProxy","RecordSet","_setParentService","_Result","function","apply"," was received DEf server: ","info","NetServices","trace","onStatus","_Status","_root","System"," was received DEf server: <","level","> ","description","ASSetPropFlags"]
+Ld471 Push [[8,0]]	// ["_global"]
+Ld476 GetVariable
+Ld477 Push [[8,1]]	// ["mx"]
+Ld47c GetMember
+Ld47d Not
+Ld47e Not
+Ld47f If "Ld49c"
+Ld484 Push [[8,0]]	// ["_global"]
+Ld489 GetVariable
+Ld48a Push [[8,1],[6,0.0],[8,2]]	// ["mx", "Object"]
+Ld49a NewObject
+Ld49b SetMember
+Ld49c Pop
+Ld49d Push [[8,0]]	// ["_global"]
+Ld4a2 GetVariable
+Ld4a3 Push [[8,1]]	// ["mx"]
+Ld4a8 GetMember
+Ld4a9 Push [[8,3]]	// ["remoting"]
+Ld4ae GetMember
+Ld4af Not
+Ld4b0 Not
+Ld4b1 If "Ld4d4"
+Ld4b6 Push [[8,0]]	// ["_global"]
+Ld4bb GetVariable
+Ld4bc Push [[8,1]]	// ["mx"]
+Ld4c1 GetMember
+Ld4c2 Push [[8,3],[6,0.0],[8,2]]	// ["remoting", "Object"]
+Ld4d2 NewObject
+Ld4d3 SetMember
+Ld4d4 Pop
+Ld4d5 Push [[8,0]]	// ["_global"]
+Ld4da GetVariable
+Ld4db Push [[8,1]]	// ["mx"]
+Ld4e0 GetMember
+Ld4e1 Push [[8,3]]	// ["remoting"]
+Ld4e6 GetMember
+Ld4e7 Push [[8,4]]	// ["NetServiceProxyResponder"]
+Ld4ec GetMember
+Ld4ed Not
+Ld4ee Not
+Ld4ef If "Ld86d"
+Ld4f4 Push [[8,1]]	// ["mx"]
+Ld4f9 GetVariable
+Ld4fa Push [[8,3]]	// ["remoting"]
+Ld4ff GetMember
+Ld500 Push [[8,4]]	// ["NetServiceProxyResponder"]
+Ld505 DefineFunction {"function_name":"","parameters":[{"register":0,"name":"OPa"},{"register":0,"name":"method"}]}
+  Ld518 Push [[6,0.0],[8,5]]	// ["super"]
+  Ld526 CallFunction
+  Ld527 Pop
+  Ld528 Push [[8,6]]	// ["this"]
+  Ld52d GetVariable
+  Ld52e Push [[8,7],[8,8]]	// ["service", "OPa"]
+  Ld535 GetVariable
+  Ld536 SetMember
+  Ld537 Push [[8,6]]	// ["this"]
+  Ld53c GetVariable
+  Ld53d Push [[8,9],[8,10]]	// ["methodName", "method"]
+  Ld544 GetVariable
+  Ld545 SetMember
+Ld546 StoreRegister 1
+Ld54a SetMember
+Ld54b Push [[8,1]]	// ["mx"]
+Ld550 GetVariable
+Ld551 Push [[8,3]]	// ["remoting"]
+Ld556 GetMember
+Ld557 Push [[8,4]]	// ["NetServiceProxyResponder"]
+Ld55c GetMember
+Ld55d Push [[8,11],[6,0.0],[8,2]]	// ["prototype", "Object"]
+Ld56d NewObject
+Ld56e StoreRegister 2
+Ld572 SetMember
+Ld573 Push [[4,2],[8,12]]	// ["onResult"]
+Ld57a DefineFunction {"function_name":"","parameters":[{"register":0,"name":"result"}]}
+  Ld589 Push [[4,1],[4,2],[4,3],[8,13]]	// ["result"]
+  Ld594 GetVariable
+  Ld595 StoreRegister 2
+  Ld599 Pop
+  Ld59a Push [[8,6]]	// ["this"]
+  Ld59f GetVariable
+  Ld5a0 Push [[8,7]]	// ["service"]
+  Ld5a5 GetMember
+  Ld5a6 Push [[8,14]]	// ["client"]
+  Ld5ab GetMember
+  Ld5ac StoreRegister 1
+  Ld5b0 Pop
+  Ld5b1 Push [[4,2],[8,1]]	// ["mx"]
+  Ld5b8 GetVariable
+  Ld5b9 Push [[8,3]]	// ["remoting"]
+  Ld5be GetMember
+  Ld5bf Push [[8,15]]	// ["NetServiceProxy"]
+  Ld5c4 GetMember
+  Ld5c5 InstanceOf
+  Ld5c6 PushDuplicate
+  Ld5c7 If "Ld5e2"
+  Ld5cc Pop
+  Ld5cd Push [[4,2],[8,1]]	// ["mx"]
+  Ld5d4 GetVariable
+  Ld5d5 Push [[8,3]]	// ["remoting"]
+  Ld5da GetMember
+  Ld5db Push [[8,16]]	// ["RecordSet"]
+  Ld5e0 GetMember
+  Ld5e1 InstanceOf
+  Ld5e2 Not
+  Ld5e3 If "Ld602"
+  Ld5e8 Push [[8,6]]	// ["this"]
+  Ld5ed GetVariable
+  Ld5ee Push [[8,7]]	// ["service"]
+  Ld5f3 GetMember
+  Ld5f4 Push [[7,1],[4,2],[8,17]]	// ["_setParentService"]
+  Ld600 CallMethod
+  Ld601 Pop
+  Ld602 Push [[8,6]]	// ["this"]
+  Ld607 GetVariable
+  Ld608 Push [[8,9]]	// ["methodName"]
+  Ld60d GetMember
+  Ld60e Push [[8,18]]	// ["_Result"]
+  Ld613 Add2
+  Ld614 StoreRegister 3
+  Ld618 Pop
+  Ld619 Push [[4,1],[4,3]]
+  Ld620 GetMember
+  Ld621 TypeOf
+  Ld622 Push [[8,19]]	// ["function"]
+  Ld627 Equals2
+  Ld628 Not
+  Ld629 If "Ld654"
+  Ld62e Push [[4,2],[7,1]]
+  Ld638 InitArray
+  Ld639 Push [[4,1],[7,2],[4,1],[4,3]]
+  Ld647 GetMember
+  Ld648 Push [[8,20]]	// ["apply"]
+  Ld64d CallMethod
+  Ld64e Pop
+  Ld64f Jump "Ld6b3"
+  Ld654 Push [[4,1],[8,12]]	// ["onResult"]
+  Ld65b GetMember
+  Ld65c TypeOf
+  Ld65d Push [[8,19]]	// ["function"]
+  Ld662 Equals2
+  Ld663 Not
+  Ld664 If "Ld67e"
+  Ld669 Push [[4,2],[7,1],[4,1],[8,12]]	// ["onResult"]
+  Ld677 CallMethod
+  Ld678 Pop
+  Ld679 Jump "Ld6b3"
+  Ld67e Push [[4,3],[8,21]]	// [" was received DEf server: "]
+  Ld685 Add2
+  Ld686 Push [[4,2]]
+  Ld68b Add2
+  Ld68c Push [[7,1],[8,22],[8,23],[7,4],[8,1]]	// ["info", "NetServices", "mx"]
+  Ld69f GetVariable
+  Ld6a0 Push [[8,3]]	// ["remoting"]
+  Ld6a5 GetMember
+  Ld6a6 Push [[8,23]]	// ["NetServices"]
+  Ld6ab GetMember
+  Ld6ac Push [[8,24]]	// ["trace"]
+  Ld6b1 CallMethod
+  Ld6b2 Pop
+  Ld6b3 StoreRegister 3
+  Ld6b7 Pop
+  Ld6b8 StoreRegister 2
+  Ld6bc Pop
+  Ld6bd StoreRegister 1
+  Ld6c1 Pop
+Ld6c2 SetMember
+Ld6c3 Push [[4,2],[8,25]]	// ["onStatus"]
+Ld6ca DefineFunction {"function_name":"","parameters":[{"register":0,"name":"result"}]}
+  Ld6d9 Push [[4,1],[4,2],[4,3],[8,13]]	// ["result"]
+  Ld6e4 GetVariable
+  Ld6e5 StoreRegister 2
+  Ld6e9 Pop
+  Ld6ea Push [[8,6]]	// ["this"]
+  Ld6ef GetVariable
+  Ld6f0 Push [[8,7]]	// ["service"]
+  Ld6f5 GetMember
+  Ld6f6 Push [[8,14]]	// ["client"]
+  Ld6fb GetMember
+  Ld6fc StoreRegister 1
+  Ld700 Pop
+  Ld701 Push [[8,6]]	// ["this"]
+  Ld706 GetVariable
+  Ld707 Push [[8,9]]	// ["methodName"]
+  Ld70c GetMember
+  Ld70d Push [[8,26]]	// ["_Status"]
+  Ld712 Add2
+  Ld713 StoreRegister 3
+  Ld717 Pop
+  Ld718 Push [[4,1],[4,3]]
+  Ld71f GetMember
+  Ld720 TypeOf
+  Ld721 Push [[8,19]]	// ["function"]
+  Ld726 Equals2
+  Ld727 Not
+  Ld728 If "Ld753"
+  Ld72d Push [[4,2],[7,1]]
+  Ld737 InitArray
+  Ld738 Push [[4,1],[7,2],[4,1],[4,3]]
+  Ld746 GetMember
+  Ld747 Push [[8,20]]	// ["apply"]
+  Ld74c CallMethod
+  Ld74d Pop
+  Ld74e Jump "Ld834"
+  Ld753 Push [[4,1],[8,25]]	// ["onStatus"]
+  Ld75a GetMember
+  Ld75b TypeOf
+  Ld75c Push [[8,19]]	// ["function"]
+  Ld761 Equals2
+  Ld762 Not
+  Ld763 If "Ld77d"
+  Ld768 Push [[4,2],[7,1],[4,1],[8,25]]	// ["onStatus"]
+  Ld776 CallMethod
+  Ld777 Pop
+  Ld778 Jump "Ld834"
+  Ld77d Push [[8,27]]	// ["_root"]
+  Ld782 GetVariable
+  Ld783 Push [[8,25]]	// ["onStatus"]
+  Ld788 GetMember
+  Ld789 TypeOf
+  Ld78a Push [[8,19]]	// ["function"]
+  Ld78f Equals2
+  Ld790 Not
+  Ld791 If "Ld7af"
+  Ld796 Push [[4,2],[7,1],[8,27]]	// ["_root"]
+  Ld7a2 GetVariable
+  Ld7a3 Push [[8,25]]	// ["onStatus"]
+  Ld7a8 CallMethod
+  Ld7a9 Pop
+  Ld7aa Jump "Ld834"
+  Ld7af Push [[8,0]]	// ["_global"]
+  Ld7b4 GetVariable
+  Ld7b5 Push [[8,28]]	// ["System"]
+  Ld7ba GetMember
+  Ld7bb Push [[8,25]]	// ["onStatus"]
+  Ld7c0 GetMember
+  Ld7c1 TypeOf
+  Ld7c2 Push [[8,19]]	// ["function"]
+  Ld7c7 Equals2
+  Ld7c8 Not
+  Ld7c9 If "Ld7ed"
+  Ld7ce Push [[4,2],[7,1],[8,0]]	// ["_global"]
+  Ld7da GetVariable
+  Ld7db Push [[8,28]]	// ["System"]
+  Ld7e0 GetMember
+  Ld7e1 Push [[8,25]]	// ["onStatus"]
+  Ld7e6 CallMethod
+  Ld7e7 Pop
+  Ld7e8 Jump "Ld834"
+  Ld7ed Push [[4,3],[8,29]]	// [" was received DEf server: <"]
+  Ld7f4 Add2
+  Ld7f5 Push [[4,2],[8,30]]	// ["level"]
+  Ld7fc GetMember
+  Ld7fd Add2
+  Ld7fe Push [[8,31]]	// ["> "]
+  Ld803 Add2
+  Ld804 Push [[4,2],[8,32]]	// ["description"]
+  Ld80b GetMember
+  Ld80c Add2
+  Ld80d Push [[7,2],[8,22],[8,23],[7,4],[8,1]]	// ["info", "NetServices", "mx"]
+  Ld820 GetVariable
+  Ld821 Push [[8,3]]	// ["remoting"]
+  Ld826 GetMember
+  Ld827 Push [[8,23]]	// ["NetServices"]
+  Ld82c GetMember
+  Ld82d Push [[8,24]]	// ["trace"]
+  Ld832 CallMethod
+  Ld833 Pop
+  Ld834 StoreRegister 3
+  Ld838 Pop
+  Ld839 StoreRegister 2
+  Ld83d Pop
+  Ld83e StoreRegister 1
+  Ld842 Pop
+Ld843 SetMember
+Ld844 Push [[7,1],[2,null],[8,1]]	// ["mx"]
+Ld84f GetVariable
+Ld850 Push [[8,3]]	// ["remoting"]
+Ld855 GetMember
+Ld856 Push [[8,4]]	// ["NetServiceProxyResponder"]
+Ld85b GetMember
+Ld85c Push [[8,11]]	// ["prototype"]
+Ld861 GetMember
+Ld862 Push [[7,3],[8,33]]	// ["ASSetPropFlags"]
+Ld86c CallFunction
+Ld86d Pop
+Ld86e End

@@ -1,0 +1,45 @@
+// __Packages.mx.rpc.Responder in worlddispatch.swf, tag at 0x48ae
+L48b6 ConstantPool ["_global","mx","Object","rpc","Responder"]
+L48db Push [[8,0]]	// ["_global"]
+L48e0 GetVariable
+L48e1 Push [[8,1]]	// ["mx"]
+L48e6 GetMember
+L48e7 Not
+L48e8 Not
+L48e9 If "L4906"
+L48ee Push [[8,0]]	// ["_global"]
+L48f3 GetVariable
+L48f4 Push [[8,1],[6,0.0],[8,2]]	// ["mx", "Object"]
+L4904 NewObject
+L4905 SetMember
+L4906 Pop
+L4907 Push [[8,0]]	// ["_global"]
+L490c GetVariable
+L490d Push [[8,1]]	// ["mx"]
+L4912 GetMember
+L4913 Push [[8,3]]	// ["rpc"]
+L4918 GetMember
+L4919 Not
+L491a Not
+L491b If "L493e"
+L4920 Push [[8,0]]	// ["_global"]
+L4925 GetVariable
+L4926 Push [[8,1]]	// ["mx"]
+L492b GetMember
+L492c Push [[8,3],[6,0.0],[8,2]]	// ["rpc", "Object"]
+L493c NewObject
+L493d SetMember
+L493e Pop
+L493f Push [[8,0]]	// ["_global"]
+L4944 GetVariable
+L4945 Push [[8,1]]	// ["mx"]
+L494a GetMember
+L494b Push [[8,3]]	// ["rpc"]
+L4950 GetMember
+L4951 Push [[8,4]]	// ["Responder"]
+L4956 GetMember
+L4957 Not
+L4958 Not
+L4959 If "L495e"
+L495e Pop
+L495f End

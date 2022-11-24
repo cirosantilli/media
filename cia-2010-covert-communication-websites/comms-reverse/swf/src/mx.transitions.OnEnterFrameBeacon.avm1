@@ -1,0 +1,100 @@
+// __Packages.mx.transitions.OnEnterFrameBeacon in worlddispatch.swf, tag at 0x12ef
+L12f7 ConstantPool ["_global","mx","Object","transitions","OnEnterFrameBeacon","prototype","init","MovieClip","__OnEnterFrameBeacon","BroadcasterMX","initialize","createEmptyMovieClip","onEnterFrame","KUR","ASSetPropFlags"]
+L13a9 Push [[8,0]]	// ["_global"]
+L13ae GetVariable
+L13af Push [[8,1]]	// ["mx"]
+L13b4 GetMember
+L13b5 Not
+L13b6 Not
+L13b7 If "L13d4"
+L13bc Push [[8,0]]	// ["_global"]
+L13c1 GetVariable
+L13c2 Push [[8,1],[6,0.0],[8,2]]	// ["mx", "Object"]
+L13d2 NewObject
+L13d3 SetMember
+L13d4 Pop
+L13d5 Push [[8,0]]	// ["_global"]
+L13da GetVariable
+L13db Push [[8,1]]	// ["mx"]
+L13e0 GetMember
+L13e1 Push [[8,3]]	// ["transitions"]
+L13e6 GetMember
+L13e7 Not
+L13e8 Not
+L13e9 If "L140c"
+L13ee Push [[8,0]]	// ["_global"]
+L13f3 GetVariable
+L13f4 Push [[8,1]]	// ["mx"]
+L13f9 GetMember
+L13fa Push [[8,3],[6,0.0],[8,2]]	// ["transitions", "Object"]
+L140a NewObject
+L140b SetMember
+L140c Pop
+L140d Push [[8,0]]	// ["_global"]
+L1412 GetVariable
+L1413 Push [[8,1]]	// ["mx"]
+L1418 GetMember
+L1419 Push [[8,3]]	// ["transitions"]
+L141e GetMember
+L141f Push [[8,4]]	// ["OnEnterFrameBeacon"]
+L1424 GetMember
+L1425 Not
+L1426 Not
+L1427 If "L1511"
+L142c Push [[8,1]]	// ["mx"]
+L1431 GetVariable
+L1432 Push [[8,3]]	// ["transitions"]
+L1437 GetMember
+L1438 Push [[8,4]]	// ["OnEnterFrameBeacon"]
+L143d DefineFunction {"function_name":"","parameters":[]}
+L1445 StoreRegister 0
+L1449 SetMember
+L144a Push [[4,0],[8,5]]	// ["prototype"]
+L1451 GetMember
+L1452 StoreRegister 1
+L1456 Pop
+L1457 Push [[4,0],[8,6]]	// ["init"]
+L145e DefineFunction2 {"function_name":"","register_count":5,"flags":362,"parameters":[]}
+  L1469 Push [[4,2],[8,7]]	// ["MovieClip"]
+  L1470 GetMember
+  L1471 StoreRegister 4
+  L1475 Pop
+  L1476 Push [[4,1],[8,8]]	// ["__OnEnterFrameBeacon"]
+  L147d GetMember
+  L147e Not
+  L147f Not
+  L1480 If "L14e7"
+  L1485 Push [[4,4],[7,1],[8,1]]	// ["mx"]
+  L1491 GetVariable
+  L1492 Push [[8,3]]	// ["transitions"]
+  L1497 GetMember
+  L1498 Push [[8,9]]	// ["BroadcasterMX"]
+  L149d GetMember
+  L149e Push [[8,10]]	// ["initialize"]
+  L14a3 CallMethod
+  L14a4 Pop
+  L14a5 Push [[7,9876],[8,8],[7,2],[4,1],[8,11]]	// ["__OnEnterFrameBeacon", "createEmptyMovieClip"]
+  L14b8 CallMethod
+  L14b9 StoreRegister 3
+  L14bd Pop
+  L14be Push [[4,3],[8,12]]	// ["onEnterFrame"]
+  L14c5 DefineFunction2 {"function_name":"","register_count":2,"flags":298,"parameters":[]}
+    L14d0 Push [[8,12],[7,1],[4,1],[8,7]]	// ["onEnterFrame", "MovieClip"]
+    L14de GetMember
+    L14df Push [[8,13]]	// ["KUR"]
+    L14e4 CallMethod
+    L14e5 Pop
+  L14e6 SetMember
+L14e7 SetMember
+L14e8 Push [[7,1],[2,null],[8,1]]	// ["mx"]
+L14f3 GetVariable
+L14f4 Push [[8,3]]	// ["transitions"]
+L14f9 GetMember
+L14fa Push [[8,4]]	// ["OnEnterFrameBeacon"]
+L14ff GetMember
+L1500 Push [[8,5]]	// ["prototype"]
+L1505 GetMember
+L1506 Push [[7,3],[8,14]]	// ["ASSetPropFlags"]
+L1510 CallFunction
+L1511 Pop
+L1512 End

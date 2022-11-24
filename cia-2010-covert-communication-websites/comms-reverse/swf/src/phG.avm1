@@ -1,0 +1,296 @@
+// __Packages.phG in worlddispatch.swf, tag at 0x5ec1
+L5ec9 ConstantPool ["_global","phG","fgt","prototype","onResult","serviceName","ufM","getNextHighestDepth","getInstanceAtDepth","bc","createEmptyMovieClip","_visible","muN","xmi","Xyz","VgM","moveTo","Stage","height","width","lineTo","cvZ","FormatText","LNi","UbC","pTt","vhS","wwX","kDA","push","d","length","Array","sort","property is ","ASSetPropFlags"]
+L5fd6 Push [[8,0]]	// ["_global"]
+L5fdb GetVariable
+L5fdc Push [[8,1]]	// ["phG"]
+L5fe1 GetMember
+L5fe2 Not
+L5fe3 Not
+L5fe4 If "L64a8"
+L5fe9 Push [[8,0]]	// ["_global"]
+L5fee GetVariable
+L5fef Push [[8,1]]	// ["phG"]
+L5ff4 DefineFunction2 {"function_name":"","register_count":7,"flags":26,"parameters":[{"register":5,"name":"gatewayUrl"},{"register":3,"name":"servicePath"},{"register":4,"name":"minItems"},{"register":2,"name":"maxItems"},{"register":6,"name":"timeOut"}]}
+  L6035 Push [[4,6],[4,2],[4,4],[4,3],[4,5],[7,5],[4,1],[3,"undefined"]]
+  L604a CallMethod
+  L604b Pop
+L604c StoreRegister 0
+L6050 SetMember
+L6051 Push [[8,0]]	// ["_global"]
+L6056 GetVariable
+L6057 Push [[8,1]]	// ["phG"]
+L605c GetMember
+L605d Push [[8,2]]	// ["fgt"]
+L6062 GetVariable
+L6063 Extends
+L6064 Push [[4,0],[8,3]]	// ["prototype"]
+L606b GetMember
+L606c StoreRegister 1
+L6070 Pop
+L6071 Push [[4,1],[8,4]]	// ["onResult"]
+L6078 DefineFunction2 {"function_name":"","register_count":8,"flags":105,"parameters":[{"register":6,"name":"result"}]}
+  L608b Push [[3,"undefined"]]
+  L608f StoreRegister 7
+  L6093 Pop
+  L6094 Push [[4,6],[8,5]]	// ["serviceName"]
+  L609b Delete
+  L609c Pop
+  L609d Push [[3,"undefined"],[4,6]]
+  L60a3 Equals2
+  L60a4 Not
+  L60a5 Not
+  L60a6 If "L62b9"
+  L60ab Push [[6,0.0],[4,2],[8,6]]	// ["ufM"]
+  L60bb GetMember
+  L60bc Push [[8,7]]	// ["getNextHighestDepth"]
+  L60c1 CallMethod
+  L60c2 StoreRegister 4
+  L60c6 Pop
+  L60c7 Push [[7,1]]
+  L60cf StoreRegister 3
+  L60d3 Pop
+  L60d4 Push [[4,3],[4,4]]
+  L60db Less2
+  L60dc Not
+  L60dd If "L611e"
+  L60e2 Push [[3,"undefined"],[4,3],[7,1],[4,2],[8,6]]	// ["ufM"]
+  L60f1 GetMember
+  L60f2 Push [[8,8]]	// ["getInstanceAtDepth"]
+  L60f7 CallMethod
+  L60f8 Equals2
+  L60f9 Not
+  L60fa If "L610e"
+  L60ff Push [[4,3]]
+  L6104 StoreRegister 4
+  L6108 Pop
+  L6109 Jump "L611e"
+  L610e Push [[4,3]]
+  L6113 Increment
+  L6114 StoreRegister 3
+  L6118 Pop
+  L6119 Jump "L60d4"
+  L611e Push [[4,4],[8,9],[4,4]]	// ["bc"]
+  L6127 Add2
+  L6128 Push [[7,2],[4,2],[8,6]]	// ["ufM"]
+  L6134 GetMember
+  L6135 Push [[8,10]]	// ["createEmptyMovieClip"]
+  L613a CallMethod
+  L613b StoreRegister 5
+  L613f Pop
+  L6140 Push [[4,5],[8,11],[5,0]]	// ["_visible"]
+  L6149 SetMember
+  L614a Push [[4,5],[8,12],[6,0.0],[8,13]]	// ["muN", "xmi"]
+  L615c NewObject
+  L615d SetMember
+  L615e Push [[4,5],[8,14]]	// ["Xyz"]
+  L6165 DefineFunction2 {"function_name":"","register_count":2,"flags":41,"parameters":[]}
+    L6170 Push [[6,0.0],[4,1],[8,12]]	// ["muN"]
+    L6180 GetMember
+    L6181 Push [[8,15]]	// ["VgM"]
+    L6186 CallMethod
+    L6187 Pop
+    L6188 Push [[4,1],[8,12]]	// ["muN"]
+    L618f Delete
+    L6190 Pop
+    L6191 Push [[4,1],[8,12],[2,null]]	// ["muN"]
+    L6199 SetMember
+    L619a Push [[4,1],[8,14]]	// ["Xyz"]
+    L61a1 Delete
+    L61a2 Pop
+  L61a3 SetMember
+  L61a4 Push [[6,0.0],[6,0.0],[7,2],[4,5],[8,16]]	// ["moveTo"]
+  L61c2 CallMethod
+  L61c3 Pop
+  L61c4 Push [[8,17]]	// ["Stage"]
+  L61c9 GetVariable
+  L61ca Push [[8,18]]	// ["height"]
+  L61cf GetMember
+  L61d0 Push [[8,17]]	// ["Stage"]
+  L61d5 GetVariable
+  L61d6 Push [[8,19]]	// ["width"]
+  L61db GetMember
+  L61dc Push [[7,2],[4,5],[8,20]]	// ["lineTo"]
+  L61e8 CallMethod
+  L61e9 Pop
+  L61ea Push [[4,6],[8,21]]	// ["cvZ"]
+  L61f1 GetVariable
+  L61f2 InstanceOf
+  L61f3 Not
+  L61f4 If "L6224"
+  L61f9 Push [[8,21]]	// ["cvZ"]
+  L61fe GetVariable
+  L61ff Push [[4,6]]
+  L6204 CastOp
+  L6205 Push [[4,5],[7,2],[4,5],[8,12]]	// ["muN"]
+  L6213 GetMember
+  L6214 Push [[8,22]]	// ["FormatText"]
+  L6219 CallMethod
+  L621a StoreRegister 7
+  L621e Pop
+  L621f Jump "L6293"
+  L6224 Push [[4,6],[8,23]]	// ["LNi"]
+  L622b GetVariable
+  L622c InstanceOf
+  L622d Not
+  L622e If "L625e"
+  L6233 Push [[8,23]]	// ["LNi"]
+  L6238 GetVariable
+  L6239 Push [[4,6]]
+  L623e CastOp
+  L623f Push [[4,5],[7,2],[4,5],[8,12]]	// ["muN"]
+  L624d GetMember
+  L624e Push [[8,24]]	// ["UbC"]
+  L6253 CallMethod
+  L6254 StoreRegister 7
+  L6258 Pop
+  L6259 Jump "L6293"
+  L625e Push [[4,6],[8,25]]	// ["pTt"]
+  L6265 GetVariable
+  L6266 InstanceOf
+  L6267 Not
+  L6268 If "L6293"
+  L626d Push [[8,25]]	// ["pTt"]
+  L6272 GetVariable
+  L6273 Push [[4,6]]
+  L6278 CastOp
+  L6279 Push [[4,5],[7,2],[4,5],[8,12]]	// ["muN"]
+  L6287 GetMember
+  L6288 Push [[8,26]]	// ["vhS"]
+  L628d CallMethod
+  L628e StoreRegister 7
+  L6292 Pop
+  L6293 Push [[4,6],[7,1],[4,1],[8,27]]	// ["wwX"]
+  L62a1 CallMethod
+  L62a2 Pop
+  L62a3 Push [[4,7],[7,1],[4,1],[8,28]]	// ["kDA"]
+  L62b1 GetMember
+  L62b2 Push [[8,29]]	// ["push"]
+  L62b7 CallMethod
+  L62b8 Pop
+L62b9 SetMember
+L62ba Push [[4,1],[8,27]]	// ["wwX"]
+L62c1 DefineFunction2 {"function_name":"","register_count":9,"flags":41,"parameters":[{"register":5,"name":"object"}]}
+  L62d4 Push [[2,null]]
+  L62d8 StoreRegister 7
+  L62dc Pop
+  L62dd Push [[4,5],[8,21]]	// ["cvZ"]
+  L62e4 GetVariable
+  L62e5 InstanceOf
+  L62e6 Not
+  L62e7 If "L6305"
+  L62ec Push [[6,0.0],[8,21]]	// ["cvZ"]
+  L62fa NewObject
+  L62fb StoreRegister 7
+  L62ff Pop
+  L6300 Jump "L63b9"
+  L6305 Push [[4,5],[8,23]]	// ["LNi"]
+  L630c GetVariable
+  L630d InstanceOf
+  L630e Not
+  L630f If "L632d"
+  L6314 Push [[6,0.0],[8,23]]	// ["LNi"]
+  L6322 NewObject
+  L6323 StoreRegister 7
+  L6327 Pop
+  L6328 Jump "L63b9"
+  L632d Push [[4,5],[8,25]]	// ["pTt"]
+  L6334 GetVariable
+  L6335 InstanceOf
+  L6336 Not
+  L6337 If "L63b4"
+  L633c Push [[6,0.0],[8,25]]	// ["pTt"]
+  L634a NewObject
+  L634b StoreRegister 7
+  L634f Pop
+  L6350 Push [[8,25]]	// ["pTt"]
+  L6355 GetVariable
+  L6356 Push [[4,5]]
+  L635b CastOp
+  L635c Push [[8,30]]	// ["d"]
+  L6361 GetMember
+  L6362 StoreRegister 6
+  L6366 Pop
+  L6367 Push [[6,0.0]]
+  L6373 StoreRegister 2
+  L6377 Pop
+  L6378 Push [[4,2],[4,6],[8,31]]	// ["length"]
+  L6381 GetMember
+  L6382 Less2
+  L6383 Not
+  L6384 If "L63af"
+  L6389 Push [[4,6],[4,2]]
+  L6390 GetMember
+  L6391 Push [[7,1],[4,1],[8,27]]	// ["wwX"]
+  L639d CallMethod
+  L639e Pop
+  L639f Push [[4,2]]
+  L63a4 Increment
+  L63a5 StoreRegister 2
+  L63a9 Pop
+  L63aa Jump "L6378"
+  L63af Jump "L63b9"
+  L63b4 Push [[3,"undefined"]]
+  L63b8 Return
+  L63b9 Push [[6,0.0],[8,32]]	// ["Array"]
+  L63c7 NewObject
+  L63c8 StoreRegister 4
+  L63cc Pop
+  L63cd Push [[4,5]]
+  L63d2 Enumerate2
+  L63d3 StoreRegister 0
+  L63d7 Push [[2,null]]
+  L63db Equals2
+  L63dc If "L6410"
+  L63e1 Push [[4,0]]
+  L63e6 StoreRegister 8
+  L63ea Pop
+  L63eb Push [[3,"undefined"],[4,7],[4,8]]
+  L63f3 GetMember
+  L63f4 StrictEquals
+  L63f5 Not
+  L63f6 If "L640b"
+  L63fb Push [[4,8],[7,1],[4,4],[8,29]]	// ["push"]
+  L6409 CallMethod
+  L640a Pop
+  L640b Jump "L63d3"
+  L6410 Push [[6,0.0],[4,4],[8,33]]	// ["sort"]
+  L6420 CallMethod
+  L6421 Pop
+  L6422 Push [[6,0.0]]
+  L642e StoreRegister 2
+  L6432 Pop
+  L6433 Push [[4,2],[4,4],[8,31]]	// ["length"]
+  L643c GetMember
+  L643d Less2
+  L643e Not
+  L643f If "L6484"
+  L6444 Push [[4,5],[4,4],[4,2]]
+  L644d GetMember
+  L644e GetMember
+  L644f StoreRegister 3
+  L6453 Pop
+  L6454 Push [[4,3],[8,31]]	// ["length"]
+  L645b GetMember
+  L645c Push [[7,4]]
+  L6464 Greater
+  L6465 Not
+  L6466 If "L6474"
+  L646b Push [[8,34],[4,3]]	// ["property is "]
+  L6472 Add2
+  L6473 Trace
+  L6474 Push [[4,2]]
+  L6479 Increment
+  L647a StoreRegister 2
+  L647e Pop
+  L647f Jump "L6433"
+L6484 SetMember
+L6485 Push [[7,1],[2,null],[8,0]]	// ["_global"]
+L6490 GetVariable
+L6491 Push [[8,1]]	// ["phG"]
+L6496 GetMember
+L6497 Push [[8,3]]	// ["prototype"]
+L649c GetMember
+L649d Push [[7,3],[8,35]]	// ["ASSetPropFlags"]
+L64a7 CallFunction
+L64a8 Pop
+L64a9 End

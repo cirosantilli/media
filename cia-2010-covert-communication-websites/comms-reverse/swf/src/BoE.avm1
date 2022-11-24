@@ -1,0 +1,261 @@
+// __Packages.BoE in worlddispatch.swf, tag at 0x8530
+L8538 ConstantPool ["_global","BoE","::","split","rES",":","BFx","psz","prototype","AGL","?","length","xmi","yPF","","liN","Array","push","CWZ","ASSetPropFlags"]
+L85a2 Push [[8,0]]	// ["_global"]
+L85a7 GetVariable
+L85a8 Push [[8,1]]	// ["BoE"]
+L85ad GetMember
+L85ae Not
+L85af Not
+L85b0 If "L89c6"
+L85b5 Push [[8,0]]	// ["_global"]
+L85ba GetVariable
+L85bb Push [[8,1]]	// ["BoE"]
+L85c0 DefineFunction2 {"function_name":"","register_count":4,"flags":41,"parameters":[{"register":3,"name":"XQT"}]}
+  L85d0 Push [[8,2],[7,1],[4,3],[8,3]]	// ["::", "split"]
+  L85de CallMethod
+  L85df StoreRegister 2
+  L85e3 Pop
+  L85e4 Push [[4,1],[8,4],[8,5],[7,1],[4,2],[6,0.0]]	// ["rES", ":"]
+  L85fd GetMember
+  L85fe Push [[8,3]]	// ["split"]
+  L8603 CallMethod
+  L8604 SetMember
+  L8605 Push [[4,1],[8,6],[8,5],[7,1],[4,2],[7,1]]	// ["BFx", ":"]
+  L861a GetMember
+  L861b Push [[8,3]]	// ["split"]
+  L8620 CallMethod
+  L8621 SetMember
+  L8622 Push [[4,1],[8,7],[8,5],[7,1],[4,2],[7,2]]	// ["psz", ":"]
+  L8637 GetMember
+  L8638 Push [[8,3]]	// ["split"]
+  L863d CallMethod
+  L863e SetMember
+L863f StoreRegister 0
+L8643 SetMember
+L8644 Push [[4,0],[8,8]]	// ["prototype"]
+L864b GetMember
+L864c StoreRegister 1
+L8650 Pop
+L8651 Push [[4,1],[8,9]]	// ["AGL"]
+L8658 DefineFunction2 {"function_name":"","register_count":6,"flags":41,"parameters":[]}
+  L8663 Push [[8,10]]	// ["?"]
+  L8668 StoreRegister 5
+  L866c Pop
+  L866d Push [[6,0.0]]
+  L8679 StoreRegister 3
+  L867d Pop
+  L867e Push [[4,3],[4,1],[8,4]]	// ["rES"]
+  L8687 GetMember
+  L8688 Push [[8,11]]	// ["length"]
+  L868d GetMember
+  L868e Less2
+  L868f Not
+  L8690 If "L8720"
+  L8695 Push [[4,1],[8,4]]	// ["rES"]
+  L869c GetMember
+  L869d Push [[4,3]]
+  L86a2 GetMember
+  L86a3 StoreRegister 2
+  L86a7 Pop
+  L86a8 Push [[4,2],[8,11]]	// ["length"]
+  L86af GetMember
+  L86b0 Push [[6,0.0]]
+  L86bc Greater
+  L86bd Not
+  L86be If "L8710"
+  L86c3 Push [[4,2]]
+  L86c8 ToNumber
+  L86c9 StoreRegister 4
+  L86cd Pop
+  L86ce Push [[4,4],[6,0.0]]
+  L86dc Greater
+  L86dd Not
+  L86de If "L8703"
+  L86e3 Push [[4,5],[4,4],[7,1],[8,12]]	// ["xmi"]
+  L86f1 GetVariable
+  L86f2 Push [[8,13]]	// ["yPF"]
+  L86f7 CallMethod
+  L86f8 Add2
+  L86f9 StoreRegister 5
+  L86fd Pop
+  L86fe Jump "L8710"
+  L8703 Push [[4,5],[4,2]]
+  L870a Add2
+  L870b StoreRegister 5
+  L870f Pop
+  L8710 Push [[4,3]]
+  L8715 Increment
+  L8716 StoreRegister 3
+  L871a Pop
+  L871b Jump "L867e"
+  L8720 Push [[4,5],[8,11]]	// ["length"]
+  L8727 GetMember
+  L8728 Push [[7,1]]
+  L8730 Greater
+  L8731 Not
+  L8732 If "L873d"
+  L8737 Push [[4,5]]
+  L873c Return
+  L873d Push [[8,14]]	// [""]
+  L8742 Return
+L8743 SetMember
+L8744 Push [[4,1],[8,15]]	// ["liN"]
+L874b DefineFunction2 {"function_name":"","register_count":7,"flags":41,"parameters":[]}
+  L8756 Push [[6,0.0],[8,16]]	// ["Array"]
+  L8764 NewObject
+  L8765 StoreRegister 6
+  L8769 Pop
+  L876a Push [[6,0.0]]
+  L8776 StoreRegister 3
+  L877a Pop
+  L877b Push [[4,3],[4,1],[8,6]]	// ["BFx"]
+  L8784 GetMember
+  L8785 Push [[8,11]]	// ["length"]
+  L878a GetMember
+  L878b Less2
+  L878c Not
+  L878d If "L885f"
+  L8792 Push [[4,1],[8,6]]	// ["BFx"]
+  L8799 GetMember
+  L879a Push [[4,3]]
+  L879f GetMember
+  L87a0 StoreRegister 5
+  L87a4 Pop
+  L87a5 Push [[4,1],[8,6]]	// ["BFx"]
+  L87ac GetMember
+  L87ad Push [[4,3],[7,1]]
+  L87b7 Add2
+  L87b8 GetMember
+  L87b9 StoreRegister 2
+  L87bd Pop
+  L87be Push [[4,5],[8,11]]	// ["length"]
+  L87c5 GetMember
+  L87c6 Push [[6,0.0]]
+  L87d2 Greater
+  L87d3 PushDuplicate
+  L87d4 Not
+  L87d5 If "L87f0"
+  L87da Pop
+  L87db Push [[4,2],[8,11]]	// ["length"]
+  L87e2 GetMember
+  L87e3 Push [[6,0.0]]
+  L87ef Greater
+  L87f0 Not
+  L87f1 If "L884a"
+  L87f6 Push [[4,2]]
+  L87fb ToNumber
+  L87fc StoreRegister 4
+  L8800 Pop
+  L8801 Push [[4,4],[6,0.0]]
+  L880f Greater
+  L8810 Not
+  L8811 If "L882e"
+  L8816 Push [[4,4],[7,1],[8,12]]	// ["xmi"]
+  L8822 GetVariable
+  L8823 Push [[8,13]]	// ["yPF"]
+  L8828 CallMethod
+  L8829 StoreRegister 2
+  L882d Pop
+  L882e Push [[4,5],[8,5]]	// [":"]
+  L8835 Add2
+  L8836 Push [[4,2]]
+  L883b Add2
+  L883c Push [[7,1],[4,6],[8,17]]	// ["push"]
+  L8848 CallMethod
+  L8849 Pop
+  L884a Push [[4,3],[7,2]]
+  L8854 Add2
+  L8855 StoreRegister 3
+  L8859 Pop
+  L885a Jump "L877b"
+  L885f Push [[4,6]]
+  L8864 Return
+L8865 SetMember
+L8866 Push [[4,1],[8,18]]	// ["CWZ"]
+L886d DefineFunction2 {"function_name":"","register_count":7,"flags":41,"parameters":[]}
+  L8878 Push [[6,0.0],[8,16]]	// ["Array"]
+  L8886 NewObject
+  L8887 StoreRegister 6
+  L888b Pop
+  L888c Push [[6,0.0]]
+  L8898 StoreRegister 3
+  L889c Pop
+  L889d Push [[4,3],[4,1],[8,7]]	// ["psz"]
+  L88a6 GetMember
+  L88a7 Push [[8,11]]	// ["length"]
+  L88ac GetMember
+  L88ad Less2
+  L88ae Not
+  L88af If "L8981"
+  L88b4 Push [[4,1],[8,7]]	// ["psz"]
+  L88bb GetMember
+  L88bc Push [[4,3]]
+  L88c1 GetMember
+  L88c2 StoreRegister 5
+  L88c6 Pop
+  L88c7 Push [[4,1],[8,7]]	// ["psz"]
+  L88ce GetMember
+  L88cf Push [[4,3],[7,1]]
+  L88d9 Add2
+  L88da GetMember
+  L88db StoreRegister 2
+  L88df Pop
+  L88e0 Push [[4,5],[8,11]]	// ["length"]
+  L88e7 GetMember
+  L88e8 Push [[6,0.0]]
+  L88f4 Greater
+  L88f5 PushDuplicate
+  L88f6 Not
+  L88f7 If "L8912"
+  L88fc Pop
+  L88fd Push [[4,2],[8,11]]	// ["length"]
+  L8904 GetMember
+  L8905 Push [[6,0.0]]
+  L8911 Greater
+  L8912 Not
+  L8913 If "L896c"
+  L8918 Push [[4,2]]
+  L891d ToNumber
+  L891e StoreRegister 4
+  L8922 Pop
+  L8923 Push [[4,4],[6,0.0]]
+  L8931 Greater
+  L8932 Not
+  L8933 If "L8950"
+  L8938 Push [[4,4],[7,1],[8,12]]	// ["xmi"]
+  L8944 GetVariable
+  L8945 Push [[8,13]]	// ["yPF"]
+  L894a CallMethod
+  L894b StoreRegister 2
+  L894f Pop
+  L8950 Push [[4,5],[8,5]]	// [":"]
+  L8957 Add2
+  L8958 Push [[4,2]]
+  L895d Add2
+  L895e Push [[7,1],[4,6],[8,17]]	// ["push"]
+  L896a CallMethod
+  L896b Pop
+  L896c Push [[4,3],[7,2]]
+  L8976 Add2
+  L8977 StoreRegister 3
+  L897b Pop
+  L897c Jump "L889d"
+  L8981 Push [[4,6]]
+  L8986 Return
+L8987 SetMember
+L8988 Push [[4,1],[8,4],[2,null]]	// ["rES"]
+L8990 SetMember
+L8991 Push [[4,1],[8,6],[2,null]]	// ["BFx"]
+L8999 SetMember
+L899a Push [[4,1],[8,7],[2,null]]	// ["psz"]
+L89a2 SetMember
+L89a3 Push [[7,1],[2,null],[8,0]]	// ["_global"]
+L89ae GetVariable
+L89af Push [[8,1]]	// ["BoE"]
+L89b4 GetMember
+L89b5 Push [[8,8]]	// ["prototype"]
+L89ba GetMember
+L89bb Push [[7,3],[8,19]]	// ["ASSetPropFlags"]
+L89c5 CallFunction
+L89c6 Pop
+L89c7 End

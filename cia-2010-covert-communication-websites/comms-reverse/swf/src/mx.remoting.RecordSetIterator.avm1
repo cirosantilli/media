@@ -1,0 +1,115 @@
+// __Packages.mx.remoting.RecordSetIterator in worlddispatch.swf, tag at 0xd98c
+Ld994 ConstantPool ["_global","mx","Object","remoting","RecordSetIterator","this","Cts","MQQ","TOc","prototype","hasNext","getLength","kIg","getItemAt","VEZ","1.2.0.124","ASSetPropFlags"]
+Lda1e Push [[8,0]]	// ["_global"]
+Lda23 GetVariable
+Lda24 Push [[8,1]]	// ["mx"]
+Lda29 GetMember
+Lda2a Not
+Lda2b Not
+Lda2c If "Lda49"
+Lda31 Push [[8,0]]	// ["_global"]
+Lda36 GetVariable
+Lda37 Push [[8,1],[6,0.0],[8,2]]	// ["mx", "Object"]
+Lda47 NewObject
+Lda48 SetMember
+Lda49 Pop
+Lda4a Push [[8,0]]	// ["_global"]
+Lda4f GetVariable
+Lda50 Push [[8,1]]	// ["mx"]
+Lda55 GetMember
+Lda56 Push [[8,3]]	// ["remoting"]
+Lda5b GetMember
+Lda5c Not
+Lda5d Not
+Lda5e If "Lda81"
+Lda63 Push [[8,0]]	// ["_global"]
+Lda68 GetVariable
+Lda69 Push [[8,1]]	// ["mx"]
+Lda6e GetMember
+Lda6f Push [[8,3],[6,0.0],[8,2]]	// ["remoting", "Object"]
+Lda7f NewObject
+Lda80 SetMember
+Lda81 Pop
+Lda82 Push [[8,0]]	// ["_global"]
+Lda87 GetVariable
+Lda88 Push [[8,1]]	// ["mx"]
+Lda8d GetMember
+Lda8e Push [[8,3]]	// ["remoting"]
+Lda93 GetMember
+Lda94 Push [[8,4]]	// ["RecordSetIterator"]
+Lda99 GetMember
+Lda9a Not
+Lda9b Not
+Lda9c If "Ldbaa"
+Ldaa1 Push [[8,1]]	// ["mx"]
+Ldaa6 GetVariable
+Ldaa7 Push [[8,3]]	// ["remoting"]
+Ldaac GetMember
+Ldaad Push [[8,4]]	// ["RecordSetIterator"]
+Ldab2 DefineFunction {"function_name":"","parameters":[{"register":0,"name":"MQQ"}]}
+  Ldabe Push [[8,5]]	// ["this"]
+  Ldac3 GetVariable
+  Ldac4 Push [[8,6],[8,7]]	// ["Cts", "MQQ"]
+  Ldacb GetVariable
+  Ldacc SetMember
+  Ldacd Push [[8,5]]	// ["this"]
+  Ldad2 GetVariable
+  Ldad3 Push [[8,8],[6,0.0]]	// ["TOc"]
+  Ldae1 SetMember
+Ldae2 StoreRegister 1
+Ldae6 SetMember
+Ldae7 Push [[4,1],[8,9]]	// ["prototype"]
+Ldaee GetMember
+Ldaef StoreRegister 2
+Ldaf3 Pop
+Ldaf4 Push [[4,2],[8,10]]	// ["hasNext"]
+Ldafb DefineFunction {"function_name":"","parameters":[]}
+  Ldb03 Push [[8,5]]	// ["this"]
+  Ldb08 GetVariable
+  Ldb09 Push [[8,8]]	// ["TOc"]
+  Ldb0e GetMember
+  Ldb0f Push [[6,0.0],[8,5]]	// ["this"]
+  Ldb1d GetVariable
+  Ldb1e Push [[8,6]]	// ["Cts"]
+  Ldb23 GetMember
+  Ldb24 Push [[8,11]]	// ["getLength"]
+  Ldb29 CallMethod
+  Ldb2a Less2
+  Ldb2b Return
+Ldb2c SetMember
+Ldb2d Push [[4,2],[8,12]]	// ["kIg"]
+Ldb34 DefineFunction {"function_name":"","parameters":[]}
+  Ldb3c Push [[8,5]]	// ["this"]
+  Ldb41 GetVariable
+  Ldb42 Push [[8,8]]	// ["TOc"]
+  Ldb47 GetMember
+  Ldb48 Push [[8,5]]	// ["this"]
+  Ldb4d GetVariable
+  Ldb4e Push [[8,8],[8,5]]	// ["TOc", "this"]
+  Ldb55 GetVariable
+  Ldb56 Push [[8,8]]	// ["TOc"]
+  Ldb5b GetMember
+  Ldb5c Increment
+  Ldb5d SetMember
+  Ldb5e Push [[7,1],[8,5]]	// ["this"]
+  Ldb68 GetVariable
+  Ldb69 Push [[8,6]]	// ["Cts"]
+  Ldb6e GetMember
+  Ldb6f Push [[8,13]]	// ["getItemAt"]
+  Ldb74 CallMethod
+  Ldb75 Return
+Ldb76 SetMember
+Ldb77 Push [[4,1],[8,14],[8,15]]	// ["VEZ", "1.2.0.124"]
+Ldb80 SetMember
+Ldb81 Push [[7,1],[2,null],[8,1]]	// ["mx"]
+Ldb8c GetVariable
+Ldb8d Push [[8,3]]	// ["remoting"]
+Ldb92 GetMember
+Ldb93 Push [[8,4]]	// ["RecordSetIterator"]
+Ldb98 GetMember
+Ldb99 Push [[8,9]]	// ["prototype"]
+Ldb9e GetMember
+Ldb9f Push [[7,3],[8,16]]	// ["ASSetPropFlags"]
+Ldba9 CallFunction
+Ldbaa Pop
+Ldbab End

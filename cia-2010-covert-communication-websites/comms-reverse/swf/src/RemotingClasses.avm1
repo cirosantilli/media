@@ -1,0 +1,9 @@
+// RemotingClasses in worlddispatch.swf, tag at 0x10211
+L10219 Push [[0,"mx.remoting.ApiClasses"]]
+L10234 GetVariable
+L10235 Push [[0,"RemotingClasses"],[7,2],[0,"Object"]]
+L10256 GetVariable
+L10257 Push [[0,"registerClass"]]
+L10269 CallMethod
+L1026a Pop
+L1026b End

@@ -1,0 +1,372 @@
+// __Packages.mx.remoting.Service in worlddispatch.swf, tag at 0x3c37
+L3c3f ConstantPool ["_global","mx","Object","remoting","Service","this","xNt","rKk","super","log","dpX","services","Log","Nie","Creating Service for ","serviceName","udv","","NetServices","gatewayUrl","getHttpUrl","getConnection","Creating gateway connection for ","qql","IBh","updateConfig","qag","JFC","lQv","iCk","Successfully created Service","prototype","Esc","__resolve","methodName","__makeOpFunc","SIG","zXY","Operation","arguments","invoke","send","createThenSend","setResponder","responder","taS","MGx","OkL","Wco","addProperty","operation","Yup","OVu","VEZ","1.2.0.124","connection","ASSetPropFlags"]
+L3e21 Push [[8,0]]	// ["_global"]
+L3e26 GetVariable
+L3e27 Push [[8,1]]	// ["mx"]
+L3e2c GetMember
+L3e2d Not
+L3e2e Not
+L3e2f If "L3e4c"
+L3e34 Push [[8,0]]	// ["_global"]
+L3e39 GetVariable
+L3e3a Push [[8,1],[6,0.0],[8,2]]	// ["mx", "Object"]
+L3e4a NewObject
+L3e4b SetMember
+L3e4c Pop
+L3e4d Push [[8,0]]	// ["_global"]
+L3e52 GetVariable
+L3e53 Push [[8,1]]	// ["mx"]
+L3e58 GetMember
+L3e59 Push [[8,3]]	// ["remoting"]
+L3e5e GetMember
+L3e5f Not
+L3e60 Not
+L3e61 If "L3e84"
+L3e66 Push [[8,0]]	// ["_global"]
+L3e6b GetVariable
+L3e6c Push [[8,1]]	// ["mx"]
+L3e71 GetMember
+L3e72 Push [[8,3],[6,0.0],[8,2]]	// ["remoting", "Object"]
+L3e82 NewObject
+L3e83 SetMember
+L3e84 Pop
+L3e85 Push [[8,0]]	// ["_global"]
+L3e8a GetVariable
+L3e8b Push [[8,1]]	// ["mx"]
+L3e90 GetMember
+L3e91 Push [[8,3]]	// ["remoting"]
+L3e96 GetMember
+L3e97 Push [[8,4]]	// ["Service"]
+L3e9c GetMember
+L3e9d Not
+L3e9e Not
+L3e9f If "L43b9"
+L3ea4 Push [[8,1]]	// ["mx"]
+L3ea9 GetVariable
+L3eaa Push [[8,3]]	// ["remoting"]
+L3eaf GetMember
+L3eb0 Push [[8,4]]	// ["Service"]
+L3eb5 DefineFunction {"function_name":"","parameters":[{"register":0,"name":"rKk"},{"register":0,"name":"dpX"},{"register":0,"name":"serviceName"},{"register":0,"name":"xNt"},{"register":0,"name":"iCk"}]}
+  L3ed9 Push [[4,1],[4,2],[4,3],[8,5]]	// ["this"]
+  L3ee4 GetVariable
+  L3ee5 StoreRegister 1
+  L3ee9 Pop
+  L3eea Push [[8,6]]	// ["xNt"]
+  L3eef GetVariable
+  L3ef0 StoreRegister 2
+  L3ef4 Pop
+  L3ef5 Push [[8,7]]	// ["rKk"]
+  L3efa GetVariable
+  L3efb StoreRegister 3
+  L3eff Pop
+  L3f00 Push [[6,0.0],[8,8]]	// ["super"]
+  L3f0e CallFunction
+  L3f0f Pop
+  L3f10 Push [[4,1],[8,9],[8,10]]	// ["log", "dpX"]
+  L3f19 GetVariable
+  L3f1a SetMember
+  L3f1b Push [[8,1]]	// ["mx"]
+  L3f20 GetVariable
+  L3f21 Push [[8,11]]	// ["services"]
+  L3f26 GetMember
+  L3f27 Push [[8,12]]	// ["Log"]
+  L3f2c GetMember
+  L3f2d Push [[8,13]]	// ["Nie"]
+  L3f32 GetMember
+  L3f33 Push [[8,14],[8,15]]	// ["Creating Service for ", "serviceName"]
+  L3f3a GetVariable
+  L3f3b Add2
+  L3f3c Push [[7,2],[4,1],[8,9]]	// ["log"]
+  L3f48 GetMember
+  L3f49 Push [[8,16]]	// ["udv"]
+  L3f4e CallMethod
+  L3f4f Pop
+  L3f50 Push [[4,3],[8,17]]	// [""]
+  L3f57 Equals2
+  L3f58 PushDuplicate
+  L3f59 Not
+  L3f5a If "L3f67"
+  L3f5f Pop
+  L3f60 Push [[4,2],[2,null]]
+  L3f66 Equals2
+  L3f67 Not
+  L3f68 If "L3f8a"
+  L3f6d Push [[8,1]]	// ["mx"]
+  L3f72 GetVariable
+  L3f73 Push [[8,3]]	// ["remoting"]
+  L3f78 GetMember
+  L3f79 Push [[8,18]]	// ["NetServices"]
+  L3f7e GetMember
+  L3f7f Push [[8,19]]	// ["gatewayUrl"]
+  L3f84 GetMember
+  L3f85 StoreRegister 3
+  L3f89 Pop
+  L3f8a Push [[4,3],[7,1],[8,1]]	// ["mx"]
+  L3f96 GetVariable
+  L3f97 Push [[8,3]]	// ["remoting"]
+  L3f9c GetMember
+  L3f9d Push [[8,18]]	// ["NetServices"]
+  L3fa2 GetMember
+  L3fa3 Push [[8,20]]	// ["getHttpUrl"]
+  L3fa8 CallMethod
+  L3fa9 StoreRegister 3
+  L3fad Pop
+  L3fae Push [[4,2],[2,null]]
+  L3fb4 Equals2
+  L3fb5 Not
+  L3fb6 If "L404a"
+  L3fbb Push [[4,3],[7,1],[8,1]]	// ["mx"]
+  L3fc7 GetVariable
+  L3fc8 Push [[8,3]]	// ["remoting"]
+  L3fcd GetMember
+  L3fce Push [[8,18]]	// ["NetServices"]
+  L3fd3 GetMember
+  L3fd4 Push [[8,21]]	// ["getConnection"]
+  L3fd9 CallMethod
+  L3fda StoreRegister 2
+  L3fde Pop
+  L3fdf Push [[4,2],[2,null]]
+  L3fe5 Equals2
+  L3fe6 Not
+  L3fe7 If "L404a"
+  L3fec Push [[8,1]]	// ["mx"]
+  L3ff1 GetVariable
+  L3ff2 Push [[8,11]]	// ["services"]
+  L3ff7 GetMember
+  L3ff8 Push [[8,12]]	// ["Log"]
+  L3ffd GetMember
+  L3ffe Push [[8,13]]	// ["Nie"]
+  L4003 GetMember
+  L4004 Push [[8,22],[4,3]]	// ["Creating gateway connection for "]
+  L400b Add2
+  L400c Push [[7,2],[4,1],[8,9]]	// ["log"]
+  L4018 GetMember
+  L4019 Push [[8,16]]	// ["udv"]
+  L401e CallMethod
+  L401f Pop
+  L4020 Push [[8,10]]	// ["dpX"]
+  L4025 GetVariable
+  L4026 Push [[4,3],[7,2],[8,1]]	// ["mx"]
+  L4032 GetVariable
+  L4033 Push [[8,3]]	// ["remoting"]
+  L4038 GetMember
+  L4039 Push [[8,18]]	// ["NetServices"]
+  L403e GetMember
+  L403f Push [[8,23]]	// ["qql"]
+  L4044 CallMethod
+  L4045 StoreRegister 2
+  L4049 Pop
+  L404a Push [[4,1],[8,24],[4,2]]	// ["IBh"]
+  L4053 SetMember
+  L4054 Push [[6,0.0],[4,2],[8,25]]	// ["updateConfig"]
+  L4064 CallMethod
+  L4065 Pop
+  L4066 Push [[4,1],[8,26],[5,1]]	// ["qag"]
+  L406f SetMember
+  L4070 Push [[4,1],[8,27],[8,15]]	// ["JFC", "serviceName"]
+  L4079 GetVariable
+  L407a SetMember
+  L407b Push [[4,1],[8,28],[8,29]]	// ["lQv", "iCk"]
+  L4084 GetVariable
+  L4085 SetMember
+  L4086 Push [[8,1]]	// ["mx"]
+  L408b GetVariable
+  L408c Push [[8,11]]	// ["services"]
+  L4091 GetMember
+  L4092 Push [[8,12]]	// ["Log"]
+  L4097 GetMember
+  L4098 Push [[8,13]]	// ["Nie"]
+  L409d GetMember
+  L409e Push [[8,30],[7,2],[4,1],[8,9]]	// ["Successfully created Service", "log"]
+  L40ac GetMember
+  L40ad Push [[8,16]]	// ["udv"]
+  L40b2 CallMethod
+  L40b3 Pop
+  L40b4 StoreRegister 3
+  L40b8 Pop
+  L40b9 StoreRegister 2
+  L40bd Pop
+  L40be StoreRegister 1
+  L40c2 Pop
+L40c3 StoreRegister 1
+L40c7 SetMember
+L40c8 Push [[8,1]]	// ["mx"]
+L40cd GetVariable
+L40ce Push [[8,3]]	// ["remoting"]
+L40d3 GetMember
+L40d4 Push [[8,4]]	// ["Service"]
+L40d9 GetMember
+L40da Push [[8,31],[6,0.0],[8,2]]	// ["prototype", "Object"]
+L40ea NewObject
+L40eb StoreRegister 2
+L40ef SetMember
+L40f0 Push [[4,2],[8,32]]	// ["Esc"]
+L40f7 DefineFunction {"function_name":"","parameters":[]}
+  L40ff Push [[8,5]]	// ["this"]
+  L4104 GetVariable
+  L4105 Push [[8,24]]	// ["IBh"]
+  L410a GetMember
+  L410b Return
+L410c SetMember
+L410d Push [[4,2],[8,33]]	// ["__resolve"]
+L4114 DefineFunction {"function_name":"","parameters":[{"register":0,"name":"methodName"}]}
+  L4127 Push [[4,1],[4,2],[8,5]]	// ["this"]
+  L4130 GetVariable
+  L4131 StoreRegister 2
+  L4135 Pop
+  L4136 Push [[4,2],[8,26]]	// ["qag"]
+  L413d GetMember
+  L413e Not
+  L413f If "L4179"
+  L4144 Push [[8,34]]	// ["methodName"]
+  L4149 GetVariable
+  L414a Push [[7,1],[4,2],[8,35]]	// ["__makeOpFunc"]
+  L4156 CallMethod
+  L4157 StoreRegister 1
+  L415b Pop
+  L415c Push [[4,2],[8,34]]	// ["methodName"]
+  L4163 GetVariable
+  L4164 Push [[4,1]]
+  L4169 SetMember
+  L416a Push [[4,1]]
+  L416f Jump "L4186"
+  L4174 Jump "L4182"
+  L4179 Push [[2,null]]
+  L417d Jump "L4186"
+  L4182 Push [[3,"undefined"]]
+  L4186 StoreRegister 0
+  L418a Pop
+  L418b StoreRegister 2
+  L418f Pop
+  L4190 StoreRegister 1
+  L4194 Pop
+  L4195 Push [[4,0]]
+  L419a Return
+L419b SetMember
+L419c Push [[4,2],[8,35]]	// ["__makeOpFunc"]
+L41a3 DefineFunction {"function_name":"","parameters":[{"register":0,"name":"zXY"}]}
+  L41af Push [[4,1],[8,36],[8,5]]	// ["SIG", "this"]
+  L41b8 GetVariable
+  L41b9 Push [[8,37]]	// ["zXY"]
+  L41be GetVariable
+  L41bf Push [[7,2],[8,1]]	// ["mx"]
+  L41c9 GetVariable
+  L41ca Push [[8,3]]	// ["remoting"]
+  L41cf GetMember
+  L41d0 Push [[8,38]]	// ["Operation"]
+  L41d5 NewMethod
+  L41d6 DefineLocal
+  L41d7 DefineFunction {"function_name":"","parameters":[]}
+    L41df Push [[8,39]]	// ["arguments"]
+    L41e4 GetVariable
+    L41e5 Push [[7,1],[8,36]]	// ["SIG"]
+    L41ef GetVariable
+    L41f0 Push [[8,40]]	// ["invoke"]
+    L41f5 CallMethod
+    L41f6 Pop
+    L41f7 Push [[6,0.0],[8,36]]	// ["SIG"]
+    L4205 GetVariable
+    L4206 Push [[8,41]]	// ["send"]
+    L420b CallMethod
+    L420c Return
+  L420d StoreRegister 1
+  L4211 Pop
+  L4212 Push [[4,1],[8,41]]	// ["send"]
+  L4219 DefineFunction {"function_name":"","parameters":[]}
+    L4221 Push [[6,0.0],[8,36]]	// ["SIG"]
+    L422f GetVariable
+    L4230 Push [[8,42]]	// ["createThenSend"]
+    L4235 CallMethod
+    L4236 Return
+  L4237 SetMember
+  L4238 Push [[4,1],[8,43]]	// ["setResponder"]
+  L423f DefineFunction {"function_name":"","parameters":[{"register":0,"name":"iCk"}]}
+    L424b Push [[8,36]]	// ["SIG"]
+    L4250 GetVariable
+    L4251 Push [[8,44],[8,29]]	// ["responder", "iCk"]
+    L4258 GetVariable
+    L4259 SetMember
+  L425a SetMember
+  L425b Push [[4,1],[8,45]]	// ["taS"]
+  L4262 DefineFunction {"function_name":"","parameters":[]}
+    L426a Push [[8,36]]	// ["SIG"]
+    L426f GetVariable
+    L4270 Push [[8,46]]	// ["MGx"]
+    L4275 GetMember
+    L4276 Return
+  L4277 SetMember
+  L4278 Push [[4,1],[8,47]]	// ["OkL"]
+  L427f DefineFunction {"function_name":"","parameters":[{"register":0,"name":"Wco"}]}
+    L428b Push [[8,36]]	// ["SIG"]
+    L4290 GetVariable
+    L4291 Push [[8,46],[8,48]]	// ["MGx", "Wco"]
+    L4298 GetVariable
+    L4299 SetMember
+  L429a SetMember
+  L429b Push [[4,1],[8,47]]	// ["OkL"]
+  L42a2 GetMember
+  L42a3 Push [[4,1],[8,45]]	// ["taS"]
+  L42aa GetMember
+  L42ab Push [[8,46],[7,3],[4,1],[8,49]]	// ["MGx", "addProperty"]
+  L42b9 CallMethod
+  L42ba Pop
+  L42bb Push [[4,1],[8,50],[8,36]]	// ["operation", "SIG"]
+  L42c4 GetVariable
+  L42c5 SetMember
+  L42c6 Push [[4,1]]
+  L42cb Jump "L42d4"
+  L42d0 Push [[3,"undefined"]]
+  L42d4 StoreRegister 0
+  L42d8 Pop
+  L42d9 StoreRegister 1
+  L42dd Pop
+  L42de Push [[4,0]]
+  L42e3 Return
+L42e4 SetMember
+L42e5 Push [[4,2],[8,51]]	// ["Yup"]
+L42ec DefineFunction {"function_name":"","parameters":[]}
+  L42f4 Push [[8,5]]	// ["this"]
+  L42f9 GetVariable
+  L42fa Push [[8,27]]	// ["JFC"]
+  L42ff GetMember
+  L4300 Return
+L4301 SetMember
+L4302 Push [[4,2],[8,52]]	// ["OVu"]
+L4309 DefineFunction {"function_name":"","parameters":[]}
+  L4311 Push [[8,5]]	// ["this"]
+  L4316 GetVariable
+  L4317 Push [[8,28]]	// ["lQv"]
+  L431c GetMember
+  L431d Return
+L431e SetMember
+L431f Push [[4,1],[8,53],[8,54]]	// ["VEZ", "1.2.0.124"]
+L4328 SetMember
+L4329 Push [[4,2],[8,26],[5,0]]	// ["qag"]
+L4332 SetMember
+L4333 DefineFunction {"function_name":"","parameters":[]}
+L433b Push [[4,2],[8,32]]	// ["Esc"]
+L4342 GetMember
+L4343 Push [[8,55],[7,3],[4,2],[8,49]]	// ["connection", "addProperty"]
+L4351 CallMethod
+L4352 DefineFunction {"function_name":"","parameters":[]}
+L435a Push [[4,2],[8,51]]	// ["Yup"]
+L4361 GetMember
+L4362 Push [[8,37],[7,3],[4,2],[8,49]]	// ["zXY", "addProperty"]
+L4370 CallMethod
+L4371 DefineFunction {"function_name":"","parameters":[]}
+L4379 Push [[4,2],[8,52]]	// ["OVu"]
+L4380 GetMember
+L4381 Push [[8,44],[7,3],[4,2],[8,49]]	// ["responder", "addProperty"]
+L438f CallMethod
+L4390 Push [[7,1],[2,null],[8,1]]	// ["mx"]
+L439b GetVariable
+L439c Push [[8,3]]	// ["remoting"]
+L43a1 GetMember
+L43a2 Push [[8,4]]	// ["Service"]
+L43a7 GetMember
+L43a8 Push [[8,31]]	// ["prototype"]
+L43ad GetMember
+L43ae Push [[7,3],[8,56]]	// ["ASSetPropFlags"]
+L43b8 CallFunction
+L43b9 Pop
+L43ba End

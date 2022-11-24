@@ -1,0 +1,122 @@
+// __Packages.mx.rpc.DefaultResponder in worlddispatch.swf, tag at 0xffa7
+Lffaf ConstantPool ["_global","mx","Object","rpc","DefaultResponder","t","this","Byp","prototype","MUB","QfA","onResult","RPC Result: ","uML","aBR","onFault","RPC Fault: ","fault","gJA","emu","addProperty","ASSetPropFlags"]
+L10053 Push [[8,0]]	// ["_global"]
+L10058 GetVariable
+L10059 Push [[8,1]]	// ["mx"]
+L1005e GetMember
+L1005f Not
+L10060 Not
+L10061 If "L1007e"
+L10066 Push [[8,0]]	// ["_global"]
+L1006b GetVariable
+L1006c Push [[8,1],[6,0.0],[8,2]]	// ["mx", "Object"]
+L1007c NewObject
+L1007d SetMember
+L1007e Pop
+L1007f Push [[8,0]]	// ["_global"]
+L10084 GetVariable
+L10085 Push [[8,1]]	// ["mx"]
+L1008a GetMember
+L1008b Push [[8,3]]	// ["rpc"]
+L10090 GetMember
+L10091 Not
+L10092 Not
+L10093 If "L100b6"
+L10098 Push [[8,0]]	// ["_global"]
+L1009d GetVariable
+L1009e Push [[8,1]]	// ["mx"]
+L100a3 GetMember
+L100a4 Push [[8,3],[6,0.0],[8,2]]	// ["rpc", "Object"]
+L100b4 NewObject
+L100b5 SetMember
+L100b6 Pop
+L100b7 Push [[8,0]]	// ["_global"]
+L100bc GetVariable
+L100bd Push [[8,1]]	// ["mx"]
+L100c2 GetMember
+L100c3 Push [[8,3]]	// ["rpc"]
+L100c8 GetMember
+L100c9 Push [[8,4]]	// ["DefaultResponder"]
+L100ce GetMember
+L100cf Not
+L100d0 Not
+L100d1 If "L1020f"
+L100d6 Push [[8,1]]	// ["mx"]
+L100db GetVariable
+L100dc Push [[8,3]]	// ["rpc"]
+L100e1 GetMember
+L100e2 Push [[8,4]]	// ["DefaultResponder"]
+L100e7 DefineFunction {"function_name":"","parameters":[{"register":0,"name":"t"}]}
+  L100f1 Push [[8,5]]	// ["t"]
+  L100f6 GetVariable
+  L100f7 Push [[7,1],[8,6]]	// ["this"]
+  L10101 GetVariable
+  L10102 Push [[8,7]]	// ["Byp"]
+  L10107 CallMethod
+  L10108 Pop
+L10109 StoreRegister 1
+L1010d SetMember
+L1010e Push [[4,1],[8,8]]	// ["prototype"]
+L10115 GetMember
+L10116 StoreRegister 2
+L1011a Pop
+L1011b Push [[4,2],[8,9]]	// ["MUB"]
+L10122 DefineFunction {"function_name":"","parameters":[]}
+  L1012a Push [[8,6]]	// ["this"]
+  L1012f GetVariable
+  L10130 Push [[8,10]]	// ["QfA"]
+  L10135 GetMember
+  L10136 Return
+L10137 SetMember
+L10138 Push [[4,2],[8,7]]	// ["Byp"]
+L1013f DefineFunction {"function_name":"","parameters":[{"register":0,"name":"t"}]}
+  L10149 Push [[8,6]]	// ["this"]
+  L1014e GetVariable
+  L1014f Push [[8,10],[8,5]]	// ["QfA", "t"]
+  L10156 GetVariable
+  L10157 SetMember
+  L10158 Push [[6,0.0],[8,6]]	// ["this"]
+  L10166 GetVariable
+  L10167 Push [[8,9]]	// ["MUB"]
+  L1016c CallMethod
+  L1016d Return
+  L1016e Pop
+L1016f SetMember
+L10170 Push [[4,2],[8,11]]	// ["onResult"]
+L10177 DefineFunction {"function_name":"","parameters":[{"register":0,"name":"uML"}]}
+  L10183 Push [[8,12],[6,0.0],[8,13]]	// ["RPC Result: ", "uML"]
+  L10193 GetVariable
+  L10194 Push [[8,14]]	// ["aBR"]
+  L10199 CallMethod
+  L1019a Add2
+  L1019b Trace
+L1019c SetMember
+L1019d Push [[4,2],[8,15]]	// ["onFault"]
+L101a4 DefineFunction {"function_name":"","parameters":[{"register":0,"name":"uML"}]}
+  L101b0 Push [[8,16],[8,13]]	// ["RPC Fault: ", "uML"]
+  L101b7 GetVariable
+  L101b8 Push [[8,17]]	// ["fault"]
+  L101bd GetMember
+  L101be Push [[8,18]]	// ["gJA"]
+  L101c3 GetMember
+  L101c4 Add2
+  L101c5 Trace
+L101c6 SetMember
+L101c7 Push [[4,2],[8,7]]	// ["Byp"]
+L101ce GetMember
+L101cf Push [[4,2],[8,9]]	// ["MUB"]
+L101d6 GetMember
+L101d7 Push [[8,19],[7,3],[4,2],[8,20]]	// ["emu", "addProperty"]
+L101e5 CallMethod
+L101e6 Push [[7,1],[2,null],[8,1]]	// ["mx"]
+L101f1 GetVariable
+L101f2 Push [[8,3]]	// ["rpc"]
+L101f7 GetMember
+L101f8 Push [[8,4]]	// ["DefaultResponder"]
+L101fd GetMember
+L101fe Push [[8,8]]	// ["prototype"]
+L10203 GetMember
+L10204 Push [[7,3],[8,21]]	// ["ASSetPropFlags"]
+L1020e CallFunction
+L1020f Pop
+L10210 End

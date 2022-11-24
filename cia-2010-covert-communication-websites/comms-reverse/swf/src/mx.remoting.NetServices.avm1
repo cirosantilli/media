@@ -1,0 +1,383 @@
+// __Packages.mx.remoting.NetServices in worlddispatch.swf, tag at 0xa31f
+La327 ConstantPool ["_global","mx","Object","remoting","NetServices","super","prototype","setDefaultGatewayUrl","JvP","WmY","setGatewayUrl","gatewayUrl","qql","dpX","infoLogger","createGatewayConnection - gatewayUrl is undefined","warning","trace","services","Log","gXG","NetServices: qql - gateway WmY <","> is undefined","udv","Connection","connect","zSx","getConnection","kju","getHostUrl","_root","_url","isHttpUrl","createGatewayConnection - gatewayUrl is invalid","/","indexOf","substring","http://","https://","getHttpUrl","message","number","severity","who","traceNetServices","VEZ","1.2.0.124","Array","ASSetPropFlags"]
+La52a Push [[8,0]]	// ["_global"]
+La52f GetVariable
+La530 Push [[8,1]]	// ["mx"]
+La535 GetMember
+La536 Not
+La537 Not
+La538 If "La555"
+La53d Push [[8,0]]	// ["_global"]
+La542 GetVariable
+La543 Push [[8,1],[6,0.0],[8,2]]	// ["mx", "Object"]
+La553 NewObject
+La554 SetMember
+La555 Pop
+La556 Push [[8,0]]	// ["_global"]
+La55b GetVariable
+La55c Push [[8,1]]	// ["mx"]
+La561 GetMember
+La562 Push [[8,3]]	// ["remoting"]
+La567 GetMember
+La568 Not
+La569 Not
+La56a If "La58d"
+La56f Push [[8,0]]	// ["_global"]
+La574 GetVariable
+La575 Push [[8,1]]	// ["mx"]
+La57a GetMember
+La57b Push [[8,3],[6,0.0],[8,2]]	// ["remoting", "Object"]
+La58b NewObject
+La58c SetMember
+La58d Pop
+La58e Push [[8,0]]	// ["_global"]
+La593 GetVariable
+La594 Push [[8,1]]	// ["mx"]
+La599 GetMember
+La59a Push [[8,3]]	// ["remoting"]
+La59f GetMember
+La5a0 Push [[8,4]]	// ["NetServices"]
+La5a5 GetMember
+La5a6 Not
+La5a7 Not
+La5a8 If "Laaf4"
+La5ad Push [[8,1]]	// ["mx"]
+La5b2 GetVariable
+La5b3 Push [[8,3]]	// ["remoting"]
+La5b8 GetMember
+La5b9 Push [[8,4]]	// ["NetServices"]
+La5be DefineFunction {"function_name":"","parameters":[]}
+  La5c6 Push [[6,0.0],[8,5]]	// ["super"]
+  La5d4 CallFunction
+  La5d5 Pop
+La5d6 StoreRegister 1
+La5da SetMember
+La5db Push [[8,1]]	// ["mx"]
+La5e0 GetVariable
+La5e1 Push [[8,3]]	// ["remoting"]
+La5e6 GetMember
+La5e7 Push [[8,4]]	// ["NetServices"]
+La5ec GetMember
+La5ed Push [[8,6],[6,0.0],[8,2]]	// ["prototype", "Object"]
+La5fd NewObject
+La5fe StoreRegister 2
+La602 SetMember
+La603 Push [[4,1],[8,7]]	// ["setDefaultGatewayUrl"]
+La60a DefineFunction {"function_name":"","parameters":[{"register":0,"name":"WmY"}]}
+  La616 Push [[8,1]]	// ["mx"]
+  La61b GetVariable
+  La61c Push [[8,3]]	// ["remoting"]
+  La621 GetMember
+  La622 Push [[8,4]]	// ["NetServices"]
+  La627 GetMember
+  La628 Push [[8,8],[8,9]]	// ["JvP", "WmY"]
+  La62f GetVariable
+  La630 SetMember
+La631 SetMember
+La632 Push [[4,1],[8,10]]	// ["setGatewayUrl"]
+La639 DefineFunction {"function_name":"","parameters":[{"register":0,"name":"WmY"}]}
+  La645 Push [[8,1]]	// ["mx"]
+  La64a GetVariable
+  La64b Push [[8,3]]	// ["remoting"]
+  La650 GetMember
+  La651 Push [[8,4]]	// ["NetServices"]
+  La656 GetMember
+  La657 Push [[8,11],[8,9]]	// ["gatewayUrl", "WmY"]
+  La65e GetVariable
+  La65f SetMember
+La660 SetMember
+La661 Push [[4,1],[8,12]]	// ["qql"]
+La668 DefineFunction {"function_name":"","parameters":[{"register":0,"name":"WmY"},{"register":0,"name":"infoLogger"}]}
+  La67f Push [[4,1],[4,2],[8,9]]	// ["WmY"]
+  La688 GetVariable
+  La689 StoreRegister 1
+  La68d Pop
+  La68e Push [[8,1]]	// ["mx"]
+  La693 GetVariable
+  La694 Push [[8,3]]	// ["remoting"]
+  La699 GetMember
+  La69a Push [[8,4]]	// ["NetServices"]
+  La69f GetMember
+  La6a0 Push [[8,13],[8,14]]	// ["dpX", "infoLogger"]
+  La6a7 GetVariable
+  La6a8 SetMember
+  La6a9 Push [[4,1],[3,"undefined"]]
+  La6af Equals2
+  La6b0 Not
+  La6b1 If "La6fd"
+  La6b6 Push [[8,1]]	// ["mx"]
+  La6bb GetVariable
+  La6bc Push [[8,3]]	// ["remoting"]
+  La6c1 GetMember
+  La6c2 Push [[8,4]]	// ["NetServices"]
+  La6c7 GetMember
+  La6c8 Push [[8,11]]	// ["gatewayUrl"]
+  La6cd GetMember
+  La6ce StoreRegister 1
+  La6d2 Pop
+  La6d3 Push [[4,1],[3,"undefined"]]
+  La6d9 Equals2
+  La6da Not
+  La6db If "La6fd"
+  La6e0 Push [[8,1]]	// ["mx"]
+  La6e5 GetVariable
+  La6e6 Push [[8,3]]	// ["remoting"]
+  La6eb GetMember
+  La6ec Push [[8,4]]	// ["NetServices"]
+  La6f1 GetMember
+  La6f2 Push [[8,8]]	// ["JvP"]
+  La6f7 GetMember
+  La6f8 StoreRegister 1
+  La6fc Pop
+  La6fd Push [[4,1],[3,"undefined"]]
+  La703 Equals2
+  La704 Not
+  La705 If "La786"
+  La70a Push [[8,15],[7,4],[8,16],[8,4],[7,4],[8,1]]	// ["createGatewayConnection - gatewayUrl is undefined", "warning", "NetServices", "mx"]
+  La71f GetVariable
+  La720 Push [[8,3]]	// ["remoting"]
+  La725 GetMember
+  La726 Push [[8,4]]	// ["NetServices"]
+  La72b GetMember
+  La72c Push [[8,17]]	// ["trace"]
+  La731 CallMethod
+  La732 Pop
+  La733 Push [[8,1]]	// ["mx"]
+  La738 GetVariable
+  La739 Push [[8,18]]	// ["services"]
+  La73e GetMember
+  La73f Push [[8,19]]	// ["Log"]
+  La744 GetMember
+  La745 Push [[8,20]]	// ["gXG"]
+  La74a GetMember
+  La74b Push [[8,21],[4,1]]	// ["NetServices: qql - gateway WmY <"]
+  La752 Add2
+  La753 Push [[8,22]]	// ["> is undefined"]
+  La758 Add2
+  La759 Push [[7,2],[8,1]]	// ["mx"]
+  La763 GetVariable
+  La764 Push [[8,3]]	// ["remoting"]
+  La769 GetMember
+  La76a Push [[8,4]]	// ["NetServices"]
+  La76f GetMember
+  La770 Push [[8,13]]	// ["dpX"]
+  La775 GetMember
+  La776 Push [[8,23]]	// ["udv"]
+  La77b CallMethod
+  La77c Pop
+  La77d Push [[2,null]]
+  La781 Jump "La7e4"
+  La786 Push [[6,0.0],[8,1]]	// ["mx"]
+  La794 GetVariable
+  La795 Push [[8,3]]	// ["remoting"]
+  La79a GetMember
+  La79b Push [[8,24]]	// ["Connection"]
+  La7a0 NewMethod
+  La7a1 StoreRegister 2
+  La7a5 Pop
+  La7a6 Push [[4,1],[7,1],[4,2],[8,25]]	// ["connect"]
+  La7b4 CallMethod
+  La7b5 Pop
+  La7b6 Push [[8,1]]	// ["mx"]
+  La7bb GetVariable
+  La7bc Push [[8,3]]	// ["remoting"]
+  La7c1 GetMember
+  La7c2 Push [[8,4]]	// ["NetServices"]
+  La7c7 GetMember
+  La7c8 Push [[8,26]]	// ["zSx"]
+  La7cd GetMember
+  La7ce Push [[4,1],[4,2]]
+  La7d5 SetMember
+  La7d6 Push [[4,2]]
+  La7db Jump "La7e4"
+  La7e0 Push [[3,"undefined"]]
+  La7e4 StoreRegister 0
+  La7e8 Pop
+  La7e9 StoreRegister 2
+  La7ed Pop
+  La7ee StoreRegister 1
+  La7f2 Pop
+  La7f3 Push [[4,0]]
+  La7f8 Return
+La7f9 SetMember
+La7fa Push [[4,1],[8,27]]	// ["getConnection"]
+La801 DefineFunction {"function_name":"","parameters":[{"register":0,"name":"kju"}]}
+  La80d Push [[8,1]]	// ["mx"]
+  La812 GetVariable
+  La813 Push [[8,3]]	// ["remoting"]
+  La818 GetMember
+  La819 Push [[8,4]]	// ["NetServices"]
+  La81e GetMember
+  La81f Push [[8,26]]	// ["zSx"]
+  La824 GetMember
+  La825 Push [[8,28]]	// ["kju"]
+  La82a GetVariable
+  La82b GetMember
+  La82c Return
+La82d SetMember
+La82e Push [[4,1],[8,29]]	// ["getHostUrl"]
+La835 DefineFunction {"function_name":"","parameters":[]}
+  La83d Push [[4,1],[4,2],[8,30]]	// ["_root"]
+  La846 GetVariable
+  La847 StoreRegister 2
+  La84b Pop
+  La84c Push [[4,2],[8,31]]	// ["_url"]
+  La853 GetMember
+  La854 Push [[7,1],[8,1]]	// ["mx"]
+  La85e GetVariable
+  La85f Push [[8,3]]	// ["remoting"]
+  La864 GetMember
+  La865 Push [[8,4]]	// ["NetServices"]
+  La86a GetMember
+  La86b Push [[8,32]]	// ["isHttpUrl"]
+  La870 CallMethod
+  La871 Not
+  La872 Not
+  La873 If "La8aa"
+  La878 Push [[8,33],[7,4],[8,16],[8,4],[7,4],[8,1]]	// ["createGatewayConnection - gatewayUrl is invalid", "warning", "NetServices", "mx"]
+  La88d GetVariable
+  La88e Push [[8,3]]	// ["remoting"]
+  La893 GetMember
+  La894 Push [[8,4]]	// ["NetServices"]
+  La899 GetMember
+  La89a Push [[8,17]]	// ["trace"]
+  La89f CallMethod
+  La8a0 Pop
+  La8a1 Push [[2,null]]
+  La8a5 Jump "La937"
+  La8aa Push [[7,8],[8,34],[7,2],[4,2],[8,31]]	// ["/", "_url"]
+  La8bd GetMember
+  La8be Push [[8,35]]	// ["indexOf"]
+  La8c3 CallMethod
+  La8c4 StoreRegister 1
+  La8c8 Pop
+  La8c9 Push [[4,1],[6,0.0]]
+  La8d7 Less2
+  La8d8 Not
+  La8d9 If "La910"
+  La8de Push [[8,33],[7,4],[8,16],[8,4],[7,4],[8,1]]	// ["createGatewayConnection - gatewayUrl is invalid", "warning", "NetServices", "mx"]
+  La8f3 GetVariable
+  La8f4 Push [[8,3]]	// ["remoting"]
+  La8f9 GetMember
+  La8fa Push [[8,4]]	// ["NetServices"]
+  La8ff GetMember
+  La900 Push [[8,17]]	// ["trace"]
+  La905 CallMethod
+  La906 Pop
+  La907 Push [[2,null]]
+  La90b Jump "La937"
+  La910 Push [[4,1],[6,0.0],[7,2],[4,2],[8,31]]	// ["_url"]
+  La927 GetMember
+  La928 Push [[8,36]]	// ["substring"]
+  La92d CallMethod
+  La92e Jump "La937"
+  La933 Push [[3,"undefined"]]
+  La937 StoreRegister 0
+  La93b Pop
+  La93c StoreRegister 2
+  La940 Pop
+  La941 StoreRegister 1
+  La945 Pop
+  La946 Push [[4,0]]
+  La94b Return
+La94c SetMember
+La94d Push [[4,1],[8,32]]	// ["isHttpUrl"]
+La954 DefineFunction {"function_name":"","parameters":[{"register":0,"name":"WmY"}]}
+  La960 Push [[8,37],[7,1],[8,9]]	// ["http://", "WmY"]
+  La96c GetVariable
+  La96d Push [[8,35]]	// ["indexOf"]
+  La972 CallMethod
+  La973 Push [[6,0.0]]
+  La97f Equals2
+  La980 PushDuplicate
+  La981 If "La9a7"
+  La986 Pop
+  La987 Push [[8,38],[7,1],[8,9]]	// ["https://", "WmY"]
+  La993 GetVariable
+  La994 Push [[8,35]]	// ["indexOf"]
+  La999 CallMethod
+  La99a Push [[6,0.0]]
+  La9a6 Equals2
+  La9a7 Return
+La9a8 SetMember
+La9a9 Push [[4,1],[8,39]]	// ["getHttpUrl"]
+La9b0 DefineFunction {"function_name":"","parameters":[{"register":0,"name":"WmY"}]}
+  La9bc Push [[4,1],[8,9]]	// ["WmY"]
+  La9c3 GetVariable
+  La9c4 StoreRegister 1
+  La9c8 Pop
+  La9c9 Push [[4,1],[7,1],[8,1]]	// ["mx"]
+  La9d5 GetVariable
+  La9d6 Push [[8,3]]	// ["remoting"]
+  La9db GetMember
+  La9dc Push [[8,4]]	// ["NetServices"]
+  La9e1 GetMember
+  La9e2 Push [[8,32]]	// ["isHttpUrl"]
+  La9e7 CallMethod
+  La9e8 Not
+  La9e9 Not
+  La9ea If "Laa1b"
+  La9ef Push [[6,0.0],[8,1]]	// ["mx"]
+  La9fd GetVariable
+  La9fe Push [[8,3]]	// ["remoting"]
+  Laa03 GetMember
+  Laa04 Push [[8,4]]	// ["NetServices"]
+  Laa09 GetMember
+  Laa0a Push [[8,29]]	// ["getHostUrl"]
+  Laa0f CallMethod
+  Laa10 Push [[4,1]]
+  Laa15 Add2
+  Laa16 StoreRegister 1
+  Laa1a Pop
+  Laa1b Push [[4,1]]
+  Laa20 Jump "Laa29"
+  Laa25 Push [[3,"undefined"]]
+  Laa29 StoreRegister 0
+  Laa2d Pop
+  Laa2e StoreRegister 1
+  Laa32 Pop
+  Laa33 Push [[4,0]]
+  Laa38 Return
+Laa39 SetMember
+Laa3a Push [[4,1],[8,17]]	// ["trace"]
+Laa41 DefineFunction {"function_name":"","parameters":[{"register":0,"name":"who"},{"register":0,"name":"severity"},{"register":0,"name":"number"},{"register":0,"name":"message"}]}
+  Laa65 Push [[8,40]]	// ["message"]
+  Laa6a GetVariable
+  Laa6b Push [[8,41]]	// ["number"]
+  Laa70 GetVariable
+  Laa71 Push [[8,42]]	// ["severity"]
+  Laa76 GetVariable
+  Laa77 Push [[8,43]]	// ["who"]
+  Laa7c GetVariable
+  Laa7d Push [[7,4],[8,1]]	// ["mx"]
+  Laa87 GetVariable
+  Laa88 Push [[8,3]]	// ["remoting"]
+  Laa8d GetMember
+  Laa8e Push [[8,4]]	// ["NetServices"]
+  Laa93 GetMember
+  Laa94 Push [[8,44]]	// ["traceNetServices"]
+  Laa99 CallMethod
+  Laa9a Pop
+Laa9b SetMember
+Laa9c Push [[4,1],[8,45],[8,46]]	// ["VEZ", "1.2.0.124"]
+Laaa5 SetMember
+Laaa6 Push [[4,1],[8,11],[8,30]]	// ["gatewayUrl", "_root"]
+Laaaf GetVariable
+Laab0 Push [[8,11]]	// ["gatewayUrl"]
+Laab5 GetMember
+Laab6 SetMember
+Laab7 Push [[4,1],[8,26],[6,0.0],[8,47]]	// ["zSx", "Array"]
+Laac9 NewObject
+Laaca SetMember
+Laacb Push [[7,1],[2,null],[8,1]]	// ["mx"]
+Laad6 GetVariable
+Laad7 Push [[8,3]]	// ["remoting"]
+Laadc GetMember
+Laadd Push [[8,4]]	// ["NetServices"]
+Laae2 GetMember
+Laae3 Push [[8,6]]	// ["prototype"]
+Laae8 GetMember
+Laae9 Push [[7,3],[8,48]]	// ["ASSetPropFlags"]
+Laaf3 CallFunction
+Laaf4 Pop
+Laaf5 End

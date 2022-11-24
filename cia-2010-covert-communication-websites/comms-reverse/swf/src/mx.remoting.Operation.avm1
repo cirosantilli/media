@@ -1,0 +1,338 @@
+// __Packages.mx.remoting.Operation in worlddispatch.swf, tag at 0xecff
+Led07 ConstantPool ["_global","mx","Object","remoting","Operation","this","Hod","cEd","lQv","responder","wxg","methodName","BWD","Yup",".","YHp","LCL","Array","prototype","createThenSend","createArguments","send","Invoking "," on ","log","udv","PendingCall","nSG","concat","unshift","Esc","connection","call","apply","invoke","a","OVu","r","glq","dcb","arguments","zXY","addProperty","MGx","ASSetPropFlags"]
+Lee35 Push [[8,0]]	// ["_global"]
+Lee3a GetVariable
+Lee3b Push [[8,1]]	// ["mx"]
+Lee40 GetMember
+Lee41 Not
+Lee42 Not
+Lee43 If "Lee60"
+Lee48 Push [[8,0]]	// ["_global"]
+Lee4d GetVariable
+Lee4e Push [[8,1],[6,0.0],[8,2]]	// ["mx", "Object"]
+Lee5e NewObject
+Lee5f SetMember
+Lee60 Pop
+Lee61 Push [[8,0]]	// ["_global"]
+Lee66 GetVariable
+Lee67 Push [[8,1]]	// ["mx"]
+Lee6c GetMember
+Lee6d Push [[8,3]]	// ["remoting"]
+Lee72 GetMember
+Lee73 Not
+Lee74 Not
+Lee75 If "Lee98"
+Lee7a Push [[8,0]]	// ["_global"]
+Lee7f GetVariable
+Lee80 Push [[8,1]]	// ["mx"]
+Lee85 GetMember
+Lee86 Push [[8,3],[6,0.0],[8,2]]	// ["remoting", "Object"]
+Lee96 NewObject
+Lee97 SetMember
+Lee98 Pop
+Lee99 Push [[8,0]]	// ["_global"]
+Lee9e GetVariable
+Lee9f Push [[8,1]]	// ["mx"]
+Leea4 GetMember
+Leea5 Push [[8,3]]	// ["remoting"]
+Leeaa GetMember
+Leeab Push [[8,4]]	// ["Operation"]
+Leeb0 GetMember
+Leeb1 Not
+Leeb2 Not
+Leeb3 If "Lf373"
+Leeb8 Push [[8,1]]	// ["mx"]
+Leebd GetVariable
+Leebe Push [[8,3]]	// ["remoting"]
+Leec3 GetMember
+Leec4 Push [[8,4]]	// ["Operation"]
+Leec9 DefineFunction {"function_name":"","parameters":[{"register":0,"name":"methodName"},{"register":0,"name":"cEd"}]}
+  Leee0 Push [[4,1],[8,5]]	// ["this"]
+  Leee7 GetVariable
+  Leee8 StoreRegister 1
+  Leeec Pop
+  Leeed Push [[4,1],[8,6],[8,7]]	// ["Hod", "cEd"]
+  Leef6 GetVariable
+  Leef7 SetMember
+  Leef8 Push [[4,1],[8,8],[8,7]]	// ["lQv", "cEd"]
+  Lef01 GetVariable
+  Lef02 Push [[8,9]]	// ["responder"]
+  Lef07 GetMember
+  Lef08 SetMember
+  Lef09 Push [[4,1],[8,10],[8,11]]	// ["wxg", "methodName"]
+  Lef12 GetVariable
+  Lef13 SetMember
+  Lef14 Push [[4,1],[8,12],[6,0.0],[4,1],[8,6]]	// ["BWD", "Hod"]
+  Lef28 GetMember
+  Lef29 Push [[8,13]]	// ["Yup"]
+  Lef2e CallMethod
+  Lef2f Push [[8,14]]	// ["."]
+  Lef34 Add2
+  Lef35 Push [[8,11]]	// ["methodName"]
+  Lef3a GetVariable
+  Lef3b Add2
+  Lef3c SetMember
+  Lef3d Push [[4,1],[8,15],[6,0.0],[8,2]]	// ["YHp", "Object"]
+  Lef4f NewObject
+  Lef50 SetMember
+  Lef51 Push [[4,1],[8,16],[6,0.0],[8,17]]	// ["LCL", "Array"]
+  Lef63 NewObject
+  Lef64 SetMember
+  Lef65 StoreRegister 1
+  Lef69 Pop
+Lef6a StoreRegister 1
+Lef6e SetMember
+Lef6f Push [[4,1],[8,18]]	// ["prototype"]
+Lef76 GetMember
+Lef77 StoreRegister 2
+Lef7b Pop
+Lef7c Push [[4,2],[8,19]]	// ["createThenSend"]
+Lef83 DefineFunction {"function_name":"","parameters":[{"register":0,"name":"Void"}]}
+  Lef90 Push [[6,0.0],[8,5]]	// ["this"]
+  Lef9e GetVariable
+  Lef9f Push [[8,20]]	// ["createArguments"]
+  Lefa4 CallMethod
+  Lefa5 Pop
+  Lefa6 Push [[6,0.0],[8,5]]	// ["this"]
+  Lefb4 GetVariable
+  Lefb5 Push [[8,21]]	// ["send"]
+  Lefba CallMethod
+  Lefbb Return
+Lefbc SetMember
+Lefbd Push [[4,2],[8,21]]	// ["send"]
+Lefc4 DefineFunction {"function_name":"","parameters":[{"register":0,"name":"Void"}]}
+  Lefd1 Push [[4,1],[4,2],[4,3],[8,5]]	// ["this"]
+  Lefdc GetVariable
+  Lefdd StoreRegister 1
+  Lefe1 Pop
+  Lefe2 Push [[8,22],[4,1],[8,10]]	// ["Invoking ", "wxg"]
+  Lefeb GetMember
+  Lefec Add2
+  Lefed Push [[8,23]]	// [" on "]
+  Leff2 Add2
+  Leff3 Push [[6,0.0],[4,1],[8,6]]	// ["Hod"]
+  Lf003 GetMember
+  Lf004 Push [[8,13]]	// ["Yup"]
+  Lf009 CallMethod
+  Lf00a Add2
+  Lf00b Push [[7,1],[4,1],[8,6]]	// ["Hod"]
+  Lf017 GetMember
+  Lf018 Push [[8,24]]	// ["log"]
+  Lf01d GetMember
+  Lf01e Push [[8,25]]	// ["udv"]
+  Lf023 CallMethod
+  Lf024 Pop
+  Lf025 Push [[4,1],[8,10]]	// ["wxg"]
+  Lf02c GetMember
+  Lf02d Push [[4,1],[8,6]]	// ["Hod"]
+  Lf034 GetMember
+  Lf035 Push [[7,2],[8,1]]	// ["mx"]
+  Lf03f GetVariable
+  Lf040 Push [[8,3]]	// ["remoting"]
+  Lf045 GetMember
+  Lf046 Push [[8,26]]	// ["PendingCall"]
+  Lf04b NewMethod
+  Lf04c StoreRegister 3
+  Lf050 Pop
+  Lf051 Push [[4,1],[8,8]]	// ["lQv"]
+  Lf058 GetMember
+  Lf059 Push [[7,1],[4,3],[8,27]]	// ["nSG"]
+  Lf065 CallMethod
+  Lf066 Pop
+  Lf067 Push [[2,null]]
+  Lf06b StoreRegister 2
+  Lf06f Pop
+  Lf070 Push [[4,1],[8,16]]	// ["LCL"]
+  Lf077 GetMember
+  Lf078 Push [[2,null]]
+  Lf07c Equals2
+  Lf07d Not
+  Lf07e If "Lf09c"
+  Lf083 Push [[6,0.0],[8,17]]	// ["Array"]
+  Lf091 NewObject
+  Lf092 StoreRegister 2
+  Lf096 Pop
+  Lf097 Jump "Lf0b8"
+  Lf09c Push [[6,0.0],[4,1],[8,16]]	// ["LCL"]
+  Lf0ac GetMember
+  Lf0ad Push [[8,28]]	// ["concat"]
+  Lf0b2 CallMethod
+  Lf0b3 StoreRegister 2
+  Lf0b7 Pop
+  Lf0b8 Push [[4,1],[8,12],[6,0.0],[4,1],[8,6]]	// ["BWD", "Hod"]
+  Lf0cc GetMember
+  Lf0cd Push [[8,13]]	// ["Yup"]
+  Lf0d2 CallMethod
+  Lf0d3 Push [[8,14]]	// ["."]
+  Lf0d8 Add2
+  Lf0d9 Push [[4,1],[8,10]]	// ["wxg"]
+  Lf0e0 GetMember
+  Lf0e1 Add2
+  Lf0e2 SetMember
+  Lf0e3 Push [[4,3],[4,1],[8,12]]	// ["BWD"]
+  Lf0ec GetMember
+  Lf0ed Push [[7,2],[4,2],[8,29]]	// ["unshift"]
+  Lf0f9 CallMethod
+  Lf0fa Pop
+  Lf0fb Push [[4,2],[6,0.0],[4,1],[8,6]]	// ["Hod"]
+  Lf10d GetMember
+  Lf10e Push [[8,30]]	// ["Esc"]
+  Lf113 CallMethod
+  Lf114 Push [[7,2],[4,1],[8,6]]	// ["Hod"]
+  Lf120 GetMember
+  Lf121 Push [[8,31]]	// ["connection"]
+  Lf126 GetMember
+  Lf127 Push [[8,32]]	// ["call"]
+  Lf12c GetMember
+  Lf12d Push [[8,33]]	// ["apply"]
+  Lf132 CallMethod
+  Lf133 Pop
+  Lf134 Push [[4,3]]
+  Lf139 Jump "Lf142"
+  Lf13e Push [[3,"undefined"]]
+  Lf142 StoreRegister 0
+  Lf146 Pop
+  Lf147 StoreRegister 3
+  Lf14b Pop
+  Lf14c StoreRegister 2
+  Lf150 Pop
+  Lf151 StoreRegister 1
+  Lf155 Pop
+  Lf156 Push [[4,0]]
+  Lf15b Return
+Lf15c SetMember
+Lf15d Push [[4,2],[8,34]]	// ["invoke"]
+Lf164 DefineFunction {"function_name":"","parameters":[{"register":0,"name":"a"}]}
+  Lf16e Push [[8,5]]	// ["this"]
+  Lf173 GetVariable
+  Lf174 Push [[8,16],[8,35]]	// ["LCL", "a"]
+  Lf17b GetVariable
+  Lf17c SetMember
+Lf17d SetMember
+Lf17e Push [[4,2],[8,36]]	// ["OVu"]
+Lf185 DefineFunction {"function_name":"","parameters":[]}
+  Lf18d Push [[8,5]]	// ["this"]
+  Lf192 GetVariable
+  Lf193 Push [[8,8]]	// ["lQv"]
+  Lf198 GetMember
+  Lf199 Return
+Lf19a SetMember
+Lf19b Push [[4,2],[8,27]]	// ["nSG"]
+Lf1a2 DefineFunction {"function_name":"","parameters":[{"register":0,"name":"r"}]}
+  Lf1ac Push [[8,5]]	// ["this"]
+  Lf1b1 GetVariable
+  Lf1b2 Push [[8,8],[8,37]]	// ["lQv", "r"]
+  Lf1b9 GetVariable
+  Lf1ba SetMember
+  Lf1bb Push [[6,0.0],[8,5]]	// ["this"]
+  Lf1c9 GetVariable
+  Lf1ca Push [[8,36]]	// ["OVu"]
+  Lf1cf CallMethod
+  Lf1d0 Return
+  Lf1d1 Pop
+Lf1d2 SetMember
+Lf1d3 Push [[4,2],[8,38]]	// ["glq"]
+Lf1da DefineFunction {"function_name":"","parameters":[]}
+  Lf1e2 Push [[8,5]]	// ["this"]
+  Lf1e7 GetVariable
+  Lf1e8 Push [[8,15]]	// ["YHp"]
+  Lf1ed GetMember
+  Lf1ee Return
+Lf1ef SetMember
+Lf1f0 Push [[4,2],[8,39]]	// ["dcb"]
+Lf1f7 DefineFunction {"function_name":"","parameters":[{"register":0,"name":"r"}]}
+  Lf201 Push [[8,5]]	// ["this"]
+  Lf206 GetVariable
+  Lf207 Push [[8,15],[8,37]]	// ["YHp", "r"]
+  Lf20e GetVariable
+  Lf20f SetMember
+  Lf210 Push [[6,0.0],[8,5]]	// ["this"]
+  Lf21e GetVariable
+  Lf21f Push [[8,38]]	// ["glq"]
+  Lf224 CallMethod
+  Lf225 Return
+  Lf226 Pop
+Lf227 SetMember
+Lf228 Push [[4,2],[8,13]]	// ["Yup"]
+Lf22f DefineFunction {"function_name":"","parameters":[]}
+  Lf237 Push [[8,5]]	// ["this"]
+  Lf23c GetVariable
+  Lf23d Push [[8,10]]	// ["wxg"]
+  Lf242 GetMember
+  Lf243 Return
+Lf244 SetMember
+Lf245 Push [[4,2],[8,20]]	// ["createArguments"]
+Lf24c DefineFunction {"function_name":"","parameters":[]}
+  Lf254 Push [[4,1],[4,2],[8,5]]	// ["this"]
+  Lf25d GetVariable
+  Lf25e StoreRegister 1
+  Lf262 Pop
+  Lf263 Push [[4,1],[8,15]]	// ["YHp"]
+  Lf26a GetMember
+  Lf26b Push [[2,null]]
+  Lf26f Equals2
+  Lf270 Not
+  Lf271 Not
+  Lf272 If "Lf2e2"
+  Lf277 Push [[4,1],[8,16],[6,0.0],[8,17]]	// ["LCL", "Array"]
+  Lf289 NewObject
+  Lf28a SetMember
+  Lf28b Push [[4,1],[8,15]]	// ["YHp"]
+  Lf292 GetMember
+  Lf293 Enumerate2
+  Lf294 StoreRegister 0
+  Lf298 Push [[2,null]]
+  Lf29c Equals2
+  Lf29d If "Lf2e2"
+  Lf2a2 Push [[4,0]]
+  Lf2a7 StoreRegister 2
+  Lf2ab Pop
+  Lf2ac Push [[4,2],[8,40]]	// ["arguments"]
+  Lf2b3 Equals2
+  Lf2b4 Not
+  Lf2b5 Not
+  Lf2b6 If "Lf2dd"
+  Lf2bb Push [[4,1],[8,15]]	// ["YHp"]
+  Lf2c2 GetMember
+  Lf2c3 Push [[4,2]]
+  Lf2c8 GetMember
+  Lf2c9 Push [[7,1],[4,1],[8,16]]	// ["LCL"]
+  Lf2d5 GetMember
+  Lf2d6 Push [[8,29]]	// ["unshift"]
+  Lf2db CallMethod
+  Lf2dc Pop
+  Lf2dd Jump "Lf294"
+  Lf2e2 StoreRegister 2
+  Lf2e6 Pop
+  Lf2e7 StoreRegister 1
+  Lf2eb Pop
+Lf2ec SetMember
+Lf2ed DefineFunction {"function_name":"","parameters":[]}
+Lf2f5 Push [[4,2],[8,13]]	// ["Yup"]
+Lf2fc GetMember
+Lf2fd Push [[8,41],[7,3],[4,2],[8,42]]	// ["zXY", "addProperty"]
+Lf30b CallMethod
+Lf30c Push [[4,2],[8,39]]	// ["dcb"]
+Lf313 GetMember
+Lf314 Push [[4,2],[8,38]]	// ["glq"]
+Lf31b GetMember
+Lf31c Push [[8,43],[7,3],[4,2],[8,42]]	// ["MGx", "addProperty"]
+Lf32a CallMethod
+Lf32b Push [[4,2],[8,27]]	// ["nSG"]
+Lf332 GetMember
+Lf333 Push [[4,2],[8,36]]	// ["OVu"]
+Lf33a GetMember
+Lf33b Push [[8,9],[7,3],[4,2],[8,42]]	// ["responder", "addProperty"]
+Lf349 CallMethod
+Lf34a Push [[7,1],[2,null],[8,1]]	// ["mx"]
+Lf355 GetVariable
+Lf356 Push [[8,3]]	// ["remoting"]
+Lf35b GetMember
+Lf35c Push [[8,4]]	// ["Operation"]
+Lf361 GetMember
+Lf362 Push [[8,18]]	// ["prototype"]
+Lf367 GetMember
+Lf368 Push [[7,3],[8,44]]	// ["ASSetPropFlags"]
+Lf372 CallFunction
+Lf373 Pop
+Lf374 End

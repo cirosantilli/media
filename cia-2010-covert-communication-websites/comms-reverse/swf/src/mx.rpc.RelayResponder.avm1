@@ -1,0 +1,121 @@
+// __Packages.mx.rpc.RelayResponder in worlddispatch.swf, tag at 0xfd2c
+Lfd34 ConstantPool ["_global","mx","Object","rpc","RelayResponder","this","super","HIT","iCk","VPf","lLF","CIy","mjp","prototype","onFault","fault","onResult","result","ASSetPropFlags"]
+Lfdb8 Push [[8,0]]	// ["_global"]
+Lfdbd GetVariable
+Lfdbe Push [[8,1]]	// ["mx"]
+Lfdc3 GetMember
+Lfdc4 Not
+Lfdc5 Not
+Lfdc6 If "Lfde3"
+Lfdcb Push [[8,0]]	// ["_global"]
+Lfdd0 GetVariable
+Lfdd1 Push [[8,1],[6,0.0],[8,2]]	// ["mx", "Object"]
+Lfde1 NewObject
+Lfde2 SetMember
+Lfde3 Pop
+Lfde4 Push [[8,0]]	// ["_global"]
+Lfde9 GetVariable
+Lfdea Push [[8,1]]	// ["mx"]
+Lfdef GetMember
+Lfdf0 Push [[8,3]]	// ["rpc"]
+Lfdf5 GetMember
+Lfdf6 Not
+Lfdf7 Not
+Lfdf8 If "Lfe1b"
+Lfdfd Push [[8,0]]	// ["_global"]
+Lfe02 GetVariable
+Lfe03 Push [[8,1]]	// ["mx"]
+Lfe08 GetMember
+Lfe09 Push [[8,3],[6,0.0],[8,2]]	// ["rpc", "Object"]
+Lfe19 NewObject
+Lfe1a SetMember
+Lfe1b Pop
+Lfe1c Push [[8,0]]	// ["_global"]
+Lfe21 GetVariable
+Lfe22 Push [[8,1]]	// ["mx"]
+Lfe27 GetMember
+Lfe28 Push [[8,3]]	// ["rpc"]
+Lfe2d GetMember
+Lfe2e Push [[8,4]]	// ["RelayResponder"]
+Lfe33 GetMember
+Lfe34 Not
+Lfe35 Not
+Lfe36 If "Lff70"
+Lfe3b Push [[8,1]]	// ["mx"]
+Lfe40 GetVariable
+Lfe41 Push [[8,3]]	// ["rpc"]
+Lfe46 GetMember
+Lfe47 Push [[8,4]]	// ["RelayResponder"]
+Lfe4c DefineFunction {"function_name":"","parameters":[{"register":0,"name":"iCk"},{"register":0,"name":"mjp"},{"register":0,"name":"lLF"}]}
+  Lfe60 Push [[4,1],[8,5]]	// ["this"]
+  Lfe67 GetVariable
+  Lfe68 StoreRegister 1
+  Lfe6c Pop
+  Lfe6d Push [[6,0.0],[8,6]]	// ["super"]
+  Lfe7b CallFunction
+  Lfe7c Pop
+  Lfe7d Push [[4,1],[8,7],[8,8]]	// ["HIT", "iCk"]
+  Lfe86 GetVariable
+  Lfe87 SetMember
+  Lfe88 Push [[4,1],[8,9],[8,10]]	// ["VPf", "lLF"]
+  Lfe91 GetVariable
+  Lfe92 SetMember
+  Lfe93 Push [[4,1],[8,11],[8,12]]	// ["CIy", "mjp"]
+  Lfe9c GetVariable
+  Lfe9d SetMember
+  Lfe9e StoreRegister 1
+  Lfea2 Pop
+Lfea3 StoreRegister 1
+Lfea7 SetMember
+Lfea8 Push [[8,1]]	// ["mx"]
+Lfead GetVariable
+Lfeae Push [[8,3]]	// ["rpc"]
+Lfeb3 GetMember
+Lfeb4 Push [[8,4]]	// ["RelayResponder"]
+Lfeb9 GetMember
+Lfeba Push [[8,13],[6,0.0],[8,2]]	// ["prototype", "Object"]
+Lfeca NewObject
+Lfecb StoreRegister 2
+Lfecf SetMember
+Lfed0 Push [[4,2],[8,14]]	// ["onFault"]
+Lfed7 DefineFunction {"function_name":"","parameters":[{"register":0,"name":"fault"}]}
+  Lfee5 Push [[8,15]]	// ["fault"]
+  Lfeea GetVariable
+  Lfeeb Push [[7,1],[8,5]]	// ["this"]
+  Lfef5 GetVariable
+  Lfef6 Push [[8,7]]	// ["HIT"]
+  Lfefb GetMember
+  Lfefc Push [[8,5]]	// ["this"]
+  Lff01 GetVariable
+  Lff02 Push [[8,9]]	// ["VPf"]
+  Lff07 GetMember
+  Lff08 CallMethod
+  Lff09 Pop
+Lff0a SetMember
+Lff0b Push [[4,2],[8,16]]	// ["onResult"]
+Lff12 DefineFunction {"function_name":"","parameters":[{"register":0,"name":"result"}]}
+  Lff21 Push [[8,17]]	// ["result"]
+  Lff26 GetVariable
+  Lff27 Push [[7,1],[8,5]]	// ["this"]
+  Lff31 GetVariable
+  Lff32 Push [[8,7]]	// ["HIT"]
+  Lff37 GetMember
+  Lff38 Push [[8,5]]	// ["this"]
+  Lff3d GetVariable
+  Lff3e Push [[8,11]]	// ["CIy"]
+  Lff43 GetMember
+  Lff44 CallMethod
+  Lff45 Pop
+Lff46 SetMember
+Lff47 Push [[7,1],[2,null],[8,1]]	// ["mx"]
+Lff52 GetVariable
+Lff53 Push [[8,3]]	// ["rpc"]
+Lff58 GetMember
+Lff59 Push [[8,4]]	// ["RelayResponder"]
+Lff5e GetMember
+Lff5f Push [[8,13]]	// ["prototype"]
+Lff64 GetMember
+Lff65 Push [[7,3],[8,18]]	// ["ASSetPropFlags"]
+Lff6f CallFunction
+Lff70 Pop
+Lff71 End

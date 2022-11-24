@@ -1,0 +1,214 @@
+// __Packages.mx.transitions.BroadcasterMX in worlddispatch.swf, tag at 0x154d
+L1555 ConstantPool ["_global","mx","Object","transitions","BroadcasterMX","prototype","initialize","KUR","addListener","removeListener","_listeners","Array","push","length","splice","shift","concat","apply","ASSetPropFlags"]
+L1600 Push [[8,0]]	// ["_global"]
+L1605 GetVariable
+L1606 Push [[8,1]]	// ["mx"]
+L160b GetMember
+L160c Not
+L160d Not
+L160e If "L162b"
+L1613 Push [[8,0]]	// ["_global"]
+L1618 GetVariable
+L1619 Push [[8,1],[6,0.0],[8,2]]	// ["mx", "Object"]
+L1629 NewObject
+L162a SetMember
+L162b Pop
+L162c Push [[8,0]]	// ["_global"]
+L1631 GetVariable
+L1632 Push [[8,1]]	// ["mx"]
+L1637 GetMember
+L1638 Push [[8,3]]	// ["transitions"]
+L163d GetMember
+L163e Not
+L163f Not
+L1640 If "L1663"
+L1645 Push [[8,0]]	// ["_global"]
+L164a GetVariable
+L164b Push [[8,1]]	// ["mx"]
+L1650 GetMember
+L1651 Push [[8,3],[6,0.0],[8,2]]	// ["transitions", "Object"]
+L1661 NewObject
+L1662 SetMember
+L1663 Pop
+L1664 Push [[8,0]]	// ["_global"]
+L1669 GetVariable
+L166a Push [[8,1]]	// ["mx"]
+L166f GetMember
+L1670 Push [[8,3]]	// ["transitions"]
+L1675 GetMember
+L1676 Push [[8,4]]	// ["BroadcasterMX"]
+L167b GetMember
+L167c Not
+L167d Not
+L167e If "L192e"
+L1683 Push [[8,1]]	// ["mx"]
+L1688 GetVariable
+L1689 Push [[8,3]]	// ["transitions"]
+L168e GetMember
+L168f Push [[8,4]]	// ["BroadcasterMX"]
+L1694 DefineFunction {"function_name":"","parameters":[]}
+L169c StoreRegister 0
+L16a0 SetMember
+L16a1 Push [[4,0],[8,5]]	// ["prototype"]
+L16a8 GetMember
+L16a9 StoreRegister 1
+L16ad Pop
+L16ae Push [[4,0],[8,6]]	// ["initialize"]
+L16b5 DefineFunction2 {"function_name":"","register_count":3,"flags":42,"parameters":[{"register":1,"name":"o"},{"register":2,"name":"dontCreateArray"}]}
+  L16d4 Push [[4,1],[8,7]]	// ["KUR"]
+  L16db GetMember
+  L16dc Push [[3,"undefined"]]
+  L16e0 Equals2
+  L16e1 Not
+  L16e2 Not
+  L16e3 If "L16f1"
+  L16e8 Push [[4,1],[8,7]]	// ["KUR"]
+  L16ef Delete
+  L16f0 Pop
+  L16f1 Push [[4,1],[8,8],[8,1]]	// ["addListener", "mx"]
+  L16fa GetVariable
+  L16fb Push [[8,3]]	// ["transitions"]
+  L1700 GetMember
+  L1701 Push [[8,4]]	// ["BroadcasterMX"]
+  L1706 GetMember
+  L1707 Push [[8,5]]	// ["prototype"]
+  L170c GetMember
+  L170d Push [[8,8]]	// ["addListener"]
+  L1712 GetMember
+  L1713 SetMember
+  L1714 Push [[4,1],[8,9],[8,1]]	// ["removeListener", "mx"]
+  L171d GetVariable
+  L171e Push [[8,3]]	// ["transitions"]
+  L1723 GetMember
+  L1724 Push [[8,4]]	// ["BroadcasterMX"]
+  L1729 GetMember
+  L172a Push [[8,5]]	// ["prototype"]
+  L172f GetMember
+  L1730 Push [[8,9]]	// ["removeListener"]
+  L1735 GetMember
+  L1736 SetMember
+  L1737 Push [[4,2]]
+  L173c Not
+  L173d Not
+  L173e If "L1757"
+  L1743 Push [[4,1],[8,10],[6,0.0],[8,11]]	// ["_listeners", "Array"]
+  L1755 NewObject
+  L1756 SetMember
+L1757 SetMember
+L1758 Push [[4,1],[8,8]]	// ["addListener"]
+L175f DefineFunction2 {"function_name":"","register_count":3,"flags":41,"parameters":[{"register":2,"name":"o"}]}
+  L176d Push [[4,2],[7,1],[4,1],[8,9]]	// ["removeListener"]
+  L177b CallMethod
+  L177c Pop
+  L177d Push [[4,1],[8,7]]	// ["KUR"]
+  L1784 GetMember
+  L1785 Push [[3,"undefined"]]
+  L1789 Equals2
+  L178a Not
+  L178b If "L17b3"
+  L1790 Push [[4,1],[8,7],[8,1]]	// ["KUR", "mx"]
+  L1799 GetVariable
+  L179a Push [[8,3]]	// ["transitions"]
+  L179f GetMember
+  L17a0 Push [[8,4]]	// ["BroadcasterMX"]
+  L17a5 GetMember
+  L17a6 Push [[8,5]]	// ["prototype"]
+  L17ab GetMember
+  L17ac Push [[8,7]]	// ["KUR"]
+  L17b1 GetMember
+  L17b2 SetMember
+  L17b3 Push [[4,2],[7,1],[4,1],[8,10]]	// ["_listeners"]
+  L17c1 GetMember
+  L17c2 Push [[8,12]]	// ["push"]
+  L17c7 CallMethod
+  L17c8 Return
+L17c9 SetMember
+L17ca Push [[4,1],[8,9]]	// ["removeListener"]
+L17d1 DefineFunction2 {"function_name":"","register_count":5,"flags":41,"parameters":[{"register":4,"name":"o"}]}
+  L17df Push [[4,1],[8,10]]	// ["_listeners"]
+  L17e6 GetMember
+  L17e7 StoreRegister 2
+  L17eb Pop
+  L17ec Push [[4,2],[8,13]]	// ["length"]
+  L17f3 GetMember
+  L17f4 StoreRegister 3
+  L17f8 Pop
+  L17f9 Push [[4,3],[4,3]]
+  L1800 Decrement
+  L1801 StoreRegister 3
+  L1805 Pop
+  L1806 Not
+  L1807 If "L1858"
+  L180c Push [[4,2],[4,3]]
+  L1813 GetMember
+  L1814 Push [[4,4]]
+  L1819 Equals2
+  L181a Not
+  L181b If "L1853"
+  L1820 Push [[7,1],[4,3],[7,2],[4,2],[8,14]]	// ["splice"]
+  L1833 CallMethod
+  L1834 Pop
+  L1835 Push [[4,2],[8,13]]	// ["length"]
+  L183c GetMember
+  L183d Not
+  L183e Not
+  L183f If "L184d"
+  L1844 Push [[4,1],[8,7],[3,"undefined"]]	// ["KUR"]
+  L184c SetMember
+  L184d Push [[5,1]]
+  L1852 Return
+  L1853 Jump "L17f9"
+  L1858 Push [[5,0]]
+  L185d Return
+L185e SetMember
+L185f Push [[4,1],[8,7]]	// ["KUR"]
+L1866 DefineFunction2 {"function_name":"","register_count":7,"flags":37,"parameters":[]}
+  L1871 Push [[6,0.0],[4,2],[8,15]]	// ["shift"]
+  L1881 CallMethod
+  L1882 ToString
+  L1883 StoreRegister 5
+  L1887 Pop
+  L1888 Push [[6,0.0],[4,1],[8,10]]	// ["_listeners"]
+  L1898 GetMember
+  L1899 Push [[8,16]]	// ["concat"]
+  L189e CallMethod
+  L189f StoreRegister 4
+  L18a3 Pop
+  L18a4 Push [[4,4],[8,13]]	// ["length"]
+  L18ab GetMember
+  L18ac StoreRegister 6
+  L18b0 Pop
+  L18b1 Push [[6,0.0]]
+  L18bd StoreRegister 3
+  L18c1 Pop
+  L18c2 Push [[4,3],[4,6]]
+  L18c9 Less2
+  L18ca Not
+  L18cb If "L1904"
+  L18d0 Push [[4,2],[4,4],[4,3]]
+  L18d9 GetMember
+  L18da Push [[7,2],[4,4],[4,3]]
+  L18e6 GetMember
+  L18e7 Push [[4,5]]
+  L18ec GetMember
+  L18ed Push [[8,17]]	// ["apply"]
+  L18f2 CallMethod
+  L18f3 Pop
+  L18f4 Push [[4,3]]
+  L18f9 Increment
+  L18fa StoreRegister 3
+  L18fe Pop
+  L18ff Jump "L18c2"
+L1904 SetMember
+L1905 Push [[7,1],[2,null],[8,1]]	// ["mx"]
+L1910 GetVariable
+L1911 Push [[8,3]]	// ["transitions"]
+L1916 GetMember
+L1917 Push [[8,4]]	// ["BroadcasterMX"]
+L191c GetMember
+L191d Push [[8,5]]	// ["prototype"]
+L1922 GetMember
+L1923 Push [[7,3],[8,18]]	// ["ASSetPropFlags"]
+L192d CallFunction
+L192e Pop
+L192f End

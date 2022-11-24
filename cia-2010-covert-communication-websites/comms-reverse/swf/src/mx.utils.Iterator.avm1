@@ -1,0 +1,45 @@
+// __Packages.mx.utils.Iterator in worlddispatch.swf, tag at 0xd89e
+Ld8a6 ConstantPool ["_global","mx","Object","utils","Iterator"]
+Ld8cc Push [[8,0]]	// ["_global"]
+Ld8d1 GetVariable
+Ld8d2 Push [[8,1]]	// ["mx"]
+Ld8d7 GetMember
+Ld8d8 Not
+Ld8d9 Not
+Ld8da If "Ld8f7"
+Ld8df Push [[8,0]]	// ["_global"]
+Ld8e4 GetVariable
+Ld8e5 Push [[8,1],[6,0.0],[8,2]]	// ["mx", "Object"]
+Ld8f5 NewObject
+Ld8f6 SetMember
+Ld8f7 Pop
+Ld8f8 Push [[8,0]]	// ["_global"]
+Ld8fd GetVariable
+Ld8fe Push [[8,1]]	// ["mx"]
+Ld903 GetMember
+Ld904 Push [[8,3]]	// ["utils"]
+Ld909 GetMember
+Ld90a Not
+Ld90b Not
+Ld90c If "Ld92f"
+Ld911 Push [[8,0]]	// ["_global"]
+Ld916 GetVariable
+Ld917 Push [[8,1]]	// ["mx"]
+Ld91c GetMember
+Ld91d Push [[8,3],[6,0.0],[8,2]]	// ["utils", "Object"]
+Ld92d NewObject
+Ld92e SetMember
+Ld92f Pop
+Ld930 Push [[8,0]]	// ["_global"]
+Ld935 GetVariable
+Ld936 Push [[8,1]]	// ["mx"]
+Ld93b GetMember
+Ld93c Push [[8,3]]	// ["utils"]
+Ld941 GetMember
+Ld942 Push [[8,4]]	// ["Iterator"]
+Ld947 GetMember
+Ld948 Not
+Ld949 Not
+Ld94a If "Ld94f"
+Ld94f Pop
+Ld950 End

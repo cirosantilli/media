@@ -1,0 +1,45 @@
+// __Packages.mx.data.DataRange in worlddispatch.swf, tag at 0x995e
+L9966 ConstantPool ["_global","mx","Object","data","DataRange"]
+L998c Push [[8,0]]	// ["_global"]
+L9991 GetVariable
+L9992 Push [[8,1]]	// ["mx"]
+L9997 GetMember
+L9998 Not
+L9999 Not
+L999a If "L99b7"
+L999f Push [[8,0]]	// ["_global"]
+L99a4 GetVariable
+L99a5 Push [[8,1],[6,0.0],[8,2]]	// ["mx", "Object"]
+L99b5 NewObject
+L99b6 SetMember
+L99b7 Pop
+L99b8 Push [[8,0]]	// ["_global"]
+L99bd GetVariable
+L99be Push [[8,1]]	// ["mx"]
+L99c3 GetMember
+L99c4 Push [[8,3]]	// ["data"]
+L99c9 GetMember
+L99ca Not
+L99cb Not
+L99cc If "L99ef"
+L99d1 Push [[8,0]]	// ["_global"]
+L99d6 GetVariable
+L99d7 Push [[8,1]]	// ["mx"]
+L99dc GetMember
+L99dd Push [[8,3],[6,0.0],[8,2]]	// ["data", "Object"]
+L99ed NewObject
+L99ee SetMember
+L99ef Pop
+L99f0 Push [[8,0]]	// ["_global"]
+L99f5 GetVariable
+L99f6 Push [[8,1]]	// ["mx"]
+L99fb GetMember
+L99fc Push [[8,3]]	// ["data"]
+L9a01 GetMember
+L9a02 Push [[8,4]]	// ["DataRange"]
+L9a07 GetMember
+L9a08 Not
+L9a09 Not
+L9a0a If "L9a0f"
+L9a0f Pop
+L9a10 End

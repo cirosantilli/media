@@ -1,0 +1,270 @@
+// __Packages.mx.remoting.Connection in worlddispatch.swf, tag at 0x3041
+L3049 ConstantPool ["_global","mx","Object","remoting","Connection","super","prototype","NetConnection","nxS","client","serviceName","this","NetServiceProxy","setCredentials","cyH","userId","password","Credentials","addHeader","clone","kju","connect","getDebugId","getDebugConfig","setDebugId","call","arguments","apply","close","WmY","nwI","mustUnderstand","zXY","trace","AppendToGatewayUrl","__urlSuffix","YvL","Cvy","ReplaceGatewayUrl","neR","RequestPersistentHeader","info","data","VEZ","1.2.0.124","ASSetPropFlags"]
+L31e6 Push [[8,0]]	// ["_global"]
+L31eb GetVariable
+L31ec Push [[8,1]]	// ["mx"]
+L31f1 GetMember
+L31f2 Not
+L31f3 Not
+L31f4 If "L3211"
+L31f9 Push [[8,0]]	// ["_global"]
+L31fe GetVariable
+L31ff Push [[8,1],[6,0.0],[8,2]]	// ["mx", "Object"]
+L320f NewObject
+L3210 SetMember
+L3211 Pop
+L3212 Push [[8,0]]	// ["_global"]
+L3217 GetVariable
+L3218 Push [[8,1]]	// ["mx"]
+L321d GetMember
+L321e Push [[8,3]]	// ["remoting"]
+L3223 GetMember
+L3224 Not
+L3225 Not
+L3226 If "L3249"
+L322b Push [[8,0]]	// ["_global"]
+L3230 GetVariable
+L3231 Push [[8,1]]	// ["mx"]
+L3236 GetMember
+L3237 Push [[8,3],[6,0.0],[8,2]]	// ["remoting", "Object"]
+L3247 NewObject
+L3248 SetMember
+L3249 Pop
+L324a Push [[8,0]]	// ["_global"]
+L324f GetVariable
+L3250 Push [[8,1]]	// ["mx"]
+L3255 GetMember
+L3256 Push [[8,3]]	// ["remoting"]
+L325b GetMember
+L325c Push [[8,4]]	// ["Connection"]
+L3261 GetMember
+L3262 Not
+L3263 Not
+L3264 If "L363d"
+L3269 Push [[8,1]]	// ["mx"]
+L326e GetVariable
+L326f Push [[8,3]]	// ["remoting"]
+L3274 GetMember
+L3275 Push [[8,4]]	// ["Connection"]
+L327a DefineFunction {"function_name":"","parameters":[]}
+  L3282 Push [[6,0.0],[8,5]]	// ["super"]
+  L3290 CallFunction
+  L3291 Pop
+L3292 StoreRegister 1
+L3296 SetMember
+L3297 Push [[8,1]]	// ["mx"]
+L329c GetVariable
+L329d Push [[8,3]]	// ["remoting"]
+L32a2 GetMember
+L32a3 Push [[8,4]]	// ["Connection"]
+L32a8 GetMember
+L32a9 Push [[8,6],[6,0.0],[8,7]]	// ["prototype", "NetConnection"]
+L32b9 NewObject
+L32ba StoreRegister 2
+L32be SetMember
+L32bf Push [[4,2],[8,8]]	// ["nxS"]
+L32c6 DefineFunction {"function_name":"","parameters":[{"register":0,"name":"serviceName"},{"register":0,"name":"client"}]}
+  L32e1 Push [[4,1],[8,9]]	// ["client"]
+  L32e8 GetVariable
+  L32e9 Push [[8,10]]	// ["serviceName"]
+  L32ee GetVariable
+  L32ef Push [[8,11]]	// ["this"]
+  L32f4 GetVariable
+  L32f5 Push [[7,3],[8,1]]	// ["mx"]
+  L32ff GetVariable
+  L3300 Push [[8,3]]	// ["remoting"]
+  L3305 GetMember
+  L3306 Push [[8,12]]	// ["NetServiceProxy"]
+  L330b NewMethod
+  L330c StoreRegister 1
+  L3310 Pop
+  L3311 Push [[4,1]]
+  L3316 Jump "L331f"
+  L331b Push [[3,"undefined"]]
+  L331f StoreRegister 0
+  L3323 Pop
+  L3324 StoreRegister 1
+  L3328 Pop
+  L3329 Push [[4,0]]
+  L332e Return
+L332f SetMember
+L3330 Push [[4,2],[8,13]]	// ["setCredentials"]
+L3337 DefineFunction {"function_name":"","parameters":[{"register":0,"name":"userId"},{"register":0,"name":"password"}]}
+  L334f Push [[8,14],[8,15]]	// ["cyH", "userId"]
+  L3356 GetVariable
+  L3357 Push [[8,16],[8,16]]	// ["password", "password"]
+  L335e GetVariable
+  L335f Push [[7,2]]
+  L3367 InitObject
+  L3368 Push [[5,0],[8,17],[7,3],[8,11]]	// ["Credentials", "this"]
+  L3376 GetVariable
+  L3377 Push [[8,18]]	// ["addHeader"]
+  L337c CallMethod
+  L337d Pop
+L337e SetMember
+L337f Push [[4,2],[8,19]]	// ["clone"]
+L3386 DefineFunction {"function_name":"","parameters":[]}
+  L338e Push [[4,1],[6,0.0],[8,1]]	// ["mx"]
+  L339e GetVariable
+  L339f Push [[8,3]]	// ["remoting"]
+  L33a4 GetMember
+  L33a5 Push [[8,4]]	// ["Connection"]
+  L33aa NewMethod
+  L33ab StoreRegister 1
+  L33af Pop
+  L33b0 Push [[8,11]]	// ["this"]
+  L33b5 GetVariable
+  L33b6 Push [[8,20]]	// ["kju"]
+  L33bb GetMember
+  L33bc Push [[7,1],[4,1],[8,21]]	// ["connect"]
+  L33c8 CallMethod
+  L33c9 Pop
+  L33ca Push [[4,1]]
+  L33cf Jump "L33d8"
+  L33d4 Push [[3,"undefined"]]
+  L33d8 StoreRegister 0
+  L33dc Pop
+  L33dd StoreRegister 1
+  L33e1 Pop
+  L33e2 Push [[4,0]]
+  L33e7 Return
+L33e8 SetMember
+L33e9 Push [[4,2],[8,22]]	// ["getDebugId"]
+L33f0 DefineFunction {"function_name":"","parameters":[]}
+  L33f8 Push [[2,null]]
+  L33fc Return
+L33fd SetMember
+L33fe Push [[4,2],[8,23]]	// ["getDebugConfig"]
+L3405 DefineFunction {"function_name":"","parameters":[]}
+  L340d Push [[2,null]]
+  L3411 Return
+L3412 SetMember
+L3413 Push [[4,2],[8,24]]	// ["setDebugId"]
+L341a DefineFunction {"function_name":"","parameters":[{"register":0,"name":"WuW"}]}
+L3426 SetMember
+L3427 Push [[4,2],[8,25]]	// ["call"]
+L342e DefineFunction {"function_name":"","parameters":[]}
+  L3436 Push [[8,26]]	// ["arguments"]
+  L343b GetVariable
+  L343c Push [[8,5]]	// ["super"]
+  L3441 GetVariable
+  L3442 Push [[7,2],[8,5]]	// ["super"]
+  L344c GetVariable
+  L344d Push [[8,25]]	// ["call"]
+  L3452 GetMember
+  L3453 Push [[8,27]]	// ["apply"]
+  L3458 CallMethod
+  L3459 Pop
+L345a SetMember
+L345b Push [[4,2],[8,28]]	// ["close"]
+L3462 DefineFunction {"function_name":"","parameters":[]}
+  L346a Push [[6,0.0],[8,5]]	// ["super"]
+  L3478 GetVariable
+  L3479 Push [[8,28]]	// ["close"]
+  L347e CallMethod
+  L347f Pop
+L3480 SetMember
+L3481 Push [[4,2],[8,21]]	// ["connect"]
+L3488 DefineFunction {"function_name":"","parameters":[{"register":0,"name":"WmY"}]}
+  L3494 Push [[8,29]]	// ["WmY"]
+  L3499 GetVariable
+  L349a Push [[7,1],[8,5]]	// ["super"]
+  L34a4 GetVariable
+  L34a5 Push [[8,21]]	// ["connect"]
+  L34aa CallMethod
+  L34ab Return
+L34ac SetMember
+L34ad Push [[4,2],[8,18]]	// ["addHeader"]
+L34b4 DefineFunction {"function_name":"","parameters":[{"register":0,"name":"zXY"},{"register":0,"name":"mustUnderstand"},{"register":0,"name":"nwI"}]}
+  L34d3 Push [[8,30]]	// ["nwI"]
+  L34d8 GetVariable
+  L34d9 Push [[8,31]]	// ["mustUnderstand"]
+  L34de GetVariable
+  L34df Push [[8,32]]	// ["zXY"]
+  L34e4 GetVariable
+  L34e5 Push [[7,3],[8,5]]	// ["super"]
+  L34ef GetVariable
+  L34f0 Push [[8,18]]	// ["addHeader"]
+  L34f5 CallMethod
+  L34f6 Pop
+L34f7 SetMember
+L34f8 Push [[4,2],[8,33]]	// ["trace"]
+L34ff DefineFunction {"function_name":"","parameters":[{"register":0,"name":"traceObj"}]}
+L3510 SetMember
+L3511 Push [[4,2],[8,34]]	// ["AppendToGatewayUrl"]
+L3518 DefineFunction {"function_name":"","parameters":[{"register":0,"name":"YvL"}]}
+  L3524 Push [[4,1],[4,2],[8,11]]	// ["this"]
+  L352d GetVariable
+  L352e StoreRegister 1
+  L3532 Pop
+  L3533 Push [[4,1],[8,35],[8,36]]	// ["__urlSuffix", "YvL"]
+  L353c GetVariable
+  L353d SetMember
+  L353e Push [[4,1],[8,37]]	// ["Cvy"]
+  L3545 GetMember
+  L3546 Push [[2,null]]
+  L354a Equals2
+  L354b Not
+  L354c If "L355e"
+  L3551 Push [[4,1],[8,37],[4,1],[8,20]]	// ["Cvy", "kju"]
+  L355c GetMember
+  L355d SetMember
+  L355e Push [[4,1],[8,37]]	// ["Cvy"]
+  L3565 GetMember
+  L3566 Push [[8,36]]	// ["YvL"]
+  L356b GetVariable
+  L356c Add2
+  L356d StoreRegister 2
+  L3571 Pop
+  L3572 Push [[4,2],[7,1],[4,1],[8,21]]	// ["connect"]
+  L3580 CallMethod
+  L3581 Pop
+  L3582 StoreRegister 2
+  L3586 Pop
+  L3587 StoreRegister 1
+  L358b Pop
+L358c SetMember
+L358d Push [[4,2],[8,38]]	// ["ReplaceGatewayUrl"]
+L3594 DefineFunction {"function_name":"","parameters":[{"register":0,"name":"neR"}]}
+  L35a0 Push [[8,39]]	// ["neR"]
+  L35a5 GetVariable
+  L35a6 Push [[7,1],[8,11]]	// ["this"]
+  L35b0 GetVariable
+  L35b1 Push [[8,21]]	// ["connect"]
+  L35b6 CallMethod
+  L35b7 Pop
+L35b8 SetMember
+L35b9 Push [[4,2],[8,40]]	// ["RequestPersistentHeader"]
+L35c0 DefineFunction {"function_name":"","parameters":[{"register":0,"name":"info"}]}
+  L35cd Push [[4,1],[8,41]]	// ["info"]
+  L35d4 GetVariable
+  L35d5 StoreRegister 1
+  L35d9 Pop
+  L35da Push [[4,1],[8,42]]	// ["data"]
+  L35e1 GetMember
+  L35e2 Push [[4,1],[8,31]]	// ["mustUnderstand"]
+  L35e9 GetMember
+  L35ea Push [[4,1],[8,32]]	// ["zXY"]
+  L35f1 GetMember
+  L35f2 Push [[7,3],[8,11]]	// ["this"]
+  L35fc GetVariable
+  L35fd Push [[8,18]]	// ["addHeader"]
+  L3602 CallMethod
+  L3603 Pop
+  L3604 StoreRegister 1
+  L3608 Pop
+L3609 SetMember
+L360a Push [[4,1],[8,43],[8,44]]	// ["VEZ", "1.2.0.124"]
+L3613 SetMember
+L3614 Push [[7,1],[2,null],[8,1]]	// ["mx"]
+L361f GetVariable
+L3620 Push [[8,3]]	// ["remoting"]
+L3625 GetMember
+L3626 Push [[8,4]]	// ["Connection"]
+L362b GetMember
+L362c Push [[8,6]]	// ["prototype"]
+L3631 GetMember
+L3632 Push [[7,3],[8,45]]	// ["ASSetPropFlags"]
+L363c CallFunction
+L363d Pop
+L363e End

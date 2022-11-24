@@ -1,0 +1,378 @@
+// __Packages.mx.remoting.PendingCall in worlddispatch.swf, tag at 0x51fb
+L5203 ConstantPool ["_global","mx","Object","remoting","PendingCall","super","this","Hod","srv","wxg","methodName","prototype","OVu","lQv","nSG","res","onResult","result","serviceName","function","servicename","NetServiceProxy","OPa","Esc","Service","RecordSet","_setParentService","dpX","log","rpc","ResultEvent","Yup",".","() returned ","data","binding","ObjectDumper","toString","udv","onStatus","status","EcW","aKk","description","eug","Fault","FaultEvent","onFault","Service invocation failed.","logDebug","LcB","inited","registerNetServiceProxy","addProperty","responder","ASSetPropFlags"]
+L53d7 Push [[8,0]]	// ["_global"]
+L53dc GetVariable
+L53dd Push [[8,1]]	// ["mx"]
+L53e2 GetMember
+L53e3 Not
+L53e4 Not
+L53e5 If "L5402"
+L53ea Push [[8,0]]	// ["_global"]
+L53ef GetVariable
+L53f0 Push [[8,1],[6,0.0],[8,2]]	// ["mx", "Object"]
+L5400 NewObject
+L5401 SetMember
+L5402 Pop
+L5403 Push [[8,0]]	// ["_global"]
+L5408 GetVariable
+L5409 Push [[8,1]]	// ["mx"]
+L540e GetMember
+L540f Push [[8,3]]	// ["remoting"]
+L5414 GetMember
+L5415 Not
+L5416 Not
+L5417 If "L543a"
+L541c Push [[8,0]]	// ["_global"]
+L5421 GetVariable
+L5422 Push [[8,1]]	// ["mx"]
+L5427 GetMember
+L5428 Push [[8,3],[6,0.0],[8,2]]	// ["remoting", "Object"]
+L5438 NewObject
+L5439 SetMember
+L543a Pop
+L543b Push [[8,0]]	// ["_global"]
+L5440 GetVariable
+L5441 Push [[8,1]]	// ["mx"]
+L5446 GetMember
+L5447 Push [[8,3]]	// ["remoting"]
+L544c GetMember
+L544d Push [[8,4]]	// ["PendingCall"]
+L5452 GetMember
+L5453 Not
+L5454 Not
+L5455 If "L5964"
+L545a Push [[8,1]]	// ["mx"]
+L545f GetVariable
+L5460 Push [[8,3]]	// ["remoting"]
+L5465 GetMember
+L5466 Push [[8,4]]	// ["PendingCall"]
+L546b DefineFunction {"function_name":"","parameters":[{"register":0,"name":"srv"},{"register":0,"name":"methodName"}]}
+  L5482 Push [[6,0.0],[8,5]]	// ["super"]
+  L5490 CallFunction
+  L5491 Pop
+  L5492 Push [[8,6]]	// ["this"]
+  L5497 GetVariable
+  L5498 Push [[8,7],[8,8]]	// ["Hod", "srv"]
+  L549f GetVariable
+  L54a0 SetMember
+  L54a1 Push [[8,6]]	// ["this"]
+  L54a6 GetVariable
+  L54a7 Push [[8,9],[8,10]]	// ["wxg", "methodName"]
+  L54ae GetVariable
+  L54af SetMember
+L54b0 StoreRegister 1
+L54b4 SetMember
+L54b5 Push [[8,1]]	// ["mx"]
+L54ba GetVariable
+L54bb Push [[8,3]]	// ["remoting"]
+L54c0 GetMember
+L54c1 Push [[8,4]]	// ["PendingCall"]
+L54c6 GetMember
+L54c7 Push [[8,11],[6,0.0],[8,2]]	// ["prototype", "Object"]
+L54d7 NewObject
+L54d8 StoreRegister 2
+L54dc SetMember
+L54dd Push [[4,2],[8,12]]	// ["OVu"]
+L54e4 DefineFunction {"function_name":"","parameters":[]}
+  L54ec Push [[8,6]]	// ["this"]
+  L54f1 GetVariable
+  L54f2 Push [[8,13]]	// ["lQv"]
+  L54f7 GetMember
+  L54f8 Return
+L54f9 SetMember
+L54fa Push [[4,2],[8,14]]	// ["nSG"]
+L5501 DefineFunction {"function_name":"","parameters":[{"register":0,"name":"res"}]}
+  L550d Push [[8,6]]	// ["this"]
+  L5512 GetVariable
+  L5513 Push [[8,13],[8,15]]	// ["lQv", "res"]
+  L551a GetVariable
+  L551b SetMember
+  L551c Push [[6,0.0],[8,6]]	// ["this"]
+  L552a GetVariable
+  L552b Push [[8,12]]	// ["OVu"]
+  L5530 CallMethod
+  L5531 Return
+  L5532 Pop
+L5533 SetMember
+L5534 Push [[4,2],[8,16]]	// ["onResult"]
+L553b DefineFunction {"function_name":"","parameters":[{"register":0,"name":"result"}]}
+  L554a Push [[4,1],[4,2],[4,3],[8,17]]	// ["result"]
+  L5555 GetVariable
+  L5556 StoreRegister 1
+  L555a Pop
+  L555b Push [[8,6]]	// ["this"]
+  L5560 GetVariable
+  L5561 StoreRegister 2
+  L5565 Pop
+  L5566 Push [[4,1],[8,18],[4,1],[8,18]]	// ["serviceName", "serviceName"]
+  L5571 GetMember
+  L5572 TypeOf
+  L5573 Push [[8,19]]	// ["function"]
+  L5578 Equals2
+  L5579 If "L558b"
+  L557e Push [[4,1],[8,18]]	// ["serviceName"]
+  L5585 GetMember
+  L5586 Jump "L5593"
+  L558b Push [[4,1],[8,20]]	// ["servicename"]
+  L5592 GetMember
+  L5593 SetMember
+  L5594 Push [[4,1],[2,null]]
+  L559a Equals2
+  L559b Not
+  L559c Not
+  L559d If "L5690"
+  L55a2 Push [[4,1],[8,1]]	// ["mx"]
+  L55a9 GetVariable
+  L55aa Push [[8,3]]	// ["remoting"]
+  L55af GetMember
+  L55b0 Push [[8,21]]	// ["NetServiceProxy"]
+  L55b5 GetMember
+  L55b6 InstanceOf
+  L55b7 Not
+  L55b8 If "L561f"
+  L55bd Push [[8,22],[6,0.0],[4,2],[8,7]]	// ["OPa", "Hod"]
+  L55cf GetMember
+  L55d0 Push [[8,12]]	// ["OVu"]
+  L55d5 CallMethod
+  L55d6 Push [[6,0.0],[4,2],[8,7]]	// ["Hod"]
+  L55e6 GetMember
+  L55e7 Push [[8,23]]	// ["Esc"]
+  L55ec CallMethod
+  L55ed Push [[4,1],[8,18]]	// ["serviceName"]
+  L55f4 GetMember
+  L55f5 Push [[2,null],[2,null],[7,5],[8,1]]	// ["mx"]
+  L5601 GetVariable
+  L5602 Push [[8,3]]	// ["remoting"]
+  L5607 GetMember
+  L5608 Push [[8,24]]	// ["Service"]
+  L560d NewMethod
+  L560e DefineLocal
+  L560f Push [[8,22]]	// ["OPa"]
+  L5614 GetVariable
+  L5615 StoreRegister 1
+  L5619 Pop
+  L561a Jump "L5690"
+  L561f Push [[4,1],[8,1]]	// ["mx"]
+  L5626 GetVariable
+  L5627 Push [[8,3]]	// ["remoting"]
+  L562c GetMember
+  L562d Push [[8,25]]	// ["RecordSet"]
+  L5632 GetMember
+  L5633 InstanceOf
+  L5634 Not
+  L5635 If "L5690"
+  L563a Push [[6,0.0],[4,2],[8,7]]	// ["Hod"]
+  L564a GetMember
+  L564b Push [[8,23]]	// ["Esc"]
+  L5650 CallMethod
+  L5651 Push [[7,1],[8,1]]	// ["mx"]
+  L565b GetVariable
+  L565c Push [[8,3]]	// ["remoting"]
+  L5661 GetMember
+  L5662 Push [[8,21]]	// ["NetServiceProxy"]
+  L5667 NewMethod
+  L5668 StoreRegister 3
+  L566c Pop
+  L566d Push [[4,3],[7,1],[4,1],[8,26]]	// ["_setParentService"]
+  L567b CallMethod
+  L567c Pop
+  L567d Push [[4,1],[8,27],[4,2],[8,7]]	// ["dpX", "Hod"]
+  L5688 GetMember
+  L5689 Push [[8,28]]	// ["log"]
+  L568e GetMember
+  L568f SetMember
+  L5690 Push [[4,2],[8,13]]	// ["lQv"]
+  L5697 GetMember
+  L5698 Push [[2,null]]
+  L569c Equals2
+  L569d Not
+  L569e Not
+  L569f If "L56d1"
+  L56a4 Push [[4,1],[7,1],[8,1]]	// ["mx"]
+  L56b0 GetVariable
+  L56b1 Push [[8,29]]	// ["rpc"]
+  L56b6 GetMember
+  L56b7 Push [[8,30]]	// ["ResultEvent"]
+  L56bc NewMethod
+  L56bd Push [[7,1],[4,2],[8,13]]	// ["lQv"]
+  L56c9 GetMember
+  L56ca Push [[8,16]]	// ["onResult"]
+  L56cf CallMethod
+  L56d0 Pop
+  L56d1 Push [[4,2],[8,7]]	// ["Hod"]
+  L56d8 GetMember
+  L56d9 Push [[8,28]]	// ["log"]
+  L56de GetMember
+  L56df Push [[2,null]]
+  L56e3 Equals2
+  L56e4 Not
+  L56e5 Not
+  L56e6 If "L5757"
+  L56eb Push [[6,0.0],[4,2],[8,7]]	// ["Hod"]
+  L56fb GetMember
+  L56fc Push [[8,31]]	// ["Yup"]
+  L5701 CallMethod
+  L5702 Push [[8,32]]	// ["."]
+  L5707 Add2
+  L5708 Push [[4,2],[8,9]]	// ["wxg"]
+  L570f GetMember
+  L5710 Add2
+  L5711 Push [[8,33]]	// ["() returned "]
+  L5716 Add2
+  L5717 Push [[4,1],[7,1],[8,1]]	// ["mx"]
+  L5723 GetVariable
+  L5724 Push [[8,34]]	// ["data"]
+  L5729 GetMember
+  L572a Push [[8,35]]	// ["binding"]
+  L572f GetMember
+  L5730 Push [[8,36]]	// ["ObjectDumper"]
+  L5735 GetMember
+  L5736 Push [[8,37]]	// ["toString"]
+  L573b CallMethod
+  L573c Add2
+  L573d Push [[7,1],[4,2],[8,7]]	// ["Hod"]
+  L5749 GetMember
+  L574a Push [[8,28]]	// ["log"]
+  L574f GetMember
+  L5750 Push [[8,38]]	// ["udv"]
+  L5755 CallMethod
+  L5756 Pop
+  L5757 StoreRegister 3
+  L575b Pop
+  L575c StoreRegister 2
+  L5760 Pop
+  L5761 StoreRegister 1
+  L5765 Pop
+L5766 SetMember
+L5767 Push [[4,2],[8,39]]	// ["onStatus"]
+L576e DefineFunction {"function_name":"","parameters":[{"register":0,"name":"status"}]}
+  L577d Push [[4,1],[4,2],[8,6]]	// ["this"]
+  L5786 GetVariable
+  L5787 StoreRegister 1
+  L578b Pop
+  L578c Push [[8,40]]	// ["status"]
+  L5791 GetVariable
+  L5792 StoreRegister 2
+  L5796 Pop
+  L5797 Push [[4,1],[8,13]]	// ["lQv"]
+  L579e GetMember
+  L579f Push [[2,null]]
+  L57a3 Equals2
+  L57a4 Not
+  L57a5 Not
+  L57a6 If "L580d"
+  L57ab Push [[4,2],[8,41]]	// ["EcW"]
+  L57b2 GetMember
+  L57b3 Push [[4,2],[8,42]]	// ["aKk"]
+  L57ba GetMember
+  L57bb Push [[4,2],[8,43]]	// ["description"]
+  L57c2 GetMember
+  L57c3 Push [[4,2],[8,44]]	// ["eug"]
+  L57ca GetMember
+  L57cb Push [[7,4],[8,1]]	// ["mx"]
+  L57d5 GetVariable
+  L57d6 Push [[8,29]]	// ["rpc"]
+  L57db GetMember
+  L57dc Push [[8,45]]	// ["Fault"]
+  L57e1 NewMethod
+  L57e2 Push [[7,1],[8,1]]	// ["mx"]
+  L57ec GetVariable
+  L57ed Push [[8,29]]	// ["rpc"]
+  L57f2 GetMember
+  L57f3 Push [[8,46]]	// ["FaultEvent"]
+  L57f8 NewMethod
+  L57f9 Push [[7,1],[4,1],[8,13]]	// ["lQv"]
+  L5805 GetMember
+  L5806 Push [[8,47]]	// ["onFault"]
+  L580b CallMethod
+  L580c Pop
+  L580d Push [[4,1],[8,7]]	// ["Hod"]
+  L5814 GetMember
+  L5815 Push [[8,28]]	// ["log"]
+  L581a GetMember
+  L581b Push [[2,null]]
+  L581f Equals2
+  L5820 Not
+  L5821 Not
+  L5822 If "L58af"
+  L5827 Push [[8,48],[7,1],[4,1],[8,7]]	// ["Service invocation failed.", "Hod"]
+  L5835 GetMember
+  L5836 Push [[8,28]]	// ["log"]
+  L583b GetMember
+  L583c Push [[8,49]]	// ["logDebug"]
+  L5841 CallMethod
+  L5842 Pop
+  L5843 Push [[6,0.0],[4,1],[8,7]]	// ["Hod"]
+  L5853 GetMember
+  L5854 Push [[8,31]]	// ["Yup"]
+  L5859 CallMethod
+  L585a Push [[8,32]]	// ["."]
+  L585f Add2
+  L5860 Push [[4,1],[8,9]]	// ["wxg"]
+  L5867 GetMember
+  L5868 Add2
+  L5869 Push [[8,33]]	// ["() returned "]
+  L586e Add2
+  L586f Push [[4,2],[7,1],[8,1]]	// ["mx"]
+  L587b GetVariable
+  L587c Push [[8,34]]	// ["data"]
+  L5881 GetMember
+  L5882 Push [[8,35]]	// ["binding"]
+  L5887 GetMember
+  L5888 Push [[8,36]]	// ["ObjectDumper"]
+  L588d GetMember
+  L588e Push [[8,37]]	// ["toString"]
+  L5893 CallMethod
+  L5894 Add2
+  L5895 Push [[7,1],[4,1],[8,7]]	// ["Hod"]
+  L58a1 GetMember
+  L58a2 Push [[8,28]]	// ["log"]
+  L58a7 GetMember
+  L58a8 Push [[8,49]]	// ["logDebug"]
+  L58ad CallMethod
+  L58ae Pop
+  L58af StoreRegister 2
+  L58b3 Pop
+  L58b4 StoreRegister 1
+  L58b8 Pop
+L58b9 SetMember
+L58ba Push [[4,2],[8,50]]	// ["LcB"]
+L58c1 DefineFunction {"function_name":"","parameters":[]}
+  L58c9 Push [[8,6]]	// ["this"]
+  L58ce GetVariable
+  L58cf Push [[8,9]]	// ["wxg"]
+  L58d4 GetMember
+  L58d5 Return
+L58d6 SetMember
+L58d7 Push [[4,1],[8,51],[6,0.0],[8,1]]	// ["inited", "mx"]
+L58e9 GetVariable
+L58ea Push [[8,3]]	// ["remoting"]
+L58ef GetMember
+L58f0 Push [[8,21]]	// ["NetServiceProxy"]
+L58f5 GetMember
+L58f6 Push [[8,52]]	// ["registerNetServiceProxy"]
+L58fb CallMethod
+L58fc SetMember
+L58fd DefineFunction {"function_name":"","parameters":[]}
+L5905 Push [[4,2],[8,50]]	// ["LcB"]
+L590c GetMember
+L590d Push [[8,10],[7,3],[4,2],[8,53]]	// ["methodName", "addProperty"]
+L591b CallMethod
+L591c Push [[4,2],[8,14]]	// ["nSG"]
+L5923 GetMember
+L5924 Push [[4,2],[8,12]]	// ["OVu"]
+L592b GetMember
+L592c Push [[8,54],[7,3],[4,2],[8,53]]	// ["responder", "addProperty"]
+L593a CallMethod
+L593b Push [[7,1],[2,null],[8,1]]	// ["mx"]
+L5946 GetVariable
+L5947 Push [[8,3]]	// ["remoting"]
+L594c GetMember
+L594d Push [[8,4]]	// ["PendingCall"]
+L5952 GetMember
+L5953 Push [[8,11]]	// ["prototype"]
+L5958 GetMember
+L5959 Push [[7,3],[8,55]]	// ["ASSetPropFlags"]
+L5963 CallFunction
+L5964 Pop
+L5965 End

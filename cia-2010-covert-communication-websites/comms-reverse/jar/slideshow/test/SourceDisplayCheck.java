@@ -20,7 +20,8 @@ public final class SourceDisplayCheck {
     public static void main(String[] args) throws Exception {
         checkActivation(args[1]);
         DisplayMailbox first = new DisplayMailbox(SourceDisplayCheck::exchange);
-        checkCover(first, args[4].equals("scroll"));
+        checkCover(first, args[4].equals("scroll"), Integer.parseInt(args[5]),
+                   Integer.parseInt(args[6]), Integer.parseInt(args[7]));
         first.login("smiley", args[0]);
         for (int i = 0; i < 100; ++i) first.poll();
         require(first.isAuthenticated(), "login");
@@ -65,24 +66,43 @@ public final class SourceDisplayCheck {
         char trigger = properties.getProperty("KeyListener.StickyKey").charAt(0);
         int[] matches = {0};
         KeyListener keys = DisplayMailbox.activationListener(() -> ++matches[0]);
-        type(keys, clear + "!" + sequence + trigger);
+        Canvas canvas = new Canvas();
+        activate(keys, canvas, clear, trigger, "!" + sequence, ArchiveVariant.HOLD_ACTIVATION);
         require(matches[0] == 0, "wrong activation");
-        type(keys, clear + sequence + trigger);
+        if (ArchiveVariant.HOLD_ACTIVATION) {
+            activate(keys, canvas, clear, trigger, sequence, false);
+            require(matches[0] == 0, "right sequence without held trigger");
+        }
+        activate(keys, canvas, clear, trigger, sequence, ArchiveVariant.HOLD_ACTIVATION);
         require(matches[0] == 1, "correct activation");
     }
 
-    private static void type(KeyListener keys, String sequence) {
-        Canvas canvas = new Canvas();
+    private static void activate(KeyListener keys, Canvas canvas, char clear, char trigger,
+                                 String sequence, boolean hold) {
+        press(keys, canvas, clear);
+        release(keys, canvas, clear);
+        if (hold) press(keys, canvas, trigger);
         for (char key : sequence.toCharArray()) {
-            keys.keyPressed(new KeyEvent(canvas, KeyEvent.KEY_PRESSED, 0, 0, KeyEvent.VK_UNDEFINED, key));
-            keys.keyReleased(new KeyEvent(canvas, KeyEvent.KEY_RELEASED, 0, 0, KeyEvent.VK_UNDEFINED, key));
+            press(keys, canvas, key);
+            release(keys, canvas, key);
         }
+        if (!hold) press(keys, canvas, trigger);
+        release(keys, canvas, trigger);
     }
 
-    private static void checkCover(DisplayMailbox client, boolean scrolling) throws Exception {
+    private static void press(KeyListener keys, Canvas canvas, char key) {
+        keys.keyPressed(new KeyEvent(canvas, KeyEvent.KEY_PRESSED, 0, 0, KeyEvent.VK_UNDEFINED, key));
+    }
+
+    private static void release(KeyListener keys, Canvas canvas, char key) {
+        keys.keyReleased(new KeyEvent(canvas, KeyEvent.KEY_RELEASED, 0, 0, KeyEvent.VK_UNDEFINED, key));
+    }
+
+    private static void checkCover(DisplayMailbox client, boolean scrolling, int count,
+                                   int width, int height) throws Exception {
         Set<Object> variants = new HashSet<>();
         Object opening = null;
-        for (int i = 0; i < 4; ++i) {
+        for (int i = 0; i <= count; ++i) {
             DisplayMailbox.Display display = client.poll();
             Object variant;
             if (scrolling) {
@@ -90,7 +110,6 @@ public final class SourceDisplayCheck {
                 variant = display.text;
             } else {
                 require(display.duration > 0 && display.image != null, "slide duration and image");
-                int width = 146, height = 219;
                 BufferedImage image = new BufferedImage(width, height, BufferedImage.TYPE_INT_RGB);
                 java.awt.Graphics graphics = image.getGraphics();
                 for (int tries = 0; tries < 20; ++tries) {
@@ -102,10 +121,10 @@ public final class SourceDisplayCheck {
                 variant = java.util.Arrays.hashCode(image.getRGB(0, 0, width, height, null, 0, width));
             }
             if (i == 0) opening = variant;
-            if (i == 3) require(opening.equals(variant), "display loop");
+            if (i == count) require(opening.equals(variant), "display loop");
             variants.add(variant);
         }
-        require(variants.size() == 3, "three displayed items");
+        require(variants.size() == count, "distinct display items");
     }
 
     private static void require(boolean condition, String reason) {

@@ -1,0 +1,118 @@
+// __Packages.mx.remoting.RsDataRange in worlddispatch.swf, tag at 0xdbe1
+Ldbe9 ConstantPool ["_global","mx","Object","remoting","RsDataRange","super","this","dZn","s","NFv","e","prototype","getStart","getEnd","setEnd","setStart","ASSetPropFlags"]
+Ldc65 Push [[8,0]]	// ["_global"]
+Ldc6a GetVariable
+Ldc6b Push [[8,1]]	// ["mx"]
+Ldc70 GetMember
+Ldc71 Not
+Ldc72 Not
+Ldc73 If "Ldc90"
+Ldc78 Push [[8,0]]	// ["_global"]
+Ldc7d GetVariable
+Ldc7e Push [[8,1],[6,0.0],[8,2]]	// ["mx", "Object"]
+Ldc8e NewObject
+Ldc8f SetMember
+Ldc90 Pop
+Ldc91 Push [[8,0]]	// ["_global"]
+Ldc96 GetVariable
+Ldc97 Push [[8,1]]	// ["mx"]
+Ldc9c GetMember
+Ldc9d Push [[8,3]]	// ["remoting"]
+Ldca2 GetMember
+Ldca3 Not
+Ldca4 Not
+Ldca5 If "Ldcc8"
+Ldcaa Push [[8,0]]	// ["_global"]
+Ldcaf GetVariable
+Ldcb0 Push [[8,1]]	// ["mx"]
+Ldcb5 GetMember
+Ldcb6 Push [[8,3],[6,0.0],[8,2]]	// ["remoting", "Object"]
+Ldcc6 NewObject
+Ldcc7 SetMember
+Ldcc8 Pop
+Ldcc9 Push [[8,0]]	// ["_global"]
+Ldcce GetVariable
+Ldccf Push [[8,1]]	// ["mx"]
+Ldcd4 GetMember
+Ldcd5 Push [[8,3]]	// ["remoting"]
+Ldcda GetMember
+Ldcdb Push [[8,4]]	// ["RsDataRange"]
+Ldce0 GetMember
+Ldce1 Not
+Ldce2 Not
+Ldce3 If "Lde05"
+Ldce8 Push [[8,1]]	// ["mx"]
+Ldced GetVariable
+Ldcee Push [[8,3]]	// ["remoting"]
+Ldcf3 GetMember
+Ldcf4 Push [[8,4]]	// ["RsDataRange"]
+Ldcf9 DefineFunction {"function_name":"","parameters":[{"register":0,"name":"s"},{"register":0,"name":"e"}]}
+  Ldd05 Push [[6,0.0],[8,5]]	// ["super"]
+  Ldd13 CallFunction
+  Ldd14 Pop
+  Ldd15 Push [[8,6]]	// ["this"]
+  Ldd1a GetVariable
+  Ldd1b Push [[8,7],[8,8]]	// ["dZn", "s"]
+  Ldd22 GetVariable
+  Ldd23 SetMember
+  Ldd24 Push [[8,6]]	// ["this"]
+  Ldd29 GetVariable
+  Ldd2a Push [[8,9],[8,10]]	// ["NFv", "e"]
+  Ldd31 GetVariable
+  Ldd32 SetMember
+Ldd33 StoreRegister 1
+Ldd37 SetMember
+Ldd38 Push [[8,1]]	// ["mx"]
+Ldd3d GetVariable
+Ldd3e Push [[8,3]]	// ["remoting"]
+Ldd43 GetMember
+Ldd44 Push [[8,4]]	// ["RsDataRange"]
+Ldd49 GetMember
+Ldd4a Push [[8,11],[6,0.0],[8,2]]	// ["prototype", "Object"]
+Ldd5a NewObject
+Ldd5b StoreRegister 2
+Ldd5f SetMember
+Ldd60 Push [[4,2],[8,12]]	// ["getStart"]
+Ldd67 DefineFunction {"function_name":"","parameters":[]}
+  Ldd6f Push [[8,6]]	// ["this"]
+  Ldd74 GetVariable
+  Ldd75 Push [[8,7]]	// ["dZn"]
+  Ldd7a GetMember
+  Ldd7b Return
+Ldd7c SetMember
+Ldd7d Push [[4,2],[8,13]]	// ["getEnd"]
+Ldd84 DefineFunction {"function_name":"","parameters":[]}
+  Ldd8c Push [[8,6]]	// ["this"]
+  Ldd91 GetVariable
+  Ldd92 Push [[8,9]]	// ["NFv"]
+  Ldd97 GetMember
+  Ldd98 Return
+Ldd99 SetMember
+Ldd9a Push [[4,2],[8,14]]	// ["setEnd"]
+Ldda1 DefineFunction {"function_name":"","parameters":[{"register":0,"name":"e"}]}
+  Lddab Push [[8,6]]	// ["this"]
+  Lddb0 GetVariable
+  Lddb1 Push [[8,9],[8,10]]	// ["NFv", "e"]
+  Lddb8 GetVariable
+  Lddb9 SetMember
+Lddba SetMember
+Lddbb Push [[4,2],[8,15]]	// ["setStart"]
+Lddc2 DefineFunction {"function_name":"","parameters":[{"register":0,"name":"s"}]}
+  Lddcc Push [[8,6]]	// ["this"]
+  Lddd1 GetVariable
+  Lddd2 Push [[8,7],[8,8]]	// ["dZn", "s"]
+  Lddd9 GetVariable
+  Lddda SetMember
+Ldddb SetMember
+Ldddc Push [[7,1],[2,null],[8,1]]	// ["mx"]
+Ldde7 GetVariable
+Ldde8 Push [[8,3]]	// ["remoting"]
+Ldded GetMember
+Lddee Push [[8,4]]	// ["RsDataRange"]
+Lddf3 GetMember
+Lddf4 Push [[8,11]]	// ["prototype"]
+Lddf9 GetMember
+Lddfa Push [[7,3],[8,16]]	// ["ASSetPropFlags"]
+Lde04 CallFunction
+Lde05 Pop
+Lde06 End

@@ -1,0 +1,94 @@
+// __Packages.mx.rpc.ResultEvent in worlddispatch.swf, tag at 0x5001
+L5009 ConstantPool ["_global","mx","Object","rpc","ResultEvent","super","this","YJG","res","prototype","aBR","result","addProperty","ASSetPropFlags"]
+L5073 Push [[8,0]]	// ["_global"]
+L5078 GetVariable
+L5079 Push [[8,1]]	// ["mx"]
+L507e GetMember
+L507f Not
+L5080 Not
+L5081 If "L509e"
+L5086 Push [[8,0]]	// ["_global"]
+L508b GetVariable
+L508c Push [[8,1],[6,0.0],[8,2]]	// ["mx", "Object"]
+L509c NewObject
+L509d SetMember
+L509e Pop
+L509f Push [[8,0]]	// ["_global"]
+L50a4 GetVariable
+L50a5 Push [[8,1]]	// ["mx"]
+L50aa GetMember
+L50ab Push [[8,3]]	// ["rpc"]
+L50b0 GetMember
+L50b1 Not
+L50b2 Not
+L50b3 If "L50d6"
+L50b8 Push [[8,0]]	// ["_global"]
+L50bd GetVariable
+L50be Push [[8,1]]	// ["mx"]
+L50c3 GetMember
+L50c4 Push [[8,3],[6,0.0],[8,2]]	// ["rpc", "Object"]
+L50d4 NewObject
+L50d5 SetMember
+L50d6 Pop
+L50d7 Push [[8,0]]	// ["_global"]
+L50dc GetVariable
+L50dd Push [[8,1]]	// ["mx"]
+L50e2 GetMember
+L50e3 Push [[8,3]]	// ["rpc"]
+L50e8 GetMember
+L50e9 Push [[8,4]]	// ["ResultEvent"]
+L50ee GetMember
+L50ef Not
+L50f0 Not
+L50f1 If "L51c4"
+L50f6 Push [[8,1]]	// ["mx"]
+L50fb GetVariable
+L50fc Push [[8,3]]	// ["rpc"]
+L5101 GetMember
+L5102 Push [[8,4]]	// ["ResultEvent"]
+L5107 DefineFunction {"function_name":"","parameters":[{"register":0,"name":"res"}]}
+  L5113 Push [[6,0.0],[8,5]]	// ["super"]
+  L5121 CallFunction
+  L5122 Pop
+  L5123 Push [[8,6]]	// ["this"]
+  L5128 GetVariable
+  L5129 Push [[8,7],[8,8]]	// ["YJG", "res"]
+  L5130 GetVariable
+  L5131 SetMember
+L5132 StoreRegister 1
+L5136 SetMember
+L5137 Push [[8,1]]	// ["mx"]
+L513c GetVariable
+L513d Push [[8,3]]	// ["rpc"]
+L5142 GetMember
+L5143 Push [[8,4]]	// ["ResultEvent"]
+L5148 GetMember
+L5149 Push [[8,9],[6,0.0],[8,2]]	// ["prototype", "Object"]
+L5159 NewObject
+L515a StoreRegister 2
+L515e SetMember
+L515f Push [[4,2],[8,10]]	// ["aBR"]
+L5166 DefineFunction {"function_name":"","parameters":[]}
+  L516e Push [[8,6]]	// ["this"]
+  L5173 GetVariable
+  L5174 Push [[8,7]]	// ["YJG"]
+  L5179 GetMember
+  L517a Return
+L517b SetMember
+L517c DefineFunction {"function_name":"","parameters":[]}
+L5184 Push [[4,2],[8,10]]	// ["aBR"]
+L518b GetMember
+L518c Push [[8,11],[7,3],[4,2],[8,12]]	// ["result", "addProperty"]
+L519a CallMethod
+L519b Push [[7,1],[2,null],[8,1]]	// ["mx"]
+L51a6 GetVariable
+L51a7 Push [[8,3]]	// ["rpc"]
+L51ac GetMember
+L51ad Push [[8,4]]	// ["ResultEvent"]
+L51b2 GetMember
+L51b3 Push [[8,9]]	// ["prototype"]
+L51b8 GetMember
+L51b9 Push [[7,3],[8,13]]	// ["ASSetPropFlags"]
+L51c3 CallFunction
+L51c4 Pop
+L51c5 End

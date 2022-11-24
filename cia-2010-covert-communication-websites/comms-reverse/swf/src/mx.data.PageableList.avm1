@@ -1,0 +1,45 @@
+// __Packages.mx.data.PageableList in worlddispatch.swf, tag at 0x9b2b
+L9b33 ConstantPool ["_global","mx","Object","data","PageableList"]
+L9b5c Push [[8,0]]	// ["_global"]
+L9b61 GetVariable
+L9b62 Push [[8,1]]	// ["mx"]
+L9b67 GetMember
+L9b68 Not
+L9b69 Not
+L9b6a If "L9b87"
+L9b6f Push [[8,0]]	// ["_global"]
+L9b74 GetVariable
+L9b75 Push [[8,1],[6,0.0],[8,2]]	// ["mx", "Object"]
+L9b85 NewObject
+L9b86 SetMember
+L9b87 Pop
+L9b88 Push [[8,0]]	// ["_global"]
+L9b8d GetVariable
+L9b8e Push [[8,1]]	// ["mx"]
+L9b93 GetMember
+L9b94 Push [[8,3]]	// ["data"]
+L9b99 GetMember
+L9b9a Not
+L9b9b Not
+L9b9c If "L9bbf"
+L9ba1 Push [[8,0]]	// ["_global"]
+L9ba6 GetVariable
+L9ba7 Push [[8,1]]	// ["mx"]
+L9bac GetMember
+L9bad Push [[8,3],[6,0.0],[8,2]]	// ["data", "Object"]
+L9bbd NewObject
+L9bbe SetMember
+L9bbf Pop
+L9bc0 Push [[8,0]]	// ["_global"]
+L9bc5 GetVariable
+L9bc6 Push [[8,1]]	// ["mx"]
+L9bcb GetMember
+L9bcc Push [[8,3]]	// ["data"]
+L9bd1 GetMember
+L9bd2 Push [[8,4]]	// ["PageableList"]
+L9bd7 GetMember
+L9bd8 Not
+L9bd9 Not
+L9bda If "L9bdf"
+L9bdf Pop
+L9be0 End

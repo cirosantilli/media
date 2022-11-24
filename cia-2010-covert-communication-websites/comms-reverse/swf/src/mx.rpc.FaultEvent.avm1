@@ -1,0 +1,94 @@
+// __Packages.mx.rpc.FaultEvent in worlddispatch.swf, tag at 0x498f
+L4997 ConstantPool ["_global","mx","Object","rpc","FaultEvent","super","this","qfe","f","prototype","ieE","fault","addProperty","ASSetPropFlags"]
+L49fd Push [[8,0]]	// ["_global"]
+L4a02 GetVariable
+L4a03 Push [[8,1]]	// ["mx"]
+L4a08 GetMember
+L4a09 Not
+L4a0a Not
+L4a0b If "L4a28"
+L4a10 Push [[8,0]]	// ["_global"]
+L4a15 GetVariable
+L4a16 Push [[8,1],[6,0.0],[8,2]]	// ["mx", "Object"]
+L4a26 NewObject
+L4a27 SetMember
+L4a28 Pop
+L4a29 Push [[8,0]]	// ["_global"]
+L4a2e GetVariable
+L4a2f Push [[8,1]]	// ["mx"]
+L4a34 GetMember
+L4a35 Push [[8,3]]	// ["rpc"]
+L4a3a GetMember
+L4a3b Not
+L4a3c Not
+L4a3d If "L4a60"
+L4a42 Push [[8,0]]	// ["_global"]
+L4a47 GetVariable
+L4a48 Push [[8,1]]	// ["mx"]
+L4a4d GetMember
+L4a4e Push [[8,3],[6,0.0],[8,2]]	// ["rpc", "Object"]
+L4a5e NewObject
+L4a5f SetMember
+L4a60 Pop
+L4a61 Push [[8,0]]	// ["_global"]
+L4a66 GetVariable
+L4a67 Push [[8,1]]	// ["mx"]
+L4a6c GetMember
+L4a6d Push [[8,3]]	// ["rpc"]
+L4a72 GetMember
+L4a73 Push [[8,4]]	// ["FaultEvent"]
+L4a78 GetMember
+L4a79 Not
+L4a7a Not
+L4a7b If "L4b4c"
+L4a80 Push [[8,1]]	// ["mx"]
+L4a85 GetVariable
+L4a86 Push [[8,3]]	// ["rpc"]
+L4a8b GetMember
+L4a8c Push [[8,4]]	// ["FaultEvent"]
+L4a91 DefineFunction {"function_name":"","parameters":[{"register":0,"name":"f"}]}
+  L4a9b Push [[6,0.0],[8,5]]	// ["super"]
+  L4aa9 CallFunction
+  L4aaa Pop
+  L4aab Push [[8,6]]	// ["this"]
+  L4ab0 GetVariable
+  L4ab1 Push [[8,7],[8,8]]	// ["qfe", "f"]
+  L4ab8 GetVariable
+  L4ab9 SetMember
+L4aba StoreRegister 1
+L4abe SetMember
+L4abf Push [[8,1]]	// ["mx"]
+L4ac4 GetVariable
+L4ac5 Push [[8,3]]	// ["rpc"]
+L4aca GetMember
+L4acb Push [[8,4]]	// ["FaultEvent"]
+L4ad0 GetMember
+L4ad1 Push [[8,9],[6,0.0],[8,2]]	// ["prototype", "Object"]
+L4ae1 NewObject
+L4ae2 StoreRegister 2
+L4ae6 SetMember
+L4ae7 Push [[4,2],[8,10]]	// ["ieE"]
+L4aee DefineFunction {"function_name":"","parameters":[]}
+  L4af6 Push [[8,6]]	// ["this"]
+  L4afb GetVariable
+  L4afc Push [[8,7]]	// ["qfe"]
+  L4b01 GetMember
+  L4b02 Return
+L4b03 SetMember
+L4b04 DefineFunction {"function_name":"","parameters":[]}
+L4b0c Push [[4,2],[8,10]]	// ["ieE"]
+L4b13 GetMember
+L4b14 Push [[8,11],[7,3],[4,2],[8,12]]	// ["fault", "addProperty"]
+L4b22 CallMethod
+L4b23 Push [[7,1],[2,null],[8,1]]	// ["mx"]
+L4b2e GetVariable
+L4b2f Push [[8,3]]	// ["rpc"]
+L4b34 GetMember
+L4b35 Push [[8,4]]	// ["FaultEvent"]
+L4b3a GetMember
+L4b3b Push [[8,9]]	// ["prototype"]
+L4b40 GetMember
+L4b41 Push [[7,3],[8,13]]	// ["ASSetPropFlags"]
+L4b4b CallFunction
+L4b4c Pop
+L4b4d End

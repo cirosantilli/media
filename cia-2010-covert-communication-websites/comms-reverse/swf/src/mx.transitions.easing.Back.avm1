@@ -1,0 +1,209 @@
+// __Packages.mx.transitions.easing.Back in worlddispatch.swf, tag at 0x8a00
+L8a08 ConstantPool ["_global","mx","Object","transitions","easing","Back","prototype","easeIn","easeOut","easeInOut","ASSetPropFlags"]
+L8a69 Push [[8,0]]	// ["_global"]
+L8a6e GetVariable
+L8a6f Push [[8,1]]	// ["mx"]
+L8a74 GetMember
+L8a75 Not
+L8a76 Not
+L8a77 If "L8a94"
+L8a7c Push [[8,0]]	// ["_global"]
+L8a81 GetVariable
+L8a82 Push [[8,1],[6,0.0],[8,2]]	// ["mx", "Object"]
+L8a92 NewObject
+L8a93 SetMember
+L8a94 Pop
+L8a95 Push [[8,0]]	// ["_global"]
+L8a9a GetVariable
+L8a9b Push [[8,1]]	// ["mx"]
+L8aa0 GetMember
+L8aa1 Push [[8,3]]	// ["transitions"]
+L8aa6 GetMember
+L8aa7 Not
+L8aa8 Not
+L8aa9 If "L8acc"
+L8aae Push [[8,0]]	// ["_global"]
+L8ab3 GetVariable
+L8ab4 Push [[8,1]]	// ["mx"]
+L8ab9 GetMember
+L8aba Push [[8,3],[6,0.0],[8,2]]	// ["transitions", "Object"]
+L8aca NewObject
+L8acb SetMember
+L8acc Pop
+L8acd Push [[8,0]]	// ["_global"]
+L8ad2 GetVariable
+L8ad3 Push [[8,1]]	// ["mx"]
+L8ad8 GetMember
+L8ad9 Push [[8,3]]	// ["transitions"]
+L8ade GetMember
+L8adf Push [[8,4]]	// ["easing"]
+L8ae4 GetMember
+L8ae5 Not
+L8ae6 Not
+L8ae7 If "L8b10"
+L8aec Push [[8,0]]	// ["_global"]
+L8af1 GetVariable
+L8af2 Push [[8,1]]	// ["mx"]
+L8af7 GetMember
+L8af8 Push [[8,3]]	// ["transitions"]
+L8afd GetMember
+L8afe Push [[8,4],[6,0.0],[8,2]]	// ["easing", "Object"]
+L8b0e NewObject
+L8b0f SetMember
+L8b10 Pop
+L8b11 Push [[8,0]]	// ["_global"]
+L8b16 GetVariable
+L8b17 Push [[8,1]]	// ["mx"]
+L8b1c GetMember
+L8b1d Push [[8,3]]	// ["transitions"]
+L8b22 GetMember
+L8b23 Push [[8,4]]	// ["easing"]
+L8b28 GetMember
+L8b29 Push [[8,5]]	// ["Back"]
+L8b2e GetMember
+L8b2f Not
+L8b30 Not
+L8b31 If "L8d8f"
+L8b36 Push [[8,1]]	// ["mx"]
+L8b3b GetVariable
+L8b3c Push [[8,3]]	// ["transitions"]
+L8b41 GetMember
+L8b42 Push [[8,4]]	// ["easing"]
+L8b47 GetMember
+L8b48 Push [[8,5]]	// ["Back"]
+L8b4d DefineFunction {"function_name":"","parameters":[]}
+L8b55 StoreRegister 0
+L8b59 SetMember
+L8b5a Push [[4,0],[8,6]]	// ["prototype"]
+L8b61 GetMember
+L8b62 StoreRegister 1
+L8b66 Pop
+L8b67 Push [[4,0],[8,7]]	// ["easeIn"]
+L8b6e DefineFunction2 {"function_name":"","register_count":6,"flags":42,"parameters":[{"register":2,"name":"t"},{"register":5,"name":"b"},{"register":4,"name":"c"},{"register":3,"name":"d"},{"register":1,"name":"s"}]}
+  L8b88 Push [[4,1],[3,"undefined"]]
+  L8b8e Equals2
+  L8b8f Not
+  L8b90 If "L8ba6"
+  L8b95 Push [[6,1.70158]]
+  L8ba1 StoreRegister 1
+  L8ba5 Pop
+  L8ba6 Push [[4,4],[4,2],[4,3]]
+  L8baf Divide
+  L8bb0 StoreRegister 2
+  L8bb4 Multiply
+  L8bb5 Push [[4,2]]
+  L8bba Multiply
+  L8bbb Push [[4,1],[7,1]]
+  L8bc5 Add2
+  L8bc6 Push [[4,2]]
+  L8bcb Multiply
+  L8bcc Push [[4,1]]
+  L8bd1 Subtract
+  L8bd2 Multiply
+  L8bd3 Push [[4,5]]
+  L8bd8 Add2
+  L8bd9 Return
+L8bda SetMember
+L8bdb Push [[4,0],[8,8]]	// ["easeOut"]
+L8be2 DefineFunction2 {"function_name":"","register_count":6,"flags":42,"parameters":[{"register":1,"name":"t"},{"register":5,"name":"b"},{"register":4,"name":"c"},{"register":3,"name":"d"},{"register":2,"name":"s"}]}
+  L8bfc Push [[4,2],[3,"undefined"]]
+  L8c02 Equals2
+  L8c03 Not
+  L8c04 If "L8c1a"
+  L8c09 Push [[6,1.70158]]
+  L8c15 StoreRegister 2
+  L8c19 Pop
+  L8c1a Push [[4,4],[4,1],[4,3]]
+  L8c23 Divide
+  L8c24 Push [[7,1]]
+  L8c2c Subtract
+  L8c2d StoreRegister 1
+  L8c31 Push [[4,1]]
+  L8c36 Multiply
+  L8c37 Push [[4,2],[7,1]]
+  L8c41 Add2
+  L8c42 Push [[4,1]]
+  L8c47 Multiply
+  L8c48 Push [[4,2]]
+  L8c4d Add2
+  L8c4e Multiply
+  L8c4f Push [[7,1]]
+  L8c57 Add2
+  L8c58 Multiply
+  L8c59 Push [[4,5]]
+  L8c5e Add2
+  L8c5f Return
+L8c60 SetMember
+L8c61 Push [[4,0],[8,9]]	// ["easeInOut"]
+L8c68 DefineFunction2 {"function_name":"","register_count":6,"flags":42,"parameters":[{"register":1,"name":"t"},{"register":4,"name":"b"},{"register":3,"name":"c"},{"register":5,"name":"d"},{"register":2,"name":"s"}]}
+  L8c82 Push [[4,2],[3,"undefined"]]
+  L8c88 Equals2
+  L8c89 Not
+  L8c8a If "L8ca0"
+  L8c8f Push [[6,1.70158]]
+  L8c9b StoreRegister 2
+  L8c9f Pop
+  L8ca0 Push [[4,1],[4,5],[7,2]]
+  L8cac Divide
+  L8cad Divide
+  L8cae StoreRegister 1
+  L8cb2 Push [[7,1]]
+  L8cba Less2
+  L8cbb Not
+  L8cbc If "L8d05"
+  L8cc1 Push [[4,3],[7,2]]
+  L8ccb Divide
+  L8ccc Push [[4,1],[4,1]]
+  L8cd3 Multiply
+  L8cd4 Push [[4,2],[6,1.525]]
+  L8ce2 Multiply
+  L8ce3 StoreRegister 2
+  L8ce7 Push [[7,1]]
+  L8cef Add2
+  L8cf0 Push [[4,1]]
+  L8cf5 Multiply
+  L8cf6 Push [[4,2]]
+  L8cfb Subtract
+  L8cfc Multiply
+  L8cfd Multiply
+  L8cfe Push [[4,4]]
+  L8d03 Add2
+  L8d04 Return
+  L8d05 Push [[4,3],[7,2]]
+  L8d0f Divide
+  L8d10 Push [[4,1],[7,2]]
+  L8d1a Subtract
+  L8d1b StoreRegister 1
+  L8d1f Push [[4,1]]
+  L8d24 Multiply
+  L8d25 Push [[4,2],[6,1.525]]
+  L8d33 Multiply
+  L8d34 StoreRegister 2
+  L8d38 Push [[7,1]]
+  L8d40 Add2
+  L8d41 Push [[4,1]]
+  L8d46 Multiply
+  L8d47 Push [[4,2]]
+  L8d4c Add2
+  L8d4d Multiply
+  L8d4e Push [[7,2]]
+  L8d56 Add2
+  L8d57 Multiply
+  L8d58 Push [[4,4]]
+  L8d5d Add2
+  L8d5e Return
+L8d5f SetMember
+L8d60 Push [[7,1],[2,null],[8,1]]	// ["mx"]
+L8d6b GetVariable
+L8d6c Push [[8,3]]	// ["transitions"]
+L8d71 GetMember
+L8d72 Push [[8,4]]	// ["easing"]
+L8d77 GetMember
+L8d78 Push [[8,5]]	// ["Back"]
+L8d7d GetMember
+L8d7e Push [[8,6]]	// ["prototype"]
+L8d83 GetMember
+L8d84 Push [[7,3],[8,10]]	// ["ASSetPropFlags"]
+L8d8e CallFunction
+L8d8f Pop
+L8d90 End

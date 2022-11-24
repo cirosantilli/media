@@ -1,0 +1,41 @@
+// __Packages.cvZ in worlddispatch.swf, tag at 0x75e4
+L75ec ConstantPool ["_global","cvZ","gCM","prototype","t","","ASSetPropFlags"]
+L761d Push [[8,0]]	// ["_global"]
+L7622 GetVariable
+L7623 Push [[8,1]]	// ["cvZ"]
+L7628 GetMember
+L7629 Not
+L762a Not
+L762b If "L76a9"
+L7630 Push [[8,0]]	// ["_global"]
+L7635 GetVariable
+L7636 Push [[8,1]]	// ["cvZ"]
+L763b DefineFunction2 {"function_name":"","register_count":2,"flags":26,"parameters":[]}
+  L7646 Push [[6,0.0],[4,1],[3,"undefined"]]
+  L7655 CallMethod
+  L7656 Pop
+L7657 StoreRegister 0
+L765b SetMember
+L765c Push [[8,0]]	// ["_global"]
+L7661 GetVariable
+L7662 Push [[8,1]]	// ["cvZ"]
+L7667 GetMember
+L7668 Push [[8,2]]	// ["gCM"]
+L766d GetVariable
+L766e Extends
+L766f Push [[4,0],[8,3]]	// ["prototype"]
+L7676 GetMember
+L7677 StoreRegister 1
+L767b Pop
+L767c Push [[4,1],[8,4],[8,5]]	// ["t", ""]
+L7685 SetMember
+L7686 Push [[7,1],[2,null],[8,0]]	// ["_global"]
+L7691 GetVariable
+L7692 Push [[8,1]]	// ["cvZ"]
+L7697 GetMember
+L7698 Push [[8,3]]	// ["prototype"]
+L769d GetMember
+L769e Push [[7,3],[8,6]]	// ["ASSetPropFlags"]
+L76a8 CallFunction
+L76a9 Pop
+L76aa End
