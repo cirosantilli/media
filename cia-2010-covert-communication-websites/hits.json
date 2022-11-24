@@ -135,11 +135,6 @@
   "comms": "https://web.archive.org/web/20110203000411oe_/http://mynepalnews.com/nepali.jar"
 },
 {
-  "host": "mywebofnews.com",
-  "archive": "https://web.archive.org/web/20110210130458/http://mywebofnews.com/",
-  "comms": "https://web.archive.org/web/20110210130707/http://mywebofnews.com/tools.jar"
-},
-{
   "host": "networkconnectionsite.com",
   "archive": "https://web.archive.org/web/20110208004005/http://networkconnectionsite.com/",
   "comms": "https://web.archive.org/web/20110208004203/http://networkconnectionsite.com/netnews.js"
@@ -220,11 +215,6 @@
   "comms": "体育新闻发现者 (sports news finder)"
 },
 {
-  "host": "technologypresstoday.com/",
-  "archive": "https://web.archive.org/web/20110201212849/http://technologypresstoday.com/",
-  "comms": "https://web.archive.org/web/20110201212907/http://www.technologypresstoday.com/online.jar"
-},
-{
   "host": "techwatchtoday.com",
   "archive": "https://web.archive.org/web/20110127113203/http://techwatchtoday.com/",
   "comms": "https://web.archive.org/web/20110201220252/http://techwatchtoday.com/Meter.jar"
@@ -233,11 +223,6 @@
   "host": "terrain-news.com",
   "archive": "https://web.archive.org/web/20110202060336/http://terrain-news.com/",
   "comms": "https://web.archive.org/web/20110202060511/http://terrain-news.com/internetspeed.jar"
-},
-{
-  "host": "theworldnewsfeeds.com",
-  "archive": "https://web.archive.org/web/20110209183352/http://theworldnewsfeeds.com/",
-  "comms": "https://web.archive.org/web/20110209183426/http://theworldnewsfeeds.com/feeds.jar"
 },
 {
   "host": "todayoutdoors.com",
@@ -263,11 +248,6 @@
   "host": "wiredworldnews.com",
   "archive": "https://web.archive.org/web/20110208191615/http://wiredworldnews.com/",
   "comms": "https://web.archive.org/web/20110208191739/http://wiredworldnews.com/development.jar"
-},
-{
-  "host": "worldofonlinenews.com",
-  "archive": "https://web.archive.org/web/20110210051430/http://worldofonlinenews.com/",
-  "comms": "https://web.archive.org/web/20110210051552/http://worldofonlinenews.com/world.jar"
 },
 {
   "ip": "62.22.60.42",
@@ -1534,6 +1514,12 @@
   "comms": "https://web.archive.org/web/20110207201929js_/http://totallynewsnow.com/tnewnow.js"
 },
 {
+  "ip": "199.19.110.7",
+  "host": "theworldnewsfeeds.com",
+  "archive": "https://web.archive.org/web/20110209183352/http://theworldnewsfeeds.com/",
+  "comms": "https://web.archive.org/web/20110209183426/http://theworldnewsfeeds.com/feeds.jar"
+},
+{
   "ip": "199.85.212.105",
   "host": "mide-news.com",
   "archive": "https://web.archive.org/web/20100517071454/http://mide-news.com/",
@@ -1724,6 +1710,24 @@
   "host": "commercialspacedesign.com",
   "archive": "https://web.archive.org/web/20130601124159/http://commercialspacedesign.com/",
   "comms": "https://web.archive.org/web/20130601124159/https://secure.commercialspacedesign.com/cgi-bin/login.cgi"
+},
+{
+  "ip": "207.150.191.68",
+  "host": "mywebofnews.com",
+  "archive": "https://web.archive.org/web/20110210130458/http://mywebofnews.com/",
+  "comms": "https://web.archive.org/web/20110210130707/http://mywebofnews.com/tools.jar"
+},
+{
+  "ip": "207.150.191.68",
+  "host": "technologypresstoday.com/",
+  "archive": "https://web.archive.org/web/20110201212849/http://technologypresstoday.com/",
+  "comms": "https://web.archive.org/web/20110201212907/http://www.technologypresstoday.com/online.jar"
+},
+{
+  "ip": "207.150.191.68",
+  "host": "worldofonlinenews.com",
+  "archive": "https://web.archive.org/web/20110210051430/http://worldofonlinenews.com/",
+  "comms": "https://web.archive.org/web/20110210051552/http://worldofonlinenews.com/world.jar"
 },
 {
   "ip": "207.210.250.131",
