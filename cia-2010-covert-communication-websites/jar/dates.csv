@@ -208,6 +208,13 @@ pars-technews.com/20110204140146/cellphones.jar,jar,certificate_notAfter,META-IN
 pars-technews.com/20110204140146/cellphones.jar,jar,wayback_capture,,,20110204140146,2011-02-04T14:01:46,UTC,2011-02-04T14:01:46Z
 rastadirect.net/20110106225504/africa.jar,jar,zip_entry_timestamp,,,2008-12-29T14:41:46,2008-12-29T14:41:46,unspecified,
 rastadirect.net/20110106225504/africa.jar,jar,wayback_capture,,,20110106225504,2011-01-06T22:55:04,UTC,2011-01-06T22:55:04Z
+globalsentinelsite.com/20110201094846/steps.jar,jar,config_date_comment,resource/resources.bin,Config.properties.old.1230649528381,Tue Dec 30 10:04:37 EST 2008,2008-12-30T10:04:37,EST,
+globalsentinelsite.com/20110201094846/steps.jar,jar,zip_entry_timestamp,,,2008-12-30T10:07:12,2008-12-30T10:07:12,unspecified,
+globalsentinelsite.com/20110201094846/steps.jar,jar,zip_entry_timestamp,,,2008-12-30T10:07:54,2008-12-30T10:07:54,unspecified,
+globalsentinelsite.com/20110201094846/steps.jar,jar,backup_filename_epoch_ms,resource/resources.bin,Config.properties.old.1230649528381,1230649528381,2008-12-30T15:05:28.381,UTC,2008-12-30T15:05:28.381Z
+globalsentinelsite.com/20110201094846/steps.jar,jar,certificate_notBefore,META-INF/WORLD.DSA,d0dce961fb0ca9cd04eee486f0ae7c9749fc82eb2351d6102b9ef8da822bd6fb,Dec 30 15:07:54 2008 GMT,2008-12-30T15:07:54,UTC,2008-12-30T15:07:54Z
+globalsentinelsite.com/20110201094846/steps.jar,jar,certificate_notAfter,META-INF/WORLD.DSA,d0dce961fb0ca9cd04eee486f0ae7c9749fc82eb2351d6102b9ef8da822bd6fb,Mar 30 15:07:54 2009 GMT,2009-03-30T15:07:54,UTC,2009-03-30T15:07:54Z
+globalsentinelsite.com/20110201094846/steps.jar,jar,wayback_capture,,,20110201094846,2011-02-01T09:48:46,UTC,2011-02-01T09:48:46Z
 e-commodities.net/20110106021407/Trading.jar,jar,zip_entry_timestamp,,,2009-01-02T13:19:20,2009-01-02T13:19:20,unspecified,
 e-commodities.net/20110106021407/Trading.jar,jar,zip_entry_timestamp,,,2009-01-02T13:19:22,2009-01-02T13:19:22,unspecified,
 e-commodities.net/20110106021407/Trading.jar,jar,wayback_capture,,,20110106021407,2011-01-06T02:14:07,UTC,2011-01-06T02:14:07Z
@@ -360,6 +367,11 @@ thenewsofpakistan.com/20110202221353/television.jar,jar,certificate_notBefore,ME
 thenewsofpakistan.com/20110202221353/television.jar,jar,certificate_notAfter,META-INF/BRIEFING.DSA,19b0200af77074eaf9beaf69470379238fdd3b46352c83e18b95ead9b5cfc955,Dec 16 21:54:44 2009 GMT,2009-12-16T21:54:44,UTC,2009-12-16T21:54:44Z
 thenewsofpakistan.com/20110202221353/television.jar,jar,wayback_capture,,,20110202221353,2011-02-02T22:13:53,UTC,2011-02-02T22:13:53Z
 thenewsofpakistan.com/20131206194122/television.jar,non-archive,wayback_capture,,,20131206194122,2013-12-06T19:41:22,UTC,2013-12-06T19:41:22Z
+soccerguidesite.com/20110207103045/tools.jar,jar,zip_entry_timestamp,,,2009-09-18T11:22:54,2009-09-18T11:22:54,unspecified,
+soccerguidesite.com/20110207103045/tools.jar,jar,zip_entry_timestamp,,,2009-09-18T11:23:02,2009-09-18T11:23:02,unspecified,
+soccerguidesite.com/20110207103045/tools.jar,jar,certificate_notBefore,META-INF/SGINFO.DSA,4c13446ff5a5534d50997fd87da74dc9bfc9ade45c5f2617c50229ac9dadf499,Sep 18 15:23:03 2009 GMT,2009-09-18T15:23:03,UTC,2009-09-18T15:23:03Z
+soccerguidesite.com/20110207103045/tools.jar,jar,certificate_notAfter,META-INF/SGINFO.DSA,4c13446ff5a5534d50997fd87da74dc9bfc9ade45c5f2617c50229ac9dadf499,Dec 17 15:23:03 2009 GMT,2009-12-17T15:23:03,UTC,2009-12-17T15:23:03Z
+soccerguidesite.com/20110207103045/tools.jar,jar,wayback_capture,,,20110207103045,2011-02-07T10:30:45,UTC,2011-02-07T10:30:45Z
 casanewsnow.com/20110201184918/casanews.jar,jar,zip_entry_timestamp,,,2009-09-21T17:37:40,2009-09-21T17:37:40,unspecified,
 casanewsnow.com/20110201184918/casanews.jar,jar,wayback_capture,,,20110201184918,2011-02-01T18:49:18,UTC,2011-02-01T18:49:18Z
 localtoglobalnews.com/20100514160102/news.jar,jar,zip_entry_timestamp,,,2009-09-22T10:07:56,2009-09-22T10:07:56,unspecified,

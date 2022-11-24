@@ -1,5 +1,13 @@
 hits.txt
 /jar/*
+/js/*
 /swf/*
 !/jar/dates.csv
 !/swf/dates.csv
+
+# Python caches.
+__pycache__/
+*.py[cod]
+
+# Previews from earlier runs.
+/tmp/weather/

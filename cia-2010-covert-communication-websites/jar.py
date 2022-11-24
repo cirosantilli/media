@@ -3,7 +3,7 @@
 
 Uses only Python's standard library; OpenSSL is optional for certificates.
 Input defaults to ../../cia-2010-websites-dump/ relative to the working
-directory. Reports are written to jar/ inside the current working directory.
+directory. Reports, including endpoints.csv, are written to jar/.
 This file is self-contained; --self-test runs its embedded regression checks.
 """
 
@@ -378,15 +378,125 @@ def certificate_info(data):
     return result
 
 
+# Only settings used for client/server requests. Other resource URLs and
+# historical config backups remain available in internal-paths.csv.
+ENDPOINT_KEYS = {"ServerURL", "Connection.Servlet.Path", "Servlet.Url", "Servlet.Path"}
+ENDPOINT_FIELDS = ("client_family", "response_format", "file", "site", "raw_value",
+                   "url", "form", "scheme", "hostname", "port", "path", "path_style",
+                   "host_relation", "source", "setting")
+
+
+def archive_location(path):
+    """A capture directory's parent names the site in the dump layout."""
+    capture = next((parent for parent in path.parents if re.fullmatch(r"\d{14}", parent.name)), None)
+    root = capture.parent if capture else path.parent
+    host = root.name if re.fullmatch(r"[\w.-]+\.[\w-]+(?::\d+)?", root.name) else ""
+    return root, capture, host.partition(":")[0].rstrip(".").lower()
+
+
+def parse_endpoint(value, site):
+    url = value.strip().replace(r"\:", ":").replace(r"\/", "/")
+    if not url or any(c.isspace() or ord(c) < 32 for c in url):
+        return None
+    try:
+        parsed = urlsplit(url)
+        host = (parsed.hostname or "").rstrip(".")
+        port = parsed.port
+    except ValueError:
+        return None
+    if parsed.scheme and (parsed.scheme not in ("http", "https") or not host):
+        return None
+    path = parsed.path or ("/" if host else "")
+    if parsed.username is not None or parsed.password is not None or not path:
+        return None
+    if parsed.scheme:
+        form = "absolute"
+    elif host:
+        form = "scheme-relative"
+    else:
+        form = "root-relative" if path.startswith("/") else "path-relative"
+
+    if not host:
+        relation = "implicit-host"
+    elif not site:
+        relation = "unknown-site"
+    elif host == site:
+        relation = "same-host"
+    elif host.removeprefix("www.") == site.removeprefix("www."):
+        relation = "www-alias"
+    elif host.endswith("." + site.removeprefix("www.")):
+        relation = "other-subdomain"
+    else:
+        relation = "different-host"
+
+    segments = path.lower().split("/")
+    if "cgi-bin" in segments:
+        style = "cgi-bin"
+    elif segments[-1].endswith(".cgi"):
+        style = "other-cgi"
+    elif "servlet" in segments:
+        style = "servlet"
+    else:
+        style = "other-path"
+    return dict(site=site, raw_value=value, url=url, form=form, scheme=parsed.scheme,
+                hostname=host, port=port, path=path, path_style=style, host_relation=relation)
+
+
+def configured_endpoints(resource, site):
+    entry = resource["entry"]
+    keys = ENDPOINT_KEYS | {"URL"} if Path(entry).name == "bw.properties" else ENDPOINT_KEYS
+
+    def properties(text, source):
+        for key, value in re.findall(r"^[ \t]*([\w.]+)[ \t]*[=:][ \t]*([^\r\n]+)",
+                                     text, re.M):
+            if key in keys and (endpoint := parse_endpoint(value, site)):
+                yield dict(endpoint, source=source, setting=key)
+
+    yield from properties(resource.get("text", ""), entry)
+    for member in resource.get("members", []):
+        name, text = member["name"], member.get("text", "")
+        if name in keys and (endpoint := parse_endpoint(text, site)):
+            yield dict(endpoint, source=entry, setting=name)
+        elif resource["encoding"] == "nested-zip" and name.endswith(".properties"):
+            yield from properties(text, entry + "::" + name)
+
+
+def write_endpoints(inventory, path):
+    """Export one row per recorded endpoint, plus deduplicated style counts."""
+    modes = collections.defaultdict(collections.Counter)
+    seen = set()
+    with Path(path).open("w", newline="", encoding="utf-8") as out:
+        writer = csv.DictWriter(out, fieldnames=ENDPOINT_FIELDS)
+        writer.writeheader()
+        for row in inventory:
+            family = row.get("client_family", "unclassified")
+            response = row.get("response_format", "")
+            file = row.get("jar", row.get("file", ""))
+            for endpoint in row.get("endpoints", []):
+                writer.writerow(dict(endpoint, client_family=family, response_format=response, file=file))
+                group = family + ("/" + response if response else "")
+                key = group, endpoint["site"] or file, endpoint["url"]
+                if key not in seen:
+                    seen.add(key)
+                    for field in ("form", "scheme", "path_style", "host_relation"):
+                        value = endpoint[field] or "unspecified"
+                        modes[group][field + "=" + value] += 1
+    return {key: dict(sorted(counts.items())) for key, counts in sorted(modes.items())}
+
+
 def inspect(path, emit):
     raw = path.read_bytes()
-    summary = dict(jar=str(path), sha256=sha256(raw), size=len(raw), errors=[])
+    summary = dict(jar=str(path), sha256=sha256(raw), size=len(raw), errors=[], endpoints=[])
+    _, _, site = archive_location(path)
     if not zipfile.is_zipfile(path):
         summary.update(valid_zip=False, preview=raw[:200].decode("utf-8", "replace"))
         return summary
     summary.update(valid_zip=True, classes=0, decoded_strings=0, resources=[], certificates=[],
                    sources=[], manifests=[], timestamps=[], versions={})
     resource_keys = collections.defaultdict(list)
+    class_names = set()
+    class_parents = collections.Counter()
+    legacy_meter_envelope = False
     pending_resources = []
     with zipfile.ZipFile(path) as z:
         infos = z.infolist()
@@ -405,6 +515,8 @@ def inspect(path, emit):
                           compressed_size=info.compress_size, compression=info.compress_type))
                 if data.startswith(b"\xca\xfe\xba\xbe"):
                     cf = ClassFile(data)
+                    class_names.add(cf.name)
+                    class_parents[cf.parent] += 1
                     summary["classes"] += 1
                     version = f"{cf.major}.{cf.minor}"
                     summary["versions"][version] = summary["versions"].get(version, 0) + 1
@@ -413,6 +525,8 @@ def inspect(path, emit):
                     decoded = xor_strings(cf)
                     strings = [s["value"] for s in decoded]
                     strings += [cf.string(i) for i, x in enumerate(cf.cp) if x and x[0] == 8]
+                    if "<THRUPUT>" in strings and "<REQUEST=" in strings:
+                        legacy_meter_envelope = True
                     for resource in strings:
                         if resource.endswith((".properties", "resources.bin")):
                             for key in strings:
@@ -491,6 +605,41 @@ def inspect(path, emit):
                               member=name, **({"value": record["text"]} if "text" in record
                                               else {"base64": record["base64"]})))
                 break
+        # Structural families, not operator attribution or proof of a complete
+        # communications interface. Preserve variants instead of grouping every
+        # Content.Type=SlideShow implementation together.
+        for resource in summary["resources"]:
+            basename = resource["entry"].rsplit("/", 1)[-1]
+            endpoints = list(configured_endpoints(resource, site))
+            summary["endpoints"].extend(endpoints)
+            config = {m["name"]: m.get("text") for m in resource.get("members", [])}
+            family = {"resources.bin": "jar-resources-messaging",
+                      "Client.properties": "jar-content-transport",
+                      "applet.configs": "jar-js-content-transport",
+                      "bw.properties": "jar-bandwidth-meter"}.get(basename)
+            if (basename == "Applet.properties"
+                    and all(config.get(k) for k in ("KeyListener.KeySequence",
+                            "Authentication.SharedSecret", "Connection.Servlet.Path"))):
+                family = {"SlideShow": "jar-slideshow", "Scrolling": "jar-scrolling"}.get(
+                    config.get("Content.Type"), "jar-authenticated-content-unknown")
+            if family:
+                summary["client_family"] = family
+                summary["client_family_evidence"] = {
+                    "resource": resource["entry"], "content_type": config.get("Content.Type"),
+                    "activation": "KeyListener.KeySequence" if config.get("KeyListener.KeySequence") else None,
+                    "endpoint": endpoints[0]["url"] if endpoints else None,
+                }
+        if "client_family" not in summary:
+            if ({"DisplayGauge", "DisplayLabel", "DisplayMeter"} <= class_names
+                    or (summary["classes"] == 7 and legacy_meter_envelope
+                        and class_parents["java/awt/Canvas"] == 3
+                        and class_parents["java/applet/Applet"] == 1
+                        and class_parents["java/lang/Thread"] == 1)):
+                summary["client_family"] = "jar-legacy-bandwidth-meter"
+            elif {"Cities", "Customize", "ImageCanvas", "Server"} <= class_names:
+                summary["client_family"] = "jar-weather-client"
+            else:
+                summary["client_family"] = "unclassified"
     return summary
 
 
@@ -781,12 +930,16 @@ def main():
     write_dates(summaries, output / "dates.csv", directory)
     write_certificates(summaries, output / "certificates.csv")
     write_paths(output / "strings.jsonl", output / "internal-paths.csv")
+    endpoint_styles = write_endpoints(summaries, output / "endpoints.csv")
     resources = [r for j in summaries for r in j.get("resources", [])]
     result = dict(files=len(summaries), valid_zip=sum(x.get("valid_zip", False) for x in summaries),
                   classes=sum(x.get("classes", 0) for x in summaries),
                   decoded_strings=sum(x.get("decoded_strings", 0) for x in summaries),
                   resources=len(resources), unresolved_resources=sum(r["encoding"] == "unresolved" for r in resources),
                   families=dict(collections.Counter(r["entry"].rsplit("/", 1)[-1] for r in resources)),
+                  client_families=dict(collections.Counter(
+                      x.get("client_family", "unclassified") for x in summaries if x.get("valid_zip"))),
+                  endpoint_styles=endpoint_styles,
                   errors=sum(len(x["errors"]) for x in summaries))
     (output / "summary.json").write_text(json.dumps(result, indent=2) + "\n")
     print(json.dumps(result, indent=2))
@@ -911,6 +1064,31 @@ class DateTests(unittest.TestCase):
 
 
 class PathTests(unittest.TestCase):
+    def test_archive_endpoint_configuration(self):
+        cases = [
+            ("europeannewsflash.com/20110201192135/users.jar",
+             "http://www.europeannewsflash.com/cgi-bin/home.cgi", "absolute", "cgi-bin", "www-alias"),
+            ("mynepalnews.com/20110204143500/nepali.jar",
+             "/servlet/release", "root-relative", "servlet", "implicit-host"),
+            ("inews-today.com/20110201140115/headlines.jar",
+             "/servlet/headlines", "root-relative", "servlet", "implicit-host"),
+        ]
+        for file, expected, form, style, relation in cases:
+            with self.subTest(file=file):
+                endpoint, = inspect(ROOT / file, lambda row: None)["endpoints"]
+                self.assertEqual((endpoint["url"], endpoint["form"], endpoint["path_style"],
+                                  endpoint["host_relation"]), (expected, form, style, relation))
+
+    def test_endpoint_subdomain_and_unescaped_properties(self):
+        resource = dict(entry="applet.configs", encoding="plaintext",
+                        text="Servlet.Url=http\\://api.example.org:8080/app/servlet/News\n"
+                             "ResponseKey.ImgUrl=http://images.example.org/logo.png")
+        endpoint, = configured_endpoints(resource, "www.example.org")
+        self.assertEqual(endpoint["hostname"], "api.example.org")
+        self.assertEqual(endpoint["host_relation"], "other-subdomain")
+        self.assertEqual(endpoint["port"], 8080)
+        self.assertEqual(endpoint["path"], "/app/servlet/News")
+
     def test_escaped_url_is_not_a_drive_or_relative_path(self):
         self.assertEqual(list(references(r"http\://www.example.net/cgi-bin/send.cgi")),
                          [("url", "http://www.example.net/cgi-bin/send.cgi")])
