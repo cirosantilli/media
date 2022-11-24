@@ -160,46 +160,6 @@
   "comms": "https://web.archive.org/web/20110228051404/https://secure.todaysengineering.com/cgi-bin/engineer.cgi"
 },
 {
-  "host": "dailynewsandsports.com",
-  "archive": "https://web.archive.org/web/20130526130749/http://dailynewsandsports.com/",
-  "comms": "https://web.archive.org/web/20130823154922/http://dailynewsandsports.com/testmeter.jar"
-},
-{
-  "host": "iranfootballsource.com",
-  "archive": "https://web.archive.org/web/20110202091611/http://iranfootballsource.com/",
-  "comms": "https://web.archive.org/web/20110202091901/http://iranfootballsource.com/futbol.js"
-},
-{
-  "host": "iraniangoalkicks.com",
-  "archive": "https://web.archive.org/web/20080211111124/http://iraniangoalkicks.com/",
-  "comms": "https://web.archive.org/web/20110202091917/http://iraniangoalkicks.com/clamping.jar"
-},
-{
-  "host": "iraniangoals.com",
-  "archive": "https://web.archive.org/web/20090411072857/http://iraniangoals.com/",
-  "comms": "https://web.archive.org/web/20110202091909/http://iraniangoals.com/journal.js"
-},
-{
-  "host": "just-kidding-news.com",
-  "archive": "https://web.archive.org/web/20110207134507/http://just-kidding-news.com/",
-  "comms": "https://web.archive.org/web/20120126091116*/http://just-kidding-news.com/jokes.jar"
-},
-{
-  "host": "mynewscheck.com",
-  "archive": "https://web.archive.org/web/20110208211139/http://mynewscheck.com/",
-  "comms": "https://web.archive.org/web/20110208211158/http://mynewscheck.com/world.jar"
-},
-{
-  "host": "rastadirect.net",
-  "archive": "https://web.archive.org/web/20100429002010/http://rastadirect.net/",
-  "comms": "https://web.archive.org/web/20110106225504/http://rastadirect.net/africa.jar"
-},
-{
-  "host": "todaysengineering.com",
-  "archive": "https://web.archive.org/web/20110228051404/http://todaysengineering.com/",
-  "comms": "https://web.archive.org/web/20110228051404/https://secure.todaysengineering.com/cgi-bin/engineer.cgi"
-},
-{
   "ip": "62.22.60.42",
   "host": "newsupdatesite.com",
   "archive": "https://web.archive.org/web/20110208071716/http://newsupdatesite.com/",
