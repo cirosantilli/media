@@ -250,6 +250,11 @@
   "comms": "https://web.archive.org/web/20110208191739/http://wiredworldnews.com/development.jar"
 },
 {
+  "ip": "62.22.60.40",
+  "host": "travel-passage.com",
+  "archive": "http://cqcounter.com/whois/www/travel-passage.com.html"
+},
+{
   "ip": "62.22.60.42",
   "host": "newsupdatesite.com",
   "archive": "https://web.archive.org/web/20110208071716/http://newsupdatesite.com/",
@@ -317,6 +322,11 @@
     "retry": 7200,
     "expire": 86400
   }
+},
+{
+  "ip": "62.22.60.54",
+  "host": "romulusactualites.com",
+  "archive": "http://cqcounter.com/whois/www/romulusactualites.com.html"
 },
 {
   "ip": "62.22.60.55",
@@ -438,6 +448,11 @@
   "comms": "https://web.archive.org/web/20110208085820/http://sandstormnews.com/sandstormnews.swf"
 },
 {
+  "ip": "62.22.61.215",
+  "host": "the-tech-mind.com",
+  "archive": "http://cqcounter.com/whois/www/the-tech-mind.com.html"
+},
+{
   "ip": "62.22.61.217",
   "host": "court-masters.com",
   "archive": "https://web.archive.org/web/20110128080659/http://court-masters.com/",
@@ -483,6 +498,12 @@
   "ip": "63.130.160.60",
   "host": "boxingstop.net",
   "archive": "https://web.archive.org/web/20101229154411/http://boxingstop.net/",
+  "comms": "https://web.archive.org/web/20101229154458/http://boxingstop.net/championship.jar"
+},
+{
+  "ip": "63.130.160.61",
+  "host": "bookmarksthis.com",
+  "archive": "http://cqcounter.com/whois/www/bookmarksthis.com.html",
   "comms": "https://web.archive.org/web/20101229154458/http://boxingstop.net/championship.jar"
 },
 {
@@ -546,6 +567,16 @@
   "comms": "https://web.archive.org/web/20110106042808js_/http://fixashion.net/cotton.js"
 },
 {
+  "ip": "64.16.204.53",
+  "host": "bosniakbusinessnews.com",
+  "archive": "http://cqcounter.com/whois/www/bosniakbusinessnews.com.html"
+},
+{
+  "ip": "64.16.204.54",
+  "host": "affairesdumonde.com",
+  "archive": "http://cqcounter.com/whois/www/affairesdumonde.com.html"
+},
+{
   "ip": "64.16.204.55",
   "host": "holein1news.com",
   "archive": "https://web.archive.org/web/20101007201100/http://holein1news.com/",
@@ -557,6 +588,11 @@
   "host": "tech-topix.com",
   "archive": "https://web.archive.org/web/20130620211952/http://tech-topix.com/",
   "comms": "https://web.archive.org/web/20130620211952/https://ssl.tech-topix.com/cgi-bin/tech.cgi"
+},
+{
+  "ip": "65.61.127.161",
+  "host": "european-footballer.com",
+  "archive": "http://cqcounter.com/whois/www/european-footballer.com.html"
 },
 {
   "ip": "65.61.127.163",
@@ -571,10 +607,36 @@
   "comms": "https://web.archive.org/web/20110129013701/https://secure.globalnewsbulletin.com/cgi-bin/index.cgi"
 },
 {
+  "ip": "65.61.127.167",
+  "host": "internationalwhiskylounge.com",
+  "archive": "http://cqcounter.com/whois/www/internationalwhiskylounge.com.html",
+  "comms": "CGI"
+},
+{
+  "ip": "65.61.127.168",
+  "host": "the-golden-rule.info",
+  "archive": "http://cqcounter.com/whois/www/the-golden-rule.info.html"
+},
+{
   "ip": "65.61.127.169",
   "host": "crossovernews.net",
   "archive": "https://web.archive.org/web/20111014003640/http://www.crossovernews.net/",
   "comms": "https://web.archive.org/web/20111014003646/http://www.crossovernews.net/basketball.jar"
+},
+{
+  "ip": "65.61.127.170",
+  "host": "newsidori.com",
+  "archive": "http://cqcounter.com/whois/www/newsidori.com.html"
+},
+{
+  "ip": "65.61.127.171",
+  "host": "nrgconsultingandnews.com",
+  "archive": "http://cqcounter.com/whois/www/nrgconsultingandnews.com.html"
+},
+{
+  "ip": "65.61.127.171",
+  "host": "premierstriker.com",
+  "archive": "http://cqcounter.com/whois/www/premierstriker.com.html"
 },
 {
   "ip": "65.61.127.174",
@@ -590,10 +652,30 @@
   "comms": "https://web.archive.org/web/20130501234310/https://secure.altworldnews.com/cgi-bin/desk.cgi"
 },
 {
+  "ip": "65.61.127.176",
+  "host": "american-historyonline.com",
+  "archive": "http://cqcounter.com/whois/www/american-historyonline.com.html"
+},
+{
+  "ip": "65.61.127.177",
+  "host": "material-science.org",
+  "archive": "https://web.archive.org/web/20091213032538/http://material-science.org/"
+},
+{
   "ip": "65.61.127.178",
   "host": "tee-shot.net",
   "archive": "https://web.archive.org/web/20110107045521/http://tee-shot.net/",
   "comms": "https://web.archive.org/web/20110107045740/http://tee-shot.net/tee-shot.swf"
+},
+{
+  "ip": "65.61.127.180",
+  "host": "screencentral.inf",
+  "archive": "http://cqcounter.com/whois/www/screencentral.info.html"
+},
+{
+  "ip": "65.61.127.181",
+  "host": "worldnewsandtravel.com",
+  "archive": "http://cqcounter.com/whois/www/worldnewsandtravel.com.html"
 },
 {
   "ip": "65.61.127.182",
@@ -620,6 +702,11 @@
   "host": "explorealtmeds.com",
   "archive": "https://web.archive.org/web/20130703034015/http://explorealtmeds.com/",
   "comms": "https://web.archive.org/web/20130703034015oe_/http://explorealtmeds.com/med.jar"
+},
+{
+  "ip": "65.218.91.9",
+  "host": "rolling-in-rapids.com",
+  "archive": "http://cqcounter.com/whois/www/rolling-in-rapids.com.html"
 },
 {
   "ip": "65.218.91.9",
@@ -666,6 +753,11 @@
   "hupo.com": "http://static.hupo.com/expdomain_myadmin/2012-05-29（国际域名）.txt"
 },
 {
+  "ip": "66.45.179.200",
+  "host": "foodwineandsuch.com",
+  "archive": "http://cqcounter.com/whois/www/foodwineandsuch.com.html"
+},
+{
   "ip": "66.45.179.201",
   "host": "hitthepavementnow.com",
   "archive": "https://web.archive.org/web/20110208151258/http://hitthepavementnow.com/",
@@ -710,6 +802,11 @@
   "comms": "https://web.archive.org/web/20110207193352/https://secure.havenofgamerz.com/cgi-bin/top.cgi",
   "hupo.com": "http://static.hupo.com/expdomain_myadmin/2014-01-13（国际域名）.txt",
   "justdropped.com": "https://justdropped.com/drops/011314com.html"
+},
+{
+  "ip": "66.45.179.209",
+  "host": "vejaaeuropa.com",
+  "archive": "http://cqcounter.com/whois/www/vejaaeuropa.com.html"
 },
 {
   "ip": "66.45.179.210",
@@ -761,6 +858,11 @@
   "host": "plugged-into-news.net",
   "archive": "https://web.archive.org/web/20101229222144/http://plugged-into-news.net/",
   "comms": "https://web.archive.org/web/20131101104829*/http://plugged-into-news.net/weatherbug.zip"
+},
+{
+  "ip": "66.104.169.169",
+  "host": "worldsportsite.com",
+  "archive": "https://web.archive.org/web/20110210071421/http://worldsportsite.com/"
 },
 {
   "ip": "66.104.169.171",
@@ -858,6 +960,11 @@
   "comms": "https://web.archive.org/web/20110202205132/http://smart-financeology.com/clrbar.jar"
 },
 {
+  "ip": "66.104.173.173",
+  "host": "worldfeedstoday.com",
+  "archive": "http://cqcounter.com/whois/www/worldfeedstoday.com.html"
+},
+{
   "ip": "66.104.173.175",
   "host": "media-coverage-now.com",
   "archive": "https://web.archive.org/web/20100516132048/http://media-coverage-now.com/",
@@ -881,6 +988,11 @@
   "host": "dk-dcinvestment.com",
   "archive": "https://web.archive.org/web/20100415220544/http://dk-dcinvestment.com/",
   "comms": "https://web.archive.org/web/20110207113033/http://dk-dcinvestment.com/gears.jar"
+},
+{
+  "ip": "66.104.173.179",
+  "host": "newsforthetech.com",
+  "archive": "http://cqcounter.com/whois/www/newsforthetech.com.html"
 },
 {
   "ip": "66.104.173.180",
@@ -1184,6 +1296,11 @@
   "comms": "https://web.archive.org/web/20110203003835/http://al-ashak-news-me.com/ashak.js"
 },
 {
+  "ip": "69.84.156.70",
+  "host": "theventurenews.info",
+  "archive": "http://cqcounter.com/whois/www/theventurenews.info.html"
+},
+{
   "ip": "69.84.156.71",
   "host": "worldfinancetoday.net",
   "archive": "https://web.archive.org/web/20110107091638/http://worldfinancetoday.net/",
@@ -1208,6 +1325,11 @@
   "comms": "https://web.archive.org/web/20110211230248/http://tnc-urdu.com/bmeterplus.jar"
 },
 {
+  "ip": "69.84.156.80",
+  "host": "noticiasdenuestromundo.com",
+  "archive": "http://cqcounter.com/whois/www/noticiasdenuestromundo.com.html"
+},
+{
   "ip": "69.84.156.82",
   "host": "arabicnewsonline.com",
   "archive": "https://web.archive.org/web/20110210072414/http://arabicnewsonline.com/",
@@ -1218,6 +1340,21 @@
   "host": "unganadormundial.com",
   "archive": "https://web.archive.org/web/20101216065827/http://www.unganadormundial.com/",
   "comms": "https://web.archive.org/web/20101216065827/https://ssl.unganadormundial.com/cgi-bin/login.cgi"
+},
+{
+  "ip": "69.84.156.84",
+  "host": "focusonbokeh.com",
+  "archive": "http://cqcounter.com/whois/www/focusonbokeh.com.html"
+},
+{
+  "ip": "69.84.156.85",
+  "host": "classic-rocktopia.com",
+  "archive": "http://cqcounter.com/whois/www/classic-rocktopia.com.html"
+},
+{
+  "ip": "69.84.156.87",
+  "host": "i7diver.com",
+  "archive": "http://cqcounter.com/whois/www/i7diver.com.html"
 },
 {
   "ip": "69.84.156.88",
@@ -1358,6 +1495,11 @@
   "comms": "https://web.archive.org/web/20110201215739/http://techtopnews.com/spam.jar"
 },
 {
+  "ip": "74.116.72.238",
+  "host": "pohandakhbar.com",
+  "archive": "http://cqcounter.com/whois/www/pohandakhbar.com.html"
+},
+{
   "ip": "74.116.72.239",
   "host": "crickettoday.info",
   "archive": "https://web.archive.org/web/20130530183606/http://crickettoday.info/",
@@ -1370,10 +1512,25 @@
   "comms": "https://web.archive.org/web/20110209030931/http://zafernews.com/banner.jar"
 },
 {
+  "ip": "74.116.72.241",
+  "host": "itechnewstoday.com",
+  "archive": "http://cqcounter.com/whois/www/itechnewstoday.com.html"
+},
+{
   "ip": "74.116.72.242",
   "host": "gdgtsource.com",
   "archive": "https://web.archive.org/web/20110128095039/http://gdgtsource.com/",
   "comms": "https://web.archive.org/web/20110128095039/https://secure.gdgtsource.com/cgi-bin/hd.cgi"
+},
+{
+  "ip": "74.116.72.243",
+  "host": "waronfilmonline.com",
+  "archive": "http://cqcounter.com/whois/www/waronfilmonline.com.html"
+},
+{
+  "ip": "74.116.72.244",
+  "host": "arborstribune.org",
+  "archive": "http://cqcounter.com/whois/www/arborstribune.org.html"
 },
 {
   "ip": "74.116.72.246",
@@ -1386,6 +1543,11 @@
   "host": "ballbatstumpsandbails.com",
   "archive": "https://web.archive.org/web/20110202032813/http://ballbatstumpsandbails.com/",
   "comms": "https://web.archive.org/web/20130807082401*/http://ballbatstumpsandbails.com/bails.jar"
+},
+{
+  "ip": "74.116.72.248",
+  "host": "kioni-sailing.com",
+  "archive": "http://cqcounter.com/whois/www/kioni-sailing.com.html"
 },
 {
   "ip": "74.116.72.249",
@@ -1436,6 +1598,11 @@
   "comms": "https://web.archive.org/web/20110207203807/http://soldiersofsouthasia.com/war.jar"
 },
 {
+  "ip": "74.254.12.170 ",
+  "host": "greek-news.info",
+  "archive": "http://cqcounter.com/whois/www/greek-news.info.html"
+},
+{
   "ip": "74.254.12.171",
   "host": "autism-news.org",
   "archive": "https://web.archive.org/web/20110624175332/http://autism-news.org/",
@@ -1470,6 +1637,11 @@
   "host": "helpinghandssite.com",
   "archive": "https://web.archive.org/web/20110208042144/http://helpinghandssite.com/",
   "comms": "https://web.archive.org/web/20110208042200/http://helpinghandssite.com/globalization.jar"
+},
+{
+  "ip": "74.254.12.187",
+  "host": "efiinvestment.com",
+  "archive": "http://cqcounter.com/whois/www/efiinvestment.com.html"
 },
 {
   "ip": "74.254.12.188",
@@ -1515,9 +1687,27 @@
 },
 {
   "ip": "199.19.110.7",
+  "host": "classymotors.net",
+  "archive": "https://web.archive.org/web/20110106000954/http://classymotors.net/",
+  "comms": "https://web.archive.org/web/20110106001007js_/http://classymotors.net/driver.js"
+},
+{
+  "ip": "199.19.110.7",
+  "host": "russiansportsworld.com",
+  "archive": "https://web.archive.org/web/20100331193337/http://www.russiansportsworld.com/",
+  "comms": "https://web.archive.org/web/20110207171201js_/http://russiansportsworld.com/snowboard.js"
+},
+{
+  "ip": "199.19.110.7",
   "host": "theworldnewsfeeds.com",
   "archive": "https://web.archive.org/web/20110209183352/http://theworldnewsfeeds.com/",
   "comms": "https://web.archive.org/web/20110209183426/http://theworldnewsfeeds.com/feeds.jar"
+},
+{
+  "ip": "199.19.110.7",
+  "host": "urbestbod.com",
+  "archive": "http://cqcounter.com/whois/www/urbestbod.com.html",
+  "comms": "CGI"
 },
 {
   "ip": "199.85.212.105",
@@ -1713,9 +1903,21 @@
 },
 {
   "ip": "207.150.191.68",
+  "host": "kickofffootballnews.com",
+  "archive": "https://web.archive.org/web/20100512232600/http://kickofffootballnews.com/",
+  "comms": "https://web.archive.org/web/20100512232600/http://kickofffootballnews.com/login.html"
+},
+{
+  "ip": "207.150.191.68",
   "host": "mywebofnews.com",
   "archive": "https://web.archive.org/web/20110210130458/http://mywebofnews.com/",
   "comms": "https://web.archive.org/web/20110210130707/http://mywebofnews.com/tools.jar"
+},
+{
+  "ip": "207.150.191.68",
+  "host": "technologypresstoday.com",
+  "archive": "https://web.archive.org/web/20110201212849/http://technologypresstoday.com/",
+  "comms": "https://web.archive.org/web/20110201212907/http://www.technologypresstoday.com/online.jar"
 },
 {
   "ip": "207.150.191.68",
@@ -1779,6 +1981,11 @@
   "comms": "https://web.archive.org/web/20110202143230/http://thefairwaysaregreen.com/fairway.jar"
 },
 {
+  "ip": "207.210.250.142",
+  "host": "russiaupdate.com ",
+  "archive": "http://cqcounter.com/whois/www/russiaupdate.com.html"
+},
+{
   "ip": "207.210.250.143",
   "host": "archaeologyreview.net",
   "archive": "https://web.archive.org/web/20101229120831/http://archaeologyreview.net/",
@@ -1795,6 +2002,11 @@
   "host": "bailandstump.com",
   "archive": "https://web.archive.org/web/20110201231706/http://bailandstump.com/",
   "comms": "https://web.archive.org/web/20110201231805/http://bailandstump.com/stump.js"
+},
+{
+  "ip": "207.210.250.148",
+  "host": "classicalmusic4arab.com",
+  "archive": "http://cqcounter.com/whois/www/classicalmusic4arab.com.html"
 },
 {
   "ip": "207.210.250.149",
@@ -1815,6 +2027,11 @@
   "comms": "https://web.archive.org/web/20110208065108/http://newsintheworld-ru.com/elections.jar"
 },
 {
+  "ip": "207.210.250.154",
+  "host": "news-unlimited.info",
+  "archive": "http://cqcounter.com/whois/www/news-unlimited.info.html"
+},
+{
   "ip": "208.93.112.105",
   "host": "fastnews-online.com",
   "archive": "https://web.archive.org/web/20090420131359/http://fastnews-online.com/",
@@ -1831,6 +2048,36 @@
   "host": "nbanewsroundup.com",
   "archive": "https://web.archive.org/web/20130704042538/http://nbanewsroundup.com/",
   "comms": "https://members.nbanewsroundup.com/cgi-bin/subscriber.cgi"
+},
+{
+  "ip": "208.93.112.110",
+  "host": "luxuryfive.net",
+  "archive": "http://cqcounter.com/whois/www/luxuryfive.net.html"
+},
+{
+  "ip": "208.93.112.111",
+  "host": "topfootballnewsonline.com",
+  "archive": "http://cqcounter.com/whois/www/topfootballnewsonline.com.html"
+},
+{
+  "ip": "208.93.112.112",
+  "host": "todaysportscores.com",
+  "archive": "http://cqcounter.com/whois/www/todaysportscores.com.html"
+},
+{
+  "ip": "208.93.112.114",
+  "host": "dynamicworldnews.com",
+  "archive": "http://cqcounter.com/whois/www/dynamicworldnews.com.html"
+},
+{
+  "ip": "208.93.112.116",
+  "host": "gazingvoyage.com",
+  "archive": "http://cqcounter.com/whois/www/gazingvoyage.com.html"
+},
+{
+  "ip": "208.93.112.123",
+  "host": "garundipost.com",
+  "archive": "http://cqcounter.com/whois/www/garundipost.com.html"
 },
 {
   "ip": "208.254.38.56",
@@ -1923,6 +2170,30 @@
   "comms": "https://web.archive.org/web/20110202221510/http://the-news-scene.com/world.jar"
 },
 {
+  "ip": "209.162.192.44",
+  "host": "thejewelofsouthamerica.com",
+  "archive": "https://web.archive.org/web/20110202185205/thejewelofsouthamerica.com",
+  "comms": "https://web.archive.org/web/20110202185205/http://thejewelofsouthamerica.com/foro.html"
+},
+{
+  "ip": "209.162.192.51",
+  "host": "yellow-chair-report.com",
+  "archive": "https://web.archive.org/web/20110208004120/http://yellow-chair-report.com/",
+  "comms": "https://web.archive.org/web/20110208004120/http://yellow-chair-report.com/members.html"
+},
+{
+  "ip": "209.162.192.57",
+  "host": "globalnewsreports.net",
+  "archive": "https://web.archive.org/web/20101229082120/http://globalnewsreports.net/",
+  "comms": "https://web.archive.org/web/20101229082120/http://globalnewsreports.net/forum.html"
+},
+{
+  "ip": "209.162.192.59",
+  "host": "easytravelsite.net",
+  "archive": "https://web.archive.org/web/20091219195929/http://easytravelsite.net/",
+  "comms": "https://web.archive.org/web/20091219195929/http://easytravelsite.net/login.html"
+},
+{
   "ip": "210.80.75.36",
   "host": "e-commodities.net",
   "archive": "https://web.archive.org/web/20110106021312/http://e-commodities.net/",
@@ -1970,6 +2241,11 @@
   "comms": "https://web.archive.org/web/20110202122522/http://recipe-dujour.com/recipes.jar"
 },
 {
+  "ip": "210.80.75.53",
+  "host": "sportsman-elite.com",
+  "archive": "http://cqcounter.com/whois/www/sportsman-elite.com.html"
+},
+{
   "ip": "210.80.75.55",
   "host": "philippinenewsonline.net",
   "archive": "https://web.archive.org/web/20101230191405/http://philippinenewsonline.net/",
@@ -1980,6 +2256,11 @@
   "host": "technewsforme.com",
   "archive": "https://web.archive.org/web/20110201205935/http://technewsforme.com/",
   "comms": "https://web.archive.org/web/20110201211509/http://technewsforme.com/meter.jar"
+},
+{
+  "ip": "210.80.75.59",
+  "host": "goldeportesnoticias.com",
+  "archive": "http://cqcounter.com/whois/www/goldeportesnoticias.com.html"
 },
 {
   "ip": "212.4.16.224",
@@ -2108,10 +2389,21 @@
   "comms": "https://web.archive.org/web/20110207184905/http://myengineeringaffinity.com/affinity.jar"
 },
 {
+  "ip": "212.209.74.122",
+  "host": "atthemovies.biz",
+  "archive": "http://cqcounter.com/whois/www/atthemovies.biz.html",
+  "comms": "https://web.archive.org/web/20110809232811oe_/http://www.atthemovies.biz/movieslides.jar"
+},
+{
   "ip": "212.209.74.123",
   "host": "worldfinancialexchangenews.com",
   "archive": "https://web.archive.org/web/20100509204702/http://www.worldfinancialexchangenews.com/",
   "comms": "https://web.archive.org/web/20100511045813oe_/http://www.worldfinancialexchangenews.com/worldfinancialexchangenews.swf"
+},
+{
+  "ip": "212.209.74.124",
+  "host": "urouttahere.com",
+  "archive": "http://cqcounter.com/whois/www/urouttahere.com.html"
 },
 {
   "ip": "212.209.74.125",
@@ -2210,10 +2502,20 @@
   "comms": "https://web.archive.org/web/20110210022316/http://worldedgenews.com/WENUpdater.jar"
 },
 {
+  "ip": "212.209.90.72",
+  "host": "talkingpointnews.info",
+  "archive": "http://cqcounter.com/whois/www/talkingpointnews.info.html"
+},
+{
   "ip": "212.209.90.74",
   "host": "globalinvestmentnews.net",
   "archive": "https://web.archive.org/web/20101229090625/http://globalinvestmentnews.net/",
   "comms": "https://web.archive.org/web/20101229090847/http://globalinvestmentnews.net/ginews.jar"
+},
+{
+  "ip": "212.209.90.75",
+  "host": "prebitinvestment.com",
+  "archive": "http://cqcounter.com/whois/www/prebitinvestment.com.html"
 },
 {
   "ip": "212.209.90.80",
@@ -2288,6 +2590,50 @@
   "comms": "https://web.archive.org/web/20100513182724/http://lasthournews.com/recent.jar"
 },
 {
+  "ip": "216.93.248.194",
+  "host": "tech-geek-news.com",
+  "archive": "https://web.archive.org/web/20101020043712/http://tech-geek-news.com/",
+  "comms": "https://web.archive.org/web/20101020043712js_/http://tech-geek-news.com/techgeek.js"
+},
+{
+  "ip": "216.104.38.114",
+  "host": "wahidfutbol.com",
+  "archive": "https://web.archive.org/web/20110202203450/http://wahidfutbol.com/",
+  "comms": "https://web.archive.org/web/20110202203517js_/http://wahidfutbol.com/wahid.js"
+},
+{
+  "ip": "216.104.38.114",
+  "host": "wildbirds-seasia.com",
+  "archive": "https://web.archive.org/web/20110207183336/http://wildbirds-seasia.com/",
+  "comms": "https://web.archive.org/web/20110207183425/http://wildbirds-seasia.com/diverse.jar"
+},
+{
+  "ip": "216.105.98.132",
+  "host": "europeantravelcafe.com",
+  "archive": "https://web.archive.org/web/20100724024623/http://www.europeantravelcafe.com/"
+},
+{
+  "ip": "216.105.98.134",
+  "host": "fuenteneta.com",
+  "archive": "http://cqcounter.com/whois/www/fuenteneta.com.html"
+},
+{
+  "ip": "216.105.98.135",
+  "host": "ilat-news.com",
+  "archive": "http://cqcounter.com/whois/www/ilat-news.com.html"
+},
+{
+  "ip": "216.105.98.136",
+  "host": "etherealinspirations.net",
+  "archive": "http://cqcounter.com/whois/www/etherealinspirations.net.html"
+},
+{
+  "ip": "216.105.98.137",
+  "host": "the-news-zone.com",
+  "archive": "http://cqcounter.com/whois/www/the-news-zone.com.html",
+  "comms": "https://web.archive.org/web/20130814194744oe_/http://the-news-zone.com/flowers.jar"
+},
+{
   "ip": "216.105.98.139",
   "host": "cultura-digital.net",
   "archive": "https://web.archive.org/web/20080907112020/http://www.cultura-digital.net/",
@@ -2300,10 +2646,21 @@
   "comms": "https://web.archive.org//web/20130521064536oe_/http://www.uaeshoppingspree.com/shop.jar"
 },
 {
+  "ip": "216.105.98.144",
+  "host": "garanziadellasicurezza.com.",
+  "archive": "https://web.archive.org/web/20110424044637/http://www.garanziadellasicurezza.com:80/",
+  "comms": "https://web.archive.org/web/20110424044637oe_/http://www.garanziadellasicurezza.com/garanzia.jar"
+},
+{
   "ip": "216.105.98.145",
   "host": "montanismoaventura.com",
   "archive": "https://web.archive.org/web/20120429042725/http://montanismoaventura.com/",
   "comms": "https://web.archive.org/web/20120429042725js_/http://montanismoaventura.com/path.js"
+},
+{
+  "ip": "216.105.98.146",
+  "host": "large-format-news.com",
+  "archive": "http://cqcounter.com/whois/www/large-format-news.com.html"
 },
 {
   "ip": "216.105.98.147",
@@ -2312,10 +2669,26 @@
   "comms": "https://web.archive.org/web/20110207221911/http://nepalnewsbrief.com/regionweather.jar"
 },
 {
+  "ip": "216.105.98.148",
+  "host": "teclafinance.com",
+  "archive": "http://cqcounter.com/whois/www/teclafinance.com.html"
+},
+{
+  "ip": "216.105.98.149",
+  "host": "entreman.com",
+  "archive": "https://web.archive.org/web/20110128212738/http://entreman.com/",
+  "comms": "https://web.archive.org/web/20110128212738/https://secure.entreman.com/cgi-bin/login.cgi"
+},
+{
   "ip": "216.105.98.152",
   "host": "modernarabicnews.com",
   "archive": "https://web.archive.org/web/20130620020250/http://modernarabicnews.com/",
   "comms": "http://modernarabicnews.com/news.jar"
+},
+{
+  "ip": "216.105.98.153",
+  "host": "global-headlines.com",
+  "archive": "http://cqcounter.com/whois/www/global-headlines.com.html"
 },
 {
   "ip": "216.105.98.154",
@@ -2328,6 +2701,16 @@
   "host": "familyhealthonline.net",
   "archive": "https://web.archive.org/web/20110106035241/http://familyhealthonline.net/",
   "comms": "https://web.archive.org/web/20130729093000/https://secure.familyhealthonline.net/cgi-bin/health.cgi"
+},
+{
+  "ip": "216.105.98.157",
+  "host": "delacorne.com",
+  "archive": "http://cqcounter.com/whois/www/delacorne.com.html"
+},
+{
+  "ip": "216.105.98.158",
+  "host": "econfutures.com",
+  "archive": "http://cqcounter.com/whois/www/econfutures.com.html"
 },
 {
   "ip": "219.90.61.110",
@@ -2352,6 +2735,11 @@
   "host": "lajornadanow.com",
   "archive": "https://web.archive.org/web/20100513135348/http://lajornadanow.com/",
   "comms": "https://web.archive.org/web/20100513135549/http://lajornadanow.com/noticias.jar"
+},
+{
+  "ip": "219.90.61.119",
+  "host": "aviation-navigation.com",
+  "archive": "http://cqcounter.com/whois/www/aviation-navigation.com.html"
 },
 {
   "ip": "219.90.61.120",
@@ -2402,6 +2790,11 @@
   "comms": "https://web.archive.org/web/20110202125023/http://recuerdosdeviajeonline.com/recuerdosdeviajeonline.swf"
 },
 {
+  "ip": "219.90.62.235",
+  "host": "ordenpolicial.com",
+  "archive": "http://cqcounter.com/whois/www/ordenpolicial.com.html"
+},
+{
   "ip": "219.90.62.237",
   "host": "elcorreodenoticias.com",
   "archive": "https://web.archive.org/web/20110128085335/http://elcorreodenoticias.com/",
@@ -2412,6 +2805,11 @@
   "host": "freshtechonline.com",
   "archive": "https://web.archive.org/web/20110207161832/http://freshtechonline.com/",
   "comms": "https://web.archive.org/web/20110207161832/https://secure.freshtechonline.com/cgi-bin/tech.cgi"
+},
+{
+  "ip": "219.90.62.240",
+  "host": "cityworldnewsnow.com",
+  "archive": "http://cqcounter.com/whois/www/cityworldnewsnow.com.html"
 },
 {
   "ip": "219.90.62.241",
