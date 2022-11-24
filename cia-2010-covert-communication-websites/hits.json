@@ -206,7 +206,7 @@
 },
 {
   "host": "shadesofnews.com",
-  "archive": "https://web.archive.org/web/20110201184753/http://shadesofnews.com",
+  "archive": "https://web.archive.org/web/20110201184753/http://shadesofnews.com/",
   "comms": "https://web.archive.org/web/20110201184827/http://shadesofnews.com/sports.jar"
 },
 {
@@ -533,7 +533,7 @@
 {
   "ip": "63.131.229.11",
   "host": "mythriftytrip.com",
-  "archive": "https://web.archive.org/web/20110202124350/https://secure.show-dustry.com/cgi-bin/login.cgi",
+  "archive": "https://web.archive.org/web/20101101072007/http://www.mythriftytrip.com/",
   "comms": "https://web.archive.org/web/20101101072007/https://secure.mythriftytrip.com/cgi-bin/deals.cgi"
 },
 {
@@ -1652,7 +1652,7 @@
 {
   "ip": "74.254.12.189",
   "host": "fabu-foto.com",
-  "archive": "https://web.archive.org/web/20110203073359/http://first-tee-golf.com/",
+  "archive": "https://web.archive.org/web/20110202114501/http://fabu-foto.com/",
   "comms": "https://web.archive.org/web/20110202114501/https://secure.fabu-foto.com/cgi-bin/photos.cgi"
 },
 {
@@ -1832,7 +1832,7 @@
 {
   "ip": "204.176.38.149",
   "host": "sportsnewstodayar.com",
-  "archive": "https://web.archive.org/web/20110210131921/http://sportsnewstodayar.com/2011",
+  "archive": "https://web.archive.org/web/20110210131921/http://sportsnewstodayar.com/",
   "comms": "https://web.archive.org/web/20110210132114/http://sportsnewstodayar.com/news.jar"
 },
 {
@@ -1916,12 +1916,6 @@
 {
   "ip": "207.150.191.68",
   "host": "technologypresstoday.com",
-  "archive": "https://web.archive.org/web/20110201212849/http://technologypresstoday.com/",
-  "comms": "https://web.archive.org/web/20110201212907/http://www.technologypresstoday.com/online.jar"
-},
-{
-  "ip": "207.150.191.68",
-  "host": "technologypresstoday.com/",
   "archive": "https://web.archive.org/web/20110201212849/http://technologypresstoday.com/",
   "comms": "https://web.archive.org/web/20110201212907/http://www.technologypresstoday.com/online.jar"
 },
@@ -2172,7 +2166,7 @@
 {
   "ip": "209.162.192.44",
   "host": "thejewelofsouthamerica.com",
-  "archive": "https://web.archive.org/web/20110202185205/thejewelofsouthamerica.com",
+  "archive": "https://web.archive.org/web/20110202185205/thejewelofsouthamerica.com/",
   "comms": "https://web.archive.org/web/20110202185205/http://thejewelofsouthamerica.com/foro.html"
 },
 {
@@ -2325,7 +2319,7 @@
 {
   "ip": "212.4.17.98",
   "host": "topbillingsite.com",
-  "archive": "https://web.archive.org/web/20110207155424/http://topbillingsite.com",
+  "archive": "https://web.archive.org/web/20110207155424/http://topbillingsite.com/",
   "comms": "https://web.archive.org/web/20110207155424/https://secure.topbillingsite.com/cgi-bin/main.cgi"
 },
 {
@@ -2693,7 +2687,7 @@
 {
   "ip": "216.105.98.154",
   "host": "everythingcricket.org",
-  "archive": "https://web.archive.org/web/20110704090110/http://everythingcricket.org",
+  "archive": "https://web.archive.org/web/20110704090110/http://everythingcricket.org/",
   "comms": "https://web.archive.org/web/20110704090136/http://www.everythingcricket.org/cricket.jar"
 },
 {

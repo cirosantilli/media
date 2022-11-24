@@ -1,0 +1,131 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" dir="ltr">
+<head><script type="text/javascript" src="https://web-static.archive.org/_static/js/bundle-playback.js?v=zC7xTh84" charset="utf-8"></script>
+<script type="text/javascript" src="https://web-static.archive.org/_static/js/wombat.js?v=txqj7nKC" charset="utf-8"></script>
+<script>window.RufflePlayer=window.RufflePlayer||{};window.RufflePlayer.config={"autoplay":"on","unmuteOverlay":"hidden"};</script>
+<script type="text/javascript" src="https://web-static.archive.org/_static/js/ruffle/ruffle.js"></script>
+<script type="text/javascript">
+    __wm.init("https://web.archive.org/web");
+  __wm.wombat("http://tech-topix.com","20130620211952","https://web.archive.org/","web","https://web-static.archive.org/_static/",
+	      "1371763192");
+</script>
+<link rel="stylesheet" type="text/css" href="https://web-static.archive.org/_static/css/banner-styles.css?v=p7PEIJWi" />
+<link rel="stylesheet" type="text/css" href="https://web-static.archive.org/_static/css/iconochive.css?v=3PDvdIFv" />
+<!-- End Wayback Rewrite JS Include -->
+
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<title>TechTopix</title>
+<link href="/web/20130620211952cs_/http://tech-topix.com/techstyle.css" rel="stylesheet" type="text/css"/>
+</head>
+
+<body>
+<div id="cont">
+
+<div id="sb">
+	<div id="banner1">
+		<img src="/web/20130620211952im_/http://tech-topix.com/images/bannertop.jpg" align="top"/>
+		<img src="/web/20130620211952im_/http://tech-topix.com/images/bannerbtm.jpg" align="top"/>
+	</div>
+	
+	<div id="nav1">
+	
+	<ul id="menu1">
+		
+		<li>Apple :: <a href="feeds/applelinks.php" id="apple">Apple News</a> | <a href="feeds/appleblogs.php" id="apple2">Blogs</a> | <a href="feeds/macnews.php" id="apple3">Mac News</a></li><br/>
+		<li>Microsoft :: <a href="feeds/microsoft.php" id="microsoft">Microsoft News</a> | <a href="feeds/msftlinks.php" id="microsoftlinks">Links</a></li>
+	</ul>
+	</div>
+	<div id="content1">
+		<p class="imgcenter"><img src="/web/20130620211952im_/http://tech-topix.com/images/ajax-loader.gif"/></p>
+	</div>
+	<div id="nav3">
+	<ul id="menu3">
+	<li>Members :: <a href="https://web.archive.org/web/20130620211952/https://ssl.tech-topix.com/cgi-bin/tech.cgi" id="login" target="_parent">Login</a> |  <a href="register.php" id="login" target="_parent">Register</a></li>
+	</ul>
+	</div>
+</div>
+<div id="mn">
+	<img src="/web/20130620211952im_/http://tech-topix.com/images/bannertitle.jpg" align="top"/>
+	<div id="nav2">
+	<ul id="menu2">
+	<li><a href="feeds/latest.php" id="latest">Latest News</a></li>
+	<li><a href="feeds/gadgets.php" id="gadgets">Gadgets</a></li>
+	<li><a href="feeds/wireless.php" id="wireless">Wireless</a></li>
+	<li><a href="feeds/reviews.php" id="reviews">Reviews</a></li>
+	<li><a href="feeds/security.php" id="security">Security</a></li>
+	<li><a href="feeds/techlinks.php" id="security">Resources</a></li>
+
+	</ul>
+</div>
+<div id="content2">
+	<p class="imgcenter"><img src="/web/20130620211952im_/http://tech-topix.com/images/ajax-loader.gif"/></p>
+</div>
+
+</div>
+<br class="clearfloat"/>
+
+<div id="ft">
+<ul id="btm_ads">
+	<li><a href="https://web.archive.org/web/20130620211952/http://www.avira.com/en/"><img src="/web/20130620211952im_/http://tech-topix.com/images/avira.gif" border="0"/></a></li>
+	<li><a href="https://web.archive.org/web/20130620211952/http://www.cnet.com/"><img src="/web/20130620211952im_/http://tech-topix.com/images/cnet.gif" border="0"/></a></li>
+	<li><a href="https://web.archive.org/web/20130620211952/http://www.pcworld.com/"><img src="/web/20130620211952im_/http://tech-topix.com/images/pcworld.gif" border="0"/></a></li>
+	
+	<li><a href="https://web.archive.org/web/20130620211952/http://news.yahoo.com/technology"><img src="/web/20130620211952im_/http://tech-topix.com/images/tech_logo.gif" border="0"/></a></li>
+	<li><a href="https://web.archive.org/web/20130620211952/http://www.google.com/tv/"><img src="/web/20130620211952im_/http://tech-topix.com/images/googletv.jpg" border="0"/></a></li>
+	</ul>
+	
+<p> All Rights Reserved. &copy; 2010. </p>
+</div>
+</div>
+
+		<script src="/web/20130620211952js_/http://tech-topix.com/jquery-1.4.2.min.js"></script>
+		<script>
+			var jq = jQuery.noConflict(true);jq(function(){
+
+
+	
+	   			
+			
+				function navToContent(nav,cId,loadingMsg) {
+					jq('#'+nav).delegate('a', 'click', function(e) {
+						e.preventDefault();
+						var parent = jq(this).parent();
+						parent.addClass('selected');
+						parent.siblings().removeClass('selected');
+						jq('#'+cId).html(loadingMsg);
+						jq('#'+cId).load(jq(this).attr('href'));
+					});
+					jq('#'+nav + ' li.selected a').click();	
+				}
+				navToContent('menu1','content1','<img src="images/ajax-loader.gif" width="43" height="11" />');
+navToContent('menu2','content2','<img src="images/ajax-loader.gif" width="43" height="11" />');
+
+					 function startClicks(sel_css) {
+							jq(sel_css).click(); 
+					 }
+			startClicks('#latest');
+startClicks('#apple');
+			});
+		</script>
+
+</body>
+</html><!--
+     FILE ARCHIVED ON 21:19:52 Jun 20, 2013 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 11:34:32 May 06, 2025.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+-->
+<!--
+playback timings (ms):
+  captures_list: 0.726
+  exclusion.robots: 0.037
+  exclusion.robots.policy: 0.024
+  esindex: 0.015
+  cdx.remote: 26.632
+  LoadShardBlock: 170.341 (3)
+  PetaboxLoader3.datanode: 137.666 (4)
+  load_resource: 134.068
+  PetaboxLoader3.resolve: 88.591
+-->

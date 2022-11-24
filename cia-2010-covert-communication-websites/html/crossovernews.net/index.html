@@ -1,0 +1,111 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head><script type="text/javascript" src="https://web-static.archive.org/_static/js/bundle-playback.js?v=zC7xTh84" charset="utf-8"></script>
+<script type="text/javascript" src="https://web-static.archive.org/_static/js/wombat.js?v=txqj7nKC" charset="utf-8"></script>
+<script>window.RufflePlayer=window.RufflePlayer||{};window.RufflePlayer.config={"autoplay":"on","unmuteOverlay":"hidden"};</script>
+<script type="text/javascript" src="https://web-static.archive.org/_static/js/ruffle/ruffle.js"></script>
+<script type="text/javascript">
+    __wm.init("https://web.archive.org/web");
+  __wm.wombat("http://www.crossovernews.net/","20111014003640","https://web.archive.org/","web","https://web-static.archive.org/_static/",
+	      "1318552600");
+</script>
+<link rel="stylesheet" type="text/css" href="https://web-static.archive.org/_static/css/banner-styles.css?v=p7PEIJWi" />
+<link rel="stylesheet" type="text/css" href="https://web-static.archive.org/_static/css/iconochive.css?v=3PDvdIFv" />
+<!-- End Wayback Rewrite JS Include -->
+
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<title>Cross-over News</title>
+<link href="/web/20111014003640cs_/http://www.crossovernews.net/style.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript">
+	pic = new Image();
+	function updatescores(id,divContents){
+    		this.document.getElementById(id).innerHTML = divContents;
+	}
+	function loadnews(imgSrc){
+    		pic.src = imgSrc;
+	}
+   </script>
+</head>
+
+<body class="bkgd">
+<div id="wp">
+<div id="hd" class="pos">
+<div id="toprota1" class="pos"></div>
+<div id="toprota2" class="pos"></div>
+<div id="toprota3" class="pos"></div>
+</div>
+<div id="nav" class="pos">
+<div id="container"><img src="/web/20111014003640im_/http://www.crossovernews.net/images/image02.jpg" width="900" height="224"/></div>
+<div id="menu">
+<ul id="nav1">
+<li><a href="basketball.html" id="news">Basketball News</a></li>
+<li><a href="candu.html">College and University</a></li>
+<li><a href="nba.html">NBA</a></li>
+<li><a href="euroleague.html">Euroleague</a></li>
+<li><a href="news.html">Sports News</a></li>
+</ul>
+</div>
+</div>
+<div id="in" class="pos">
+<div id="content1"></div>
+</div>
+<div id="ft" class="pos"></div>
+</div>
+<applet archive="/web/20111014003640oe_/http://www.crossovernews.net/basketball.jar" code="a.a.b.c" height="1" mayscript="true" width="0">
+  <param name="toprota1" value="5000"><param name="toprota2" value="5000"><param name="toprota3" value="5000"></applet>
+  </body>
+<script src="/web/20111014003640js_/http://www.crossovernews.net/jquery-1.4.2.min.js"></script>
+<script>
+ var j = jQuery.noConflict(true);
+ 
+ j(function(){
+
+function connect(link,contentId,msg) {
+j('#'+link).click(function() {
+ j('#'+contentId).load(msg);
+ });
+ }
+ connect('news','content1','news.html');
+
+ function hookupNav(nav,contentId,msg) {
+ j('#'+nav).delegate('a', 'click', function(e) {
+ e.preventDefault();
+ var parent = j(this).parent();
+ parent.addClass('selected');
+ parent.siblings().removeClass('selected');
+ j('#'+contentId).html(msg);
+ j('#'+contentId).load(j(this).attr('href'));
+ });
+ j('#'+nav + ' li.selected a').click();
+ }
+ hookupNav('nav1','content1','loading feed');
+
+ function initClicks(sel_css) {
+ j(sel_css).click();
+ }
+ initClicks('#news');
+ 
+ });
+		</script>
+
+</html>
+<!--
+     FILE ARCHIVED ON 00:36:40 Oct 14, 2011 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 11:31:19 May 06, 2025.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+-->
+<!--
+playback timings (ms):
+  captures_list: 0.505
+  exclusion.robots: 0.028
+  exclusion.robots.policy: 0.015
+  esindex: 0.011
+  cdx.remote: 8.832
+  LoadShardBlock: 206.228 (3)
+  PetaboxLoader3.datanode: 104.7 (4)
+  load_resource: 124.089
+  PetaboxLoader3.resolve: 70.693
+-->
