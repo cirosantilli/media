@@ -106,6 +106,7 @@ Possibly not freely licensed:
 * link:Apple_Think_different_1976_Think_mainstream_2011.png[]: cropped from https://wallpapersafari.com/w/RqYUEj
 * link:Baby_Hitler_vs_5_million_Jews_trolley_problem.jpg[]
 * link:bitcoin-strings-with-txids/[]. Images extracted with: https://github.com/cirosantilli/bitcoin-strings-with-txids/tree/7e95546479508e9fe5158dad6bc8601e2b4e02ee#image-indexing
+* link:cia-2010-covert-communication-websites[]
 * link:china-letter-support-xinjiang-saudi-arabia-russia-2019-07-18[]: https://twitter.com/KevinPinner/status/1151868854781526016
 * Chrysanthemum Xi Jinping derived from art artist by Dai Jianyong https://www.independent.co.uk/news/world/asia/chinese-artist-who-posted-funny-image-of-president-xi-jinping-facing-five-years-in-prison-as-10282630.html with a GIMP added 六四 for maximum effect:
 ** link:Chrysanthemum_Xi_Jinping_with_liusi_added_by_Ciro_Santilli.jpeg[]
