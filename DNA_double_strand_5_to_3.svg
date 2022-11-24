@@ -1,0 +1,1631 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   width="1696.7037"
+   height="1646.4722"
+   font-family="'Arial Rounded MT Bold'"
+   version="1.1"
+   id="svg548"
+   sodipodi:docname="DNA_double_strand_5_to_3.svg"
+   inkscape:version="1.2.2 (b0a8486541, 2022-12-01)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview550"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     showgrid="false"
+     inkscape:zoom="0.27119253"
+     inkscape:cx="-405.61589"
+     inkscape:cy="1181.8172"
+     inkscape:window-width="1920"
+     inkscape:window-height="1131"
+     inkscape:window-x="0"
+     inkscape:window-y="32"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg548" />
+  <defs
+     id="defs97">
+    <marker
+       style="overflow:visible"
+       id="TriangleStart"
+       refX="0"
+       refY="0"
+       orient="auto-start-reverse"
+       inkscape:stockid="TriangleStart"
+       markerWidth="5.3244081"
+       markerHeight="6.155385"
+       viewBox="0 0 5.3244081 6.1553851"
+       inkscape:isstock="true"
+       inkscape:collect="always"
+       preserveAspectRatio="xMidYMid">
+      <path
+         transform="scale(0.5)"
+         style="fill:context-stroke;fill-rule:evenodd;stroke:context-stroke;stroke-width:1pt"
+         d="M 5.77,0 -2.88,5 V -5 Z"
+         id="path135" />
+    </marker>
+    <radialGradient
+       id="rgWhite">
+      <stop
+         stop-color="#FFF"
+         id="stop2" />
+      <stop
+         offset=".5"
+         stop-color="#FFF"
+         stop-opacity=".7"
+         id="stop4" />
+      <stop
+         offset="1"
+         stop-color="#FFF"
+         stop-opacity="0"
+         id="stop6" />
+    </radialGradient>
+    <radialGradient
+       id="rgYellow">
+      <stop
+         stop-color="#FF0"
+         stop-opacity="0"
+         id="stop9" />
+      <stop
+         offset="1"
+         stop-color="#FF0"
+         stop-opacity=".85"
+         id="stop11" />
+    </radialGradient>
+    <radialGradient
+       id="rgDeoxyribose">
+      <stop
+         stop-color="#FFA600"
+         stop-opacity="0"
+         id="stop14" />
+      <stop
+         offset="1"
+         stop-color="#FFA600"
+         stop-opacity=".7"
+         id="stop16" />
+    </radialGradient>
+    <radialGradient
+       id="rgAdenine">
+      <stop
+         stop-color="#0F0"
+         stop-opacity="0"
+         id="stop19" />
+      <stop
+         offset="1"
+         stop-color="#0F0"
+         stop-opacity=".6"
+         id="stop21" />
+    </radialGradient>
+    <radialGradient
+       id="rgCytosine"
+       gradientTransform="scale(1.0522307,0.95036194)"
+       cx="593.96674"
+       cy="740.70203"
+       fx="593.96674"
+       fy="740.70203"
+       r="60.519047"
+       gradientUnits="userSpaceOnUse">
+      <stop
+         stop-color="#F00"
+         stop-opacity="0"
+         id="stop24" />
+      <stop
+         offset="1"
+         stop-color="#F33"
+         stop-opacity=".6"
+         id="stop26" />
+    </radialGradient>
+    <radialGradient
+       id="rgThymine"
+       gradientTransform="scale(1.0340983,0.96702608)"
+       cx="694.20868"
+       cy="1064.9558"
+       fx="694.20868"
+       fy="1064.9558"
+       r="60.680885"
+       gradientUnits="userSpaceOnUse">
+      <stop
+         stop-color="#C3F"
+         stop-opacity="0"
+         id="stop29" />
+      <stop
+         offset="1"
+         stop-color="#C0F"
+         stop-opacity=".6"
+         id="stop31" />
+    </radialGradient>
+    <radialGradient
+       id="rgGuanine">
+      <stop
+         stop-color="#33F"
+         stop-opacity="0"
+         id="stop34" />
+      <stop
+         offset="1"
+         stop-color="#33F"
+         stop-opacity=".6"
+         id="stop36" />
+    </radialGradient>
+    <radialGradient
+       id="rgGrey"
+       gradientTransform="matrix(0.677972,-0.075038,0.545843,0.676343,-0.287,0.228)">
+      <stop
+         stop-color="#7F7F7F"
+         stop-opacity="0"
+         id="stop39" />
+      <stop
+         offset=".5"
+         stop-color="#7F7F7F"
+         stop-opacity="0"
+         id="stop41" />
+      <stop
+         offset="1"
+         stop-color="#7F7F7F"
+         stop-opacity=".7"
+         id="stop43" />
+    </radialGradient>
+    <linearGradient
+       id="lgYellow">
+      <stop
+         stop-color="#FF0"
+         stop-opacity="0"
+         id="stop46" />
+      <stop
+         offset=".5"
+         stop-color="#FF0"
+         stop-opacity=".45"
+         id="stop48" />
+      <stop
+         offset="1"
+         stop-color="#FF0"
+         stop-opacity="0"
+         id="stop50" />
+    </linearGradient>
+    <linearGradient
+       id="lgDeoxyribose">
+      <stop
+         stop-color="#FFA600"
+         stop-opacity="0"
+         id="stop53" />
+      <stop
+         offset=".5"
+         stop-color="#FFA600"
+         stop-opacity=".35"
+         id="stop55" />
+      <stop
+         offset="1"
+         stop-color="#FFA600"
+         stop-opacity="0"
+         id="stop57" />
+    </linearGradient>
+    <linearGradient
+       id="lgGrey">
+      <stop
+         stop-color="#7F7F7F"
+         stop-opacity="0"
+         id="stop60" />
+      <stop
+         offset=".5"
+         stop-color="#7F7F7F"
+         stop-opacity=".3"
+         id="stop62" />
+      <stop
+         offset="1"
+         stop-color="#7F7F7F"
+         stop-opacity="0"
+         id="stop64" />
+    </linearGradient>
+    <linearGradient
+       id="lgAdenine"
+       gradientTransform="matrix(0.44722234,0,0,0.46124992,409.54144,-113.63464)"
+       x1="161.84799"
+       y1="405.70197"
+       x2="317.75046"
+       y2="405.70197"
+       gradientUnits="userSpaceOnUse">
+      <stop
+         stop-color="#0F0"
+         stop-opacity="0"
+         id="stop67" />
+      <stop
+         offset=".5"
+         stop-color="#0F0"
+         stop-opacity=".25"
+         id="stop69" />
+      <stop
+         offset="1"
+         stop-color="#0F0"
+         stop-opacity="0"
+         id="stop71" />
+    </linearGradient>
+    <linearGradient
+       id="lgCytosine"
+       gradientTransform="matrix(0.77341775,0,0,0.43139129,756.12623,-113.63464)"
+       x1="425.52438"
+       y1="3453.1528"
+       x2="564.60925"
+       y2="3453.1528"
+       gradientUnits="userSpaceOnUse">
+      <stop
+         stop-color="#F00"
+         stop-opacity="0"
+         id="stop74" />
+      <stop
+         offset=".5"
+         stop-color="#FF1919"
+         stop-opacity=".3"
+         id="stop76" />
+      <stop
+         offset="1"
+         stop-color="#F33"
+         stop-opacity="0"
+         id="stop78" />
+    </linearGradient>
+    <linearGradient
+       id="lgGuanine"
+       gradientTransform="matrix(0.6167859,0,0,0.43219636,615.42336,-113.63464)"
+       x1="293.02914"
+       y1="3510.6035"
+       x2="431.85492"
+       y2="3510.6035"
+       gradientUnits="userSpaceOnUse">
+      <stop
+         stop-color="#33F"
+         stop-opacity="0"
+         id="stop81" />
+      <stop
+         offset=".5"
+         stop-color="#33F"
+         stop-opacity=".3"
+         id="stop83" />
+      <stop
+         offset="1"
+         stop-color="#33F"
+         stop-opacity="0"
+         id="stop85" />
+    </linearGradient>
+    <linearGradient
+       id="lgThymine"
+       gradientTransform="matrix(0.52385511,0,0,0.44098465,658.95643,-113.63464)"
+       x1="303.52533"
+       y1="303.68402"
+       x2="452.57812"
+       y2="303.68402"
+       gradientUnits="userSpaceOnUse">
+      <stop
+         stop-color="#C3F"
+         stop-opacity="0"
+         id="stop88" />
+      <stop
+         offset=".5"
+         stop-color="#CC19FF"
+         stop-opacity=".25"
+         id="stop90" />
+      <stop
+         offset="1"
+         stop-color="#C0F"
+         stop-opacity="0"
+         id="stop92" />
+    </linearGradient>
+    <style
+       id="style95">
+.structure { fill: none; stroke: #000; stroke-width: 4.5px; stroke-linecap: round }
+</style>
+    <radialGradient
+       inkscape:collect="always"
+       xlink:href="#rgDeoxyribose"
+       id="radialGradient1209"
+       gradientTransform="scale(1.008984,0.99109601)"
+       cx="405.59119"
+       cy="485.58362"
+       fx="405.59119"
+       fy="485.58362"
+       r="48.915543"
+       gradientUnits="userSpaceOnUse" />
+    <radialGradient
+       inkscape:collect="always"
+       xlink:href="#rgWhite"
+       id="radialGradient1211"
+       cx="406.82999"
+       cy="436.07001"
+       fx="406.82999"
+       fy="436.07001"
+       r="18.299999"
+       gradientUnits="userSpaceOnUse" />
+    <radialGradient
+       inkscape:collect="always"
+       xlink:href="#rgYellow"
+       id="radialGradient1213"
+       cx="267.92001"
+       cy="310.54001"
+       fx="267.92001"
+       fy="310.54001"
+       r="26"
+       gradientUnits="userSpaceOnUse" />
+    <radialGradient
+       inkscape:collect="always"
+       xlink:href="#rgDeoxyribose"
+       id="radialGradient1215"
+       gradientTransform="scale(0.97117663,1.0296788)"
+       cx="1004.22"
+       cy="400.33844"
+       fx="1004.22"
+       fy="400.33844"
+       r="49.656261"
+       gradientUnits="userSpaceOnUse" />
+    <radialGradient
+       inkscape:collect="always"
+       xlink:href="#rgWhite"
+       id="radialGradient1217"
+       cx="963.60999"
+       cy="457.60001"
+       fx="963.60999"
+       fy="457.60001"
+       r="18.299999"
+       gradientUnits="userSpaceOnUse" />
+    <radialGradient
+       inkscape:collect="always"
+       xlink:href="#rgYellow"
+       id="radialGradient1219"
+       cx="1102.33"
+       cy="588.90997"
+       fx="1102.33"
+       fy="588.90997"
+       r="26"
+       gradientUnits="userSpaceOnUse" />
+    <radialGradient
+       inkscape:collect="always"
+       xlink:href="#rgAdenine"
+       id="radialGradient1221"
+       gradientTransform="scale(1.0179234,0.98239215)"
+       cx="517.11157"
+       cy="388.47012"
+       fx="517.11157"
+       fy="388.47012"
+       r="52.066784"
+       gradientUnits="userSpaceOnUse" />
+    <radialGradient
+       inkscape:collect="always"
+       xlink:href="#rgAdenine"
+       id="radialGradient1223"
+       gradientTransform="scale(0.97716549,1.0233681)"
+       cx="640.84845"
+       cy="393.5925"
+       fx="640.84845"
+       fy="393.5925"
+       r="62.225899"
+       gradientUnits="userSpaceOnUse" />
+    <radialGradient
+       inkscape:collect="always"
+       xlink:href="#rgWhite"
+       id="radialGradient1225"
+       cx="523.51001"
+       cy="328.89001"
+       fx="523.51001"
+       fy="328.89001"
+       r="18.299999"
+       gradientUnits="userSpaceOnUse" />
+    <radialGradient
+       inkscape:collect="always"
+       xlink:href="#rgWhite"
+       id="radialGradient1227"
+       cx="685.03003"
+       cy="385.48001"
+       fx="685.03003"
+       fy="385.48001"
+       r="18.299999"
+       gradientUnits="userSpaceOnUse" />
+    <radialGradient
+       inkscape:collect="always"
+       xlink:href="#rgWhite"
+       id="radialGradient1229"
+       cx="499.67999"
+       cy="431.14001"
+       fx="499.67999"
+       fy="431.14001"
+       r="18.299999"
+       gradientUnits="userSpaceOnUse" />
+    <radialGradient
+       inkscape:collect="always"
+       xlink:href="#rgWhite"
+       id="radialGradient1231"
+       cx="613.90002"
+       cy="465.64999"
+       fx="613.90002"
+       fy="465.64999"
+       r="18.299999"
+       gradientUnits="userSpaceOnUse" />
+    <radialGradient
+       inkscape:collect="always"
+       xlink:href="#rgWhite"
+       id="radialGradient1233"
+       gradientTransform="scale(1.1314964,0.88378538)"
+       cx="523.51471"
+       cy="449.50958"
+       fx="523.51471"
+       fy="449.50958"
+       r="98.078094"
+       gradientUnits="userSpaceOnUse" />
+    <radialGradient
+       inkscape:collect="always"
+       xlink:href="#rgAdenine"
+       id="radialGradient1235"
+       gradientTransform="scale(1.0812337,0.92486943)"
+       cx="543.65717"
+       cy="416.43176"
+       fx="543.65717"
+       fy="416.43176"
+       r="106.83129"
+       gradientUnits="userSpaceOnUse" />
+    <radialGradient
+       inkscape:collect="always"
+       xlink:href="#rgWhite"
+       id="radialGradient1237"
+       cx="688.19"
+       cy="710.85999"
+       fx="688.19"
+       fy="710.85999"
+       r="18.299999"
+       gradientUnits="userSpaceOnUse" />
+    <radialGradient
+       inkscape:collect="always"
+       xlink:href="#rgWhite"
+       id="radialGradient1239"
+       cx="587.34003"
+       cy="753.83002"
+       fx="587.34003"
+       fy="753.83002"
+       r="18.299999"
+       gradientUnits="userSpaceOnUse" />
+    <radialGradient
+       inkscape:collect="always"
+       xlink:href="#rgWhite"
+       id="radialGradient1241"
+       gradientTransform="scale(1.3143093,0.76085593)"
+       cx="485.24728"
+       cy="962.52783"
+       fx="485.24728"
+       fy="962.52783"
+       r="52.289814"
+       gradientUnits="userSpaceOnUse" />
+    <radialGradient
+       inkscape:collect="always"
+       xlink:href="#rgWhite"
+       id="radialGradient1243"
+       cx="773.46997"
+       cy="1036.04"
+       fx="773.46997"
+       fy="1036.04"
+       r="18.299999"
+       gradientUnits="userSpaceOnUse" />
+    <radialGradient
+       inkscape:collect="always"
+       xlink:href="#rgWhite"
+       id="radialGradient1245"
+       cx="680.69"
+       cy="1078.49"
+       fx="680.69"
+       fy="1078.49"
+       r="18.299999"
+       gradientUnits="userSpaceOnUse" />
+    <radialGradient
+       inkscape:collect="always"
+       xlink:href="#rgWhite"
+       id="radialGradient1247"
+       gradientTransform="scale(1.2793304,0.78165891)"
+       cx="568.32855"
+       cy="1352.5913"
+       fx="568.32855"
+       fy="1352.5913"
+       r="50.565502"
+       gradientUnits="userSpaceOnUse" />
+    <radialGradient
+       inkscape:collect="always"
+       xlink:href="#rgGuanine"
+       id="radialGradient1249"
+       gradientTransform="scale(1.0056558,0.99437599)"
+       cx="783.7572"
+       cy="1373.9773"
+       fx="783.7572"
+       fy="1373.9773"
+       r="51.419182"
+       gradientUnits="userSpaceOnUse" />
+    <radialGradient
+       inkscape:collect="always"
+       xlink:href="#rgGuanine"
+       id="radialGradient1251"
+       gradientTransform="scale(0.99995979,1.0000402)"
+       cx="890.48083"
+       cy="1388.8541"
+       fx="890.48083"
+       fy="1388.8541"
+       r="62.1675"
+       gradientUnits="userSpaceOnUse" />
+    <radialGradient
+       inkscape:collect="always"
+       xlink:href="#rgWhite"
+       id="radialGradient1253"
+       cx="787.60999"
+       cy="1318.6"
+       fx="787.60999"
+       fy="1318.6"
+       r="18.299999"
+       gradientUnits="userSpaceOnUse" />
+    <radialGradient
+       inkscape:collect="always"
+       xlink:href="#rgWhite"
+       id="radialGradient1255"
+       cx="950.28998"
+       cy="1365.09"
+       fx="950.28998"
+       fy="1365.09"
+       r="18.299999"
+       gradientUnits="userSpaceOnUse" />
+    <radialGradient
+       inkscape:collect="always"
+       xlink:href="#rgWhite"
+       id="radialGradient1257"
+       cx="765.53003"
+       cy="1410.92"
+       fx="765.53003"
+       fy="1410.92"
+       r="18.299999"
+       gradientUnits="userSpaceOnUse" />
+    <radialGradient
+       inkscape:collect="always"
+       xlink:href="#rgWhite"
+       id="radialGradient1259"
+       cx="877.08002"
+       cy="1445.27"
+       fx="877.08002"
+       fy="1445.27"
+       r="18.299999"
+       gradientUnits="userSpaceOnUse" />
+    <radialGradient
+       inkscape:collect="always"
+       xlink:href="#rgWhite"
+       id="radialGradient1261"
+       gradientTransform="scale(1.1643841,0.85882313)"
+       cx="736.79297"
+       cy="1609.1031"
+       fx="736.79297"
+       fy="1609.1031"
+       r="95.05452"
+       gradientUnits="userSpaceOnUse" />
+    <radialGradient
+       inkscape:collect="always"
+       xlink:href="#rgGuanine"
+       id="radialGradient1263"
+       gradientTransform="scale(1.1269821,0.88732558)"
+       cx="757.52368"
+       cy="1543.3512"
+       fx="757.52368"
+       fy="1543.3512"
+       r="106.06593"
+       gradientUnits="userSpaceOnUse" />
+    <marker
+       style="overflow:visible"
+       id="TriangleStart-7"
+       refX="0"
+       refY="0"
+       orient="auto-start-reverse"
+       inkscape:stockid="TriangleStart"
+       markerWidth="5.3244081"
+       markerHeight="6.155385"
+       viewBox="0 0 5.3244081 6.1553851"
+       inkscape:isstock="true"
+       inkscape:collect="always"
+       preserveAspectRatio="xMidYMid">
+      <path
+         transform="scale(0.5)"
+         style="fill:context-stroke;fill-rule:evenodd;stroke:context-stroke;stroke-width:1pt"
+         d="M 5.77,0 -2.88,5 V -5 Z"
+         id="path135-5" />
+    </marker>
+  </defs>
+  <rect
+     style="fill:#ffffff;stroke-width:1.01373;-inkscape-stroke:none;stop-color:#000000"
+     id="rect5559"
+     width="1696.7037"
+     height="1646.4722"
+     x="0"
+     y="0" />
+  <rect
+     width="69.723068"
+     height="71.910004"
+     x="481.92349"
+     y="73.495361"
+     fill="url(#lgAdenine)"
+     id="rect127"
+     style="fill:url(#lgAdenine);stroke-width:0.454182" />
+  <rect
+     width="78.082077"
+     height="65.730003"
+     x="817.95972"
+     y="20.285355"
+     fill="url(#lgThymine)"
+     id="rect129"
+     style="fill:url(#lgThymine);stroke-width:0.480637" />
+  <rect
+     width="85.625786"
+     height="60"
+     x="796.15961"
+     y="1403.6354"
+     fill="url(#lgGuanine)"
+     id="rect131"
+     style="fill:url(#lgGuanine);stroke-width:0.516306" />
+  <rect
+     width="107.57071"
+     height="60"
+     x="1085.2344"
+     y="1376.0254"
+     fill="url(#lgCytosine)"
+     id="rect133"
+     style="fill:url(#lgCytosine);stroke-width:0.577621" />
+  <switch
+     id="switch143"
+     style="font-size:72px"
+     transform="translate(107.12519,-113.63464)">
+    <text
+       x="387.64001"
+       y="249.16"
+       systemLanguage="ru"
+       id="trsvg102"><tspan
+         id="trsvg10">Аденин</tspan></text>
+    <text
+       x="387.64001"
+       y="249.16"
+       systemLanguage="de"
+       id="trsvg103"><tspan
+         id="trsvg11">Adenin</tspan></text>
+    <text
+       x="387.64001"
+       y="249.16"
+       id="trsvg104-vi"
+       systemLanguage="vi"><tspan
+         id="trsvg12-vi">Ađênin</tspan></text>
+    <text
+       x="387.64001"
+       y="249.16"
+       id="trsvg104"><tspan
+         id="trsvg12">A</tspan></text>
+  </switch>
+  <switch
+     id="switch153"
+     style="font-size:72px"
+     transform="translate(115.52504,-113.63464)">
+    <text
+       x="997.56"
+       y="1546.08"
+       systemLanguage="ru"
+       id="trsvg105"><tspan
+         id="trsvg13">Цитозин</tspan></text>
+    <text
+       x="997.56"
+       y="1546.08"
+       systemLanguage="de"
+       id="trsvg106"><tspan
+         id="trsvg14">Cytosin</tspan></text>
+    <text
+       x="997.56"
+       y="1546.08"
+       id="trsvg107-vi"
+       systemLanguage="vi"><tspan
+         id="trsvg15-vi">Xitôzin</tspan></text>
+    <text
+       x="997.56"
+       y="1546.08"
+       id="trsvg107"><tspan
+         id="trsvg15">C</tspan></text>
+  </switch>
+  <switch
+     id="switch163"
+     style="font-size:72px"
+     transform="translate(121.85363,-115.55371)">
+    <text
+       x="695.96002"
+       y="1573.39"
+       systemLanguage="ru"
+       id="trsvg108"><tspan
+         id="trsvg16">Гуанин</tspan></text>
+    <text
+       x="695.96002"
+       y="1573.39"
+       systemLanguage="de"
+       id="trsvg109"><tspan
+         id="trsvg17">Guanin</tspan></text>
+    <text
+       x="695.96002"
+       y="1573.39"
+       id="trsvg110-vi"
+       systemLanguage="vi"><tspan
+         id="trsvg18-vi">Guanin</tspan></text>
+    <text
+       x="695.96002"
+       y="1573.39"
+       id="trsvg110"><tspan
+         id="trsvg18">G</tspan></text>
+  </switch>
+  <switch
+     id="switch173"
+     style="font-size:72px"
+     transform="translate(132.41571,-113.63464)">
+    <text
+       x="702.26001"
+       y="189.37"
+       systemLanguage="ru"
+       id="trsvg111"><tspan
+         id="trsvg19">Тимин</tspan></text>
+    <text
+       x="702.26001"
+       y="189.37"
+       systemLanguage="de"
+       id="trsvg112"><tspan
+         id="trsvg20">Thymin</tspan></text>
+    <text
+       x="702.26001"
+       y="189.37"
+       id="trsvg113-vi"
+       systemLanguage="vi"><tspan
+         id="trsvg21-vi">Timin</tspan></text>
+    <text
+       x="702.26001"
+       y="189.37"
+       id="trsvg113"><tspan
+         id="trsvg21">T</tspan></text>
+  </switch>
+  <g
+     font-size="28px"
+     font-weight="bold"
+     text-anchor="middle"
+     id="g502"
+     transform="translate(3.0858102,-113.63464)">
+    <g
+       id="pdb1">
+      <path
+         d="m 458.59,472.22 -16.43,57.52 h -65.73 l -16.55,-60.45 47.77,-36.51 z"
+         fill="url(#rgDeoxyribose)"
+         id="path177"
+         style="fill:url(#radialGradient1209)" />
+      <circle
+         cx="406.82999"
+         cy="436.07001"
+         r="18.299999"
+         fill="url(#rgWhite)"
+         id="circle179"
+         style="fill:url(#radialGradient1211)" />
+      <circle
+         cx="267.92001"
+         cy="310.54001"
+         r="26"
+         fill="url(#rgYellow)"
+         id="circle181"
+         style="fill:url(#radialGradient1213)" />
+      <path
+         class="structure"
+         d="m 253,309.59 -33,-9 m 0,-6 33,9 m 27,-5 20,-25 m -59,73 18,-25 m 18,-4 28,24 m 91,100 -38,28 m -41.5,-104.09 -5.5,63.09 47,41 20,60 h 64 l 18,-57 -42,-31 m 72,0 -30,31"
+         id="path183" />
+      <switch
+         id="switch187">
+        <text
+           x="306.66"
+           y="269.60001"
+           id="trsvg114"><tspan
+             id="trsvg22">O</tspan></text>
+      </switch>
+      <switch
+         id="switch191">
+        <text
+           x="202"
+           y="303.60001"
+           id="trsvg115"><tspan
+             id="trsvg23">O</tspan></text>
+      </switch>
+      <switch
+         id="switch195">
+        <text
+           x="268"
+           y="318.60001"
+           id="trsvg116"><tspan
+             id="trsvg24">P</tspan></text>
+      </switch>
+      <switch
+         id="switch199">
+        <text
+           x="316"
+           y="360.60001"
+           id="trsvg117"><tspan
+             id="trsvg25">O</tspan></text>
+      </switch>
+      <switch
+         id="switch204">
+        <text
+           x="226"
+           y="374.60001"
+           id="trsvg118"><tspan
+             id="trsvg26">−</tspan><tspan
+             dy="-5"
+             id="trsvg27">O</tspan></text>
+      </switch>
+      <switch
+         id="switch208">
+        <text
+           x="407"
+           y="441.60001"
+           id="trsvg119"><tspan
+             id="trsvg28">O</tspan></text>
+      </switch>
+    </g>
+    <switch
+       id="switch213">
+      <text
+         x="330"
+         y="274.59"
+         id="trsvg120"><tspan
+           id="trsvg29">−</tspan></text>
+    </switch>
+    <switch
+       id="switch217">
+      <text
+         x="636"
+         y="1578.6"
+         id="trsvg121"><tspan
+           id="trsvg30">OH</tspan></text>
+    </switch>
+    <use
+       xlink:href="#pdb1"
+       x="87.510002"
+       y="329.79001"
+       id="use219" />
+    <use
+       xlink:href="#pdb1"
+       x="178.34"
+       y="656.75"
+       id="use221" />
+    <use
+       xlink:href="#pdb1"
+       x="266.32999"
+       y="985.47998"
+       id="use223" />
+    <path
+       class="structure"
+       d="m 378,529.59 18,50 m 70,280 15,43 m 74,285 13,45 m 76,284 v 38"
+       id="path225" />
+    <g
+       id="pdb2">
+      <path
+         d="m 927.05,412.22 34.86,51.13 61.59,-22.08 -3.49,-61.59 -56.94,-18.59 z"
+         fill="url(#rgDeoxyribose)"
+         id="path227"
+         style="fill:url(#radialGradient1215)" />
+      <circle
+         cx="963.60999"
+         cy="457.60001"
+         r="18.299999"
+         fill="url(#rgWhite)"
+         id="circle229"
+         style="fill:url(#radialGradient1217)" />
+      <circle
+         cx="1102.33"
+         cy="588.90997"
+         r="26"
+         fill="url(#rgYellow)"
+         id="circle231"
+         style="fill:url(#radialGradient1219)" />
+      <path
+         class="structure"
+         d="m 952,450.59 -26,-37 38,-52 57,20 2,61 -45,16 m -87,-71 35,26 m 97,29 47,44 -11,45 m 7,24 28,25 m 22,-4 20,-23 m -18,35 33,7 m 0,6 -33,-7 m -15,6 -9,35"
+         id="path233" />
+      <switch
+         id="switch237">
+        <text
+           x="963"
+           y="471.60001"
+           id="trsvg122"><tspan
+             id="trsvg31">O</tspan></text>
+      </switch>
+      <switch
+         id="switch241">
+        <text
+           x="1055"
+           y="556.59998"
+           id="trsvg123"><tspan
+             id="trsvg32">O</tspan></text>
+      </switch>
+      <switch
+         id="switch246">
+        <text
+           x="1150"
+           y="549.59998"
+           id="trsvg124"><tspan
+             id="trsvg33">O</tspan><tspan
+             dy="5"
+             id="trsvg34">−</tspan></text>
+      </switch>
+      <switch
+         id="switch250">
+        <text
+           x="1105"
+           y="597.59998"
+           id="trsvg125"><tspan
+             id="trsvg35">P</tspan></text>
+      </switch>
+      <switch
+         id="switch254">
+        <text
+           x="1166"
+           y="610.59998"
+           id="trsvg126"><tspan
+             id="trsvg36">O</tspan></text>
+      </switch>
+      <switch
+         id="switch258">
+        <text
+           x="1090"
+           y="658.59998"
+           id="trsvg127"><tspan
+             id="trsvg37">O</tspan></text>
+      </switch>
+    </g>
+    <switch
+       id="switch263">
+      <text
+         x="1015"
+         y="339.60001"
+         id="trsvg128"><tspan
+           id="trsvg38">OH</tspan></text>
+    </switch>
+    <switch
+       id="switch267">
+      <text
+         x="1332"
+         y="1645.59"
+         id="trsvg129"><tspan
+           id="trsvg39">−</tspan></text>
+    </switch>
+    <use
+       xlink:href="#pdb2"
+       x="87.330002"
+       y="330.01999"
+       id="use269" />
+    <use
+       xlink:href="#pdb2"
+       x="175.63"
+       y="655.5"
+       id="use271" />
+    <use
+       xlink:href="#pdb2"
+       x="264.16"
+       y="984.12"
+       id="use273" />
+    <path
+       class="structure"
+       d="m 1021,381.59 2,-37 m 72,317 15,50 m 72.33,280.02 15,50 m 73.3,275.48 15,50"
+       id="path275" />
+    <g
+       id="adenine"
+       fill="url(#rgAdenine)"
+       style="fill:url(#radialGradient1235)">
+      <path
+         d="m 521.86,330.48 57.52,31.64 -14.79,59.98 -63.27,10.68 -27.94,-62.45 z"
+         id="path277"
+         style="fill:url(#radialGradient1221)" />
+      <path
+         d="m 579.38,360.47 60.81,-21.36 46.83,44.37 -11.5,61.63 -61.63,21.36 -48.48,-45.19 z"
+         id="path279"
+         style="fill:url(#radialGradient1223)" />
+      <g
+         fill="url(#rgWhite)"
+         id="g289"
+         style="fill:url(#radialGradient1233)">
+        <circle
+           cx="523.51001"
+           cy="328.89001"
+           r="18.299999"
+           id="circle281"
+           style="fill:url(#radialGradient1225)" />
+        <circle
+           cx="685.03003"
+           cy="385.48001"
+           r="18.299999"
+           id="circle283"
+           style="fill:url(#radialGradient1227)" />
+        <circle
+           cx="499.67999"
+           cy="431.14001"
+           r="18.299999"
+           id="circle285"
+           style="fill:url(#radialGradient1229)" />
+        <circle
+           cx="613.90002"
+           cy="465.64999"
+           r="18.299999"
+           id="circle287"
+           style="fill:url(#radialGradient1231)" />
+      </g>
+      <path
+         class="structure"
+         d="m 512,337.59 -37,34 19,45 m 19,15 53,-10 14,-59 -45,-26 m 31,85 35,33 m 25,9 50,-18 9,-51 m -11,-23 -34,-31 -60,22 m 70,-74 -10,52 m -126,4 -30,27 m 101,-1 -11,46 m 54,39 40,-14 m -1,-68 -27,-24"
+         id="path291" />
+    </g>
+    <use
+       xlink:href="#adenine"
+       transform="matrix(-0.97029573,0.2419219,0.2419219,0.97029573,1437,501)"
+       id="use294" />
+    <switch
+       id="switch299">
+      <text
+         x="644"
+         y="285.60001"
+         id="trsvg130"><tspan
+           id="trsvg40">NH</tspan><tspan
+           dy="5"
+           id="trsvg41">2</tspan></text>
+    </switch>
+    <switch
+       id="switch303">
+      <text
+         x="523"
+         y="336.60001"
+         id="trsvg131"><tspan
+           id="trsvg42">N</tspan></text>
+    </switch>
+    <switch
+       id="switch307">
+      <text
+         x="686"
+         y="391.60001"
+         id="trsvg132"><tspan
+           id="trsvg43">N</tspan></text>
+    </switch>
+    <switch
+       id="switch311">
+      <text
+         x="500"
+         y="439.60001"
+         id="trsvg133"><tspan
+           id="trsvg44">N</tspan></text>
+    </switch>
+    <switch
+       id="switch315">
+      <text
+         x="613"
+         y="474.60001"
+         id="trsvg134"><tspan
+           id="trsvg45">N</tspan></text>
+    </switch>
+    <switch
+       id="switch321">
+      <text
+         x="866"
+         y="933.59998"
+         id="trsvg135"><tspan
+           id="trsvg46">H</tspan><tspan
+           dy="5"
+           id="trsvg47">2</tspan><tspan
+           dy="-5"
+           id="trsvg48">N</tspan></text>
+    </switch>
+    <switch
+       id="switch325">
+      <text
+         x="1011"
+         y="957.59998"
+         id="trsvg136"><tspan
+           id="trsvg49">N</tspan></text>
+    </switch>
+    <switch
+       id="switch329">
+      <text
+         x="865"
+         y="1045.6"
+         id="trsvg137"><tspan
+           id="trsvg50">N</tspan></text>
+    </switch>
+    <switch
+       id="switch333">
+      <text
+         x="1054"
+         y="1050.6"
+         id="trsvg138"><tspan
+           id="trsvg51">N</tspan></text>
+    </switch>
+    <switch
+       id="switch337">
+      <text
+         x="953"
+         y="1110.6"
+         id="trsvg139"><tspan
+           id="trsvg52">N</tspan></text>
+    </switch>
+    <g
+       id="cytosine">
+      <path
+         d="m 599.1,646.42 65.74,7.39 23.83,58.34 -37.8,49.3 -63.27,-7.39 -26.29,-56.7 z"
+         fill="url(#rgCytosine)"
+         id="path339"
+         style="fill:url(#rgCytosine)" />
+      <g
+         fill="url(#rgWhite)"
+         id="g345"
+         style="fill:url(#radialGradient1241)">
+        <circle
+           cx="688.19"
+           cy="710.85999"
+           r="18.299999"
+           id="circle341"
+           style="fill:url(#radialGradient1237)" />
+        <circle
+           cx="587.34003"
+           cy="753.83002"
+           r="18.299999"
+           id="circle343"
+           style="fill:url(#radialGradient1239)" />
+      </g>
+      <path
+         class="structure"
+         d="m 580,736.59 -18,-39 37,-51 64,8 20,42 m -5,29 -27,36 -51,-7 m 0,-99 -29,41 m 103,-3 -14,-30 m 3,-9 30,-44 m -39,150 18,43 m -6,2 -18,-43"
+         id="path347" />
+    </g>
+    <use
+       xlink:href="#cytosine"
+       transform="matrix(-0.9781476,0.20791169,0.20791169,0.9781476,1559,504)"
+       id="use350" />
+    <switch
+       id="switch355">
+      <text
+         x="697"
+         y="607.59998"
+         id="trsvg140"><tspan
+           id="trsvg53">NH</tspan><tspan
+           dy="5"
+           id="trsvg54">2</tspan></text>
+    </switch>
+    <switch
+       id="switch359">
+      <text
+         x="687"
+         y="720.59998"
+         id="trsvg141"><tspan
+           id="trsvg55">N</tspan></text>
+    </switch>
+    <switch
+       id="switch363">
+      <text
+         x="587"
+         y="762.59998"
+         id="trsvg142"><tspan
+           id="trsvg56">N</tspan></text>
+    </switch>
+    <switch
+       id="switch367">
+      <text
+         x="675"
+         y="828.59998"
+         id="trsvg143"><tspan
+           id="trsvg57">O</tspan></text>
+    </switch>
+    <switch
+       id="switch373">
+      <text
+         x="991"
+         y="1242.6"
+         id="trsvg144"><tspan
+           id="trsvg58">H</tspan><tspan
+           dy="5"
+           id="trsvg59">2</tspan><tspan
+           dy="-5"
+           id="trsvg60">N</tspan></text>
+    </switch>
+    <switch
+       id="switch377">
+      <text
+         x="1035"
+         y="1349.6"
+         id="trsvg145"><tspan
+           id="trsvg61">N</tspan></text>
+    </switch>
+    <switch
+       id="switch381">
+      <text
+         x="1141"
+         y="1370.6"
+         id="trsvg146"><tspan
+           id="trsvg62">N</tspan></text>
+    </switch>
+    <switch
+       id="switch385">
+      <text
+         x="1070"
+         y="1452.6"
+         id="trsvg147"><tspan
+           id="trsvg63">O</tspan></text>
+    </switch>
+    <g
+       id="thymine">
+      <path
+         d="m 691.16,971.16 61.58,8.13 27.89,54.62 -38.34,54.61 -61.59,-8.13 -25.57,-55.78 z"
+         fill="url(#rgThymine)"
+         id="path387"
+         style="fill:url(#rgThymine)" />
+      <g
+         fill="url(#rgWhite)"
+         id="g393"
+         style="fill:url(#radialGradient1247)">
+        <circle
+           cx="773.46997"
+           cy="1036.04"
+           r="18.299999"
+           id="circle389"
+           style="fill:url(#radialGradient1243)" />
+        <circle
+           cx="680.69"
+           cy="1078.49"
+           r="18.299999"
+           id="circle391"
+           style="fill:url(#radialGradient1245)" />
+      </g>
+      <path
+         class="structure"
+         d="m 675,1066.59 -19,-41 35,-54 64,8 19,43 m -3,26 -28,40 -50,-6 m -28,-59 28,-43 m -2,-9 -25,-56 m 110,22 -24,40 m 6,4 24,-40 m -18,189 -18,-43 m -6,2 18,43"
+         id="path395" />
+    </g>
+    <use
+       xlink:href="#thymine"
+       transform="matrix(-0.97029573,0.2419219,0.2419219,0.97029573,1280,-837)"
+       id="use398" />
+    <switch
+       id="switch402">
+      <text
+         x="787"
+         y="935.59998"
+         id="trsvg148"><tspan
+           id="trsvg64">O</tspan></text>
+    </switch>
+    <switch
+       id="switch406">
+      <text
+         x="784"
+         y="1045.6"
+         id="trsvg149"><tspan
+           id="trsvg65">NH</tspan></text>
+    </switch>
+    <switch
+       id="switch410">
+      <text
+         x="680"
+         y="1090.6"
+         id="trsvg150"><tspan
+           id="trsvg66">N</tspan></text>
+    </switch>
+    <switch
+       id="switch414">
+      <text
+         x="767"
+         y="1155.6"
+         id="trsvg151"><tspan
+           id="trsvg67">O</tspan></text>
+    </switch>
+    <switch
+       id="switch418">
+      <text
+         x="737"
+         y="261.60001"
+         id="trsvg152"><tspan
+           id="trsvg68">O</tspan></text>
+    </switch>
+    <switch
+       id="switch422">
+      <text
+         x="767"
+         y="365.60001"
+         id="trsvg153"><tspan
+           id="trsvg69">HN</tspan></text>
+    </switch>
+    <switch
+       id="switch426">
+      <text
+         x="878"
+         y="386.60001"
+         id="trsvg154"><tspan
+           id="trsvg70">N</tspan></text>
+    </switch>
+    <switch
+       id="switch430">
+      <text
+         x="809"
+         y="468.60001"
+         id="trsvg155"><tspan
+           id="trsvg71">O</tspan></text>
+    </switch>
+    <g
+       id="guanine"
+       fill="url(#rgGuanine)"
+       style="fill:url(#radialGradient1263)">
+      <path
+         d="m 736.48,1354.63 48.8,-39.51 54.62,29.05 -10.46,61.59 -61.59,11.62 z"
+         id="path432"
+         style="fill:url(#radialGradient1249)" />
+      <path
+         d="m 828.28,1406.92 49.96,44.16 58.11,-19.76 16.26,-66.23 -49.96,-38.35 -62.75,16.27 z"
+         id="path434"
+         style="fill:url(#radialGradient1251)" />
+      <g
+         fill="url(#rgWhite)"
+         id="g444"
+         style="fill:url(#radialGradient1261)">
+        <circle
+           cx="787.60999"
+           cy="1318.6"
+           r="18.299999"
+           id="circle436"
+           style="fill:url(#radialGradient1253)" />
+        <circle
+           cx="950.28998"
+           cy="1365.09"
+           r="18.299999"
+           id="circle438"
+           style="fill:url(#radialGradient1255)" />
+        <circle
+           cx="765.53003"
+           cy="1410.92"
+           r="18.299999"
+           id="circle440"
+           style="fill:url(#radialGradient1257)" />
+        <circle
+           cx="877.08002"
+           cy="1445.27"
+           r="18.299999"
+           id="circle442"
+           style="fill:url(#radialGradient1259)" />
+      </g>
+      <path
+         class="structure"
+         d="m 775,1324.59 -38,32 21,41 m 20,18 51,-9 12,-62 -39,-20 m 39,20 61,-18 36,28 m 11,24 -11,52 -48,17 m -26,-9 -35,-32 m -83,-49 30,-26 m 70,21 -9,49 m 57,38 36,-13 m 8,4 33,29 m -72,-133 11,-49 m 6,0 -11,49"
+         id="path446" />
+    </g>
+    <use
+       xlink:href="#guanine"
+       transform="matrix(-0.9781476,0.20791169,0.20791169,0.9781476,1413,-826)"
+       id="use449" />
+    <switch
+       id="switch453">
+      <text
+         x="915"
+         y="1272.6"
+         id="trsvg156"><tspan
+           id="trsvg72">O</tspan></text>
+    </switch>
+    <switch
+       id="switch457">
+      <text
+         x="788"
+         y="1323.6"
+         id="trsvg157"><tspan
+           id="trsvg73">N</tspan></text>
+    </switch>
+    <switch
+       id="switch461">
+      <text
+         x="961"
+         y="1375.6"
+         id="trsvg158"><tspan
+           id="trsvg74">NH</tspan></text>
+    </switch>
+    <switch
+       id="switch465">
+      <text
+         x="765"
+         y="1423.6"
+         id="trsvg159"><tspan
+           id="trsvg75">N</tspan></text>
+    </switch>
+    <switch
+       id="switch469">
+      <text
+         x="877"
+         y="1457.6"
+         id="trsvg160"><tspan
+           id="trsvg76">N</tspan></text>
+    </switch>
+    <switch
+       id="switch474">
+      <text
+         x="990"
+         y="1482.6"
+         id="trsvg161"><tspan
+           id="trsvg77">NH</tspan><tspan
+           dy="5"
+           id="trsvg78">2</tspan></text>
+    </switch>
+    <switch
+       id="switch478">
+      <text
+         x="783"
+         y="609.59998"
+         id="trsvg162"><tspan
+           id="trsvg79">O</tspan></text>
+    </switch>
+    <switch
+       id="switch482">
+      <text
+         x="920"
+         y="631.59998"
+         id="trsvg163"><tspan
+           id="trsvg80">N</tspan></text>
+    </switch>
+    <switch
+       id="switch486">
+      <text
+         x="770"
+         y="717.59998"
+         id="trsvg164"><tspan
+           id="trsvg81">HN</tspan></text>
+    </switch>
+    <switch
+       id="switch490">
+      <text
+         x="960"
+         y="722.59998"
+         id="trsvg165"><tspan
+           id="trsvg82">N</tspan></text>
+    </switch>
+    <switch
+       id="switch494">
+      <text
+         x="862"
+         y="780.59998"
+         id="trsvg166"><tspan
+           id="trsvg83">N</tspan></text>
+    </switch>
+    <switch
+       id="switch500">
+      <text
+         x="749"
+         y="827.59998"
+         id="trsvg167"><tspan
+           id="trsvg84">H</tspan><tspan
+           dy="5"
+           id="trsvg85">2</tspan><tspan
+           dy="-5"
+           id="trsvg86">N</tspan></text>
+    </switch>
+  </g>
+  <path
+     d="m 680.67581,158.85536 48.59,-16.09 m -29.37,123.37 49.68,-19.43 m -26.5,239.25 54,2 m -73,111 h 52 m -66.29,108 h 40.27 m 69.9,107 40.67,-2 m -32.19,110.97 50.68,1.07 m 70.73,222.19004 36.24,-18.06 m 13.47,121.28 49.61999,-18.54 m -14.39,125.14 49.45,-21.2"
+     fill="none"
+     stroke="#7f7f7f"
+     stroke-width="5"
+     stroke-dasharray="5, 5"
+     id="path504" />
+  <text
+     x="1001.1658"
+     y="179.92535"
+     systemLanguage="ru"
+     id="trsvg168"
+     style="font-size:48px"><tspan
+       id="trsvg87">3'-конец</tspan></text>
+  <text
+     x="1001.1658"
+     y="179.92535"
+     systemLanguage="de"
+     id="trsvg169"
+     style="font-size:48px"><tspan
+       id="trsvg88">3′ Ende</tspan></text>
+  <text
+     x="1001.1658"
+     y="179.92535"
+     id="trsvg170-vi"
+     systemLanguage="vi"
+     style="font-size:48px"><tspan
+       id="trsvg89-vi">Đầu 3'</tspan></text>
+  <text
+     x="1037.7074"
+     y="147.3136"
+     id="trsvg170"
+     style="font-size:48px"><tspan
+       id="trsvg89"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:72px;font-family:'Arial Rounded MT Bold';-inkscape-font-specification:'Arial Rounded MT Bold, Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal">3′ end</tspan></text>
+  <text
+     x="1320.5358"
+     y="1597.1154"
+     systemLanguage="ru"
+     id="trsvg171"
+     style="font-size:48px"><tspan
+       id="trsvg90">5'-конец</tspan></text>
+  <text
+     x="1320.5358"
+     y="1597.1154"
+     systemLanguage="de"
+     id="trsvg172"
+     style="font-size:48px"><tspan
+       id="trsvg91">5′ Ende</tspan></text>
+  <text
+     x="1320.5358"
+     y="1597.1154"
+     id="trsvg173-vi"
+     systemLanguage="vi"
+     style="font-size:48px"><tspan
+       id="trsvg92-vi">Đầu 5'</tspan></text>
+  <text
+     x="1430.5135"
+     y="1600.5537"
+     id="trsvg173"
+     style="font-size:48px"><tspan
+       id="trsvg92"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:72px;font-family:'Arial Rounded MT Bold';-inkscape-font-specification:'Arial Rounded MT Bold, Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal">5′ end</tspan></text>
+  <text
+     x="574.76581"
+     y="1519.3153"
+     systemLanguage="ru"
+     id="trsvg174"
+     style="font-size:48px"><tspan
+       id="trsvg93">3'-конец</tspan></text>
+  <text
+     x="574.76581"
+     y="1519.3153"
+     systemLanguage="de"
+     id="trsvg175"
+     style="font-size:48px"><tspan
+       id="trsvg94">3′ Ende</tspan></text>
+  <text
+     x="574.76581"
+     y="1519.3153"
+     id="trsvg176-vi"
+     systemLanguage="vi"
+     style="font-size:48px"><tspan
+       id="trsvg95-vi">Đầu 3'</tspan></text>
+  <text
+     x="435.07101"
+     y="1581.4358"
+     id="trsvg176"
+     style="font-size:48px"><tspan
+       id="trsvg95"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:72px;font-family:'Arial Rounded MT Bold';-inkscape-font-specification:'Arial Rounded MT Bold, Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal">3′ end</tspan></text>
+  <text
+     x="108.76581"
+     y="133.12535"
+     systemLanguage="ru"
+     id="trsvg177"
+     style="font-size:48px"><tspan
+       id="trsvg96">5'-конец</tspan></text>
+  <text
+     x="108.76581"
+     y="133.12535"
+     systemLanguage="de"
+     id="trsvg178"
+     style="font-size:48px"><tspan
+       id="trsvg97">5′ Ende</tspan></text>
+  <text
+     x="108.76581"
+     y="133.12535"
+     id="trsvg179-vi"
+     systemLanguage="vi"
+     style="font-size:48px"><tspan
+       id="trsvg98-vi">Đầu 5'</tspan></text>
+  <text
+     x="53.501022"
+     y="103.09323"
+     id="trsvg179"
+     style="font-size:48px"><tspan
+       id="trsvg98"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:72px;font-family:'Arial Rounded MT Bold';-inkscape-font-specification:'Arial Rounded MT Bold, Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal">5′ end</tspan></text>
+  <path
+     style="fill:#000000;stroke:#000000;stroke-width:20;stroke-linejoin:bevel;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#TriangleStart);stop-color:#000000"
+     d="M 128.23961,183.95808 437.36419,1406.2197"
+     id="path4187"
+     sodipodi:nodetypes="cc" />
+  <path
+     style="fill:#000000;stroke:#000000;stroke-width:20;stroke-linejoin:bevel;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#TriangleStart-7);stop-color:#000000"
+     d="M 1524.6867,1481.1758 1199.9127,265.33312"
+     id="path4187-9"
+     sodipodi:nodetypes="cc" />
+</svg>
