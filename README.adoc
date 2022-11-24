@@ -104,6 +104,7 @@ as explained at: https://stackoverflow.com/questions/24961127/how-to-create-a-vi
 *** link:OurBigBook_metadata_on_every_header.png[]: screenshot circa https://github.com/cirosantilli/ourbigbook/commit/8b78f8051faaf2123112748fd47c6393ce2733e6[]. Page: https://ourbigbook.com/donald-trump/chemistry
 *** link:OurBigBook_topic_page_with_title.png[]: screenshot circa https://github.com/cirosantilli/ourbigbook/commit/8b78f8051faaf2123112748fd47c6393ce2733e6[]. Page: https://ourbigbook.com/go/topic/vector-space
 *** link:OurBigBook_topic_index_page.png[]: screenshot circa https://github.com/cirosantilli/ourbigbook/commit/8b78f8051faaf2123112748fd47c6393ce2733e6[]. Page: https://ourbigbook.com
+** link:OurBigBook_debrief_2025.srt[]
 * link:Path_from_init_main.c_until_bzImage_in_the_Linux_kernel_4.19.jpg[]: https://unix.stackexchange.com/revisions/482978/16 Yes, this is a gedit screen capture.
 * link:prime-number-theorem[]: https://cirosantilli.com/prime-number-theorem
 * link:Rugae_vaginales_with_black_hole.jpg[]: https://en.wikipedia.org/wiki/File:Rugae_vaginales.jpg + https://commons.wikimedia.org/wiki/File:Black_Hole_Milkyway.jpg

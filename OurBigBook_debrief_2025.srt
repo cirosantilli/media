@@ -1,0 +1,881 @@
+1
+00:00:00,000 --> 00:00:10,320
+Hi I'm Ciro Santilli and just wanted to get a few things off my chest. I've been meaning to say
+
+2
+00:00:10,320 --> 00:00:17,000
+those things online for a while now. But many many things happened I got busy so before I
+
+3
+00:00:17,000 --> 00:00:26,240
+start my new job I want to take the chance to do it now. The first thing that I'd like to talk
+
+4
+00:00:26,240 --> 00:00:38,960
+about is the status of the failed mostly OurBigBook project so as a recap I received a one thousand
+
+5
+00:00:38,960 --> 00:00:50,500
+Monero donation last year to do the project for one year and I have done it mostly. That was about
+
+6
+00:00:50,500 --> 00:00:56,040
+100,000 pounds and more or less equivalent to one year salary that I would have had at the time.
+
+7
+00:00:56,040 --> 00:01:06,040
+I have already made a text post about this, but it felt like such a large donation deserved a little
+
+8
+00:01:06,040 --> 00:01:15,160
+video so, in summary, I did not get a single user for the project except myself.
+
+9
+00:01:15,160 --> 00:01:26,040
+This is somewhat expected, there are two things that I could have done: one is better tech
+
+10
+00:01:26,040 --> 00:01:33,560
+and the other would have been actually going after users by making content. Perhaps I should have done
+
+11
+00:01:33,560 --> 00:01:42,360
+content, but I did just a tech. Partly because I'm a nerd, and afraid of human contact. A little bit.
+
+12
+00:01:42,360 --> 00:01:50,360
+A little bit of laziness perhaps as well but the tech features were not easy and I do feel that some of them were
+
+13
+00:01:50,360 --> 00:01:58,360
+fundamental and maybe in the future one day they will actually lead to the project actually taking off. Maybe.
+
+14
+00:01:58,360 --> 00:02:14,120
+In terms of tech, I have focused on improving the OurBigBook Web website which is the component of the project where it's intended that multiple users
+
+15
+00:02:14,120 --> 00:02:21,640
+would collaborate on any subject that they want and it's basically the major innovation of the project.
+
+16
+00:02:21,640 --> 00:02:33,240
+OurBigBook Web has become much more stable and some of the features that I wanted that felt really
+
+17
+00:02:33,240 --> 00:02:40,040
+really cool and necessary I've done them. I've also done some which were more experimental and they took more
+
+18
+00:02:40,040 --> 00:02:45,320
+time than they should have taken because everything is harder than you think. But I did them you know.
+
+19
+00:02:45,320 --> 00:02:53,240
+Everything is harder than it seems at first and I greatly respect web developers.
+
+20
+00:02:54,600 --> 00:03:00,760
+Every time I have a web development experience it greatly increases my respect for web devs.
+
+21
+00:03:01,720 --> 00:03:09,480
+And my hatred for them for making such shitty frameworks at times. But also my respect for them. Yeah, it's not easy,
+
+22
+00:03:10,280 --> 00:03:18,440
+making a dynamic website. Besides the dynamic website I have also improved a little bit the static
+
+23
+00:03:18,440 --> 00:03:28,200
+website generation. I do feel that OurBigBook is a very good, at least for me, I made essentially
+
+24
+00:03:28,200 --> 00:03:38,040
+the perfect way for myself to take notes. I do think that was achieved and also the static website
+
+25
+00:03:38,040 --> 00:03:47,160
+generation is exactly what I wanted and the way you take notes is exactly what I wanted and one of the
+
+26
+00:03:47,160 --> 00:03:56,600
+major points which I wanted and I think I achieved is the ability for users to have one table of contents
+
+27
+00:03:56,600 --> 00:04:03,960
+with all their knowledge infinitely deep table of contents and where you can just go on and
+
+28
+00:04:03,960 --> 00:04:11,480
+go deeper and deeper and deeper and deeper (oh that's a nice apple) you can go deeper and deeper and deeper
+
+29
+00:04:12,520 --> 00:04:20,600
+into any subject that you want to any degree. And I do realize that part of the project's failure
+
+30
+00:04:21,240 --> 00:04:28,680
+is that this is such a niche desire that very few people, I imagine, want to take a subject and
+
+31
+00:04:28,680 --> 00:04:35,320
+rip the heck out of it you know. Just document everything there is to document on the subject.
+
+32
+00:04:36,600 --> 00:04:43,080
+But this is what I want and for quite a few subjects. And doing so for free you know. So this is a niche
+
+33
+00:04:43,080 --> 00:04:52,040
+thing. But I knew that from the start. And it's what we've all heard: that for user generated content
+
+34
+00:04:52,040 --> 00:04:59,720
+there is a very small number of people who generate a large amount of content and huge value. So I
+
+35
+00:04:59,720 --> 00:05:08,040
+knew that. The question is finding those people and convincing them that you have the the best platform
+
+36
+00:05:08,040 --> 00:05:15,160
+for them to do that on. Which so far I have failed. But there is hope that one day I'll manage to
+
+37
+00:05:15,160 --> 00:05:22,360
+convince someone. There is hope, we'll see. So that's a summary of what happened. I was doing the
+
+38
+00:05:22,360 --> 00:05:29,480
+tech tech features and I didn't really directly outreach to university students which would have been the
+
+39
+00:05:30,360 --> 00:05:39,640
+the primary primary niche users that I had in mind. And basically to acquire
+
+40
+00:05:39,640 --> 00:05:46,600
+them I would have had to, I think, help them study for the university courses. Which is something
+
+41
+00:05:46,600 --> 00:05:54,280
+that I would still want to try and do. Because the whole reason for me doing this website is that
+
+42
+00:05:56,040 --> 00:06:01,640
+when I was at uni, and at school, I felt it could all be so much better and better explained you
+
+43
+00:06:01,640 --> 00:06:14,840
+know. So I do think it would be, if I didn't need money, I might actually do that you know. I'm really kind
+
+44
+00:06:14,840 --> 00:06:22,280
+of burned out of doing tech features (without active users). If I had more time for the project I don't think I'd do any more tech
+
+45
+00:06:22,280 --> 00:06:30,520
+features immediately. I would really focus exclusively on building a community and yeah I would give this
+
+46
+00:06:30,520 --> 00:06:42,440
+a serious try. Which would be of the likes you know: go to a nearby university which I have I'm
+
+47
+00:06:42,440 --> 00:06:52,200
+currently in Oxford. But I'm moving soon. And then decide for a course like
+
+48
+00:06:52,200 --> 00:06:59,000
+mathematics physics, these are the obvious choices. And then pick the course and try to
+
+49
+00:06:59,000 --> 00:07:06,360
+help the students do the courses and learn the courses as well as possible. I did research this a
+
+50
+00:07:06,360 --> 00:07:13,720
+lot like what would be the best course to go after. And at least in Oxford the mathematics course seems
+
+51
+00:07:13,720 --> 00:07:23,960
+like the easiest choice. The main reason is because of how open it is. They're putting all their
+
+52
+00:07:23,960 --> 00:07:30,200
+lecture notes and exercise sheets online more and more. And that is something to be very respected.
+
+53
+00:07:30,840 --> 00:07:37,080
+And in some cases even the solutions, they're trying to you know upload solutions themselves. Which would
+
+54
+00:07:37,080 --> 00:07:46,440
+somewhat compete with what I would be doing. But I do believe that with a exclusive focus on helping
+
+55
+00:07:46,440 --> 00:07:53,640
+the students you know we would be able to create better educational content. And that's what I
+
+56
+00:07:53,640 --> 00:08:00,760
+wanted to to try, like exclusive focus on the students. Which is not what most faculty have of course they
+
+57
+00:08:00,760 --> 00:08:04,680
+they have to do research and they're extremely pressured for novel results. So
+
+58
+00:08:04,680 --> 00:08:17,240
+I do think if I had more time one more year it would be worth giving that a shot. I think it is risky
+
+59
+00:08:17,240 --> 00:08:24,120
+business. Part of me also feels that maybe I'd be wasting my life and I could be doing something better
+
+60
+00:08:24,120 --> 00:08:33,720
+as well. But I don't think it's something has ever been done. Some students have you know taken amazing
+
+61
+00:08:33,720 --> 00:08:39,800
+lecture notes and tried to cover as much as possible. But I do believe that being a student you're already
+
+62
+00:08:39,800 --> 00:08:50,600
+under so much pressure to pass the bloody exams that you know you can only do so much. So someone external
+
+63
+00:08:50,600 --> 00:08:56,760
+with a deep interest in the subject and a deep empathy towards the students trying to do that
+
+64
+00:08:58,040 --> 00:09:04,280
+I'm not sure it has ever been done to the level that I might be able to do. So it is an interesting
+
+65
+00:09:04,280 --> 00:09:12,120
+experiment. So I did go to the mathematics institute of the university of Oxford, which I'm very grateful
+
+66
+00:09:12,120 --> 00:09:17,480
+for them being so open. They have a cafe downstairs and you could go into lecture rooms if you wanted you
+
+67
+00:09:17,480 --> 00:09:24,760
+know watch some courses. I'm kind of old I think they'd look weird at me but I'd get away with it
+
+68
+00:09:24,760 --> 00:09:32,520
+I think. so I do get you know somewhat access to the students and did work there many many times. So I
+
+69
+00:09:32,520 --> 00:09:38,520
+did get watch to their movements and understand more which courses they are taking. But I didn't directly reach
+
+70
+00:09:38,520 --> 00:09:46,440
+out to them. The bar is quite high right: they're smart. So I would need something quite good not to be
+
+71
+00:09:47,400 --> 00:09:54,920
+you know, so they don't think I'm completely weird and worthless. But, it could be met I think, and
+
+72
+00:09:54,920 --> 00:10:01,480
+if I had met the bar on a course I would want to try and advertise it. I don't know how it is a difficult
+
+73
+00:10:01,480 --> 00:10:09,160
+question. but I mean put a note in front of my laptop here's a solved version of this course X
+
+74
+00:10:09,720 --> 00:10:15,880
+link to it online any question talk to me for free. I don't know you know they have hundreds of
+
+75
+00:10:15,880 --> 00:10:24,200
+students maybe one or two pick it up and see that I'm amazing who knows. It's just a bit of a hail mary but
+
+76
+00:10:24,200 --> 00:10:35,800
+it should be worth trying. Another thing that I should mention is that my personality
+
+77
+00:10:35,800 --> 00:10:42,920
+is being lazy. I am the lazy guy that Bill Gates talks about, that should get the hard task.
+
+78
+00:10:44,040 --> 00:10:53,800
+So I never push myself to burnout ever and that has ups and downs. What it means basically
+
+79
+00:10:53,800 --> 00:11:00,200
+is that I just keep doing the thing if it's interesting for a long time you know. And whatever
+
+80
+00:11:00,200 --> 00:11:09,720
+I have a deep interest on eventually I get it you know but it's not fast. So it's not like I was
+
+81
+00:11:09,720 --> 00:11:17,880
+doing the projects 12 hours a day every day. But I did do it seriously. But I also you know sometimes
+
+82
+00:11:17,880 --> 00:11:25,400
+how to take time off to look after my family. Another thing that I did which detracted me a little bit
+
+83
+00:11:25,400 --> 00:11:35,320
+from the project was a few small not so small side projects. It is a bit ridiculous that I should do
+
+84
+00:11:35,320 --> 00:11:43,640
+side projects when I'm doing basically my dream project. But it is also part of my personality.
+
+85
+00:11:43,640 --> 00:11:53,880
+I just had to do this kind of thing, otherwise I get too too tired of a given
+
+86
+00:11:53,880 --> 00:12:03,000
+subject. One thing particular that I did was pushing the CIA Covert Communication Websites research
+
+87
+00:12:03,000 --> 00:12:13,960
+a little bit further. And that did reach the you know had a web article on the Daily Mail so I think
+
+88
+00:12:13,960 --> 00:12:19,640
+it was worth it you know to get my name out there, potentially reach new people.
+
+89
+00:12:21,720 --> 00:12:26,360
+But I was always conscious that I should be getting back to OurBigBook now.
+
+90
+00:12:27,240 --> 00:12:31,720
+It was just in this case I was doing that project a little bit obsessively because
+
+91
+00:12:31,720 --> 00:12:37,240
+it felt that it was something actually big and novel and it is I do believe one of my most
+
+92
+00:12:37,240 --> 00:12:43,560
+departed contributions to the world so far. So I think it was worth it, time will tell.
+
+93
+00:12:46,040 --> 00:12:55,240
+As for the future of the OurBigBook project. Immediately what's gonna happen now is I'm gonna
+
+94
+00:12:55,240 --> 00:13:03,560
+start a new job quite soon and I don't plan on doing any major features or content in the
+
+95
+00:13:03,560 --> 00:13:10,680
+foreseeable future. I will keep the website running and I plan to run keep it running for as long as I
+
+96
+00:13:10,680 --> 00:13:21,000
+live. It costs currently I think 16 dollars a month so I can handle that. And I will
+
+97
+00:13:21,000 --> 00:13:29,000
+continue to continue to use OurBigBook as my primary note-taking and publication mechanism.
+
+98
+00:13:30,120 --> 00:13:35,880
+I'm flexible in the sense that if there's another place where it's better to publish things where
+
+99
+00:13:35,880 --> 00:13:41,720
+it will be seen, more likely to be seen, I will use that and perhaps just link it to it from OurBigBook.
+
+100
+00:13:41,720 --> 00:13:51,400
+But for broader subjects which other websites such as Stack Overflow and Wikipedia don't cover
+
+101
+00:13:51,400 --> 00:13:58,920
+well, which is basically the the gap that OurBigBook was intended to fill, then the bulk will go into
+
+102
+00:13:58,920 --> 00:14:08,680
+OurBigBook. So this is the immediate future. We'll see maybe one day I'll pick up some university
+
+103
+00:14:08,680 --> 00:14:15,560
+courses here and there and try to solve them, and see if it generates some interest. But not planning
+
+104
+00:14:15,560 --> 00:14:21,240
+on doing that immediately, I'm gonna be starting a new job and I want to focus on that.
+
+105
+00:14:22,200 --> 00:14:29,560
+About the new job, it is you know, still low-level tech. I will be moving out of Oxford
+
+106
+00:14:29,560 --> 00:14:40,040
+but the new location, in the UK, is also whole home to a major university, so that does open some
+
+107
+00:14:40,040 --> 00:14:46,680
+doors potentially. It's not very likely but there is a potential that this will help.
+
+108
+00:14:47,960 --> 00:14:56,760
+About potential future donations which, if someone is crazy enough donates to a failure such as me,
+
+109
+00:14:56,760 --> 00:15:06,600
+I have clarified on a text post I cannot accept anonymous donations anymore as I have for
+
+110
+00:15:06,600 --> 00:15:14,600
+this a thousand Monero donation, which is a shame but it's the way society works. There is
+
+111
+00:15:14,600 --> 00:15:21,320
+essentially no way of preventing money laundering if you allow anonymous donations. In my case for example
+
+112
+00:15:21,320 --> 00:15:29,720
+sometimes I think, wow like if I were a drug dealer and I just donated this money to myself, I'm currently
+
+113
+00:15:29,720 --> 00:15:37,400
+getting away with it. You know. I did program a lot and I have lots of GitHub comments I don't think
+
+114
+00:15:38,520 --> 00:15:48,600
+a drug dealer would have been able to. But I did get away with it, so far. As I made a text post about,
+
+115
+00:15:48,600 --> 00:15:54,760
+much earlier, Barclays had frozen my account for a week earlier, then I started
+
+116
+00:15:54,760 --> 00:16:03,080
+diversifying my accounts like crazy and much more recently they said: okay no more anonymous donations
+
+117
+00:16:03,080 --> 00:16:10,520
+or us will kick you out. So I don't expect that to be different for any other British bank.
+
+118
+00:16:10,520 --> 00:16:17,880
+So at least for the time being, while I will accept anonymous donations, I will not count them towards
+
+119
+00:16:17,880 --> 00:16:29,400
+if "I get X then I do Y calculations". I should also mention that although the amount that I
+
+120
+00:16:29,400 --> 00:16:35,320
+received was I mean amazing and extremely generous and I'm extremely thankful for it and equivalent to
+
+121
+00:16:35,320 --> 00:16:42,440
+a year's salary, of course when you do a failed project like this, it does put you in a worse
+
+122
+00:16:42,440 --> 00:16:50,120
+position than where you started off financially, a little bit. So for example my new job
+
+123
+00:16:50,120 --> 00:17:00,280
+will be paid 10% less than my previous one, two years ago. So I do take a little bit of a
+
+124
+00:17:00,280 --> 00:17:06,280
+hit, and I have a family which I have to take care of right, they're amazing and they have support
+
+125
+00:17:06,280 --> 00:17:12,600
+for me to some degree. So that has to be taken consideration. So I wouldn't be able to take
+
+126
+00:17:12,600 --> 00:17:19,800
+anymore like one year's salary right, it has to be much more. So it's this is something that has
+
+127
+00:17:19,800 --> 00:17:26,680
+to be considered. So it cannot be anonymous and it has to be more than your salary I don't know how much,
+
+128
+00:17:26,680 --> 00:17:35,640
+and just besides the money, this also degrades employees confidence in hiring you
+
+129
+00:17:35,640 --> 00:17:39,320
+because you know if you're really good and you might be getting more money to do something,
+
+130
+00:17:40,440 --> 00:17:45,800
+I might you know work for them for a while and then leave, which of course understandably is not
+
+131
+00:17:45,800 --> 00:17:51,160
+not great for employers because you know bringing bringing people up to speed is a considerable cost
+
+132
+00:17:51,160 --> 00:18:00,040
+and I understand that you know. But so asking for donations online does take a hit on your
+
+133
+00:18:00,040 --> 00:18:09,880
+employability. This time it was somewhat tough, I'd say, I didn't apply for any job, I only went for things
+
+134
+00:18:09,880 --> 00:18:16,360
+which I had some degree of interest in, which is low-level tech low-level semiconductor tech basically.
+
+135
+00:18:16,360 --> 00:18:23,720
+But even within that for which I have various levels of qualifications depending on the job it, wasn't
+
+136
+00:18:23,720 --> 00:18:33,720
+easy. I got like a lot of rejections. It's hard to quantify this kind of stuff but I do suspect
+
+137
+00:18:33,720 --> 00:18:39,320
+that this played a role, I have been asked "oh would you leave us if you should get another donation" and I
+
+138
+00:18:39,320 --> 00:18:45,320
+said "yes if it's enough I will leave you" obviously as with anyone. But in my case there is a greater
+
+139
+00:18:45,320 --> 00:18:50,840
+probability that this will actually happen. So these are things that have to be taken into account.
+
+140
+00:18:52,280 --> 00:18:58,280
+Another contributing factor to the difficulty of job search is that I think a lot
+
+141
+00:18:58,280 --> 00:19:04,680
+of the world resources have been pulled into LLMs. I do think there's some merit to
+
+142
+00:19:04,680 --> 00:19:13,720
+that, I am quite excited about you know LLM usage in mathematics and really trying to achieve AGI. I do
+
+143
+00:19:13,720 --> 00:19:19,480
+strongly believe that you already have enough computational power for AGI, so what I
+
+144
+00:19:19,480 --> 00:19:25,160
+call and I think others might call the "hexaflop hypothesis" that once you have hexaflops
+
+145
+00:19:25,160 --> 00:19:30,680
+of computation that's enough to simulate the brain, because "how many neurons you have times
+
+146
+00:19:30,680 --> 00:19:36,280
+how many synapses each neuron has times how many times per second they fire" and that is a hexaflop.
+
+147
+00:19:36,280 --> 00:19:44,120
+So I do think there's a merit certain merit to going there maybe, to novel architectures not just
+
+148
+00:19:44,120 --> 00:19:52,040
+LLMs, but I'm not qualified in that and no one gave me a job on that. I did apply to some
+
+149
+00:19:52,040 --> 00:20:00,840
+companies. I do feel that companies are very, they can only evaluate how many years of experience you have
+
+150
+00:20:00,840 --> 00:20:09,240
+and what's your university. They are not able to evaluate you know your projects meaningfully. So
+
+151
+00:20:09,960 --> 00:20:17,080
+this is also which is something that I have right. Being a top this year you likely end up in top 18 or 17
+
+152
+00:20:17,080 --> 00:20:25,400
+year user on Stack Overflow for example, which is a notable achievement I would say. But most recruiters
+
+153
+00:20:25,400 --> 00:20:31,240
+don't take that into account. My current job did actually so I'm very thankful to them. It's not the
+
+154
+00:20:31,240 --> 00:20:40,760
+most exciting thing ever but it is good enough and there is a genuine degree of interest in doing
+
+155
+00:20:40,760 --> 00:20:48,760
+it. I've concluded that what I really need is I'll insert here now the name of the this is American
+
+156
+00:20:48,760 --> 00:20:54,920
+fellowship which pays 800 000 for creative people [MacArthur Fellowship] but they have to be in the US but that sounded like
+
+157
+00:20:56,040 --> 00:20:57,000
+the right one for me.
+
+158
+00:20:59,560 --> 00:21:05,320
+I should also mention that if you want to make things easy you could just donate a "I can retire
+
+159
+00:21:05,320 --> 00:21:12,440
+type for donation". I will do exclusively open projects until I die, open stem projects until I die if that
+
+160
+00:21:12,440 --> 00:21:21,320
+happens. Half joking here [such donation feels unlikely] but I mean I would do that. The exact amount is a tough question, it depends on
+
+161
+00:21:21,320 --> 00:21:30,200
+taxation, maybe four million to be very very on the safe side. So after tax two. Housing prices are
+
+162
+00:21:30,200 --> 00:21:39,400
+crazy right now in the places where people want to live. One million pounds for a house and then one
+
+163
+00:21:39,400 --> 00:21:48,120
+one million to invest in S&P 500 and live forever. That's kind of the goal. Another financial remark
+
+164
+00:21:48,120 --> 00:21:54,840
+semi-jokingly but is that I also feel kind of bad falling behind my peers financially a little bit.
+
+165
+00:21:54,840 --> 00:22:03,320
+I'm not destitute but I'm falling behind the hard-working peers that need perhaps more money than me.
+
+166
+00:22:03,320 --> 00:22:12,680
+It's kind of sad. So moving forward if I get any free time which is not likely in the immediate
+
+167
+00:22:12,680 --> 00:22:19,480
+term but maybe as I settle more into my job, I would be interested into looking into some higher tech
+
+168
+00:22:19,480 --> 00:22:26,680
+things, and I'm what I'm most passionate about I think would be trying to achieve AGI, or a little step
+
+169
+00:22:26,680 --> 00:22:32,840
+towards it. It's just too mind-blowing the fact that we might be able to actually achieve it in our
+
+170
+00:22:32,840 --> 00:22:41,720
+lifetimes, it is just too mind-blowing. This was my broad intention since I was doing my
+
+171
+00:22:41,720 --> 00:22:48,360
+undergrad you know in 2012 and 13 I made some choices toward the direction but I didn't push
+
+172
+00:22:48,360 --> 00:22:55,320
+hard enough. I also made some choices toward GPUs in 2015-16 but again didn't push for long enough
+
+173
+00:22:55,320 --> 00:23:05,880
+slash hard enough. I'd be retired by now if I had. So, I what I mean to say is of, course there
+
+174
+00:23:05,880 --> 00:23:11,560
+is this AI boom, which kind of peaks my interest as well, but I do have a genuine interest in that
+
+175
+00:23:11,560 --> 00:23:19,880
+area which kind of predates the current AI boom. Just I didn't push it hard enough as maybe I should
+
+176
+00:23:19,880 --> 00:23:24,440
+have. got a little bit distracted with education, which is I'm also extremely passionate about.
+
+177
+00:23:26,760 --> 00:23:35,240
+Within that area two aspects which I'd like to research on are one is
+
+178
+00:23:36,840 --> 00:23:43,640
+maths and code generation, because it it does feel that my job is dumb, most a programmer's job is dumb
+
+179
+00:23:43,640 --> 00:23:49,880
+most of the time, and it feels so automatable and there have been major progresses. I haven't fully
+
+180
+00:23:49,880 --> 00:23:58,360
+evaluated all the code generation mechanisms yet, but the general feeling is sometimes you
+
+181
+00:23:58,360 --> 00:24:06,120
+one shot problems and it's like oh my goodness I'm so glad, but others and for more complex problems,
+
+182
+00:24:06,120 --> 00:24:13,000
+which involve more internal data, which the model has not been trained on, for those they fail and once they
+
+183
+00:24:13,000 --> 00:24:19,400
+fail the first time they can't move forward, so you end up wasting more time trying to
+
+184
+00:24:19,400 --> 00:24:25,160
+prompt, than you if you were just solving the problem yourself. But I do believe that there's
+
+185
+00:24:26,440 --> 00:24:32,120
+even for not very useful things like you know pure mathematics or Project Euler problems
+
+186
+00:24:33,000 --> 00:24:41,160
+you know coding / mathematics computational problems, I do feel that there's an extreme beauty into
+
+187
+00:24:41,160 --> 00:24:49,160
+automatically solving that, and it is definitely a way to measure part of our progress towards AGI.
+
+188
+00:24:49,960 --> 00:24:55,880
+I would also be interested in doing more robotics oriented things I did consider applying for
+
+189
+00:24:55,880 --> 00:25:01,720
+jobs in the area but again no one would hire me because I have zero experience, but I have done a little
+
+190
+00:25:01,720 --> 00:25:08,280
+side project on that and I do have a gut feeling like many other people that
+
+191
+00:25:08,280 --> 00:25:17,080
+maybe having some robotics intuition in your models is going to be key towards AGI. I don't know, maybe not
+
+192
+00:25:17,080 --> 00:25:25,160
+but feels possible and worthwhile exploring. So that's another area which, through simulations
+
+193
+00:25:25,160 --> 00:25:31,080
+because who wants to deal with real robots right that's for losers, so with simulations mostly I think
+
+194
+00:25:31,080 --> 00:25:41,880
+that'll be very exciting. I'm also quite excited by the potential of doing ARC-AGI problems I won't have
+
+195
+00:25:41,880 --> 00:25:50,360
+the time for that unfortunately but it is quite intriguing to me because it does feel like some
+
+196
+00:25:50,360 --> 00:25:57,080
+problems which are very easy for humans to solve, untrained humans, essentially, maybe
+
+197
+00:25:57,080 --> 00:26:05,000
+standard western high school students, but still computers are struggling to solve them so
+
+198
+00:26:05,560 --> 00:26:11,560
+solving ARC-AGI would be also pretty cool. But on the other hand also there are so many
+
+199
+00:26:13,320 --> 00:26:20,440
+early retired finance and big tech bros doing that already that I don't know if I should compete with
+
+200
+00:26:20,440 --> 00:26:30,440
+them [https://ourbigbook.com/cirosantilli/arc-agi-is-a-black-hole-for-early-retired-tech-and-finance-bros]
+but it is a worthwhile pursuit I guess. If I were to ever do any more tech for the OurBigBook project
+
+201
+00:26:31,480 --> 00:26:38,760
+which is not what I would do initially, I don't believe that any tech unless you add AGI to it, is
+
+202
+00:26:38,760 --> 00:26:45,320
+going to be enough to attract users by itself, but if one day I were to add more features there are two
+
+203
+00:26:45,320 --> 00:26:51,880
+major outstanding features which would be quite cool to implement. They're not rocket science but
+
+204
+00:26:51,880 --> 00:26:59,560
+they are considerable which is what you see what you get editing and and being able to pull changes
+
+205
+00:26:59,560 --> 00:27:08,040
+back. So WYSIWYG would be you know both a local and the web maybe, something like Trillium Notes. I find
+
+206
+00:27:08,040 --> 00:27:16,680
+that pro project extremely interesting and feature wise so many interesting features, and maybe even
+
+207
+00:27:16,680 --> 00:27:26,440
+forking that, add support for OurBigBook markdown and restrict some of this less wieldy features. So that's one of
+
+208
+00:27:26,440 --> 00:27:33,000
+them, and that would greatly increase accessibility. For me it's not so bad because I'm so familiar with the
+
+209
+00:27:33,000 --> 00:27:40,600
+markup but when dealing with images for mathematical formulae, yeah I know having WYSIWYG even for me I
+
+210
+00:27:40,600 --> 00:27:49,400
+missed that. You know so I get it you know WYSIWYG is is worth one's time you know. And the other thing,
+
+211
+00:27:49,400 --> 00:27:54,920
+the thing about pulling changes back from OurBigBook Web so basically what that means is currently you can
+
+212
+00:27:54,920 --> 00:28:01,880
+write local files and push those files to Web, but if you edit on Web which is possible, there's no way to
+
+213
+00:28:03,000 --> 00:28:11,240
+pull those changes back and merge them without potentially losing your local stuff, so doing
+
+214
+00:28:11,240 --> 00:28:17,400
+that is would require to some extent implementing git or a git-like mechanism.
+
+215
+00:28:19,080 --> 00:28:25,560
+The initial version of OurBigBook was a GitLab fork, but I abandoned that, I think wisely,
+
+216
+00:28:26,280 --> 00:28:30,520
+trying to focus more first on the more innovative aspects of the project,
+
+217
+00:28:30,520 --> 00:28:37,240
+not get too bogged down git and existing code bases. But I do miss git now for that.
+
+218
+00:28:38,600 --> 00:28:45,000
+It's not so easy because locally you know on Web everything is split to the header and locally you
+
+219
+00:28:45,000 --> 00:28:51,400
+can have source files which have multiple headers, so this does require some thought it's not just
+
+220
+00:28:51,400 --> 00:28:59,080
+slapping git in twitter and end of story but it's not rocket science and could be inspired by git.
+
