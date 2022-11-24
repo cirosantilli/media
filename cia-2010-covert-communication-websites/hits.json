@@ -1,10 +1,5 @@
 [
 {
-  "domain": "alljohnny.com",
-  "archive": "https://web.archive.org/web/20040113025122/http://alljohnny.com/",
-  "comms": "https://secure.alljohnny.com/cgi-bin/memlog.cgi"
-},
-{
   "host": "all-sport-headlines.com",
   "archive": "https://web.archive.org/web/20110207144440/http://all-sport-headlines.com/",
   "comms": "https://web.archive.org/web/20110207144821/http://all-sport-headlines.com/birdie.jar"
@@ -509,6 +504,18 @@
   "comms": "https://web.archive.org/web/20130703034015oe_/http://explorealtmeds.com/med.jar"
 },
 {
+  "ip": "65.218.91.9",
+  "domain": "welcometonyc.net",
+  "archive": "https://web.archive.org/web/20101230071028/http://welcometonyc.net/",
+  "comms": "https://web.archive.org/web/20110226074139/http://www.welcometonyc.net/login.html"
+},
+{
+  "ip": "65.218.91.17",
+  "domain": "alljohnny.com",
+  "archive": "https://web.archive.org/web/20040113025122/http://alljohnny.com/",
+  "comms": "https://secure.alljohnny.com/cgi-bin/memlog.cgi"
+},
+{
   "ip": "66.45.179.192",
   "host": "thegraceofislam.com",
   "archive": "https://web.archive.org/web/20110202163201/http://thegraceofislam.com/",
@@ -546,6 +553,12 @@
   "archive": "https://web.archive.org/web/20110208151258/http://hitthepavementnow.com/",
   "comms": "https://web.archive.org/web/20110208151258/https://secure.hitthepavementnow.com/cgi-bin/running.cgi",
   "justdropped.com": "https://justdropped.com/drops/122611com.html"
+},
+{
+  "ip": "66.45.179.202",
+  "domain": "newimages.org",
+  "archive": "https://web.archive.org/web/20110921014639/http://www.newimages.org/",
+  "comms": "https://web.archive.org/web/20110921014639oe_/http://www.newimages.org/bmeter.jar"
 },
 {
   "ip": "66.45.179.203",
@@ -699,6 +712,12 @@
   "host": "runakonews.com",
   "archive": "https://web.archive.org/web/20110207154526/http://runakonews.com/",
   "comms": "https://web.archive.org/web/20110207154526/https://travel.runakonews.com/cgi-bin/health.cgi"
+},
+{
+  "ip": "66.104.173.164",
+  "domain": "shoppingadventure.net",
+  "archive": "https://web.archive.org/web/20101230020837/http://shoppingadventure.net/",
+  "comms": "https://web.archive.org/web/20101230020837oe_/http://shoppingadventure.net/shopping.jar"
 },
 {
   "ip": "66.104.173.165",
@@ -2040,6 +2059,12 @@
   "host": "everythingcricket.org",
   "archive": "https://web.archive.org/web/20110704090110/http://everythingcricket.org",
   "comms": "https://web.archive.org/web/20110704090136/http://www.everythingcricket.org/cricket.jar"
+},
+{
+  "ip": "216.105.98.156",
+  "domain": "familyhealthonline.net",
+  "archive": "https://web.archive.org/web/20110106035241/http://familyhealthonline.net/",
+  "comms": "https://web.archive.org/web/20130729093000/https://secure.familyhealthonline.net/cgi-bin/health.cgi"
 },
 {
   "ip": "219.90.61.110",
