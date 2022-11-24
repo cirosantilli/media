@@ -72,6 +72,7 @@ ffmpeg -y -ss 0.5 -i Hello_my_name_is_Ciro_Santilli.flac Hello_my_name_is_Ciro_S
 * link:matplotlib[]: https://github.com/cirosantilli/cirosantilli.github.io/tree/dev/matplotlib
 * link:meld.png[]: meld 3.20.4, Ubuntu 22.04. Originally for: https://cirosantilli.com/git-tips
 * link:multipage_refs/multipage_refs.pdf[]: generated from link:multipage_refs/multipage_refs.tex[] on Ubuntu 20.10 with `pdflatex`.
+* link:My_Bitcoin_blockchain_inscription_museum.srt[]: subtitles for https://www.youtube.com/watch?v=pKdxeaqXxa0
 * link:kernel-matrix/[]: Wikimedia Commons: https://commons.wikimedia.org/wiki/File:Funny_comparison_between_the_Linux_Kernel_and_The_Matrix_due_to_userland_memory_virtualization.png
 * link:ode.png[]: https://github.com/cirosantilli/cpp-cheat/blob/890c065b15a350b61b0780f5e47721b05df1f2f6/gsl/ode.md
 ** Also uploaded to Wikimedia Commons: https://commons.wikimedia.org/wiki/File:Van_der_Pol_oscillator_solution_and_phase_space_generated_with_GNU_Scientific_Library.png
