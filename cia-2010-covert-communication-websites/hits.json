@@ -43,7 +43,8 @@
   "ip": "62.22.60.46",
   "host": "flyingtimeline.com",
   "archive": "https://web.archive.org/web/20110207204610/http://flyingtimeline.com/",
-  "comms": "https://web.archive.org/web/20110207204640/http://flyingtimeline.com/aircraft.jar"
+  "comms": "https://web.archive.org/web/20110207204640/http://flyingtimeline.com/aircraft.jar",
+  "webmasterhome.cn": "http://domain.webmasterhome.cn/com/2012-03-06.asp"
 },
 {
   "ip": "62.22.60.48",
@@ -51,7 +52,8 @@
   "archive": "https://web.archive.org/web/20110130162455/http://currentcommunique.com/",
   "comms": "https://web.archive.org/web/20110130162717/http://currentcommunique.com/outdoor-activities-guide.swf",
   "ns": ["ns35.worldnic.com", "ns36.worldnic.com"],
-  "soa": { "serial": 109011611, "refresh": 10800, "retry": 3600, "expire": 3600 }
+  "soa": { "serial": 109011611, "refresh": 10800, "retry": 3600, "expire": 3600 },
+  "hupo.com": "http://static.hupo.com/expdomain_myadmin/2011-12-03（国际域名）%20.txt"
 },
 {
   "ip": "62.22.60.49",
@@ -60,7 +62,8 @@
   "comms": "https://web.archive.org/web/20110202011432/http://telecom-headlines.com/situation.js",
   "commsSize": 7666,
   "ns": ["ns93.worldnic.com", "ns94.worldnic.com"],
-  "soa": { "serial": 108052717, "refresh": 10800, "retry": 3600, "expire": 3600 }
+  "soa": { "serial": 108052717, "refresh": 10800, "retry": 3600, "expire": 3600 },
+  "hupo.com": "http://static.hupo.com/expdomain_myadmin/2014-07-14（国际域名）.txt"
 },
 {
   "ip": "62.22.60.52",
@@ -113,7 +116,9 @@
   },
   "mx": { "0": "secureserver.net", "10": "mailstore1.secureserver.net" },
   "ns": ["ns61.domaincontrol.com", "ns62.domaincontrol.com"],
-  "soa": { "serial": 2008122300, "refresh": 28800, "retry": 7200, "expire": 86400 }
+  "soa": { "serial": 2008122300, "refresh": 28800, "retry": 7200, "expire": 86400 },
+  "justdropped.com": "https://www.justdropped.com/drops/100211com.html",
+  "hupo.com": "http://static.hupo.com/expdomain_myadmin/2011-10-02（国际域名）%20.txt"
 },
 {
   "ip": "62.22.61.202",
@@ -133,7 +138,8 @@
   "ip": "62.22.61.204",
   "host": "hollywoodscreen.net",
   "archive": "https://web.archive.org/web/20110106082200/http://hollywoodscreen.net/",
-  "comms": "https://web.archive.org/web/20110106082232/http://hollywoodscreen.net/current.js"
+  "comms": "https://web.archive.org/web/20110106082232/http://hollywoodscreen.net/current.js",
+  "hupo.com": "http://static.hupo.com/expdomain_myadmin/2015-06-01（国际域名）.txt"
 },
 {
   "ip": "62.22.61.206",
@@ -151,19 +157,23 @@
   "ip": "62.22.61.217",
   "host": "court-masters.com",
   "archive": "https://web.archive.org/web/20110128080659/http://court-masters.com/",
-  "comms": "https://web.archive.org/web/20110129003221*/http://court-masters.com/rumors.jar"
+  "comms": "https://web.archive.org/web/20110129003221*/http://court-masters.com/rumors.jar",
+  "hupo.om": "http://static.hupo.com/expdomain_myadmin/2015-06-01（国际域名）.txt"
 },
 {
   "ip": "62.22.61.219",
   "host": "allworldstatistics.com",
   "archive": "https://web.archive.org/web/20110207151749/http://allworldstatistics.com/",
-  "comms": "https://web.archive.org/web/20110207151920/http://allworldstatistics.com/international.js"
+  "comms": "https://web.archive.org/web/20110207151920/http://allworldstatistics.com/international.js",
+  "hupo.com": "http://static.hupo.com/expdomain_myadmin/2016-06-03（国际域名）.txt",
+  "yoid.com": "http://yoid.com/bydate.php?d=2016-06-03&a=a"
 },
 {
   "ip": "62.22.61.220",
   "host": "newsjaka.com",
   "archive": "https://web.archive.org/web/20110208065006/http://newsjaka.com/",
-  "comms": "https://web.archive.org/web/20110208065144/http://newsjaka.com/journals.js"
+  "comms": "https://web.archive.org/web/20110208065144/http://newsjaka.com/journals.js",
+  "justdropped.com": "https://justdropped.com/drops/122611com.html"
 },
 {
   "ip": "63.130.160.50",
@@ -175,7 +185,9 @@
   "ip": "63.130.160.51:",
   "host": "hai-pow.com",
   "archive": "https://web.archive.org/web/20110204045740/http://hai-pow.com/",
-  "comms": "https://web.archive.org/web/20110204050101/http://hai-pow.com/haipow.jar"
+  "comms": "https://web.archive.org/web/20110204050101/http://hai-pow.com/haipow.jar",
+  "hupo.com": "http://static.hupo.com/expdomain_myadmin/2012-12-28（国际域名）.txt",
+  "justdropped.com": "https://justdropped.com/drops/122812com.html"
 },
 {
   "ip": "63.130.160.60",
@@ -187,7 +199,8 @@
   "ip": "64.16.204.55",
   "host": "holein1news.com",
   "archive": "https://web.archive.org/web/20101007201100/http://holein1news.com/",
-  "comms": "https://web.archive.org/web/20110207142541/http://holein1news.com/standings.jar"
+  "comms": "https://web.archive.org/web/20110207142541/http://holein1news.com/standings.jar",
+  "hupo.com": "http://static.hupo.com/expdomain_myadmin/2014-01-27（国际域名）.txt"
 },
 {
   "ip": "64.16.204.58",
@@ -217,7 +230,8 @@
   "ip": "65.61.127.174",
   "host": "dedrickonline.com",
   "archive": "https://web.archive.org/web/20101211095158/http://www.dedrickonline.com/",
-  "comms": "https://web.archive.org/web/20130909110245/http://dedrickonline.com/newsflash.js"
+  "comms": "https://web.archive.org/web/20130909110245/http://dedrickonline.com/newsflash.js",
+  "justdropped.com": "https://justdropped.com/drops/122913com.html"
 },
 {
   "ip": "65.61.127.175",
@@ -235,7 +249,8 @@
   "ip": "65.61.127.182",
   "host": "pangawana.com",
   "archive": "https://web.archive.org/web/20110203201604/http://pangawana.com/",
-  "comms": "https://web.archive.org/web/20110203201745/http://pangawana.com/communication.js"
+  "comms": "https://web.archive.org/web/20110203201745/http://pangawana.com/communication.js",
+  "hupo.com": "http://static.hupo.com/expdomain_myadmin/2013-12-30（国际域名）.txt"
 },
 {
   "ip": "65.61.127.183",
@@ -247,7 +262,8 @@
   "ip": "65.61.127.184",
   "host": "worldwildlifeadventure.com",
   "archive": "https://web.archive.org/web/20110210092954/http://worldwildlifeadventure.com/",
-  "comms": "https://web.archive.org/web/20110210093209/http://worldwildlifeadventure.com/webspeed.jar"
+  "comms": "https://web.archive.org/web/20110210093209/http://worldwildlifeadventure.com/webspeed.jar",
+  "hupo.com": "http://static.hupo.com/expdomain_myadmin/2014-05-11（国际域名）.txt"
 },
 {
   "ip": "65.61.127.186",
@@ -265,25 +281,29 @@
   "ip": "66.45.179.194",
   "host": "raulsonsglobalnews.com",
   "archive": "https://web.archive.org/web/20110202135422/http://raulsonsglobalnews.com/",
-  "comms": "https://web.archive.org/web/20110202135451/http://raulsonsglobalnews.com/Current.jar"
+  "comms": "https://web.archive.org/web/20110202135451/http://raulsonsglobalnews.com/Current.jar",
+  "hupo.com": "http://static.hupo.com/expdomain_myadmin/2011-11-12（国际域名）%20.txt"
 },
 {
   "ip": "66.45.179.199",
   "host": "attivitaestremi.com",
   "archive": "https://web.archive.org/web/20110128162039/http://attivitaestremi.com/",
-  "comms": "https://web.archive.org/web/20110128162039/https://secure.attivitaestremi.com/cgi-bin/windsurfing.cgi"
+  "comms": "https://web.archive.org/web/20110128162039/https://secure.attivitaestremi.com/cgi-bin/windsurfing.cgi",
+  "hupo.com": "http://static.hupo.com/expdomain_myadmin/2012-05-29（国际域名）.txt"
 },
 {
   "ip": "66.45.179.201",
   "host": "hitthepavementnow.com",
   "archive": "https://web.archive.org/web/20110208151258/http://hitthepavementnow.com/",
-  "comms": "https://web.archive.org/web/20110208151258/https://secure.hitthepavementnow.com/cgi-bin/running.cgi"
+  "comms": "https://web.archive.org/web/20110208151258/https://secure.hitthepavementnow.com/cgi-bin/running.cgi",
+  "justdropped.com": "https://justdropped.com/drops/122611com.html"
 },
 {
   "ip": "66.45.179.203",
   "host": "noticiascontinental.com",
   "archive": "https://web.archive.org/web/20110128170145/http://noticiascontinental.com/",
-  "comms": "https://web.archive.org/web/20110128170145/https://secure.noticiascontinental.com/cgi-bin/bra.cgi"
+  "comms": "https://web.archive.org/web/20110128170145/https://secure.noticiascontinental.com/cgi-bin/bra.cgi",
+  "hupo.com": "http://static.hupo.com/expdomain_myadmin/2011-08-26（国际域名）%20.txt"
 },
 {
   "ip": "66.45.179.205",
@@ -307,7 +327,9 @@
   "ip": "66.45.179.208",
   "host": "havenofgamerz.com",
   "archive": "https://web.archive.org/web/20110207193330/http://havenofgamerz.com/",
-  "comms": "https://web.archive.org/web/20110207193352/https://secure.havenofgamerz.com/cgi-bin/top.cgi"
+  "comms": "https://web.archive.org/web/20110207193352/https://secure.havenofgamerz.com/cgi-bin/top.cgi",
+  "hupo.com": "http://static.hupo.com/expdomain_myadmin/2014-01-13（国际域名）.txt",
+  "justdropped.com": "https://justdropped.com/drops/011314com.html"
 },
 {
   "ip": "66.45.179.210",
@@ -331,7 +353,9 @@
   "ip": "66.45.179.214",
   "host": "investmentintellect.com",
   "archive": "https://web.archive.org/web/20110202083352/http://investmentintellect.com/",
-  "comms": "https://web.archive.org/web/20110202083452/http://investmentintellect.com/funds.jar"
+  "comms": "https://web.archive.org/web/20110202083452/http://investmentintellect.com/funds.jar",
+  "hupo.com": "http://static.hupo.com/expdomain_myadmin/2011-12-04（国际域名）%20.txt",
+  "justdropped.com": "https://justdropped.com/drops/120411com.html"
 },
 {
   "ip": "66.45.179.215",
@@ -343,7 +367,8 @@
   "ip": "66.104.169.163",
   "host": "doctorsoncallsite.com",
   "archive": "https://web.archive.org/web/20110207142515/http://doctorsoncallsite.com/",
-  "comms": "https://web.archive.org/web/20110207142832/http://doctorsoncallsite.com/nutrition.jar"
+  "comms": "https://web.archive.org/web/20110207142832/http://doctorsoncallsite.com/nutrition.jar",
+  "hupo.com": "http://static.hupo.com/expdomain_myadmin/2014-01-20（国际域名）.txt"
 },
 {
   "ip": "66.104.169.164",
@@ -361,13 +386,16 @@
   "ip": "66.104.169.171",
   "host": "golf-on-holiday.com",
   "archive": "https://web.archive.org/web/20110201200208/http://golf-on-holiday.com/",
-  "comms": "https://web.archive.org/web/20110201200242/http://golf-on-holiday.com/golf.jar"
+  "comms": "https://web.archive.org/web/20110201200242/http://golf-on-holiday.com/golf.jar",
+  "justdropped.com": "https://justdropped.com/drops/071116com.html"
 },
 {
   "ip": "66.104.169.172",
   "host": "perspectiva-noticias.com",
   "archive": "https://web.archive.org/web/20110207221904/http://perspectiva-noticias.com/",
-  "comms": "https://web.archive.org/web/20110207221952js_/http://perspectiva-noticias.com/musica.js"
+  "comms": "https://web.archive.org/web/20110207221952js_/http://perspectiva-noticias.com/musica.js",
+  "hupo.com": "http://static.hupo.com/expdomain_myadmin/2012-10-30（国际域名）.txt",
+  "justdropped.com": "https://justdropped.com/drops/103012com.html"
 },
 {
   "ip": "66.104.169.175",
@@ -379,19 +407,23 @@
   "ip": "66.104.169.177",
   "host": "dojo-temple.com",
   "archive": "https://web.archive.org/web/20110207095057/http://dojo-temple.com/",
-  "comms": "https://web.archive.org/web/20110207095057/https://disciples.dojo-temple.com/cgi-bin/kama.cgi"
+  "comms": "https://web.archive.org/web/20110207095057/https://disciples.dojo-temple.com/cgi-bin/kama.cgi",
+  "hupo.com": "http://static.hupo.com/expdomain_myadmin/2013-11-24（国际域名）.txt"
 },
 {
   "ip": "66.104.169.179",
   "host": "neighbour-news.com",
   "archive": "https://web.archive.org/web/20100109023107/http://www.neighbour-news.com/",
-  "comms": "https://web.archive.org/web/20100109023107oe_/http://www.neighbour-news.com/bwmeter.jar"
+  "comms": "https://web.archive.org/web/20100109023107oe_/http://www.neighbour-news.com/bwmeter.jar",
+  "hupo.com": "http://static.hupo.com/expdomain_myadmin/2013-07-26（国际域名）.txt"
 },
 {
   "ip": "66.104.169.180",
   "host": "medicatechinfo.com",
   "archive": "https://web.archive.org/web/20100516142339/http://medicatechinfo.com/",
-  "comms": "https://web.archive.org/web/20100516142353/http://medicatechinfo.com/healthnow.js"
+  "comms": "https://web.archive.org/web/20100516142353/http://medicatechinfo.com/healthnow.js",
+  "hupo.com": "http://static.hupo.com/expdomain_myadmin/2015-09-12（国际域名）.txt",
+  "justdropped.com": "https://www.justdropped.com/drops/091215com.html"
 },
 {
   "ip": "66.104.169.181",
@@ -403,7 +435,8 @@
   "ip": "66.104.169.182",
   "host": "casanewsnow.com",
   "archive": "https://web.archive.org/web/20110201184819/http://casanewsnow.com/",
-  "comms": "https://web.archive.org/web/20110201184819oe_/http://casanewsnow.com/casanews.jar"
+  "comms": "https://web.archive.org/web/20110201184819oe_/http://casanewsnow.com/casanews.jar",
+  "hupo.com": "http://static.hupo.com/expdomain_myadmin/2011-12-03（国际域名）%20.txt"
 },
 {
   "ip": "66.104.173.163",
@@ -415,7 +448,9 @@
   "ip": "66.104.173.165",
   "host": "entertaining-ly.com",
   "archive": "https://web.archive.org/web/20110128210953/http://entertaining-ly.com/",
-  "comms": "https://web.archive.org/web/20110128211117/http://entertaining-ly.com/bmeter.jar"
+  "comms": "https://web.archive.org/web/20110128211117/http://entertaining-ly.com/bmeter.jar",
+  "hupo.com": "http://static.hupo.com/expdomain_myadmin/2012-03-30（国际域名）.txt",
+  "justdropped.com": "https://justdropped.com/drops/033012com.html"
 },
 {
   "ip": "66.104.173.166",
@@ -433,7 +468,8 @@
   "ip": "66.104.173.175",
   "host": "media-coverage-now.com",
   "archive": "https://web.archive.org/web/20100516132048/http://media-coverage-now.com/",
-  "comms": "https://web.archive.org/web/20110128144135/http://media-coverage-now.com/media-coverage-now.swf"
+  "comms": "https://web.archive.org/web/20110128144135/http://media-coverage-now.com/media-coverage-now.swf",
+  "justdropped.com": "https://justdropped.com/drops/091512com.html"
 },
 {
   "ip": "66.104.173.176",
@@ -481,7 +517,8 @@
   "ip": "66.104.173.184",
   "host": "armashoy.com",
   "archive": "https://web.archive.org/web/20110210112553/http://armashoy.com/",
-  "comms": "https://web.archive.org/web/20110210114225/http://armashoy.com/armashoy.swf"
+  "comms": "https://web.archive.org/web/20110210114225/http://armashoy.com/armashoy.swf",
+  "hupo.com": "http://static.hupo.com/expdomain_myadmin/2013-02-22（国际域名）.txt"
 },
 {
   "ip": "66.104.173.185",
@@ -498,13 +535,16 @@
   "ip": "66.104.173.189",
   "host": "hitpoint-gaming.com",
   "archive": "https://web.archive.org/web/20110208151030/http://hitpoint-gaming.com/",
-  "comms": "https://web.archive.org/web/20110208151033/http://hitpoint-gaming.com/hitpoint.js"
+  "comms": "https://web.archive.org/web/20110208151033/http://hitpoint-gaming.com/hitpoint.js",
+  "hupo.com": "http://static.hupo.com/expdomain_myadmin/2015-09-12（国际域名）.txt",
+  "justdropped.com": "https://www.justdropped.com/drops/091215com.html"
 },
 {
   "ip": "66.104.175.34",
   "host": "itwebtoday.com",
   "archive": "https://web.archive.org/web/20110202141204/http://itwebtoday.com/",
-  "comms": "https://web.archive.org/web/20110202141215/http://itwebtoday.com/itweb.js"
+  "comms": "https://web.archive.org/web/20110202141215/http://itwebtoday.com/itweb.js",
+  "justdropped.com": "https://justdropped.com/drops/071111com.html"
 },
 {
   "ip": "66.104.175.36",
@@ -516,13 +556,15 @@
   "ip": "66.104.175.40",
   "host": "beyondnetworknews.com",
   "archive": "https://web.archive.org/web/20110202205659/http://beyondnetworknews.com/",
-  "comms": "https://web.archive.org/web/20110202205659/https://ssl.beyondnetworknews.com/cgi-bin/local.cgi"
+  "comms": "https://web.archive.org/web/20110202205659/https://ssl.beyondnetworknews.com/cgi-bin/local.cgi",
+  "justdropped.com": "https://www.justdropped.com/drops/010618com.html"
 },
 {
   "ip": "66.104.175.41",
   "host": "grubbersworldrugbynews.com",
   "archive": "https://web.archive.org/web/20110202191712/http://grubbersworldrugbynews.com/",
-  "comms": "https://web.archive.org/web/20110202191728/http://grubbersworldrugbynews.com/team.js"
+  "comms": "https://web.archive.org/web/20110202191728/http://grubbersworldrugbynews.com/team.js",
+  "hupo.com": "http://static.hupo.com/expdomain_myadmin/2015-01-02（国际域名）.txt"
 },
 {
   "ip": "66.104.175.44",
@@ -539,7 +581,9 @@
   "ip": "66.104.175.46",
   "host": "infosharenews.com",
   "archive": "https://web.archive.org/web/20110201161254/http://infosharenews.com/",
-  "comms": "https://web.archive.org/web/20110201161313/http://infosharenews.com/livenews.jar"
+  "comms": "https://web.archive.org/web/20110201161313/http://infosharenews.com/livenews.jar",
+  "hupo.com": "http://static.hupo.com/expdomain_myadmin/2015-02-09（国际域名）.txt",
+  "justdropped.com": "https://www.justdropped.com/drops/020915com.html"
 },
 {
   "ip": "66.104.175.47",
@@ -551,7 +595,8 @@
   "ip": "66.104.175.48",
   "host": "worlddispatch.net",
   "archive": "https://web.archive.org/web/20101231111512/http://worlddispatch.net/",
-  "comms": "https://web.archive.org/web/20101231111653/http://worlddispatch.net/worlddispatch.swf"
+  "comms": "https://web.archive.org/web/20101231111653/http://worlddispatch.net/worlddispatch.swf",
+  "hupo.com": "http://static.hupo.com/expdomain_myadmin/2013-10-11（国际域名）.txt"
 },
 {
   "ip": "66.104.175.49",

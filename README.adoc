@@ -2,7 +2,7 @@
 
 Random media files I might copy paste somewhere. Blobs accepted.
 
-CC-BY-SA:
+CC-BY-SA by Ciro Santilli:
 
 * link:Android_AOSP_8.1.0_built_from_source_running_in_QEMU.png[]: https://stackoverflow.com/revisions/48310014/11
 * link:activatedgeek_LeNet-5_onnx.svg[]: https://github.com/activatedgeek/LeNet-5 ONNX vizualisation on https://netron.app/
@@ -32,6 +32,7 @@ CC-BY-SA:
 * link:End_of_Linux_boot_log_with_minimal_init_that_prints_FOOBAR.png[]: https://unix.stackexchange.com/questions/122717/how-to-create-a-custom-linux-distro-that-runs-just-one-program-and-nothing-else/238579#238579
 * link:Faster_than_light_implies_time_travel_diagram.svg[]: https://physics.stackexchange.com/questions/13001/does-superluminal-travel-imply-travelling-back-in-time/615079#615079
 * link:Five_year_old_Ciro_Santilli_playing_NES_on_a_joystick.jpg[]
+* link:Wikipedia_CatTree.png[]: 
 * link:Fixed_function_vs_unified_shader_GPU_diagram.svg[]: derived from https://commons.wikimedia.org/wiki/File:Unified_shader_model.svg[]. Created for: https://stackoverflow.com/questions/17789575/what-are-shaders-in-opengl-and-what-do-we-need-them-for/36211337#36211337
 * link:gem5_config_TimingSimpleCPU_12c917de54145d2d50260035ba7fa614e25317a3.svg[]: https://cirosantilli.com/linux-kernel-module-cheat/#gem5-event-queue-timingsimplecpu-syscall-emulation-freestanding-example-analysis 
 ** link:gem5_config_TimingSimpleCPU_caches_12c917de54145d2d50260035ba7fa614e25317a3.svg[]: https://cirosantilli.com/linux-kernel-module-cheat/#gem5-event-queue-timingsimplecpu-syscall-emulation-freestanding-example-analysis-with-caches
