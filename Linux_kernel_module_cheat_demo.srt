@@ -1,0 +1,200 @@
+1
+00:00:00,000 --> 00:00:04,800
+Linux kernel module cheat. This project is the perfect emulation setup to study and develop the Linux kernel,
+
+2
+00:00:04,800 --> 00:00:10,560
+kernel modules, as well as x86 and ARM assembly. One major feature of this project is that everything
+
+3
+00:00:10,560 --> 00:00:14,480
+is built from source. This means that you can inspect and GDB step debug
+
+4
+00:00:14,480 --> 00:00:17,920
+everything to perfectly understand how your system is working. To get started,
+
+5
+00:00:17,920 --> 00:00:20,800
+you can check out the quickstart instructions right here on the README.
+
+6
+00:00:23,360 --> 00:00:27,680
+First, let's clone the repository. You don't need to do a recursive clone.
+
+7
+00:00:35,720 --> 00:00:38,200
+Let's go into it.
+
+8
+00:00:38,560 --> 00:00:40,960
+Make sure Docker is installed. I already have it.
+
+9
+00:00:43,440 --> 00:00:45,360
+Let's set up the Python Virtual Environment.
+
+10
+00:00:49,040 --> 00:00:49,680
+Activate it.
+
+11
+00:00:52,640 --> 00:00:54,160
+Now we'll run some basic setup.
+
+12
+00:00:54,720 --> 00:01:04,160
+The next step is to make sure that we are running on Ubuntu 20.04. This is because the
+
+13
+00:01:04,160 --> 00:01:08,640
+Buildroot build only works on that version. In my case, I'm running on Ubuntu already,
+
+14
+00:01:08,640 --> 00:01:13,840
+so I'm just going to use Docker. But if you are running on Windows or macOS,
+
+15
+00:01:13,840 --> 00:01:19,040
+you could just use a virtual machine for Ubuntu 20.04. To do that, I'm going to create my Docker
+
+16
+00:01:19,040 --> 00:01:27,920
+container with this little helper. Then I'm going to go into it.
+
+17
+00:01:30,560 --> 00:01:32,880
+Let's just check that we are on Ubuntu 20.04.
+
+18
+00:01:36,480 --> 00:01:40,960
+And now we're ready to build. So this command here will download and build
+
+19
+00:01:40,960 --> 00:01:45,520
+everything that we need, including QEMU, Linux kernel, and all the userland.
+
+20
+00:01:49,520 --> 00:01:57,200
+So because it builds so much, it will take a few minutes.
+
+21
+00:02:00,560 --> 00:02:03,280
+Once the build has finished, we are now ready to run the simulation.
+
+22
+00:02:05,280 --> 00:02:11,520
+The run command boots Linux inside of QEMU. We are now left inside a userland shell inside
+
+23
+00:02:11,520 --> 00:02:18,080
+the emulator. And we can run regular userland commands like ls and pwd. These are provided
+
+24
+00:02:18,080 --> 00:02:23,520
+by the Buildroot userland packages. We can also try to insmod our test kernel module hello.ko.
+
+25
+00:02:27,440 --> 00:02:32,480
+And we see that it was successfully insmodded. Now let's quit the simulation with Ctrl A
+
+26
+00:02:32,480 --> 00:02:37,360
+followed by X. Because everything was built from source, it is very easy to modify any
+
+27
+00:02:37,360 --> 00:02:42,960
+part of our system. For example, let's try and add a hello message to the Linux kernel boot.
+
+28
+00:02:48,240 --> 00:02:54,480
+So we're searching for the start_kernel function, which is a bit like the main.
+
+29
+00:02:55,280 --> 00:03:03,360
+Then let's add a printk saying "hello, Linux kernel module cheat".
+
+30
+00:03:06,240 --> 00:03:10,160
+Let's save and exit. Then we'll build Linux again.
+
+31
+00:03:18,080 --> 00:03:28,160
+And now let's run the simulation again.
+
+32
+00:03:38,400 --> 00:03:41,920
+And here we can see there is our little test message.
+
+33
+00:03:41,920 --> 00:03:45,360
+Hello, Linux kernel module cheat. Because we have the source code available,
+
+34
+00:03:45,360 --> 00:03:48,400
+one thing we can do is GDB step debug pretty much anything.
+
+35
+00:03:49,120 --> 00:03:54,160
+So let's try and GDB step debug the Linux kernel. First, let's open a new terminal window.
+
+36
+00:03:54,880 --> 00:04:01,920
+And let's go inside Docker there as well. Back to the first terminal. Let's run,
+
+37
+00:04:01,920 --> 00:04:07,920
+but with the --gdb-wait flag added. So this makes QEMU weights for GDB to connect
+
+38
+00:04:07,920 --> 00:04:11,200
+before running the simulation. Now we go back to tab number two.
+
+39
+00:04:11,440 --> 00:04:17,760
+And let's do ./run-gdb and ask it to stop at the start_kernel function.
+
+40
+00:04:19,040 --> 00:04:22,880
+So here we see that GDB has put a breakpoint on start_kernel,
+
+41
+00:04:22,880 --> 00:04:26,480
+and then it has automatically continued the simulation. We're now left right at the start
+
+42
+00:04:26,480 --> 00:04:32,480
+kernel function. Let's do a next GDB command. Now we're over the printk that we had just added
+
+43
+00:04:33,200 --> 00:04:36,800
+and so on. We can also just list the source code as normal.
+
+44
+00:04:37,520 --> 00:04:41,440
+If you go back to the first terminal, we see that it is empty because the simulation is paused.
+
+45
+00:04:42,240 --> 00:04:48,560
+So let's do a continue on GDB. And back on the first terminal, Linux kernel finished booting.
+
+46
+00:04:49,360 --> 00:04:54,880
+And GDB is just hanging. If we do a control C for example, it will stop wherever the simulation
+
+47
+00:04:54,880 --> 00:05:00,400
+had been running at the current instruction here, the idle function, and we can continue
+
+48
+00:05:00,400 --> 00:05:06,320
+debugging as desired. So in summary, the Linux kernel module cheat aims to be an extremely clean way
+
+49
+00:05:06,320 --> 00:05:10,400
+to study systems programming and to make it very, very fun and easy to do.
+
+50
+00:05:10,400 --> 00:05:12,640
+Thank you for watching and make sure to give it a try.
+
