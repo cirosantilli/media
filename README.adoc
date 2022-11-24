@@ -147,6 +147,7 @@ libreoffice --convert-to epub test.odt
 
 Possibly not freely licensed:
 
+* link:2026-ielts-life-skills-b1-speaking-and-listening-pass-redacted.jpg[]
 * link:Apple_Think_different_1976_Think_mainstream_2011.png[]: cropped from https://wallpapersafari.com/w/RqYUEj
 * link:Baby_Hitler_vs_5_million_Jews_trolley_problem.jpg[]
 * link:Barclays_KYC_June_2025.png[]
