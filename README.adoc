@@ -89,6 +89,11 @@ as explained at: https://stackoverflow.com/questions/24961127/how-to-create-a-vi
 * link:Shimano_chain_plate_quicklink.svg[]: used at https://bicycles.stackexchange.com/questions/45958/how-do-i-open-a-master-link-in-a-chain/63904#63904
 * link:stack-overflow-data-dump/2019-03/users_rep_view.dat.7z[]: https://github.com/cirosantilli/algorithm-cheat/tree/63b360637c7e49b4c915c36854955e03f2faa90f/stack-overflow-data-dump#find-users-with-low-reputation-and-high-profile-view-count
 * link:test.odt[]: test ODT file created with LIbreOffice Writter 6.4.6
+** link:odt-libreoffice-7.5.5.2.pdf[]: link:test.odt[] exported to PDF with libreoffice 7.5.5.2 with:
++
+....
+libreoffice --convert-to pdf test.odt
+....
 * https://cirosantilli.com/oxford-nanopore-river-bacteria
 ** link:Qiagen_DNeasy_PowerWater_Kit_White_Precipitate.jpg[]
 * link:Sinusoidal_circular_wave_heatmap_generated_with_OpenGL_shader_at_60fps.gif[]: https://stackoverflow.com/revisions/39839788/7 on Ubuntu 19.10
