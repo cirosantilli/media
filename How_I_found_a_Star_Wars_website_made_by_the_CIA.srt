@@ -828,7 +828,7 @@ which are websites that track for this date,
 
 208
 00:08:21,360 --> 00:08:23,080
-I think the goal of thos websites
+I think the goal of those websites
 
 209
 00:08:23,080 --> 00:08:26,000
@@ -855,38 +855,33 @@ and I put it on GitHub, another little data set
 and contribution to the community, which is kind of cool.
 
 215
-00:08:35,560 --> 00:08:38,800
-Finally, like I said, I'm not an expert on any of this.
+00:08:35,560 --> 00:08:38,080
+Finally, I'm not an expert on any of this,
 
 216
-00:08:38,800 --> 00:08:41,680
-I just Googled and tried stuff out.
+00:08:38,080 --> 00:08:40,480
+I just Googled them, tried stuff out.
 
 217
-00:08:41,680 --> 00:08:43,560
-If you have any data sources,
+00:08:40,480 --> 00:08:42,600
+If you have any historic data sources,
 
 218
-00:08:43,560 --> 00:08:45,040
-which are historic data sources
+00:08:42,600 --> 00:08:43,880
+because those websites are down now,
 
 219
-00:08:45,040 --> 00:08:46,320
-because those websites are down now.
+00:08:43,880 --> 00:08:46,200
+so historic data sources or any ideas
 
 220
-00:08:46,320 --> 00:08:48,640
-So historic data sources or any ideas
+00:08:46,200 --> 00:08:48,080
+of the print fingerprints, let me know.
 
 221
-00:08:48,640 --> 00:08:51,280
-of other fingerprints, do let me know.
-
-222
-00:08:51,280 --> 00:08:54,480
+00:08:48,080 --> 00:08:51,000
 If you find something, you will be extremely clearly credited
 
-223
-00:08:54,480 --> 00:08:56,080
+222
+00:08:51,000 --> 00:08:52,600
 on the article and on Twitter.
-
