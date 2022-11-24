@@ -96,6 +96,7 @@ as explained at: https://stackoverflow.com/questions/24961127/how-to-create-a-vi
 * link:Path_from_init_main.c_until_bzImage_in_the_Linux_kernel_4.19.jpg[]: https://unix.stackexchange.com/revisions/482978/16 Yes, this is a gedit screen capture.
 * link:prime-number-theorem[]: https://cirosantilli.com/prime-number-theorem
 * link:Rugae_vaginales_with_black_hole.jpg[]: https://en.wikipedia.org/wiki/File:Rugae_vaginales.jpg + https://commons.wikimedia.org/wiki/File:Black_Hole_Milkyway.jpg
+* link:Spatial_index_rectangle_query.svg[] and link:Spatial_index_rectangle_query.png[]: https://stackoverflow.com/questions/2256364/what-is-a-spatial-index-and-when-should-i-use-it
 * link:Six_year_old_Ciro_Santilli_when_his_grandfather_offerd_him_an_electronic_keyboard.jpg[]: https://cirosantilli.com#ciro-santillis-musical-education
 * link:Shimano_chain_plate_quicklink.svg[]: used at https://bicycles.stackexchange.com/questions/45958/how-do-i-open-a-master-link-in-a-chain/63904#63904
 * link:stack-overflow-data-dump/2019-03/users_rep_view.dat.7z[]: https://github.com/cirosantilli/algorithm-cheat/tree/63b360637c7e49b4c915c36854955e03f2faa90f/stack-overflow-data-dump#find-users-with-low-reputation-and-high-profile-view-count
