@@ -2,14 +2,15 @@
 
 Random media files I might copy paste somewhere. Blobs accepted.
 
-CC-BY-SA by Ciro Santilli:
-
 The link:home/[] directory corresponds directly to the paths of gitignored output generated from: https://github.com/cirosantilli/cirosantilli.github.io[], often of form `path/to/prog.py` generates `path/to/prog.svg`. Explanations will be therefore located in that repository and not here.
+
+CC-BY-SA by Ciro Santilli:
 
 * link:Android_AOSP_8.1.0_built_from_source_running_in_QEMU.png[]: https://stackoverflow.com/revisions/48310014/11
 * link:activatedgeek_LeNet-5_onnx.svg[]: https://github.com/activatedgeek/LeNet-5 ONNX vizualisation on https://netron.app/
 * link:Bell_inequality_85_percent_bar_chart.svg[]: https://physics.stackexchange.com/questions/357039/why-is-the-quantum-venn-diagram-paradox-considered-a-paradox/597982#597982
 * link:BIOS_bare_metal_hello_world_running_on_a_Lenovo_ThinkPad_T430.jpg[]: https://github.com/cirosantilli/x86-bare-metal-examples/blob/dd48083603c4bd9a96ac4a186e011218618190e3/logo.jpg
+* link:Ciro_Santilli_as_a_child_buliding_with_boxes.jpg[]
 * link:Ciro_Santilli_in_front_of_a_lotus_field_at_the_West_Lake_in_Hangzhou_in_2012.jpg[]: https://en.wikipedia.org/wiki/West_Lake
 * link:Ciro_Santilli_portrait_as_Qing_emperor.jpg[]
 * link:Ciro_Santilli_with_a_stone_carved_Budai_in_the_Feilai_Feng_caves_near_the_Lingyin_Temple_in_Hangzhou_in_2012.jpg[]: https://en.wikipedia.org/wiki/Lingyin_Temple#Feilai_Feng_grottoes and https://commons.wikimedia.org/wiki/File:Maitreya_and_disciples_carving_in_Feilai_Feng_Caves.jpg
