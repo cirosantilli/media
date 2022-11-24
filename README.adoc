@@ -4,6 +4,8 @@ Random media files I might copy paste somewhere. Blobs accepted.
 
 CC-BY-SA by Ciro Santilli:
 
+The link:home/[] directory corresponds directly to the paths of gitignored output generated from: https://github.com/cirosantilli/cirosantilli.github.io[], often of form `path/to/prog.py` generates `path/to/prog.svg`. Explanations will be therefore located in that repository and not here.
+
 * link:Android_AOSP_8.1.0_built_from_source_running_in_QEMU.png[]: https://stackoverflow.com/revisions/48310014/11
 * link:activatedgeek_LeNet-5_onnx.svg[]: https://github.com/activatedgeek/LeNet-5 ONNX vizualisation on https://netron.app/
 * link:Bell_inequality_85_percent_bar_chart.svg[]: https://physics.stackexchange.com/questions/357039/why-is-the-quantum-venn-diagram-paradox-considered-a-paradox/597982#597982
