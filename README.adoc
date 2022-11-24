@@ -42,6 +42,8 @@ CC-BY-SA by Ciro Santilli:
 * link:Gymnasium_LunarLander-v3_manual_control.gif[]: https://ourbigbook.com/cirosantilli/farama-gymnasium
 * link:Linux_kernel_module_cheat_demo.srt[]: https://www.youtube.com/watch?v=fgDhe1tN50o
 * link:Linux_kernel_module_cheat_demo.png[]: https://www.youtube.com/watch?v=fgDhe1tN50o
+* link:Linux_kernel_module_cheat_presentation.srt[]: https://www.youtube.com/watch?v=HDJFyCma32U
+* link:Linux_kernel_module_cheat_presentation.png[]: https://www.youtube.com/watch?v=HDJFyCma32U
 * link:Wikipedia_CatTree.png[]: https://cirosantilli.com/wikipedia-cattree/
 * link:Runwayml_stable-diffusion_a-photograph-of-an-astronaut-riding-a-horse.png[]: https://cirosantilli.com/runwayml-stable-diffusion
 * link:Fixed_function_vs_unified_shader_GPU_diagram.svg[]: derived from https://commons.wikimedia.org/wiki/File:Unified_shader_model.svg[]. Created for: https://stackoverflow.com/questions/17789575/what-are-shaders-in-opengl-and-what-do-we-need-them-for/36211337#36211337
