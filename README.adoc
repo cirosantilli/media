@@ -28,10 +28,13 @@ CC-BY-SA by Ciro Santilli:
 * link:Ciro_Santilli_selfie_in_cycling_kit_with_old_cottages.mp4[]
 ** https://video.stackexchange.com/questions/33531/how-to-remove-background-from-video-without-green-screen-on-the-command-line
 ** https://stackoverflow.com/questions/55916977/remove-random-background-from-video-using-ffmpeg-or-python/78359959#78359959
-* link:C++_Heap_vs_BST_vs_hash_map_insert_time.png[]: https://stackoverflow.com/revisions/29548834/45
-* link:cirodown-metadata-after-fontawesome.png[]: https://cirosantilli.com/sponsor/updates/5#improve-header-summary-display
-* link:cirodown-metadata-before-fontawesome.png[]: https://cirosantilli.com/sponsor/updates/5#improve-header-summary-display
-* link:data/bst_vs_heap_vs_hashmap[]: https://stackoverflow.com/questions/6147242/heap-vs-binary-search-tree-bst/29548834#29548834
+* Heap vs BST for https://stackoverflow.com/questions/6147242/heap-vs-binary-search-tree-bst/29548834#29548834
+** link:C++_Heap_vs_BST_vs_hash_map_insert_time.png[]: https://stackoverflow.com/revisions/29548834/45
+** link:cirodown-metadata-after-fontawesome.png[]: https://cirosantilli.com/sponsor/updates/5#improve-header-summary-display
+** link:cirodown-metadata-before-fontawesome.png[]: https://cirosantilli.com/sponsor/updates/5#improve-header-summary-display
+** link:data/bst_vs_heap_vs_hashmap[]: https://stackoverflow.com/questions/6147242/heap-vs-binary-search-tree-bst/29548834#29548834
+** link:heap.svg[] and link:heap.png[]
+** link:bst.svg[] and link:bst.png[]
 * École Polytechnique
 ** link:Desk_of_Ciro_Santilli's_room_at_École_Polytechnique_as_he_as_in_the_middle_of_moving_out_in_2012.jpg[]
 * link:gitlab-logo-proposals[]: from 2015-08-13 moved in from https://github.com/cirosantilli/bak/tree/d877a39d8f63fc7c6ce54571181b6101625de008/gitlab-logo-proposals[]. There was some discussion on the GitLab feedback website at http://feedback.gitlab.com/forums/176466-general/suggestions/5759701-use-a-more-meaningful-logo (before that website was nuked and moved to a GitLab issue tracker) on what the new logo should be, this was before the fox. Ciro Santilli proposed these, but Sid Sijbrandij said that they should have Collaboration suggestion, not Laboratory ones! It has never crossed Ciro's mind that the Lab in GitLab was about Collaboration. Makes sense. Still, Ciro is somewhat proud of this design. The fox mascot logo is not meaningful at all!

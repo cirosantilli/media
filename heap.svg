@@ -1,0 +1,487 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Generator: Adobe Illustrator 10.0, SVG Export Plug-In . SVG Version: 3.0.0 Build 77)  -->
+
+<svg:svg
+   width="296.06912"
+   height="208.17059"
+   viewBox="0 0 285.54186 210.66864"
+   style="overflow:visible"
+   xml:space="preserve"
+   id="svg2623"
+   sodipodi:version="0.32"
+   inkscape:version="1.2.2 (b0a8486541, 2022-12-01)"
+   sodipodi:docname="heap.svg"
+   inkscape:output_extension="org.inkscape.output.svg.inkscape"
+   version="1.0"
+   inkscape:export-filename="heap.png"
+   inkscape:export-xdpi="184.4641"
+   inkscape:export-ydpi="184.4641"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:pdf="http://ns.adobe.com/pdf/1.3/"
+   xmlns:xap="http://ns.adobe.com/xap/1.0/"><svg:defs
+   id="defs2799"><inkscape:perspective
+   sodipodi:type="inkscape:persp3d"
+   inkscape:vp_x="0 : 163.10464 : 1"
+   inkscape:vp_y="0 : 1000 : 0"
+   inkscape:vp_z="289.33295 : 163.10464 : 1"
+   inkscape:persp3d-origin="144.66649 : 120.93797 : 1"
+   id="perspective2801" />
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+		
+				
+				
+			
+				
+				
+			
+				
+				
+			
+				
+				
+			
+				
+				
+			
+				
+				
+			
+				
+				
+			
+				
+				
+			
+				
+				
+			
+				
+				
+			
+				
+				
+			
+				
+				
+			
+				
+				
+			
+				
+				
+			
+				
+				
+			
+				
+				
+			
+				
+				
+			
+					
+					
+				
+					
+				
+					
+					
+				
+					
+				
+					
+					
+				
+					
+				
+					
+					
+				
+					
+				
+					
+					
+				
+					
+				
+					
+					
+				
+					
+				
+					
+					
+				
+					
+				
+					
+					
+				
+					
+				
+
+</svg:defs><sodipodi:namedview
+   inkscape:window-height="1129"
+   inkscape:window-width="1920"
+   inkscape:pageshadow="2"
+   inkscape:pageopacity="0.0"
+   guidetolerance="10.0"
+   gridtolerance="10.0"
+   objecttolerance="10.0"
+   borderopacity="1.0"
+   bordercolor="#666666"
+   pagecolor="#ffffff"
+   id="base"
+   showgrid="true"
+   inkscape:zoom="1.8817568"
+   inkscape:cx="18.068223"
+   inkscape:cy="159.15978"
+   inkscape:window-x="0"
+   inkscape:window-y="32"
+   inkscape:current-layer="svg2623"
+   inkscape:showpageshadow="2"
+   inkscape:pagecheckerboard="0"
+   inkscape:deskcolor="#d1d1d1"
+   inkscape:window-maximized="1"><inkscape:grid
+     type="xygrid"
+     id="grid2979"
+     visible="true"
+     enabled="true"
+     originx="-14.969435"
+     originy="15.276482" /></sodipodi:namedview>
+	<svg:metadata
+   id="metadata2625">
+<xpacket /><adobe-xap-filters />
+<rdf:RDF>
+
+ <rdf:Description
+   about="">
+  <pdf:Producer>Adobe PDF library 5.00</pdf:Producer>
+  <!-- pdf:CreationDate is aliased -->
+  <!-- pdf:ModDate is aliased -->
+  <!-- pdf:Creator is aliased -->
+ </rdf:Description>
+
+ <rdf:Description
+   about="">
+  <xap:CreateDate>2004-01-23T20:04:24-04:00</xap:CreateDate>
+  <xap:ModifyDate>2005-12-31T21:30:20Z</xap:ModifyDate>
+  <xap:CreatorTool>Adobe Illustrator 10.0</xap:CreatorTool>
+  <xap:MetadataDate>2004-01-23T20:25:01-05:00</xap:MetadataDate>
+ </rdf:Description>
+
+<cc:Work
+   rdf:about=""><dc:format>image/svg+xml</dc:format><dc:type
+     rdf:resource="http://purl.org/dc/dcmitype/StillImage" /></cc:Work></rdf:RDF>
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                <xpacket />
+			</svg:metadata>
+		
+	<svg:rect
+   style="fill:#ffffff;stroke-width:0;stroke-linejoin:bevel;stop-color:#000000"
+   id="rect12932"
+   width="299.62195"
+   height="210.66864"
+   x="-7.0416055"
+   y="0" /><svg:text
+   xml:space="preserve"
+   style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:20.24px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-position:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;font-variation-settings:normal;overflow:visible;vector-effect:none;fill:#ff0000;fill-opacity:1;stroke:#ff0000;stroke-width:2.024;stroke-linecap:butt;stroke-linejoin:bevel;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;-inkscape-stroke:none;stop-color:#000000"
+   x="112.54189"
+   y="23.247519"
+   id="text17307"><svg:tspan
+     sodipodi:role="line"
+     id="tspan17305"
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:25.3px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#000000;stroke:#000000;stroke-width:2.024;stroke-dasharray:none;stroke-opacity:1"
+     x="112.54189"
+     y="23.247519">Heap</svg:tspan></svg:text><svg:g
+   style="overflow:visible"
+   id="g2987"
+   transform="matrix(1.012,0,0,1.012,178.61826,71.948486)"><svg:circle
+   transform="translate(70.000004,-15)"
+   id="path2981"
+   style="display:inline;overflow:visible;visibility:visible;opacity:1;fill:none;fill-opacity:1;stroke:#000000;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;marker:none;enable-background:accumulate"
+   cx="-105.00001"
+   cy="-2"
+   r="20" /><svg:text
+   id="text2983"
+   y="-8.09375"
+   x="-42.312504"
+   style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:0%;font-family:'DejaVu Sans';-inkscape-font-specification:'DejaVu Sans';text-align:start;writing-mode:lr-tb;text-anchor:start;display:inline;overflow:visible;visibility:visible;opacity:1;fill:#000000;fill-opacity:1;stroke:none;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;marker:none;enable-background:accumulate"
+   xml:space="preserve"><svg:tspan
+     y="-8.09375"
+     x="-42.312504"
+     id="tspan2985"
+     sodipodi:role="line"
+     style="font-size:24px;line-height:1.25">1</svg:tspan></svg:text>
+</svg:g><svg:g
+   style="overflow:visible"
+   id="g2992"
+   transform="matrix(1.012,0,0,1.012,102.71826,127.60849)"><svg:circle
+   transform="translate(70.000004,-15)"
+   id="path2994"
+   style="display:inline;overflow:visible;visibility:visible;opacity:1;fill:none;fill-opacity:1;stroke:#000000;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;marker:none;enable-background:accumulate"
+   cx="-105.00001"
+   cy="-2"
+   r="20" /><svg:text
+   id="text2996"
+   y="-8.09375"
+   x="-42.312504"
+   style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:0%;font-family:'DejaVu Sans';-inkscape-font-specification:'DejaVu Sans';text-align:start;writing-mode:lr-tb;text-anchor:start;display:inline;overflow:visible;visibility:visible;opacity:1;fill:#000000;fill-opacity:1;stroke:none;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;marker:none;enable-background:accumulate"
+   xml:space="preserve"><svg:tspan
+     y="-8.09375"
+     x="-42.312504"
+     id="tspan2998"
+     sodipodi:role="line"
+     style="font-size:24px;line-height:1.25">3</svg:tspan></svg:text>
+</svg:g><svg:g
+   style="overflow:visible"
+   id="g3000"
+   transform="matrix(1.012,0,0,1.012,254.51826,127.60849)"><svg:circle
+   transform="translate(70.000004,-15)"
+   id="path3002"
+   style="display:inline;overflow:visible;visibility:visible;opacity:1;fill:none;fill-opacity:1;stroke:#000000;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;marker:none;enable-background:accumulate"
+   cx="-105.00001"
+   cy="-2"
+   r="20" /><svg:text
+   id="text3004"
+   y="-8.09375"
+   x="-42.244377"
+   style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:0%;font-family:'DejaVu Sans';-inkscape-font-specification:'DejaVu Sans';text-align:start;writing-mode:lr-tb;text-anchor:start;display:inline;overflow:visible;visibility:visible;opacity:1;fill:#000000;fill-opacity:1;stroke:none;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;marker:none;enable-background:accumulate"
+   xml:space="preserve"><svg:tspan
+     y="-8.09375"
+     x="-42.244377"
+     id="tspan3006"
+     sodipodi:role="line"
+     style="font-size:24px;line-height:1.25">2</svg:tspan></svg:text>
+</svg:g><svg:g
+   style="overflow:visible"
+   id="g3008"
+   transform="matrix(1.012,0,0,1.012,52.118253,203.50847)"><svg:circle
+   transform="translate(70.000004,-15)"
+   id="path3010"
+   style="display:inline;overflow:visible;visibility:visible;opacity:1;fill:none;fill-opacity:1;stroke:#000000;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;marker:none;enable-background:accumulate"
+   cx="-105.00001"
+   cy="-2"
+   r="20" /><svg:text
+   id="text3012"
+   y="-8.09375"
+   x="-42.312504"
+   style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:0%;font-family:'DejaVu Sans';-inkscape-font-specification:'DejaVu Sans';text-align:start;writing-mode:lr-tb;text-anchor:start;display:inline;overflow:visible;visibility:visible;opacity:1;fill:#000000;fill-opacity:1;stroke:none;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;marker:none;enable-background:accumulate"
+   xml:space="preserve"><svg:tspan
+     y="-8.09375"
+     x="-42.312504"
+     id="tspan3014"
+     sodipodi:role="line"
+     style="font-size:24px;line-height:1.25">5</svg:tspan></svg:text>
+</svg:g><svg:circle
+   id="path3018"
+   style="display:inline;overflow:visible;visibility:visible;fill:none;fill-opacity:1;stroke:#000000;stroke-width:2.024;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;marker:none;enable-background:accumulate"
+   cx="117.89825"
+   cy="186.30446"
+   r="20.24" /><svg:text
+   id="text3020"
+   y="195.3176"
+   x="110.49801"
+   style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:12.144px;line-height:0%;font-family:'DejaVu Sans';-inkscape-font-specification:'DejaVu Sans';text-align:start;writing-mode:lr-tb;text-anchor:start;display:inline;overflow:visible;visibility:visible;fill:#000000;fill-opacity:1;stroke:none;stroke-width:2.024;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;marker:none;enable-background:accumulate"
+   xml:space="preserve"><svg:tspan
+     y="195.3176"
+     x="110.49801"
+     id="tspan3022"
+     sodipodi:role="line"
+     style="font-size:24.288px;line-height:1.25;stroke-width:2.024">7</svg:tspan></svg:text><svg:circle
+   id="path3026"
+   style="display:inline;overflow:visible;visibility:visible;fill:none;fill-opacity:1;stroke:#000000;stroke-width:2.024;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;marker:none;enable-background:accumulate"
+   cx="269.69827"
+   cy="186.30446"
+   r="20.24" /><svg:text
+   id="text3028"
+   y="195.3176"
+   x="262.53253"
+   style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:12.144px;line-height:0%;font-family:'DejaVu Sans';-inkscape-font-specification:'DejaVu Sans';text-align:start;writing-mode:lr-tb;text-anchor:start;display:inline;overflow:visible;visibility:visible;fill:#000000;fill-opacity:1;stroke:none;stroke-width:2.024;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;marker:none;enable-background:accumulate"
+   xml:space="preserve"><svg:tspan
+     y="195.3176"
+     x="262.53253"
+     id="tspan3030"
+     sodipodi:role="line"
+     style="font-size:24.288px;line-height:1.25;stroke-width:2.024">4</svg:tspan></svg:text><svg:g
+   style="font-variation-settings:normal;overflow:visible;opacity:1;vector-effect:none;fill:#ff0000;fill-opacity:1;stroke:#ff0000;stroke-width:2.024;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;-inkscape-stroke:none;marker:none;stop-color:#000000;stop-opacity:1"
+   id="g3106"
+   inkscape:transform-center-y="25.11329"
+   transform="matrix(0.5977378,-0.8016917,-0.8016917,-0.5977378,154.94196,263.25166)"
+   inkscape:transform-center-x="-33.67226"><svg:path
+     id="path3108"
+     d="m 159.85851,60.695994 -3.04799,14.192 h 6.096 z"
+     style="font-variation-settings:normal;display:inline;overflow:visible;visibility:visible;opacity:1;vector-effect:none;fill:#ff0000;fill-opacity:1;stroke:#ff0000;stroke-width:2.024;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;-inkscape-stroke:none;marker:none;enable-background:accumulate;stop-color:#000000;stop-opacity:1" /><svg:path
+     id="path3110"
+     d="m 159.8465,70.84 v 43.93551"
+     style="font-variation-settings:normal;display:inline;overflow:visible;visibility:visible;opacity:1;vector-effect:none;fill:#ff0000;fill-opacity:1;stroke:#ff0000;stroke-width:2.024;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;-inkscape-stroke:none;marker:none;enable-background:accumulate;stop-color:#000000;stop-opacity:1"
+     sodipodi:nodetypes="cc" /></svg:g><svg:g
+   style="font-variation-settings:normal;overflow:visible;opacity:1;vector-effect:none;fill:#ff0000;fill-opacity:1;stroke:#ff0000;stroke-width:2.024;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;-inkscape-stroke:none;marker:none;stop-color:#000000;stop-opacity:1"
+   id="g3112"
+   inkscape:transform-center-y="35.143132"
+   transform="rotate(-146.77712,110.46794,134.48521)"
+   inkscape:transform-center-x="23.009976"><svg:path
+     id="path3114"
+     d="m 159.85851,60.695994 -3.04799,14.192 h 6.096 z"
+     style="font-variation-settings:normal;display:inline;overflow:visible;visibility:visible;opacity:1;vector-effect:none;fill:#ff0000;fill-opacity:1;stroke:#ff0000;stroke-width:2.024;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;-inkscape-stroke:none;marker:none;enable-background:accumulate;stop-color:#000000;stop-opacity:1" /><svg:path
+     id="path3116"
+     d="m 159.8465,70.84 v 39.91866"
+     style="font-variation-settings:normal;display:inline;overflow:visible;visibility:visible;opacity:1;vector-effect:none;fill:#ff0000;fill-opacity:1;stroke:#ff0000;stroke-width:2.024;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;-inkscape-stroke:none;marker:none;enable-background:accumulate;stop-color:#000000;stop-opacity:1"
+     sodipodi:nodetypes="cc" /></svg:g><svg:g
+   style="font-variation-settings:normal;overflow:visible;opacity:1;vector-effect:none;fill:#ff0000;fill-opacity:1;stroke:#ff0000;stroke-width:2.024;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;-inkscape-stroke:none;marker:none;stop-color:#000000;stop-opacity:1"
+   id="g3118"
+   inkscape:transform-center-y="35.143132"
+   transform="matrix(0.8365457,-0.5478973,-0.5478973,-0.8365457,5.7883915,307.59183)"
+   inkscape:transform-center-x="-23.009976"><svg:path
+     id="path3120"
+     d="m 159.85851,60.695994 -3.04799,14.192 h 6.096 z"
+     style="font-variation-settings:normal;display:inline;overflow:visible;visibility:visible;opacity:1;vector-effect:none;fill:#ff0000;fill-opacity:1;stroke:#ff0000;stroke-width:2.024;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;-inkscape-stroke:none;marker:none;enable-background:accumulate;stop-color:#000000;stop-opacity:1" /><svg:path
+     id="path3122"
+     d="m 159.8465,70.84 v 39.91866"
+     style="font-variation-settings:normal;display:inline;overflow:visible;visibility:visible;opacity:1;vector-effect:none;fill:#ff0000;fill-opacity:1;stroke:#ff0000;stroke-width:2.024;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;-inkscape-stroke:none;marker:none;enable-background:accumulate;stop-color:#000000;stop-opacity:1"
+     sodipodi:nodetypes="cc" /></svg:g><svg:g
+   style="font-variation-settings:normal;overflow:visible;opacity:1;vector-effect:none;fill:#ff0000;fill-opacity:1;stroke:#ff0000;stroke-width:2.024;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;-inkscape-stroke:none;marker:none;stop-color:#000000;stop-opacity:1"
+   id="g3124"
+   inkscape:transform-center-y="35.143132"
+   transform="matrix(0.8365457,-0.5478973,-0.5478973,-0.8365457,158.0944,307.33883)"
+   inkscape:transform-center-x="-23.009976"><svg:path
+     id="path3126"
+     d="m 159.85851,60.695994 -3.04799,14.192 h 6.096 z"
+     style="font-variation-settings:normal;display:inline;overflow:visible;visibility:visible;opacity:1;vector-effect:none;fill:#ff0000;fill-opacity:1;stroke:#ff0000;stroke-width:2.024;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;-inkscape-stroke:none;marker:none;enable-background:accumulate;stop-color:#000000;stop-opacity:1" /><svg:path
+     id="path3128"
+     d="m 159.8465,70.84 v 39.91866"
+     style="font-variation-settings:normal;display:inline;overflow:visible;visibility:visible;opacity:1;vector-effect:none;fill:#ff0000;fill-opacity:1;stroke:#ff0000;stroke-width:2.024;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;-inkscape-stroke:none;marker:none;enable-background:accumulate;stop-color:#000000;stop-opacity:1"
+     sodipodi:nodetypes="cc" /></svg:g><svg:g
+   style="overflow:visible"
+   id="g3008-3"
+   transform="matrix(1.012,0,0,1.012,203.62325,203.05069)"><svg:circle
+   transform="translate(70.000004,-15)"
+   id="path3010-6"
+   style="display:inline;overflow:visible;visibility:visible;opacity:1;fill:none;fill-opacity:1;stroke:#000000;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;marker:none;enable-background:accumulate"
+   cx="-105.00001"
+   cy="-2"
+   r="20" /><svg:text
+   id="text3012-0"
+   y="-8.09375"
+   x="-42.312504"
+   style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:0%;font-family:'DejaVu Sans';-inkscape-font-specification:'DejaVu Sans';text-align:start;writing-mode:lr-tb;text-anchor:start;display:inline;overflow:visible;visibility:visible;opacity:1;fill:#000000;fill-opacity:1;stroke:none;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;marker:none;enable-background:accumulate"
+   xml:space="preserve"><svg:tspan
+     y="-8.09375"
+     x="-42.312504"
+     id="tspan3014-6"
+     sodipodi:role="line"
+     style="font-size:24px;line-height:1.25">6</svg:tspan></svg:text>
+</svg:g><svg:g
+   style="font-variation-settings:normal;overflow:visible;opacity:1;vector-effect:none;fill:#ff0000;fill-opacity:1;stroke:#ff0000;stroke-width:2.024;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;-inkscape-stroke:none;marker:none;stop-color:#000000;stop-opacity:1"
+   id="g3112-2"
+   inkscape:transform-center-y="35.143132"
+   transform="rotate(-146.77712,186.15215,111.65704)"
+   inkscape:transform-center-x="23.009976"><svg:path
+     id="path3114-6"
+     d="m 159.85851,60.695994 -3.04799,14.192 h 6.096 z"
+     style="font-variation-settings:normal;display:inline;overflow:visible;visibility:visible;opacity:1;vector-effect:none;fill:#ff0000;fill-opacity:1;stroke:#ff0000;stroke-width:2.024;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;-inkscape-stroke:none;marker:none;enable-background:accumulate;stop-color:#000000;stop-opacity:1" /><svg:path
+     id="path3116-1"
+     d="m 159.8465,70.84 v 39.91866"
+     style="font-variation-settings:normal;display:inline;overflow:visible;visibility:visible;opacity:1;vector-effect:none;fill:#ff0000;fill-opacity:1;stroke:#ff0000;stroke-width:2.024;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;-inkscape-stroke:none;marker:none;enable-background:accumulate;stop-color:#000000;stop-opacity:1"
+     sodipodi:nodetypes="cc" /></svg:g><svg:text
+   xml:space="preserve"
+   style="font-weight:bold;font-size:38.4561px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Bold';font-variant-position:sub;overflow:visible;fill:#ff0000;fill-opacity:1;stroke:#ff0000;stroke-width:1.518;stroke-linejoin:bevel;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;stop-color:#000000"
+   x="55.323807"
+   y="72.512054"
+   id="text16087-0"><svg:tspan
+     sodipodi:role="line"
+     id="tspan16085-6"
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:18.216px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-position:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#ff0000;fill-opacity:1;stroke:#ff0000;stroke-width:1.518;stroke-dasharray:none;stroke-opacity:1"
+     x="55.323807"
+     y="72.512054">larger</svg:tspan></svg:text><svg:text
+   xml:space="preserve"
+   style="font-weight:bold;font-size:38.4561px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Bold';font-variant-position:sub;overflow:visible;fill:#ff0000;fill-opacity:1;stroke:#ff0000;stroke-width:1.518;stroke-linejoin:bevel;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;stop-color:#000000"
+   x="180.96661"
+   y="74.244408"
+   id="text16087-0-8"><svg:tspan
+     sodipodi:role="line"
+     id="tspan16085-6-9"
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:18.216px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-position:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#ff0000;fill-opacity:1;stroke:#ff0000;stroke-width:1.518;stroke-dasharray:none;stroke-opacity:1"
+     x="180.96661"
+     y="74.244408">larger</svg:tspan></svg:text><svg:text
+   xml:space="preserve"
+   style="font-weight:bold;font-size:38.4561px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Bold';font-variant-position:sub;overflow:visible;fill:#ff0000;fill-opacity:1;stroke:#ff0000;stroke-width:1.518;stroke-linejoin:bevel;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;stop-color:#000000"
+   x="150.22585"
+   y="143.79807"
+   id="text16087-0-7"
+   inkscape:transform-center-x="-3.1978332"
+   inkscape:transform-center-y="-3.6955407"><svg:tspan
+     sodipodi:role="line"
+     id="tspan16085-6-7"
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:15.18px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-position:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#ff0000;fill-opacity:1;stroke:#ff0000;stroke-width:1.518;stroke-dasharray:none;stroke-opacity:1"
+     x="150.22585"
+     y="143.79807">larger</svg:tspan></svg:text><svg:text
+   xml:space="preserve"
+   style="font-weight:bold;font-size:38.4561px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Bold';font-variant-position:sub;overflow:visible;fill:#ff0000;fill-opacity:1;stroke:#ff0000;stroke-width:1.518;stroke-linejoin:bevel;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;stop-color:#000000"
+   x="245.88777"
+   y="144.6257"
+   id="text16087-0-7-3"
+   inkscape:transform-center-x="-3.1978332"
+   inkscape:transform-center-y="-3.6955407"><svg:tspan
+     sodipodi:role="line"
+     id="tspan16085-6-7-0"
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:15.18px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-position:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#ff0000;fill-opacity:1;stroke:#ff0000;stroke-width:1.518;stroke-dasharray:none;stroke-opacity:1"
+     x="245.88777"
+     y="144.6257">larger</svg:tspan></svg:text><svg:g
+   id="g3096"
+   inkscape:transform-center-y="25.11329"
+   transform="rotate(-126.70805,131.27516,98.895741)"
+   inkscape:transform-center-x="33.67226"
+   style="fill:#ff0000;fill-opacity:1;stroke:#ff0000;stroke-width:2.024;stroke-dasharray:none;stroke-opacity:1"><svg:path
+     id="path3092"
+     d="m 159.85851,60.695994 -3.04799,14.192 h 6.096 z"
+     style="display:inline;overflow:visible;visibility:visible;opacity:1;fill:#ff0000;fill-opacity:1;stroke:#ff0000;stroke-width:2.024;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;marker:none;enable-background:accumulate" /><svg:path
+     id="path3094"
+     d="m 159.8465,70.84 v 43.93551"
+     style="display:inline;overflow:visible;visibility:visible;opacity:1;fill:#ff0000;fill-opacity:1;stroke:#ff0000;stroke-width:2.024;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;marker:none;enable-background:accumulate"
+     sodipodi:nodetypes="cc" /></svg:g><svg:text
+   xml:space="preserve"
+   style="font-weight:bold;font-size:38.4561px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Bold';font-variant-position:sub;overflow:visible;fill:#f3d7d7;fill-opacity:1;stroke:#ff0000;stroke-width:1.518;stroke-linejoin:bevel;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;stop-color:#000000"
+   x="93.924995"
+   y="142.7863"
+   id="text16087-0-7-30"
+   inkscape:transform-center-x="-3.1978332"
+   inkscape:transform-center-y="-3.6955407"><svg:tspan
+     sodipodi:role="line"
+     id="tspan16085-6-7-9"
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:15.18px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-position:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#f3d7d7;fill-opacity:1;stroke:#ff0000;stroke-width:1.518;stroke-dasharray:none;stroke-opacity:1"
+     x="93.924995"
+     y="142.7863">larger</svg:tspan></svg:text><svg:text
+   xml:space="preserve"
+   style="font-weight:bold;font-size:38.4561px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Bold';font-variant-position:sub;overflow:visible;fill:#ff0000;fill-opacity:1;stroke:#ff0000;stroke-width:1.518;stroke-linejoin:bevel;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;stop-color:#000000"
+   x="-3.2942502"
+   y="143.97987"
+   id="text16087-0-7-2"
+   inkscape:transform-center-x="-3.1978332"
+   inkscape:transform-center-y="-3.6955407"><svg:tspan
+     sodipodi:role="line"
+     id="tspan16085-6-7-5"
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:15.18px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-position:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#ff0000;fill-opacity:1;stroke:#ff0000;stroke-width:1.518;stroke-dasharray:none;stroke-opacity:1"
+     x="-3.2942502"
+     y="143.97987">larger</svg:tspan></svg:text></svg:svg>
