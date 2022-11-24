@@ -505,13 +505,13 @@
 },
 {
   "ip": "65.218.91.9",
-  "domain": "welcometonyc.net",
+  "host": "welcometonyc.net",
   "archive": "https://web.archive.org/web/20101230071028/http://welcometonyc.net/",
   "comms": "https://web.archive.org/web/20110226074139/http://www.welcometonyc.net/login.html"
 },
 {
   "ip": "65.218.91.17",
-  "domain": "alljohnny.com",
+  "host": "alljohnny.com",
   "archive": "https://web.archive.org/web/20040113025122/http://alljohnny.com/",
   "comms": "https://secure.alljohnny.com/cgi-bin/memlog.cgi"
 },
@@ -556,7 +556,7 @@
 },
 {
   "ip": "66.45.179.202",
-  "domain": "newimages.org",
+  "host": "newimages.org",
   "archive": "https://web.archive.org/web/20110921014639/http://www.newimages.org/",
   "comms": "https://web.archive.org/web/20110921014639oe_/http://www.newimages.org/bmeter.jar"
 },
@@ -715,7 +715,7 @@
 },
 {
   "ip": "66.104.173.164",
-  "domain": "shoppingadventure.net",
+  "host": "shoppingadventure.net",
   "archive": "https://web.archive.org/web/20101230020837/http://shoppingadventure.net/",
   "comms": "https://web.archive.org/web/20101230020837oe_/http://shoppingadventure.net/shopping.jar"
 },
@@ -1127,25 +1127,25 @@
 },
 {
   "ip": "72.34.53.174",
-  "domain": "just-the-news.com",
+  "host": "just-the-news.com",
   "archive": "https://web.archive.org/web/20110207141715/http://just-the-news.com/",
   "comms": "https://web.archive.org/web/20110207141715oe_/http://just-the-news.com/trade.jar"
 },
 {
   "ip": "72.34.53.174",
-  "domain": "kickitnews.com",
+  "host": "kickitnews.com",
   "archive": "https://web.archive.org/web/20100512232528/http://kickitnews.com/",
   "comms": "https://web.archive.org/web/20100512232633/http://kickitnews.com/team.jar"
 },
 {
   "ip": "72.34.53.174",
-  "domain": "moyistochnikonlaynovykhigr.com",
+  "host": "moyistochnikonlaynovykhigr.com",
   "archive": "https://web.archive.org/web/20110203002455/http://moyistochnikonlaynovykhigr.com/",
   "comms": "|"
 },
 {
   "ip": "72.34.53.174",
-  "domain": "myhealthlibrary.net",
+  "host": "myhealthlibrary.net",
   "archive": "https://web.archive.org/web/20111015023508/http://www.myhealthlibrary.net/",
   "comms": "https://web.archive.org/web/20111015023541/http://www.myhealthlibrary.net/dose.jar"
 },
@@ -1169,7 +1169,7 @@
 },
 {
   "ip": "72.34.53.174",
-  "domain": "sayaara-auto.com",
+  "host": "sayaara-auto.com",
   "archive": "https://web.archive.org/web/20100802040339/http://www.sayaara-auto.com/",
   "comms": "https://web.archive.org/web/20110128163016/http://sayaara-auto.com/ferrari.jar"
 },
@@ -2062,7 +2062,7 @@
 },
 {
   "ip": "216.105.98.156",
-  "domain": "familyhealthonline.net",
+  "host": "familyhealthonline.net",
   "archive": "https://web.archive.org/web/20110106035241/http://familyhealthonline.net/",
   "comms": "https://web.archive.org/web/20130729093000/https://secure.familyhealthonline.net/cgi-bin/health.cgi"
 },
