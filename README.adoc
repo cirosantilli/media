@@ -103,13 +103,18 @@ as explained at: https://stackoverflow.com/questions/24961127/how-to-create-a-vi
 ** link:test.pdf[]: generated with
 +
 ....
-libreoffice --convert-to pdf test.pdf
+libreoffice --convert-to pdf test.odt
 ....
 *** link:odt-libreoffice-7.5.5.2.pdf[]: same as above but with a fixed version of libreoffice 7.5.5.2
 ** link:test.docx[]: generated with
 +
 ....
 libreoffice --convert-to docx test.odt
+....
+** link:test.epub[]: generated with
++
+....
+libreoffice --convert-to epub test.odt
 ....
 * https://cirosantilli.com/oxford-nanopore-river-bacteria
 ** link:Qiagen_DNeasy_PowerWater_Kit_White_Precipitate.jpg[]
