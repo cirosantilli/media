@@ -1,108 +1,18 @@
 [
 {
+  "host": "24hoursprimenews.com",
+  "archive": "https://web.archive.org/web/20090628052814/http://www.24hoursprimenews.com/",
+  "comms": "https://web.archive.org/web/20110128180323/http://24hoursprimenews.com/stories.jar"
+},
+{
   "host": "all-sport-headlines.com",
   "archive": "https://web.archive.org/web/20110207144440/http://all-sport-headlines.com/",
   "comms": "https://web.archive.org/web/20110207144821/http://all-sport-headlines.com/birdie.jar"
 },
 {
-  "host": "global-view-news.com",
-  "archive": "https://web.archive.org/web/20110201100028/http://global-view-news.com/",
-  "comms": "https://web.archive.org/web/20110201100059/http://global-view-news.com/ticker.jar"
-},
-{
-  "host": "firstnewssource.com",
-  "archive": "https://web.archive.org/web/20110203072201/http://firstnewssource.com/",
-  "comms": "http://web.archive.org/web/20110203072529/http://firstnewssource.com/btools.jar"
-},
-{
-  "host": "health-men-today.com",
-  "archive": "https://web.archive.org/web/20110207232317/http://health-men-today.com/",
-  "comms": "https://web.archive.org/web/20110207232346/http://health-men-today.com/cardio.jar"
-},
-{
-  "host": "theworldnewsfeeds.com",
-  "archive": "https://web.archive.org/web/20110209183352/http://theworldnewsfeeds.com/",
-  "comms": "https://web.archive.org/web/20110209183426/http://theworldnewsfeeds.com/feeds.jar"
-},
-{
-  "host": "pars-technews.com",
-  "archive": "https://web.archive.org/web/20110204140004/http://pars-technews.com/",
-  "comms": "https://web.archive.org/web/20110204140004oe_/http://pars-technews.com/cellphones.jar"
-},
-{
-  "host": "newdaynewsonline.com",
-  "archive": "https://web.archive.org/web/20110208031757/http://newdaynewsonline.com/",
-  "comms": "https://web.archive.org/web/20110208031828/http://newdaynewsonline.com/latesttools.jar"
-},
-{
-  "host": "sportsnewsfinder.com",
-  "archive": "https://web.archive.org/web/20110210133439/http://sportsnewsfinder.com/",
-  "comms": "体育新闻发现者 (sports news finder)"
-},
-{
-  "host": "newsworldsite.com",
-  "archive": "https://web.archive.org/web/20110208071937/http://newsworldsite.com/",
-  "comms": "https://web.archive.org/web/20110208071946/http://newsworldsite.com/steps.jar"
-},
-{
-  "host": "todaysnewsreports.net",
-  "archive": "https://web.archive.org/web/20100930172518/http://www.todaysnewsreports.net/",
-  "comms": "https://web.archive.org/web/20101230050102/http://todaysnewsreports.net/communicate.jar"
-},
-{
-  "host": "hassannews.net",
-  "archive": "https://web.archive.org/web/20101230175152/http://www.hassannews.net/",
-  "comms": "https://web.archive.org/web/20101230175424/http://www.hassannews.net/hassannews.swf"
-},
-{
-  "host": "weblognewsinfo.com",
-  "archive": "https://web.archive.org/web/20110207145305/http://weblognewsinfo.com/",
-  "comms": "https://web.archive.org/web/20110207145431/http://weblognewsinfo.com/global.jar"
-},
-{
-  "host": "newsincirculation.com",
-  "archive": "https://web.archive.org/web/20110208064836/http://newsincirculation.com/",
-  "comms": "https://web.archive.org/web/20110208064944/http://newsincirculation.com/affairs.jar"
-},
-{
-  "host": "todayoutdoors.com",
-  "archive": "https://web.archive.org/web/20110228050804/http://todayoutdoors.com/",
-  "comms": "https://web.archive.org/web/20110228050838/http://todayoutdoors.com/fires.jar"
-},
-{
-  "host": "globaltourist.net",
-  "archive": "https://web.archive.org/web/20101024140137/http://globaltourist.net/",
-  "comms": "https://web.archive.org/web/20101229090929/http://globaltourist.net/speed.jar"
-},
-{
-  "host": "terrain-news.com",
-  "archive": "https://web.archive.org/web/20110202060336/http://terrain-news.com/",
-  "comms": "https://web.archive.org/web/20110202060511/http://terrain-news.com/internetspeed.jar"
-},
-{
-  "host": "intlnewsdaily.com",
-  "archive": "https://web.archive.org/web/20110202053416/http://intlnewsdaily.com/",
-  "comms": "https://web.archive.org/web/20110202053458/http://intlnewsdaily.com/region.jar"
-},
-{
-  "host": "opensourcenewstoday.com",
-  "archive": "https://web.archive.org/web/20100930152116/http://www.opensourcenewstoday.com/",
-  "comms": "https://web.archive.org/web/20110202050322/http://opensourcenewstoday.com/breaking.jar"
-},
-{
-  "host": "techwatchtoday.com",
-  "archive": "https://web.archive.org/web/20110127113203/http://techwatchtoday.com/",
-  "comms": "https://web.archive.org/web/20110201220252/http://techwatchtoday.com/Meter.jar"
-},
-{
   "host": "cyhiraeth-intlnews.com",
   "archive": "https://web.archive.org/web/20110129052403/http://www.cyhiraeth-intlnews.com/",
   "comms": "https://web.archive.org/web/20110129052501/http://www.cyhiraeth-intlnews.com/cyber.jar"
-},
-{
-  "host": "24hoursprimenews.com",
-  "archive": "https://web.archive.org/web/20090628052814/http://www.24hoursprimenews.com/",
-  "comms": "https://web.archive.org/web/20110128180323/http://24hoursprimenews.com/stories.jar"
 },
 {
   "host": "dailynewsandsports.com",
@@ -118,6 +28,36 @@
   "host": "farsi-newsandweather.com",
   "archive": "https://web.archive.org/web/20110202122304/http://farsi-newsandweather.com/",
   "comms": "https://web.archive.org/web/20110202122354/http://farsi-newsandweather.com/steps.jar"
+},
+{
+  "host": "firstnewssource.com",
+  "archive": "https://web.archive.org/web/20110203072201/http://firstnewssource.com/",
+  "comms": "http://web.archive.org/web/20110203072529/http://firstnewssource.com/btools.jar"
+},
+{
+  "host": "global-view-news.com",
+  "archive": "https://web.archive.org/web/20110201100028/http://global-view-news.com/",
+  "comms": "https://web.archive.org/web/20110201100059/http://global-view-news.com/ticker.jar"
+},
+{
+  "host": "globaltourist.net",
+  "archive": "https://web.archive.org/web/20101024140137/http://globaltourist.net/",
+  "comms": "https://web.archive.org/web/20101229090929/http://globaltourist.net/speed.jar"
+},
+{
+  "host": "hassannews.net",
+  "archive": "https://web.archive.org/web/20101230175152/http://www.hassannews.net/",
+  "comms": "https://web.archive.org/web/20101230175424/http://www.hassannews.net/hassannews.swf"
+},
+{
+  "host": "health-men-today.com",
+  "archive": "https://web.archive.org/web/20110207232317/http://health-men-today.com/",
+  "comms": "https://web.archive.org/web/20110207232346/http://health-men-today.com/cardio.jar"
+},
+{
+  "host": "intlnewsdaily.com",
+  "archive": "https://web.archive.org/web/20110202053416/http://intlnewsdaily.com/",
+  "comms": "https://web.archive.org/web/20110202053458/http://intlnewsdaily.com/region.jar"
 },
 {
   "host": "iranfootballsource.com",
@@ -140,9 +80,29 @@
   "comms": "https://web.archive.org/web/20110210130707/http://mywebofnews.com/tools.jar"
 },
 {
+  "host": "newdaynewsonline.com",
+  "archive": "https://web.archive.org/web/20110208031757/http://newdaynewsonline.com/",
+  "comms": "https://web.archive.org/web/20110208031828/http://newdaynewsonline.com/latesttools.jar"
+},
+{
   "host": "news-latina.com",
   "archive": "https://web.archive.org/web/20110208065123/http://news-latina.com/",
   "comms": "https://web.archive.org/web/20110208065133/http://news-latina.com/news.jar"
+},
+{
+  "host": "newsincirculation.com",
+  "archive": "https://web.archive.org/web/20110208064836/http://newsincirculation.com/",
+  "comms": "https://web.archive.org/web/20110208064944/http://newsincirculation.com/affairs.jar"
+},
+{
+  "host": "newsworldsite.com",
+  "archive": "https://web.archive.org/web/20110208071937/http://newsworldsite.com/",
+  "comms": "https://web.archive.org/web/20110208071946/http://newsworldsite.com/steps.jar"
+},
+{
+  "host": "opensourcenewstoday.com",
+  "archive": "https://web.archive.org/web/20100930152116/http://www.opensourcenewstoday.com/",
+  "comms": "https://web.archive.org/web/20110202050322/http://opensourcenewstoday.com/breaking.jar"
 },
 {
   "host": "outlooknewscast.com",
@@ -150,14 +110,54 @@
   "comms": "https://web.archive.org/web/20110202115733/http://outlooknewscast.com/members.jar"
 },
 {
+  "host": "pars-technews.com",
+  "archive": "https://web.archive.org/web/20110204140004/http://pars-technews.com/",
+  "comms": "https://web.archive.org/web/20110204140004oe_/http://pars-technews.com/cellphones.jar"
+},
+{
   "host": "rastadirect.net",
   "archive": "https://web.archive.org/web/20100429002010/http://rastadirect.net/",
   "comms": "https://web.archive.org/web/20110106225504/http://rastadirect.net/africa.jar"
 },
 {
+  "host": "sportsnewsfinder.com",
+  "archive": "https://web.archive.org/web/20110210133439/http://sportsnewsfinder.com/",
+  "comms": "体育新闻发现者 (sports news finder)"
+},
+{
+  "host": "techwatchtoday.com",
+  "archive": "https://web.archive.org/web/20110127113203/http://techwatchtoday.com/",
+  "comms": "https://web.archive.org/web/20110201220252/http://techwatchtoday.com/Meter.jar"
+},
+{
+  "host": "terrain-news.com",
+  "archive": "https://web.archive.org/web/20110202060336/http://terrain-news.com/",
+  "comms": "https://web.archive.org/web/20110202060511/http://terrain-news.com/internetspeed.jar"
+},
+{
+  "host": "theworldnewsfeeds.com",
+  "archive": "https://web.archive.org/web/20110209183352/http://theworldnewsfeeds.com/",
+  "comms": "https://web.archive.org/web/20110209183426/http://theworldnewsfeeds.com/feeds.jar"
+},
+{
+  "host": "todayoutdoors.com",
+  "archive": "https://web.archive.org/web/20110228050804/http://todayoutdoors.com/",
+  "comms": "https://web.archive.org/web/20110228050838/http://todayoutdoors.com/fires.jar"
+},
+{
   "host": "todaysengineering.com",
   "archive": "https://web.archive.org/web/20110228051404/http://todaysengineering.com/",
   "comms": "https://web.archive.org/web/20110228051404/https://secure.todaysengineering.com/cgi-bin/engineer.cgi"
+},
+{
+  "host": "todaysnewsreports.net",
+  "archive": "https://web.archive.org/web/20100930172518/http://www.todaysnewsreports.net/",
+  "comms": "https://web.archive.org/web/20101230050102/http://todaysnewsreports.net/communicate.jar"
+},
+{
+  "host": "weblognewsinfo.com",
+  "archive": "https://web.archive.org/web/20110207145305/http://weblognewsinfo.com/",
+  "comms": "https://web.archive.org/web/20110207145431/http://weblognewsinfo.com/global.jar"
 },
 {
   "ip": "62.22.60.42",
@@ -177,8 +177,16 @@
   "host": "currentcommunique.com",
   "archive": "https://web.archive.org/web/20110130162455/http://currentcommunique.com/",
   "comms": "https://web.archive.org/web/20110130162717/http://currentcommunique.com/outdoor-activities-guide.swf",
-  "ns": ["ns35.worldnic.com", "ns36.worldnic.com"],
-  "soa": { "serial": 109011611, "refresh": 10800, "retry": 3600, "expire": 3600 },
+  "ns": [
+    "ns35.worldnic.com",
+    "ns36.worldnic.com"
+  ],
+  "soa": {
+    "serial": 109011611,
+    "refresh": 10800,
+    "retry": 3600,
+    "expire": 3600
+  },
   "hupo.com": "http://static.hupo.com/expdomain_myadmin/2011-12-03（国际域名）%20.txt"
 },
 {
@@ -187,8 +195,16 @@
   "archive": "https://web.archive.org/web/20110202010914/http://telecom-headlines.com/",
   "comms": "https://web.archive.org/web/20110202011432/http://telecom-headlines.com/situation.js",
   "commsSize": 7666,
-  "ns": ["ns93.worldnic.com", "ns94.worldnic.com"],
-  "soa": { "serial": 108052717, "refresh": 10800, "retry": 3600, "expire": 3600 },
+  "ns": [
+    "ns93.worldnic.com",
+    "ns94.worldnic.com"
+  ],
+  "soa": {
+    "serial": 108052717,
+    "refresh": 10800,
+    "retry": 3600,
+    "expire": 3600
+  },
   "hupo.com": "http://static.hupo.com/expdomain_myadmin/2014-07-14（国际域名）.txt"
 },
 {
@@ -197,9 +213,20 @@
   "archive": "https://web.archive.org/web/20110208064948/http://collectedmedias.com/",
   "comms": "https://web.archive.org/web/20110208065035/http://collectedmedias.com/livestory.js",
   "commsSize": 7675,
-  "mx": { "0": "secureserver.net", "10": "mailstore1.secureserver.net" },
-  "ns": [ "ns14.domaincontrol.com", "ns14.domaincontrol.com" ],
-  "soa": { "serial": 2008050700, "refresh": 28800, "retry": 7200, "expire": 86400 }
+  "mx": {
+    "0": "secureserver.net",
+    "10": "mailstore1.secureserver.net"
+  },
+  "ns": [
+    "ns14.domaincontrol.com",
+    "ns14.domaincontrol.com"
+  ],
+  "soa": {
+    "serial": 2008050700,
+    "refresh": 28800,
+    "retry": 7200,
+    "expire": 86400
+  }
 },
 {
   "ip": "62.22.60.55",
@@ -207,8 +234,16 @@
   "archive": "https://web.archive.org/web/20110202144854/http://thefilmcentre.com/",
   "comms": "https://web.archive.org/web/20110202144926/http://thefilmcentre.com/modernfilm.js",
   "commsSize": 7754,
-  "ns": ["ns11.worldnic.com", "ns12.worldnic.com"],
-  "soa": { "serial": 108052810, "refresh": 10800, "retry": 3600, "expire": 3600 }
+  "ns": [
+    "ns11.worldnic.com",
+    "ns12.worldnic.com"
+  ],
+  "soa": {
+    "serial": 108052810,
+    "refresh": 10800,
+    "retry": 3600,
+    "expire": 3600
+  }
 },
 {
   "ip": "62.22.60.56",
@@ -238,11 +273,24 @@
     "crtShId": "35048341",
     "sha256": "9816445942DE7CE5C5FF83A2E6F0B5E80714E6545CEF0B67688AC13C80C980B3",
     "serial": "14819478",
-    "issuer": { "serialNumber": 07969287 }
+    "issuer": {
+      "serialNumber": 7969287
+    }
   },
-  "mx": { "0": "secureserver.net", "10": "mailstore1.secureserver.net" },
-  "ns": ["ns61.domaincontrol.com", "ns62.domaincontrol.com"],
-  "soa": { "serial": 2008122300, "refresh": 28800, "retry": 7200, "expire": 86400 },
+  "mx": {
+    "0": "secureserver.net",
+    "10": "mailstore1.secureserver.net"
+  },
+  "ns": [
+    "ns61.domaincontrol.com",
+    "ns62.domaincontrol.com"
+  ],
+  "soa": {
+    "serial": 2008122300,
+    "refresh": 28800,
+    "retry": 7200,
+    "expire": 86400
+  },
   "justdropped.com": "https://www.justdropped.com/drops/100211com.html",
   "hupo.com": "http://static.hupo.com/expdomain_myadmin/2011-10-02（国际域名）%20.txt"
 },
@@ -251,8 +299,16 @@
   "host": "bailsnboots.com",
   "archive": "https://web.archive.org/web/20110201234149/http://bailsnboots.com/",
   "comms": "https://web.archive.org/web/20110201234514/http://bailsnboots.com/bailsnboots.swf",
-  "ns": ["ns51.worldnic.com", "ns52.worldnic.com"],
-  "soa": { "serial": 109020414, "refresh": 10800, "retry": 3600, "expire": 3600 }
+  "ns": [
+    "ns51.worldnic.com",
+    "ns52.worldnic.com"
+  ],
+  "soa": {
+    "serial": 109020414,
+    "refresh": 10800,
+    "retry": 3600,
+    "expire": 3600
+  }
 },
 {
   "ip": "62.22.61.203",
@@ -1380,16 +1436,16 @@
   "comms": "https://web.archive.org/web/20110202083428/http://rakotafootball.com/ball.jar"
 },
 {
-  "ip": "204.176.38.143",
-  "host": "noticiassofisticadas.com",
-  "archive": "https://web.archive.org/web/20110128170459/http://noticiassofisticadas.com/",
-  "comms": "https://web.archive.org/web/20110128170459/https://secure.noticiassofisticadas.com/cgi-bin/login.cgi"
-},
-{
   "ip": "204.176.38.142",
   "host": "senderosdemontana.com",
   "archive": "https://web.archive.org/web/20110201100157/http://senderosdemontana.com/",
   "comms": "https://web.archive.org/web/20110201100157js_/http://senderosdemontana.com/biking.js"
+},
+{
+  "ip": "204.176.38.143",
+  "host": "noticiassofisticadas.com",
+  "archive": "https://web.archive.org/web/20110128170459/http://noticiassofisticadas.com/",
+  "comms": "https://web.archive.org/web/20110128170459/https://secure.noticiassofisticadas.com/cgi-bin/login.cgi"
 },
 {
   "ip": "204.176.38.144",
